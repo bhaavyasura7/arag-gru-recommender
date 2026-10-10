@@ -5,6 +5,7 @@ trained PyTorch **GRU sequential user model** fused into the final LLM ranking, 
 React web demo with personalised feed, search, feedback, and persistent memory.
 
 Full specification: [`SPEC.md`](SPEC.md).
+**Project report (research write-up, methodology, results, threats to validity): [`docs/REPORT.md`](docs/REPORT.md).**
 Detailed end-to-end process & training documentation with real run numbers: [`docs/PROCESS.md`](docs/PROCESS.md).
 
 ## Overview
