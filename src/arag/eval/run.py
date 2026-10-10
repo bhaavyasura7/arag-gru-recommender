@@ -388,7 +388,17 @@ def main() -> None:
         save_predictions(cfg, sys, "test", systems[sys], test_targets, csv_users)
 
     # ---- metrics + bootstrap ----
-    metrics = compute_all_metrics(systems, test_targets, cfg)
+    # Main table: every system on the same 100 sampled test users.
+    sampled = set(test_users)
+    systems_sampled = {sys: {u: r for u, r in rk.items() if u in sampled} for sys, rk in systems.items()}
+    metrics = compute_all_metrics(systems_sampled, test_targets, cfg)
+    # Secondary table: non-LLM systems on all test users.
+    non_llm = ["random", "popularity"] + [f"gru_seed{s}" for s in cfg.get("gru.seeds", [0, 1, 2])]
+    metrics_all_users = {
+        sys: v for sys, v in compute_all_metrics(
+            {sys: systems[sys] for sys in non_llm}, test_targets, cfg
+        ).items() if "_vs_" not in sys
+    }
 
     # alpha curve on test
     alpha_curve_test = {}
@@ -405,6 +415,9 @@ def main() -> None:
         "alpha_curve_validation": {str(k): v for k, v in alpha_curve_val.items()},
         "alpha_curve_test": {str(k): v for k, v in alpha_curve_test.items()},
         "metrics": metrics,
+        "metrics_all_users": metrics_all_users,
+        "n_test_users_sampled": len(test_users),
+        "n_test_users_all": len(all_test_users),
         "cost": cost_summary(client),
         "elapsed_s": elapsed,
     }

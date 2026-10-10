@@ -55,3 +55,29 @@ def test_lists_different_seed_differs():
     a = _build_lists(seq, items, "test", seed=42)
     b = _build_lists(seq, items, "test", seed=43)
     assert a["candidates"].tolist() != b["candidates"].tolist()
+
+
+def test_lists_negatives_only_from_items_with_train_interactions():
+    items = make_items(100)
+    seq = make_seq(["u1", "u2"])
+    # only i0..i39 were ever interacted with in train
+    popularity = {f"i{k}": k + 1 for k in range(40)}
+    df = _build_lists(seq, items, "test", seed=42, popularity=popularity, strategy="uniform")
+    for _, row in df.iterrows():
+        negatives = [c for c in row["candidates"] if c != row["target"]]
+        assert len(negatives) == 19
+        assert all(c in popularity for c in negatives)
+
+
+def test_lists_popularity_sampling_follows_train_counts():
+    items = make_items(100)
+    seq = make_seq([f"u{k}" for k in range(200)])
+    # i0 is 50x more popular than every other item
+    popularity = {f"i{k}": (500 if k == 0 else 10) for k in range(60)}
+    df = _build_lists(seq, items, "test", seed=42, popularity=popularity, strategy="popularity")
+    share_i0 = sum("i0" in c for c in df["candidates"]) / len(df)
+    share_i1 = sum("i1" in c for c in df["candidates"]) / len(df)
+    assert share_i0 > 0.9
+    assert share_i1 < 0.5
+    a = _build_lists(seq, items, "test", seed=42, popularity=popularity)
+    assert a["candidates"].tolist() == df["candidates"].tolist()

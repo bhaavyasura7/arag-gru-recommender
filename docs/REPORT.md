@@ -2,6 +2,14 @@
 ## Extending an Agentic LLM Recommender with a Trained GRU Sequential Model — Full Project Report
 
 **Course deliverable — reproducibility-first report**
+
+> **Outdated — do not cite these numbers.** This report describes a run whose candidate
+> lists drew negatives from all 137k catalogue items. About 14 of the 19 negatives per list
+> had no train interactions, so Popularity and the GRU only had to pick the target out of
+> ~6 known items (Popularity Hit@5 = 0.97), and the "H1 supported" result is an artefact of
+> that. Negatives are now sampled from items with train interactions, proportional to
+> popularity (`sampling.negative_sampling` in `configs/config.yaml`). Re-run
+> `make lists gru eval report` and rewrite this report from the new `results/`.
 Companion documents: `SPEC.md` (specification & recorded deviations), `docs/PROCESS.md` (step-by-step engineering log with every real number), `results/report.md` (auto-generated results summary).
 
 ---

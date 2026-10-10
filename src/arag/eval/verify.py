@@ -33,22 +33,27 @@ def main() -> int:
     pred_dir = cfg.path("predictions")
     metrics = util.read_json(results_dir / "metrics.json")
     errors: list[str] = []
+    sampled = set(util.read_json(cfg.path("lists") / "users.json")["test"])
 
-    for sys_name, summary in metrics["metrics"].items():
-        if "_vs_" in sys_name:
-            continue
-        path = pred_dir / f"{sys_name}_test.parquet"
-        if not path.exists():
-            errors.append(f"missing predictions: {sys_name}")
-            continue
-        df = pd.read_parquet(path)
-        rec = recompute_from_rank(df["rank"].to_numpy())
-        for mm in METRIC_NAMES:
-            expected = summary[mm]["mean"]
-            if abs(rec[mm] - expected) > 1e-6:
-                errors.append(
-                    f"{sys_name} {mm}: results={expected:.6f} recomputed={rec[mm]:.6f}"
-                )
+    # "metrics": sampled test users; "metrics_all_users": every test user
+    for key, users in (("metrics", sampled), ("metrics_all_users", None)):
+        for sys_name, summary in metrics.get(key, {}).items():
+            if "_vs_" in sys_name:
+                continue
+            path = pred_dir / f"{sys_name}_test.parquet"
+            if not path.exists():
+                errors.append(f"missing predictions: {sys_name}")
+                continue
+            df = pd.read_parquet(path)
+            if users is not None:
+                df = df[df["user_id"].isin(users)]
+            rec = recompute_from_rank(df["rank"].to_numpy())
+            for mm in METRIC_NAMES:
+                expected = summary[mm]["mean"]
+                if abs(rec[mm] - expected) > 1e-6:
+                    errors.append(
+                        f"{key}.{sys_name} {mm}: results={expected:.6f} recomputed={rec[mm]:.6f}"
+                    )
 
     lists_dir = cfg.path("lists")
     hashes = util.read_json(lists_dir / "lists_hashes.json")

@@ -77,14 +77,46 @@ def _assert_no_leak(seq: pd.DataFrame, logger) -> None:
     assert bad == 0, "target leakage detected in leave-last-out sequences"
 
 
+def _negative_pool(
+    items: pd.DataFrame,
+    popularity: dict[str, int] | None,
+    strategy: str,
+) -> tuple[list[str], list[float] | None]:
+    """Return (pool, cumulative weights or None for uniform sampling).
+
+    Without ``popularity`` the pool is every item with text (unit tests only).
+    With it, the pool is restricted to items that have train interactions: items
+    nobody reviewed are trivially rejected by Popularity and are OOV for the GRU,
+    which made uniform-over-catalogue lists far too easy for those two systems.
+    ``strategy="popularity"`` samples proportionally to train interaction count, so
+    negatives are about as popular as targets and popularity alone cannot separate them.
+    """
+    text_ids = items.loc[items["has_text"], "item_id"].astype(str)
+    if popularity is None:
+        return sorted(text_ids.tolist()), None
+    pool = sorted(i for i in text_ids if popularity.get(i, 0) > 0)
+    if strategy == "uniform":
+        return pool, None
+    if strategy != "popularity":
+        raise ValueError(f"unknown negative sampling strategy: {strategy}")
+    cum, total = [], 0.0
+    for i in pool:
+        total += popularity[i]
+        cum.append(total)
+    return pool, cum
+
+
 def _build_lists(
     seq: pd.DataFrame,
     items: pd.DataFrame,
     split: str,
     seed: int,
+    popularity: dict[str, int] | None = None,
+    strategy: str = "popularity",
+    n_negatives: int = 19,
 ) -> pd.DataFrame:
-    catalogue = items.loc[items["has_text"], "item_id"].astype(str).sort_values().tolist()
-    catalogue_set = set(catalogue)
+    catalogue_set = set(items.loc[items["has_text"], "item_id"].astype(str))
+    pool, cum_weights = _negative_pool(items, popularity, strategy)
     rng = random.Random(seed)
 
     rows = []
@@ -99,14 +131,19 @@ def _build_lists(
             str(row["test_item"]),
         }
         negatives: list[str] = []
-        needed = 19
-        while len(negatives) < needed:
-            for c in rng.sample(catalogue, (needed - len(negatives)) + 20):
-                if c not in interacted and c not in negatives:
+        seen: set[str] = set()
+        while len(negatives) < n_negatives:
+            k = (n_negatives - len(negatives)) + 20
+            if cum_weights is None:
+                draw = rng.sample(pool, min(k, len(pool)))
+            else:
+                draw = rng.choices(pool, cum_weights=cum_weights, k=k)
+            for c in draw:
+                if c not in interacted and c not in seen:
+                    seen.add(c)
                     negatives.append(c)
-                    if len(negatives) >= needed:
+                    if len(negatives) >= n_negatives:
                         break
-        negatives = negatives[:needed]
         candidates = negatives + [target]
         rng.shuffle(candidates)
         target_has_text = target in catalogue_set
@@ -158,9 +195,16 @@ def main() -> None:
         {"seed": seed, "validation": samples["valid"], "test": samples["test"]},
     )
 
+    train = interactions[interactions["split"] == "train"]
+    popularity = train["item_id"].astype(str).value_counts().to_dict()
+    strategy = cfg.get("sampling.negative_sampling", "popularity")
+    n_negatives = cfg.get("sampling.n_negatives", 19)
+    logger.info("negative sampling: %s over %d items with train interactions",
+                strategy, len(popularity))
+
     hashes = {}
     for split in SPLITS:
-        lists_df = _build_lists(seq, items, split, seed)
+        lists_df = _build_lists(seq, items, split, seed, popularity, strategy, n_negatives)
         path = lists_dir / f"{split}_lists.parquet"
         lists_df.to_parquet(path, index=False)
         hashes[f"{split}_lists.parquet"] = util.sha256_file(path)

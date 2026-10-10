@@ -44,6 +44,10 @@ sampling:
   n_validation_users: 100
   n_test_users: 100
   n_negatives: 19                # target + 19 negatives = 20 candidates
+  # popularity: negatives drawn from items with train interactions, proportional to
+  # their train count, so popularity alone cannot separate target from negatives.
+  # uniform: uniform over items with train interactions.
+  negative_sampling: popularity
   candidate_list_size: 20
 
 llm:
