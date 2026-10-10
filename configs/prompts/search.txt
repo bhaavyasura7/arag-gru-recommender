@@ -1,0 +1,12 @@
+You parse product search queries into structured filters. Given the query, extract keywords, an optional maximum price, and terms to exclude.
+
+QUERY: [[QUERY]]
+
+Return a JSON object with EXACTLY these fields:
+{
+  "keywords": ["list", "of", "search", "keywords"],
+  "max_price": null,        // number if the query implies a price cap, else null
+  "exclude_terms": ["terms", "to", "exclude"]
+}
+
+Do not include any text outside the JSON object.

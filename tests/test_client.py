@@ -3,7 +3,7 @@ from pydantic import BaseModel, model_validator
 
 from arag.config import load_config
 from arag.llm.cache import DiskCache
-from arag.llm.client import LLMClient
+from arag.llm.client import LLMClient, LLMError
 from arag.llm.schemas import NLIOutput, to_strict_schema
 
 
@@ -62,3 +62,12 @@ def test_complete_validated_retries_then_uses_fallback(client, require_ollama):
     # initial call + one retry = 2 API calls
     assert len(client.records) == 2
     assert all(not r.cache_hit for r in client.records)
+
+
+def test_replay_only_refuses_uncached_call(tmp_path, monkeypatch):
+    monkeypatch.setenv("REPLAY_ONLY", "1")
+    cfg = load_config()
+    c = LLMClient(cfg, cache=DiskCache(tmp_path / "cache"), logger=None)
+    schema = to_strict_schema(NLIOutput, "nli")
+    with pytest.raises(LLMError):
+        c.complete_json("nli", "some brand new uncached prompt", schema)

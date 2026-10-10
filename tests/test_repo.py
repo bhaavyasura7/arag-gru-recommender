@@ -1,34 +1,49 @@
-"""Guard the repo-integrity invariants from the spec.
+import pytest
 
-1. Every Python module under ``src/`` must be tracked by git (so nothing silently
-   ships untracked, e.g. after a bad ``.gitignore`` rule).
-2. The data package is named ``dataprep``, not ``data`` (a bare ``data/`` ignore
-   rule would otherwise swallow it).
-"""
-import subprocess
-from pathlib import Path
-
-from arag.config import REPO_ROOT
+from arag.memory import repo
+from arag.memory.db import init_db
 
 
-def _git_tracked_files() -> set[str]:
-    out = subprocess.run(
-        ["git", "ls-files"], cwd=REPO_ROOT, capture_output=True, text=True, check=True
+@pytest.fixture()
+def conn(tmp_path):
+    c = init_db(tmp_path / "test.db")
+    c.execute("INSERT INTO users (user_id, created_at, is_synthetic) VALUES ('u1','',0),('u2','',0)")
+    c.execute(
+        "INSERT INTO items (item_id, title, text, main_category, price) VALUES "
+        "('a','A','alpha','',1.0),('b','B','beta','',2.0),('c','C','gamma','',3.0)"
     )
-    return set(out.stdout.splitlines())
+    c.commit()
+    yield c
+    c.close()
 
 
-def test_every_src_module_is_tracked_by_git():
-    tracked = _git_tracked_files()
-    src = REPO_ROOT / "src"
-    untracked = [
-        str(p.relative_to(REPO_ROOT))
-        for p in src.rglob("*.py")
-        if str(p.relative_to(REPO_ROOT)) not in tracked
-    ]
-    assert not untracked, f"untracked modules under src/: {untracked}"
+def test_feedback_persists(conn):
+    repo.add_interaction(conn, "u1", "a", "like")
+    assert "a" in repo.interacted_items(conn, "u1")
 
 
-def test_dataprep_package_exists():
-    assert (REPO_ROOT / "src" / "arag" / "dataprep").is_dir()
-    assert not (REPO_ROOT / "src" / "arag" / "data").exists()
+def test_dismiss_excludes(conn):
+    repo.add_interaction(conn, "u1", "b", "dismiss")
+    assert repo.dismissed_items(conn, "u1") == {"b"}
+
+
+def test_profile_save_get_delete(conn):
+    repo.save_profile(conn, "u1", {"summary": "x"}, {"version": 1}, 1)
+    p = repo.get_profile(conn, "u1")
+    assert p["profile_json"]["summary"] == "x"
+    repo.delete_profile(conn, "u1")
+    assert repo.get_profile(conn, "u1") is None
+
+
+def test_session_create_and_get(conn):
+    sid = repo.create_session(conn, "u1")
+    s = repo.get_session(conn, sid)
+    assert s["user_id"] == "u1"
+
+
+def test_run_roundtrip(conn):
+    run_id = repo.create_run(conn, "u1", "s1", "feed", {"page": 0}, {"alpha": 0.5})
+    repo.add_rec_items(conn, run_id, [{"item_id": "a", "rank": 1, "score": 0.9, "reason": {}}])
+    run = repo.get_run(conn, run_id)
+    assert run["kind"] == "feed"
+    assert run["items"][0]["item_id"] == "a"

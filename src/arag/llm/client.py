@@ -6,6 +6,7 @@ estimate is maintained; for the local Ollama provider the cost is $0.
 from __future__ import annotations
 
 import json
+import os
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -66,6 +67,7 @@ class LLMClient:
         )
         self._in_price = cfg.get("budget.prices.input_per_1m", 0.0) / 1e6
         self._out_price = cfg.get("budget.prices.output_per_1m", 0.0) / 1e6
+        self.replay_only = os.environ.get("REPLAY_ONLY") == "1"
 
     # -- cost -------------------------------------------------------------
     def cost_usd(self) -> float:
@@ -95,6 +97,9 @@ class LLMClient:
         if cached is not None:
             self._record(agent, model, True, cached.get("usage", {}), 0.0)
             return cached["content"]
+
+        if self.replay_only:
+            raise LLMError(f"REPLAY_ONLY: refusing uncached LLM call for agent={agent}")
 
         content, usage, latency = self._call_api(agent, model, prompt, schema)
         self._record(agent, model, False, usage, latency)
