@@ -20,6 +20,69 @@ All numbers are produced by a deterministic, audited pipeline: **`make verify` r
 
 ---
 
+## 0. How to read this document (orientation, glossary, diagram)
+
+**If you have 30 seconds:** the project asks whether adding a *trained* neural sequence model (GRU) to an *LLM agent* recommender (ARAG) improves ranking. Answer: **yes vs the LLM alone (H1), no vs the trained model alone (H2)** — the GRU carries almost all the signal on this evaluation protocol, and a popularity baseline is nearly as strong as the GRU because the candidate lists use uniform random negatives.
+
+**If you have 10 minutes:** read §1 (questions), §3.2 (frozen candidate lists — the key design decision), §4 (system), §6.1–6.3 (results), §7.2 (why H2 fails), §8 (limitations).
+
+**If you must defend it:** every number is reproducible — `make verify` re-derives all metrics from raw predictions and checks dataset hashes; §10 lists the full command sequence; §9 lists every deviation from the original spec.
+
+### 0.1 Glossary
+
+| Term | Meaning |
+|---|---|
+| **ARAG** | Agentic recommender (Maragheh et al., 2025): an LLM pipeline of four agents (below). Our system is ARAG-*inspired*, not a reproduction. |
+| **UUA** | User Understanding Agent — turns the user's history into interests/intent/summary. |
+| **NLI** | Natural Language Inference agent — labels each candidate *support / neutral / contradict* with a 0–10 score against the user's history. |
+| **CSA** | Context Summary Agent — summarises the accepted candidates into a short context. |
+| **IRA** | Item Ranker Agent — outputs the final permutation of the 20 candidates. |
+| **GRU** | Gated Recurrent Unit — a small recurrent neural network that reads an item sequence and produces a user vector. The project's trained model. |
+| **h_u** | The GRU's user vector (its final hidden state): a fixed-length summary of the user's sequence. |
+| **Vocabulary / OOV** | The set of item ids the GRU knows (from train data); items outside it are "out-of-vocabulary" and mapped to a special OOV embedding. |
+| **Candidate list (frozen)** | The 20 products each user is ranked against: their true held-out **target** + 19 random **negatives**. Frozen so every system ranks identical items. |
+| **Target / negatives** | The one item the user actually interacted with next (target) and the 19 decoys the user never touched (negatives). |
+| **Leave-last-out** | The dataset's official split: per user, last item = test target, second-to-last = validation target, the rest = train history. |
+| **5-core** | Dataset filter: keep only users/items with ≥5 interactions. |
+| **Hit@K** | 1 if the target is in the top K, else 0. |
+| **NDCG@K** | 1/log₂(rank+1) if the target is in the top K, else 0 — rewards higher placement. |
+| **MRR** | 1/rank of the target (Mean Reciprocal Rank). |
+| **θ (theta)** | NLI acceptance threshold: candidates with score ≥ θ enter CSA. Tuned on validation. |
+| **α (alpha)** | Fusion weight: final score = α·(LLM) + (1−α)·(GRU). α=1 → ARAG only; α=0 → GRU only. Tuned on validation. |
+| **Late fusion** | Combining two ranked lists after both have ranked (here by blending rank-derived scores). |
+| **Paired bootstrap** | Resampling users with replacement to get a 95% CI for the *difference* between two systems on the same users. CI containing 0 ⇒ not significant. |
+| **MiniLM / FAISS** | Sentence-transformer model (embeddings) / vector index used for similarity search. |
+| **LLM disk cache** | Responses stored by (model, prompt, schema) hash so re-runs make zero API calls. |
+
+### 0.2 System diagram
+
+```
+                          ┌──────────────── ARAG (LLM agent pipeline) ────────────────┐
+ history (train+val,      │   ┌─────┐                                                  │
+ ≤55 items, rendered as   │   │ UUA │──────────┐                                       │
+ "title|category|score|   ├──►└─────┘          ▼                                       │
+ date")                   │   ┌─────┐      ┌─────┐      ┌─────┐                       │
+ 20 frozen candidates ────┼──►│ NLI │─────►│ CSA │─────►│ IRA │──► π_LLM (permutation)│
+                          │   └─────┘  I+  └─────┘      └─────┘        │              │
+                          └──────────  (score≥θ)  ────────────────────  │              │
+                                                                        │              │
+                          ┌──────────────── GRU (trained on 625k train pairs) ────────┐│
+ history (last 50 train   │   h_u = GRU(sequence)                                    ││
+ items → indices)         ├──►  score_i = h_u · e_i  ──► π_GRU (permutation)         ││
+ 20 frozen candidates ────┤                                                             ││
+                          └─────────────────────────────────────────────────────────────┘│
+                                                                        │              │
+                                                                        ▼              ▼
+                                              final = α·s_LLM + (1−α)·s_GRU   (α* = 0.1)
+                                                          │
+                                                          ▼
+                                              ranked 20 candidates
+```
+
+**Where each piece lives in code:** agents in `src/arag/agents/` (`uua.py`, `nli.py`, `csa.py`, `ira.py`, `arag.py`); GRU in `src/arag/models/` (`gru.py`, `train_gru.py`, `score.py`); fusion in `src/arag/ranking/fusion.py`; the whole experiment in `src/arag/eval/run.py`.
+
+---
+
 ## 1. Introduction and research questions
 
 Large language models can rank items by reasoning over a user's history in natural language. ARAG (Agentic Recommender with Augmented Generation) formalises this as a multi-agent pipeline: a User Understanding Agent (UUA), a Natural Language Inference (NLI) agent, a Context Summary Agent (CSA) and an Item Ranker Agent (IRA). This project builds an ARAG-inspired system and asks whether adding a **trained** sequential model helps:
@@ -231,6 +294,53 @@ The curve is monotone decreasing in α except for the small α\*=0.1 bump: **the
 
 ---
 
+### 6.4 Worked example — one real test user, end to end
+
+This is real data from the evaluation (not an illustration). User `AE24RBZBFTNQ2ZTQIVY5GTEEOS2A`, a PC-gaming peripherals buyer.
+
+**Their history (train + validation, in time order):**
+
+| # | Item | Title (truncated) |
+|---|---|---|
+| 1 | B00HTK1NCS | Redragon M601 RGB Gaming Mouse |
+| 2 | B0C2CYCX75 | EasySMX 2.4G Wireless Controller for PS3/PC |
+| 3 | B00E4MQODC | Logitech G602 Wireless Gaming Mouse |
+| 4 | B01N3ASPNV | amFilm Tempered Glass Screen Protector for Nintendo Switch |
+| 5 | B07DDN59PJ | CORSAIR SABRE RGB Gaming Mouse |
+
+**Their frozen 20-item candidate list** (order as stored), with the true held-out target marked:
+
+| # | Item | Title (truncated) |
+|---|---|---|
+| 1 | B08DV4ZFVQ | INPHIC Wireless Mouse |
+| 2 | B0BY8X7VVB | Marada G920 Racing Wheel Stand |
+| 3 | B07ZQ7S28B | Mr Wonderful Vinyl Skin for Nintendo |
+| **4** | **B07JH4R6ZT** | **Cooler Master MH-752 Gaming Headset ← TARGET** |
+| 5 | B09V5428B3 | NexiGo VR Stand |
+| 6 | B00B920R9C | PS3 Modded Controller (Rapid Fire) |
+| 7 | B07VWNN9BZ | Controller Repair Screw Set |
+| 8 | B09YDQRZF8 | Linux Basics for Hackers (book) |
+| 9 | B07Z3FV3X9 | FASTSNAIL Charging Dock for Switch |
+| 10–20 | … | (thumb grips, skins, arcade kit, keyboard, makeup, CD-Rs, a Wii game — mostly irrelevant decoys) |
+
+**How each system ranked the target:**
+
+| System | Rank of target | Its top-5 (in order) |
+|---|---|---|
+| **ARAG (LLM)** | **6 (miss)** | wireless mouse, racing wheel stand, PS3 controller, repair kit, Switch dock |
+| **GRU** | **2 (hit)** | Wii game, **headset (target)**, PS2 pad, CD-Rs, PS3 controller |
+| **ARAG+GRU (α\*=0.1)** | **2 (hit)** | Wii game, **headset (target)**, PS2 pad, PS3 controller, CD-Rs |
+| Popularity | 2 (hit) | Wii game, **headset (target)**, PS2 pad, CD-Rs, PS3 controller |
+
+**What this tells you in one example:**
+
+1. **ARAG reasons plausibly but misses.** Its top-5 are all gaming peripherals (sensible from the history), but it puts the headset 6th — the same category it should predict. An LLM reasoning over five title lines does not reliably pin the exact next item.
+2. **The GRU gets it.** Trained to predict the next item across 625k interactions, it places the true next item 2nd. It has learned that "mouse/controller buyer → gaming headset" is a common continuation.
+3. **The fusion inherits the GRU.** With α\*=0.1 the blended list is essentially the GRU's list, so the target lands 2nd (Hit@5). This single case is a microcosm of the aggregate result: fusion ≈ GRU ≫ ARAG on this protocol.
+4. **Popularity also gets it** (2nd) — the headset is a popular item, illustrating §7.2's point: with random negatives, popularity alone already captures much of the signal, which is why the LLM's residual contribution is hard to detect.
+
+---
+
 ## 7. Analysis and discussion
 
 ### 7.1 H1: fusing the trained model into ARAG helps, massively
@@ -328,6 +438,32 @@ The main scientific value of the result is the quantification itself: *on this t
 
 ---
 
+## 13. Product demo (Phase B)
+
+Beyond the research comparison, the project ships a working interactive demo that serves recommendations from the same components (ARAG agents, trained GRU, FAISS retrieval, fused at the evaluation's α\*).
+
+**Stack:** FastAPI (Python) + SQLite memory + React/Vite frontend served by the API at `http://127.0.0.1:8000`. Run with `make app`.
+
+**Memory (`artifacts/app.db`).** Seeded with **8 real test users** (their actual dataset history) and all 137,260 items with text. Tables: `users`, `items`, `interactions` (each row tagged `source = dataset|app`), `profiles`, `sessions`, `session_events`, `rec_runs`, `rec_items`. No synthetic users are ever used; app-event types are `view, click, like, dismiss, save`.
+
+**Flows.**
+
+| Flow | Steps |
+|---|---|
+| **Feed** | FAISS top-K on the user-context embedding **∪** GRU top-K over the catalogue → de-duplicate → drop already-interacted/dismissed → 20 candidates → ARAG+GRU (α from `results/metrics.json`) → paginated (10/page); the run is cached per page request |
+| **Search** | LLM parses the query into `{keywords, max_price, exclude_terms}` → hard filters → FAISS top-50 on the query embedding → drop dismissed/interacted → top-20 → ARAG+GRU → top-5 with reasons |
+| **Feedback** | stored immediately; `dismiss` permanently excludes the item for that user; the GRU user vector is recomputed from the current sequence at request time (no online retraining) |
+| **Profile** | the UUA output is stored with provenance (which event ids were used); regenerated when ≥5 new events accumulate; viewable and deletable from the UI |
+| **Replay** | every request is recorded as a `rec_run`; with the LLM cache a run replays with zero API calls, and `REPLAY_ONLY=1` makes the API refuse any uncached LLM call (fully offline demo) |
+
+**API surface:** `/health`, `/users`, `/sessions`, `/feed`, `/search`, `/feedback`, `/users/{id}/history`, `/users/{id}/profile` (GET/POST/DELETE), `/runs/{run_id}`, `/runs/{run_id}/replay`, `/results`. Sessions are user-scoped: a user can only access their own session (cross-user access returns 403).
+
+**UI (React + Vite).** User picker; **Feed** cards with title, category, price, reason and an **evidence snippet that is an exact substring of the item text selected in code (never generated)**, with like/dismiss/save buttons; **Search** with a query box and max-price filter; **Profile** panel (view/delete); an **agent-trace drawer** that shows the run's stages (agent outputs, rankings, repairs); and a **Results** view rendering the committed metrics table and α curve from `/results`. Layout is responsive down to phone width.
+
+**Engineering note.** Loading PyTorch/SentenceTransformer lazily inside a request thread crashed the server (`OMP: Error #179`); models are now preloaded on the main thread at startup with `OMP_NUM_THREADS=1` and `TOKENIZERS_PARALLELISM=false`.
+
+---
+
 ## Appendix A — Repository map
 
 ```
@@ -368,3 +504,46 @@ artifacts/               (git-ignored) frozen lists, GRU checkpoints, FAISS, LLM
 | LLM calls / tokens / cost | 2,405 / 4.89M in + 0.42M out / **$0.9853** |
 | Cached re-run | 136 s, zero new API calls |
 | Audit | `make verify` → VERIFY OK |
+
+## Appendix C — Anticipated questions and short answers
+
+**Q1. Why frozen candidate lists instead of retrieving candidates with FAISS?**
+Because the research question is about *ranking*, not retrieval. If each system retrieved its own candidates, a retrieval miss would be indistinguishable from a ranking miss, and methods would not be comparable. Freezing one 20-item list per user makes every comparison apples-to-apples. (Trade-off: uniform negatives are easier than real retrieval — listed as a limitation.)
+
+**Q2. Why is the crude Popularity baseline nearly as good as the trained GRU?**
+Under uniform random negatives, the target tends to be a popular item while the 19 decoys are mostly obscure. Ranking by global interaction count therefore scores high (NDCG@5 = 0.801 vs the GRU's 0.823). This is a property of the evaluation protocol, not a bug in the GRU; the GRU is still significantly better (Δ = −0.021, CI excludes 0 over 94,762 users), and on harder negatives the gap would widen.
+
+**Q3. H2 says the fusion doesn't beat the GRU — is the project a failure?**
+No. The project's value is *quantification*: H1 is strongly supported (the trained model adds a large, significant gain over the LLM), and H2 shows rigorously that, on this protocol, the LLM adds no measurable increment on top of the trained model. Reporting a null result with CIs is the correct scientific outcome — the alternative (claiming a gain that isn't there) would be fabrication.
+
+**Q4. Was α\* = 0.1 chosen to make the fusion look like the GRU?**
+No. α was selected **only on the 100 validation users**, never on test, by maximizing validation NDCG@5 across the full grid. Both the validation and test α-curves independently peak at 0.1. At α=0.1 the fusion is 90% GRU — that is the honest optimum found.
+
+**Q5. Why gpt-4o-mini rather than the paper's gpt-3.5-turbo?**
+The paper's exact model, prompts and data are not reproducible from its text. gpt-4o-mini is the modern successor at ~$0.15/1M tokens, making the full evaluation cost under $1. The code supports any provider (local qwen3:8b via Ollama is also wired in). We explicitly do **not** compare our numbers to the paper's.
+
+**Q6. Why a GRU and not a transformer / LLM fine-tune?**
+The spec asked for a compact, CPU-trainable sequential model. The GRU4Rec formulation is the standard, well-understood baseline for next-item prediction, trains in ~1.5 h on CPU here, and is exactly the "trained deep-learning component" the project needed. A transformer would add little on 25k items with ~6-item user sequences.
+
+**Q7. How do we know the results are not fabricated?**
+(a) `results/` is written only by pipeline code on real data; (b) `make verify` recomputes every metric from raw per-user predictions and diffs against `metrics.json` — VERIFY OK; (c) the frozen candidate lists are SHA-256-hashed and re-checked; (d) `run_record.json` records the git commit, model, config and dataset manifest; (e) the LLM cache makes the run idempotent — anyone can re-run and get identical numbers at $0.
+
+**Q8. Why only 100 test users for the LLM systems?**
+Cost and statistics: each LLM user costs ~7–12 API calls, and 100 paired users are enough to detect the paper's ~10–15 point effects. The CIs (±~10 points on Hit@5) are reported so small differences are not over-read. Non-LLM systems use all 94,762 test users, giving near-deterministic estimates.
+
+**Q9. Why is ARAG worse than the baselines the paper claims it beats?**
+Directionally the paper's ordering holds on our data (Recency 0.389 < ARAG 0.453; Vanilla-RAG 0.386 < ARAG), but the differences are not statistically significant at n=100, and the paper's ablations also don't reproduce (removing NLI didn't hurt). The likely cause is the protocol: with uniform negatives, global popularity dominates, and the agentic context machinery has little headroom — a finding we report rather than hide.
+
+**Q10. What would you change with more time/budget?**
+Harder negatives (retrieval-mined instead of uniform) to remove the popularity shortcut; ≥300 test users for tighter CIs; a strictly time-separated split for the GRU to remove leave-last-out leakage; and an LLM ranker that is explicitly given popularity/statistical features, to test whether the agentic contribution survives once the popularity confound is removed.
+
+---
+
+## Appendix D — One-paragraph summaries at three levels
+
+**To a non-technical person:** We built a music-store-style recommender for video games that combines two very different "brains" — an AI assistant that reads what you bought and reasons about it, and a small trained neural network that has learned from a million past purchases what people typically buy next. We tested whether combining them beats each alone, by giving both the same 20 products to rank and checking how often the right product lands near the top. The trained network turned out to be far better than the AI assistant, and combining them was no better than the network alone — a clean, useful answer.
+
+**To a computer-science student:** We implement an ARAG-style 4-agent LLM pipeline (user understanding → per-candidate NLI scoring → context summarisation → ranking) and fuse its permutation with a GRU4Rec-style next-item model via rank-derived score blending (`α·s_LLM + (1−α)·s_GRU`, α tuned on validation). On frozen 20-item lists (1 target + 19 uniform negatives) over Amazon Video_Games (94,762 users), the fused system significantly beats ARAG (+0.349 NDCG@5) but ties the GRU alone (+0.002, n.s.), with α\* = 0.1 — showing the trained model dominates under this protocol.
+
+**To a recommender-systems researcher:** We quantify the marginal value of an agentic LLM ranker over a strong trained sequential baseline under a rank-isolating protocol. Contributions: (i) a reproducible ARAG+GRU fusion with α/θ tuned on validation and paired-bootstrap CIs; (ii) evidence that uniform-negative lists let a popularity baseline reach 0.80 NDCG@5 — nearly matching the GRU (0.82) and far exceeding every LLM variant (≤0.48) — which explains the null result for the LLM's increment; (iii) a fully audited artifact set (hashed frozen lists, per-user predictions, metric re-derivation, deterministic cache). Limitations: single category, n=100 for LLM systems, leave-last-out leakage into GRU training, no human evaluation.
+
