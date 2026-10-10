@@ -12,19 +12,23 @@ Full specification: [`SPEC.md`](SPEC.md).
   ARAG's LLM ranking improve Hit@5 / NDCG@5 over ARAG alone and over the GRU alone?
 - **Systems compared:** Random, Popularity, GRU, LLM-Recency, LLM-Vanilla-RAG, ARAG,
   two ARAG ablations, and **ARAG + GRU** (late fusion).
-- **Model:** local [`qwen3:8b`](https://ollama.com) via Ollama (zero LLM cost).
+- **LLM:** configurable provider. The committed results were produced with OpenAI **`gpt-4o-mini`**
+  (~$0.99 for the full evaluation). Local **`qwen3:8b`** via Ollama is also supported and is what
+  the test-suite uses (zero cost, offline).
 - **Embeddings:** sentence-transformers `all-MiniLM-L6-v2`, FAISS `IndexFlatIP`.
 
 ## Environment prerequisites
 
 - Python 3.11+ (managed via [`uv`](https://github.com/astral-sh/uv)).
 - Node.js + npm (for the frontend).
-- A running **Ollama** server with the `qwen3:8b` model pulled:
+- **For the evaluation:** `OPENAI_API_KEY` in the environment when `llm.provider: openai`
+  (the committed results used `gpt-4o-mini`), **or** a running Ollama server with the model pulled:
   ```bash
   ollama pull qwen3:8b
   ```
+- **For `make test`:** a running Ollama server (`qwen3:8b`); tests always use the local provider.
 - Network access to `huggingface.co` / `us.aws.cdn.hf.co` (dataset + MiniLM model) and PyPI/npm.
-- Optional: `OPENAI_API_KEY` only if you run the evaluation with the `openai` provider instead.
+- Secrets are read from the environment only (`OPENAI_API_KEY`); never commit them.
 
 ## Setup
 
@@ -70,9 +74,9 @@ uncached LLM call.
 
 ## Cost
 
-Local `qwen3:8b` inference is free. The full evaluation is ~2,300 LLM calls (~1–3 h on Apple
-Silicon) plus a few minutes of CPU for the GRU. OpenAI `gpt-4o-mini` is supported via config
-at ~$1.05 for the same evaluation (§10 of the spec).
+The committed evaluation used OpenAI `gpt-4o-mini`: **$0.9853** for 2,405 calls
+(4.89M input / 0.42M output tokens). Re-running with the LLM cache makes zero new API calls
+($0). Local `qwen3:8b` is also supported at $0 but is ~10× slower per call on this hardware.
 
 ## How to read the results
 

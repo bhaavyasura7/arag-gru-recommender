@@ -14,9 +14,9 @@ For EACH candidate, judge how well it matches the user's demonstrated interests.
       "item_id": "the candidate item_id exactly as given",
       "label": "support" | "neutral" | "contradict",
       "score": 0,        // integer 0-10, higher = stronger match
-      "rationale": "one short sentence justifying the label and score"
+      "rationale": "at most 8 words"
     }
   ]
 }
 
-Every candidate must appear exactly once. Do not include any text outside the JSON object.
+Every candidate must appear exactly once. Be terse. Do not include any text outside the JSON object.

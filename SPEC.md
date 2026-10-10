@@ -156,8 +156,8 @@ See `tests/`. Deterministic logic is unit-tested with hand-made fixtures; integr
 
 ## Recorded deviations from the original gpt-4o-mini spec
 
-1. **LLM provider:** local **qwen3:8b** via Ollama (`http://localhost:11434/v1`) instead of OpenAI gpt-4o-mini. The `llm/client.py` supports both; config selects the provider. `enable_thinking: false` for qwen3.
-2. **Budget:** $0 LLM cost; `budget.max_usd` only guards the OpenAI provider.
+1. **LLM provider:** configurable — the `llm/client.py` supports both OpenAI and local Ollama; `config.yaml` selects the provider. The committed results were produced with **`gpt-4o-mini`** (~$0.99, §10). Local **`qwen3:8b`** via Ollama is also supported (zero cost; used by the test-suite, which forces the local provider so `make test` needs no API key).
+2. **Budget:** `budget.max_usd` guards the OpenAI provider; the local provider is $0. Evaluation cost is reported in `results/cost.json` from real cached usage.
 3. **`llm/fake.py` removed:** no fake LLM client. Unit tests use hand-made fixtures for deterministic logic; integration tests call the local Ollama model directly. `make test` therefore requires Ollama running (still no API key).
 4. **Data paths verified** against the dataset card: benchmark files are `benchmark/5core/last_out/Video_Games.{train,valid,test}.csv` (columns `user_id,parent_asin,rating,timestamp`); metadata is `raw/meta_categories/meta_Video_Games.jsonl` (the `raw_meta_Video_Games` config does not exist for Video_Games).
 5. **`make verify` added:** an audit target that recomputes metrics from `artifacts/predictions/` and diffs against `results/`, checks list SHA-256 and run-record consistency, to guarantee no fabricated numbers can survive.

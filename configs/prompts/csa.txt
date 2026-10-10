@@ -9,7 +9,7 @@ RELEVANT CANDIDATES (ordered by relevance score, highest first):
 Summarize the common themes, features, and intent that connect these relevant candidates to the user. Return a JSON object with EXACTLY this field:
 
 {
-  "summary": "at most 200 words summarizing the relevant context for ranking"
+  "summary": "at most 60 words"
 }
 
-Do not include any text outside the JSON object.
+Be terse. Do not include any text outside the JSON object.

@@ -8,9 +8,8 @@ from arag.llm.schemas import NLIOutput, to_strict_schema
 
 
 @pytest.fixture()
-def client(tmp_path):
-    cfg = load_config()
-    return LLMClient(cfg, cache=DiskCache(tmp_path / "cache"), logger=None)
+def client(tmp_path, ollama_cfg):
+    return LLMClient(ollama_cfg, cache=DiskCache(tmp_path / "cache"), logger=None)
 
 
 def test_complete_json_cache_second_run_zero_calls(client, require_ollama):
@@ -64,10 +63,9 @@ def test_complete_validated_retries_then_uses_fallback(client, require_ollama):
     assert all(not r.cache_hit for r in client.records)
 
 
-def test_replay_only_refuses_uncached_call(tmp_path, monkeypatch):
+def test_replay_only_refuses_uncached_call(tmp_path, monkeypatch, ollama_cfg):
     monkeypatch.setenv("REPLAY_ONLY", "1")
-    cfg = load_config()
-    c = LLMClient(cfg, cache=DiskCache(tmp_path / "cache"), logger=None)
+    c = LLMClient(ollama_cfg, cache=DiskCache(tmp_path / "cache"), logger=None)
     schema = to_strict_schema(NLIOutput, "nli")
     with pytest.raises(LLMError):
         c.complete_json("nli", "some brand new uncached prompt", schema)

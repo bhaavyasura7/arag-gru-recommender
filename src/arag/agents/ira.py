@@ -8,7 +8,7 @@ from arag.llm.schemas import IRAOutput, to_strict_schema
 
 
 def fallback_ira(candidate_ids: list[str]) -> IRAOutput:
-    return IRAOutput(ranking=list(candidate_ids), reasons={})
+    return IRAOutput(ranking=list(candidate_ids), reasons=[])
 
 
 def run_ira(

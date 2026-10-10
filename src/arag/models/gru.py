@@ -37,12 +37,18 @@ class GRU4Rec(nn.Module):
         return logits
 
     def encode(self, x: torch.Tensor) -> torch.Tensor:
-        """User vector h_u = last valid hidden state, projected to emb_dim."""
+        """User vector h_u = last valid hidden state, projected to emb_dim.
+
+        Handles batches with mixed lengths (pads/sorts internally, restores order).
+        """
         lengths = (x != 0).sum(dim=1)
-        emb = self.embedding(x)
-        packed = pack_padded_sequence(emb, lengths.to("cpu"), batch_first=True, enforce_sorted=False)
-        _, h = self.gru(packed)  # (1, B, hidden)
+        lengths, sort_idx = lengths.sort(descending=True)
+        x_sorted = x[sort_idx]
+        emb = self.embedding(x_sorted)
+        packed = pack_padded_sequence(emb, lengths.to("cpu"), batch_first=True, enforce_sorted=True)
+        _, h = self.gru(packed)  # (1, B_sorted, hidden)
         h_u = h.squeeze(0)
+        h_u = h_u[sort_idx.argsort()]  # restore original batch order
         h_u = self.proj(h_u)
         return h_u
 

@@ -127,13 +127,13 @@ async def run_llm_systems_user(client, cfg, data: EvalData, user_id, split, thet
             {"item_id": iid, "score": d["score"], "text": data.text.get(iid, "")}
             for iid, d in accepted
         ]
-        csa, _ = await asyncio.to_thread(run_csa, client, cfg, s_user, acc_items, empty_fb)
+        csa, _, _ = await asyncio.to_thread(run_csa, client, cfg, s_user, acc_items, empty_fb)
         ira, _ = await asyncio.to_thread(run_ira, client, cfg, s_user, csa.summary, cand_items)
         arag_ranking, _ = parse_ranking(list(ira.ranking), cand_ids, nli.scores())
 
         # ablation: w/o NLI (CSA over all 20 candidates)
         all_items = [{"item_id": c["item_id"], "score": 0, "text": c["text"]} for c in cand_items]
-        csa2, _ = await asyncio.to_thread(run_csa, client, cfg, s_user, all_items, False)
+        csa2, _, _ = await asyncio.to_thread(run_csa, client, cfg, s_user, all_items, False)
         ira2, _ = await asyncio.to_thread(run_ira, client, cfg, s_user, csa2.summary, cand_items)
         abl_nli, _ = parse_ranking(list(ira2.ranking), cand_ids, nli.scores())
 
@@ -207,7 +207,14 @@ def compute_system_predictions(
     return pd.DataFrame(rows)
 
 
-def save_predictions(cfg, system: str, split: str, rankings: dict[str, list[str]], targets: dict[str, str]) -> None:
+def save_predictions(
+    cfg,
+    system: str,
+    split: str,
+    rankings: dict[str, list[str]],
+    targets: dict[str, str],
+    csv_users: set[str] | None = None,
+) -> None:
     pred_dir = cfg.path("predictions")
     rows = [
         {"user_id": u, "ranked_ids": rankings[u], "target": targets[u], "rank": rank_of(targets[u], rankings[u])}
@@ -217,7 +224,8 @@ def save_predictions(cfg, system: str, split: str, rankings: dict[str, list[str]
     df.to_parquet(pred_dir / f"{system}_{split}.parquet", index=False)
     csv_dir = cfg.path("predictions_csv")
     csv_dir.mkdir(parents=True, exist_ok=True)
-    df.to_csv(csv_dir / f"{system}_{split}.csv", index=False)
+    csv_df = df[df["user_id"].isin(csv_users)] if csv_users is not None else df
+    csv_df.to_csv(csv_dir / f"{system}_{split}.csv", index=False)
 
 
 def main() -> None:
@@ -275,7 +283,7 @@ def main() -> None:
                     s_user, nli = val_uua_nli[u]
                     accepted, empty_fb = select_accepted(nli, theta)
                     acc_items = [{"item_id": iid, "score": d["score"], "text": data.text.get(iid, "")} for iid, d in accepted]
-                    csa, _ = await asyncio.to_thread(run_csa, client, cfg, s_user, acc_items, empty_fb)
+                    csa, _, _ = await asyncio.to_thread(run_csa, client, cfg, s_user, acc_items, empty_fb)
                     ira, _ = await asyncio.to_thread(run_ira, client, cfg, s_user, csa.summary, val_candidates[u])
                     ranking, _ = parse_ranking(list(ira.ranking), [c["item_id"] for c in val_candidates[u]], nli.scores())
                     return u, ranking
@@ -372,10 +380,12 @@ def main() -> None:
     systems["arag_gru"] = fused_test
 
     # save predictions
+    # save predictions (tracked CSVs capped to the 100 test users to keep results/ small)
+    csv_users = set(test_users)
     for sys in ["recency", "vanilla_rag", "arag", "arag_wo_nli", "arag_wo_nli_csa", "arag_gru"]:
-        save_predictions(cfg, sys, "test", systems[sys], test_targets)
+        save_predictions(cfg, sys, "test", systems[sys], test_targets, csv_users)
     for sys in ["random", "popularity", "gru_seed0", "gru_seed1", "gru_seed2"]:
-        save_predictions(cfg, sys, "test", systems[sys], test_targets)
+        save_predictions(cfg, sys, "test", systems[sys], test_targets, csv_users)
 
     # ---- metrics + bootstrap ----
     metrics = compute_all_metrics(systems, test_targets, cfg)
@@ -404,34 +414,38 @@ def main() -> None:
 
 
 def compute_all_metrics(systems: dict[str, dict[str, list[str]]], targets: dict[str, str], cfg) -> dict:
-    out = {}
     ref_systems = ["arag", "gru_seed0"]
+
+    # precompute per-user metric values per system (once)
+    per_user: dict[str, dict[str, dict[str, float]]] = {}
     for sys, rankings in systems.items():
-        per_user = {m: {} for m in METRICS}
+        vals: dict[str, dict[str, float]] = {m: {} for m in METRICS}
         for u, ranked in rankings.items():
             pm = per_user_metrics(ranked, targets[u])
             for m in METRICS:
-                per_user[m][u] = pm[m]
-        summary = {}
-        for m in METRICS:
-            vals = list(per_user[m].values())
-            summary[m] = {
-                "mean": float(np.mean(vals)),
-                "std": float(np.std(vals)),
-            }
-        out[sys] = summary
+                vals[m][u] = pm[m]
+        per_user[sys] = vals
 
-    # paired bootstrap vs reference systems
-    for sys, rankings in systems.items():
+    out: dict = {}
+    for sys in systems:
+        out[sys] = {
+            m: {
+                "mean": float(np.mean(list(per_user[sys][m].values()))),
+                "std": float(np.std(list(per_user[sys][m].values()))),
+            }
+            for m in METRICS
+        }
+
+    for sys in systems:
         if sys in ref_systems:
             continue
         for ref in ref_systems:
-            if sys == ref:
+            users = sorted(set(systems[sys]) & set(systems[ref]))
+            if not users:
                 continue
-            users = sorted(set(rankings) & set(systems[ref]))
             for m in METRICS:
-                a = [per_user_metrics(rankings[u], targets[u])[m] for u in users]
-                b = [per_user_metrics(systems[ref][u], targets[u])[m] for u in users]
+                a = [per_user[sys][m][u] for u in users]
+                b = [per_user[ref][m][u] for u in users]
                 md, lo, hi = paired_bootstrap(a, b, cfg.get("eval.bootstrap_resamples", 10000))
                 out.setdefault(f"{sys}_vs_{ref}", {})[m] = {"mean_diff": md, "ci": [lo, hi]}
     return out

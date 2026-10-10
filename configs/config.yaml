@@ -47,8 +47,8 @@ sampling:
   candidate_list_size: 20
 
 llm:
-  provider: ollama               # ollama | openai
-  model: qwen3:8b                # pinned model string
+  provider: openai               # ollama | openai
+  model: gpt-4o-mini             # pinned model string
   ollama:
     base_url: http://localhost:11434/v1
     api_key: ollama
@@ -57,7 +57,7 @@ llm:
     base_url: https://api.openai.com/v1
     api_key_env: OPENAI_API_KEY
   temperature: 0
-  timeout_s: 120
+  timeout_s: 60
   max_retries: 3
   concurrency: 8                 # concurrent users in the agent pipeline
   schema_retry: 1                # one retry after a schema/JSON failure
@@ -80,7 +80,7 @@ gru:
   dropout: 0.2                  # best-config default
   lr: 0.001
   batch_size: 256
-  max_epochs: 30
+  max_epochs: 12
   patience: 3
   seq_len: 50
   seeds: [0, 1, 2]

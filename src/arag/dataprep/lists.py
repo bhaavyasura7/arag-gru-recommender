@@ -84,6 +84,7 @@ def _build_lists(
     seed: int,
 ) -> pd.DataFrame:
     catalogue = items.loc[items["has_text"], "item_id"].astype(str).sort_values().tolist()
+    catalogue_set = set(catalogue)
     rng = random.Random(seed)
 
     rows = []
@@ -97,11 +98,18 @@ def _build_lists(
             str(row["valid_item"]),
             str(row["test_item"]),
         }
-        pool = [i for i in catalogue if i not in interacted]
-        negatives = rng.sample(pool, 19)
+        negatives: list[str] = []
+        needed = 19
+        while len(negatives) < needed:
+            for c in rng.sample(catalogue, (needed - len(negatives)) + 20):
+                if c not in interacted and c not in negatives:
+                    negatives.append(c)
+                    if len(negatives) >= needed:
+                        break
+        negatives = negatives[:needed]
         candidates = negatives + [target]
         rng.shuffle(candidates)
-        target_has_text = target in set(catalogue)
+        target_has_text = target in catalogue_set
         rows.append(
             {
                 "user_id": user_id,
@@ -141,7 +149,8 @@ def main() -> None:
     rng = random.Random(seed)
     for split in SPLITS:
         eligible = seq[seq[f"{split}_item"].astype(str).isin(text_ids)]
-        picked = sorted(rng.sample(eligible["user_id"].tolist(), cfg.get(f"sampling.n_{split}_users")))
+        n_key = "sampling.n_validation_users" if split == "valid" else "sampling.n_test_users"
+        picked = sorted(rng.sample(eligible["user_id"].tolist(), cfg.get(n_key)))
         samples[split] = picked
         logger.info("%s users sampled: %d", split, len(picked))
     util.write_json(

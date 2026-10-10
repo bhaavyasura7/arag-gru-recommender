@@ -9,10 +9,10 @@ SESSION CONTEXT (most recent items):
 Analyze the user's behavior and preferences. Return a JSON object with EXACTLY these fields:
 
 {
-  "long_term_interests": ["list of the user's stable, long-term interests"],
-  "current_intent": "one sentence describing what the user is likely looking for right now",
-  "avoid": ["list of things the user seems to dislike or avoid"],
-  "summary": "a concise profile of this user, at most 120 words"
+  "long_term_interests": ["up to 5 short phrases"],
+  "current_intent": "one short sentence",
+  "avoid": ["up to 3 short phrases"],
+  "summary": "at most 40 words"
 }
 
-Do not include any text outside the JSON object.
+Be terse. Do not include any text outside the JSON object.

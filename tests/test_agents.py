@@ -30,17 +30,17 @@ def test_select_accepted_empty_fallback_top3():
 
 
 @pytest.fixture()
-def client(tmp_path):
-    return LLMClient(load_config(), cache=DiskCache(tmp_path / "cache"), logger=None)
+def client(tmp_path, ollama_cfg):
+    return LLMClient(ollama_cfg, cache=DiskCache(tmp_path / "cache"), logger=None)
 
 
-def test_run_nli_covers_all_candidate_ids(client, require_ollama):
+def test_run_nli_covers_all_candidate_ids(client, require_ollama, ollama_cfg):
     candidates = [
         {"item_id": "A1", "title": "a", "text": "a game"},
         {"item_id": "A2", "title": "b", "text": "a movie"},
         {"item_id": "A3", "title": "c", "text": "a book"},
     ]
-    result = run_nli(client, load_config(), "user likes games", candidates, per_call=5)
+    result = run_nli(client, ollama_cfg, "user likes games", candidates, per_call=5)
     ids = {c["item_id"] for c in candidates}
     # every candidate ends up with a score (missing -> neutral 5 after re-ask)
     assert set(result.items.keys()) == ids

@@ -50,8 +50,8 @@ class StubService(RecommenderService):
 
 
 @pytest.fixture()
-def client(tmp_path):
-    cfg = load_config()
+def client(tmp_path, ollama_cfg):
+    cfg = ollama_cfg
     db = tmp_path / "app.db"
     init_db(db)
     conn = repo.connect(db)

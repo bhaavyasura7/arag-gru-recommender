@@ -139,19 +139,24 @@ def train_model(
 
 def evaluate(model: GRU4Rec, val_data: list[dict]) -> float:
     model.eval()
+    items = [v for v in val_data if v["history"]]
+    if not items:
+        return 0.0
+    max_len = max(len(v["history"]) for v in items)
+    x = torch.zeros(len(items), max_len, dtype=torch.long)
+    for i, v in enumerate(items):
+        h = v["history"][-max_len:]
+        x[i, : len(h)] = torch.tensor(h, dtype=torch.long)
+    with torch.no_grad():
+        h_u = model.encode(x)  # (B, emb)
     ndcgs = []
     with torch.no_grad():
-        for v in val_data:
-            if not v["history"]:
-                continue
-            x = torch.tensor([v["history"][-50:]], dtype=torch.long)
-            h_u = model.encode(x)[0]
+        for i, v in enumerate(items):
             cidx = torch.tensor(v["candidates"], dtype=torch.long)
-            scores = h_u @ model.embedding(cidx).T
+            scores = h_u[i] @ model.embedding(cidx).T
             order = torch.argsort(scores, descending=True).tolist()
-            ranking = [v["candidate_ids"][i] for i in order]
-            rank = rank_of(v["target_id"], ranking)
-            ndcgs.append(ndcg_at_k(rank, 5))
+            ranking = [v["candidate_ids"][j] for j in order]
+            ndcgs.append(ndcg_at_k(rank_of(v["target_id"], ranking), 5))
     return float(np.mean(ndcgs)) if ndcgs else 0.0
 
 

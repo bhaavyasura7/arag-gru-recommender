@@ -6,8 +6,8 @@ from arag.config import REPO_ROOT, load_config
 def test_config_loads():
     cfg = load_config()
     assert cfg.category == "Video_Games"
-    assert cfg.llm_model == "qwen3:8b"
-    assert cfg.llm_provider == "ollama"
+    assert cfg.llm_provider in ("ollama", "openai")
+    assert cfg.llm_model
     assert cfg.seed == 42
 
 

@@ -82,7 +82,7 @@ async def run_user_async(
             s_ctx_text=csa.summary,
             csa_empty_fallback=csa_empty_fallback,
             final_ranking=final_ranking,
-            reasons=dict(ira.reasons),
+            reasons={r.item_id: r.reason for r in ira.reasons},
             repairs=repairs,
             fallbacks={
                 "uua": uua_res.fallback,

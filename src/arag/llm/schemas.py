@@ -32,9 +32,14 @@ class CSAOutput(BaseModel):
     summary: str
 
 
+class IRAReason(BaseModel):
+    item_id: str
+    reason: str
+
+
 class IRAOutput(BaseModel):
     ranking: list[str]
-    reasons: dict[str, str] = Field(default_factory=dict)
+    reasons: list[IRAReason] = Field(default_factory=list)
 
 
 class RankingOutput(BaseModel):

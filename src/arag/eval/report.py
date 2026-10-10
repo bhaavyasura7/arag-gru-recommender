@@ -86,13 +86,18 @@ def main() -> None:
 
     # ---- report.md ----
     concl = _conclusions(metrics, m)
+    provider_note = (
+        "Local qwen3:8b output differs from gpt-4o-mini; results are ARAG-inspired, not a paper reproduction."
+        if cfg.llm_provider == "ollama"
+        else "OpenAI gpt-4o-mini was used; results are ARAG-inspired, not a paper reproduction."
+    )
     r = [
         "# ARAG + GRU — Results Report",
         "",
         f"**Model:** {cfg.llm_model} ({cfg.llm_provider})  ",
         f"**Category:** {manifest.get('category')}  ",
         f"**θ*:** {m['best_theta']}  **α*:** {m['best_alpha']}  ",
-        f"**Cost:** ${cost['cost_usd']:.4f}  **Elapsed:** {m['elapsed_s']/60:.1f} min",
+        f"**LLM cost:** ${cost['cost_usd']:.4f}  **Last run elapsed:** {m['elapsed_s']/60:.1f} min",
         "",
         "## Main results (test users)",
         "",
@@ -107,7 +112,7 @@ def main() -> None:
         "- Leave-last-out means other users' later interactions can appear in GRU training.",
         "- 100 test users ⇒ wide CIs (roughly ±10 points on Hit@5).",
         "- Uniform negatives are easier than real retrieval; not an exact paper reproduction.",
-        "- Local qwen3:8b output quality differs from gpt-4o-mini; results are ARAG-inspired, not a paper reproduction.",
+        f"- {provider_note}",
         "",
         "## Protocol",
         "",
@@ -117,7 +122,7 @@ def main() -> None:
         "Paired-bootstrap 95% CIs (10,000 resamples).",
         "",
     ]
-    util.write_text(results_dir / "report.md", "".join(r))
+    util.write_text(results_dir / "report.md", "\n".join(r))
     logger.info("report artifacts written")
 
 

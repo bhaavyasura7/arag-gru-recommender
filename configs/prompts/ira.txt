@@ -19,10 +19,10 @@ Return a JSON object with EXACTLY these fields:
 
 {
   "ranking": ["item_id_1", "item_id_2", "..."],   // ALL candidate item_ids, best first
-  "reasons": {
-    "item_id_of_top_item": "one-line reason",
-    // ... one-line reason for each of the TOP 5 items only
-  }
+  "reasons": [
+    {"item_id": "id of a top item", "reason": "reason under 8 words"}
+    // one entry for each of the TOP 5 items only
+  ]
 }
 
-The "ranking" array must contain every candidate item_id exactly once. Do not include any text outside the JSON object.
+The "ranking" array must contain every candidate item_id exactly once. Be terse. Do not include any text outside the JSON object.
