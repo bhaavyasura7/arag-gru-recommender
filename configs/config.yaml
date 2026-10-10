@@ -1,0 +1,106 @@
+# ARAG + GRU — central configuration.
+# All paths are relative to the repository root.
+
+paths:
+  data_raw: data/raw
+  data_processed: data/processed
+  artifacts: artifacts
+  lists: artifacts/lists
+  gru: artifacts/gru
+  faiss: artifacts/faiss
+  llm_cache: artifacts/llm_cache
+  predictions: artifacts/predictions
+  app_db: artifacts/app.db
+  results: results
+  predictions_csv: results/predictions
+  prompts: configs/prompts
+
+dataset:
+  id: McAuley-Lab/Amazon-Reviews-2023
+  category: Video_Games
+  fallback_category: All_Beauty
+  benchmark_split: benchmark/5core/last_out
+  meta_path: raw/meta_categories
+  benchmark_files:
+    train: benchmark/5core/last_out/{category}.train.csv
+    valid: benchmark/5core/last_out/{category}.valid.csv
+    test: benchmark/5core/last_out/{category}.test.csv
+  meta_file: raw/meta_categories/meta_{category}.jsonl
+  # interaction columns in the rating-only benchmark CSVs
+  columns:
+    user: user_id
+    item: parent_asin
+    rating: rating
+    timestamp: timestamp
+
+splits:
+  max_history_train: 50          # last N train items fed to the GRU
+  session_context: 5             # C_st, last 5 history items
+  long_term_context: 50          # C_lt, up to 50 items before C_st
+  item_text_words: 120           # metadata truncation ~120 words
+
+sampling:
+  seed: 42
+  n_validation_users: 100
+  n_test_users: 100
+  n_negatives: 19                # target + 19 negatives = 20 candidates
+  candidate_list_size: 20
+
+llm:
+  provider: ollama               # ollama | openai
+  model: qwen3:8b                # pinned model string
+  ollama:
+    base_url: http://localhost:11434/v1
+    api_key: ollama
+    enable_thinking: false       # qwen3 thinking mode off
+  openai:
+    base_url: https://api.openai.com/v1
+    api_key_env: OPENAI_API_KEY
+  temperature: 0
+  timeout_s: 120
+  max_retries: 3
+  concurrency: 8                 # concurrent users in the agent pipeline
+  schema_retry: 1                # one retry after a schema/JSON failure
+
+agents:
+  nli_items_per_call: 5          # 20 candidates -> 4 calls
+  theta_grid: [4, 5, 6, 7]
+  theta_default: 6
+  csa_max_words: 200
+  uua_max_words: 120
+
+embedding:
+  model: all-MiniLM-L6-v2
+  dimension: 384
+
+gru:
+  embedding_dim: 64
+  hidden_grid: [64, 128]
+  dropout_grid: [0.2, 0.5]
+  dropout: 0.2                  # best-config default
+  lr: 0.001
+  batch_size: 256
+  max_epochs: 30
+  patience: 3
+  seq_len: 50
+  seeds: [0, 1, 2]
+
+fusion:
+  alpha_grid: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+  val_alpha_scope: validation    # alpha chosen on validation NDCG@5
+
+retrieval:
+  faiss_topk: 50                 # search top-50 -> top-20
+  recall_ks: [20, 50, 100]
+
+eval:
+  bootstrap_resamples: 10000
+  primary_ks: [5, 10]
+  metrics: [hit@5, ndcg@5, hit@10, ndcg@10, mrr]
+
+budget:
+  max_usd: 5.0
+  prices:
+    input_per_1m: 0.15
+    output_per_1m: 0.60
+  # local Ollama runs cost $0; prices only apply to the openai provider.

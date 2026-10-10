@@ -1,0 +1,15 @@
+You are a recommender. Rank candidate products by how likely the user is to interact with them, using only their recent history.
+
+RECENT HISTORY (most recent items first):
+[[HISTORY]]
+
+CANDIDATE PRODUCTS (rank ALL of them):
+[[CANDIDATES]]
+
+Rank ALL candidates in DESCENDING order of the likelihood that the user will interact with them. Return a JSON object with EXACTLY this field:
+
+{
+  "ranking": ["item_id_1", "item_id_2", "..."]
+}
+
+The "ranking" array must contain every candidate item_id exactly once. Do not include any text outside the JSON object.

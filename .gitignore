@@ -1,0 +1,15 @@
+# Root-anchored ignores (a bare "data/" would swallow any package named data/)
+/data/
+/artifacts/
+/.venv/
+.venv/
+node_modules/
+.env
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+.DS_Store
