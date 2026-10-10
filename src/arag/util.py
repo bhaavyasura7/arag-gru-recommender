@@ -42,6 +42,13 @@ def read_json(path: str | Path):
         return json.load(fh)
 
 
+def write_text(path: str | Path, text: str) -> None:
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write(text)
+
+
 def setup_logging(name: str = "arag", level: int = logging.INFO) -> logging.Logger:
     logger = logging.getLogger(name)
     if not logger.handlers:
