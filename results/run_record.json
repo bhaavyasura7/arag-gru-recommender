@@ -1,0 +1,197 @@
+{
+  "git_commit": "428105ef680a738a3d1bfb5139e3a1170032e75a",
+  "model": "gpt-4o-mini",
+  "provider": "openai",
+  "category": "Video_Games",
+  "seed": 42,
+  "elapsed_s": 135.99969291687012,
+  "manifest": {
+    "dataset_id": "McAuley-Lab/Amazon-Reviews-2023",
+    "category": "Video_Games",
+    "files": {
+      "Video_Games.train.csv": {
+        "remote": "benchmark/5core/last_out/Video_Games.train.csv",
+        "sha256": "abe955af35f547bf3f1457243ed9aa2747b89f8212b6851600dd89f29e2481c2",
+        "size_bytes": 36251811
+      },
+      "Video_Games.valid.csv": {
+        "remote": "benchmark/5core/last_out/Video_Games.valid.csv",
+        "sha256": "a4d270bb97f910ed993a6e0bd58173d4c977e0ed229278e20eb1cd7c68ce1268",
+        "size_bytes": 5496128
+      },
+      "Video_Games.test.csv": {
+        "remote": "benchmark/5core/last_out/Video_Games.test.csv",
+        "sha256": "88a7653b41d20e41c3ccb2424d88b6982c5e2a666dd94c4c391b9cce91e96af3",
+        "size_bytes": 5496186
+      },
+      "meta_Video_Games.jsonl": {
+        "remote": "raw/meta_categories/meta_Video_Games.jsonl",
+        "sha256": "3ad94dfaa8dfed23c5f420aa9ddec415d00f2b8ec9f2d796f487b4b2c4d256de",
+        "size_bytes": 437375785
+      }
+    },
+    "download_date": "2026-10-10T16:22:08.903095+00:00",
+    "rows": {
+      "interactions": 814586,
+      "items": 137269,
+      "items_with_text": 137260,
+      "users": 94762,
+      "interacted_items_without_metadata": 0,
+      "interactions_train": 625062,
+      "interactions_valid": 94762,
+      "interactions_test": 94762
+    }
+  },
+  "config": {
+    "paths": {
+      "data_raw": "data/raw",
+      "data_processed": "data/processed",
+      "artifacts": "artifacts",
+      "lists": "artifacts/lists",
+      "gru": "artifacts/gru",
+      "faiss": "artifacts/faiss",
+      "llm_cache": "artifacts/llm_cache",
+      "predictions": "artifacts/predictions",
+      "app_db": "artifacts/app.db",
+      "results": "results",
+      "predictions_csv": "results/predictions",
+      "prompts": "configs/prompts"
+    },
+    "dataset": {
+      "id": "McAuley-Lab/Amazon-Reviews-2023",
+      "category": "Video_Games",
+      "fallback_category": "All_Beauty",
+      "benchmark_split": "benchmark/5core/last_out",
+      "meta_path": "raw/meta_categories",
+      "benchmark_files": {
+        "train": "benchmark/5core/last_out/{category}.train.csv",
+        "valid": "benchmark/5core/last_out/{category}.valid.csv",
+        "test": "benchmark/5core/last_out/{category}.test.csv"
+      },
+      "meta_file": "raw/meta_categories/meta_{category}.jsonl",
+      "columns": {
+        "user": "user_id",
+        "item": "parent_asin",
+        "rating": "rating",
+        "timestamp": "timestamp"
+      }
+    },
+    "splits": {
+      "max_history_train": 50,
+      "session_context": 5,
+      "long_term_context": 50,
+      "item_text_words": 120
+    },
+    "sampling": {
+      "seed": 42,
+      "n_validation_users": 100,
+      "n_test_users": 100,
+      "n_negatives": 19,
+      "candidate_list_size": 20
+    },
+    "llm": {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "ollama": {
+        "base_url": "http://localhost:11434/v1",
+        "api_key": "ollama",
+        "enable_thinking": false
+      },
+      "openai": {
+        "base_url": "https://api.openai.com/v1",
+        "api_key_env": "OPENAI_API_KEY"
+      },
+      "temperature": 0,
+      "timeout_s": 60,
+      "max_retries": 3,
+      "concurrency": 8,
+      "schema_retry": 1
+    },
+    "agents": {
+      "nli_items_per_call": 5,
+      "theta_grid": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "theta_default": 6,
+      "csa_max_words": 200,
+      "uua_max_words": 120
+    },
+    "embedding": {
+      "model": "all-MiniLM-L6-v2",
+      "dimension": 384
+    },
+    "gru": {
+      "embedding_dim": 64,
+      "hidden_grid": [
+        64,
+        128
+      ],
+      "dropout_grid": [
+        0.2,
+        0.5
+      ],
+      "dropout": 0.2,
+      "lr": 0.001,
+      "batch_size": 256,
+      "max_epochs": 12,
+      "patience": 3,
+      "seq_len": 50,
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "max_train_users": 0
+    },
+    "fusion": {
+      "alpha_grid": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "val_alpha_scope": "validation"
+    },
+    "retrieval": {
+      "faiss_topk": 50,
+      "recall_ks": [
+        20,
+        50,
+        100
+      ]
+    },
+    "eval": {
+      "bootstrap_resamples": 10000,
+      "primary_ks": [
+        5,
+        10
+      ],
+      "metrics": [
+        "hit@5",
+        "ndcg@5",
+        "hit@10",
+        "ndcg@10",
+        "mrr"
+      ]
+    },
+    "budget": {
+      "max_usd": 5.0,
+      "prices": {
+        "input_per_1m": 0.15,
+        "output_per_1m": 0.6
+      }
+    }
+  },
+  "llm_cost_usd": 0.9853,
+  "llm_calls": 2405
+}

@@ -1,0 +1,7 @@
+{
+  "cost_usd": 0.9853,
+  "cache_entries": 2405,
+  "prompt_tokens": 4886695,
+  "completion_tokens": 420439,
+  "note": "total cost of all unique cached LLM calls (gpt-4o-mini prices); re-runs with cache are $0"
+}
