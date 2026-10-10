@@ -15,7 +15,7 @@ class StubService(RecommenderService):
         return {"db": True, "faiss": False, "gru": False, "llm_key": True, "model": self.cfg.llm_model}
 
     def _rank(self, user_id, history_df, candidate_ids):
-        return list(candidate_ids), {}
+        return list(candidate_ids), {}, None
 
     def _retrieve_feed(self, conn, user_id, history, k=50):
         ids = [r["item_id"] for r in conn.execute("SELECT item_id FROM items").fetchall()]
@@ -28,7 +28,7 @@ class StubService(RecommenderService):
     def _parse_query(self, query):
         return {"query": query, "keywords": query.split(), "max_price": None, "exclude_terms": []}
 
-    def _render_items(self, item_ids, reasons):
+    def _render_items(self, item_ids, reasons, scores=None):
         conn = repo.connect(self.db_path)
         try:
             rows = {r["item_id"]: dict(r) for r in conn.execute("SELECT * FROM items").fetchall()}
@@ -47,6 +47,17 @@ class StubService(RecommenderService):
                 "score": 0.0,
             })
         return out
+
+    def _store_run(self, conn, user_id, session_id, kind, request_json, page_ids, reasons, scores, trace):
+        run_id = repo.create_run(
+            conn, user_id, session_id, kind, request_json,
+            {"alpha": self.alpha, "theta": self.theta}, trace=None,
+        )
+        repo.add_rec_items(conn, run_id, [
+            {"item_id": iid, "rank": i + 1, "score": 0.0, "reason": {"reason": reasons.get(iid, ""), "evidence": ""}}
+            for i, iid in enumerate(page_ids)
+        ])
+        return run_id
 
 
 @pytest.fixture()

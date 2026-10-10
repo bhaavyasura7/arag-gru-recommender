@@ -57,6 +57,7 @@ CREATE TABLE IF NOT EXISTS rec_runs (
   kind TEXT,
   request_json TEXT,
   config_json TEXT,
+  trace_json TEXT,
   created_at TEXT
 );
 CREATE TABLE IF NOT EXISTS rec_items (
@@ -81,5 +82,12 @@ def init_db(db_path: str | Path) -> sqlite3.Connection:
     Path(db_path).parent.mkdir(parents=True, exist_ok=True)
     conn = connect(db_path)
     conn.executescript(SCHEMA)
+    _migrate(conn)
     conn.commit()
     return conn
+
+
+def _migrate(conn: sqlite3.Connection) -> None:
+    cols = {row[1] for row in conn.execute("PRAGMA table_info(rec_runs)")}
+    if "trace_json" not in cols:
+        conn.execute("ALTER TABLE rec_runs ADD COLUMN trace_json TEXT")

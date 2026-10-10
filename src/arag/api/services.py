@@ -12,6 +12,8 @@ import pandas as pd
 
 from arag import util
 from arag.agents.arag import run_user_async
+from arag.agents.context import build_context
+from arag.agents.uua import run_uua
 from arag.config import get_config
 from arag.llm.client import LLMClient
 from arag.memory import repo
@@ -40,9 +42,10 @@ class RecommenderService:
         self._emb_ids = None
         self._emb_matrix = None
         self._items_df = None
-        self._item_text = None
+        self._items_index = None
         self.alpha = self._load_alpha()
         self.theta = 6
+        self._theta_and_alpha_from_results()
 
     # -- lazy resources ---------------------------------------------------
     def _load_alpha(self) -> float:
@@ -53,6 +56,16 @@ class RecommenderService:
             except Exception:
                 return 0.5
         return 0.5
+
+    def _theta_and_alpha_from_results(self) -> None:
+        p = self.cfg.path("results") / "metrics.json"
+        if p.exists():
+            try:
+                m = util.read_json(p)
+                self.theta = int(m.get("best_theta", 6))
+                self.alpha = float(m.get("best_alpha", 0.5))
+            except Exception:
+                pass
 
     def _gru_model(self) -> GRUScorer:
         if self._gru is None:
@@ -77,7 +90,14 @@ class RecommenderService:
     def _items(self) -> pd.DataFrame:
         if self._items_df is None:
             self._items_df = pd.read_parquet(self.cfg.path("data_processed") / "items.parquet")
+            self._items_index = self._items_df.set_index("item_id")
         return self._items_df
+
+    def _item_row(self, item_id: str):
+        self._items()
+        if item_id in self._items_index.index:
+            return self._items_index.loc[item_id]
+        return None
 
     # -- helpers ----------------------------------------------------------
     def _history_df(self, conn, user_id: str) -> pd.DataFrame:
@@ -94,17 +114,63 @@ class RecommenderService:
         ).fillna({"title": "", "main_category": "", "rating": 0.0})
 
     def _candidate_items(self, item_ids: list[str]) -> list[dict]:
-        items = self._items().set_index("item_id")
         out = []
         for iid in item_ids:
-            if iid in items.index:
-                row = items.loc[iid]
-                out.append({"item_id": iid, "title": str(row["title"]), "text": str(row["text"])})
-            else:
-                out.append({"item_id": iid, "title": "", "text": ""})
+            row = self._item_row(iid)
+            out.append(
+                {
+                    "item_id": iid,
+                    "title": str(row["title"]) if row is not None else "",
+                    "text": str(row["text"]) if row is not None else "",
+                }
+            )
         return out
 
-    def _rank(self, user_id: str, history_df: pd.DataFrame, candidate_ids: list[str]) -> tuple[list[str], dict]:
+    def _fused_scores(self, fused: list[str]) -> dict[str, float]:
+        n = len(fused)
+        if n <= 1:
+            return {iid: 1.0 for iid in fused}
+        return {iid: 1.0 - i / (n - 1) for i, iid in enumerate(fused)}
+
+    def _trace_dict(self, trace, kind: str) -> dict:
+        def title_of(iid):
+            row = self._item_row(iid)
+            return str(row["title"]) if row is not None else iid
+
+        nli = []
+        if trace.nli:
+            for iid, d in sorted(trace.nli.items.items(), key=lambda kv: -kv[1]["score"]):
+                nli.append(
+                    {
+                        "item_id": iid,
+                        "title": title_of(iid),
+                        "label": d["label"],
+                        "score": d["score"],
+                        "rationale": d.get("rationale", ""),
+                        "accepted": d["score"] >= self.theta,
+                    }
+                )
+        return {
+            "kind": kind,
+            "alpha": self.alpha,
+            "theta": self.theta,
+            "user_understanding": trace.s_user_text,
+            "nli": nli,
+            "nli_missing": trace.nli.nli_missing if trace.nli else 0,
+            "nli_reasked": trace.nli.reasked if trace.nli else False,
+            "context_summary": trace.s_ctx_text,
+            "csa_empty_fallback": trace.csa_empty_fallback,
+            "final_ranking": [{"item_id": iid, "title": title_of(iid)} for iid in trace.final_ranking],
+            "reasons": trace.reasons,
+            "fallbacks": trace.fallbacks,
+            "repairs": {
+                "unknown": trace.repairs.unknown,
+                "duplicate": trace.repairs.duplicate,
+                "missing": trace.repairs.missing,
+            },
+        }
+
+    def _rank(self, user_id: str, history_df: pd.DataFrame, candidate_ids: list[str]):
         cand_items = self._candidate_items(candidate_ids)
         trace = asyncio.run(
             run_user_async(self.client, self.cfg, user_id, history_df, cand_items, self.theta)
@@ -113,16 +179,49 @@ class RecommenderService:
         gru_rank = self._gru_model().rank(hist_ids, candidate_ids)
         nli_scores = trace.nli.scores() if trace.nli else None
         fused = fuse(candidate_ids, trace.final_ranking, gru_rank, self.alpha, nli_scores)
-        reasons = trace.reasons
-        return fused, reasons
+        return fused, trace.reasons, trace
+
+    def _render_items(self, item_ids: list[str], reasons: dict, scores: dict) -> list[dict]:
+        out = []
+        for iid in item_ids:
+            row = self._item_row(iid)
+            out.append(
+                {
+                    "item_id": iid,
+                    "title": str(row["title"]) if row is not None else iid,
+                    "category": str(row["main_category"]) if row is not None else "",
+                    "price": float(row["price"]) if row is not None and pd.notna(row.get("price")) else None,
+                    "reason": reasons.get(iid, ""),
+                    "evidence": evidence_snippet(str(row["text"])) if row is not None else "",
+                    "score": float(scores.get(iid, 0.0)),
+                }
+            )
+        return out
+
+    def _store_run(self, conn, user_id, session_id, kind, request_json, page_ids, reasons, scores, trace):
+        run_id = repo.create_run(
+            conn, user_id, session_id, kind, request_json,
+            {"alpha": self.alpha, "theta": self.theta},
+            trace=self._trace_dict(trace, kind) if trace is not None else None,
+        )
+        rec_items = []
+        for i, iid in enumerate(page_ids):
+            row = self._item_row(iid)
+            text = str(row["text"]) if row is not None else ""
+            rec_items.append(
+                {
+                    "item_id": iid,
+                    "rank": i + 1,
+                    "score": float(scores.get(iid, 0.0)),
+                    "reason": {"reason": reasons.get(iid, ""), "evidence": evidence_snippet(text)},
+                }
+            )
+        repo.add_rec_items(conn, run_id, rec_items)
+        return run_id
 
     # -- public API -------------------------------------------------------
     def preload(self) -> None:
-        """Eagerly load heavy resources in the main thread before serving requests.
-
-        Loading torch/sentence-transformers lazily inside a request thread can crash
-        the process with an OMP pthread error.
-        """
+        """Eagerly load heavy resources in the main thread before serving requests."""
         self._items()
         for loader in (self._embedder_model, self._faiss, self._gru_model):
             try:
@@ -149,6 +248,13 @@ class RecommenderService:
         finally:
             conn.close()
 
+    def history(self, user_id: str, limit: int = 30) -> list[dict]:
+        conn = repo.connect(self.db_path)
+        try:
+            return repo.get_history(conn, user_id, limit)
+        finally:
+            conn.close()
+
     def create_session(self, user_id: str, session_id: str | None = None) -> dict:
         conn = repo.connect(self.db_path)
         try:
@@ -172,20 +278,16 @@ class RecommenderService:
             self._check_session(conn, session_id, user_id)
             history = self._history_df(conn, user_id)
             candidate_ids = self._retrieve_feed(conn, user_id, history)
-            fused, reasons = self._rank(user_id, history, candidate_ids)
-
+            if not candidate_ids:
+                return {"run_id": "", "user_id": user_id, "page": page, "page_size": page_size, "items": []}
+            fused, reasons, trace = self._rank(user_id, history, candidate_ids)
+            scores = self._fused_scores(fused)
             start = page * page_size
             page_ids = fused[start : start + page_size]
-            items = self._render_items(page_ids, reasons)
-
-            run_id = repo.create_run(
-                conn, user_id, session_id, "feed",
-                {"page": page, "page_size": page_size}, {"alpha": self.alpha},
-            )
-            repo.add_rec_items(conn, run_id, [
-                {"item_id": iid, "rank": i, "score": 0.0, "reason": {}}
-                for i, iid in enumerate(page_ids, start=1)
-            ])
+            items = self._render_items(page_ids, reasons, scores)
+            run_id = self._store_run(conn, user_id, session_id, "feed",
+                                     {"page": page, "page_size": page_size},
+                                     page_ids, reasons, scores, trace)
             return {"run_id": run_id, "user_id": user_id, "page": page, "page_size": page_size, "items": items}
         finally:
             conn.close()
@@ -204,23 +306,20 @@ class RecommenderService:
         return out
 
     def _retrieve_feed(self, conn, user_id: str, history: pd.DataFrame, k: int = 50) -> list[str]:
-        import faiss
         ids = []
-        # FAISS on user-context embedding
         titles = " ".join(history["title"].astype(str).tolist()[-20:])
         if titles.strip():
             emb = self._embedder_model().encode([titles], normalize_embeddings=True).astype(np.float32)
             idx = self._faiss()
             _, I = idx.search(emb, k)
             ids.extend(self._emb_ids[I[0]].tolist())
-        # GRU top-k over in-vocab items
         gru = self._gru_model()
         hist_ids = history["item_id"].astype(str).tolist()
         if hist_ids:
             h_u = gru.user_vector(hist_ids)
             import torch
             with torch.no_grad():
-                logits = h_u @ gru.model.embedding.weight.T  # vocab
+                logits = h_u @ gru.model.embedding.weight.T
                 topk = torch.topk(logits, k).indices.tolist()
             idx2item = {v: kk for kk, v in gru.item2idx.items()}
             for t in topk:
@@ -237,14 +336,13 @@ class RecommenderService:
             candidate_ids = self._retrieve_search(conn, user_id, q, filters)
             if not candidate_ids:
                 return {"run_id": "", "items": []}
-            fused, reasons = self._rank(user_id, history, candidate_ids[:20])
-            items = self._render_items(fused[:limit], reasons)
-            run_id = repo.create_run(conn, user_id, session_id, "search",
-                                     {"query": query, "filters": filters}, {"alpha": self.alpha})
-            repo.add_rec_items(conn, run_id, [
-                {"item_id": iid, "rank": i, "score": 0.0, "reason": {}}
-                for i, iid in enumerate(fused[:limit], start=1)
-            ])
+            fused, reasons, trace = self._rank(user_id, history, candidate_ids[:20])
+            scores = self._fused_scores(fused)
+            top = fused[:limit]
+            items = self._render_items(top, reasons, scores)
+            run_id = self._store_run(conn, user_id, session_id, "search",
+                                     {"query": query, "filters": filters, "limit": limit},
+                                     top, reasons, scores, trace)
             return {"run_id": run_id, "items": items}
         finally:
             conn.close()
@@ -268,38 +366,19 @@ class RecommenderService:
     def _retrieve_search(self, conn, user_id: str, q: dict, filters: dict | None, k: int = 50) -> list[str]:
         items = self._items()
         mask = items["has_text"].astype(bool)
-        if q.get("max_price") is not None or (filters and filters.get("max_price")):
-            mx = q.get("max_price") or (filters or {}).get("max_price")
+        mx = q.get("max_price") or (filters or {}).get("max_price")
+        if mx is not None:
             mask &= items["price"].fillna(float("inf")) <= mx
         for term in q.get("exclude_terms", []):
             mask &= ~items["text"].str.contains(term, case=False, na=False)
-        eligible = items[mask]
-        emb = self._embedder_model().encode([q.get("query", " ".join(q["keywords"]))], normalize_embeddings=True).astype(np.float32)
+        eligible = set(items.loc[mask, "item_id"].astype(str))
+        emb = self._embedder_model().encode(
+            [q.get("query", " ".join(q["keywords"]))], normalize_embeddings=True
+        ).astype(np.float32)
         idx = self._faiss()
-        # search over all embeddings, then restrict to eligible ids
         _, I = idx.search(emb, k * 5)
-        candidate_ids = [iid for iid in self._emb_ids[I[0]].tolist() if iid in set(eligible["item_id"].astype(str))]
+        candidate_ids = [iid for iid in self._emb_ids[I[0]].tolist() if iid in eligible]
         return self._filter_candidates(conn, user_id, candidate_ids, k)
-
-    def _render_items(self, item_ids: list[str], reasons: dict) -> list[dict]:
-        items = self._items().set_index("item_id")
-        out = []
-        for iid in item_ids:
-            row = items.loc[iid] if iid in items.index else None
-            title = str(row["title"]) if row is not None else iid
-            text = str(row["text"]) if row is not None else ""
-            cat = str(row["main_category"]) if row is not None else ""
-            price = float(row["price"]) if row is not None and pd.notna(row.get("price")) else None
-            out.append({
-                "item_id": iid,
-                "title": title,
-                "category": cat,
-                "price": price,
-                "reason": reasons.get(iid, ""),
-                "evidence": evidence_snippet(text),
-                "score": 0.0,
-            })
-        return out
 
     def feedback(self, user_id: str, session_id: str, item_id: str, event_type: str) -> None:
         conn = repo.connect(self.db_path)
@@ -324,20 +403,29 @@ class RecommenderService:
         finally:
             conn.close()
 
-    def regenerate_profile(self, user_id: str) -> dict:
+    def generate_profile(self, user_id: str) -> dict:
         conn = repo.connect(self.db_path)
         try:
             history = self._history_df(conn, user_id)
-            from arag.agents.context import build_context
-            from arag.agents.uua import run_uua
-            c_st, c_lt = build_context(history, 5, 50)
+            c_st, c_lt = build_context(
+                history,
+                self.cfg.get("splits.session_context", 5),
+                self.cfg.get("splits.long_term_context", 50),
+            )
             uua, _ = run_uua(self.client, self.cfg, c_lt, c_st)
-            profile = uua.model_dump()
-            event_ids = [str(e["event_id"]) for e in conn.execute(
-                "SELECT event_id FROM interactions WHERE user_id=?", (user_id,)
-            ).fetchall()]
-            provenance = {"event_ids_used": event_ids, "model": self.cfg.llm_model}
-            repo.save_profile(conn, user_id, profile, provenance, 1)
+            event_ids = [
+                int(e["event_id"]) for e in conn.execute(
+                    "SELECT event_id FROM interactions WHERE user_id=?", (user_id,)
+                ).fetchall()
+            ]
+            prev = repo.get_profile(conn, user_id)
+            version = (prev["version"] + 1) if prev else 1
+            provenance = {
+                "model": self.cfg.llm_model,
+                "events_used": len(event_ids),
+                "event_ids": event_ids[-50:],
+            }
+            repo.save_profile(conn, user_id, uua.model_dump(), provenance, version)
             return repo.get_profile(conn, user_id)
         finally:
             conn.close()
@@ -353,7 +441,6 @@ class RecommenderService:
         run = self.get_run(run_id)
         if run is None:
             raise KeyError("run not found")
-        # replay re-executes the request through the (cached) pipeline
         req = run["request_json"]
         if run["kind"] == "feed":
             return self.feed(run["user_id"], run["session_id"], req.get("page", 0), req.get("page_size", 10))

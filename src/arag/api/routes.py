@@ -76,11 +76,31 @@ def feedback(request: Request, body: FeedbackRequest):
         raise HTTPException(status_code=403, detail=str(e))
 
 
+@router.get("/users/{user_id}/history")
+def history(request: Request, user_id: str, limit: int = Query(30, ge=1, le=100)):
+    return {"user_id": user_id, "items": _service(request).history(user_id, limit)}
+
+
 @router.get("/users/{user_id}/profile", response_model=ProfileResponse)
 def get_profile(request: Request, user_id: str):
     p = _service(request).get_profile(user_id)
     if p is None:
         raise HTTPException(status_code=404, detail="no profile")
+    return {
+        "user_id": user_id,
+        "profile": p["profile_json"],
+        "provenance": p["provenance_json"],
+        "version": p["version"],
+        "updated_at": p["updated_at"],
+    }
+
+
+@router.post("/users/{user_id}/profile", response_model=ProfileResponse)
+def generate_profile(request: Request, user_id: str):
+    try:
+        p = _service(request).generate_profile(user_id)
+    except KeyError as e:
+        raise HTTPException(status_code=404, detail=str(e))
     return {
         "user_id": user_id,
         "profile": p["profile_json"],

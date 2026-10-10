@@ -159,12 +159,14 @@ def count_app_events(conn: sqlite3.Connection, user_id: str) -> int:
 
 
 def create_run(conn: sqlite3.Connection, user_id: str, session_id: str, kind: str,
-               request_json: dict, config_json: dict) -> str:
+               request_json: dict, config_json: dict, trace: dict | None = None) -> str:
     run_id = uuid.uuid4().hex
     conn.execute(
-        "INSERT INTO rec_runs (run_id, user_id, session_id, kind, request_json, config_json, created_at) VALUES (?,?,?,?,?,?,?)",
-        (run_id, user_id, session_id, kind, json.dumps(request_json), json.dumps(config_json), _now_iso()),
+        "INSERT INTO rec_runs (run_id, user_id, session_id, kind, request_json, config_json, trace_json, created_at) VALUES (?,?,?,?,?,?,?,?)",
+        (run_id, user_id, session_id, kind, json.dumps(request_json), json.dumps(config_json),
+         json.dumps(trace) if trace is not None else None, _now_iso()),
     )
+    conn.commit()
     return run_id
 
 
@@ -184,6 +186,7 @@ def get_run(conn: sqlite3.Connection, run_id: str) -> dict | None:
     d = dict(row)
     d["request_json"] = json.loads(d["request_json"])
     d["config_json"] = json.loads(d["config_json"])
+    d["trace"] = json.loads(d["trace_json"]) if d.get("trace_json") else None
     d["items"] = [
         dict(r) for r in conn.execute(
             "SELECT * FROM rec_items WHERE run_id=? ORDER BY rank", (run_id,)
@@ -192,3 +195,14 @@ def get_run(conn: sqlite3.Connection, run_id: str) -> dict | None:
     for it in d["items"]:
         it["reason"] = json.loads(it["reason_json"])
     return d
+
+
+def get_history(conn: sqlite3.Connection, user_id: str, limit: int = 30) -> list[dict]:
+    rows = conn.execute(
+        """SELECT i.event_id, i.item_id, i.ts, i.event_type, i.rating, i.source,
+                  it.title, it.main_category, it.price
+           FROM interactions i LEFT JOIN items it ON i.item_id = it.item_id
+           WHERE i.user_id = ? ORDER BY i.ts DESC, i.item_id LIMIT ?""",
+        (user_id, limit),
+    ).fetchall()
+    return [dict(r) for r in rows]
