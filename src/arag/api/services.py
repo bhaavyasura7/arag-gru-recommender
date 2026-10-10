@@ -117,6 +117,19 @@ class RecommenderService:
         return fused, reasons
 
     # -- public API -------------------------------------------------------
+    def preload(self) -> None:
+        """Eagerly load heavy resources in the main thread before serving requests.
+
+        Loading torch/sentence-transformers lazily inside a request thread can crash
+        the process with an OMP pthread error.
+        """
+        self._items()
+        for loader in (self._embedder_model, self._faiss, self._gru_model):
+            try:
+                loader()
+            except Exception:
+                pass
+
     def health(self) -> dict:
         gru_ok = (self.cfg.path("gru") / "0" / "model.pt").exists()
         faiss_ok = (self.cfg.path("faiss") / "index.faiss").exists()

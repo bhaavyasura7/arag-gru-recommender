@@ -36,11 +36,18 @@ def create_app(service: RecommenderService | None = None, db_path: str | None = 
 
 
 def main() -> None:
+    import os
+
+    os.environ.setdefault("OMP_NUM_THREADS", "1")
+    os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
+
     logger = util.setup_logging("arag.api.app")
     cfg = get_config()
     db_path = cfg.path("app_db")
 
     conn = repo.connect(db_path)
+    from arag.memory.db import init_db
+    init_db(db_path)  # ensure schema exists
     has_users = conn.execute("SELECT COUNT(*) AS c FROM users").fetchone()["c"] > 0
     conn.close()
     if not has_users:
@@ -50,6 +57,8 @@ def main() -> None:
         logger.info("DB already seeded (%s)", db_path)
 
     service = RecommenderService(cfg, db_path)
+    logger.info("preloading models (this may take ~20s) ...")
+    service.preload()
     app = create_app(service=service, db_path=str(db_path))
 
     import uvicorn
