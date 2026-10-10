@@ -99,9 +99,13 @@ def main() -> None:
         f"**θ*:** {m['best_theta']}  **α*:** {m['best_alpha']}  ",
         f"**LLM cost:** ${cost['cost_usd']:.4f}  **Last run elapsed:** {m['elapsed_s']/60:.1f} min",
         "",
-        "## Main results (test users)",
+        f"## Main results ({m.get('n_test_users_sampled', 100)} sampled test users, all systems)",
         "",
         _fmt_table(metrics),
+        "",
+        f"## Non-LLM systems on all {m.get('n_test_users_all', '')} test users",
+        "",
+        _fmt_table(m.get("metrics_all_users", {})),
         "",
         "## Conclusions (computed)",
         "",
@@ -111,19 +115,28 @@ def main() -> None:
         "",
         "- Leave-last-out means other users' later interactions can appear in GRU training.",
         "- 100 test users ⇒ wide CIs (roughly ±10 points on Hit@5).",
-        "- Uniform negatives are easier than real retrieval; not an exact paper reproduction.",
+        "- Sampled negatives are easier than real retrieval candidates; not an exact paper reproduction.",
         f"- {provider_note}",
         "",
         "## Protocol",
         "",
-        "Frozen 20-item candidate lists (target + 19 uniform negatives) shared by all systems. ",
+        f"Frozen 20-item candidate lists (target + {cfg.get('sampling.n_negatives', 19)} negatives) shared by all systems. ",
+        f"Negatives: {_negatives_desc(cfg.get('sampling.negative_sampling', 'popularity'))}. ",
         "θ tuned on validation NDCG@5 over {4,5,6,7}; α tuned on validation NDCG@5 over [0,1]. ",
-        "Non-LLM systems (Random, Popularity, GRU) reported on all test users; LLM systems on 100 sampled test users. ",
+        "The main table and all significance tests use the same sampled test users for every system; "
+        "non-LLM systems are additionally reported on all test users. ",
         "Paired-bootstrap 95% CIs (10,000 resamples).",
         "",
     ]
     util.write_text(results_dir / "report.md", "\n".join(r))
     logger.info("report artifacts written")
+
+
+def _negatives_desc(strategy: str) -> str:
+    if strategy == "popularity":
+        return ("sampled from items with train interactions, proportional to train "
+                "interaction count, excluding anything the user interacted with")
+    return "sampled uniformly from items with train interactions, excluding anything the user interacted with"
 
 
 def _fmt_table(metrics: dict) -> str:
