@@ -24,6 +24,7 @@ from arag.models.gru import GRU4Rec, load_text_feats, save_model
 
 PAD = 0
 OOV = 1
+MAX_LOGIT_ELEMS = 250_000_000  # ~1 GB of float32 logits per part (larger parts thrash 16 GB unified memory)
 
 
 def build_vocab(train_item_ids) -> tuple[dict[str, int], dict[int, str]]:
@@ -109,14 +110,35 @@ def train_model(
             # a position is trained iff it has a real next item (same as masking full logits,
             # but logits are only materialised for those positions: far less memory)
             mask = (x_in != PAD) & (y != PAD)
-            out = model.step_outputs(x_in, lengths)[mask]  # (n_valid, emb)
-            logits = F.linear(out, model.all_item_emb())  # (n_valid, vocab)
-            loss = F.cross_entropy(logits, y[mask])
             n_valid = int(mask.sum().item())
             opt.zero_grad()
-            loss.backward()
+            # Split the batch by users when its logit matrix (n_valid x vocab) would exceed
+            # MAX_LOGIT_ELEMS (a GPU buffer limit on large vocabularies). Each part contributes
+            # sum-CE / n_valid, so the accumulated gradient equals the full-batch mean-CE gradient.
+            vocab = model.vocab_size
+            per_row = mask.sum(dim=1).tolist()
+            parts, cur, acc = [], [], 0
+            for r, k in enumerate(per_row):
+                if cur and (acc + k) * vocab > MAX_LOGIT_ELEMS:
+                    parts.append(cur)
+                    cur, acc = [], 0
+                cur.append(r)
+                acc += k
+            parts.append(cur)
+            batch_loss = 0.0
+            for rows in parts:
+                if len(parts) == 1:
+                    xs, ys, ls, ms = x_in, y, lengths, mask
+                else:
+                    sel = torch.tensor(rows, device=dev)
+                    xs, ys, ls, ms = x_in[sel], y[sel], lengths[sel], mask[sel]
+                out = model.step_outputs(xs, ls)[ms]  # (n_part, emb)
+                logits = F.linear(out, model.all_item_emb())  # (n_part, vocab)
+                loss = F.cross_entropy(logits, ys[ms], reduction="sum") / n_valid
+                loss.backward()
+                batch_loss += float(loss.item())
             opt.step()
-            total_loss += float(loss.item()) * n_valid
+            total_loss += batch_loss * n_valid
             nb += n_valid
 
         val_ndcg = evaluate(model, val_data, seq_len=seq_len)
