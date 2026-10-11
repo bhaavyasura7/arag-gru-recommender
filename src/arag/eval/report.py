@@ -97,7 +97,9 @@ def main() -> None:
         f"**Model:** {cfg.llm_model} ({cfg.llm_provider})  ",
         f"**Category:** {manifest.get('category')}  ",
         f"**θ*:** {m['best_theta']}  **α*:** {m['best_alpha']}  ",
-        f"**LLM cost:** ${cost['cost_usd']:.4f}  **Last run elapsed:** {m['elapsed_s']/60:.1f} min",
+        f"**LLM cost:** ${_full_cost(cfg, cost):.4f} for all calls in this evaluation "
+        f"(paid in the last run: ${cost['cost_usd']:.4f}; the rest came from the cache)  ",
+        f"**Last run elapsed:** {m['elapsed_s']/60:.1f} min",
         "",
         f"## Main results ({m.get('n_test_users_sampled', 100)} sampled test users, all systems)",
         "",
@@ -130,6 +132,15 @@ def main() -> None:
     ]
     util.write_text(results_dir / "report.md", "\n".join(r))
     logger.info("report artifacts written")
+
+
+def _full_cost(cfg, cost: dict) -> float:
+    """Price every token used by this evaluation, cached or not (0 for local models)."""
+    if cfg.llm_provider != "openai":
+        return 0.0
+    tokens = cost.get("tokens", {})
+    return (tokens.get("prompt", 0) * cfg.get("budget.prices.input_per_1m", 0.15)
+            + tokens.get("completion", 0) * cfg.get("budget.prices.output_per_1m", 0.60)) / 1e6
 
 
 def _negatives_desc(strategy: str) -> str:
