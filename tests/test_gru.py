@@ -69,3 +69,37 @@ def test_gru_beats_random_on_toy_sequence():
     ndcg = evaluate(model, val)
     # perfect successor prediction -> rank 1 -> NDCG@5 = 1.0; random ~0.25
     assert ndcg > 0.5, f"expected GRU to learn the toy sequence, got NDCG@5={ndcg}"
+
+
+def _text_dir(tmp_path, item2idx, dim=6):
+    d = tmp_path / "faiss"
+    d.mkdir()
+    ids = np.array(list(item2idx), dtype=object)
+    rng = np.random.default_rng(0)
+    np.save(d / "item_ids.npy", ids, allow_pickle=True)
+    np.save(d / "item_embeddings.npy", rng.normal(size=(len(ids), dim)).astype(np.float32))
+    return d
+
+
+def test_text_gru_padding_and_save_load(tmp_path):
+    from arag.models.gru import load_text_feats
+
+    item2idx = {f"i{k}": k for k in range(2, 20)}
+    d = _text_dir(tmp_path, item2idx)
+    feats = load_text_feats(d, item2idx)
+    assert feats.shape == (20, 6)
+    assert torch.all(feats[0] == 0) and torch.all(feats[1] == 0)  # pad / OOV
+
+    torch.manual_seed(2)
+    m = GRU4Rec(vocab_size=20, emb_dim=8, hidden=16, text_feats=feats)
+    m.eval()
+    with torch.no_grad():
+        assert torch.allclose(m.encode(torch.tensor([[2, 3, 4]])), m.encode(torch.tensor([[2, 3, 4, 0]])), atol=1e-6)
+    assert "text_feats" not in m.state_dict()  # frozen features are reloaded, not saved
+
+    save_model(tmp_path / "m", m, item2idx, {"emb_dim": 8, "hidden": 16, "dropout": 0.2, "text_feats_dir": str(d)})
+    m2, _, _ = load_model(tmp_path / "m")
+    x = torch.tensor([[2, 3, 4]])
+    with torch.no_grad():
+        assert torch.allclose(m.encode(x), m2.encode(x), atol=1e-6)
+        assert torch.allclose(m.all_item_emb()[5], m2.item_emb(torch.tensor(5)), atol=1e-6)

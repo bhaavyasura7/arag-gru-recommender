@@ -19,12 +19,18 @@ uncached call fails instead of costing money.
    Result (all 94,762 test users, NDCG@5): content 0.411, itemknn 0.406, gru_seed0 0.287.
    100-user table: content 0.439 vs ARAG 0.424 (n.s.); arag_content 0.423 (n.s. vs ARAG).
    Run the eval as `REPLAY_ONLY=1 OPENAI_API_KEY=replay-only-dummy make eval` (key never used).
-2. **Text-aware GRU.** In `src/arag/models/gru.py`, add an option to initialise/augment item
-   embeddings with the MiniLM vectors (`artifacts/faiss/item_embeddings.npy`, 384-d → linear
-   projection to 64-d, plus a learned ID embedding). Config flag `gru.text_init`. Train one
-   config + 3 seeds in the background (`make gru`), ~15–20 min per run on CPU. Add as system
-   `gru_text_seed{0,1,2}` alongside the existing GRU, and `arag_gru_text` fusion.
-3. **Re-benchmark.** `REPLAY_ONLY=1 make eval && make report && make verify`; `make test`.
+2. **Done — text-aware GRU.** `GRU4Rec(text_feats=...)`: item vector = ID embedding +
+   linear projection of the frozen MiniLM vector (tied input/output). `make gru-text` trains
+   3 seeds at the best ID-only config (hidden 128, dropout 0.2, same 12-epoch cap) into
+   `artifacts/gru_text/` (~5 min/seed). Training fixes: logits computed only on real
+   (non-padded) positions and validation encoded in chunks capped at seq_len — both were
+   needed to avoid OOM on 16 GB; the loss and the ID-GRU's recorded val score are unchanged.
+   Val NDCG@5 0.476 / 0.473 / 0.477 (ID-only GRU 0.293). Still rising at the epoch cap.
+3. **Done — re-benchmark** ($0 replay, `make verify` OK, original numbers unchanged).
+   All 94,762 test users NDCG@5: gru_text 0.461/0.459/0.463 vs gru 0.287/0.275/0.275,
+   content 0.411, itemknn 0.406. 100 users: gru_text_seed0 0.462, arag_gru_text 0.468
+   (α*=0.3), arag 0.424. Text-GRU vs GRU +0.224 (sig); vs ARAG +0.038 (n.s.);
+   ARAG+text-GRU vs ARAG +0.044 (n.s.), vs text-GRU +0.006 (n.s.).
 4. **Docs.** Targeted edits only: REPORT.md abstract, §5.1 systems, §6 tables, §7 new analysis
    subsection, §12 conclusion, Appendix B; regenerate `docs/figures` via
    `scripts/make_figures.py`; new one-page `docs/OVERVIEW.md` (whole project at a glance).
