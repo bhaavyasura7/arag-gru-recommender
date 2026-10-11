@@ -1,10 +1,10 @@
 {
-  "git_commit": "3e14417dc2a0a9c82fca3792203ab73502407ba3",
+  "git_commit": "34631082d6fb22cbe3588727df284f46f15932a2",
   "model": "gpt-4o-mini",
   "provider": "openai",
   "category": "Video_Games",
   "seed": 42,
-  "elapsed_s": 137.47521901130676,
+  "elapsed_s": 226.94669103622437,
   "manifest": {
     "dataset_id": "McAuley-Lab/Amazon-Reviews-2023",
     "category": "Video_Games",
@@ -146,6 +146,14 @@
         2
       ],
       "max_train_users": 0
+    },
+    "content": {
+      "decay_grid": [
+        0.0,
+        0.3,
+        0.6,
+        1.0
+      ]
     },
     "fusion": {
       "alpha_grid": [

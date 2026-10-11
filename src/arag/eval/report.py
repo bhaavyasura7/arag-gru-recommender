@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt  # noqa: E402
 from arag import util
 from arag.config import get_config
 
-ORDER = ["random", "popularity", "gru_seed0", "recency", "vanilla_rag", "arag", "arag_wo_nli", "arag_wo_nli_csa", "arag_gru"]
+ORDER = ["random", "popularity", "content", "itemknn", "gru_seed0", "recency", "vanilla_rag", "arag", "arag_wo_nli", "arag_wo_nli_csa", "arag_gru", "arag_content"]
 METRIC_ORDER = ["hit@5", "ndcg@5", "hit@10", "ndcg@10", "mrr"]
 
 

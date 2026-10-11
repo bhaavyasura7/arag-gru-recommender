@@ -4,7 +4,7 @@
 **Category:** Video_Games  
 **θ*:** 5  **α*:** 0.9  
 **LLM cost:** $1.1131 for all calls in this evaluation (paid in the last run: $0.0000; the rest came from the cache)  
-**Last run elapsed:** 2.3 min
+**Last run elapsed:** 3.8 min
 
 ## Main results (100 sampled test users, all systems)
 
@@ -12,6 +12,8 @@
 |---|---|---|---|---|---|
 | random | 0.220 | 0.125 | 0.470 | 0.205 | 0.162 |
 | popularity | 0.200 | 0.109 | 0.470 | 0.197 | 0.150 |
+| content | 0.590 | 0.439 | 0.820 | 0.510 | 0.429 |
+| itemknn | 0.540 | 0.399 | 0.670 | 0.442 | 0.392 |
 | gru_seed0 | 0.390 | 0.238 | 0.640 | 0.321 | 0.249 |
 | recency | 0.400 | 0.285 | 0.630 | 0.358 | 0.300 |
 | vanilla_rag | 0.380 | 0.263 | 0.670 | 0.355 | 0.283 |
@@ -19,6 +21,7 @@
 | arag_wo_nli | 0.510 | 0.376 | 0.720 | 0.445 | 0.380 |
 | arag_wo_nli_csa | 0.470 | 0.362 | 0.630 | 0.414 | 0.372 |
 | arag_gru | 0.540 | 0.412 | 0.710 | 0.466 | 0.411 |
+| arag_content | 0.590 | 0.423 | 0.810 | 0.494 | 0.411 |
 
 ## Non-LLM systems on all 94762 test users
 
@@ -26,6 +29,8 @@
 |---|---|---|---|---|---|
 | random | 0.252 | 0.149 | 0.501 | 0.228 | 0.181 |
 | popularity | 0.213 | 0.128 | 0.438 | 0.200 | 0.166 |
+| content | 0.569 | 0.411 | 0.771 | 0.476 | 0.402 |
+| itemknn | 0.519 | 0.406 | 0.642 | 0.445 | 0.406 |
 | gru_seed0 | 0.434 | 0.287 | 0.651 | 0.357 | 0.291 |
 
 ## Conclusions (computed)

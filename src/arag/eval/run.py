@@ -25,6 +25,7 @@ from arag.eval.bootstrap import paired_bootstrap
 from arag.eval.metrics import hit_at_k, mrr, ndcg_at_k, rank_of
 from arag.llm.client import LLMClient
 from arag.models.score import GRUScorer
+from arag.ranking.content import ItemKNN, content_ranking
 from arag.ranking.fusion import fuse
 from arag.ranking.parser import parse_ranking
 from arag.ranking.simple import popularity_ranking, random_ranking, seed_for
@@ -316,6 +317,40 @@ def main() -> None:
     save_predictions(cfg, "arag", "valid", val_arag, val_targets)
     save_predictions(cfg, "gru", "valid", val_gru, val_targets)
 
+    # content / ItemKNN baselines: recency decay tuned on ALL validation users (no LLM)
+    data.load_embeddings()
+    knn = ItemKNN([list(r["train_items"]) for r in data.seq_by_user.values()])
+    val_all = data.valid_lists
+    val_all_hist = {u: data.history_for(u, "valid")["item_id"].astype(str).tolist() for u in val_all["user_id"]}
+    val_all_cands = dict(zip(val_all["user_id"], (list(c) for c in val_all["candidates"])))
+    val_all_targets = {u: str(data.seq_by_user[u]["valid_item"]) for u in val_all["user_id"]}
+
+    def tune_decay(rank_fn) -> tuple[float, dict[str, float]]:
+        curve = {}
+        for d in cfg.get("content.decay_grid", [0.0, 0.3, 0.6, 1.0]):
+            ndcgs = [ndcg_at_k(rank_of(val_all_targets[u], rank_fn(val_all_hist[u], c, d)), 5) for u, c in val_all_cands.items()]
+            curve[d] = float(np.mean(ndcgs))
+        return max(curve, key=curve.get), curve
+
+    def content_fn(h, c, d):
+        return content_ranking(h, c, data.emb, data.emb_idx, d)
+
+    best_decay_content, decay_curve_content = tune_decay(content_fn)
+    best_decay_knn, decay_curve_knn = tune_decay(knn.rank)
+    logger.info("content decay=%.1f %s | itemknn decay=%.1f %s", best_decay_content, decay_curve_content, best_decay_knn, decay_curve_knn)
+
+    # alpha for ARAG + content fusion (100 validation users with cached ARAG output)
+    val_content = {u: content_fn(val_all_hist[u], val_all_cands[u], best_decay_content) for u in val_users}
+    alpha_curve_val_content = {}
+    for alpha in cfg.get("fusion.alpha_grid"):
+        ndcgs = [
+            ndcg_at_k(rank_of(val_targets[u], fuse(val_all_cands[u], val_arag[u], val_content[u], alpha, val_uua_nli[u][1].scores())), 5)
+            for u in val_users
+        ]
+        alpha_curve_val_content[alpha] = float(np.mean(ndcgs))
+    best_alpha_content = max(alpha_curve_val_content, key=alpha_curve_val_content.get)
+    logger.info("best alpha (ARAG+content)=%.1f", best_alpha_content)
+
     # ---- Phase 2: test ----
     test_users = data.users["test"]
     test_lists_all = data.test_lists
@@ -324,11 +359,14 @@ def main() -> None:
     # non-LLM systems on ALL test users
     gru_scorers = {s: GRUScorer(str(cfg.path("gru") / str(s))) for s in cfg.get("gru.seeds", [0, 1, 2])}
     rand_all, pop_all, gru_all_seeds = {}, {}, {s: {} for s in cfg.get("gru.seeds", [0, 1, 2])}
+    content_all, knn_all = {}, {}
     for u in all_test_users:
         cand_ids = list(test_lists_all[test_lists_all["user_id"] == u].iloc[0]["candidates"])
         rand_all[u] = random_ranking(cand_ids, seed_for(cfg.seed, "random", u))
         pop_all[u] = popularity_ranking(cand_ids, data.popularity)
         hist = data.history_for(u, "test")["item_id"].astype(str).tolist()
+        content_all[u] = content_fn(hist, cand_ids, best_decay_content)
+        knn_all[u] = knn.rank(hist, cand_ids, best_decay_knn)
         for s in cfg.get("gru.seeds", [0, 1, 2]):
             gru_all_seeds[s][u] = gru_scorers[s].rank(hist, cand_ids)
 
@@ -351,6 +389,8 @@ def main() -> None:
     systems: dict[str, dict[str, list[str]]] = {
         "random": rand_all,
         "popularity": pop_all,
+        "content": content_all,
+        "itemknn": knn_all,
     }
     for s in cfg.get("gru.seeds", [0, 1, 2]):
         systems[f"gru_seed{s}"] = gru_all_seeds[s]
@@ -378,13 +418,16 @@ def main() -> None:
         cand_ids = test_cand_ids[u]
         fused_test[u] = fuse(cand_ids, arag_test[u], gru_seed0[u], best_alpha, test_nli[u])
     systems["arag_gru"] = fused_test
+    systems["arag_content"] = {
+        u: fuse(test_cand_ids[u], arag_test[u], content_all[u], best_alpha_content, test_nli[u]) for u in test_users
+    }
 
     # save predictions
     # save predictions (tracked CSVs capped to the 100 test users to keep results/ small)
     csv_users = set(test_users)
-    for sys in ["recency", "vanilla_rag", "arag", "arag_wo_nli", "arag_wo_nli_csa", "arag_gru"]:
+    for sys in ["recency", "vanilla_rag", "arag", "arag_wo_nli", "arag_wo_nli_csa", "arag_gru", "arag_content"]:
         save_predictions(cfg, sys, "test", systems[sys], test_targets, csv_users)
-    for sys in ["random", "popularity", "gru_seed0", "gru_seed1", "gru_seed2"]:
+    for sys in ["random", "popularity", "content", "itemknn", "gru_seed0", "gru_seed1", "gru_seed2"]:
         save_predictions(cfg, sys, "test", systems[sys], test_targets, csv_users)
 
     # ---- metrics + bootstrap ----
@@ -393,7 +436,7 @@ def main() -> None:
     systems_sampled = {sys: {u: r for u, r in rk.items() if u in sampled} for sys, rk in systems.items()}
     metrics = compute_all_metrics(systems_sampled, test_targets, cfg)
     # Secondary table: non-LLM systems on all test users.
-    non_llm = ["random", "popularity"] + [f"gru_seed{s}" for s in cfg.get("gru.seeds", [0, 1, 2])]
+    non_llm = ["random", "popularity", "content", "itemknn"] + [f"gru_seed{s}" for s in cfg.get("gru.seeds", [0, 1, 2])]
     metrics_all_users = {
         sys: v for sys, v in compute_all_metrics(
             {sys: systems[sys] for sys in non_llm}, test_targets, cfg
@@ -412,6 +455,10 @@ def main() -> None:
         "theta_grid": theta_scores,
         "best_theta": best_theta,
         "best_alpha": best_alpha,
+        "best_alpha_content": best_alpha_content,
+        "alpha_curve_validation_content": {str(k): v for k, v in alpha_curve_val_content.items()},
+        "content_decay": {"best": best_decay_content, "curve": {str(k): v for k, v in decay_curve_content.items()}},
+        "itemknn_decay": {"best": best_decay_knn, "curve": {str(k): v for k, v in decay_curve_knn.items()}},
         "alpha_curve_validation": {str(k): v for k, v in alpha_curve_val.items()},
         "alpha_curve_test": {str(k): v for k, v in alpha_curve_test.items()},
         "metrics": metrics,
