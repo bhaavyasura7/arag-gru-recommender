@@ -86,10 +86,11 @@ tests/
 5. **Context for prompts** (`agents/context.py`), built only from history strictly before the target.
 6. **User samples** (seed 42): 100 validation users and 100 test users, drawn from users whose target item has text. Save ids to `artifacts/lists/users.json`.
 7. **Frozen candidate lists** (`dataprep/lists.py`), for every validation and test user (all users):
-   - 19 negatives sampled uniformly (seed 42) from catalogue items with text that the user **never** interacted with in any split;
+   - 19 negatives sampled (seed 42, **popularity-weighted** — proportional to train interaction count) from items **with train interactions** that the user **never** interacted with in any split;
    - add the target, shuffle with a seeded RNG, store the order;
    - save `artifacts/lists/{valid,test}_lists.parquet` + SHA-256; never regenerate after evaluation starts.
    - Random-ranking reference: Hit@5 = 0.25.
+   - **Amendment (post-review fix).** The original run sampled negatives uniformly from *all catalogue items with text*. ~81% of those items have zero interactions, so ~15.5 of 19 negatives per list were unknown to Popularity/the GRU (shared OOV embedding / tied zero counts) and the task collapsed to a ~4.5-way choice — making Popularity Hit@5 = 0.97 and inflating any GRU-vs-LLM gap. Negatives are now drawn from the 25,527 items with train interactions, weighted by popularity so they are about as popular as targets. See `docs/REPORT.md` Appendix E (errata).
 
 ## 5. Systems compared
 
@@ -130,7 +131,7 @@ All systems rank the **same frozen 20-item list per user**.
 - Cost: calls, tokens, USD, seconds per user per system; parser repair rate and fallback counts.
 - Per-user predictions `artifacts/predictions/{system}.parquet` + tracked CSV copy.
 - `results/report.md` generated from saved artifacts only. Text conclusions computed from numbers.
-- Limitations: leave-last-out leakage into GRU training; 100 users ⇒ wide CIs; uniform negatives easier than real retrieval; not an exact reproduction.
+- Limitations: leave-last-out leakage into GRU training; 100 users ⇒ wide CIs; sampled negatives easier than real retrieval candidates; not an exact reproduction.
 
 ## 9. Phase B — product demo
 

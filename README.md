@@ -15,8 +15,14 @@ Detailed end-to-end process & training documentation with real run numbers: [`do
 - **Systems compared:** Random, Popularity, GRU, LLM-Recency, LLM-Vanilla-RAG, ARAG,
   two ARAG ablations, and **ARAG + GRU** (late fusion).
 - **LLM:** configurable provider. The committed results were produced with OpenAI **`gpt-4o-mini`**
-  (~$0.99 for the full evaluation). Local **`qwen3:8b`** via Ollama is also supported and is what
-  the test-suite uses (zero cost, offline).
+  (~$1 per evaluation run; ≈$2 total across both protocol versions). Local **`qwen3:8b`** via
+  Ollama is also supported and is what the test-suite uses (zero cost, offline).
+- **Headline result (corrected run):** ARAG is the best system (NDCG@5 0.424 on 100 test users);
+  fusing the trained GRU does **not** help ARAG (H1 fails, Δ = −0.013 n.s.), while the LLM
+  significantly beats the GRU (H2, Δ = +0.174). Popularity is at or below random because the
+  frozen lists use **popularity-matched negatives**. The paper's baseline ordering and its
+  NLI+CSA ablation reproduce significantly. See `docs/REPORT.md` (Appendix E documents an
+  earlier degenerate-list run whose conclusions were artefactual and are superseded).
 - **Embeddings:** sentence-transformers `all-MiniLM-L6-v2`, FAISS `IndexFlatIP`.
 
 ## Environment prerequisites
@@ -76,9 +82,11 @@ uncached LLM call.
 
 ## Cost
 
-The committed evaluation used OpenAI `gpt-4o-mini`: **$0.9853** for 2,405 calls
-(4.89M input / 0.42M output tokens). Re-running with the LLM cache makes zero new API calls
-($0). Local `qwen3:8b` is also supported at $0 but is ~10× slower per call on this hardware.
+The committed (corrected) evaluation used OpenAI `gpt-4o-mini`: **2,263 new calls ≈ $1.06**
+(the candidate lists were rebuilt after review, invalidating the earlier cache). Total unique
+project spend across both protocol versions: 4,668 calls, 10.31M input / 0.83M output tokens,
+**$2.04**. Re-running with the LLM cache makes zero new API calls ($0, ~137 s). Local
+`qwen3:8b` is also supported at $0 but is ~10× slower per call on this hardware.
 
 ## How to read the results
 

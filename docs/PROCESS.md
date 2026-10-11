@@ -328,3 +328,53 @@ See `results/report.md`, `results/tables.md`, `results/alpha_curve.png`,
 | 9 | Tracked prediction CSVs were ~30 MB each (147 MB total) | cap tracked CSVs to 100 test users |
 | 10 | API queried an uninitialised DB | `init_db` before the users query |
 | 11 | OMP crash loading models in a request thread | preload in main thread + OMP env vars |
+| 12 | **Candidate lists drew negatives from all 137k text items, ~81% of which have zero interactions** → ~15.5/19 negatives per list were OOV for the GRU (shared embedding, `score.py` `OOV_IDX=1`) and tied at zero for Popularity → the task collapsed to a ~4.5-known-item choice; Popularity Hit@5 = 0.97 and any GRU-vs-LLM gap was inflated (found in post-submission review) | negatives resampled from the 25,527 items with train interactions, popularity-weighted (`sampling.negative_sampling: popularity`); lists rebuilt, all systems re-evaluated on the same 100 users — see §11 |
+| 13 | `compute_all_metrics` crashed with `KeyError: 'arag'` when called on the non-LLM-only subset (hardcoded pairwise refs missing from the subset) | skip pairwise refs absent from the system dict; regression test added (`tests/test_metrics.py`) |
+| 14 | GRU checkpoints had been selected by early stopping on the **original** (degenerate) validation lists | GRU retrained from scratch against the corrected lists (same config; objective is list-independent, only checkpoint selection differs) |
+
+---
+
+## 11. Post-review correction: the degenerate candidate lists (2026-10-11)
+
+After the first report was written, a reviewer traced the suspiciously strong
+Popularity baseline (Hit@5 = 0.97) to the candidate-list construction and found a
+first-order protocol flaw. This section records the full diagnosis, fix and re-run.
+
+### 11.1 Diagnosis (all numbers measured, not assumed)
+
+- `dataprep/lists.py` sampled the 19 negatives from **all 137,260 catalogue items with
+  text**, but only **25,612 items (18.7%)** appear in the 5-core interaction data —
+  **111,649 (81%) have zero reviews**.
+- Measured on the original frozen lists: **mean 15.5 of 19 negatives per list were
+  never interacted with by anyone** (median 16, min 7). Only **3.5 known negatives**
+  remained, so Popularity and the GRU were solving a ~4.5-way choice, not a 20-way one.
+- Mechanism: `models/score.py` maps every unknown item to the shared OOV embedding
+  (index 1) → identical scores → alphabetical tie-break; Popularity assigns count 0
+  → same tie. The LLM sees no review counts and cannot exploit this.
+- Consequence: the originally reported **H1 = +0.349 was an artefact** of list
+  construction, and the report's stated cause ("targets are popular") was wrong.
+
+### 11.2 Fix
+
+- `dataprep/lists.py`: negatives now drawn from the **25,527 items with train
+  interactions**, weighted by train popularity (`sampling.negative_sampling:
+  popularity`, config) so negatives are about as popular as targets (measured ratio
+  1.01× on validation, 1.40× on test) — popularity alone therefore cannot separate
+  them. History still excluded; still seeded/deterministic/frozen/hashed.
+- `eval/run.py`: the main metrics table now scores **every system on the same 100
+  sampled test users** (previously GRU/Popularity used all 94,762 while LLM systems
+  used 100 — an apples-to-oranges table); non-LLM systems are additionally reported
+  on all users in a separate `metrics_all_users` block.
+- Post-fix validation on the rebuilt lists: **0 OOV negatives, 19.0 known negatives
+  per list, 0 targets outside the train vocabulary.**
+- The GRU was retrained from scratch (early stopping had used the old lists).
+
+### 11.3 Corrected outcome
+
+See `docs/REPORT.md` §6–§7 for the full corrected tables and significance tests.
+The headline reversal: with fair lists, **ARAG is the best system** (the LLM agent
+significantly beats the GRU, Recency and Vanilla-RAG), the validation-optimal fusion
+weight is **α\* = 1.0** (the GRU adds nothing to the LLM), the paper's baseline
+ordering and its ablations now reproduce **significantly**, and Popularity falls to
+at-or-below random. The original (degenerate) numbers are preserved in
+`docs/REPORT.md` Appendix E (errata) rather than deleted.
