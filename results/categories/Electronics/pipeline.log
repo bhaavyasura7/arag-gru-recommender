@@ -1,0 +1,198 @@
+[2026-10-11 20:48:26] ==================================================================
+[2026-10-11 20:48:26] [Electronics] phase=nonllm  steps: data lists index gru gru-text eval-nonllm
+[2026-10-11 20:48:26] config: configs/categories/Electronics.yaml
+[2026-10-11 20:48:26] [Electronics] step 1/6 data — already done, skipping
+[2026-10-11 20:48:26] [Electronics] step 2/6 lists — started
+.venv/bin/python -m arag.dataprep.lists
+2026-10-11 20:48:27,858 INFO arag.dataprep.lists: users: 100000 (with valid+test target: 100000)
+2026-10-11 20:48:29,194 INFO arag.dataprep.lists: valid users sampled: 100
+2026-10-11 20:48:29,495 INFO arag.dataprep.lists: test users sampled: 100
+2026-10-11 20:48:29,586 INFO arag.dataprep.lists: negative sampling: popularity over 190082 items with train interactions
+2026-10-11 20:48:32,291 INFO arag.dataprep.lists: valid lists written: 100000 users
+2026-10-11 20:48:35,024 INFO arag.dataprep.lists: test lists written: 100000 users
+2026-10-11 20:48:35,024 INFO arag.dataprep.lists: lists hashes: {'valid_lists.parquet': 'ab2436416cf2e4f9f464ba8a3e19e3618114c3267f4f148832209486705da23e', 'test_lists.parquet': 'aa034b55d126e49cc1b242db3a207e2d73528803f308caa322f16f79feb6edd4'}
+[2026-10-11 20:48:35] [Electronics] step 2/6 lists — done in 0 min
+[2026-10-11 20:48:35] [Electronics] step 3/6 index — started
+.venv/bin/python -m arag.retrieval.embed
+2026-10-11 20:48:37,999 INFO arag.retrieval.embed: items with text to embed: 215903
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12000.37it/s]
+2026-10-11 20:48:42,654 INFO arag.retrieval.embed: embedding 215903 texts ...
+Batches:   0%|          | 0/844 [00:00<?, ?it/s]Batches:   4%|▍         | 34/844 [00:30<12:15,  1.10it/s]Batches:   4%|▍         | 34/844 [00:47<12:15,  1.10it/s]Batches:   8%|▊         | 68/844 [01:01<11:35,  1.12it/s]Batches:   8%|▊         | 68/844 [01:17<11:35,  1.12it/s]Batches:  12%|█▏        | 100/844 [01:31<11:21,  1.09it/s]Batches:  12%|█▏        | 100/844 [01:48<11:21,  1.09it/s]Batches:  16%|█▌        | 132/844 [02:01<11:03,  1.07it/s]Batches:  16%|█▌        | 132/844 [02:18<11:03,  1.07it/s]Batches:  19%|█▉        | 163/844 [02:31<10:44,  1.06it/s]Batches:  19%|█▉        | 163/844 [02:48<10:44,  1.06it/s]Batches:  23%|██▎       | 193/844 [03:02<10:32,  1.03it/s]Batches:  23%|██▎       | 193/844 [03:18<10:32,  1.03it/s]Batches:  26%|██▋       | 222/844 [03:33<10:18,  1.01it/s]Batches:  26%|██▋       | 222/844 [03:48<10:18,  1.01it/s]Batches:  29%|██▉       | 248/844 [04:03<10:23,  1.05s/it]Batches:  29%|██▉       | 248/844 [04:18<10:23,  1.05s/it]Batches:  32%|███▏      | 273/844 [04:33<10:24,  1.09s/it]Batches:  32%|███▏      | 273/844 [04:48<10:24,  1.09s/it]Batches:  36%|███▌      | 300/844 [05:04<09:59,  1.10s/it]Batches:  36%|███▌      | 300/844 [05:18<09:59,  1.10s/it]Batches:  39%|███▉      | 332/844 [05:35<09:00,  1.06s/it]Batches:  39%|███▉      | 332/844 [05:48<09:00,  1.06s/it]Batches:  43%|████▎     | 365/844 [06:05<08:05,  1.01s/it]Batches:  43%|████▎     | 365/844 [06:18<08:05,  1.01s/it]Batches:  47%|████▋     | 398/844 [06:36<07:20,  1.01it/s]Batches:  47%|████▋     | 398/844 [06:48<07:20,  1.01it/s]Batches:  51%|█████     | 430/844 [07:06<06:43,  1.03it/s]Batches:  51%|█████     | 430/844 [07:18<06:43,  1.03it/s]Batches:  55%|█████▍    | 462/844 [07:37<06:09,  1.03it/s]Batches:  55%|█████▍    | 462/844 [07:48<06:09,  1.03it/s]Batches:  59%|█████▊    | 494/844 [08:08<05:38,  1.03it/s]Batches:  59%|█████▊    | 494/844 [08:20<05:38,  1.03it/s]Batches:  62%|██████▏   | 526/844 [08:39<05:07,  1.03it/s]Batches:  62%|██████▏   | 526/844 [08:50<05:07,  1.03it/s]Batches:  66%|██████▌   | 557/844 [09:09<04:38,  1.03it/s]Batches:  66%|██████▌   | 557/844 [09:20<04:38,  1.03it/s]Batches:  70%|██████▉   | 588/844 [09:39<04:09,  1.03it/s]Batches:  70%|██████▉   | 588/844 [09:50<04:09,  1.03it/s]Batches:  73%|███████▎  | 620/844 [10:10<03:37,  1.03it/s]Batches:  73%|███████▎  | 620/844 [10:28<03:37,  1.03it/s]Batches:  77%|███████▋  | 652/844 [10:41<03:05,  1.03it/s]Batches:  77%|███████▋  | 652/844 [10:58<03:05,  1.03it/s]Batches:  81%|████████▏ | 686/844 [11:11<02:29,  1.06it/s]Batches:  81%|████████▏ | 686/844 [11:28<02:29,  1.06it/s]Batches:  87%|████████▋ | 731/844 [11:42<01:35,  1.19it/s]Batches:  87%|████████▋ | 731/844 [11:58<01:35,  1.19it/s]Batches:  96%|█████████▌| 808/844 [12:12<00:22,  1.59it/s]Batches: 100%|██████████| 844/844 [12:20<00:00,  1.14it/s]
+2026-10-11 21:01:04,153 INFO arag.retrieval.embed: saved 215903 embeddings ((215903, 384)) -> /Users/likhith/Projects/DeepLearningProject/artifacts/Electronics/faiss
+.venv/bin/python -m arag.retrieval.index
+2026-10-11 21:01:04,827 INFO arag.retrieval.index: FAISS index written: 215903 items, dim=384
+[2026-10-11 21:01:04] [Electronics] step 3/6 index — done in 12 min
+[2026-10-11 21:01:04] [Electronics] step 4/6 gru — started
+.venv/bin/python -m arag.models.train_gru
+2026-10-11 21:01:06,100 INFO arag.models.train_gru: train vocab: 190082 items
+2026-10-11 21:01:06,920 INFO arag.models.train_gru: training sequences: 100000
+2026-10-11 21:01:08,819 INFO arag.models.train_gru: validation users for early stop: 100000
+2026-10-11 21:01:08,819 INFO arag.models.train_gru: best config: hidden=128 dropout=0.2 NDCG@5=None
+make: *** [gru] Terminated: 15
+[2026-10-11 21:08:56] [Electronics] stopped by assistant: run was low-priority (nice 10, ~25% CPU). Relaunch from your own Terminal.
+[2026-10-11 21:10:54] ==================================================================
+[2026-10-11 21:10:54] [Electronics] phase=nonllm  steps: data lists index gru gru-text eval-nonllm
+[2026-10-11 21:10:54] config: configs/categories/Electronics.yaml   priority: nice 0  (0 = full speed; run from your own Terminal)
+[2026-10-11 21:10:54] [Electronics] step 1/6 data — already done, skipping
+[2026-10-11 21:10:54] [Electronics] step 2/6 lists — already done, skipping
+[2026-10-11 21:10:54] [Electronics] step 3/6 index — already done, skipping
+[2026-10-11 21:10:54] [Electronics] step 4/6 gru — started
+.venv/bin/python -m arag.models.train_gru
+2026-10-11 21:10:55,363 INFO arag.models.train_gru: train vocab: 190082 items
+2026-10-11 21:10:56,140 INFO arag.models.train_gru: training sequences: 100000
+2026-10-11 21:10:58,092 INFO arag.models.train_gru: validation users for early stop: 100000
+2026-10-11 21:10:58,092 INFO arag.models.train_gru: best config: hidden=128 dropout=0.2 NDCG@5=None
+2026-10-11 21:26:14,267 INFO arag.models.train_gru: epoch 0: loss 12.2848  val NDCG@5 0.1366
+make: *** [gru] Hangup: 1
+[2026-10-11 21:32:05] ==================================================================
+[2026-10-11 21:32:05] [Electronics] phase=nonllm  steps: data lists index gru gru-text eval-nonllm
+[2026-10-11 21:32:05] config: configs/categories/Electronics.yaml   priority: nice 0  (0 = full speed; run from your own Terminal)
+[2026-10-11 21:32:05] [Electronics] step 1/6 data — already done, skipping
+[2026-10-11 21:32:05] [Electronics] step 2/6 lists — already done, skipping
+[2026-10-11 21:32:05] [Electronics] step 3/6 index — already done, skipping
+[2026-10-11 21:32:05] [Electronics] step 4/6 gru — started
+.venv/bin/python -m arag.models.train_gru
+2026-10-11 21:32:06,820 INFO arag.models.train_gru: train vocab: 190082 items
+2026-10-11 21:32:07,718 INFO arag.models.train_gru: training sequences: 100000
+2026-10-11 21:32:09,612 INFO arag.models.train_gru: validation users for early stop: 100000
+2026-10-11 21:32:09,626 INFO arag.models.train_gru: training device: mps
+2026-10-11 21:32:09,626 INFO arag.models.train_gru: best config: hidden=128 dropout=0.2 NDCG@5=None
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/likhith/Projects/DeepLearningProject/src/arag/models/train_gru.py", line 267, in <module>
+    main()
+  File "/Users/likhith/Projects/DeepLearningProject/src/arag/models/train_gru.py", line 246, in main
+    model, history = train_model(model, train_arr, val_data, epochs, batch_size, lr, patience, logger)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/likhith/Projects/DeepLearningProject/src/arag/models/train_gru.py", line 113, in train_model
+    logits = F.linear(out, model.all_item_emb())  # (n_valid, vocab)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Invalid buffer size: 8.88 GiB
+make: *** [gru] Error 1
+[2026-10-11 21:32:10] [Electronics] step 4/6 gru — FAILED (exit 2) after 0 min; see the lines above
+[2026-10-11 21:38:08] ==================================================================
+[2026-10-11 21:38:08] [Electronics] phase=nonllm  steps: data lists index gru gru-text eval-nonllm
+[2026-10-11 21:38:08] config: configs/categories/Electronics.yaml   priority: nice 0  (0 = full speed; run from your own Terminal)
+[2026-10-11 21:38:08] [Electronics] step 1/6 data — already done, skipping
+[2026-10-11 21:38:08] [Electronics] step 2/6 lists — already done, skipping
+[2026-10-11 21:38:08] [Electronics] step 3/6 index — already done, skipping
+[2026-10-11 21:38:08] [Electronics] step 4/6 gru — started
+.venv/bin/python -m arag.models.train_gru
+2026-10-11 21:38:09,766 INFO arag.models.train_gru: train vocab: 190082 items
+2026-10-11 21:38:10,556 INFO arag.models.train_gru: training sequences: 100000
+2026-10-11 21:38:12,449 INFO arag.models.train_gru: validation users for early stop: 100000
+2026-10-11 21:38:12,455 INFO arag.models.train_gru: training device: mps
+2026-10-11 21:38:12,455 INFO arag.models.train_gru: best config: hidden=128 dropout=0.2 NDCG@5=None
+2026-10-11 21:40:10,220 INFO arag.models.train_gru: epoch 0: loss 12.2844  val NDCG@5 0.1365
+2026-10-11 21:42:10,546 INFO arag.models.train_gru: epoch 1: loss 11.7126  val NDCG@5 0.1442
+2026-10-11 21:44:21,760 INFO arag.models.train_gru: epoch 2: loss 11.2667  val NDCG@5 0.1447
+2026-10-11 21:46:16,148 INFO arag.models.train_gru: epoch 3: loss 11.1602  val NDCG@5 0.1452
+2026-10-11 21:48:30,856 INFO arag.models.train_gru: epoch 4: loss 11.1247  val NDCG@5 0.1449
+2026-10-11 21:51:11,179 INFO arag.models.train_gru: epoch 5: loss 11.1048  val NDCG@5 0.1445
+2026-10-11 21:53:26,790 INFO arag.models.train_gru: epoch 6: loss 11.0924  val NDCG@5 0.1450
+2026-10-11 21:53:26,791 INFO arag.models.train_gru: early stop at epoch 6
+2026-10-11 21:53:26,969 INFO arag.models.train_gru: saved seed=0 -> /Users/likhith/Projects/DeepLearningProject/artifacts/Electronics/gru/0 (914s, val NDCG@5=0.1452)
+2026-10-11 21:56:25,735 INFO arag.models.train_gru: epoch 0: loss 12.2908  val NDCG@5 0.1388
+2026-10-11 21:59:51,573 INFO arag.models.train_gru: epoch 1: loss 11.7244  val NDCG@5 0.1445
+2026-10-11 22:03:02,399 INFO arag.models.train_gru: epoch 2: loss 11.2629  val NDCG@5 0.1444
+2026-10-11 22:06:42,022 INFO arag.models.train_gru: epoch 3: loss 11.1576  val NDCG@5 0.1444
+2026-10-11 22:09:34,045 INFO arag.models.train_gru: epoch 4: loss 11.1220  val NDCG@5 0.1448
+2026-10-11 22:12:47,302 INFO arag.models.train_gru: epoch 5: loss 11.1035  val NDCG@5 0.1447
+2026-10-11 22:15:37,551 INFO arag.models.train_gru: epoch 6: loss 11.0915  val NDCG@5 0.1445
+2026-10-11 22:18:56,600 INFO arag.models.train_gru: epoch 7: loss 11.0832  val NDCG@5 0.1449
+2026-10-11 22:22:08,324 INFO arag.models.train_gru: epoch 8: loss 11.0753  val NDCG@5 0.1458
+2026-10-11 22:25:00,153 INFO arag.models.train_gru: epoch 9: loss 11.0643  val NDCG@5 0.1473
+2026-10-11 22:27:46,164 INFO arag.models.train_gru: epoch 10: loss 11.0515  val NDCG@5 0.1480
+2026-10-11 22:30:50,755 INFO arag.models.train_gru: epoch 11: loss 11.0384  val NDCG@5 0.1485
+2026-10-11 22:30:51,041 INFO arag.models.train_gru: saved seed=1 -> /Users/likhith/Projects/DeepLearningProject/artifacts/Electronics/gru/1 (2244s, val NDCG@5=0.1485)
+2026-10-11 22:33:44,889 INFO arag.models.train_gru: epoch 0: loss 12.2750  val NDCG@5 0.1380
+2026-10-11 22:36:16,078 INFO arag.models.train_gru: epoch 1: loss 11.6734  val NDCG@5 0.1442
+2026-10-11 22:39:05,804 INFO arag.models.train_gru: epoch 2: loss 11.2567  val NDCG@5 0.1445
+2026-10-11 22:41:34,848 INFO arag.models.train_gru: epoch 3: loss 11.1558  val NDCG@5 0.1444
+2026-10-11 22:43:44,710 INFO arag.models.train_gru: epoch 4: loss 11.1189  val NDCG@5 0.1446
+2026-10-11 22:46:08,102 INFO arag.models.train_gru: epoch 5: loss 11.0998  val NDCG@5 0.1447
+2026-10-11 22:48:30,774 INFO arag.models.train_gru: epoch 6: loss 11.0924  val NDCG@5 0.1449
+2026-10-11 22:50:50,213 INFO arag.models.train_gru: epoch 7: loss 11.0847  val NDCG@5 0.1456
+2026-10-11 22:53:03,941 INFO arag.models.train_gru: epoch 8: loss 11.0739  val NDCG@5 0.1476
+2026-10-11 22:55:31,404 INFO arag.models.train_gru: epoch 9: loss 11.0639  val NDCG@5 0.1483
+2026-10-11 22:58:07,357 INFO arag.models.train_gru: epoch 10: loss 11.0519  val NDCG@5 0.1490
+2026-10-11 23:00:32,213 INFO arag.models.train_gru: epoch 11: loss 11.0367  val NDCG@5 0.1491
+2026-10-11 23:00:32,409 INFO arag.models.train_gru: saved seed=2 -> /Users/likhith/Projects/DeepLearningProject/artifacts/Electronics/gru/2 (1781s, val NDCG@5=0.1491)
+[2026-10-11 23:00:33] [Electronics] step 4/6 gru — done in 82 min
+[2026-10-11 23:00:33] [Electronics] step 5/6 gru-text — started
+.venv/bin/python -m arag.models.train_gru --text
+2026-10-11 23:00:34,890 INFO arag.models.train_gru: train vocab: 190082 items
+2026-10-11 23:00:35,690 INFO arag.models.train_gru: training sequences: 100000
+2026-10-11 23:00:37,623 INFO arag.models.train_gru: validation users for early stop: 100000
+2026-10-11 23:00:37,821 INFO arag.models.train_gru: text features: 190071 of 190082 vocab items
+2026-10-11 23:00:37,831 INFO arag.models.train_gru: training device: mps
+2026-10-11 23:00:37,831 INFO arag.models.train_gru: best config: hidden=128 dropout=0.2 NDCG@5=None
+2026-10-11 23:05:32,715 INFO arag.models.train_gru: epoch 0: loss 12.2027  val NDCG@5 0.1572
+2026-10-11 23:10:59,554 INFO arag.models.train_gru: epoch 1: loss 11.5408  val NDCG@5 0.1690
+2026-10-11 23:15:35,118 INFO arag.models.train_gru: epoch 2: loss 11.1422  val NDCG@5 0.1706
+2026-10-11 23:20:25,081 INFO arag.models.train_gru: epoch 3: loss 11.0198  val NDCG@5 0.1728
+2026-10-11 23:25:41,327 INFO arag.models.train_gru: epoch 4: loss 10.9575  val NDCG@5 0.1817
+2026-10-11 23:30:38,986 INFO arag.models.train_gru: epoch 5: loss 10.9091  val NDCG@5 0.1924
+2026-10-11 23:35:52,030 INFO arag.models.train_gru: epoch 6: loss 10.8656  val NDCG@5 0.2005
+2026-10-11 23:40:46,911 INFO arag.models.train_gru: epoch 7: loss 10.8281  val NDCG@5 0.2075
+2026-10-11 23:45:35,014 INFO arag.models.train_gru: epoch 8: loss 10.7995  val NDCG@5 0.2143
+2026-10-11 23:51:07,080 INFO arag.models.train_gru: epoch 9: loss 10.7682  val NDCG@5 0.2219
+2026-10-11 23:55:44,788 INFO arag.models.train_gru: epoch 10: loss 10.7379  val NDCG@5 0.2286
+2026-10-12 00:01:03,838 INFO arag.models.train_gru: epoch 11: loss 10.7042  val NDCG@5 0.2274
+2026-10-12 00:01:04,022 INFO arag.models.train_gru: saved seed=0 -> /Users/likhith/Projects/DeepLearningProject/artifacts/Electronics/gru_text/0 (3626s, val NDCG@5=0.2286)
+2026-10-12 00:05:50,122 INFO arag.models.train_gru: epoch 0: loss 12.2099  val NDCG@5 0.1572
+2026-10-12 00:11:54,898 INFO arag.models.train_gru: epoch 1: loss 11.5468  val NDCG@5 0.1669
+2026-10-12 00:16:34,243 INFO arag.models.train_gru: epoch 2: loss 11.1443  val NDCG@5 0.1722
+2026-10-12 00:22:14,062 INFO arag.models.train_gru: epoch 3: loss 11.0189  val NDCG@5 0.1752
+2026-10-12 00:26:28,502 INFO arag.models.train_gru: epoch 4: loss 10.9547  val NDCG@5 0.1848
+2026-10-12 00:31:13,449 INFO arag.models.train_gru: epoch 5: loss 10.9068  val NDCG@5 0.1920
+2026-10-12 00:35:47,176 INFO arag.models.train_gru: epoch 6: loss 10.8649  val NDCG@5 0.2014
+2026-10-12 00:39:59,948 INFO arag.models.train_gru: epoch 7: loss 10.8359  val NDCG@5 0.2045
+2026-10-12 00:43:57,298 INFO arag.models.train_gru: epoch 8: loss 10.8037  val NDCG@5 0.2113
+2026-10-12 00:48:22,116 INFO arag.models.train_gru: epoch 9: loss 10.7748  val NDCG@5 0.2148
+2026-10-12 00:52:35,520 INFO arag.models.train_gru: epoch 10: loss 10.7417  val NDCG@5 0.2246
+2026-10-12 00:57:04,230 INFO arag.models.train_gru: epoch 11: loss 10.7166  val NDCG@5 0.2305
+2026-10-12 00:57:04,414 INFO arag.models.train_gru: saved seed=1 -> /Users/likhith/Projects/DeepLearningProject/artifacts/Electronics/gru_text/1 (3359s, val NDCG@5=0.2305)
+2026-10-12 01:01:57,965 INFO arag.models.train_gru: epoch 0: loss 12.1927  val NDCG@5 0.1596
+2026-10-12 01:06:17,069 INFO arag.models.train_gru: epoch 1: loss 11.5218  val NDCG@5 0.1710
+2026-10-12 01:10:56,801 INFO arag.models.train_gru: epoch 2: loss 11.1377  val NDCG@5 0.1750
+2026-10-12 01:15:08,877 INFO arag.models.train_gru: epoch 3: loss 11.0137  val NDCG@5 0.1767
+2026-10-12 01:19:51,887 INFO arag.models.train_gru: epoch 4: loss 10.9480  val NDCG@5 0.1830
+2026-10-12 01:23:52,820 INFO arag.models.train_gru: epoch 5: loss 10.9045  val NDCG@5 0.1930
+2026-10-12 01:27:57,097 INFO arag.models.train_gru: epoch 6: loss 10.8628  val NDCG@5 0.1955
+2026-10-12 01:32:07,003 INFO arag.models.train_gru: epoch 7: loss 10.8254  val NDCG@5 0.2104
+2026-10-12 01:35:46,452 INFO arag.models.train_gru: epoch 8: loss 10.7972  val NDCG@5 0.2133
+2026-10-12 01:39:52,522 INFO arag.models.train_gru: epoch 9: loss 10.7666  val NDCG@5 0.2159
+2026-10-12 01:43:52,381 INFO arag.models.train_gru: epoch 10: loss 10.7369  val NDCG@5 0.2231
+2026-10-12 01:48:02,072 INFO arag.models.train_gru: epoch 11: loss 10.7025  val NDCG@5 0.2293
+2026-10-12 01:48:02,287 INFO arag.models.train_gru: saved seed=2 -> /Users/likhith/Projects/DeepLearningProject/artifacts/Electronics/gru_text/2 (3057s, val NDCG@5=0.2293)
+[2026-10-12 01:48:03] [Electronics] step 5/6 gru-text — done in 167 min
+[2026-10-12 01:48:03] [Electronics] step 6/6 eval-nonllm — started
+.venv/bin/python -m arag.eval.run_nonllm
+2026-10-12 01:51:29,951 INFO arag.eval.run_nonllm: [Electronics] loaded data (205s)
+2026-10-12 01:56:29,071 INFO arag.eval.run_nonllm:   content decay=0.0 val NDCG@5=0.3095
+2026-10-12 01:56:31,867 INFO arag.eval.run_nonllm:   content decay=0.3 val NDCG@5=0.3245
+2026-10-12 01:56:35,097 INFO arag.eval.run_nonllm:   content decay=0.6 val NDCG@5=0.3212
+2026-10-12 01:56:38,001 INFO arag.eval.run_nonllm:   content decay=1.0 val NDCG@5=0.3119
+2026-10-12 01:56:52,328 INFO arag.eval.run_nonllm:   itemknn decay=0.0 val NDCG@5=0.1504
+2026-10-12 01:57:06,898 INFO arag.eval.run_nonllm:   itemknn decay=0.3 val NDCG@5=0.1517
+2026-10-12 02:01:34,315 INFO arag.eval.run_nonllm:   itemknn decay=0.6 val NDCG@5=0.1511
+2026-10-12 02:01:48,402 INFO arag.eval.run_nonllm:   itemknn decay=1.0 val NDCG@5=0.1500
+2026-10-12 02:01:48,402 INFO arag.eval.run_nonllm: tuned decay: content=0.3 itemknn=0.3 (823s)
+2026-10-12 02:01:49,607 INFO arag.eval.run_nonllm: GRU models found: ['gru_seed0', 'gru_seed1', 'gru_seed2', 'gru_text_seed0', 'gru_text_seed1', 'gru_text_seed2']
+2026-10-12 02:02:04,768 INFO arag.eval.run_nonllm:   ranked 10000 / 100000 test users (840s)
+2026-10-12 02:02:48,333 INFO arag.eval.run_nonllm:   ranked 20000 / 100000 test users (883s)
+2026-10-12 02:03:04,793 INFO arag.eval.run_nonllm:   ranked 30000 / 100000 test users (900s)
+2026-10-12 02:03:19,903 INFO arag.eval.run_nonllm:   ranked 40000 / 100000 test users (915s)
+2026-10-12 02:06:31,585 INFO arag.eval.run_nonllm:   ranked 50000 / 100000 test users (1107s)
+2026-10-12 02:06:46,922 INFO arag.eval.run_nonllm:   ranked 60000 / 100000 test users (1122s)
+2026-10-12 02:07:02,108 INFO arag.eval.run_nonllm:   ranked 70000 / 100000 test users (1137s)
+2026-10-12 02:11:30,145 INFO arag.eval.run_nonllm:   ranked 80000 / 100000 test users (1405s)
+2026-10-12 02:11:45,368 INFO arag.eval.run_nonllm:   ranked 90000 / 100000 test users (1420s)
+2026-10-12 02:12:00,406 INFO arag.eval.run_nonllm:   ranked 100000 / 100000 test users (1435s)
+2026-10-12 02:12:03,387 INFO arag.eval.run_nonllm: metrics + paired bootstrap ...
+2026-10-12 02:12:52,803 INFO arag.eval.run_nonllm: wrote /Users/likhith/Projects/DeepLearningProject/results/categories/Electronics/metrics_nonllm.json and tables_nonllm.md (1488s total)
+[2026-10-12 02:12:53] [Electronics] step 6/6 eval-nonllm — done in 24 min
+[2026-10-12 02:12:53] [Electronics] phase=nonllm ALL DONE in 274 min
