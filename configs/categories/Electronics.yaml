@@ -59,7 +59,7 @@ llm:
   temperature: 0
   timeout_s: 600
   max_retries: 3
-  concurrency: 4
+  concurrency: 1
   schema_retry: 1
 agents:
   nli_items_per_call: 5
