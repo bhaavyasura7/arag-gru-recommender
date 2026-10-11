@@ -1,7 +1,7 @@
 VENV := .venv
 PY := $(VENV)/bin/python
 
-.PHONY: setup freeze data lists index gru eval report test verify app all clean
+.PHONY: setup freeze data lists index gru gru-text eval report test verify app all clean
 
 ## Create the venv and install Python + frontend dependencies.
 setup:
@@ -31,6 +31,10 @@ index:
 gru:
 	$(PY) -m arag.models.train_gru
 
+## Train the text-aware GRU (ID + MiniLM item vectors).
+gru-text:
+	$(PY) -m arag.models.train_gru --text
+
 ## Run all systems on validation (theta/alpha tuning) then test. Resumable via cache.
 eval:
 	$(PY) -m arag.eval.run
@@ -53,7 +57,7 @@ app:
 	$(PY) -m arag.api.app
 
 ## Full pipeline: data -> lists -> index -> gru -> eval -> report.
-all: data lists index gru eval report
+all: data lists index gru gru-text eval report
 
 clean:
 	rm -rf $(VENV) artifacts data results/predictions \

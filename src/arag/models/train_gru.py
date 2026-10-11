@@ -1,10 +1,14 @@
 """Train the GRU: small grid search, early stopping on validation NDCG@5, 3 seeds.
 
 Saves ``artifacts/gru/{seed}/`` = model.pt + item_map.json + config.json.
+
+``--text``: text-aware variant (item vector = ID embedding + projected MiniLM text embedding).
+Grid over ``gru_text.hidden_grid`` x ``gru_text.dropout_grid``, saved to ``artifacts/gru_text/{seed}/``.
 """
 from __future__ import annotations
 
 import random
+import sys
 import time
 from pathlib import Path
 
@@ -16,7 +20,7 @@ import torch.nn.functional as F
 from arag import util
 from arag.config import get_config
 from arag.eval.metrics import ndcg_at_k, rank_of
-from arag.models.gru import GRU4Rec, save_model
+from arag.models.gru import GRU4Rec, load_text_feats, save_model
 
 PAD = 0
 OOV = 1
@@ -97,16 +101,16 @@ def train_model(
         nb = 0
         for start in range(0, n, batch_size):
             batch = order[start : start + batch_size]
-            x_in = torch.tensor(batch[:, :-1], dtype=torch.long)
-            y = torch.tensor(batch[:, 1:], dtype=torch.long)
+            t = int((batch != PAD).sum(axis=1).max())  # trim padding columns beyond the longest row
+            x_in = torch.tensor(batch[:, : t - 1], dtype=torch.long)
+            y = torch.tensor(batch[:, 1:t], dtype=torch.long)
             lengths = (x_in != PAD).sum(dim=1)
-            mask = x_in != PAD
-            logits = model(x_in, lengths)  # (B, T-1, vocab)
-            mask = x_in != PAD
-            logits_flat = logits.reshape(-1, logits.shape[-1])
-            y_flat = y.reshape(-1)
-            mask_flat = mask.reshape(-1)
-            loss = F.cross_entropy(logits_flat[mask_flat], y_flat[mask_flat], ignore_index=PAD)
+            # a position is trained iff it has a real next item (same as masking full logits,
+            # but logits are only materialised for those positions: far less memory)
+            mask = (x_in != PAD) & (y != PAD)
+            out = model.step_outputs(x_in, lengths)[mask]  # (n_valid, emb)
+            logits = F.linear(out, model.all_item_emb())  # (n_valid, vocab)
+            loss = F.cross_entropy(logits, y[mask])
             n_valid = int(mask.sum().item())
             opt.zero_grad()
             loss.backward()
@@ -114,7 +118,7 @@ def train_model(
             total_loss += float(loss.item()) * n_valid
             nb += n_valid
 
-        val_ndcg = evaluate(model, val_data)
+        val_ndcg = evaluate(model, val_data, seq_len=seq_len)
         ndcg_history.append(val_ndcg)
         logger.info(
             "epoch %d: loss %.4f  val NDCG@5 %.4f",
@@ -137,35 +141,39 @@ def train_model(
     return model, ndcg_history
 
 
-def evaluate(model: GRU4Rec, val_data: list[dict]) -> float:
+def evaluate(model: GRU4Rec, val_data: list[dict], seq_len: int = 50, chunk: int = 4096) -> float:
+    """Validation NDCG@5 on the frozen lists. History capped to the last ``seq_len`` items
+    (as ``GRUScorer`` does at test time); users encoded in chunks to bound memory."""
     model.eval()
     items = [v for v in val_data if v["history"]]
     if not items:
         return 0.0
-    max_len = max(len(v["history"]) for v in items)
-    x = torch.zeros(len(items), max_len, dtype=torch.long)
-    for i, v in enumerate(items):
-        h = v["history"][-max_len:]
-        x[i, : len(h)] = torch.tensor(h, dtype=torch.long)
-    with torch.no_grad():
-        h_u = model.encode(x)  # (B, emb)
     ndcgs = []
     with torch.no_grad():
-        for i, v in enumerate(items):
-            cidx = torch.tensor(v["candidates"], dtype=torch.long)
-            scores = h_u[i] @ model.embedding(cidx).T
-            order = torch.argsort(scores, descending=True).tolist()
-            ranking = [v["candidate_ids"][j] for j in order]
-            ndcgs.append(ndcg_at_k(rank_of(v["target_id"], ranking), 5))
+        for c0 in range(0, len(items), chunk):
+            part = items[c0 : c0 + chunk]
+            hists = [v["history"][-seq_len:] for v in part]
+            x = torch.zeros(len(part), max(len(h) for h in hists), dtype=torch.long)
+            for i, h in enumerate(hists):
+                x[i, : len(h)] = torch.tensor(h, dtype=torch.long)
+            h_u = model.encode(x)  # (B, emb)
+            cidx = torch.tensor([v["candidates"] for v in part], dtype=torch.long)  # (B, 20)
+            scores = (model.item_emb(cidx) * h_u[:, None, :]).sum(-1)  # (B, 20)
+            orders = torch.argsort(scores, dim=1, descending=True).tolist()
+            for v, order in zip(part, orders):
+                ranking = [v["candidate_ids"][j] for j in order]
+                ndcgs.append(ndcg_at_k(rank_of(v["target_id"], ranking), 5))
     return float(np.mean(ndcgs)) if ndcgs else 0.0
 
 
 def main() -> None:
+    text = "--text" in sys.argv[1:]
     logger = util.setup_logging("arag.models.train_gru")
     cfg = get_config()
     proc_dir: Path = cfg.path("data_processed")
     lists_dir: Path = cfg.path("lists")
-    gru_dir: Path = cfg.path("gru")
+    gru_dir: Path = cfg.path("gru_text" if text else "gru")
+    section = "gru_text" if text else "gru"
 
     interactions = pd.read_parquet(proc_dir / "interactions.parquet")
     sequences = pd.read_parquet(lists_dir / "sequences.parquet")
@@ -184,6 +192,17 @@ def main() -> None:
     val_data = build_val_data(sequences, valid_lists, item2idx)
     logger.info("validation users for early stop: %d", len(val_data))
 
+    text_feats = None
+    text_feats_dir = ""
+    if text:
+        text_feats_dir = str(cfg.path("faiss"))
+        text_feats = load_text_feats(text_feats_dir, item2idx)
+        n_text = int((text_feats.abs().sum(dim=1) > 0).sum())
+        logger.info("text features: %d of %d vocab items", n_text, len(item2idx))
+
+    def new_model(hidden, dropout):
+        return GRU4Rec(len(item2idx) + 2, emb_dim, hidden, dropout, text_feats=text_feats)
+
     epochs = cfg.get("gru.max_epochs", 30)
     batch_size = cfg.get("gru.batch_size", 256)
     lr = cfg.get("gru.lr", 0.001)
@@ -191,10 +210,15 @@ def main() -> None:
 
     # grid search on validation (seed 0)
     best = None
-    for hidden in cfg.get("gru.hidden_grid", [64, 128]):
-        for dropout in cfg.get("gru.dropout_grid", [0.2, 0.5]):
+    hidden_grid = cfg.get(f"{section}.hidden_grid", [64, 128])
+    dropout_grid = cfg.get(f"{section}.dropout_grid", [0.2, 0.5])
+    for hidden in hidden_grid:
+        for dropout in dropout_grid:
+            if len(hidden_grid) * len(dropout_grid) == 1:
+                best = (None, hidden, dropout)  # single config: no grid run needed
+                break
             torch.manual_seed(0)
-            model = GRU4Rec(len(item2idx) + 2, emb_dim, hidden, dropout)
+            model = new_model(hidden, dropout)
             t0 = time.time()
             _, history = train_model(model, train_arr, val_data, epochs, batch_size, lr, patience, logger)
             score = max(history)
@@ -203,13 +227,13 @@ def main() -> None:
                 best = (score, hidden, dropout)
 
     best_ndcg, hidden, dropout = best
-    logger.info("best config: hidden=%d dropout=%.1f NDCG@5=%.4f", hidden, dropout, best_ndcg)
+    logger.info("best config: hidden=%d dropout=%.1f NDCG@5=%s", hidden, dropout, best_ndcg)
 
     for seed in cfg.get("gru.seeds", [0, 1, 2]):
         torch.manual_seed(seed)
         np.random.seed(seed)
         random.seed(seed)
-        model = GRU4Rec(len(item2idx) + 2, emb_dim, hidden, dropout)
+        model = new_model(hidden, dropout)
         t0 = time.time()
         model, history = train_model(model, train_arr, val_data, epochs, batch_size, lr, patience, logger)
         out_dir = gru_dir / str(seed)
@@ -225,6 +249,7 @@ def main() -> None:
                 "seed": seed,
                 "best_val_ndcg5": max(history),
                 "vocab_size": len(item2idx),
+                "text_feats_dir": text_feats_dir,
             },
         )
         logger.info("saved seed=%d -> %s (%.0fs, val NDCG@5=%.4f)", seed, out_dir, time.time() - t0, max(history))

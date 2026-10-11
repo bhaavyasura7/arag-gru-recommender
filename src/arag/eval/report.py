@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt  # noqa: E402
 from arag import util
 from arag.config import get_config
 
-ORDER = ["random", "popularity", "content", "itemknn", "gru_seed0", "recency", "vanilla_rag", "arag", "arag_wo_nli", "arag_wo_nli_csa", "arag_gru", "arag_content"]
+ORDER = ["random", "popularity", "content", "itemknn", "gru_seed0", "gru_text_seed0", "recency", "vanilla_rag", "arag", "arag_wo_nli", "arag_wo_nli_csa", "arag_gru", "arag_gru_text", "arag_content"]
 METRIC_ORDER = ["hit@5", "ndcg@5", "hit@10", "ndcg@10", "mrr"]
 
 
@@ -173,6 +173,13 @@ def _conclusions(metrics: dict, m: dict) -> list[str]:
         ("vanilla_rag", "arag", "LLM-Vanilla-RAG vs ARAG"),
         ("arag_wo_nli", "arag", "ARAG w/o NLI vs ARAG"),
         ("arag_wo_nli_csa", "arag", "ARAG w/o NLI&CSA vs ARAG"),
+        ("content", "arag", "Content similarity vs ARAG"),
+        ("itemknn", "arag", "ItemKNN vs ARAG"),
+        ("gru_text_seed0", "gru_seed0", "Text-aware GRU vs ID-only GRU"),
+        ("gru_text_seed0", "arag", "Text-aware GRU vs ARAG"),
+        ("arag_gru_text", "arag", "ARAG+text-GRU vs ARAG (H1, text GRU)"),
+        ("arag_gru_text", "gru_text_seed0", "ARAG+text-GRU vs text-GRU (H2, text GRU)"),
+        ("arag_content", "arag", "ARAG+content vs ARAG"),
     ]:
         v = diff(sys, ref, "ndcg@5")
         if v is None:

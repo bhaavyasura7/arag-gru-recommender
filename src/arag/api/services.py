@@ -319,7 +319,7 @@ class RecommenderService:
             h_u = gru.user_vector(hist_ids)
             import torch
             with torch.no_grad():
-                logits = h_u @ gru.model.embedding.weight.T
+                logits = h_u @ gru.model.all_item_emb().T
                 topk = torch.topk(logits, k).indices.tolist()
             idx2item = {v: kk for kk, v in gru.item2idx.items()}
             for t in topk:

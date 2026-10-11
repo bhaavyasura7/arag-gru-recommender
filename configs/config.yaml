@@ -7,6 +7,7 @@ paths:
   artifacts: artifacts
   lists: artifacts/lists
   gru: artifacts/gru
+  gru_text: artifacts/gru_text
   faiss: artifacts/faiss
   llm_cache: artifacts/llm_cache
   predictions: artifacts/predictions
@@ -89,6 +90,10 @@ gru:
   seq_len: 50
   seeds: [0, 1, 2]
   max_train_users: 0            # 0 = all train users; cap to keep CPU training tractable
+
+gru_text:                       # text-aware GRU (python -m arag.models.train_gru --text)
+  hidden_grid: [128]            # best ID-only config; a 1x1 grid skips the grid run
+  dropout_grid: [0.2]
 
 content:
   decay_grid: [0.0, 0.3, 0.6, 1.0]   # recency decay for content / ItemKNN user profiles (tuned on validation)

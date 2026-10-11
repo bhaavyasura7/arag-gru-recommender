@@ -28,7 +28,7 @@ class GRUScorer:
         idx = self.item_indices(candidate_item_ids)
         x = torch.tensor(idx, dtype=torch.long)
         with torch.no_grad():
-            e = self.model.embedding(x)  # (N, emb)
+            e = self.model.item_emb(x)  # (N, emb)
             scores = h_u @ e.T  # (N,)
         return {iid: float(s) for iid, s in zip(candidate_item_ids, scores)}
 

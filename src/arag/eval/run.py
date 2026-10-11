@@ -351,6 +351,21 @@ def main() -> None:
     best_alpha_content = max(alpha_curve_val_content, key=alpha_curve_val_content.get)
     logger.info("best alpha (ARAG+content)=%.1f", best_alpha_content)
 
+    # text-aware GRU (optional: only if trained via `make gru-text`)
+    text_seeds = [s for s in cfg.get("gru.seeds", [0, 1, 2]) if (cfg.path("gru_text") / str(s) / "model.pt").exists()]
+    best_alpha_text, alpha_curve_val_text = None, {}
+    if text_seeds:
+        gru_text_scorers = {s: GRUScorer(str(cfg.path("gru_text") / str(s))) for s in text_seeds}
+        val_gru_text = {u: gru_text_scorers[text_seeds[0]].rank(val_all_hist[u], val_all_cands[u]) for u in val_users}
+        for alpha in cfg.get("fusion.alpha_grid"):
+            ndcgs = [
+                ndcg_at_k(rank_of(val_targets[u], fuse(val_all_cands[u], val_arag[u], val_gru_text[u], alpha, val_uua_nli[u][1].scores())), 5)
+                for u in val_users
+            ]
+            alpha_curve_val_text[alpha] = float(np.mean(ndcgs))
+        best_alpha_text = max(alpha_curve_val_text, key=alpha_curve_val_text.get)
+        logger.info("text GRU seeds %s; best alpha (ARAG+text GRU)=%.1f", text_seeds, best_alpha_text)
+
     # ---- Phase 2: test ----
     test_users = data.users["test"]
     test_lists_all = data.test_lists
@@ -360,6 +375,7 @@ def main() -> None:
     gru_scorers = {s: GRUScorer(str(cfg.path("gru") / str(s))) for s in cfg.get("gru.seeds", [0, 1, 2])}
     rand_all, pop_all, gru_all_seeds = {}, {}, {s: {} for s in cfg.get("gru.seeds", [0, 1, 2])}
     content_all, knn_all = {}, {}
+    gru_text_all = {s: {} for s in text_seeds}
     for u in all_test_users:
         cand_ids = list(test_lists_all[test_lists_all["user_id"] == u].iloc[0]["candidates"])
         rand_all[u] = random_ranking(cand_ids, seed_for(cfg.seed, "random", u))
@@ -367,6 +383,8 @@ def main() -> None:
         hist = data.history_for(u, "test")["item_id"].astype(str).tolist()
         content_all[u] = content_fn(hist, cand_ids, best_decay_content)
         knn_all[u] = knn.rank(hist, cand_ids, best_decay_knn)
+        for s in text_seeds:
+            gru_text_all[s][u] = gru_text_scorers[s].rank(hist, cand_ids)
         for s in cfg.get("gru.seeds", [0, 1, 2]):
             gru_all_seeds[s][u] = gru_scorers[s].rank(hist, cand_ids)
 
@@ -394,6 +412,8 @@ def main() -> None:
     }
     for s in cfg.get("gru.seeds", [0, 1, 2]):
         systems[f"gru_seed{s}"] = gru_all_seeds[s]
+    for s in text_seeds:
+        systems[f"gru_text_seed{s}"] = gru_text_all[s]
 
     arag_test, abl_nli_test, abl_both_test, recency_test, vrag_test = {}, {}, {}, {}, {}
     gru_seed0 = systems["gru_seed0"]
@@ -418,6 +438,11 @@ def main() -> None:
         cand_ids = test_cand_ids[u]
         fused_test[u] = fuse(cand_ids, arag_test[u], gru_seed0[u], best_alpha, test_nli[u])
     systems["arag_gru"] = fused_test
+    if text_seeds:
+        systems["arag_gru_text"] = {
+            u: fuse(test_cand_ids[u], arag_test[u], gru_text_all[text_seeds[0]][u], best_alpha_text, test_nli[u])
+            for u in test_users
+        }
     systems["arag_content"] = {
         u: fuse(test_cand_ids[u], arag_test[u], content_all[u], best_alpha_content, test_nli[u]) for u in test_users
     }
@@ -425,9 +450,9 @@ def main() -> None:
     # save predictions
     # save predictions (tracked CSVs capped to the 100 test users to keep results/ small)
     csv_users = set(test_users)
-    for sys in ["recency", "vanilla_rag", "arag", "arag_wo_nli", "arag_wo_nli_csa", "arag_gru", "arag_content"]:
+    for sys in ["recency", "vanilla_rag", "arag", "arag_wo_nli", "arag_wo_nli_csa", "arag_gru", "arag_content"] + (["arag_gru_text"] if text_seeds else []):
         save_predictions(cfg, sys, "test", systems[sys], test_targets, csv_users)
-    for sys in ["random", "popularity", "content", "itemknn", "gru_seed0", "gru_seed1", "gru_seed2"]:
+    for sys in ["random", "popularity", "content", "itemknn", "gru_seed0", "gru_seed1", "gru_seed2"] + [f"gru_text_seed{s}" for s in text_seeds]:
         save_predictions(cfg, sys, "test", systems[sys], test_targets, csv_users)
 
     # ---- metrics + bootstrap ----
@@ -436,7 +461,7 @@ def main() -> None:
     systems_sampled = {sys: {u: r for u, r in rk.items() if u in sampled} for sys, rk in systems.items()}
     metrics = compute_all_metrics(systems_sampled, test_targets, cfg)
     # Secondary table: non-LLM systems on all test users.
-    non_llm = ["random", "popularity", "content", "itemknn"] + [f"gru_seed{s}" for s in cfg.get("gru.seeds", [0, 1, 2])]
+    non_llm = ["random", "popularity", "content", "itemknn"] + [f"gru_seed{s}" for s in cfg.get("gru.seeds", [0, 1, 2])] + [f"gru_text_seed{s}" for s in text_seeds]
     metrics_all_users = {
         sys: v for sys, v in compute_all_metrics(
             {sys: systems[sys] for sys in non_llm}, test_targets, cfg
@@ -456,6 +481,8 @@ def main() -> None:
         "best_theta": best_theta,
         "best_alpha": best_alpha,
         "best_alpha_content": best_alpha_content,
+        "best_alpha_text": best_alpha_text,
+        "alpha_curve_validation_text": {str(k): v for k, v in alpha_curve_val_text.items()},
         "alpha_curve_validation_content": {str(k): v for k, v in alpha_curve_val_content.items()},
         "content_decay": {"best": best_decay_content, "curve": {str(k): v for k, v in decay_curve_content.items()}},
         "itemknn_decay": {"best": best_decay_knn, "curve": {str(k): v for k, v in decay_curve_knn.items()}},
@@ -474,7 +501,7 @@ def main() -> None:
 
 
 def compute_all_metrics(systems: dict[str, dict[str, list[str]]], targets: dict[str, str], cfg) -> dict:
-    ref_systems = ["arag", "gru_seed0"]
+    ref_systems = ["arag", "gru_seed0", "gru_text_seed0"]
 
     # precompute per-user metric values per system (once)
     per_user: dict[str, dict[str, dict[str, float]]] = {}
@@ -497,10 +524,10 @@ def compute_all_metrics(systems: dict[str, dict[str, list[str]]], targets: dict[
         }
 
     for sys in systems:
-        if sys in ref_systems:
+        if sys in ("arag", "gru_seed0"):
             continue
         for ref in ref_systems:
-            if ref not in systems:
+            if ref == sys or ref not in systems:
                 continue  # subset call (e.g. non-LLM-only block) without this reference
             users = sorted(set(systems[sys]) & set(systems[ref]))
             if not users:
