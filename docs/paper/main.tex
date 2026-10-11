@@ -174,7 +174,8 @@ primary metric.
 We use the Amazon Reviews 2023 corpus \citep{hou2024bridging}, Video Games category, in its
 official rating-only 5-core leave-last-out benchmark split. For each user, the last interaction
 is the test target, the second-to-last is the validation target and the remainder is training
-history. Item text comes only from product metadata (title, main category, categories,
+history. Each interaction is a user reviewing an item, the standard stand-in for a purchase
+in this corpus (purchase logs are not public). Item text comes only from product metadata (title, main category, categories,
 features and description, truncated to 120 words); review text is never used.
 \Cref{tab:data} summarises the data.
 
@@ -862,8 +863,8 @@ twenty plausible gaming products --- for example \textit{Demon's Souls} (PS3), \
 Mario Bros.\ U}, a Luigi amiibo, \textit{Ghost of Tsushima} (PS4), PS4 controller accessories and
 two gaming headsets. The held-out target is an \textit{ARKARTECH Gaming Headset}. Every
 negative is a known, reviewed product, illustrating that the corrected lists contain no trivial
-zero-interaction decoys: a ranker must infer from four console-game purchases that an accessory
-such as a headset is a plausible next purchase.
+zero-interaction decoys: a ranker must infer from four console-game reviews that an accessory
+such as a headset is a plausible next item.
 
 \section{Errata: the Superseded Run}
 \label{app:errata}

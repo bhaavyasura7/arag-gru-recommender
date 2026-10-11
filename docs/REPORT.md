@@ -142,6 +142,7 @@ Large language models can rank items by reasoning over a user's history in natur
 | Interactions | 814,586 total — **625,062 train / 94,762 valid / 94,762 test** |
 | Users | 94,762 (one validation and one test target each) |
 | Items | 137,269 metadata rows, 137,260 with text; **25,612 of them (18.7%) appear in the interaction data — 111,649 (81%) have zero reviews** |
+| Interactions are reviews | each interaction is a user **reviewing** an item (with a rating) — the standard stand-in for purchases, since Amazon does not release purchase logs |
 | Item text | product metadata only (title, main_category, categories, features, description), truncated to **120 words**; review text is never used |
 
 Leave-last-out semantics: per user, the **last** interaction is the test target, the **second-to-last** is the validation target, and the rest form the train history. Assertions enforce `max(train ts) ≤ valid ts ≤ test ts` and that targets never appear in their own history (no violations; `make lists` fails hard otherwise).
@@ -335,7 +336,7 @@ The curve rises steeply towards the LLM end on **both** splits: almost all of th
 
 ### 6.4 Worked example — one real test user, end to end
 
-This is real data from the evaluation (not an illustration). User `AEDTQXNMWBEI7UECETV5JVUEWNDQ`, a console-games buyer.
+This is real data from the evaluation (not an illustration). User `AEDTQXNMWBEI7UECETV5JVUEWNDQ`, a console-games reviewer.
 
 **Their history (train + validation, in time order):**
 
@@ -716,7 +717,7 @@ Qualitatively and now statistically: ARAG significantly beats LLM-Recency and LL
 
 ## Appendix D — One-paragraph summaries at three levels
 
-**To a non-technical person:** We built a video-game store recommender that combines two "brains": an AI assistant that reads what you bought and reasons about it, and a small neural network that has learned from a million past purchases what people buy next. We tested whether combining them beats each alone by giving all systems the same 20 real products to rank (1 right answer + 19 plausible decoys that are as popular as the right answer, so nobody can cheat by just picking famous products). Result: **the AI assistant is clearly better**, and adding the neural network on top doesn't help — but the neural network alone would have been much worse. We also found, and fixed, an earlier version of the test that accidentally made the neural network look much better than it was.
+**To a non-technical person:** We built a video-game store recommender that combines two "brains": an AI assistant that reads the products you reviewed and reasons about them, and a small neural network that has learned from 625,000 past reviews what people pick next (reviews are the standard stand-in for purchases in this dataset). We tested whether combining them beats each alone by giving all systems the same 20 real products to rank (1 right answer + 19 plausible decoys that are as popular as the right answer, so nobody can cheat by just picking famous products). Result: **the AI assistant is clearly better**, and adding the neural network on top doesn't help — but the neural network alone would have been much worse. We also found, and fixed, an earlier version of the test that accidentally made the neural network look much better than it was.
 
 **To a computer-science student:** We implement an ARAG-style 4-agent LLM pipeline (user understanding → per-candidate NLI scoring → context summarisation → ranking) and fuse its permutation with a GRU4Rec-style next-item model via rank-derived score blending (`α·s_LLM + (1−α)·s_GRU`, α tuned on validation). On frozen 20-item lists (1 target + 19 popularity-matched negatives from the train vocabulary) over Amazon Video_Games (94,762 users), the fused system does **not** beat ARAG alone (ΔNDCG@5 = −0.013, n.s., α\* = 0.9) but significantly beats the GRU alone (+0.174); ARAG significantly beats Recency, Vanilla-RAG and all GRU seeds, and the paper's NLI+CSA ablation reproduces. A post-review protocol fix (negatives were originally drawn from the whole catalogue, 81% of which has zero interactions) is documented with the superseded numbers in Appendix E.
 
