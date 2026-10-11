@@ -1,7 +1,57 @@
 {
-  "cost_usd": 0.9853,
-  "cache_entries": 2405,
-  "prompt_tokens": 4886695,
-  "completion_tokens": 420439,
-  "note": "total cost of all unique cached LLM calls (gpt-4o-mini prices); re-runs with cache are $0"
+  "cost_usd": 0.0,
+  "tokens": {
+    "prompt": 5669486,
+    "completion": 437816
+  },
+  "per_agent": {
+    "uua": {
+      "calls": 200,
+      "cache_hits": 200,
+      "fallbacks": 0,
+      "in": 83786,
+      "out": 16467,
+      "s": 0.0
+    },
+    "nli": {
+      "calls": 804,
+      "cache_hits": 804,
+      "fallbacks": 0,
+      "in": 1072701,
+      "out": 126592,
+      "s": 0.0
+    },
+    "csa": {
+      "calls": 600,
+      "cache_hits": 600,
+      "fallbacks": 0,
+      "in": 1153709,
+      "out": 34441,
+      "s": 0.0
+    },
+    "ira": {
+      "calls": 700,
+      "cache_hits": 700,
+      "fallbacks": 0,
+      "in": 2624261,
+      "out": 229280,
+      "s": 0.0
+    },
+    "recency": {
+      "calls": 100,
+      "cache_hits": 100,
+      "fallbacks": 0,
+      "in": 367517,
+      "out": 15412,
+      "s": 0.0
+    },
+    "vanilla_rag": {
+      "calls": 100,
+      "cache_hits": 100,
+      "fallbacks": 0,
+      "in": 367512,
+      "out": 15624,
+      "s": 0.0
+    }
+  }
 }

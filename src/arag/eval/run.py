@@ -453,6 +453,8 @@ def compute_all_metrics(systems: dict[str, dict[str, list[str]]], targets: dict[
         if sys in ref_systems:
             continue
         for ref in ref_systems:
+            if ref not in systems:
+                continue  # subset call (e.g. non-LLM-only block) without this reference
             users = sorted(set(systems[sys]) & set(systems[ref]))
             if not users:
                 continue

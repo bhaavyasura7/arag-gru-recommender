@@ -3,38 +3,40 @@
 
 **Course deliverable — reproducibility-first report**
 
-> **Outdated — do not cite these numbers.** This report describes a run whose candidate
-> lists drew negatives from all 137k catalogue items. About 14 of the 19 negatives per list
-> had no train interactions, so Popularity and the GRU only had to pick the target out of
-> ~6 known items (Popularity Hit@5 = 0.97), and the "H1 supported" result is an artefact of
-> that. Negatives are now sampled from items with train interactions, proportional to
-> popularity (`sampling.negative_sampling` in `configs/config.yaml`). Re-run
-> `make lists gru eval report` and rewrite this report from the new `results/`.
 Companion documents: `SPEC.md` (specification & recorded deviations), `docs/PROCESS.md` (step-by-step engineering log with every real number), `results/report.md` (auto-generated results summary).
+
+> **Errata notice.** An earlier version of this report presented results from a run whose
+> candidate lists were degenerate (negatives drawn from the whole catalogue, ~81% of which
+> have zero interactions), which artefactually inflated every popularity-like system and
+> produced a false "H1 supported" conclusion. That flaw was found in review, the lists were
+> rebuilt, every system was re-evaluated, the GRU was retrained, and this document was
+> rewritten. The original numbers are preserved — not deleted — in **Appendix E**.
 
 ---
 
 ## Abstract
 
-This project implements an **ARAG-style agentic recommender** (Maragheh et al., 2025, arXiv:2506.21931) on the Amazon Reviews 2023 **Video Games** category and extends it with **one trained deep-learning component: a PyTorch GRU sequential user model late-fused into the final LLM ranking**. All systems rank the *same frozen 20-item candidate lists* (1 held-out target + 19 uniform negatives) per user, so the comparison isolates **ranking** from retrieval.
+This project implements an **ARAG-style agentic recommender** (Maragheh et al., 2025, arXiv:2506.21931) on the Amazon Reviews 2023 **Video Games** category and extends it with **one trained deep-learning component: a PyTorch GRU sequential user model late-fused into the final LLM ranking**. All systems rank the *same frozen 20-item candidate lists* (1 held-out target + 19 **popularity-matched** negatives drawn from the training vocabulary) per user, so the comparison isolates **ranking** from retrieval and no system can win by exploiting an information asymmetry.
 
-Using OpenAI `gpt-4o-mini` for the agent pipeline and 100 sampled test users (plus all 94,762 test users for non-LLM systems), we find:
+Using OpenAI `gpt-4o-mini` for the agent pipeline, 100 sampled test users for every system (plus all 94,762 test users for the non-LLM systems as a secondary table), we find:
 
-- **H1 supported:** ARAG+GRU significantly outperforms ARAG alone (ΔNDCG@5 = **+0.349**, 95% CI [+0.257, +0.441]).
-- **H2 not supported:** ARAG+GRU is statistically indistinguishable from the GRU alone (ΔNDCG@5 = **+0.002**, 95% CI [−0.018, +0.022]). The validation-optimal fusion weight is **α\* = 0.1** (90% GRU / 10% ARAG), i.e. the trained sequential model carries almost all of the ranking signal under this protocol.
-- **Protocol insight:** a *pure popularity* baseline (NDCG@5 = 0.801) is nearly as strong as the trained GRU (0.823) and far stronger than every LLM system (≤ 0.481). With uniform random negatives, global item popularity is a dominant signal, which strongly compresses the headroom for LLM-side improvements and is the main explanation for the H2 outcome.
+- **H1 not supported:** fusing the trained GRU into ARAG does **not** improve on ARAG alone (ΔNDCG@5 = **−0.013**, 95% CI [−0.032, +0.005] — not significant). The validation-optimal fusion weight is **α\* = 0.9**, but on test even that 10% GRU weight is a small, non-significant *drag*.
+- **H2 supported:** the fused system significantly outperforms the GRU alone (ΔNDCG@5 = **+0.174**, 95% CI [+0.069, +0.278]) — the LLM agent adds a large increment on top of the trained model.
+- **ARAG is the best system.** It significantly beats LLM-Recency (Δ = −0.139), LLM-Vanilla-RAG (Δ = −0.162), GRU seeds 1 and 2 (Δ = −0.179, −0.209; and the fused system — statistically equal to ARAG — beats seed 0 by +0.174), Popularity (Δ = −0.315) and Random (Δ = −0.299) — every CI excluding 0.
+- **The paper's claims reproduce.** The baseline ordering (Recency, Vanilla-RAG < ARAG) and one of the two ablations (removing NLI **and** CSA significantly hurts, Δ = −0.062) now hold **statistically**, unlike the earlier degenerate run.
+- **A pure popularity baseline is at or below random** (NDCG@5 0.109 vs random 0.125): because negatives are drawn to be about as popular as targets, popularity carries no free signal.
 
-All numbers are produced by a deterministic, audited pipeline: **`make verify` re-derives every reported metric from the raw per-user predictions and checks dataset hashes and the run record — it passes on the committed artifacts.** The total LLM cost of the full evaluation was **$0.9853**.
+All numbers are produced by a deterministic, audited pipeline: **`make verify` re-derives every reported metric from the raw per-user predictions and checks dataset hashes and the run record — it passes on the committed artifacts.** The corrected evaluation added **2,263 LLM calls ≈ $1.06** (total unique project spend across both protocol versions: **$2.04**); a re-run from cache is **free (137 s)**.
 
 ---
 
 ## 0. How to read this document (orientation, glossary, diagram)
 
-**If you have 30 seconds:** the project asks whether adding a *trained* neural sequence model (GRU) to an *LLM agent* recommender (ARAG) improves ranking. Answer: **yes vs the LLM alone (H1), no vs the trained model alone (H2)** — the GRU carries almost all the signal on this evaluation protocol, and a popularity baseline is nearly as strong as the GRU because the candidate lists use uniform random negatives.
+**If you have 30 seconds:** the project asks whether adding a *trained* neural sequence model (GRU) to an *LLM agent* recommender (ARAG) improves ranking. Answer: **no (H1 fails) — and on fair candidate lists the LLM agent is itself the best system**, significantly beating the trained model, the paper's simpler LLM baselines, popularity and random ranking.
 
-**If you have 10 minutes:** read §1 (questions), §3.2 (frozen candidate lists — the key design decision), §4 (system), §6.1–6.3 (results), §7.2 (why H2 fails), §8 (limitations).
+**If you have 10 minutes:** read §1 (questions), §3.2 (frozen candidate lists — including why they were rebuilt after review), §4 (system), §6 (results), §7 (analysis), and Appendix E (the errata, if you saw the earlier numbers).
 
-**If you must defend it:** every number is reproducible — `make verify` re-derives all metrics from raw predictions and checks dataset hashes; §10 lists the full command sequence; §9 lists every deviation from the original spec.
+**If you must defend it:** every number is reproducible — `make verify` re-derives all metrics from raw predictions and checks dataset hashes; §10 lists the full command sequence; §9 lists every deviation from the original spec; §11 logs every engineering issue found and fixed, including the list-construction flaw.
 
 ### 0.1 Glossary
 
@@ -47,9 +49,9 @@ All numbers are produced by a deterministic, audited pipeline: **`make verify` r
 | **IRA** | Item Ranker Agent — outputs the final permutation of the 20 candidates. |
 | **GRU** | Gated Recurrent Unit — a small recurrent neural network that reads an item sequence and produces a user vector. The project's trained model. |
 | **h_u** | The GRU's user vector (its final hidden state): a fixed-length summary of the user's sequence. |
-| **Vocabulary / OOV** | The set of item ids the GRU knows (from train data); items outside it are "out-of-vocabulary" and mapped to a special OOV embedding. |
-| **Candidate list (frozen)** | The 20 products each user is ranked against: their true held-out **target** + 19 random **negatives**. Frozen so every system ranks identical items. |
-| **Target / negatives** | The one item the user actually interacted with next (target) and the 19 decoys the user never touched (negatives). |
+| **Vocabulary / OOV** | The set of item ids the GRU knows (from train data); items outside it are "out-of-vocabulary" and mapped to a special OOV embedding. The corrected lists guarantee **no OOV among candidates**. |
+| **Candidate list (frozen)** | The 20 products each user is ranked against: their true held-out **target** + 19 **popularity-matched negatives** from the training vocabulary. Frozen so every system ranks identical items. |
+| **Target / negatives** | The one item the user actually interacted with next (target) and the 19 decoys (negatives), sampled proportional to train popularity so popularity alone cannot separate them. |
 | **Leave-last-out** | The dataset's official split: per user, last item = test target, second-to-last = validation target, the rest = train history. |
 | **5-core** | Dataset filter: keep only users/items with ≥5 interactions. |
 | **Hit@K** | 1 if the target is in the top K, else 0. |
@@ -71,20 +73,20 @@ All numbers are produced by a deterministic, audited pipeline: **`make verify` r
  "title|category|score|   ├──►└─────┘          ▼                                       │
  date")                   │   ┌─────┐      ┌─────┐      ┌─────┐                       │
  20 frozen candidates ────┼──►│ NLI │─────►│ CSA │─────►│ IRA │──► π_LLM (permutation)│
-                          │   └─────┘  I+  └─────┘      └─────┘        │              │
-                          └──────────  (score≥θ)  ────────────────────  │              │
-                                                                        │              │
-                          ┌──────────────── GRU (trained on 625k train pairs) ────────┐│
+                           │   └─────┘  I+  └─────┘      └─────┘        │              │
+                           └──────────  (score≥θ)  ────────────────────  │              │
+                                                                         │              │
+                           ┌──────────────── GRU (trained on 625k train pairs) ────────┐│
  history (last 50 train   │   h_u = GRU(sequence)                                    ││
  items → indices)         ├──►  score_i = h_u · e_i  ──► π_GRU (permutation)         ││
  20 frozen candidates ────┤                                                             ││
-                          └─────────────────────────────────────────────────────────────┘│
-                                                                        │              │
-                                                                        ▼              ▼
-                                              final = α·s_LLM + (1−α)·s_GRU   (α* = 0.1)
-                                                          │
-                                                          ▼
-                                              ranked 20 candidates
+                           └─────────────────────────────────────────────────────────────┘│
+                                                                         │              │
+                                                                         ▼              ▼
+                                               final = α·s_LLM + (1−α)·s_GRU   (α* = 0.9)
+                                                           │
+                                                           ▼
+                                               ranked 20 candidates
 ```
 
 **Where each piece lives in code:** agents in `src/arag/agents/` (`uua.py`, `nli.py`, `csa.py`, `ira.py`, `arag.py`); GRU in `src/arag/models/` (`gru.py`, `train_gru.py`, `score.py`); fusion in `src/arag/ranking/fusion.py`; the whole experiment in `src/arag/eval/run.py`.
@@ -106,7 +108,7 @@ Large language models can rank items by reasoning over a user's history in natur
 2. Do the paper's two ablations (ARAG without NLI; ARAG without NLI & CSA) lose to full ARAG?
 3. What does the system cost (tokens, USD, calls) and how reproducible is it?
 
-**Scope note (stated up front).** This is **ARAG-inspired, not an exact reproduction**: the paper does not publish prompts, the NLI threshold, candidate-list construction or code, and it used gpt-3.5-turbo on an older Amazon dataset. Our numbers must never be compared directly with the paper's Table 1. Negative or mixed results are treated as valid outcomes and reported as measured.
+**Scope note (stated up front).** This is **ARAG-inspired, not an exact reproduction**: the paper does not publish prompts, the NLI threshold, candidate-list construction or code, and it used gpt-3.5-turbo on an older Amazon dataset. Our numbers must never be compared directly with the paper's Table 1. Negative or mixed results are treated as valid outcomes and reported as measured — including H1 failing, and including the protocol flaw found in review (Appendix E).
 
 ---
 
@@ -131,29 +133,33 @@ Large language models can rank items by reasoning over a user's history in natur
 | Integrity | SHA-256 of all four files recorded in `results/manifest.json` |
 | Interactions | 814,586 total — **625,062 train / 94,762 valid / 94,762 test** |
 | Users | 94,762 (one validation and one test target each) |
-| Items | 137,269 metadata rows, 137,260 with text; 0 interacted items lacked metadata |
+| Items | 137,269 metadata rows, 137,260 with text; **25,612 of them (18.7%) appear in the interaction data — 111,649 (81%) have zero reviews** |
 | Item text | product metadata only (title, main_category, categories, features, description), truncated to **120 words**; review text is never used |
 
 Leave-last-out semantics: per user, the **last** interaction is the test target, the **second-to-last** is the validation target, and the rest form the train history. Assertions enforce `max(train ts) ≤ valid ts ≤ test ts` and that targets never appear in their own history (no violations; `make lists` fails hard otherwise).
 
-### 3.2 Frozen candidate lists (the central design decision)
+### 3.2 Frozen candidate lists (the central design decision — and why they were rebuilt)
 
 For every validation and test user we construct a **20-item candidate list**:
 
-> the user's true held-out target + **19 negatives sampled uniformly** from items that (i) have text and (ii) the user never interacted with in **any** split; the list is shuffled with a seeded RNG (seed 42) and then **frozen**.
+> the user's true held-out target + **19 negatives sampled (seed 42) proportional to train interaction count** from the **25,527 items that have train interactions**, excluding anything the user interacted with in any split; the list is shuffled with the seeded RNG and then **frozen**.
 
 Every system — Random, Popularity, GRU, the LLM baselines, ARAG, the ablations and the fused system — ranks this identical list. This is deliberate:
 
 - If each method retrieved its own candidates, a missed retrieval would score 0 for that method and the experiment would measure **retrieval**, not **ranking**.
 - A frozen list is the only way to attribute a Hit@5 difference to *ranking quality*.
-- The expected Hit@5 of a uniformly random permutation on a 20-item list is exactly **0.25** (empirically 0.251), which we use as a sanity anchor.
+- The expected Hit@5 of a uniformly random permutation on a 20-item list is exactly **0.25** (0.220 on our 100-user sample — within noise of n=100), which we use as a sanity anchor.
+
+**Why the negatives are popularity-weighted (post-review correction).** The first version of this experiment sampled negatives uniformly from *all 137,260 catalogue items with text*. Because 81% of those items have **zero interactions**, a measured **mean 15.5 of 19 negatives per list were unknown** to Popularity (tied at count 0) and to the GRU (one shared OOV embedding → identical scores → alphabetical tie-break). The effective task for those systems was a ~4.5-way choice, not a 20-way one — Popularity reached Hit@5 = 0.97 and any GRU-vs-LLM gap was inflated. This was found in review, fixed (`dataprep/lists.py`), and **every system was re-evaluated**; the GRU was also retrained. Full diagnosis and the superseded numbers: **Appendix E** and `docs/PROCESS.md §11`.
+
+**Post-fix validation on the rebuilt lists:** 0 OOV negatives; 19.0/19 known negatives per list; 0 targets outside the train vocabulary; negatives average 1.01× (validation) / 1.40× (test) the target's train popularity — i.e. about as popular as the target, so popularity alone carries no free signal.
 
 Lists are hashed (`artifacts/lists/lists_hashes.json`) and re-verified by `make verify`; they are never regenerated after evaluation begins.
 
 ### 3.3 Evaluation users
 
-- Every **LLM-based** system is evaluated on the same **100 validation + 100 test users** (sampled with seed 42 from users whose target item has text).
-- Non-LLM systems (Random, Popularity, GRU) are additionally reported on **all 94,762 test users**, which gives near-deterministic estimates for those methods.
+- **Every system** — including Random, Popularity and the GRU — is scored on the **same 100 sampled test users** for the main table and for all significance tests (this was corrected after review; the earlier table compared 100-user LLM numbers against all-user GRU numbers).
+- Non-LLM systems are additionally reported on **all 94,762 test users** in a separate block (`metrics_all_users`), which gives near-deterministic estimates for those methods.
 - The demo (Phase B) seeds 8 of the same real test users; no synthetic users exist anywhere in the evaluation.
 
 ### 3.4 Metrics
@@ -168,7 +174,7 @@ Reported metrics: Hit@5, NDCG@5, Hit@10, NDCG@10, MRR. Primary metrics are **Hit
 
 ### 3.5 Statistical testing
 
-Every system is compared with **paired bootstrap** over users (10,000 resamples, 95% percentile CIs of the mean per-user metric difference), versus **ARAG** and versus **GRU**. A CI containing 0 is reported as *no significant difference*. Comparisons use only the users shared by both systems.
+Every system is compared with **paired bootstrap** over the same 100 users (10,000 resamples, 95% percentile CIs of the mean per-user metric difference), versus **ARAG** and versus **GRU** (seed 0). A CI containing 0 is reported as *no significant difference*.
 
 ---
 
@@ -198,12 +204,14 @@ Robustness: NLI missing/unknown ids are re-asked once; anything still missing re
 
 ### 4.2 GRU sequential model (the deep-learning contribution)
 
-- **Architecture:** item embedding (64-d) → dropout → 1-layer GRU (hidden 64) → dropout → linear projection (64-d) → full-softmax over the vocabulary, with **input/output embeddings tied**.
+- **Architecture:** item embedding (64-d) → dropout → 1-layer GRU (hidden **128**) → dropout → linear projection (64-d) → full-softmax over the vocabulary, with **input/output embeddings tied**.
 - **Vocabulary:** items seen in the train split (25,527); index 0 = padding, 1 = OOV.
 - **User vector:** h_u = last valid hidden state (projected to 64-d). Item score = h_u · e_i.
-- **Training:** last 50 train items per user, right-padded, `pack_padded_sequence`; next-item prediction on every prefix; full-softmax cross-entropy; Adam lr 1e-3; batch 256; ≤12 epochs with early stopping (patience 3) on **validation NDCG@5 over all 94,762 validation users** against the frozen lists.
-- **Hyperparameter grid:** hidden ∈ {64, 128} × dropout ∈ {0.2, 0.5}, then **3 seeds** of the best config.
-- **Result:** best config hidden=64, dropout=0.2; seed validation NDCG@5 = 0.8409 / 0.8455 / 0.8385. Test (all 94,762 users): **Hit@5 0.976 ± 0.001, NDCG@5 0.823 ± 0.004, MRR 0.775 ± 0.005**.
+- **Training:** last 50 train items per user, right-padded, `pack_padded_sequence`; next-item prediction on every prefix; full-softmax cross-entropy; Adam lr 1e-3; batch 256; ≤12 epochs with early stopping (patience 3) on **validation NDCG@5 over all 94,762 validation users against the frozen lists**.
+- **Hyperparameter grid:** hidden ∈ {64, 128} × dropout ∈ {0.2, 0.5}, then **3 seeds** of the best config. Total training time ≈ 1 h 50 m CPU.
+- **Result (retrained on the corrected lists):** grid validation NDCG@5 = 0.1549 (64/0.2), 0.1545 (64/0.5), **0.2988 (128/0.2 — best)**, 0.1534 (128/0.5); seed validation NDCG@5 = 0.2928 / 0.2795 / 0.2838. Test (all 94,762 users): **Hit@5 0.422 ± 0.010, NDCG@5 0.279 ± 0.007, MRR 0.285 ± 0.005**.
+
+Note the scale change versus the original run (NDCG@5 0.823): that number was obtained against the degenerate lists where the GRU only had to beat ~3.5 known decoys (Appendix E).
 
 ### 4.3 Late fusion
 
@@ -244,8 +252,8 @@ Ties break by higher NLI score, then item_id. **α is chosen on the 100 validati
 
 ### 5.2 Tuning (validation only)
 
-- **θ (NLI acceptance threshold):** validation NDCG@5 at θ ∈ {4, 5, 6, 7} = 0.4606 / **0.4890** / 0.4574 / 0.4772 → **θ\* = 5**.
-- **α (fusion weight):** validation NDCG@5 peaks at **α\* = 0.1** (0.8186), with α = 0 at 0.8071 and α = 1 at 0.4890.
+- **θ (NLI acceptance threshold):** validation NDCG@5 at θ ∈ {4, 5, 6, 7} = 0.4228 / **0.4305** / 0.3993 / 0.3962 → **θ\* = 5**.
+- **α (fusion weight):** validation NDCG@5 over α ∈ {0.0…1.0} peaks at **α\* = 0.9** (0.4341), with α = 1.0 at 0.4305 and α = 0.0 at 0.2965.
 
 Both are selected **only** on the 100 validation users; the test set is never used for tuning.
 
@@ -253,7 +261,7 @@ Both are selected **only** on the 100 validation users; the test set is never us
 
 - LLM: OpenAI **gpt-4o-mini** (temperature 0). Provider is configurable (local Ollama `qwen3:8b` is supported through the same client; the committed results use gpt-4o-mini — see §9).
 - Embeddings: `sentence-transformers/all-MiniLM-L6-v2` (384-d, normalized) + FAISS `IndexFlatIP`.
-- **Cost:** 2,405 unique LLM calls, 4,886,695 input / 420,439 output tokens, **$0.9853** at $0.15/$0.60 per 1M. A cached re-run completes in **136 s** at **$0**.
+- **Cost of the corrected evaluation:** 2,263 new unique LLM calls (the LLM outputs depend on the candidate lists, so the rebuilt lists invalidated the old cache). Total unique project spend across both protocol versions: 4,668 calls, 10,310,033 input / 830,142 output tokens, **$2.04** at $0.15/$0.60 per 1M (original run $0.9853 + corrected run ≈ $1.06). A cached re-run completes in **137 s** at **$0**.
 
 ---
 
@@ -261,127 +269,147 @@ Both are selected **only** on the 100 validation users; the test set is never us
 
 ### 6.1 Main comparison (test)
 
-LLM systems on the **100 sampled test users**; non-LLM systems on **all 94,762 test users** (flagged). GRU = mean over seeds 0/1/2.
+**Every system is scored on the same 100 sampled test users.** GRU rows are individual seeds (the trained model is not seed-averaged at inference).
 
 | System | Hit@5 | NDCG@5 | Hit@10 | NDCG@10 | MRR |
 |---|---|---|---|---|---|
-| Random *(all users)* | 0.251 | 0.149 | 0.502 | 0.229 | 0.181 |
-| Popularity *(all users)* | 0.969 | 0.801 | 0.996 | 0.810 | 0.749 |
-| GRU *(all users; mean ± std)* | 0.976 ± 0.001 | **0.823 ± 0.004** | 0.994 | 0.828 | 0.775 |
-| LLM-Recency | 0.490 | 0.389 | 0.670 | 0.447 | 0.403 |
-| LLM-Vanilla-RAG | 0.480 | 0.386 | 0.670 | 0.448 | 0.403 |
-| ARAG (θ\*=5) | 0.570 | 0.453 | 0.730 | 0.504 | 0.452 |
-| ARAG w/o NLI | 0.610 | 0.481 | 0.720 | 0.516 | 0.472 |
-| ARAG w/o NLI & CSA | 0.590 | 0.456 | 0.690 | 0.488 | 0.445 |
-| **ARAG+GRU (α\*=0.1)** | **0.990** | 0.802 | **1.000** | 0.805 | 0.740 |
+| Random | 0.220 | 0.125 | 0.470 | 0.205 | 0.162 |
+| Popularity | 0.200 | 0.109 | 0.470 | 0.197 | 0.150 |
+| GRU (seed 0) | 0.390 | 0.238 | 0.640 | 0.321 | 0.249 |
+| GRU (seed 1) | 0.450 | 0.246 | 0.640 | 0.306 | 0.230 |
+| GRU (seed 2) | 0.360 | 0.216 | 0.630 | 0.302 | 0.230 |
+| LLM-Recency | 0.400 | 0.285 | 0.630 | 0.358 | 0.300 |
+| LLM-Vanilla-RAG | 0.380 | 0.263 | 0.670 | 0.355 | 0.283 |
+| **ARAG (θ\*=5)** | **0.530** | **0.424** | 0.700 | **0.479** | **0.432** |
+| ARAG w/o NLI | 0.510 | 0.376 | 0.720 | 0.445 | 0.380 |
+| ARAG w/o NLI & CSA | 0.470 | 0.362 | 0.630 | 0.414 | 0.372 |
+| ARAG+GRU (α\*=0.9) | 0.540 | 0.412 | 0.710 | 0.466 | 0.411 |
 
-### 6.2 Hypothesis tests (paired bootstrap, ΔNDCG@5, 95% CI)
+**Secondary table — non-LLM systems on all 94,762 test users** (near-deterministic estimates; GRU mean ± std over seeds):
+
+| System | Hit@5 | NDCG@5 | MRR |
+|---|---|---|---|
+| Random | 0.252 | 0.149 | 0.181 |
+| Popularity | 0.213 | 0.128 | 0.166 |
+| GRU (mean ± std) | 0.422 ± 0.010 | 0.279 ± 0.007 | 0.285 ± 0.005 |
+
+### 6.2 Hypothesis tests (paired bootstrap, ΔNDCG@5, same 100 users, 95% CI)
 
 | Comparison | ΔNDCG@5 | 95% CI | Verdict |
 |---|---|---|---|
-| **ARAG+GRU − ARAG (H1)** | **+0.349** | [+0.257, +0.441] | **significant** |
-| **ARAG+GRU − GRU (H2)** | +0.002 | [−0.018, +0.022] | **not significant** |
-| ARAG+GRU − ARAG, Hit@5 | +0.420 | [+0.320, +0.520] | significant |
-| ARAG+GRU − GRU, Hit@5 | 0.000 | [0.000, 0.000] | not significant |
-| LLM-Recency − ARAG | −0.064 | [−0.152, +0.022] | not significant |
-| LLM-Vanilla-RAG − ARAG | −0.068 | [−0.151, +0.014] | not significant |
-| ARAG w/o NLI − ARAG | +0.027 | [−0.025, +0.084] | not significant |
-| ARAG w/o NLI & CSA − ARAG | +0.003 | [−0.045, +0.053] | not significant |
-| Popularity − GRU *(all users)* | −0.021 | [−0.023, −0.017] | GRU significantly better (small) |
-| Popularity − ARAG | +0.360 | [+0.262, +0.458] | significant |
-| GRU − ARAG *(seed 1)* | +0.338 | [+0.241, +0.436] | significant |
+| **ARAG+GRU − ARAG (H1)** | **−0.013** | [−0.032, +0.005] | **not supported** |
+| **ARAG+GRU − GRU seed 0 (H2)** | **+0.174** | [+0.069, +0.278] | **significant — supported** |
+| ARAG − LLM-Recency | +0.139 | [+0.063, +0.217] | significant — paper's baseline ordering reproduces |
+| ARAG − LLM-Vanilla-RAG | +0.162 | [+0.079, +0.247] | significant — paper's baseline ordering reproduces |
+| ARAG − ARAG w/o NLI | +0.049 | [−0.011, +0.111] | not significant |
+| ARAG − ARAG w/o NLI & CSA | +0.062 | [+0.016, +0.113] | significant — paper's ablation reproduces |
+| ARAG − GRU seed 1 | +0.179 | [+0.078, +0.282] | significant |
+| ARAG − GRU seed 2 | +0.209 | [+0.098, +0.318] | significant |
+| GRU seed 0 − Popularity | +0.129 | [+0.078, +0.186] | significant |
+| GRU seed 0 − Random | +0.113 | [+0.022, +0.207] | significant |
+| LLM-Recency − GRU seed 0 | +0.047 | [−0.057, +0.148] | not significant |
+| LLM-Vanilla-RAG − GRU seed 0 | +0.025 | [−0.072, +0.119] | not significant |
+
+(GRU seed 0 is one of the two reference systems in the pairwise tests, so it has no `vs ARAG` entry of its own; its gap to ARAG is captured by H2 above — the fused system, statistically indistinguishable from ARAG, beats seed 0 by +0.174 — and by the mean differences in §6.1. Signs are shown in the intuitive direction; raw `*_vs_*` entries in `metrics.json` store the difference as named.)
 
 ### 6.3 The α curve (validation and test)
 
-| α | 0.0 | **0.1** | 0.2 | 0.3 | 0.5 | 0.7 | 0.9 | 1.0 |
-|---|---|---|---|---|---|---|---|---|
-| validation NDCG@5 | 0.8071 | **0.8186** | 0.7826 | 0.7747 | 0.6899 | 0.6080 | 0.5207 | 0.4890 |
-| test NDCG@5 | 0.7995 | **0.8017** | 0.7641 | 0.7482 | 0.6530 | 0.5677 | 0.4841 | 0.4532 |
+| α | 0.0 | 0.2 | 0.4 | 0.6 | 0.8 | **0.9** | 1.0 |
+|---|---|---|---|---|---|---|---|
+| validation NDCG@5 | 0.2965 | 0.3127 | 0.3229 | 0.3572 | 0.3993 | **0.4341** | 0.4305 |
+| test NDCG@5 | 0.2383 | 0.2731 | 0.3045 | 0.3582 | 0.3896 | 0.4119 | **0.4245** |
 
-The curve is monotone decreasing in α except for the small α\*=0.1 bump: **the more weight on the LLM ranking, the worse the result.** On test the optimum sits essentially at pure GRU. The full curve is plotted in `results/alpha_curve.png`.
-
----
+The curve rises steeply towards the LLM end on **both** splits: almost all of the ranking signal is on the LLM side. Validation prefers α=0.9 over α=1.0 by a hair (0.4341 vs 0.4305 — 3.6 thousandths on 100 users), but on test the pure-LLM end is best (0.4245 vs 0.4119). That is the classic signature of a **hyperparameter overfit on a small validation set**: the 10% GRU weight that looked helpful on validation is a small (non-significant) drag on test. The full curve is plotted in `results/alpha_curve.png`.
 
 ### 6.4 Worked example — one real test user, end to end
 
-This is real data from the evaluation (not an illustration). User `AE24RBZBFTNQ2ZTQIVY5GTEEOS2A`, a PC-gaming peripherals buyer.
+This is real data from the evaluation (not an illustration). User `AEDTQXNMWBEI7UECETV5JVUEWNDQ`, a console-games buyer.
 
 **Their history (train + validation, in time order):**
 
-| # | Item | Title (truncated) |
-|---|---|---|
-| 1 | B00HTK1NCS | Redragon M601 RGB Gaming Mouse |
-| 2 | B0C2CYCX75 | EasySMX 2.4G Wireless Controller for PS3/PC |
-| 3 | B00E4MQODC | Logitech G602 Wireless Gaming Mouse |
-| 4 | B01N3ASPNV | amFilm Tempered Glass Screen Protector for Nintendo Switch |
-| 5 | B07DDN59PJ | CORSAIR SABRE RGB Gaming Mouse |
+| # | Item |
+|---|---|
+| 1 | The Legend of Zelda: Breath of the Wild — Wii U |
+| 2 | Need for Speed Most Wanted U — Nintendo Wii U |
+| 3 | Hot Wheels World's Best Driver |
+| 4 | LEGO: Marvel — PC |
 
 **Their frozen 20-item candidate list** (order as stored), with the true held-out target marked:
 
-| # | Item | Title (truncated) |
-|---|---|---|
-| 1 | B08DV4ZFVQ | INPHIC Wireless Mouse |
-| 2 | B0BY8X7VVB | Marada G920 Racing Wheel Stand |
-| 3 | B07ZQ7S28B | Mr Wonderful Vinyl Skin for Nintendo |
-| **4** | **B07JH4R6ZT** | **Cooler Master MH-752 Gaming Headset ← TARGET** |
-| 5 | B09V5428B3 | NexiGo VR Stand |
-| 6 | B00B920R9C | PS3 Modded Controller (Rapid Fire) |
-| 7 | B07VWNN9BZ | Controller Repair Screw Set |
-| 8 | B09YDQRZF8 | Linux Basics for Hackers (book) |
-| 9 | B07Z3FV3X9 | FASTSNAIL Charging Dock for Switch |
-| 10–20 | … | (thumb grips, skins, arcade kit, keyboard, makeup, CD-Rs, a Wii game — mostly irrelevant decoys) |
+| # | Title (truncated) | | # | Title (truncated) |
+|---|---|---|---|---|
+| 1 | Demon's Souls — PS3 | | 11 | Insten Snap-on Crystal Case for PS4 |
+| 2 | New Super Mario Bros. U | | 12 | Mortal Kombat X — PS4 |
+| 3 | Sesame Street: Cookie's Counting Carnival — PC | | 13 | PlayStation 2 Dance Mat |
+| 4 | Luigi amiibo | | 14 | Conker's Bad Fur Day |
+| 5 | Far Cry New Dawn — Xbox | | 15 | Carnival Games — Xbox 360 |
+| 6 | Transformers: War for Cybertron — Xbox 360 | | 16 | PS4 Controller Charger Dock |
+| 7 | Super Mario Land 2 | | 17 | Xbox360 Controller Battery Cover |
+| 8 | PS4 Controller Grips (silicone) | | 18 | Tomee 256KB Memory Card for N64 |
+| 9 | Resident Evil 3 Nemesis — PC | | 19 | Ghost of Tsushima — PS4 |
+| **10** | **ARKARTECH Gaming Headset ← TARGET** | | 20 | Stereo Gaming Headset (Blue) |
+
+Note the list itself: **every item is a plausible, well-known gaming product** — that is the popularity-weighted negative sampling working. There are no freebie zero-review decoys.
 
 **How each system ranked the target:**
 
-| System | Rank of target | Its top-5 (in order) |
-|---|---|---|
-| **ARAG (LLM)** | **6 (miss)** | wireless mouse, racing wheel stand, PS3 controller, repair kit, Switch dock |
-| **GRU** | **2 (hit)** | Wii game, **headset (target)**, PS2 pad, CD-Rs, PS3 controller |
-| **ARAG+GRU (α\*=0.1)** | **2 (hit)** | Wii game, **headset (target)**, PS2 pad, PS3 controller, CD-Rs |
-| Popularity | 2 (hit) | Wii game, **headset (target)**, PS2 pad, CD-Rs, PS3 controller |
+| System | Rank of target |
+|---|---|
+| **ARAG (LLM)** | **2 (hit)** |
+| **ARAG+GRU (α\*=0.9)** | **2 (hit)** |
+| LLM-Recency | 7 (miss) |
+| **GRU (seed 0)** | **11 (miss)** |
+| Popularity | 15 (miss) |
 
-**What this tells you in one example:**
-
-1. **ARAG reasons plausibly but misses.** Its top-5 are all gaming peripherals (sensible from the history), but it puts the headset 6th — the same category it should predict. An LLM reasoning over five title lines does not reliably pin the exact next item.
-2. **The GRU gets it.** Trained to predict the next item across 625k interactions, it places the true next item 2nd. It has learned that "mouse/controller buyer → gaming headset" is a common continuation.
-3. **The fusion inherits the GRU.** With α\*=0.1 the blended list is essentially the GRU's list, so the target lands 2nd (Hit@5). This single case is a microcosm of the aggregate result: fusion ≈ GRU ≫ ARAG on this protocol.
-4. **Popularity also gets it** (2nd) — the headset is a popular item, illustrating §7.2's point: with random negatives, popularity alone already captures much of the signal, which is why the LLM's residual contribution is hard to detect.
+**What this tells you in one example:** the LLM reads four game titles and correctly infers *"console gamer → gaming headset"*, placing the true next item 2nd among 19 hard decoys (including a second, competing headset at #20). The GRU — trained on sequences, blind to product text — misses at rank 11; Recency misses at 7; Popularity is useless (15) because the decoys are as popular as the target. This single case is a microcosm of the aggregate result: **ARAG ≫ GRU, and fusion inherits the LLM.**
 
 ---
 
 ## 7. Analysis and discussion
 
-### 7.1 H1: fusing the trained model into ARAG helps, massively
+### 7.1 H1 not supported: the trained GRU adds nothing to the agentic pipeline
 
-Adding the GRU lifts ARAG from NDCG@5 0.453 to 0.802 (+0.349, CI excludes 0 by a wide margin). This is unsurprising in hindsight: the LLM ranks by *reasoning over one user's ~55 items of text*, while the GRU has learned next-item statistics from **625k interactions across the whole population** — collaborative signal that is literally absent from the prompt. On a leave-last-out target, next-item prediction is exactly the task the GRU was trained for.
+Fusing the GRU at the validation-optimal α\* = 0.9 changes NDCG@5 by **−0.013 [−0.032, +0.005]** versus ARAG alone — not significant, and if anything slightly negative. The α curve (§6.3) shows why: validation and test both rise monotonically towards α = 1, with the only exception being a 0.0036 validation-only bump at 0.9 that reverses on test. On 100 validation users that bump is noise; tuning α there and applying it to test is exactly the setting where a small overfit is expected, and we report it rather than hide it.
 
-### 7.2 H2: the LLM adds nothing measurable on top of the GRU, under this protocol
+Substantively: the GRU's signal — sequential co-occurrence statistics over 625k interactions — is **subsumed** by what the IRA agent already does. The IRA sees the same user's full history in text plus 20 candidate descriptions and a NLI score per candidate; the 10% weight on a blind sequence model cannot add information the LLM has not already used. This is the honest, null answer to the project's primary question.
 
-The fused system is statistically indistinguishable from the GRU alone (ΔNDCG@5 = +0.002, CI [−0.018, +0.022]), and the validation-optimal weight puts only 10% on the LLM. Three observations explain this:
+### 7.2 H2 supported: the LLM adds a large, significant increment over the GRU
 
-1. **The GRU is near the protocol ceiling.** It already places the target in the top-5 for ~97.6% of users (all-user test). With 19 uniform negatives, most of the remaining error is not fixable by better reasoning — it is label noise / genuinely unpredictable targets.
-2. **Uniform random negatives strongly favour popularity-like signals.** A pure *popularity* baseline reaches NDCG@5 = 0.801 — nearly the GRU's 0.823 and far above any LLM system. The target item of a 5-core user is typically a popular item, and random negatives are mostly obscure items; ranking by global frequency therefore scores very well. LLM systems receive no global popularity statistics (only one user's history), so they are structurally handicapped on this list construction.
-3. **The paper's ordering** (LLM-Recency, LLM-Vanilla-RAG < ARAG) holds **directionally** (0.389, 0.386 < 0.453) but **not significantly** at n=100. The ablations (w/o NLI, w/o NLI&CSA) did **not** hurt ARAG in our run — the opposite of the paper's ablation result (they were weakly better, not significant). Both are consistent with the explanation that, on uniform negatives, elaborate agentic context-processing buys little over a one-shot ranking prompt.
+The fused system beats the GRU alone by **+0.174 [+0.069, +0.278]**, and pure ARAG significantly beats GRU seeds 1 and 2 (Δ = +0.179, +0.209) while the fused system — statistically indistinguishable from ARAG — significantly beats seed 0. Even the paper's *weakest* LLM baseline (Vanilla-RAG, +0.025) is directionally above the GRU, though not significantly. Under a protocol where popularity cannot win for free, **content reasoning beats sequential co-occurrence** in this domain. Plausible reasons: 5-core users have short histories (~6.6 interactions), so the GRU's sequence signal is thin; item text (title, category, features) is highly informative in Video Games (genres, platforms, accessories); and the LLM can perform cross-category inference ("buys Wii U games → buys a headset") that a 128-d sequence embedding trained on next-item likelihood does not capture.
 
-**Interpretation.** The honest reading is: *the trained sequential model dominates this task; the agentic LLM pipeline contributes a small, non-significant increment.* This is a legitimate and informative outcome — it quantifies exactly what the LLM contributes on top of a strong trained baseline, rather than assuming a gain.
+### 7.3 The paper's claims now reproduce — significantly
 
-### 7.3 Secondary baselines and cost
+| Paper claim | Our result |
+|---|---|
+| LLM-Recency < ARAG | **Significant**: Δ = −0.139 [−0.217, −0.063] |
+| LLM-Vanilla-RAG < ARAG | **Significant**: Δ = −0.162 [−0.247, −0.079] |
+| Removing NLI & CSA hurts | **Significant**: Δ = −0.062 [−0.113, −0.016] |
+| Removing only NLI hurts | Not significant: Δ = −0.049 [−0.111, +0.011] (direction correct) |
 
-- Popularity is a *very* strong baseline here (NDCG@5 0.801 on all users), though the GRU is still significantly better (Δ = −0.021, CI excludes 0) — a tiny but reliable margin over 94,762 users.
-- LLM-Recency and LLM-Vanilla-RAG behave nearly identically (~0.39), i.e. the retrieval step in Vanilla-RAG adds nothing measurable in this setup.
-- Total evaluation cost is **$0.9853**, well inside the ≈$1 budget estimated in the spec; a cached re-run is free (136 s) because every call is keyed by (model, prompt, schema).
+This is a meaningful contrast with the earlier degenerate run, where none of these differences reached significance and the ablations were weakly *better* than full ARAG (Appendix E). The confound that hid them was the popularity-dominated candidate lists: when almost every decoy is an unreviewed item, the elaborate agentic context-processing has no room to show its value, and a one-shot ranking prompt does about as well. Once the decoys are real, popular products, **the full agent stack (especially CSA) demonstrably earns its calls.**
+
+### 7.4 Popularity is now at or below random — the protocol works
+
+With popularity-matched negatives, the Popularity baseline scores NDCG@5 **0.109 — below random's 0.125** on the 100-user sample (and 0.128 vs 0.149 on all 94,762 users). It is significantly beaten by the GRU (Δ = 0.129) and by ARAG (Δ = 0.315). This is the designed behaviour: negatives are drawn from the same popularity distribution as targets, so global frequency carries no free signal and any system that wins must actually use the user.
+
+### 7.5 Secondary observations
+
+- LLM-Recency (0.285) and LLM-Vanilla-RAG (0.263) are close, and neither significantly beats the GRU — the MiniLM retrieval step in Vanilla-RAG again adds nothing measurable over simply taking the last 10 items.
+- The three GRU seeds agree with each other (seed-to-seed Δ n.s.), so the GRU-vs-ARAG gap is not a seed artefact.
+- Random's 0.220 (vs the exact expectation 0.25) is ordinary sampling noise at n=100 (SE ≈ 0.043); the all-user estimate is 0.252.
 
 ---
 
 ## 8. Threats to validity and limitations
 
-1. **Uniform negatives inflate popularity-like methods.** The frozen-list protocol (chosen to isolate ranking) makes the task easier than real retrieval and structurally favours Popularity and the GRU. Any headline number should be read as *"ranking quality on uniform 20-item lists"*, not as production retrieval quality.
-2. **100 test users ⇒ wide CIs.** Roughly ±10 points on Hit@5; small differences (including H2) cannot be resolved. Non-LLM systems use all 94,762 test users, so those estimates are tight.
-3. **Leave-last-out leakage into GRU training.** Other users' later interactions may appear in the GRU's training data; this is inherent to the official split and applies equally to all systems, but it means the GRU's advantage is an upper bound relative to a strictly time-separated setup.
+1. **Sampled negatives, not retrieval-mined candidates.** Popularity-matched negatives from the training vocabulary remove the popularity shortcut but are still easier than what a production retriever would surface. Headline numbers should be read as *"ranking quality on hard 20-item lists"*, not as production retrieval quality.
+2. **100 test users ⇒ wide CIs.** Roughly ±8–10 points on Hit@5. The large effects (ARAG vs everything) are comfortably resolved; the small ones (α bump, NLI-only ablation) are not, and α itself is a noisy hyperparameter at this n (evidenced by the valid/test disagreement at the top of the curve).
+3. **Leave-last-out leakage into GRU training.** Other users' later interactions may appear in the GRU's training data; inherent to the official split, applies equally to all systems, but means GRU numbers are upper bounds relative to a strictly time-separated setup.
 4. **Single category, single dataset.** Video Games only; results may not transfer.
 5. **Prompt and threshold sensitivity.** The paper does not publish prompts or θ; our prompt wording and θ\*=5 are our own choices, tuned only on validation.
 6. **Model substitution.** The paper used gpt-3.5-turbo on an older dataset; we use gpt-4o-mini. This is ARAG-inspired, not a reproduction, and no number here is comparable to the paper's tables.
 7. **No human evaluation.** All judgments are offline metrics against a single held-out item.
+8. **The protocol was corrected mid-project** (Appendix E). The correction was made in response to review, applied to every system, and the GRU retrained; but a reader should treat the corrected run as the definitive one and be aware the original run's conclusions were wrong.
 
 ---
 
@@ -389,20 +417,23 @@ The fused system is statistically indistinguishable from the GRU alone (ΔNDCG@5
 
 | # | Spec | What was done | Why |
 |---|---|---|---|
-| 1 | LLM = OpenAI gpt-4o-mini | **Yes — gpt-4o-mini for the committed results.** Local Ollama `qwen3:8b` is also supported through the same client | Local qwen3:8b measured ≈20 s/call with serial Ollama slots (~14 h for the eval); gpt-4o-mini completed the same eval in ~15 min for $0.99. The pipeline was developed and tested against both |
-| 2 | GRU ≤30 epochs | **12 epochs** | Validation NDCG@5 had plateaued (epoch 9 ≈ 0.829, epoch 11 = 0.840); 30 epochs added hours for ranking-irrelevant gains |
+| 1 | LLM = OpenAI gpt-4o-mini | **Yes — gpt-4o-mini for the committed results.** Local Ollama `qwen3:8b` is also supported through the same client | Local qwen3:8b measured ≈20 s/call with serial Ollama slots (~14 h for the eval); gpt-4o-mini completed the same eval in ~15 min for ~$1. Developed and tested against both |
+| 2 | GRU ≤30 epochs | **≤12 epochs** | Validation NDCG@5 plateaus well before 30 under early stopping (patience 3) |
 | 3 | `llm/fake.py` test double | **Removed** | Per project decision: no fake LLM client anywhere; deterministic logic is tested with hand-made fixtures, integration tests hit a real provider |
-| 4 | Exact file names in spec (`raw_meta_Video_Games`) | **Corrected to the real dataset paths** | The config `raw_meta_Video_Games` does not exist for Video_Games; metadata is `raw/meta_categories/meta_Video_Games.jsonl` (verified against the dataset card before coding) |
+| 4 | Exact file names in spec (`raw_meta_Video_Games`) | **Corrected to the real dataset paths** | The config name does not exist for Video_Games; metadata is `raw/meta_categories/meta_Video_Games.jsonl` (verified against the dataset card) |
 | 5 | Tracked prediction CSVs | **Capped to the 100 test users** | Full CSVs were ~147 MB; parquet in `artifacts/` holds every user |
+| 6 | **Negative sampling: uniform over catalogue items with text** | **Changed to popularity-weighted sampling over items with train interactions** (`sampling.negative_sampling: popularity`) | Post-review protocol fix: the original scheme made ~81% of negatives OOV, collapsing the task (Appendix E, `PROCESS.md §11`) |
+| 7 | Main table mixes 100-user LLM numbers with all-user non-LLM numbers | **All systems scored on the same 100 sampled users**; non-LLM additionally on all users in a separate block | Apples-to-oranges comparison; also found in review |
+| 8 | GRU grid picked hidden=64/dropout=0.2 | **Re-run on the corrected lists: hidden=128/dropout=0.2** | The old grid was selected against the degenerate lists; the retrained model is part of the corrected pipeline |
 
 ---
 
 ## 10. Reproducibility and artifact integrity
 
-- **`make verify`** recomputes every reported metric from the raw per-user predictions in `artifacts/predictions/`, diffs them against `results/metrics.json`, recomputes the SHA-256 of the frozen candidate lists, and checks the run record — currently **VERIFY OK**.
+- **`make verify`** recomputes every reported metric from the raw per-user predictions in `artifacts/predictions/`, diffs them against `results/metrics.json` (both the sampled-user and all-user blocks), recomputes the SHA-256 of the frozen candidate lists, and checks the run record — currently **VERIFY OK**.
 - `results/run_record.json` records the git commit, provider/model, category, seed, elapsed time, the dataset manifest (file hashes + row counts) and the full config.
 - **No fabricated numbers anywhere.** `results/` is written only by pipeline code on real data; the unit/integration test fixtures are hand-made inputs that never touch `results/` or `artifacts/`.
-- Determinism: fixed seeds (data 42; GRU 0/1/2), temperature 0, frozen lists, SHA-256-keyed LLM cache. Re-running the evaluation reproduces identical numbers with **zero** new API calls.
+- Determinism: fixed seeds (data 42; GRU 0/1/2), temperature 0, frozen hashed lists, SHA-256-keyed LLM cache. Re-running the evaluation reproduces identical numbers with **zero** new API calls (137 s).
 
 **Full reproduction (from a fresh clone):**
 
@@ -410,9 +441,9 @@ The fused system is statistically indistinguishable from the GRU alone (ΔNDCG@5
 make setup          # venv + pinned pip deps + npm install
 export OPENAI_API_KEY=...     # or switch config.yaml to provider: ollama
 make data           # download + manifest + parquet tables
-make lists          # sequences, samples, frozen candidate lists
+make lists          # sequences, samples, frozen candidate lists (popularity-weighted)
 make index          # MiniLM embeddings + FAISS
-make gru            # GRU grid + 3 seeds          (~1 h 40 m CPU)
+make gru            # GRU grid + 3 seeds          (~1 h 50 m CPU)
 make eval           # all systems, θ/α tuning, bootstrap
 make report         # results/*.md|json|png
 make verify         # audit: recompute metrics, check hashes, run record
@@ -424,31 +455,35 @@ make app            # demo: FastAPI + built React frontend on 127.0.0.1:8000
 
 ## 11. Engineering issues found and fixed (summary)
 
-A complete log is in `docs/PROCESS.md §10`. The notable ones:
+A complete log is in `docs/PROCESS.md §10–§11`. The notable ones:
 
 1. **Padding side bug in GRU training** — `pack_padded_sequence` expects right-padding; the initial left-padded data silently packed the wrong timesteps, caught by a unit test and fixed.
 2. **Candidate-list generation was O(users × catalogue)** and effectively hung; rewritten with oversampling + filtering (94,762 users × 2 splits in ~15 s).
 3. **`run_csa` return-arity bug** (3 values unpacked as 2) crashed the first eval attempt at θ-tuning.
 4. **OpenAI strict-schema constraint** — free-form `dict[str,str]` reasons are not allowed; output schema changed to a list of `{item_id, reason}`.
 5. **Bootstrap memory blow-up** — a naive 10,000 × 94,762 resampling matrix (~7.5 GB) was OOM-killed; rewritten to chunked sampling with a 20,000-user cap (means still computed on all users).
+6. **Degenerate candidate lists (found in review)** — negatives were drawn from all 137k text items, ~81% of which have zero interactions, so ~15.5/19 negatives per list were OOV for the GRU and tied-at-zero for Popularity; the task collapsed to a ~4.5-way choice and produced a false "H1 supported". Fixed by popularity-weighted sampling over the training vocabulary; lists rebuilt, all systems re-evaluated, GRU retrained (Appendix E).
+7. **`compute_all_metrics` KeyError** on the new non-LLM-only metrics block (hardcoded pairwise refs missing from the subset); fixed with a presence guard + regression test.
+8. **GRU checkpoints selected under the old lists** — early stopping had used the degenerate validation lists; the GRU was retrained from scratch against the corrected ones.
 
 ---
 
 ## 12. Conclusion
 
-We built, trained and evaluated an ARAG-inspired agentic recommender fused with a trained GRU. Under a deliberately ranking-isolating protocol (frozen uniform-negative lists):
+We built, trained and evaluated an ARAG-inspired agentic recommender fused with a trained GRU, under a ranking-isolating protocol with **hard, popularity-matched candidate lists** (rebuilt after review — Appendix E):
 
-- Fusing the trained GRU into ARAG yields a **large, significant improvement over ARAG alone (H1 supported)**.
-- The fused system does **not significantly beat the GRU alone (H2 not supported)** at α\* = 0.1; the LLM contributes a small, non-significant increment.
-- A **popularity baseline is nearly as strong as the GRU**, showing that the uniform-negative protocol itself is the dominant factor behind the LLM systems' weak showing.
+- **H1 not supported:** fusing the trained GRU into ARAG does not improve ARAG (ΔNDCG@5 = −0.013, n.s. at the validation-optimal α\* = 0.9). The LLM's ranking already subsumes the sequential model's signal.
+- **H2 supported:** the fused system significantly beats the GRU alone (+0.174), and ARAG significantly beats GRU seeds 1 and 2 — **the agentic LLM pipeline is the best system in this study**.
+- **The paper's claims reproduce significantly:** ARAG > LLM-Recency, ARAG > LLM-Vanilla-RAG, and removing NLI+CSA significantly hurts.
+- **Popularity carries no free signal** under popularity-matched negatives (at or below random), confirming the protocol is doing its job.
 
-The main scientific value of the result is the quantification itself: *on this task and protocol, the trained sequential model carries the ranking signal, and the agentic LLM layer adds little.* Future work: harder negatives (retrieval-based), a strictly time-separated split for the GRU, more test users for tighter CIs, and stronger LLM baselines to test whether the agentic increment survives with more statistical power.
+The most valuable finding is methodological as much as empirical: **candidate-list construction can manufacture or erase entire conclusions.** Under the original uniform-over-catalogue lists, the trained model looked dominant (+0.349, "significant"); under fair lists the effect reverses and the LLM agent dominates. Both runs are reported in full, the fix is a ~60-line change in one file, and every corrected number is auditable with `make verify`. Future work: retrieval-mined negatives, ≥300 test users for tighter CIs and a stable α, a strictly time-separated split for the GRU, and an LLM ranker given explicit popularity features to test whether the agentic increment survives with the last confound removed.
 
 ---
 
 ## 13. Product demo (Phase B)
 
-Beyond the research comparison, the project ships a working interactive demo that serves recommendations from the same components (ARAG agents, trained GRU, FAISS retrieval, fused at the evaluation's α\*).
+Beyond the research comparison, the project ships a working interactive demo that serves recommendations from the same components (ARAG agents, trained GRU, FAISS retrieval, fused at the evaluation's α\* read from `results/metrics.json`).
 
 **Stack:** FastAPI (Python) + SQLite memory + React/Vite frontend served by the API at `http://127.0.0.1:8000`. Run with `make app`.
 
@@ -479,7 +514,7 @@ SPEC.md                  original specification + recorded deviations
 README.md                setup, commands, cost, how to read results
 docs/PROCESS.md          step-by-step engineering log (every real number)
 docs/REPORT.md           this document
-configs/config.yaml      all paths, seeds, model names, θ/α grids
+configs/config.yaml      all paths, seeds, model names, θ/α grids, negative sampling
 configs/prompts/         6 agent prompts (uua, nli, csa, ira, recency, vanilla_rag) + search
 src/arag/
   dataprep/   download.py load.py items.py lists.py manifest.py
@@ -502,56 +537,113 @@ artifacts/               (git-ignored) frozen lists, GRU checkpoints, FAISS, LLM
 
 | Quantity | Value |
 |---|---|
-| Interactions / users / items | 814,586 / 94,762 / 137,269 |
-| Frozen lists | 20 items (1 target + 19 negatives), seed 42, hashed |
-| GRU vocab / config | 25,527 items; hidden 64, dropout 0.2; 3 seeds |
-| GRU test (all users) | Hit@5 0.976 ± 0.001, NDCG@5 0.823 ± 0.004 |
-| θ\* / α\* | 5 / 0.1 |
-| H1 (ARAG+GRU − ARAG, NDCG@5) | **+0.349** [+0.257, +0.441] — significant |
-| H2 (ARAG+GRU − GRU, NDCG@5) | +0.002 [−0.018, +0.022] — not significant |
-| LLM calls / tokens / cost | 2,405 / 4.89M in + 0.42M out / **$0.9853** |
-| Cached re-run | 136 s, zero new API calls |
+| Interactions / users / items | 814,586 / 94,762 / 137,269 (25,612 with interactions) |
+| Frozen lists | 20 items (1 target + 19 popularity-matched negatives from the train vocabulary), seed 42, hashed |
+| List validation | 0 OOV negatives; 19.0/19 known negatives; negatives ≈ as popular as targets |
+| GRU vocab / config | 25,527 items; hidden **128**, dropout 0.2; 3 seeds; retrained on corrected lists |
+| GRU test (all users) | Hit@5 0.422 ± 0.010, NDCG@5 0.279 ± 0.007 |
+| θ\* / α\* | 5 / **0.9** (validation); test curve peaks at α = 1.0 |
+| **H1** (ARAG+GRU − ARAG, NDCG@5) | **−0.013** [−0.032, +0.005] — **not supported** |
+| **H2** (ARAG+GRU − GRU, NDCG@5) | **+0.174** [+0.069, +0.278] — **significant** |
+| Best system | **ARAG**: Hit@5 0.530, NDCG@5 0.424 (100 users); beats Recency, Vanilla-RAG, all GRU seeds, Popularity, Random — all significant |
+| Paper's ablations | w/o NLI&CSA −0.062 [−0.113, −0.016] **significant**; w/o NLI −0.049 n.s. |
+| LLM calls (corrected eval) | 2,263 new calls ≈ **$1.06**; project total 4,668 calls / **$2.04** |
+| Cached re-run | 137 s, zero new API calls |
 | Audit | `make verify` → VERIFY OK |
 
 ## Appendix C — Anticipated questions and short answers
 
 **Q1. Why frozen candidate lists instead of retrieving candidates with FAISS?**
-Because the research question is about *ranking*, not retrieval. If each system retrieved its own candidates, a retrieval miss would be indistinguishable from a ranking miss, and methods would not be comparable. Freezing one 20-item list per user makes every comparison apples-to-apples. (Trade-off: uniform negatives are easier than real retrieval — listed as a limitation.)
+Because the research question is about *ranking*, not retrieval. If each system retrieved its own candidates, a retrieval miss would be indistinguishable from a ranking miss, and methods would not be comparable. Freezing one 20-item list per user makes every comparison apples-to-apples. (Trade-off: sampled negatives are still easier than real retrieval — listed as a limitation.)
 
-**Q2. Why is the crude Popularity baseline nearly as good as the trained GRU?**
-Under uniform random negatives, the target tends to be a popular item while the 19 decoys are mostly obscure. Ranking by global interaction count therefore scores high (NDCG@5 = 0.801 vs the GRU's 0.823). This is a property of the evaluation protocol, not a bug in the GRU; the GRU is still significantly better (Δ = −0.021, CI excludes 0 over 94,762 users), and on harder negatives the gap would widen.
+**Q2. Why are the negatives sampled proportional to popularity?**
+Because uniform sampling over the catalogue was catastrophic: 81% of catalogue items have zero reviews, so ~15.5 of 19 uniform negatives were unknown to Popularity and the GRU (tied scores) and the task collapsed to a ~4.5-way choice (Appendix E). Sampling proportional to train popularity makes negatives about as popular as targets (measured 1.0–1.4×), so **popularity alone separates nothing** — and indeed the Popularity baseline now sits at or below random. Any system that wins must actually use the user.
 
-**Q3. H2 says the fusion doesn't beat the GRU — is the project a failure?**
-No. The project's value is *quantification*: H1 is strongly supported (the trained model adds a large, significant gain over the LLM), and H2 shows rigorously that, on this protocol, the LLM adds no measurable increment on top of the trained model. Reporting a null result with CIs is the correct scientific outcome — the alternative (claiming a gain that isn't there) would be fabrication.
+**Q3. H1 failed — is the project a failure?**
+No, and it is the more informative outcome. H2 succeeds strongly: the LLM agent adds a large significant increment over the trained model (+0.174), and the paper's own baseline and ablation claims reproduce significantly. A well-powered null on H1 — with the fusion weight tuned honestly on validation and the full α curve shown — is a defensible scientific result. What would *not* be defensible is reporting the earlier artefactual "+0.349 supported" (Appendix E).
 
-**Q4. Was α\* = 0.1 chosen to make the fusion look like the GRU?**
-No. α was selected **only on the 100 validation users**, never on test, by maximizing validation NDCG@5 across the full grid. Both the validation and test α-curves independently peak at 0.1. At α=0.1 the fusion is 90% GRU — that is the honest optimum found.
+**Q4. Was α\* = 0.9 chosen to make the fusion look good?**
+No. α was selected only on the 100 validation users by maximizing validation NDCG@5 across the full grid; both curves are published. Validation preferred 0.9 by 0.0036 over 1.0, but on test the pure-LLM end wins — which is exactly why the report says the bump is validation noise and H1 fails. Selecting on test would have been the way to manufacture an H1 win; we did not.
 
 **Q5. Why gpt-4o-mini rather than the paper's gpt-3.5-turbo?**
-The paper's exact model, prompts and data are not reproducible from its text. gpt-4o-mini is the modern successor at ~$0.15/1M tokens, making the full evaluation cost under $1. The code supports any provider (local qwen3:8b via Ollama is also wired in). We explicitly do **not** compare our numbers to the paper's.
+The paper's exact model, prompts and data are not reproducible from its text. gpt-4o-mini is the modern successor at ~$0.15/1M tokens, making the full evaluation cost about a dollar. The code supports any provider (local qwen3:8b via Ollama is also wired in). We explicitly do **not** compare our numbers to the paper's tables.
 
 **Q6. Why a GRU and not a transformer / LLM fine-tune?**
-The spec asked for a compact, CPU-trainable sequential model. The GRU4Rec formulation is the standard, well-understood baseline for next-item prediction, trains in ~1.5 h on CPU here, and is exactly the "trained deep-learning component" the project needed. A transformer would add little on 25k items with ~6-item user sequences.
+The spec asked for a compact, CPU-trainable sequential model. The GRU4Rec formulation is the standard, well-understood baseline for next-item prediction, trains in ~1 h 50 m on CPU here, and is exactly the "trained deep-learning component" the project needed. A transformer would add little on 25k items with short 5-core histories.
 
 **Q7. How do we know the results are not fabricated?**
-(a) `results/` is written only by pipeline code on real data; (b) `make verify` recomputes every metric from raw per-user predictions and diffs against `metrics.json` — VERIFY OK; (c) the frozen candidate lists are SHA-256-hashed and re-checked; (d) `run_record.json` records the git commit, model, config and dataset manifest; (e) the LLM cache makes the run idempotent — anyone can re-run and get identical numbers at $0.
+(a) `results/` is written only by pipeline code on real data; (b) `make verify` recomputes every metric from raw per-user predictions (both metric blocks) and diffs against `metrics.json` — VERIFY OK; (c) the frozen candidate lists are SHA-256-hashed and re-checked; (d) `run_record.json` records the git commit, model, config and dataset manifest; (e) the LLM cache makes the run idempotent — anyone can re-run and get identical numbers at $0; (f) when a protocol flaw was found, it was fixed, re-run and documented rather than hidden (Appendix E).
 
 **Q8. Why only 100 test users for the LLM systems?**
-Cost and statistics: each LLM user costs ~7–12 API calls, and 100 paired users are enough to detect the paper's ~10–15 point effects. The CIs (±~10 points on Hit@5) are reported so small differences are not over-read. Non-LLM systems use all 94,762 test users, giving near-deterministic estimates.
+Cost and statistics: each LLM user costs ~7–12 API calls, and 100 paired users comfortably resolve the effects we report (the smallest significant gap is ~0.06). CIs are published so small differences are not over-read. Non-LLM systems are additionally reported on all 94,762 test users.
 
-**Q9. Why is ARAG worse than the baselines the paper claims it beats?**
-Directionally the paper's ordering holds on our data (Recency 0.389 < ARAG 0.453; Vanilla-RAG 0.386 < ARAG), but the differences are not statistically significant at n=100, and the paper's ablations also don't reproduce (removing NLI didn't hurt). The likely cause is the protocol: with uniform negatives, global popularity dominates, and the agentic context machinery has little headroom — a finding we report rather than hide.
+**Q9. How do our results compare to the paper's claims?**
+Directionally and now statistically: ARAG significantly beats LLM-Recency and LLM-Vanilla-RAG (the paper's baselines), and removing NLI **and** CSA significantly hurts ARAG (the paper's ablation). Removing only NLI is directionally negative but not significant. We never compare absolute numbers to the paper (different model, dataset, prompts, protocol). Note this is a change from the first run, where none of these differences were significant and the ablations were weakly *better* — the degenerate lists had hidden them (Appendix E).
 
 **Q10. What would you change with more time/budget?**
-Harder negatives (retrieval-mined instead of uniform) to remove the popularity shortcut; ≥300 test users for tighter CIs; a strictly time-separated split for the GRU to remove leave-last-out leakage; and an LLM ranker that is explicitly given popularity/statistical features, to test whether the agentic contribution survives once the popularity confound is removed.
+≥300 test users for tighter CIs and a stable α (the 0.9-vs-1.0 disagreement is a small-n artefact); retrieval-mined hard negatives; a strictly time-separated split for the GRU; and an LLM ranker explicitly given popularity/statistical features, to test whether the agentic contribution survives with every confound removed.
 
 ---
 
 ## Appendix D — One-paragraph summaries at three levels
 
-**To a non-technical person:** We built a music-store-style recommender for video games that combines two very different "brains" — an AI assistant that reads what you bought and reasons about it, and a small trained neural network that has learned from a million past purchases what people typically buy next. We tested whether combining them beats each alone, by giving both the same 20 products to rank and checking how often the right product lands near the top. The trained network turned out to be far better than the AI assistant, and combining them was no better than the network alone — a clean, useful answer.
+**To a non-technical person:** We built a video-game store recommender that combines two "brains": an AI assistant that reads what you bought and reasons about it, and a small neural network that has learned from a million past purchases what people buy next. We tested whether combining them beats each alone by giving all systems the same 20 real products to rank (1 right answer + 19 plausible decoys that are as popular as the right answer, so nobody can cheat by just picking famous products). Result: **the AI assistant is clearly better**, and adding the neural network on top doesn't help — but the neural network alone would have been much worse. We also found, and fixed, an earlier version of the test that accidentally made the neural network look much better than it was.
 
-**To a computer-science student:** We implement an ARAG-style 4-agent LLM pipeline (user understanding → per-candidate NLI scoring → context summarisation → ranking) and fuse its permutation with a GRU4Rec-style next-item model via rank-derived score blending (`α·s_LLM + (1−α)·s_GRU`, α tuned on validation). On frozen 20-item lists (1 target + 19 uniform negatives) over Amazon Video_Games (94,762 users), the fused system significantly beats ARAG (+0.349 NDCG@5) but ties the GRU alone (+0.002, n.s.), with α\* = 0.1 — showing the trained model dominates under this protocol.
+**To a computer-science student:** We implement an ARAG-style 4-agent LLM pipeline (user understanding → per-candidate NLI scoring → context summarisation → ranking) and fuse its permutation with a GRU4Rec-style next-item model via rank-derived score blending (`α·s_LLM + (1−α)·s_GRU`, α tuned on validation). On frozen 20-item lists (1 target + 19 popularity-matched negatives from the train vocabulary) over Amazon Video_Games (94,762 users), the fused system does **not** beat ARAG alone (ΔNDCG@5 = −0.013, n.s., α\* = 0.9) but significantly beats the GRU alone (+0.174); ARAG significantly beats Recency, Vanilla-RAG and all GRU seeds, and the paper's NLI+CSA ablation reproduces. A post-review protocol fix (negatives were originally drawn from the whole catalogue, 81% of which has zero interactions) is documented with the superseded numbers in Appendix E.
 
-**To a recommender-systems researcher:** We quantify the marginal value of an agentic LLM ranker over a strong trained sequential baseline under a rank-isolating protocol. Contributions: (i) a reproducible ARAG+GRU fusion with α/θ tuned on validation and paired-bootstrap CIs; (ii) evidence that uniform-negative lists let a popularity baseline reach 0.80 NDCG@5 — nearly matching the GRU (0.82) and far exceeding every LLM variant (≤0.48) — which explains the null result for the LLM's increment; (iii) a fully audited artifact set (hashed frozen lists, per-user predictions, metric re-derivation, deterministic cache). Limitations: single category, n=100 for LLM systems, leave-last-out leakage into GRU training, no human evaluation.
+**To a recommender-systems researcher:** We quantify the marginal value of an agentic LLM ranker against a GRU4Rec-style sequential baseline under a rank-isolating protocol, and document a protocol artefact that can manufacture conclusions. Contributions: (i) a reproducible ARAG+GRU fusion with α/θ tuned on validation and paired-bootstrap CIs; (ii) evidence that under popularity-matched negatives the agentic ranker dominates (ARAG NDCG@5 0.424 vs the best GRU seed's 0.246 on the same 100 users; the fused system, statistically equal to ARAG, beats seed 0 by +0.174, significant) while a popularity baseline falls to random; (iii) a natural experiment: the original uniform-over-catalogue lists made ~81% of negatives OOV, which inflated the GRU to NDCG@5 0.823 and produced a false "fusion helps" result (+0.349) — reversing the conclusion when fixed, with both runs fully audited; (iv) the paper's baseline ordering and NLI+CSA ablation reproduce significantly. Limitations: single category, n=100 for the main table, sampled (not retrieval-mined) negatives, leave-last-out leakage into GRU training, no human evaluation.
 
+## Appendix E — Errata: the original (superseded) run
+
+This appendix preserves the first evaluation's numbers and the diagnosis of why they were wrong. **Do not cite these numbers as results**; they are kept so the correction is auditable.
+
+### E.1 What the original run reported (superseded)
+
+| System | Hit@5 | NDCG@5 | MRR |
+|---|---|---|---|
+| Random *(all users)* | 0.251 | 0.149 | 0.181 |
+| Popularity *(all users)* | 0.969 | 0.801 | 0.749 |
+| GRU *(all users)* | 0.976 ± 0.001 | 0.823 ± 0.004 | 0.775 ± 0.005 |
+| LLM-Recency | 0.490 | 0.389 | 0.403 |
+| LLM-Vanilla-RAG | 0.480 | 0.386 | 0.403 |
+| ARAG (θ\*=5) | 0.570 | 0.453 | 0.452 |
+| ARAG w/o NLI | 0.610 | 0.481 | 0.472 |
+| ARAG w/o NLI & CSA | 0.590 | 0.456 | 0.445 |
+| ARAG+GRU (α\*=0.1) | 0.990 | 0.802 | 0.740 |
+
+Original headline claims (all superseded): **H1 "supported"** (ΔNDCG@5 = +0.349 [+0.257, +0.441]); H2 "not supported" (+0.002 [−0.018, +0.022]); α\* = 0.1; Recency/Vanilla-RAG vs ARAG not significant; both ablations weakly *better* than ARAG (n.s.); original run cost $0.9853 for 2,405 calls.
+
+### E.2 The diagnosis
+
+The original `dataprep/lists.py` sampled the 19 negatives **uniformly from all 137,260 catalogue items with text**. But only **25,612 items (18.7%)** appear in the 5-core interaction data; **111,649 (81%) have zero reviews**. Measured on the original lists:
+
+- **mean 15.5 of 19 negatives per list had zero interactions** (median 16, min 7), leaving only **3.5 known negatives** — a ~4.5-way task, not a 20-way one;
+- for the GRU, every unknown candidate mapped to the **same untrained OOV embedding** (`models/score.py`, `OOV_IDX = 1`) → identical scores → alphabetical tie-break;
+- for Popularity, unknown candidates all had count 0 → the same tie.
+
+The LLM sees no review counts, so it could not exploit this. Popularity and the GRU were effectively being handed the answer, which is why Popularity Hit@5 = 0.97 and why mixing in the GRU appeared to "boost" ARAG by +0.349. The original report explained the strong popularity baseline as "targets are popular" — that was **wrong**: the real cause was the OOV negatives.
+
+### E.3 What was changed
+
+1. `dataprep/lists.py`: negatives now sampled from the **25,527 items with train interactions**, weighted by train popularity, excluding user history (`sampling.negative_sampling: popularity` in `configs/config.yaml`). New lists: 0 OOV negatives, 19.0/19 known, negatives ≈ as popular as targets. New hashes recorded.
+2. `eval/run.py`: the main table and all paired tests now use the **same 100 sampled test users for every system** (previously GRU/Popularity used all 94,762); a separate `metrics_all_users` block keeps the full-cohort non-LLM estimates.
+3. The **GRU was retrained from scratch** (hidden 64 → 128 under the re-run grid) because its checkpoints had been selected by early stopping on the old validation lists.
+4. `docs/REPORT.md` rewritten; `docs/PROCESS.md §11` logs the incident; `SPEC.md` records the amendment.
+
+### E.4 The reversal, side by side
+
+| Quantity | Original (degenerate lists) | Corrected |
+|---|---|---|
+| Unknown negatives per list | 15.5 / 19 | **0 / 19** |
+| Known negatives per list | 3.5 | 19.0 |
+| Popularity NDCG@5 | 0.801 (near the GRU) | **0.109 (below random)** |
+| GRU NDCG@5 (all users) | 0.823 | **0.279** |
+| ARAG NDCG@5 | 0.453 | **0.424** |
+| Best system | GRU / fused | **ARAG** |
+| α\* | 0.1 (90% GRU) | **0.9** (90% LLM) |
+| H1 (fusion vs ARAG) | +0.349 "significant" | **−0.013 n.s. (not supported)** |
+| H2 (fusion vs GRU) | +0.002 n.s. | **+0.174 significant** |
+| ARAG vs Recency / Vanilla-RAG | n.s. | **both significant** |
+| Ablations hurt ARAG? | no (wrong direction) | **NLI+CSA removal significantly hurts** |
+
+The corrected run is the definitive one. The original run cost $0.9853 (2,405 calls); the corrected evaluation added 2,263 calls (≈ $1.06); the GRU retraining was free of API cost (~1 h 50 m CPU). Total unique project spend: **$2.04**.
