@@ -1,0 +1,31 @@
+\begin{tabular}{lccccc}
+\toprule
+System & Hit@5 & NDCG@5 & Hit@10 & NDCG@10 & MRR \\
+\midrule
+\multicolumn{6}{l}{\textit{Non-learned}} \\
+\quad Random & 0.220 & 0.125 & 0.470 & 0.205 & 0.162 \\
+\quad Popularity & 0.200 & 0.109 & 0.470 & 0.197 & 0.150 \\
+\quad Content similarity & 0.590 & 0.439 & 0.820 & 0.510 & 0.429 \\
+\quad ItemKNN & 0.540 & 0.399 & 0.670 & 0.442 & 0.392 \\
+\midrule
+\multicolumn{6}{l}{\textit{Trained sequential models}} \\
+\quad GRU, ID only (seed 0) & 0.390 & 0.238 & 0.640 & 0.321 & 0.249 \\
+\quad GRU, ID only (seed 1) & 0.450 & 0.246 & 0.640 & 0.306 & 0.230 \\
+\quad GRU, ID only (seed 2) & 0.360 & 0.216 & 0.630 & 0.302 & 0.230 \\
+\quad Text-aware GRU (seed 0) & 0.660 & 0.462 & \textbf{0.870} & 0.529 & 0.433 \\
+\quad Text-aware GRU (seed 1) & 0.660 & \textbf{0.489} & \textbf{0.870} & \textbf{0.558} & \textbf{0.471} \\
+\quad Text-aware GRU (seed 2) & \textbf{0.670} & 0.473 & 0.860 & 0.535 & 0.444 \\
+\midrule
+\multicolumn{6}{l}{\textit{LLM baselines and ablations}} \\
+\quad LLM-Recency & 0.400 & 0.285 & 0.630 & 0.358 & 0.300 \\
+\quad LLM-Vanilla-RAG & 0.380 & 0.263 & 0.670 & 0.355 & 0.283 \\
+\quad ARAG w/o NLI \& CSA & 0.470 & 0.362 & 0.630 & 0.414 & 0.372 \\
+\quad ARAG w/o NLI & 0.510 & 0.376 & 0.720 & 0.445 & 0.380 \\
+\midrule
+\multicolumn{6}{l}{\textit{Agentic LLM and fusion}} \\
+\quad ARAG & 0.530 & 0.424 & 0.700 & 0.479 & 0.432 \\
+\quad ARAG + GRU & 0.540 & 0.412 & 0.710 & 0.466 & 0.411 \\
+\quad ARAG + content & 0.590 & 0.423 & 0.810 & 0.494 & 0.411 \\
+\quad ARAG + text-aware GRU & 0.660 & 0.468 & \textbf{0.870} & 0.537 & 0.443 \\
+\bottomrule
+\end{tabular}
