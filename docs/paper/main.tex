@@ -1,0 +1,913 @@
+\documentclass[11pt,a4paper]{article}
+
+% ---------------------------------------------------------------- packages
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{booktabs,tabularx,multirow,array}
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[section]{placeins}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,backgrounds,calc,shapes.geometric}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=green!40!black,urlcolor=blue!60!black]{hyperref}
+\usepackage[nameinlink,capitalise]{cleveref}
+
+\graphicspath{{../figures/}{../../results/}}
+\setlist{itemsep=2pt,topsep=4pt}
+\newcommand{\NDCG}{\mathrm{NDCG}}
+\newcommand{\Hit}{\mathrm{Hit}}
+\newcommand{\MRR}{\mathrm{MRR}}
+
+\definecolor{cdata}{HTML}{E8EAED}
+\definecolor{cllm}{HTML}{D2E3FC}
+\definecolor{cdl}{HTML}{FCE8E6}
+\definecolor{cbase}{HTML}{E6F4EA}
+\definecolor{cfuse}{HTML}{FEF7E0}
+
+\tikzset{
+  box/.style={draw, rounded corners=3pt, align=center, minimum height=1.0cm, inner sep=4pt, font=\small},
+  arr/.style={-{Stealth[length=2.2mm]}, thick},
+  grp/.style={draw, dashed, rounded corners=6pt, inner sep=7pt},
+}
+
+% ---------------------------------------------------------------- title
+\title{\textbf{Agentic LLM Ranking versus Trained Sequential Models:\\
+An Audited Study of ARAG, GRU Fusion and Text-Aware Sequence Modelling\\
+on Amazon Reviews 2023 (Video Games)}}
+\author{%
+  \textit{[Author Name]}\\
+  \textit{[Course / Programme --- Deep Learning Project]}\\
+  \textit{[Institution]}}
+\date{October 2026}
+
+\begin{document}
+\maketitle
+
+% ================================================================ abstract
+\begin{abstract}
+\noindent Large language models (LLMs) can rank recommendation candidates by reasoning over a
+user's history in natural language. ARAG \citep{maragheh2025arag} organises this reasoning as a
+pipeline of four cooperating agents. We implement an ARAG-style recommender on the Amazon
+Reviews 2023 Video Games category \citep{hou2024bridging} and ask whether a \emph{trained}
+deep-learning component --- a GRU sequential model \citep{hidasi2016session} --- improves it
+when late-fused into the LLM ranking. To isolate ranking from retrieval, every system ranks the
+same frozen 20-item candidate list per user (the held-out next item plus 19
+popularity-matched negatives), and all contrasts are tested with a paired bootstrap.
+With \texttt{gpt-4o-mini}, ARAG reaches NDCG@5 $=0.424$ on 100 test users and significantly
+beats the paper's LLM baselines, the ID-only GRU, popularity and random ranking; the paper's
+NLI+CSA ablation also reproduces significantly. Fusing the ID-only GRU does \emph{not} help
+(H1: $\Delta=-0.013$, 95\% CI $[-0.032,+0.005]$). We trace the GRU's weakness to sparse
+histories (median four training items per user) and introduce a \emph{text-aware GRU} whose item
+vectors combine a learned ID embedding with a projected, frozen MiniLM embedding of the item's
+metadata. With the same architecture, configuration and training budget, it raises the trained
+model from NDCG@5 $0.279$ to $0.461$ on all 94{,}762 test users, significantly outperforms
+content-similarity and ItemKNN baselines, and is numerically above ARAG on the 100-user sample
+($0.462$ vs.\ $0.424$, not significant). The extension required zero new LLM calls. We also
+document a protocol flaw, found in review, that had produced a false positive result, and we
+release an audit pipeline that re-derives every reported number from raw predictions.
+\end{abstract}
+
+\noindent\textbf{Keywords:} recommender systems; large language models; agentic retrieval-augmented
+generation; sequential recommendation; GRU4Rec; late fusion; evaluation methodology.
+
+\tableofcontents
+\newpage
+
+% ================================================================ 1 intro
+\section{Introduction}
+\label{sec:intro}
+
+Sequential recommendation predicts the next item a user will interact with from the order of
+their past interactions. For a decade the standard tools have been neural sequence models trained
+on interaction logs, from recurrent networks such as GRU4Rec \citep{hidasi2016session} to
+self-attentive models such as SASRec \citep{kang2018self}. Large language models offer a
+different route: they can read item titles and descriptions, infer a user's intent in natural
+language and rank candidates zero-shot \citep{hou2024llmrank}. Agentic pipelines push this
+further by splitting the task into specialised LLM calls. ARAG \citep{maragheh2025arag} uses
+a \emph{User Understanding Agent}, a \emph{Natural Language Inference} agent, a \emph{Context
+Summary Agent} and an \emph{Item Ranker Agent}, and reports large gains over single-prompt LLM
+baselines.
+
+The two families have complementary strengths. Trained models capture collaborative
+co-occurrence patterns across hundreds of thousands of users, but see only opaque item IDs; LLMs
+understand item content but see only one user at a time and cost several API calls per
+recommendation. This project asks whether combining them helps, and what each contributes.
+
+\paragraph{Research questions.}
+\begin{description}[leftmargin=1.2cm,style=nextline]
+  \item[RQ1] On identical frozen candidate lists, does late-fusing a trained GRU into ARAG's
+  ranking improve over ARAG alone (\textbf{H1}) and over the GRU alone (\textbf{H2})?
+  \item[RQ2] Do the base paper's claims --- ARAG beats simpler LLM baselines, and each agent
+  component contributes --- hold on a new category and model?
+  \item[RQ3] Why does the trained model under- or over-perform, and can a representation change
+  close the gap without additional LLM cost?
+\end{description}
+
+\paragraph{Contributions.}
+\begin{enumerate}
+  \item An ARAG-style four-agent recommender with strict JSON-schema outputs, a repairing
+  ranking parser, and a disk cache that makes every LLM run exactly replayable at zero cost.
+  \item A ranking-isolating evaluation protocol: frozen 20-item lists with popularity-matched
+  negatives, a single shared user sample for all systems, validation-only tuning and paired
+  bootstrap confidence intervals.
+  \item A negative result for RQ1 with an ID-only GRU (H1 fails), together with a statistically
+  significant reproduction of the base paper's baseline ordering and NLI+CSA ablation (RQ2).
+  \item A \emph{text-aware GRU} that adds frozen sentence embeddings of item metadata to the
+  item representation, lifting the trained model by $+0.174$ NDCG@5 on all 94{,}762 test users
+  and matching or exceeding the agentic pipeline at a fraction of its cost (RQ3).
+  \item A documented methodological lesson: an earlier candidate-list construction made
+  popularity-like systems look dominant and produced a spurious ``H1 supported'' result. We
+  report the diagnosis, the fix and both sets of numbers.
+\end{enumerate}
+
+The rest of the report is organised as follows. \Cref{sec:related} reviews related work,
+\cref{sec:data} describes the data and \cref{sec:protocol} the evaluation protocol.
+\Cref{sec:method} presents the systems, \cref{sec:setup} the experimental setup and
+\cref{sec:results} the results. \Cref{sec:discussion} discusses them,
+\cref{sec:threats} lists threats to validity and \cref{sec:conclusion} concludes.
+
+% ================================================================ 2 related
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{Sequential recommendation.} GRU4Rec \citep{hidasi2016session} introduced recurrent
+networks \citep{cho2014learning} for session-based recommendation, trained with a next-item
+objective. SASRec \citep{kang2018self} replaced recurrence with causal self-attention and is
+today a standard strong baseline. Both models represent items by learned ID embeddings, so items
+with few interactions receive poorly trained vectors --- a weakness that becomes acute when user
+histories are short.
+
+\paragraph{Text-based and transferable sequence models.} Several works replace or augment ID
+embeddings with representations of item text. UniSRec \citep{hou2022unisrec} learns universal
+item representations from text with a pre-trained language model so that sequence models
+transfer across domains. Our text-aware GRU follows the same principle in its simplest form: a
+frozen sentence encoder \citep{reimers2019sentence,wang2020minilm} supplies item features that a
+learned linear projection maps into the GRU's embedding space, added to the ID embedding.
+
+\paragraph{LLMs as recommenders.} LLMs can act as zero-shot rankers when given a user's history
+and a candidate list in the prompt \citep{hou2024llmrank}. Retrieval-augmented variants select
+which parts of the history to show. ARAG \citep{maragheh2025arag} decomposes ranking into
+user understanding, candidate--user natural language inference, context summarisation and final
+ranking, and reports gains of 25--42\% NDCG@5 over recency-based and vanilla RAG prompting on
+three Amazon categories.
+
+\paragraph{Evaluation methodology.} Sampled-candidate evaluation is cheap but can distort
+system rankings, depending on how the negatives are drawn \citep{krichene2020sampled}. Strong,
+well-tuned simple baselines often match complex neural recommenders
+\citep{dacrema2019really}, which motivates our inclusion of content-similarity and
+item-based collaborative filtering \citep{sarwar2001item} baselines. We use the paired bootstrap
+\citep{efron1993bootstrap} for significance, with NDCG \citep{jarvelin2002cumulated} as the
+primary metric.
+
+% ================================================================ 3 data
+\section{Data}
+\label{sec:data}
+
+We use the Amazon Reviews 2023 corpus \citep{hou2024bridging}, Video Games category, in its
+official rating-only 5-core leave-last-out benchmark split. For each user, the last interaction
+is the test target, the second-to-last is the validation target and the remainder is training
+history. Item text comes only from product metadata (title, main category, categories,
+features and description, truncated to 120 words); review text is never used.
+\Cref{tab:data} summarises the data.
+
+\begin{table}[h]
+\centering
+\caption{Dataset statistics (Amazon Reviews 2023, Video Games, 5-core leave-last-out).}
+\label{tab:data}
+\begin{tabular}{lr}
+\toprule
+Users & 94{,}762 \\
+Interactions (train / valid / test) & 625{,}062 / 94{,}762 / 94{,}762 \\
+Catalogue items with metadata & 137{,}269 \\
+Items with at least one interaction & 25{,}612 (18.7\%) \\
+Items in the training vocabulary & 25{,}527 \\
+Training items per user: mean / median / 75th percentile & 6.6 / 4 / 7 \\
+Raw files verified by SHA-256 & 4 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\Cref{fig:hist} shows that user histories are very short: 63.5\% of users have only three to
+five training interactions. This property turns out to be central to our results
+(\cref{sec:disc-representation}).
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.78\linewidth]{fig08_history_lengths.png}
+  \caption{Distribution of training-history length per user. The median user has four
+  training interactions, which gives an ID-only sequence model very little signal.}
+  \label{fig:hist}
+\end{figure}
+
+% ================================================================ 4 protocol
+\section{Evaluation Protocol}
+\label{sec:protocol}
+
+\subsection{Frozen candidate lists}
+
+For each validation and test user we build one 20-item candidate list: the true held-out target
+plus 19 negatives sampled without replacement (seed 42) from the 25{,}527 training-vocabulary
+items, with probability proportional to training interaction count, excluding everything the
+user interacted with in any split. The list is shuffled, hashed and frozen before any system is
+evaluated. Every system ranks exactly this list.
+
+This design isolates \emph{ranking} from \emph{retrieval}: if each system retrieved its own
+candidates, a retrieval miss would score zero and the comparison would conflate the two stages.
+Popularity-proportional sampling makes negatives roughly as popular as targets (on average
+$1.01\times$ on validation and $1.40\times$ on test), so global popularity carries no free
+signal. A uniformly random permutation has expected Hit@5 of exactly $0.25$, a useful sanity
+anchor.
+
+\subsection{Users}
+
+LLM systems are expensive, so all systems are compared on the \emph{same} 100 randomly sampled
+test users (and 100 validation users for tuning). Non-LLM systems are additionally evaluated on
+all 94{,}762 test users, which gives near-deterministic estimates for them.
+
+\subsection{Metrics}
+
+With a single relevant item per user at rank $r\in\{1,\dots,20\}$,
+\begin{equation}
+  \Hit@K = \mathbb{1}[r\le K],\qquad
+  \NDCG@K = \frac{\mathbb{1}[r\le K]}{\log_2(r+1)},\qquad
+  \MRR = \frac{1}{r},
+\end{equation}
+averaged over users. Hit@5 and NDCG@5 are primary; we also report Hit@10, NDCG@10 and MRR.
+
+\subsection{Statistical testing}
+
+For two systems $A$ and $B$ evaluated on the same users we resample users with replacement
+10{,}000 times and report the mean per-user difference with its 95\% percentile interval
+\citep{efron1993bootstrap}. A contrast is called significant when the interval excludes zero.
+All hyperparameters are tuned on validation users only; the test set is never used for any
+selection.
+
+% ================================================================ 5 method
+\section{Methods}
+\label{sec:method}
+
+\subsection{System overview}
+
+\Cref{fig:arch} shows the overall architecture. A data layer produces sequences and frozen lists;
+three families of rankers score each list; a fusion layer optionally blends an LLM ranking with a
+trained-model ranking; and an evaluation layer computes metrics and bootstrap intervals from the
+saved per-user rankings.
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}
+  % data layer (x = 1.5)
+  \node[box, fill=cdata, minimum width=3.0cm] (raw)   at (1.5, 0.0)  {Amazon Reviews 2023\\Video Games (5-core)};
+  \node[box, fill=cdata, minimum width=3.0cm] (seq)   at (1.5,-1.8)  {Sequences +\\item text ($\le$120 words)};
+  \node[box, fill=cdata, minimum width=3.0cm] (lists) at (1.5,-3.6)  {Frozen 20-item lists\\(1 target + 19 negatives)};
+  \node[box, fill=cdata, minimum width=3.0cm] (emb)   at (1.5,-5.4)  {MiniLM embeddings\\+ FAISS index};
+  \draw[arr] (raw) -- (seq);
+  \draw[arr] (seq) -- (lists);
+  \draw[arr] (seq.west) -- ++(-0.3,0) |- (emb.west);
+  % rankers (x = 6.1)
+  \node[box, fill=cllm,  minimum width=4.5cm] (arag) at (6.2, 0.0) {\textbf{ARAG} (gpt-4o-mini, 7 calls)\\UUA $\parallel$ NLI $\to$ CSA $\to$ IRA};
+  \node[box, fill=cllm,  minimum width=4.5cm] (llmb) at (6.2,-1.8) {LLM baselines: Recency,\\Vanilla-RAG (1 call each)};
+  \node[box, fill=cdl,   minimum width=4.5cm] (gru)  at (6.2,-3.6) {Trained: \textbf{GRU} (ID only)\\and \textbf{text-aware GRU}};
+  \node[box, fill=cbase, minimum width=4.5cm] (base) at (6.2,-5.4) {Content similarity, ItemKNN,\\Popularity, Random};
+  \coordinate (bus) at (3.55,0);
+  \draw[thick] (lists.east) -- (bus |- lists.east);
+  \draw[thick] (bus |- arag.west) -- (bus |- base.west);
+  \foreach \n in {arag,llmb,gru,base} \draw[arr] (bus |- \n.west) -- (\n.west);
+  \draw[arr, dashed] (emb.east) -- (base.west -| bus) ;
+  % fusion (x = 10.4) and evaluation (x = 13.6)
+  \node[box, fill=cfuse, minimum width=2.6cm] (fuse) at (10.6,-2.7) {\textbf{Late fusion}\\$\alpha s_{\mathrm{LLM}}{+}(1{-}\alpha) s_{\mathrm{TM}}$};
+  \node[box, fill=cdata, minimum width=2.2cm, minimum height=6.6cm] (eval) at (13.8,-2.7) {Per-user\\rankings\\$\downarrow$\\Hit, NDCG,\\MRR\\$\downarrow$\\paired\\bootstrap\\$\downarrow$\\\texttt{make}\\\texttt{verify}};
+  \foreach \n in {arag,llmb,gru,base} \draw[arr] (\n.east) -- (\n.east -| eval.west);
+  \draw[arr] ([xshift=0.35cm]arag.east) -| ([xshift=-0.5cm]fuse.north);
+  \draw[arr] ([xshift=0.35cm]gru.east)  -| ([xshift=-0.5cm]fuse.south);
+  \draw[arr] ([xshift=0.65cm]base.east) -| ([xshift=0.2cm]fuse.south);
+  \draw[arr] (fuse.east) -- (fuse.east -| eval.west);
+\end{tikzpicture}
+\caption{System architecture. All rankers score the same frozen list. The fusion layer blends
+the ARAG ranking with a trained-model or content ranking ($s_{\mathrm{TM}}$); MiniLM embeddings
+feed the content baseline and, as item features, the text-aware GRU.}
+\label{fig:arch}
+\end{figure}
+
+\subsection{ARAG agent pipeline}
+\label{sec:arag}
+
+\Cref{fig:arag} details the agentic ranker. Each user's history (training items plus, for test,
+the validation item) is rendered as lines of the form \textit{title $\mid$ category $\mid$
+rating $\mid$ date}. The long-term context $C_{lt}$ holds up to 50 items and the session context
+$C_{st}$ the last five.
+
+\begin{itemize}
+  \item \textbf{UUA} (User Understanding Agent, 1 call): from $C_{lt}$ and $C_{st}$, produces
+  interests, current intent, dislikes and a summary of at most 120 words, $S_{\mathrm{user}}$.
+  \item \textbf{NLI} (4 calls of 5 candidates): for every candidate, a label
+  (\textit{support}/\textit{neutral}/\textit{contradict}), a compatibility score in $[0,10]$ and a
+  rationale, judged against the raw history.
+  \item \textbf{CSA} (Context Summary Agent, 1 call): summarises the accepted candidates
+  $\mathcal{I}^+=\{i : \mathrm{score}_i \ge \theta\}$ in at most 200 words, $S_{\mathrm{ctx}}$.
+  If no candidate passes $\theta$, the top three by score are used and the fallback is counted.
+  \item \textbf{IRA} (Item Ranker Agent, 1 call): given $S_{\mathrm{user}}$, $S_{\mathrm{ctx}}$
+  and all 20 candidates, outputs a full permutation $\pi_{\mathrm{LLM}}$ with reasons.
+\end{itemize}
+
+UUA and NLI run in parallel. All outputs are requested as strict JSON schemas and validated. A
+ranking parser repairs malformed permutations (drops unknown IDs, removes duplicates, appends
+missing IDs by NLI score) and counts every repair. Two ablations follow the paper: \emph{ARAG
+w/o NLI} (CSA summarises all 20 candidates) and \emph{ARAG w/o NLI \& CSA} (IRA receives only
+$S_{\mathrm{user}}$ and the raw candidates).
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[node distance=0.5cm and 0.9cm]
+  \node[box, fill=cdata, minimum width=2.6cm] (hist) {User history\\$C_{lt}$ ($\le$50), $C_{st}$ (5)};
+  \node[box, fill=cdata, minimum width=2.6cm, below=1.4cm of hist] (cand) {20 frozen\\candidates};
+  \node[box, fill=cllm, minimum width=2.4cm, right=of hist] (uua) {\textbf{UUA}\\$S_{\mathrm{user}}$};
+  \node[box, fill=cllm, minimum width=2.4cm, right=of cand] (nli) {\textbf{NLI}\\label, score$\in[0,10]$};
+  \node[box, fill=cfuse, minimum width=2.0cm, right=of nli] (thr) {filter\\score $\ge\theta^*$};
+  \node[box, fill=cllm, minimum width=2.4cm, right=of thr] (csa) {\textbf{CSA}\\$S_{\mathrm{ctx}}$};
+  \node[box, fill=cllm, minimum width=2.4cm, above=1.0cm of csa] (ira) {\textbf{IRA}\\$\pi_{\mathrm{LLM}}$};
+  \draw[arr] (hist) -- (uua);
+  \draw[arr] (hist.south east) -- (nli.north west);
+  \draw[arr] (cand) -- (nli);
+  \draw[arr] (nli) -- node[above, font=\scriptsize]{$\mathcal{I}$} (thr);
+  \draw[arr] (thr) -- node[above, font=\scriptsize]{$\mathcal{I}^+$} (csa);
+  \draw[arr] (uua) -- (ira);
+  \draw[arr] (uua.south east) -- (csa.north west);
+  \draw[arr] (csa) -- (ira);
+  \draw[arr] (cand.south) -- ++(0,-0.45) -| ([xshift=0.9cm]csa.east) |- (ira.east);
+  \begin{scope}[on background layer]
+    \node[grp, fit=(uua)(nli), label={[font=\scriptsize]above:parallel}] {};
+  \end{scope}
+\end{tikzpicture}
+\caption{ARAG agent pipeline (seven LLM calls per user). $\theta^*=5$ is tuned on validation.}
+\label{fig:arag}
+\end{figure}
+
+\subsection{GRU sequential model}
+\label{sec:gru}
+
+Our trained model is a GRU4Rec-style network \citep{hidasi2016session}. Let
+$\mathcal{V}$ be the training vocabulary (index 0 = padding, 1 = out-of-vocabulary). For a
+history $(i_1,\dots,i_T)$, truncated to the last $T\le 50$ items,
+\begin{align}
+  \mathbf{x}_t &= \mathrm{Dropout}\big(\mathbf{e}(i_t)\big), &
+  \mathbf{h}_t &= \mathrm{GRU}(\mathbf{x}_t, \mathbf{h}_{t-1}), &
+  \mathbf{u}_t &= \mathbf{P}\,\mathrm{Dropout}(\mathbf{h}_t),
+\end{align}
+with $\mathbf{e}(i)\in\mathbb{R}^{64}$, $\mathbf{h}_t\in\mathbb{R}^{128}$ and a projection
+$\mathbf{P}\in\mathbb{R}^{64\times128}$. Input and output embeddings are tied: the score of
+item $j$ after step $t$ is $\mathbf{u}_t^{\top}\mathbf{e}(j)$. The model is trained with full-softmax
+cross-entropy for next-item prediction at every prefix,
+\begin{equation}
+  \mathcal{L} = -\sum_{u}\sum_{t=1}^{T_u-1}
+  \log\frac{\exp\!\big(\mathbf{u}_t^{\top}\mathbf{e}(i_{t+1})\big)}
+            {\sum_{j\in\mathcal{V}}\exp\!\big(\mathbf{u}_t^{\top}\mathbf{e}(j)\big)}.
+\end{equation}
+At inference, the user vector is the final projected state $\mathbf{u}_T$ and candidates are ranked
+by $\mathbf{u}_T^{\top}\mathbf{e}(c)$.
+
+\subsection{Text-aware GRU}
+\label{sec:textgru}
+
+With a median of four training items per user, most item IDs are seen in very few sequences and
+their embeddings are poorly estimated. The text-aware GRU (\cref{fig:textgru}) keeps the network
+of \cref{sec:gru} unchanged and replaces only the item representation:
+\begin{equation}
+  \tilde{\mathbf{e}}(i) = \mathbf{e}(i) + \mathbf{W}\,\mathbf{t}_i,
+  \qquad \mathbf{t}_i = \mathrm{MiniLM}(\text{text}_i)\in\mathbb{R}^{384},
+  \quad \mathbf{W}\in\mathbb{R}^{64\times384},
+  \label{eq:textgru}
+\end{equation}
+where $\mathbf{t}_i$ is the frozen, L2-normalised \texttt{all-MiniLM-L6-v2} embedding
+\citep{reimers2019sentence,wang2020minilm} of the item's metadata, and $\mathbf{W}$ is learned. The
+same $\tilde{\mathbf{e}}$ is used for inputs and for the tied output layer, so two items that never
+co-occur can still be close because their descriptions are similar. Text features are available
+for 25{,}526 of the 25{,}527 vocabulary items; padding and OOV rows are zero.
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}
+  \node[box, fill=cdata, minimum width=2.0cm] (id)   at (0.0, 0.0) {item ID $i_t$};
+  \node[box, fill=cdata, minimum width=2.0cm] (txt)  at (0.0,-1.8) {item metadata\\text$_{i_t}$};
+  \node[box, fill=cdl,   minimum width=2.4cm] (eid)  at (3.2, 0.0) {ID embedding\\$\mathbf{e}(i_t)\in\mathbb{R}^{64}$};
+  \node[box, fill=cllm,  minimum width=2.4cm] (mini) at (3.2,-1.8) {MiniLM (frozen)\\$\mathbf{t}_{i_t}\in\mathbb{R}^{384}$};
+  \node[box, fill=cdl,   minimum width=1.5cm] (W)    at (6.0,-1.8) {$\mathbf{W}$\\384$\to$64};
+  \node[draw, circle, thick, inner sep=1pt]   (plus) at (6.0, 0.0) {$+$};
+  \node[box, fill=cdl,   minimum width=1.7cm] (gru)  at (9.0, 0.0) {GRU\\(hidden 128)};
+  \node[box, fill=cdl,   minimum width=1.6cm] (proj) at (11.6,0.0) {$\mathbf{P}$\\128$\to$64};
+  \node[box, fill=cfuse, minimum width=2.6cm] (score) at (11.6,-1.8) {scores $\mathbf{u}_T^{\top}\tilde{\mathbf{e}}(c)$\\for $c$ in the list};
+  \draw[arr] (id) -- (eid);
+  \draw[arr] (txt) -- (mini);
+  \draw[arr] (mini) -- (W);
+  \draw[arr] (eid) -- (plus);
+  \draw[arr] (W) -- (plus);
+  \draw[arr] (plus) -- node[above, font=\scriptsize]{$\tilde{\mathbf{e}}(i_t)$} (gru);
+  \draw[arr] (gru) -- node[above, font=\scriptsize]{$\mathbf{h}_t$} (proj);
+  \draw[arr] (proj) -- node[right, font=\scriptsize]{$\mathbf{u}_T$} (score);
+  \draw[arr, dashed] (7.0,0) |- node[pos=0.75, above, font=\scriptsize]{tied output layer: $\tilde{\mathbf{e}}(c)$} (score.west);
+\end{tikzpicture}
+\caption{Text-aware GRU. The only change from the ID-only GRU is the item vector
+$\tilde{\mathbf{e}}=\mathbf{e}+\mathbf{W}\mathbf{t}$, shared by the input and the tied output layer.}
+\label{fig:textgru}
+\end{figure}
+
+\subsection{Non-learned baselines}
+
+\paragraph{Content similarity.} The user profile is a recency-weighted sum of the history's MiniLM
+vectors, $\mathbf{p}_u=\sum_{k=1}^{T} w_k\,\mathbf{t}_{i_k}$ with $w_k=\exp(-d\,(T-k))$, and
+candidates are ranked by $\mathbf{p}_u^{\top}\mathbf{t}_c$.
+
+\paragraph{ItemKNN.} From the binary user--item training matrix $\mathbf{X}$ we compute cosine
+item--item similarity $\mathrm{sim}(a,b)=\frac{(\mathbf{X}^{\top}\mathbf{X})_{ab}}{\sqrt{n_a n_b}}$
+\citep{sarwar2001item}, with $n_a$ the number of users of item $a$, and score candidate $c$ as
+$\sum_k w_k\,\mathrm{sim}(i_k,c)$.
+
+\paragraph{Popularity and random.} Candidates ordered by training interaction count, or by a
+seeded random permutation.
+
+\paragraph{LLM baselines.} Following the paper, \emph{LLM-Recency} prompts the ranker with the
+last ten history items, and \emph{LLM-Vanilla-RAG} with the ten history items most similar to the
+mean candidate embedding; each uses one LLM call.
+
+\subsection{Late fusion}
+\label{sec:fusion}
+
+An LLM ranker outputs a permutation, not scores, so we fuse rankings. With rank $r_s(i)$ of item
+$i$ under system $s$ on a list of $n=20$,
+\begin{equation}
+  s_s(i) = 1 - \frac{r_s(i)-1}{n-1}, \qquad
+  f(i) = \alpha\, s_{\mathrm{LLM}}(i) + (1-\alpha)\, s_{\mathrm{TM}}(i),
+  \label{eq:fusion}
+\end{equation}
+with ties broken by NLI score, then item ID. $\alpha=1$ reproduces ARAG exactly and $\alpha=0$
+reproduces the trained model exactly, so the trained model's contribution is exactly ablatable.
+$\alpha\in\{0,0.1,\dots,1\}$ is chosen on the 100 validation users. We fuse ARAG with the ID-only
+GRU (\emph{ARAG + GRU}, the original proposal), with the text-aware GRU and with content
+similarity.
+
+% ================================================================ 6 setup
+\section{Experimental Setup}
+\label{sec:setup}
+
+\paragraph{Implementation.} Python 3.11 and PyTorch; \texttt{sentence-transformers}
+\texttt{all-MiniLM-L6-v2} (384-d, normalised) with a FAISS \citep{johnson2019billion}
+inner-product index; FastAPI and React for an interactive demonstrator. The LLM is OpenAI
+\texttt{gpt-4o-mini} at temperature 0 with strict JSON-schema outputs. A local
+\texttt{qwen3:8b} model via Ollama is supported by the same client and used for the test suite.
+
+\paragraph{Hyperparameters.} \Cref{tab:hparams} lists all settings. The ID-only GRU was selected
+from a grid hidden $\in\{64,128\}\times$ dropout $\in\{0.2,0.5\}$ (best: 128/0.2, validation
+NDCG@5 $0.299$). The text-aware GRU uses the same configuration and the same 12-epoch budget, so
+the only difference between the two models is the item representation. Both select the
+checkpoint with the best validation NDCG@5 over all 94{,}762 validation users.
+
+\begin{table}[h]
+\centering
+\caption{Hyperparameters. All selections use validation data only.}
+\label{tab:hparams}
+\begin{tabular}{llc}
+\toprule
+Component & Setting & Value \\
+\midrule
+Both GRUs & item / hidden dimension & 64 / 128 \\
+          & dropout; optimiser; learning rate & 0.2; Adam; $10^{-3}$ \\
+          & batch size; max sequence length & 256; 50 \\
+          & epochs (max); early-stopping patience & 12; 3 \\
+          & seeds & 0, 1, 2 \\
+Text-aware GRU & text encoder (frozen); projection & MiniLM-L6-v2; 384$\to$64 \\
+ARAG & NLI acceptance threshold $\theta^*$ (grid 4--7) & 5 \\
+     & candidates per NLI call; temperature & 5; 0 \\
+Fusion & $\alpha^*$: ARAG+GRU / +text-GRU / +content & 0.9 / 0.3 / 0.4 \\
+Content, ItemKNN & recency decay $d^*$ (grid 0, 0.3, 0.6, 1.0) & 0.3 / 0.3 \\
+Lists & size; negatives; sampling seed & 20; 19; 42 \\
+Bootstrap & resamples; interval & 10{,}000; 95\% percentile \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Tuning.} Validation NDCG@5 for the NLI threshold was \input{tables/theta.tex}, giving
+$\theta^*=5$. \Cref{tab:alpha} shows the validation $\alpha$ curves.
+
+\paragraph{Cost and reproducibility.} Every LLM response is stored in a disk cache keyed by the
+hash of (model, prompt, schema). The corrected evaluation made 2{,}263 new calls (about
+\$1.06); total unique project spend across both protocol versions was 4{,}668 calls, 10.3\,M input
+and 0.83\,M output tokens, \$2.04. With \texttt{REPLAY\_ONLY=1}, any uncached call raises an
+error, so the extension experiments (content baselines, text-aware GRU and new fusions) were
+evaluated at a guaranteed cost of \$0. A verification script recomputes every metric from the
+saved per-user rankings and checks dataset and list hashes against the run record.
+
+\paragraph{Compute.} All training ran on a laptop CPU (Apple silicon, 16\,GB RAM). The ID-only GRU
+grid took about 1\,h\,50\,min; the text-aware GRU takes about 5\,min per seed after two
+memory optimisations (logits computed only at non-padded positions; chunked validation). Neither
+optimisation changes the loss or the original GRU's results.
+
+% ================================================================ 7 results
+\section{Results}
+\label{sec:results}
+
+\subsection{Main comparison}
+
+\Cref{tab:main} reports every system on the same 100 test users, and \cref{tab:allusers} the
+non-LLM systems on all 94{,}762 test users. \Cref{tab:paired} gives the paired contrasts.
+
+\begin{table}[htbp]
+\centering
+\caption{All systems on the same 100 sampled test users (best value per column in bold).
+Standard deviations across users are about 0.4--0.5 for Hit and 0.3--0.45 for NDCG; see
+\cref{tab:paired} for paired confidence intervals.}
+\label{tab:main}
+\small
+\input{tables/main_results.tex}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Non-LLM systems on all 94{,}762 test users (mean $\pm$ standard deviation over three
+seeds for the GRUs).}
+\label{tab:allusers}
+\input{tables/all_users.tex}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Paired bootstrap contrasts on the same 100 test users ($\Delta$NDCG@5, 95\% CI,
+10{,}000 resamples). Top: original study. Bottom: extension. H1$'$/H2$'$ repeat H1/H2 with the
+text-aware GRU.}
+\label{tab:paired}
+\small
+\input{tables/paired.tex}
+\end{table}
+
+\paragraph{Original study.} ARAG is the best system of the original study (NDCG@5 $0.424$). It
+significantly beats LLM-Recency ($+0.139$), LLM-Vanilla-RAG ($+0.162$), the ID-only GRU seeds
+1 and 2 ($+0.179$, $+0.209$) and popularity ($+0.315$). \Cref{fig:main} visualises the
+comparison and \cref{fig:hyp} the hypothesis tests.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.9\linewidth]{fig02_main_results.png}
+  \caption{NDCG@5 and Hit@5 of the original study's systems on the 100 test users.}
+  \label{fig:main}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.85\linewidth]{fig03_hypotheses.png}
+  \caption{Forest plot of the original study's key contrasts ($\Delta$NDCG@5, 95\% CI).}
+  \label{fig:hyp}
+\end{figure}
+
+\subsection{RQ1: does fusing the GRU help ARAG?}
+
+\textbf{H1 is not supported.} At the validation-optimal $\alpha^*=0.9$, ARAG + GRU changes NDCG@5
+by $-0.013$ $[-0.032,+0.005]$. \textbf{H2 is supported}: the fused system beats the GRU alone by
+$+0.174$ $[+0.069,+0.278]$. \Cref{fig:alpha} and \cref{tab:alpha} show why: both validation and test
+curves rise towards the LLM end. Validation prefers $\alpha=0.9$ by $0.0036$ over $\alpha=1$,
+but this reverses on test, the signature of a hyperparameter overfit on a 100-user validation set.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.75\linewidth]{fig05_alpha_curve.png}
+  \caption{NDCG@5 of ARAG + GRU as a function of the fusion weight $\alpha$ (1 = ARAG only).}
+  \label{fig:alpha}
+\end{figure}
+
+\begin{table}[htbp]
+\centering
+\caption{NDCG@5 against the fusion weight $\alpha$ ($\alpha^*$ in bold where it falls on a
+shown grid point; for ARAG + text-GRU, $\alpha^*=0.3$). Validation curves are on the 100
+validation users.}
+\label{tab:alpha}
+\small
+\input{tables/alpha.tex}
+\end{table}
+
+As an exploratory, post-hoc analysis on the test users (not used for any selection),
+\cref{fig:fusionrules} compares the linear rank transform of \cref{eq:fusion} with reciprocal-rank
+fusion and an exponential transform. None improves meaningfully on ARAG alone
+($0.425$--$0.428$ vs.\ $0.424$).
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.75\linewidth]{fig09_fusion_methods.png}
+  \caption{Exploratory comparison of rank-to-score transforms for ARAG + ID-only GRU on the
+  test users. Shown for completeness; selecting a rule on these numbers would leak test data.}
+  \label{fig:fusionrules}
+\end{figure}
+
+\subsection{RQ2: do the paper's claims hold?}
+
+Both of the paper's baseline orderings reproduce significantly
+(\cref{tab:paired}), and the ablation staircase has the same shape as in all three of the paper's
+categories (\cref{fig:abl}): removing NLI and CSA significantly hurts ($-0.062$
+$[-0.113,-0.016]$), and removing NLI alone is directionally negative but not significant
+($-0.049$ $[-0.111,+0.011]$). \Cref{fig:paper} sets our numbers next to the paper's Table~1.
+The absolute values are not comparable (different dataset version, category, model and candidate
+protocol), but ARAG's relative lift over the best baseline ($+48.8\%$ NDCG@5) is at least as large
+as the paper's ($+25.6\%$ to $+42.1\%$).
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\linewidth]{fig04_ablation.png}
+  \caption{Ablation staircase: ours (Video Games) next to the paper's three categories.}
+  \label{fig:abl}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.85\linewidth]{fig06_paper_vs_ours.png}
+  \caption{Our results next to the base paper's Table~1. Absolute values are shown for context
+  only; the setups differ in dataset version, category, LLM and candidate construction.}
+  \label{fig:paper}
+\end{figure}
+
+\subsection{RQ3: the text-aware GRU}
+
+\Cref{fig:textcurve} shows training: the text-aware GRU passes the ID-only GRU's best validation
+score by epoch 3 and both non-learned baselines by epoch 9, reaching $0.476$ at the 12-epoch cap
+(seeds: $0.476$, $0.473$, $0.477$). On all 94{,}762 test users (\cref{tab:allusers}) it reaches
+NDCG@5 $0.461\pm0.002$ versus $0.279\pm0.006$ for the ID-only GRU. Paired bootstrap over all users
+(seed 0, 1{,}000 resamples) gives $+0.174$ $[+0.172,+0.176]$ over the ID-only GRU, $+0.050$
+$[+0.047,+0.053]$ over content similarity and $+0.055$ $[+0.053,+0.058]$ over ItemKNN, all
+significant. On the 100-user sample (\cref{fig:ext}) it is numerically above ARAG for every seed
+($+0.038$, $+0.065$, $+0.048$), but none of these differences is significant. Fusing it into ARAG
+gives the highest score in the study ($0.468$, $\alpha^*=0.3$), which is not significantly
+different from either component (H1$'$: $+0.044$; H2$'$: $+0.006$).
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.75\linewidth]{fig11_text_gru_training.png}
+  \caption{Validation NDCG@5 of the text-aware GRU (seed 0) per epoch, against the ID-only GRU's
+  best epoch and the two non-learned baselines (tuned decay).}
+  \label{fig:textcurve}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{fig10_content_aware.png}
+  \caption{Extension results. Left: non-LLM systems on all 94{,}762 test users. Right: the same 100
+  users used for the LLM systems.}
+  \label{fig:ext}
+\end{figure}
+
+% ================================================================ 8 discussion
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Why the ID-only GRU adds nothing to ARAG}
+
+The ID-only GRU learns from co-occurrence over 625k training interactions, but each user
+contributes only a handful of IDs and most items appear in few sequences. ARAG's ranker sees the
+same history as text, plus the candidates' descriptions and the NLI scores; a 10\% weight on a
+model that cannot read item content contributes no information the LLM has not already used.
+The null result for H1 is therefore expected once the GRU's weakness is understood.
+
+\subsection{The bottleneck was representation, not model class}
+\label{sec:disc-representation}
+
+The text-aware GRU changes only the item vector (\cref{eq:textgru}); the architecture, training
+objective, configuration and epoch budget are identical. Yet it gains $+0.17$--$0.22$ NDCG@5. With
+three to five interactions per user, ID embeddings are under-determined; text features let the
+model place rarely seen items near semantically similar ones, so the sequence model generalises
+across items it has seldom seen together. This mirrors findings from transferable text-based
+sequence models \citep{hou2022unisrec}.
+
+\subsection{How much of ARAG's advantage is agentic reasoning?}
+
+In the original study, ARAG beat the ID-only GRU by about $0.18$ NDCG@5, which could be read as
+evidence for agentic reasoning over learned models. The extension shows that most of that gap is
+explained by access to item text: an untrained content-similarity ranker is statistically tied
+with ARAG, and a text-aware trained model is numerically ahead of it. The agentic decomposition
+still matters \emph{within} LLM ranking --- ARAG significantly beats single-prompt LLM baselines
+and the NLI+CSA ablation --- but on this protocol it does not beat a well-represented trained
+model. This is consistent with the broader observation that strong simple baselines are often
+competitive with complex recommenders \citep{dacrema2019really}.
+
+\subsection{Cost--quality trade-off}
+
+ARAG needs seven LLM calls per user (about \$1 per 100-user evaluation with
+\texttt{gpt-4o-mini}, and seconds of latency per user). The text-aware GRU scores all 94{,}762 test
+users in seconds on a CPU at no marginal cost, and trains in about 15 minutes for three seeds. On
+this protocol it is the better operating point.
+
+\subsection{A methodological lesson: candidate construction can manufacture conclusions}
+
+An earlier version of the study sampled negatives uniformly from all 137{,}260 catalogue items
+with text. Because 81\% of those items have no interactions, a mean of 15.5 of the 19 negatives
+were unknown to popularity (all tied at zero) and to the GRU (all mapped to one OOV embedding).
+The effective task for those systems was a choice among about 4.5 items. Popularity reached
+Hit@5 $=0.97$, the GRU NDCG@5 $=0.82$, and fusion appeared to improve ARAG by $+0.349$
+(``H1 supported''). The flaw was found in review; the lists were rebuilt with
+popularity-matched in-vocabulary negatives, every system was re-evaluated and the GRU retrained.
+The conclusion reversed (\cref{fig:flaw}). The general point, also made by
+\citet{krichene2020sampled}, is that sampled-candidate protocols must be checked for shortcuts
+that some systems can exploit and others cannot.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.85\linewidth]{fig07_protocol_flaw.png}
+  \caption{The original (degenerate) candidate lists versus the corrected lists. Under the
+  degenerate lists, popularity-like systems appeared dominant and H1 appeared supported.}
+  \label{fig:flaw}
+\end{figure}
+
+% ================================================================ 9 threats
+\section{Threats to Validity}
+\label{sec:threats}
+
+\begin{enumerate}
+  \item \textbf{Sample size.} Only 100 users are evaluated with the LLM (cost). Confidence intervals
+  on NDCG@5 differences are roughly $\pm0.08$--$0.10$, so the top systems (ARAG, content
+  similarity, text-aware GRU and their fusions) cannot be separated. About 300 users ($\approx\$3$)
+  would be needed to resolve differences of $\sim0.05$.
+  \item \textbf{Sampled negatives.} Popularity-matched negatives remove the popularity shortcut but
+  are easier than candidates mined by a real retriever. Results describe ranking quality on hard
+  20-item lists, not end-to-end retrieval quality.
+  \item \textbf{Slight tilt of the negatives.} Popularity scores slightly below random (Hit@5 0.213
+  vs.\ 0.252 on all users), so negatives are on average a little more popular than targets. This
+  slightly disadvantages frequency-sensitive models, including the GRUs. The effect ($\sim0.04$
+  Hit@5) is much smaller than the gaps we interpret.
+  \item \textbf{Leave-last-out leakage.} Other users' later interactions can appear in the training
+  data of the GRUs and ItemKNN. This is inherent to the official split and affects those systems
+  equally; content similarity does not use other users' data.
+  \item \textbf{Training budget.} The text-aware GRU was still improving at the 12-epoch cap. The cap
+  was kept to match the ID-only GRU's budget, so the reported gain is, if anything, conservative.
+  \item \textbf{Tuning noise.} $\alpha$ and $\theta$ are tuned on 100 validation users; the
+  validation and test $\alpha$ curves disagree near their maxima.
+  \item \textbf{Scope.} One category, one dataset, one LLM. The study is ARAG-inspired, not an
+  exact reproduction: the paper does not publish prompts, its threshold or its candidate
+  construction, and it used \texttt{gpt-3.5-turbo} on the 2016 Amazon data.
+  \item \textbf{Offline metrics only.} No online or human evaluation; one held-out item per user
+  defines relevance.
+\end{enumerate}
+
+% ================================================================ 10 conclusion
+\section{Conclusion and Future Work}
+\label{sec:conclusion}
+
+We built an ARAG-style agentic recommender and evaluated it against, and fused with, a trained GRU
+under a protocol that isolates ranking and tests every contrast statistically. Three findings
+stand out. First, fusing an ID-only GRU into ARAG does not help (H1 fails), while the agentic
+pipeline significantly beats simpler LLM baselines and its NLI+CSA ablation, reproducing the base
+paper's claims on a new category and model. Second, the GRU's weakness is a representation
+problem: adding frozen sentence embeddings of item metadata to its item vectors lifts it from
+NDCG@5 $0.279$ to $0.461$ on all test users, past content and collaborative baselines, and
+numerically past ARAG, at zero LLM cost. Third, the construction of sampled candidate lists can
+create or erase entire conclusions, so it must be audited.
+
+Future work: a larger LLM-evaluated sample to separate the top systems; negatives mined by a
+retriever; longer training and a Transformer sequence model (SASRec) with the same text-aware
+item representation; feeding the trained model's scores to the IRA agent as an explicit feature
+instead of fusing afterwards; and replication on further categories.
+
+% ================================================================ references
+\bibliographystyle{plainnat}
+\begin{thebibliography}{99}
+
+\bibitem[Cho et~al.(2014)]{cho2014learning}
+K.~Cho, B.~van Merri{\"e}nboer, C.~Gulcehre, D.~Bahdanau, F.~Bougares, H.~Schwenk, and Y.~Bengio.
+\newblock Learning phrase representations using {RNN} encoder--decoder for statistical machine translation.
+\newblock In \emph{Proceedings of EMNLP}, 2014.
+
+\bibitem[Dacrema et~al.(2019)]{dacrema2019really}
+M.~Ferrari Dacrema, P.~Cremonesi, and D.~Jannach.
+\newblock Are we really making much progress? {A} worrying analysis of recent neural recommendation approaches.
+\newblock In \emph{Proceedings of ACM RecSys}, 2019.
+
+\bibitem[Efron and Tibshirani(1993)]{efron1993bootstrap}
+B.~Efron and R.~J. Tibshirani.
+\newblock \emph{An Introduction to the Bootstrap}.
+\newblock Chapman \& Hall, 1993.
+
+\bibitem[Hidasi et~al.(2016)]{hidasi2016session}
+B.~Hidasi, A.~Karatzoglou, L.~Baltrunas, and D.~Tikk.
+\newblock Session-based recommendations with recurrent neural networks.
+\newblock In \emph{International Conference on Learning Representations (ICLR)}, 2016.
+
+\bibitem[Hou et~al.(2022)]{hou2022unisrec}
+Y.~Hou, S.~Mu, W.~X. Zhao, Y.~Li, B.~Ding, and J.-R. Wen.
+\newblock Towards universal sequence representation learning for recommender systems.
+\newblock In \emph{Proceedings of ACM SIGKDD}, 2022.
+
+\bibitem[Hou et~al.(2024a)]{hou2024bridging}
+Y.~Hou, J.~Li, Z.~He, A.~Yan, X.~Chen, and J.~McAuley.
+\newblock Bridging language and items for retrieval and recommendation.
+\newblock \emph{arXiv preprint arXiv:2403.03952}, 2024.
+
+\bibitem[Hou et~al.(2024b)]{hou2024llmrank}
+Y.~Hou, J.~Zhang, Z.~Lin, H.~Lu, R.~Xie, J.~McAuley, and W.~X. Zhao.
+\newblock Large language models are zero-shot rankers for recommender systems.
+\newblock In \emph{Proceedings of ECIR}, 2024.
+
+\bibitem[J{\"a}rvelin and Kek{\"a}l{\"a}inen(2002)]{jarvelin2002cumulated}
+K.~J{\"a}rvelin and J.~Kek{\"a}l{\"a}inen.
+\newblock Cumulated gain-based evaluation of {IR} techniques.
+\newblock \emph{ACM Transactions on Information Systems}, 20(4):422--446, 2002.
+
+\bibitem[Johnson et~al.(2019)]{johnson2019billion}
+J.~Johnson, M.~Douze, and H.~J{\'e}gou.
+\newblock Billion-scale similarity search with {GPU}s.
+\newblock \emph{IEEE Transactions on Big Data}, 7(3):535--547, 2019.
+
+\bibitem[Kang and McAuley(2018)]{kang2018self}
+W.-C. Kang and J.~McAuley.
+\newblock Self-attentive sequential recommendation.
+\newblock In \emph{Proceedings of IEEE ICDM}, 2018.
+
+\bibitem[Krichene and Rendle(2020)]{krichene2020sampled}
+W.~Krichene and S.~Rendle.
+\newblock On sampled metrics for item recommendation.
+\newblock In \emph{Proceedings of ACM SIGKDD}, 2020.
+
+\bibitem[Maragheh et~al.(2025)]{maragheh2025arag}
+R.~Y. Maragheh, P.~Vadla, P.~Gupta, K.~Zhao, A.~Inan, K.~Yao, J.~Xu, P.~Kanumala, J.~Cho, and S.~Kumar.
+\newblock {ARAG}: Agentic retrieval augmented generation for personalized recommendation.
+\newblock \emph{arXiv preprint arXiv:2506.21931}, 2025.
+
+\bibitem[Reimers and Gurevych(2019)]{reimers2019sentence}
+N.~Reimers and I.~Gurevych.
+\newblock Sentence-{BERT}: Sentence embeddings using {S}iamese {BERT}-networks.
+\newblock In \emph{Proceedings of EMNLP-IJCNLP}, 2019.
+
+\bibitem[Sarwar et~al.(2001)]{sarwar2001item}
+B.~Sarwar, G.~Karypis, J.~Konstan, and J.~Riedl.
+\newblock Item-based collaborative filtering recommendation algorithms.
+\newblock In \emph{Proceedings of WWW}, 2001.
+
+\bibitem[Wang et~al.(2020)]{wang2020minilm}
+W.~Wang, F.~Wei, L.~Dong, H.~Bao, N.~Yang, and M.~Zhou.
+\newblock {MiniLM}: Deep self-attention distillation for task-agnostic compression of pre-trained transformers.
+\newblock In \emph{Advances in Neural Information Processing Systems (NeurIPS)}, 2020.
+
+\end{thebibliography}
+
+% ================================================================ appendices
+\appendix
+
+\section{Worked Example}
+\label{app:example}
+
+A real test user (\texttt{AEDTQXNMWBEI7UECETV5JVUEWNDQ}) with a four-item history: \textit{The
+Legend of Zelda: Breath of the Wild} (Wii U), \textit{Need for Speed Most Wanted U} (Wii U),
+\textit{Hot Wheels World's Best Driver} and \textit{LEGO Marvel} (PC). The frozen list contains
+twenty plausible gaming products --- for example \textit{Demon's Souls} (PS3), \textit{New Super
+Mario Bros.\ U}, a Luigi amiibo, \textit{Ghost of Tsushima} (PS4), PS4 controller accessories and
+two gaming headsets. The held-out target is an \textit{ARKARTECH Gaming Headset}. Every
+negative is a known, reviewed product, illustrating that the corrected lists contain no trivial
+zero-interaction decoys: a ranker must infer from four console-game purchases that an accessory
+such as a headset is a plausible next purchase.
+
+\section{Errata: the Superseded Run}
+\label{app:errata}
+
+\begin{table}[h]
+\centering
+\caption{Original (degenerate lists) versus corrected results.}
+\label{tab:errata}
+\small
+\begin{tabular}{lcc}
+\toprule
+Quantity & Original lists & Corrected lists \\
+\midrule
+Unknown negatives per list (of 19) & 15.5 & 0 \\
+Popularity NDCG@5 & 0.801 & 0.109 \\
+GRU NDCG@5 (all users) & 0.823 & 0.279 \\
+ARAG NDCG@5 & 0.453 & 0.424 \\
+$\alpha^*$ & 0.1 & 0.9 \\
+H1 (ARAG + GRU $-$ ARAG) & $+0.349$ ``significant'' & $-0.013$ n.s. \\
+H2 (ARAG + GRU $-$ GRU) & $+0.002$ n.s. & $+0.174$ significant \\
+ARAG vs.\ Recency / Vanilla-RAG & n.s. & both significant \\
+Best system & GRU / fused & ARAG (text-aware GRU in the extension) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Reproducibility}
+\label{app:repro}
+
+All code, configuration and results are in the project repository. The full pipeline is:
+{\small
+\begin{verbatim}
+make setup                      # environment
+make data lists index           # dataset, frozen lists, MiniLM + FAISS
+make gru gru-text               # ID-only GRU (grid + 3 seeds), text-aware GRU (3 seeds)
+make eval                       # all systems (LLM calls disk-cached)
+make report verify              # results/, and re-derive every metric from raw predictions
+python scripts/make_figures.py  # figures
+python scripts/make_paper_tables.py   # the LaTeX tables of this report
+\end{verbatim}
+}
+A zero-cost replay of the full evaluation is
+\texttt{REPLAY\_ONLY=1 OPENAI\_API\_KEY=replay-only-dummy make eval}; any LLM call missing from
+the cache raises an error instead of reaching the API. Every table in \cref{sec:results} is
+generated from \texttt{results/metrics.json} by \texttt{scripts/make\_paper\_tables.py}.
+
+\end{document}

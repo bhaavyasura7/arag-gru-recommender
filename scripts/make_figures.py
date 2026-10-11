@@ -16,6 +16,7 @@ Outputs to docs/figures/:
   fig08_history_lengths.png why the GRU fails: user history length
   fig09_fusion_methods.png  uniform vs RRF vs exponential fusion
   fig10_content_aware.png   extension: content baselines + text-aware GRU (zero LLM cost)
+  fig11_text_gru_training.png  text-aware GRU validation curve vs the ID-only GRU
 
 Usage:  .venv/bin/python scripts/make_figures.py
 """
@@ -593,6 +594,33 @@ def fig_content_aware():
     plt.close(fig)
 
 
+# ---------------------------------------------------------------------------
+# fig11 text-aware GRU training curve (values from the training log, PROCESS.md §12)
+# ---------------------------------------------------------------------------
+TEXT_GRU_VAL_CURVE = [0.2520, 0.2889, 0.3279, 0.3549, 0.3847, 0.3975,
+                      0.4160, 0.4422, 0.4446, 0.4560, 0.4673, 0.4761]  # seed 0
+ID_GRU_BEST_VAL = 0.2928  # seed 0, artifacts/gru/0/config.json
+
+
+def fig_text_gru_training():
+    full = json.loads((ROOT / "results" / "metrics.json").read_text())
+    content_val = full["content_decay"]["curve"][str(full["content_decay"]["best"])]
+    knn_val = full["itemknn_decay"]["curve"][str(full["itemknn_decay"]["best"])]
+    ep = np.arange(1, len(TEXT_GRU_VAL_CURVE) + 1)
+    fig, ax = plt.subplots(figsize=(8.5, 4.6))
+    ax.plot(ep, TEXT_GRU_VAL_CURVE, "-o", color=C["arag"], lw=2.2, label="Text-aware GRU (seed 0)")
+    ax.axhline(ID_GRU_BEST_VAL, color=C["gru"], ls="--", lw=1.8, label=f"ID-only GRU, best epoch ({ID_GRU_BEST_VAL:.3f})")
+    ax.axhline(content_val, color=C["llm"], ls=":", lw=1.8, label=f"Content similarity ({content_val:.3f})")
+    ax.axhline(knn_val, color=C["abl"], ls="-.", lw=1.8, label=f"ItemKNN ({knn_val:.3f})")
+    ax.set_xticks(ep)
+    ax.set_xlabel("Epoch")
+    ax.set_ylabel("Validation NDCG@5 (94,762 users)")
+    ax.set_title("Text-aware GRU: validation NDCG@5 per epoch (12-epoch budget)")
+    ax.legend(loc="lower right", fontsize=9.5)
+    fig.savefig(OUT / "fig11_text_gru_training.png", bbox_inches="tight")
+    plt.close(fig)
+
+
 def main():
     print("Generating figures ->", OUT)
     fig_pipeline()
@@ -615,6 +643,8 @@ def main():
     print("  fig09_fusion_methods.png")
     fig_content_aware()
     print("  fig10_content_aware.png")
+    fig_text_gru_training()
+    print("  fig11_text_gru_training.png")
     print("Done.")
 
 
