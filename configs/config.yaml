@@ -95,6 +95,9 @@ gru_text:                       # text-aware GRU (python -m arag.models.train_gr
   hidden_grid: [128]            # best ID-only config; a 1x1 grid skips the grid run
   dropout_grid: [0.2]
 
+app:
+  gru_variant: text             # demo fuses ARAG with the text-aware GRU (alpha = best_alpha_text); 'id' = original GRU
+
 content:
   decay_grid: [0.0, 0.3, 0.6, 1.0]   # recency decay for content / ItemKNN user profiles (tuned on validation)
 
