@@ -88,6 +88,7 @@ gru:
   - 1
   - 2
   max_train_users: 0
+  device: auto
 gru_text:
   hidden_grid:
   - 128

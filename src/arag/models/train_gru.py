@@ -83,6 +83,7 @@ def train_model(
     logger,
 ) -> tuple[GRU4Rec, list[float]]:
     opt = torch.optim.Adam(model.parameters(), lr=lr)
+    dev = next(model.parameters()).device
     n = train_arr.shape[0]
     seq_len = train_arr.shape[1]
     idx = np.arange(n)
@@ -102,8 +103,8 @@ def train_model(
         for start in range(0, n, batch_size):
             batch = order[start : start + batch_size]
             t = int((batch != PAD).sum(axis=1).max())  # trim padding columns beyond the longest row
-            x_in = torch.tensor(batch[:, : t - 1], dtype=torch.long)
-            y = torch.tensor(batch[:, 1:t], dtype=torch.long)
+            x_in = torch.tensor(batch[:, : t - 1], dtype=torch.long, device=dev)
+            y = torch.tensor(batch[:, 1:t], dtype=torch.long, device=dev)
             lengths = (x_in != PAD).sum(dim=1)
             # a position is trained iff it has a real next item (same as masking full logits,
             # but logits are only materialised for those positions: far less memory)
@@ -145,6 +146,7 @@ def evaluate(model: GRU4Rec, val_data: list[dict], seq_len: int = 50, chunk: int
     """Validation NDCG@5 on the frozen lists. History capped to the last ``seq_len`` items
     (as ``GRUScorer`` does at test time); users encoded in chunks to bound memory."""
     model.eval()
+    dev = next(model.parameters()).device
     items = [v for v in val_data if v["history"]]
     if not items:
         return 0.0
@@ -156,8 +158,8 @@ def evaluate(model: GRU4Rec, val_data: list[dict], seq_len: int = 50, chunk: int
             x = torch.zeros(len(part), max(len(h) for h in hists), dtype=torch.long)
             for i, h in enumerate(hists):
                 x[i, : len(h)] = torch.tensor(h, dtype=torch.long)
-            h_u = model.encode(x)  # (B, emb)
-            cidx = torch.tensor([v["candidates"] for v in part], dtype=torch.long)  # (B, 20)
+            h_u = model.encode(x.to(dev))  # (B, emb)
+            cidx = torch.tensor([v["candidates"] for v in part], dtype=torch.long, device=dev)  # (B, 20)
             scores = (model.item_emb(cidx) * h_u[:, None, :]).sum(-1)  # (B, 20)
             orders = torch.argsort(scores, dim=1, descending=True).tolist()
             for v, order in zip(part, orders):
@@ -200,8 +202,14 @@ def main() -> None:
         n_text = int((text_feats.abs().sum(dim=1) > 0).sum())
         logger.info("text features: %d of %d vocab items", n_text, len(item2idx))
 
+    dev_name = cfg.get("gru.device", "cpu")
+    if dev_name == "auto":
+        dev_name = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu"
+    device = torch.device(dev_name)
+    logger.info("training device: %s", device)
+
     def new_model(hidden, dropout):
-        return GRU4Rec(len(item2idx) + 2, emb_dim, hidden, dropout, text_feats=text_feats)
+        return GRU4Rec(len(item2idx) + 2, emb_dim, hidden, dropout, text_feats=text_feats).to(device)
 
     epochs = cfg.get("gru.max_epochs", 30)
     batch_size = cfg.get("gru.batch_size", 256)
