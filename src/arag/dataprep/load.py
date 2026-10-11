@@ -29,7 +29,7 @@ def _read_benchmark(path: Path, split: str) -> pd.DataFrame:
     return df[INTERACTION_COLUMNS]
 
 
-def _load_items(meta_path: Path, max_words: int, logger) -> pd.DataFrame:
+def _load_items(meta_path: Path, max_words: int, logger, keep_items: set[str] | None = None) -> pd.DataFrame:
     rows: list[dict] = []
     missing_id = 0
     with open(meta_path, "r", encoding="utf-8") as fh:
@@ -45,6 +45,8 @@ def _load_items(meta_path: Path, max_words: int, logger) -> pd.DataFrame:
             item_id = meta.get("parent_asin")
             if item_id is None or str(item_id).strip() == "":
                 missing_id += 1
+                continue
+            if keep_items is not None and str(item_id) not in keep_items:
                 continue
             title = meta.get("title")
             text = build_item_text(meta, max_words=max_words)
@@ -99,6 +101,15 @@ def main() -> None:
     if dropped:
         logger.info("rows dropped for missing user/item/timestamp: %d", dropped)
 
+    # optional seeded user subsample (large categories); each kept user keeps their full history
+    max_users = int(cfg.get("dataset.max_users", 0) or 0)
+    n_users = interactions["user_id"].nunique()
+    if max_users and n_users > max_users:
+        users = pd.Series(sorted(interactions["user_id"].unique()))
+        keep = set(users.sample(n=max_users, random_state=cfg.seed))
+        interactions = interactions[interactions["user_id"].isin(keep)]
+        logger.info("users subsampled: %d -> %d (seed %d); interactions -> %d", n_users, max_users, cfg.seed, len(interactions))
+
     interactions["timestamp"] = interactions["timestamp"].astype("int64")
     interactions["rating"] = interactions["rating"].astype(float)
     interactions = interactions[INTERACTION_COLUMNS].reset_index(drop=True)
@@ -107,7 +118,11 @@ def main() -> None:
 
     # --- items ------------------------------------------------------------
     meta_path = raw_dir / f"meta_{category}.jsonl"
-    items = _load_items(meta_path, cfg.get("splits.item_text_words"), logger)
+    keep_items = None
+    if cfg.get("dataset.items_scope", "all") == "interacted":
+        keep_items = set(interactions["item_id"].unique())
+        logger.info("metadata restricted to the %d interacted items", len(keep_items))
+    items = _load_items(meta_path, cfg.get("splits.item_text_words"), logger, keep_items)
     items.to_parquet(proc_dir / "items.parquet", index=False)
     logger.info(
         "items written: %d rows (%d with text)",

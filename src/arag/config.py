@@ -82,12 +82,19 @@ class Config:
 
 
 def load_config(path: str | Path | None = None) -> Config:
+    """Load ``path``, else ``$ARAG_CONFIG`` (e.g. a per-category config), else ``configs/config.yaml``."""
     if path is None:
-        path = REPO_ROOT / "configs" / "config.yaml"
+        path = os.environ.get("ARAG_CONFIG") or REPO_ROOT / "configs" / "config.yaml"
+        path = Path(path)
+        if not path.is_absolute():
+            path = REPO_ROOT / path
     path = Path(path)
     with path.open("r", encoding="utf-8") as fh:
         raw = yaml.safe_load(fh)
-    return Config(raw, repo_root=path.resolve().parent.parent)
+    # repo root = the directory holding the ``configs/`` folder this file lives in
+    resolved = path.resolve()
+    root = next((p.parent for p in resolved.parents if p.name == "configs"), resolved.parent.parent)
+    return Config(raw, repo_root=root)
 
 
 def get_config() -> Config:
