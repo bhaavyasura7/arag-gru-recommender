@@ -392,7 +392,7 @@ This is a meaningful contrast with the earlier degenerate run, where none of the
 
 ### 7.4 Popularity is now at or below random — the protocol works
 
-With popularity-matched negatives, the Popularity baseline scores NDCG@5 **0.109 — below random's 0.125** on the 100-user sample (and 0.128 vs 0.149 on all 94,762 users). It is significantly beaten by the GRU (Δ = 0.129) and by ARAG (Δ = 0.315). This is the designed behaviour: negatives are drawn from the same popularity distribution as targets, so global frequency carries no free signal and any system that wins must actually use the user.
+With popularity-matched negatives, the Popularity baseline scores NDCG@5 **0.109 — below random's 0.125** on the 100-user sample (and 0.128 vs 0.149 on all 94,762 users). It is significantly beaten by the GRU (Δ = 0.129) and by ARAG (Δ = 0.315). This is the designed behaviour: negatives are drawn from the same popularity distribution as targets, so global frequency carries no free signal and any system that wins must actually use the user. Popularity landing slightly *below* random (Hit@5 0.213 vs 0.252 on all users) also shows the negatives are, on average, a little more popular than the targets — a small tilt against popularity-driven models, discussed in §8.
 
 ### 7.5 Secondary observations
 
@@ -405,13 +405,14 @@ With popularity-matched negatives, the Popularity baseline scores NDCG@5 **0.109
 ## 8. Threats to validity and limitations
 
 1. **Sampled negatives, not retrieval-mined candidates.** Popularity-matched negatives from the training vocabulary remove the popularity shortcut but are still easier than what a production retriever would surface. Headline numbers should be read as *"ranking quality on hard 20-item lists"*, not as production retrieval quality.
-2. **100 test users ⇒ wide CIs.** Roughly ±8–10 points on Hit@5. The large effects (ARAG vs everything) are comfortably resolved; the small ones (α bump, NLI-only ablation) are not, and α itself is a noisy hyperparameter at this n (evidenced by the valid/test disagreement at the top of the curve).
-3. **Leave-last-out leakage into GRU training.** Other users' later interactions may appear in the GRU's training data; inherent to the official split, applies equally to all systems, but means GRU numbers are upper bounds relative to a strictly time-separated setup.
-4. **Single category, single dataset.** Video Games only; results may not transfer.
-5. **Prompt and threshold sensitivity.** The paper does not publish prompts or θ; our prompt wording and θ\*=5 are our own choices, tuned only on validation.
-6. **Model substitution.** The paper used gpt-3.5-turbo on an older dataset; we use gpt-4o-mini. This is ARAG-inspired, not a reproduction, and no number here is comparable to the paper's tables.
-7. **No human evaluation.** All judgments are offline metrics against a single held-out item.
-8. **The protocol was corrected mid-project** (Appendix E). The correction was made in response to review, applied to every system, and the GRU retrained; but a reader should treat the corrected run as the definitive one and be aware the original run's conclusions were wrong.
+2. **Popularity-matched negatives slightly over-correct.** Popularity scores a little below random (Hit@5 0.213 vs 0.252 on all 94,762 users), so negatives are on average slightly more popular than targets. This tilts the lists a little against models that rely on popularity, including the GRU (trained with a full softmax that partly learns item frequency). The tilt (~4 points of Hit@5) is much smaller than the ARAG–GRU gap (+0.17–0.21 NDCG@5), so the ordering is unlikely to change, but the size of that gap and the H1 result may. A robustness run with `sampling.negative_sampling: uniform` (negatives uniform over the training vocabulary, ~$1) would settle it and is left as future work.
+3. **100 test users ⇒ wide CIs.** Roughly ±8–10 points on Hit@5. The large effects (ARAG vs everything) are comfortably resolved; the small ones (α bump, NLI-only ablation) are not, and α itself is a noisy hyperparameter at this n (evidenced by the valid/test disagreement at the top of the curve).
+4. **Leave-last-out leakage into GRU training.** Other users' later interactions may appear in the GRU's training data; inherent to the official split, applies equally to all systems, but means GRU numbers are upper bounds relative to a strictly time-separated setup.
+5. **Single category, single dataset.** Video Games only; results may not transfer.
+6. **Prompt and threshold sensitivity.** The paper does not publish prompts or θ; our prompt wording and θ\*=5 are our own choices, tuned only on validation.
+7. **Model substitution.** The paper used gpt-3.5-turbo on an older dataset; we use gpt-4o-mini. This is ARAG-inspired, not a reproduction, and no number here is comparable to the paper's tables.
+8. **No human evaluation.** All judgments are offline metrics against a single held-out item.
+9. **The protocol was corrected mid-project** (Appendix E). The correction was made in response to review, applied to every system, and the GRU retrained; but a reader should treat the corrected run as the definitive one and be aware the original run's conclusions were wrong.
 
 ---
 
@@ -562,7 +563,7 @@ Because the research question is about *ranking*, not retrieval. If each system 
 Because uniform sampling over the catalogue was catastrophic: 81% of catalogue items have zero reviews, so ~15.5 of 19 uniform negatives were unknown to Popularity and the GRU (tied scores) and the task collapsed to a ~4.5-way choice (Appendix E). Sampling proportional to train popularity makes negatives about as popular as targets (measured 1.0–1.4×), so **popularity alone separates nothing** — and indeed the Popularity baseline now sits at or below random. Any system that wins must actually use the user.
 
 **Q3. H1 failed — is the project a failure?**
-No, and it is the more informative outcome. H2 succeeds strongly: the LLM agent adds a large significant increment over the trained model (+0.174), and the paper's own baseline and ablation claims reproduce significantly. A well-powered null on H1 — with the fusion weight tuned honestly on validation and the full α curve shown — is a defensible scientific result. What would *not* be defensible is reporting the earlier artefactual "+0.349 supported" (Appendix E).
+No, and it is the more informative outcome. H2 succeeds strongly: the LLM agent adds a large significant increment over the trained model (+0.174), and the paper's own baseline and ablation claims reproduce significantly. A null result on H1 — not significant at n=100, with the fusion weight tuned honestly on validation and the full α curve shown — is a defensible scientific result, although a larger sample would be needed to rule out a small effect. What would *not* be defensible is reporting the earlier artefactual "+0.349 supported" (Appendix E).
 
 **Q4. Was α\* = 0.9 chosen to make the fusion look good?**
 No. α was selected only on the 100 validation users by maximizing validation NDCG@5 across the full grid; both curves are published. Validation preferred 0.9 by 0.0036 over 1.0, but on test the pure-LLM end wins — which is exactly why the report says the bump is validation noise and H1 fails. Selecting on test would have been the way to manufacture an H1 win; we did not.
