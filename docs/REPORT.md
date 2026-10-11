@@ -12,6 +12,14 @@ Companion documents: `SPEC.md` (specification & recorded deviations), `docs/PROC
 > rebuilt, every system was re-evaluated, the GRU was retrained, and this document was
 > rewritten. The original numbers are preserved — not deleted — in **Appendix E**.
 
+> **Extension notice (§14).** After the main study, the GRU's weakness was traced to thin ID
+> sequences (median 4 training items per user). A **text-aware GRU** (ID embedding + projected
+> MiniLM item embedding) and two cheap baselines (content similarity, ItemKNN) were added and
+> evaluated **with zero new LLM calls** (all LLM outputs replayed from cache). The text-aware GRU
+> raises the trained model from NDCG@5 **0.279 → 0.461** on all 94,762 test users and is
+> numerically above ARAG on the 100-user sample (0.462 vs 0.424, n.s.). Sections 1–13 describe
+> the original study and are unchanged; §14 reports the extension.
+
 ---
 
 ## Abstract
@@ -249,6 +257,10 @@ Ties break by higher NLI score, then item_id. **α is chosen on the 100 validati
 | ARAG w/o NLI | CSA summarises all 20 candidates → IRA | 2 (UUA reused) |
 | ARAG w/o NLI & CSA | IRA receives UUA summary + raw candidates | 1 (UUA reused) |
 | **ARAG+GRU (proposed)** | late fusion at α\* | 0 extra |
+| *Extension (§14):* Content similarity | MiniLM cosine to a recency-weighted history profile | 0 |
+| *Extension:* ItemKNN | train co-occurrence cosine, recency-weighted over history | 0 |
+| *Extension:* Text-aware GRU | GRU with item vector = ID embedding + projected MiniLM embedding | 0 |
+| *Extension:* ARAG + text-aware GRU / ARAG + content | late fusion, α tuned on validation | 0 extra |
 
 ### 5.2 Tuning (validation only)
 
@@ -480,7 +492,9 @@ We built, trained and evaluated an ARAG-inspired agentic recommender fused with 
 - **The paper's claims reproduce significantly:** ARAG > LLM-Recency, ARAG > LLM-Vanilla-RAG, and removing NLI+CSA significantly hurts.
 - **Popularity carries no free signal** under popularity-matched negatives (at or below random), confirming the protocol is doing its job.
 
-The most valuable finding is methodological as much as empirical: **candidate-list construction can manufacture or erase entire conclusions.** Under the original uniform-over-catalogue lists, the trained model looked dominant (+0.349, "significant"); under fair lists the effect reverses and the LLM agent dominates. Both runs are reported in full, the fix is a ~60-line change in one file, and every corrected number is auditable with `make verify`. Future work: retrieval-mined negatives, ≥300 test users for tighter CIs and a stable α, a strictly time-separated split for the GRU, and an LLM ranker given explicit popularity features to test whether the agentic increment survives with the last confound removed.
+The most valuable finding is methodological as much as empirical: **candidate-list construction can manufacture or erase entire conclusions.** Under the original uniform-over-catalogue lists, the trained model looked dominant (+0.349, "significant"); under fair lists the effect reverses and the LLM agent dominates. Both runs are reported in full, the fix is a ~60-line change in one file, and every corrected number is auditable with `make verify`. **Extension (§14).** Adding item text to the GRU raises it from 0.279 to 0.461 NDCG@5 on all users at zero LLM cost, and it ties with (numerically exceeds) ARAG on the 100-user sample. The original study's "LLM beats the trained model" conclusion holds only for an ID-only model; with text, the trained model is at least as good and far cheaper.
+
+Future work: retrieval-mined negatives, ≥300 test users for tighter CIs and a stable α, a strictly time-separated split for the GRU, and an LLM ranker given explicit popularity features to test whether the agentic increment survives with the last confound removed.
 
 ---
 
@@ -510,6 +524,112 @@ Beyond the research comparison, the project ships a working interactive demo tha
 
 ---
 
+## 14. Extension: content-aware models at zero LLM cost
+
+### 14.1 Motivation
+
+§7.2 attributed the GRU's weakness to thin sequences. The data confirm it: the median user has
+**4** training interactions (75% have ≤ 7; mean 6.6). An ID-only GRU sees 3–5 opaque item IDs and
+must learn everything from co-occurrence, while the LLM reads titles, platforms and genres. The
+question for the extension: *does a trained model close the gap if it can see item text too?*
+
+Every LLM output from the main study is in the disk cache, so the extension re-ran the full
+evaluation with `REPLAY_ONLY=1` (any uncached call raises instead of spending). **New LLM cost:
+$0.** Same frozen lists, same users, same validation-only tuning, same bootstrap.
+
+### 14.2 What was added
+
+| Component | Definition | Where |
+|---|---|---|
+| **Content similarity** | user profile = Σ w_k · MiniLM(history item k), w_k = exp(−d·age); rank candidates by inner product. d tuned on all validation users → **0.3** | `src/arag/ranking/content.py` |
+| **ItemKNN** | cosine item–item similarity from the binary train user×item matrix; candidate score = Σ w_k · sim(history k, candidate). d → **0.3** | `src/arag/ranking/content.py` |
+| **Text-aware GRU** | same GRU4Rec as §4.2, but each item vector is `ID_embedding(i) + W · MiniLM(i)` (W: 384→64, learned; MiniLM frozen), tied for input and output. Same config (hidden 128, dropout 0.2), same 12-epoch budget, 3 seeds | `src/arag/models/gru.py`, `make gru-text` |
+| **ARAG + text-aware GRU** | §4.3 late fusion; α\* = **0.3** on validation | `src/arag/eval/run.py` |
+| **ARAG + content** | §4.3 late fusion; α\* = **0.4** on validation | `src/arag/eval/run.py` |
+
+Two training-loop fixes were needed for the text model to fit in 16 GB RAM, and both leave the
+results of the original GRU unchanged: logits are now computed only at real (non-padded)
+positions (the loss is identical — padded targets were already ignored), and validation is
+encoded in chunks with history capped at the 50 items `GRUScorer` uses at test time (re-scoring
+the original seed-0 GRU gives its recorded 0.2928 exactly). Training also became ~5× faster:
+**~5 min per seed** on CPU.
+
+### 14.3 Results — all 94,762 test users (non-LLM systems)
+
+| System | Hit@5 | NDCG@5 | MRR |
+|---|---|---|---|
+| Random | 0.252 | 0.149 | 0.181 |
+| Popularity | 0.213 | 0.128 | 0.166 |
+| GRU, ID only (3 seeds) | 0.422 ± 0.008 | 0.279 ± 0.006 | 0.285 ± 0.004 |
+| ItemKNN | 0.519 | 0.406 | 0.406 |
+| Content similarity | 0.569 | 0.411 | 0.402 |
+| **Text-aware GRU (3 seeds)** | **0.652 ± 0.002** | **0.461 ± 0.002** | **0.435 ± 0.002** |
+
+Paired bootstrap on all 94,762 users (seed 0, ΔNDCG@5, 1,000 resamples): text-aware GRU vs
+ID-only GRU **+0.174 [+0.172, +0.176]**, vs content **+0.050 [+0.047, +0.053]**, vs ItemKNN
+**+0.055 [+0.053, +0.058]** — all significant. Seed spread is ±0.002, so this is not a seed artefact.
+
+![Content-aware extension](figures/fig10_content_aware.png)
+
+### 14.4 Results — the same 100 test users as the LLM systems
+
+| System | Hit@5 | NDCG@5 |
+|---|---|---|
+| GRU, ID only (seed 0) | 0.390 | 0.238 |
+| ARAG + GRU (α\*=0.9) | 0.540 | 0.412 |
+| ARAG | 0.530 | 0.424 |
+| ItemKNN | 0.540 | 0.399 |
+| Content similarity | 0.590 | 0.439 |
+| **Text-aware GRU (seed 0)** | **0.660** | 0.462 |
+| **ARAG + text-aware GRU (α\*=0.3)** | **0.660** | **0.468** |
+| ARAG + content (α\*=0.4) | 0.590 | 0.423 |
+
+Paired differences (ΔNDCG@5, 95% CI, 10,000 resamples):
+
+| Comparison | Δ | Significant? |
+|---|---|---|
+| Text-aware GRU − ID-only GRU | **+0.224** [+0.156, +0.294] | **yes** |
+| Text-aware GRU − ARAG (seeds 0 / 1 / 2) | +0.038 / +0.065 / +0.048 (all CIs include 0) | no |
+| Content similarity − ARAG | +0.014 [−0.088, +0.116] | no |
+| ItemKNN − ARAG | −0.025 [−0.132, +0.082] | no |
+| ARAG + text-GRU − ARAG (H1 with the text GRU) | +0.044 [−0.035, +0.122] | no |
+| ARAG + text-GRU − text-GRU (H2 with the text GRU) | +0.006 [−0.046, +0.058] | no |
+| ARAG + content − ARAG | −0.001 [−0.070, +0.066] | no |
+
+### 14.5 Analysis
+
+1. **The GRU's failure was a representation problem, not a model-class problem.** Giving the
+   same architecture, config and training budget access to item text raises it by +0.17–0.22
+   NDCG@5. With 3–5 interactions per user, item IDs alone are too sparse; text lets the model
+   generalise from items it has rarely seen together.
+2. **Cheap content signals match the LLM agent on this protocol.** Content similarity (no
+   training, no API calls) is statistically tied with ARAG, and the text-aware GRU is numerically
+   above it on all three seeds (+0.04 to +0.07, n.s. at n = 100). The ARAG agent's advantage over
+   the ID-only GRU (§7.2) is therefore largely explained by access to item text, not by
+   agentic reasoning per se.
+3. **H1 and H2 revisited.** Fusing the text-aware GRU into ARAG is directionally positive
+   (+0.044, vs −0.013 for the ID-only GRU) but not significant, and α\* = 0.3 puts most of the
+   weight on the GRU. Fusion adds nothing measurable over the text-aware GRU alone (+0.006). With
+   100 LLM-evaluated users, effects below ~0.08 cannot be resolved.
+4. **Cost.** The text-aware GRU scores all 94,762 users in seconds for $0; ARAG costs 7 LLM
+   calls per user (~$1 per 100-user run with `gpt-4o-mini`). On this protocol, the trained model
+   is the better cost–quality trade-off.
+
+### 14.6 Caveats
+
+- The 100-user sample cannot separate the top systems; a larger LLM-evaluated sample (≥ 300 users,
+  ~$3) would be needed to say whether the text-aware GRU actually beats ARAG.
+- The text-aware GRU was still improving at the 12-epoch cap (val NDCG@5 0.476 at epoch 12).
+  The cap was kept to match the ID-only GRU's budget; longer training for both is cheap future work.
+- Both GRUs and ItemKNN learn from other users' train interactions, so they share the
+  leave-last-out leakage caveat (§8.4) equally. Content similarity uses only the user's own
+  history and item text, so it does not.
+- MiniLM embeddings come from item metadata only (title, categories, features, description,
+  ≤120 words); no reviews or held-out interactions are used, so the text features carry no
+  label leakage. The LLM agents see the same metadata.
+
+---
+
 ## Appendix A — Repository map
 
 ```
@@ -517,6 +637,8 @@ SPEC.md                  original specification + recorded deviations
 README.md                setup, commands, cost, how to read results
 docs/PROCESS.md          step-by-step engineering log (every real number)
 docs/REPORT.md           this document
+docs/OVERVIEW.md         one-page guide to the whole project
+docs/figures/            presentation figures (scripts/make_figures.py)
 configs/config.yaml      all paths, seeds, model names, θ/α grids, negative sampling
 configs/prompts/         6 agent prompts (uua, nli, csa, ira, recency, vanilla_rag) + search
 src/arag/
@@ -525,7 +647,7 @@ src/arag/
   retrieval/  embed.py index.py
   llm/        client.py cache.py schemas.py
   agents/     context.py uua.py nli.py csa.py ira.py arag.py baselines.py prompts.py
-  ranking/    parser.py fusion.py simple.py
+  ranking/    parser.py fusion.py simple.py content.py (content similarity, ItemKNN)
   eval/       metrics.py bootstrap.py run.py report.py verify.py
   memory/     db.py repo.py
   api/        app.py routes.py schemas.py services.py
@@ -533,7 +655,7 @@ frontend/                React + Vite demo UI
 tests/                   pytest suite
 results/                 metrics.json tables.md alpha_curve.png cost.json
                          run_record.json report.md manifest.json predictions/
-artifacts/               (git-ignored) frozen lists, GRU checkpoints, FAISS, LLM cache
+artifacts/               (git-ignored) frozen lists, GRU + text-GRU checkpoints, FAISS, LLM cache
 ```
 
 ## Appendix B — Headline numbers at a glance
@@ -553,6 +675,10 @@ artifacts/               (git-ignored) frozen lists, GRU checkpoints, FAISS, LLM
 | LLM calls (corrected eval) | 2,263 new calls ≈ **$1.06**; project total 4,668 calls / **$2.04** |
 | Cached re-run | 137 s, zero new API calls |
 | Audit | `make verify` → VERIFY OK |
+| *Extension (§14):* text-aware GRU, all users | Hit@5 **0.652 ± 0.002**, NDCG@5 **0.461 ± 0.002** (vs 0.279 ID-only) |
+| *Extension:* content / ItemKNN, all users | NDCG@5 0.411 / 0.406 |
+| *Extension:* 100 users | text-GRU 0.462, ARAG + text-GRU 0.468, ARAG 0.424 — differences vs ARAG n.s. |
+| *Extension:* new LLM cost | **$0** (replay-only re-run) |
 
 ## Appendix C — Anticipated questions and short answers
 

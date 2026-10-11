@@ -378,3 +378,54 @@ weight is **α\* = 1.0** (the GRU adds nothing to the LLM), the paper's baseline
 ordering and its ablations now reproduce **significantly**, and Popularity falls to
 at-or-below random. The original (degenerate) numbers are preserved in
 `docs/REPORT.md` Appendix E (errata) rather than deleted.
+
+---
+
+## 12. Extension: content-aware models (2026-10-11, zero LLM cost)
+
+Branch `feat/content-aware`. Analysis and tables: `docs/REPORT.md` §14.
+
+**Why.** Median train history is 4 items (mean 6.6, 75% ≤ 7); the ID-only GRU had little to learn from.
+
+**Commands (in order).**
+
+```bash
+make gru-text                                             # text-aware GRU, 3 seeds -> artifacts/gru_text/{0,1,2}
+REPLAY_ONLY=1 OPENAI_API_KEY=replay-only-dummy make eval  # every LLM call served from cache; uncached = error
+make report && make verify                                # VERIFY OK
+.venv/bin/python scripts/make_figures.py                  # adds fig10_content_aware.png
+```
+
+The dummy key only satisfies the OpenAI client constructor; in replay mode no request is sent.
+
+**Content baselines** (`src/arag/ranking/content.py`). Recency decay d ∈ {0, 0.3, 0.6, 1.0} tuned on
+all 94,762 validation users (NDCG@5):
+
+| d | 0.0 | 0.3 | 0.6 | 1.0 |
+|---|---|---|---|---|
+| Content similarity | 0.4076 | **0.4235** | 0.4219 | 0.4121 |
+| ItemKNN | 0.4317 | **0.4442** | 0.4405 | 0.4318 |
+
+**Text-aware GRU training.** Config `gru_text` (hidden 128, dropout 0.2 — the best ID-only config, so
+no grid), 12-epoch cap, patience 3, Adam 1e-3, batch 256. Text features available for 25,526 of
+25,527 vocabulary items. Each epoch takes ~25 s and each seed ~5 min on CPU.
+
+| Seed | Best val NDCG@5 | Time |
+|---|---|---|
+| 0 | 0.4761 | 304 s |
+| 1 | 0.4730 | 317 s |
+| 2 | 0.4769 | 354 s |
+
+Seed-0 curve: 0.252, 0.289, 0.328, 0.355, 0.385, 0.398, 0.416, 0.442, 0.445, 0.456, 0.467, 0.476
+(still rising at the cap). ID-only GRU best: 0.2928.
+
+**Issues found and fixed.**
+
+| # | Issue | Fix |
+|---|---|---|
+| 15 | First `make gru-text` was OOM-killed (`Killed: 9`, 16 GB). The training loop materialised full-softmax logits for all 49 positions of every padded row (~1.3 GB per batch), though the median row has 3 real positions | Batches trimmed to their longest row; logits computed only at positions with a real next item. Same loss (padded targets were already ignored) |
+| 16 | Second run OOM-killed in validation: `evaluate()` encoded all 94,762 users in one batch padded to 471 items (~68 GB with 384-d text features) | Encode in chunks of 4,096; history capped at the 50 items `GRUScorer` uses at test time. Re-scoring the original GRU seed 0 gives its recorded 0.2928 exactly |
+| 17 | Bootstrap comparisons skipped any system that was itself a reference | Only `arag` and `gru_seed0` are skipped as before; `gru_text_seed0` is both compared and a reference |
+
+**Evaluation.** 316 s, **$0.0000**, θ\* = 5 and α\* = 0.9 unchanged; α\* (ARAG + text-GRU) = 0.3,
+α\* (ARAG + content) = 0.4. Every original system's metrics are byte-identical to the previous run.
