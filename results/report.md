@@ -3,7 +3,8 @@
 **Model:** gpt-4o-mini (openai)  
 **Category:** Video_Games  
 **θ*:** 5  **α*:** 0.9  
-**LLM cost:** $0.0000  **Last run elapsed:** 2.3 min
+**LLM cost:** $1.1131 for all calls in this evaluation (paid in the last run: $0.0000; the rest came from the cache)  
+**Last run elapsed:** 2.3 min
 
 ## Main results (100 sampled test users, all systems)
 
