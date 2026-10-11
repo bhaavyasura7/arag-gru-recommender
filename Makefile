@@ -1,7 +1,7 @@
 VENV := .venv
 PY := $(VENV)/bin/python
 
-.PHONY: setup freeze data lists index gru gru-text eval report test verify app all clean
+.PHONY: setup freeze data lists index gru gru-text eval eval-nonllm report test verify app all clean
 
 ## Create the venv and install Python + frontend dependencies.
 setup:
@@ -38,6 +38,10 @@ gru-text:
 ## Run all systems on validation (theta/alpha tuning) then test. Resumable via cache.
 eval:
 	$(PY) -m arag.eval.run
+
+## Non-LLM systems only (zero API calls): results/<...>/metrics_nonllm.json.
+eval-nonllm:
+	$(PY) -m arag.eval.run_nonllm
 
 ## Generate results/*.md|json|png from artifacts.
 report:

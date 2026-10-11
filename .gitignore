@@ -16,3 +16,6 @@ build/
 
 # agent-browser local screenshots
 .agent-screenshots/
+
+# pipeline progress logs
+/logs/
