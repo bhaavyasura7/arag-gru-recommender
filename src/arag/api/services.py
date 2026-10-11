@@ -43,6 +43,12 @@ class RecommenderService:
         self._emb_matrix = None
         self._items_df = None
         self._items_index = None
+        # demo GRU: the text-aware GRU when trained (app.gru_variant: text), else the ID-only GRU
+        text_dir = self.cfg.path("gru_text") / "0"
+        self.gru_variant = (
+            "text" if self.cfg.get("app.gru_variant", "text") == "text" and (text_dir / "model.pt").exists() else "id"
+        )
+        self.gru_dir = text_dir if self.gru_variant == "text" else self.cfg.path("gru") / "0"
         self.alpha = self._load_alpha()
         self.theta = 6
         self._theta_and_alpha_from_results()
@@ -52,7 +58,7 @@ class RecommenderService:
         p = self.cfg.path("results") / "metrics.json"
         if p.exists():
             try:
-                return float(util.read_json(p).get("best_alpha", 0.5))
+                return float(util.read_json(p).get(self._alpha_key(), 0.5))
             except Exception:
                 return 0.5
         return 0.5
@@ -63,13 +69,16 @@ class RecommenderService:
             try:
                 m = util.read_json(p)
                 self.theta = int(m.get("best_theta", 6))
-                self.alpha = float(m.get("best_alpha", 0.5))
+                self.alpha = float(m.get(self._alpha_key(), 0.5))
             except Exception:
                 pass
 
+    def _alpha_key(self) -> str:
+        return "best_alpha_text" if self.gru_variant == "text" else "best_alpha"
+
     def _gru_model(self) -> GRUScorer:
         if self._gru is None:
-            self._gru = GRUScorer(str(self.cfg.path("gru") / "0"))
+            self._gru = GRUScorer(str(self.gru_dir))
         return self._gru
 
     def _embedder_model(self):
@@ -230,13 +239,15 @@ class RecommenderService:
                 pass
 
     def health(self) -> dict:
-        gru_ok = (self.cfg.path("gru") / "0" / "model.pt").exists()
+        gru_ok = (self.gru_dir / "model.pt").exists()
         faiss_ok = (self.cfg.path("faiss") / "index.faiss").exists()
         db_ok = Path(self.db_path).exists()
         return {
             "db": db_ok,
             "faiss": faiss_ok,
             "gru": gru_ok,
+            "gru_variant": self.gru_variant,
+            "alpha": self.alpha,
             "llm_key": self.cfg.llm_has_key(),
             "model": self.cfg.llm_model,
         }
