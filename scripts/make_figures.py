@@ -15,6 +15,7 @@ Outputs to docs/figures/:
   fig07_protocol_flaw.png   the degenerate-vs-corrected reversal
   fig08_history_lengths.png why the GRU fails: user history length
   fig09_fusion_methods.png  uniform vs RRF vs exponential fusion
+  fig10_content_aware.png   extension: content baselines + text-aware GRU (zero LLM cost)
 
 Usage:  .venv/bin/python scripts/make_figures.py
 """
@@ -151,7 +152,7 @@ def fig_main_results():
         ("arag_wo_nli_csa", "ARAG w/o NLI+CSA", C["abl"]),
         ("arag_wo_nli", "ARAG w/o NLI", C["abl"]),
         ("arag_gru", "ARAG + GRU (fusion)", C["arag"]),
-        ("arag", "ARAG (best)", C["arag"]),
+        ("arag", "ARAG", C["arag"]),
     ]
     names = [o[1] for o in order]
     nd = [ndcg(o[0]) for o in order]
@@ -553,6 +554,45 @@ def fig_fusion_methods():
     plt.close(fig)
 
 
+# ---------------------------------------------------------------------------
+# fig10 content-aware extension (all users + 100-user sample)
+# ---------------------------------------------------------------------------
+def fig_content_aware():
+    full = json.loads((ROOT / "results" / "metrics.json").read_text())
+    allu = full["metrics_all_users"]
+    left = [
+        ("random", "Random", C["base"]),
+        ("popularity", "Popularity", C["base"]),
+        ("gru_seed0", "GRU (ID only)", C["gru"]),
+        ("itemknn", "ItemKNN", C["llm"]),
+        ("content", "Content similarity", C["llm"]),
+        ("gru_text_seed0", "Text-aware GRU", C["arag"]),
+    ]
+    right = [
+        ("gru_seed0", "GRU (ID only)", C["gru"]),
+        ("arag_gru", "ARAG + GRU", C["abl"]),
+        ("arag", "ARAG", C["abl"]),
+        ("content", "Content similarity", C["llm"]),
+        ("gru_text_seed0", "Text-aware GRU", C["arag"]),
+        ("arag_gru_text", "ARAG + text-aware GRU", C["arag"]),
+    ]
+    fig, axes = plt.subplots(1, 2, figsize=(13, 4.8))
+    for ax, rows, src, title in [
+        (axes[0], left, allu, "Non-LLM systems, all 94,762 test users"),
+        (axes[1], right, M, "Same 100 test users as the LLM systems"),
+    ]:
+        vals = [src[k]["ndcg@5"]["mean"] for k, _, _ in rows]
+        ax.barh([r[1] for r in rows], vals, color=[r[2] for r in rows])
+        for y, v in enumerate(vals):
+            ax.text(v + 0.005, y, f"{v:.3f}", va="center", fontsize=10)
+        ax.set_xlim(0, max(vals) * 1.18)
+        ax.set_xlabel("NDCG@5")
+        ax.set_title(title)
+    fig.suptitle("Adding item text to the GRU: 0.287 → 0.461 NDCG@5 (no LLM calls)", fontweight="bold")
+    fig.savefig(OUT / "fig10_content_aware.png", bbox_inches="tight")
+    plt.close(fig)
+
+
 def main():
     print("Generating figures ->", OUT)
     fig_pipeline()
@@ -573,6 +613,8 @@ def main():
     print("  fig08_history_lengths.png")
     fig_fusion_methods()
     print("  fig09_fusion_methods.png")
+    fig_content_aware()
+    print("  fig10_content_aware.png")
     print("Done.")
 
 

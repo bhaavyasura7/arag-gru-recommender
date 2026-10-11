@@ -4,6 +4,7 @@ An ARAG-style agentic recommender on Amazon Reviews 2023 (Video Games), extended
 trained PyTorch **GRU sequential user model** fused into the final LLM ranking, plus a
 React web demo with personalised feed, search, feedback, and persistent memory.
 
+**Start here: [`docs/OVERVIEW.md`](docs/OVERVIEW.md)** — the whole project on one page.
 Full specification: [`SPEC.md`](SPEC.md).
 **Project report (research write-up, methodology, results, threats to validity): [`docs/REPORT.md`](docs/REPORT.md).**
 Detailed end-to-end process & training documentation with real run numbers: [`docs/PROCESS.md`](docs/PROCESS.md).
@@ -23,6 +24,11 @@ Detailed end-to-end process & training documentation with real run numbers: [`do
   frozen lists use **popularity-matched negatives**. The paper's baseline ordering and its
   NLI+CSA ablation reproduce significantly. See `docs/REPORT.md` (Appendix E documents an
   earlier degenerate-list run whose conclusions were artefactual and are superseded).
+- **Extension (zero LLM cost, REPORT §14):** a **text-aware GRU** (ID embedding + projected
+  MiniLM item embedding) lifts the trained model from NDCG@5 **0.279 → 0.461** on all 94,762 test
+  users, beats new content-similarity (0.411) and ItemKNN (0.406) baselines, and is numerically
+  above ARAG on the 100-user sample (0.462 vs 0.424, n.s.). Evaluated by replaying cached LLM
+  outputs ($0).
 - **Embeddings:** sentence-transformers `all-MiniLM-L6-v2`, FAISS `IndexFlatIP`.
 
 ## Environment prerequisites
@@ -52,6 +58,7 @@ make data        # download + manifest + parquet tables
 make lists       # sequences, user samples, frozen 20-item candidate lists
 make index       # MiniLM embeddings + FAISS
 make gru         # train GRU (grid + 3 seeds)
+make gru-text    # train text-aware GRU (3 seeds, ~5 min each on CPU)
 make eval        # all systems on validation then test (resumable via cache)
 make report      # results/*.md|json|png from artifacts
 make all         # everything above
@@ -59,6 +66,10 @@ make all         # everything above
 
 `make eval` prints the running cost and stops above `budget.max_usd` (inert for the local model).
 Everything is resumable: re-running skips finished work and hits the LLM disk cache.
+
+**Zero-cost re-run:** `REPLAY_ONLY=1 OPENAI_API_KEY=replay-only-dummy make eval` serves every LLM
+call from the cache and raises on any uncached call, so it can never spend money (the dummy key
+only satisfies the client constructor).
 
 ## Verification (no fabricated numbers)
 
