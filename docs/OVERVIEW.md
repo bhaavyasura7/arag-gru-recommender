@@ -14,7 +14,7 @@ baselines when every system ranks exactly the same candidates?
 ## 2. Data and protocol
 
 - **Data:** Amazon Reviews 2023, Video Games, 5-core, official leave-last-out split.
-  94,762 users, 137,269 items, 814,586 interactions. Median **4** training items per user.
+  94,762 users, 137,269 items, 814,586 interactions (each interaction is a **review**, the standard stand-in for a purchase). Median **4** training items per user.
 - **Task:** for each user, rank a **frozen list of 20 items**: the true next item plus 19
   negatives drawn to be about as popular as targets, so popularity alone cannot win.
 - **Metrics:** Hit@5/10, NDCG@5/10, MRR. Significance: paired bootstrap, 95% CI, 10,000 resamples.

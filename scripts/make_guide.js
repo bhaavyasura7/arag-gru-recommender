@@ -114,7 +114,7 @@ NOTE("Golden rule.", "Every number in this project comes from a real run and can
 // =====================================================================================
 H1("2. The Big Picture in Plain Words");
 H2("2.1 The one-paragraph story");
-P("We built a recommender system for video-game products from Amazon. Given what a person bought before, it must guess what they buy next. We compared two very different ways of doing this. The **first** is an **LLM agent system (ARAG)**: GPT reads the person’s history like a human would and ranks the options, using four cooperating “agents”. The **second** is a **trained neural network (a GRU)** that learns patterns from 625,000 past purchases. Our original question was: **does adding the trained GRU to the LLM system make it better?** The answer was **no** — the LLM system was clearly better on its own. We then discovered **why**: people in this dataset have very short histories (typically only 4 purchases), so a network that only sees product ID numbers has almost nothing to learn from. We fixed this by letting the GRU also read the product descriptions (through text embeddings). This **text-aware GRU** jumped from 0.279 to 0.461 on our main metric and **matched or beat the expensive LLM system — at zero API cost**.");
+P("We built a recommender system for video-game products from Amazon. Given the products a person reviewed before, it must guess which product they review next (reviews are the standard stand-in for purchases). We compared two very different ways of doing this. The **first** is an **LLM agent system (ARAG)**: GPT reads the person’s history like a human would and ranks the options, using four cooperating “agents”. The **second** is a **trained neural network (a GRU)** that learns patterns from 625,000 past interactions (reviews). Our original question was: **does adding the trained GRU to the LLM system make it better?** The answer was **no** — the LLM system was clearly better on its own. We then discovered **why**: people in this dataset have very short histories (typically only 4–5 reviewed items), so a network that only sees product ID numbers has almost nothing to learn from. We fixed this by letting the GRU also read the product descriptions (through text embeddings). This **text-aware GRU** jumped from 0.279 to 0.461 on our main metric and **matched or beat the expensive LLM system — at zero API cost**.");
 H2("2.2 The three research questions");
 TABLE(["Question", "Short answer"], [
   ["RQ1: Does fusing a trained GRU into ARAG improve ranking (H1)? Does ARAG add over the GRU (H2)?", "H1 **no** (−0.013, not significant). H2 **yes** (+0.174, significant)."],
@@ -123,7 +123,7 @@ TABLE(["Question", "Short answer"], [
 ], [4500, 4526]);
 H2("2.3 The five things to remember");
 N([
-  "**Fair comparison:** every system ranks the *same* 20 candidate products per user (1 real next purchase + 19 decoys).",
+  "**Fair comparison:** every system ranks the *same* 20 candidate products per user (1 real next item + 19 decoys).",
   "**ARAG is a strong LLM system**: NDCG@5 0.424, significantly better than the paper’s simpler LLM baselines.",
   "**The plain GRU was weak** (0.279) because histories are short; adding it to ARAG did not help.",
   "**The text-aware GRU fixes it** (0.461 on all 94,762 users) and is at least as good as ARAG, for free.",
@@ -133,14 +133,14 @@ N([
 // =====================================================================================
 H1("3. Background Concepts from Scratch");
 H2("3.1 Recommender systems");
-P("A recommender system ranks items (products, films, songs) for a user. **Collaborative filtering** uses patterns across many users (“people who bought X also bought Y”). **Content-based** methods use item descriptions (“this is also a racing game for Wii U”). **Sequential recommendation** cares about _order_: what you bought most recently matters most.");
+P("A recommender system ranks items (products, films, songs) for a user. **Collaborative filtering** uses patterns across many users (“people who bought X also bought Y”). **Content-based** methods use item descriptions (“this is also a racing game for Wii U”). **Sequential recommendation** cares about _order_: what you interacted with most recently matters most.");
 H2("3.2 The next-item prediction task");
-P("We use **leave-last-out**: for each user, their **last** purchase is hidden as the test answer, the **second-to-last** is hidden for validation (tuning), and everything earlier is training history. The system sees the history and must rank candidates so the hidden item comes as high as possible.");
+P("We use **leave-last-out**: for each user, their **last** reviewed item is hidden as the test answer, the **second-to-last** is hidden for validation (tuning), and everything earlier is training history. The system sees the history and must rank candidates so the hidden item comes as high as possible.");
 H2("3.3 Embeddings");
 P("An **embedding** is a list of numbers (a vector) that represents something. Similar things get similar vectors. Two kinds appear in this project:");
 B([
   "**ID embeddings** — learned by the GRU during training, one 64-number vector per product ID. They only become good if the product appears in many training sequences.",
-  "**Text embeddings** — produced by **MiniLM** (`all-MiniLM-L6-v2`), a pre-trained sentence encoder that turns a product’s title/category/description into a 384-number vector. Products with similar descriptions get similar vectors even if no one ever bought them together.",
+  "**Text embeddings** — produced by **MiniLM** (`all-MiniLM-L6-v2`), a pre-trained sentence encoder that turns a product’s title/category/description into a 384-number vector. Products with similar descriptions get similar vectors even if no user ever reviewed both.",
 ]);
 P("Similarity between two normalised vectors is their **dot product** (cosine similarity): 1 = same direction, 0 = unrelated.");
 H2("3.4 Recurrent networks and the GRU");
@@ -192,13 +192,14 @@ TABLE(["Property", "Value"], [
   ["Item text", "title + main category + categories + features + description, ≤120 words; **review text never used**"],
   ["Integrity", "SHA-256 hashes of all 4 raw files stored in `results/manifest.json`"],
 ], [2600, 6426]);
+NOTE("Reviews, not purchases.", "The dataset records items a user **reviewed** (with a star rating), not every purchase — Amazon does not release purchase logs. A user may have bought many more products but reviewed only five. All research on this dataset (including the ARAG paper) treats reviews as the stand-in for purchases; in this guide “history” and “interactions” mean reviewed items.", "FFF4E5", "C55A11");
 P("**5-core** means every user and item has at least 5 interactions in the full data. Because one item per user is held out for validation and one for test, training histories can be as short as 3.");
-IMG("fig08_history_lengths.png", "Figure 1 — Training history length per user. The median user has only four training purchases, which is why an ID-only GRU struggles.", 5.6);
+IMG("fig08_history_lengths.png", "Figure 1 — Training history length per user. The median user has only four training interactions, which is why an ID-only GRU struggles.", 5.6);
 
 // =====================================================================================
 H1("5. The Evaluation Protocol (Why the Comparison Is Fair)");
 H2("5.1 Frozen candidate lists");
-P("For every user we build **one list of 20 products**: the true next purchase + **19 negatives (decoys)**. The list is shuffled with a fixed seed (42), saved, hashed, and **never changed**. **Every system ranks exactly the same list.**");
+P("For every user we build **one list of 20 products**: the true next item + **19 negatives (decoys)**. The list is shuffled with a fixed seed (42), saved, hashed, and **never changed**. **Every system ranks exactly the same list.**");
 P("Why not let each system retrieve its own candidates? Because then a system could lose simply because its retrieval missed the item, and we would be measuring retrieval instead of ranking. Frozen lists isolate **ranking quality**.");
 H2("5.2 How the 19 negatives are chosen");
 B([
@@ -254,7 +255,7 @@ CODE([
 ]);
 B([
   "Same architecture, same hidden size, same dropout, same 12-epoch budget, same 3 seeds → a fair comparison.",
-  "The combined vector is used for both input and the tied output, so items with similar descriptions end up close even if they were rarely bought together.",
+  "The combined vector is used for both input and the tied output, so items with similar descriptions end up close even if they rarely co-occur in histories.",
   "Text exists for 25,526 of 25,527 vocabulary items. Extra parameters: only W = 24,576.",
   "Training: ~25 s per epoch, ~5 min per seed on a laptop CPU. Validation NDCG@5: 0.476 / 0.473 / 0.477 (vs 0.293 for the ID-only GRU).",
   "Result: test NDCG@5 **0.461 ± 0.002** on all 94,762 users.",
@@ -263,9 +264,9 @@ IMG("fig11_text_gru_training.png", "Figure 2 — Text-aware GRU validation score
 H2("6.5 Non-learned baselines");
 B([
   "**Random:** shuffled with a seed. Expected Hit@5 = 0.25.",
-  "**Popularity:** order by training purchase count.",
+  "**Popularity:** order by training interaction count.",
   "**Content similarity:** user profile = recency-weighted sum of the MiniLM vectors of their history (weight e^(−0.3·age)); rank candidates by similarity. No training.",
-  "**ItemKNN:** item–item cosine similarity from “bought by the same users” counts; score = recency-weighted sum of similarities to history items.",
+  "**ItemKNN:** item–item cosine similarity from “reviewed by the same users” counts; score = recency-weighted sum of similarities to history items.",
 ]);
 H2("6.6 Late fusion (combining two rankings)");
 P("The LLM outputs a ranking, not scores, so we convert each ranking into scores and blend:");
@@ -375,14 +376,14 @@ CODE([
 P("The first start takes ~20–60 s (frontend build + loading MiniLM, FAISS and the GRU). Check `http://127.0.0.1:8000/health` — it should show `\"gru_variant\": \"text\"` and `\"alpha\": 0.3`.");
 H2("9.2 Step-by-step test script for the team");
 N([
-  "**Pick a user** in the “Demo user” dropdown at the top. Expand “This user’s recent history” to see what they bought.",
+  "**Pick a user** in the “Demo user” dropdown at the top. Expand “This user’s recent history” to see what they reviewed.",
   "**Feed tab:** a personalised list of 10 items per page. Candidates come from FAISS (similar to the user’s history) ∪ GRU top items, then ARAG + text-GRU rank them. Each card shows a reason and evidence. Click “load more” for the next page.",
   "**Open the agent trace** (drawer below the results): see the UUA’s interests/intent, every NLI score (accepted ones highlighted, threshold θ), the CSA summary and the final ranking. This is the best thing to show a professor.",
   "**Give feedback:** Like, Save or Dismiss an item. Dismissed items never appear again for that user; the GRU’s user vector is recomputed from the updated sequence on the next request (no retraining).",
   "**Search tab:** type e.g. “wireless headset under 50 dollars”. The LLM parses the query into keywords, max price and exclusions; FAISS finds matches; ARAG + GRU re-rank them for this user; top 5 are shown with reasons.",
   "**Profile tab:** view, regenerate or delete the stored UUA profile (what the agent “thinks” about this user, with which events it used).",
   "**Benchmarks tab:** the evaluation results — main table, H1/H2 cards with confidence intervals, and the α curve.",
-  "**Switch users** and compare: a console-game buyer vs. an accessories buyer should get visibly different feeds.",
+  "**Switch users** and compare: a console-game fan vs. an accessories reviewer should get visibly different feeds.",
 ]);
 NOTE("Offline caveat.", "In replay mode only requests whose LLM answers are already cached work. Pages and queries the team tried before will replay instantly; new ones need Option A (an API key). Verified on this machine: health, users, feed pages and a search all work in replay mode.", "FFF4E5", "C55A11");
 H2("9.3 What to say while demoing");
@@ -487,7 +488,7 @@ TABLE(["Limitation", "Why it matters / what we would do"], [
   ["Only 100 LLM-evaluated users", "CIs ≈ ±0.08–0.10; top systems cannot be separated. ~300 users (~$3) would resolve ~0.05 differences."],
   ["Sampled negatives", "Easier than real retrieval candidates; results measure ranking on hard 20-item lists, not end-to-end retrieval."],
   ["Negatives slightly more popular than targets", "Popularity scores slightly below random; slightly disadvantages frequency-sensitive models (incl. GRUs). Effect ~0.04 Hit@5, smaller than our key gaps."],
-  ["Leave-last-out leakage", "Other users’ later purchases can be in GRU/ItemKNN training; inherent to the official split, equal across those systems."],
+  ["Leave-last-out leakage", "Other users’ later interactions can be in GRU/ItemKNN training; inherent to the official split, equal across those systems."],
   ["Text-GRU still improving at 12 epochs", "Cap kept for fairness with the ID-only GRU; our gain is conservative. Future: longer training for both."],
   ["One category, one LLM", "Results may not transfer; future: more categories, other LLMs."],
   ["Offline metrics only", "No user study or A/B test."],
@@ -499,7 +500,7 @@ H1("14. Professor Q&A Bank");
 P("Answers are written to be said out loud. Numbers are exact; memorise the ones in bold.");
 
 H2("14.1 Motivation and scope");
-QA("What problem does your project solve?", "Next-item recommendation: given a user’s purchase history on Amazon (Video Games), rank 20 candidate products so the one they actually bought next is near the top. We compare an agentic LLM recommender (ARAG) with a trained deep sequence model (GRU), and their combination.");
+QA("What problem does your project solve?", "Next-item recommendation: given a user’s Amazon review history (Video Games), rank 20 candidate products so the item they actually reviewed next is near the top. We compare an agentic LLM recommender (ARAG) with a trained deep sequence model (GRU), and their combination.");
 QA("Why is this a deep-learning project if you use GPT?", "The trained component is ours: a PyTorch GRU (≈1.7 M parameters) trained with a full-softmax next-item objective, plus our text-aware extension that adds a learned projection of frozen transformer (MiniLM) embeddings. The LLM is a strong baseline and fusion partner; the deep-learning contribution and the main improvement (0.279 → 0.461) are in the trained model.");
 QA("What was your hypothesis?", "H1: fusing the GRU into ARAG beats ARAG alone. H2: the fused system beats the GRU alone. **H1 failed (−0.013, n.s.), H2 held (+0.174, significant).**");
 QA("Is this a reproduction of the ARAG paper?", "It is ARAG-inspired, not an exact reproduction: the paper did not publish prompts, its threshold or candidate construction; it used gpt-3.5-turbo on 2016 data. We test whether its claims hold, and they do: ARAG beats Recency and Vanilla-RAG significantly and the NLI+CSA ablation hurts significantly.");
@@ -509,8 +510,9 @@ H2("14.2 Data");
 QA("Which dataset and why?", "Amazon Reviews 2023, Video Games, official 5-core leave-last-out split: real data, an official split (no custom leakage), rich item metadata for the LLM, and a category the ARAG paper never ran.");
 QA("How big is it?", "**94,762 users, 814,586 interactions, 25,527 items in the training vocabulary.** Median training history: **4 items**.");
 QA("What does 5-core mean?", "Every user and item has at least 5 interactions. After holding out the validation and test items, a user can have as few as 3 training items.");
-QA("Do you use review text?", "No — only product metadata (title, categories, features, description, ≤120 words). Using reviews could leak the target purchase.");
-QA("How do you prevent data leakage in the split?", "We use the official leave-last-out files and assert max(train time) ≤ validation time ≤ test time, and that targets never appear in their own history; the pipeline fails hard otherwise. One known caveat: other users’ later purchases can appear in training (inherent to this split), affecting the trained models equally.");
+QA("Do you use review text?", "No — only product metadata (title, categories, features, description, ≤120 words). Using review text could leak the target item.");
+QA("Your demo user has only 4–5 items — is that accurate?", ["Yes. The data records **reviews**, not purchases; a user may buy far more but review few. It is the official 5-core benchmark, so every user has at least 5 reviews (one is held out for test, one for validation), and the median user has 5. Histories go up to 472 items; our models use up to the last 50.", "That sparsity is realistic and is exactly why the ID-only GRU struggled and adding item text helped."]);
+QA("How do you prevent data leakage in the split?", "We use the official leave-last-out files and assert max(train time) ≤ validation time ≤ test time, and that targets never appear in their own history; the pipeline fails hard otherwise. One known caveat: other users’ later interactions can appear in training (inherent to this split), affecting the trained models equally.");
 
 H2("14.3 Evaluation protocol");
 QA("Why do all systems rank the same 20 candidates?", "To measure ranking, not retrieval. If each system retrieved its own candidates, a retrieval miss would count as a ranking failure.");
@@ -536,7 +538,7 @@ QA("Describe your GRU architecture.", "Item embedding (64) → dropout → 1-lay
 QA("Why a GRU and not an LSTM or Transformer?", "GRU4Rec is the classic deep sequential recommender, with fewer parameters than an LSTM and easy to train on CPU. With median history 4, long-range modelling (the Transformer’s strength) matters little. SASRec with text features is natural future work.");
 QA("Why did the original GRU perform poorly?", "Short histories (median 4) and sparse item IDs: most items appear in few sequences, so their embeddings are poorly learned; the GRU cannot read item content. An untrained content-similarity ranker (0.411) beats it (0.279).");
 QA("What exactly is the text-aware GRU?", "Same GRU, but each item vector is e(i) + W·MiniLM(text_i): a learned ID embedding plus a learned 384→64 projection of the item’s frozen MiniLM text embedding, used for both input and tied output. Only 24,576 extra parameters.");
-QA("Why does adding text help so much?", "It lets the model generalise across items: two products with similar descriptions get similar vectors even if they were rarely bought together. With 3–5 purchases per user, this shared content signal fills in what the ID embeddings cannot learn.");
+QA("Why does adding text help so much?", "It lets the model generalise across items: two products with similar descriptions get similar vectors even if they rarely co-occur. With 3–5 interactions per user, this shared content signal fills in what the ID embeddings cannot learn.");
 QA("Is the comparison between the two GRUs fair?", "Yes: same architecture, hidden size, dropout, optimiser, 12-epoch budget, early-stopping rule and seeds. The only difference is the item representation.");
 QA("Did the text-aware GRU overfit?", "Validation NDCG@5 rose every epoch up to the cap (0.476), and test (0.461) is close to validation, across 3 seeds with spread ±0.002. No sign of overfitting; if anything it was under-trained.");
 QA("Why freeze MiniLM?", "Cheaper and safer: the text encoder is pre-trained on general language; fine-tuning it on 625k short sequences on a CPU risks overfitting and costs much more. The learned projection W adapts it to our task.");
