@@ -36,13 +36,19 @@ fi
 
 say "=================================================================="
 say "[$CAT] phase=$PHASE  steps: ${STEPS[*]}"
-say "config: $CFG"
+say "config: $CFG   priority: nice $(ps -o nice= -p $$ | tr -d ' ')  (0 = full speed; run from your own Terminal)"
 T0=$(date +%s)
 i=0
 for step in "${STEPS[@]}"; do
   i=$((i + 1))
-  if [ "$step" = data ] && [ -f "data/${CAT}/processed/items.parquet" ]; then
-    say "[$CAT] step $i/${#STEPS[@]} data — already done, skipping"; continue
+  done_marker=""
+  case "$step" in
+    data)  done_marker="data/${CAT}/processed/items.parquet" ;;
+    lists) done_marker="artifacts/${CAT}/lists/test_lists.parquet" ;;
+    index) done_marker="artifacts/${CAT}/faiss/index.faiss" ;;
+  esac
+  if [ -n "$done_marker" ] && [ -f "$done_marker" ]; then
+    say "[$CAT] step $i/${#STEPS[@]} $step — already done, skipping"; continue
   fi
   say "[$CAT] step $i/${#STEPS[@]} $step — started"
   S=$(date +%s)
