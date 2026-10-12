@@ -69,8 +69,8 @@ llm:
     api_key_env: NVIDIA_API_KEY  # put NVIDIA_API_KEY=nvapi-... in .env (git-ignored)
     extra_body:
       chat_template_kwargs: {enable_thinking: false}
-    max_rpm: 30                  # free tier allows ~40/min; pace below it
-    rate_limit_retries: 8        # 429 -> wait 5,10,20,40,60... s instead of falling back
+    max_rpm: 20                  # free tier: sustained ~20/min before 429s (measured)
+    rate_limit_retries: 20       # 429 -> wait 5,10,20,40,60,60... s instead of falling back
   temperature: 0
   timeout_s: 60
   max_retries: 3

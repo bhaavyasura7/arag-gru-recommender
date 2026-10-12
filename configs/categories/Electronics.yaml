@@ -65,8 +65,8 @@ llm:
     extra_body:
       chat_template_kwargs:
         enable_thinking: false
-    max_rpm: 30
-    rate_limit_retries: 8
+    max_rpm: 20
+    rate_limit_retries: 20
   temperature: 0
   timeout_s: 180
   max_retries: 3
