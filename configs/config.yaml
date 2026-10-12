@@ -61,6 +61,14 @@ llm:
   openai:
     base_url: https://api.openai.com/v1
     api_key_env: OPENAI_API_KEY
+  openrouter:                    # OpenRouter (OpenAI-compatible), e.g. nvidia/nemotron-3-super-120b-a12b
+    base_url: https://openrouter.ai/api/v1
+    api_key_env: OPENROUTER_API_KEY  # put OPENROUTER_API_KEY=sk-or-... in .env (git-ignored)
+  nvidia:                        # NVIDIA API catalog (OpenAI-compatible), e.g. nvidia/nemotron-3-ultra-550b-a55b
+    base_url: https://integrate.api.nvidia.com/v1
+    api_key_env: NVIDIA_API_KEY  # put NVIDIA_API_KEY=nvapi-... in .env (git-ignored)
+    extra_body:
+      chat_template_kwargs: {enable_thinking: false}
   temperature: 0
   timeout_s: 60
   max_retries: 3

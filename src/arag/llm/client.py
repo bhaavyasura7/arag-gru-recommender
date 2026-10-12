@@ -88,7 +88,8 @@ class LLMClient:
     def _extra_body(self) -> dict | None:
         if self.provider == "ollama" and self.cfg.get("llm.ollama.enable_thinking") is False:
             return {"think": False}
-        return None
+        extra = self.cfg.get(f"llm.{self.provider}.extra_body")
+        return dict(extra) if extra else None
 
     def complete_json(self, agent: str, prompt: str, schema: dict, model: str | None = None) -> dict:
         model = model or self.model
