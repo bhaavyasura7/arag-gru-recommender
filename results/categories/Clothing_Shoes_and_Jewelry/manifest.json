@@ -1,0 +1,37 @@
+{
+  "dataset_id": "McAuley-Lab/Amazon-Reviews-2023",
+  "category": "Clothing_Shoes_and_Jewelry",
+  "files": {
+    "Clothing_Shoes_and_Jewelry.train.csv": {
+      "remote": "benchmark/5core/last_out/Clothing_Shoes_and_Jewelry.train.csv",
+      "sha256": "4424325bee2ca5a2a8e04d6202b51b3fc411e213d51ed6155c9f5a8bdddb383b",
+      "size_bytes": 1047077958
+    },
+    "Clothing_Shoes_and_Jewelry.valid.csv": {
+      "remote": "benchmark/5core/last_out/Clothing_Shoes_and_Jewelry.valid.csv",
+      "sha256": "a7dd03bbe19b6313c71c3d80ec14500f5b209a92b01ace583949f0606a97a127",
+      "size_bytes": 146449079
+    },
+    "Clothing_Shoes_and_Jewelry.test.csv": {
+      "remote": "benchmark/5core/last_out/Clothing_Shoes_and_Jewelry.test.csv",
+      "sha256": "5adb43bc8dfbf3229181500fcc7de6ed3b9ecd90326d7c8e6ca844380335b4ba",
+      "size_bytes": 146449079
+    },
+    "meta_Clothing_Shoes_and_Jewelry.jsonl": {
+      "remote": "raw/meta_categories/meta_Clothing_Shoes_and_Jewelry.jsonl",
+      "sha256": "e5ff908573938ee114e4f4dfcfc46799b0ead24a57a8c075fbca2e6e28d78382",
+      "size_bytes": 17960532903
+    }
+  },
+  "download_date": "2026-10-12T02:38:30.453767+00:00",
+  "rows": {
+    "interactions": 916059,
+    "items": 308455,
+    "items_with_text": 308436,
+    "users": 100000,
+    "interacted_items_without_metadata": 0,
+    "interactions_train": 716059,
+    "interactions_valid": 100000,
+    "interactions_test": 100000
+  }
+}

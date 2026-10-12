@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parent.parent
 
 OVERRIDES = {
     "dataset": {"max_users": 100_000, "items_scope": "interacted"},
-    "llm": {"provider": "nvidia", "model": "nvidia/nemotron-3-super-120b-a12b", "timeout_s": 180, "concurrency": 4},
+    "llm": {"provider": "nvidia", "model": "nvidia/nemotron-3-super-120b-a12b", "timeout_s": 180, "concurrency": 1},
     "agents": {"theta_grid": [5]},
     "gru": {"hidden_grid": [128], "dropout_grid": [0.2], "device": "auto"},
     "app": {"gru_variant": "text"},
