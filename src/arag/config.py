@@ -68,17 +68,32 @@ class Config:
         return self.raw["llm"][provider]["base_url"]
 
     def llm_api_key(self) -> str:
-        provider = self.llm_provider
-        if provider == "ollama":
-            return self.raw["llm"]["ollama"]["api_key"]
-        env = self.raw["llm"]["openai"]["api_key_env"]
-        return os.environ.get(env, "")
+        """Key for the active provider: a literal ``api_key`` (Ollama) or the env var named by
+        ``api_key_env``, falling back to the repo's git-ignored ``.env`` file."""
+        section = self.raw["llm"].get(self.llm_provider, {})
+        if "api_key" in section:
+            return section["api_key"]
+        env = section.get("api_key_env", "OPENAI_API_KEY")
+        return os.environ.get(env, "") or _dotenv(self.repo_root).get(env, "")
 
     def llm_has_key(self) -> bool:
         """Whether a usable API key is present (Ollama always 'has' one)."""
         if self.llm_provider == "ollama":
             return True
         return bool(self.llm_api_key())
+
+
+def _dotenv(root: Path) -> dict[str, str]:
+    """KEY=VALUE pairs from ``<root>/.env`` (never logged)."""
+    p = root / ".env"
+    out: dict[str, str] = {}
+    if p.exists():
+        for line in p.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                out[k.strip()] = v.strip().strip("'\"")
+    return out
 
 
 def load_config(path: str | Path | None = None) -> Config:
