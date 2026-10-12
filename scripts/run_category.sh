@@ -30,12 +30,14 @@ case "$PHASE" in
   *) echo "phase must be nonllm or llm"; exit 2 ;;
 esac
 
-if [ "$PHASE" = llm ] && ! curl -s localhost:11434/api/tags >/dev/null; then
+PROVIDER=$("$PY" -c "from arag.config import get_config; print(get_config().llm_provider)")
+if [ "$PHASE" = llm ] && [ "$PROVIDER" = ollama ] && ! curl -s localhost:11434/api/tags >/dev/null; then
   say "Ollama is not running — start it with: ollama serve"; exit 1
 fi
 
 say "=================================================================="
 say "[$CAT] phase=$PHASE  steps: ${STEPS[*]}"
+[ "$PHASE" = llm ] && say "LLM: $PROVIDER / $("$PY" -c "from arag.config import get_config; print(get_config().llm_model)")"
 say "config: $CFG   priority: nice $(ps -o nice= -p $$ | tr -d ' ')  (0 = full speed; run from your own Terminal)"
 T0=$(date +%s)
 i=0

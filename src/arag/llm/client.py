@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import os
+import threading
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -68,6 +69,11 @@ class LLMClient:
         self._in_price = cfg.get("budget.prices.input_per_1m", 0.0) / 1e6
         self._out_price = cfg.get("budget.prices.output_per_1m", 0.0) / 1e6
         self.replay_only = os.environ.get("REPLAY_ONLY") == "1"
+        # optional client-side pacing for rate-limited providers (llm.<provider>.max_rpm)
+        rpm = cfg.get(f"llm.{self.provider}.max_rpm")
+        self._min_interval = 60.0 / float(rpm) if rpm else 0.0
+        self._pace_lock = threading.Lock()
+        self._next_slot = 0.0
 
     # -- cost -------------------------------------------------------------
     def cost_usd(self) -> float:
@@ -107,11 +113,27 @@ class LLMClient:
         self.cache.put(key, {"content": content, "usage": usage})
         return content
 
+    def _pace(self) -> None:
+        """Block until this thread's call slot, keeping the request rate under max_rpm."""
+        if not self._min_interval:
+            return
+        with self._pace_lock:
+            now = time.monotonic()
+            slot = max(now, self._next_slot)
+            self._next_slot = slot + self._min_interval
+        if slot > now:
+            time.sleep(slot - now)
+
     def _call_api(self, agent, model, prompt, schema):
         max_retries = self.cfg.get("llm.max_retries", 3)
+        # 429s on rate-limited providers get more, longer retries instead of falling back
+        max_429 = self.cfg.get(f"llm.{self.provider}.rate_limit_retries", max_retries)
         t0 = time.time()
         last_err: Exception | None = None
-        for attempt in range(max_retries + 1):
+        attempt = 0
+        n429 = 0
+        while True:
+            self._pace()
             try:
                 resp = self._client.chat.completions.create(
                     model=model,
@@ -137,13 +159,21 @@ class LLMClient:
                 last_err = e
                 if e.status_code not in (429, 500, 502, 503, 504):
                     raise
+                if e.status_code == 429 and n429 < max_429:
+                    n429 += 1
+                    wait = min(60.0, 5.0 * 2 ** (n429 - 1))
+                    self.logger.warning("%s: rate limited (429), waiting %.0fs (%d/%d)", agent, wait, n429, max_429)
+                    time.sleep(wait)
+                    continue
             except (openai.APIConnectionError, openai.APITimeoutError) as e:
                 last_err = e
             if attempt < max_retries:
                 wait = 2.0 ** attempt
+                attempt += 1
                 self.logger.warning("%s: retrying (%s) in %.1fs", agent, type(last_err).__name__, wait)
                 time.sleep(wait)
-        raise LLMError(f"{agent}: failed after {max_retries + 1} attempts: {last_err}")
+                continue
+            raise LLMError(f"{agent}: failed after {attempt + 1 + n429} attempts: {last_err}")
 
     def _record(self, agent, model, cache_hit, usage, latency, error=None, retried=False, fallback=False):
         rec = CallRecord(
