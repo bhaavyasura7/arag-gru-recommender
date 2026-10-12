@@ -1,0 +1,57 @@
+{
+  "cost_usd": 0.0,
+  "tokens": {
+    "prompt": 5499008,
+    "completion": 401974
+  },
+  "per_agent": {
+    "uua": {
+      "calls": 200,
+      "cache_hits": 125,
+      "fallbacks": 0,
+      "in": 133095,
+      "out": 22186,
+      "s": 1223.1759469509125
+    },
+    "nli": {
+      "calls": 805,
+      "cache_hits": 500,
+      "fallbacks": 0,
+      "in": 1517441,
+      "out": 170565,
+      "s": 4546.414026260376
+    },
+    "csa": {
+      "calls": 300,
+      "cache_hits": 144,
+      "fallbacks": 0,
+      "in": 786034,
+      "out": 16224,
+      "s": 1945.5093202590942
+    },
+    "ira": {
+      "calls": 400,
+      "cache_hits": 165,
+      "fallbacks": 0,
+      "in": 2022709,
+      "out": 148617,
+      "s": 3963.1979010105133
+    },
+    "recency": {
+      "calls": 100,
+      "cache_hits": 21,
+      "fallbacks": 0,
+      "in": 519772,
+      "out": 22178,
+      "s": 950.0564301013947
+    },
+    "vanilla_rag": {
+      "calls": 100,
+      "cache_hits": 21,
+      "fallbacks": 0,
+      "in": 519957,
+      "out": 22204,
+      "s": 1237.9052231311798
+    }
+  }
+}
