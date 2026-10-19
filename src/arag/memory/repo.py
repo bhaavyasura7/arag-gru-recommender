@@ -24,7 +24,7 @@ def _now_iso() -> str:
     return time.strftime("%Y-%m-%dT%H:%M:%S")
 
 
-def seed_db(cfg, db_path: str | Path, n_users: int = 8) -> None:
+def seed_db(cfg, db_path: str | Path, n_users: int = 100) -> None:
     logger = util.setup_logging("arag.memory.seed")
     conn = init_db(db_path)
     proc = cfg.path("data_processed")
@@ -65,7 +65,11 @@ def seed_db(cfg, db_path: str | Path, n_users: int = 8) -> None:
 
 
 def list_users(conn: sqlite3.Connection) -> list[dict]:
-    rows = conn.execute("SELECT user_id, created_at, is_synthetic FROM users ORDER BY user_id").fetchall()
+    rows = conn.execute(
+        "SELECT u.user_id, u.created_at, u.is_synthetic,"
+        " (SELECT COUNT(*) FROM interactions i WHERE i.user_id = u.user_id AND i.source = 'dataset') AS n_history"
+        " FROM users u ORDER BY n_history DESC, u.user_id"
+    ).fetchall()
     return [dict(r) for r in rows]
 
 

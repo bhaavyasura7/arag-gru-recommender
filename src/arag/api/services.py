@@ -5,6 +5,7 @@ Wires together the LLM client, GRU scorer, FAISS index, ARAG agents, and SQLite.
 from __future__ import annotations
 
 import asyncio
+import re
 from pathlib import Path
 
 import numpy as np
@@ -14,7 +15,7 @@ from arag import util
 from arag.agents.arag import run_user_async
 from arag.agents.context import build_context
 from arag.agents.uua import run_uua
-from arag.config import get_config
+from arag.config import REPO_ROOT, get_config
 from arag.llm.client import LLMClient
 from arag.memory import repo
 from arag.models.score import GRUScorer
@@ -43,6 +44,10 @@ class RecommenderService:
         self._emb_matrix = None
         self._items_df = None
         self._items_index = None
+        self._extras_map = None
+        # last full ranking per (user, session), so paging doesn't re-run the agents;
+        # dropped whenever that user gives feedback
+        self._feed_cache: dict[tuple[str, str], tuple] = {}
         # demo GRU: the text-aware GRU when trained (app.gru_variant: text), else the ID-only GRU
         text_dir = self.cfg.path("gru_text") / "0"
         self.gru_variant = (
@@ -107,6 +112,24 @@ class RecommenderService:
         if item_id in self._items_index.index:
             return self._items_index.loc[item_id]
         return None
+
+    def _extras(self) -> dict:
+        """Display-only fields (image, star rating, store, platform) from scripts/build_item_extras.py."""
+        if self._extras_map is None:
+            path = self.cfg.path("artifacts") / "item_extras.parquet"
+            if path.exists():
+                df = pd.read_parquet(path)
+                df = df.astype(object).where(df.notna(), None)
+                self._extras_map = {r["item_id"]: r for r in df.to_dict("records")}
+            else:
+                self._extras_map = {}
+        return self._extras_map
+
+    def _display_fields(self, item_id: str) -> dict:
+        ex = self._extras().get(item_id) or {}
+        out = {k: ex.get(k) for k in ("image", "avg_rating", "n_ratings", "store", "platform", "about")}
+        out["features"] = list(ex.get("features") if ex.get("features") is not None else [])
+        return out
 
     # -- helpers ----------------------------------------------------------
     def _history_df(self, conn, user_id: str) -> pd.DataFrame:
@@ -203,6 +226,7 @@ class RecommenderService:
                     "reason": reasons.get(iid, ""),
                     "evidence": evidence_snippet(str(row["text"])) if row is not None else "",
                     "score": float(scores.get(iid, 0.0)),
+                    **self._display_fields(iid),
                 }
             )
         return out
@@ -232,6 +256,7 @@ class RecommenderService:
     def preload(self) -> None:
         """Eagerly load heavy resources in the main thread before serving requests."""
         self._items()
+        self._extras()
         for loader in (self._embedder_model, self._faiss, self._gru_model):
             try:
                 loader()
@@ -252,17 +277,39 @@ class RecommenderService:
             "model": self.cfg.llm_model,
         }
 
+    def dataset_stats(self) -> dict:
+        """Full-dataset scale (from the download manifest + user lists), for the UI."""
+        manifest = util.read_json(REPO_ROOT / "data" / "manifest.json")
+        users_meta = util.read_json(self.cfg.path("lists") / "users.json")
+        return {
+            "category": manifest.get("category"),
+            "rows": manifest.get("rows", {}),
+            "eval_users": {"validation": len(users_meta["validation"]), "test": len(users_meta["test"])},
+        }
+
     def list_users(self) -> list[dict]:
         conn = repo.connect(self.db_path)
         try:
-            return repo.list_users(conn)
+            users = repo.list_users(conn)
+            rows = conn.execute("SELECT user_id, item_id FROM interactions WHERE source = 'dataset'").fetchall()
         finally:
             conn.close()
+        # each customer's most-reviewed platform, for the account switcher
+        counts: dict[str, dict[str, int]] = {}
+        for r in rows:
+            plat = (self._extras().get(r["item_id"]) or {}).get("platform")
+            if plat:
+                c = counts.setdefault(r["user_id"], {})
+                c[plat] = c.get(plat, 0) + 1
+        for u in users:
+            c = counts.get(u["user_id"])
+            u["top_platform"] = max(c, key=c.get) if c else None
+        return users
 
     def history(self, user_id: str, limit: int = 30) -> list[dict]:
         conn = repo.connect(self.db_path)
         try:
-            return repo.get_history(conn, user_id, limit)
+            return [{**h, **self._display_fields(h["item_id"])} for h in repo.get_history(conn, user_id, limit)]
         finally:
             conn.close()
 
@@ -287,11 +334,14 @@ class RecommenderService:
         conn = repo.connect(self.db_path)
         try:
             self._check_session(conn, session_id, user_id)
-            history = self._history_df(conn, user_id)
-            candidate_ids = self._retrieve_feed(conn, user_id, history)
-            if not candidate_ids:
-                return {"run_id": "", "user_id": user_id, "page": page, "page_size": page_size, "items": []}
-            fused, reasons, trace = self._rank(user_id, history, candidate_ids)
+            key = (user_id, session_id)
+            if key not in self._feed_cache:
+                history = self._history_df(conn, user_id)
+                candidate_ids = self._retrieve_feed(conn, user_id, history)
+                if not candidate_ids:
+                    return {"run_id": "", "user_id": user_id, "page": page, "page_size": page_size, "items": []}
+                self._feed_cache[key] = self._rank(user_id, history, candidate_ids)
+            fused, reasons, trace = self._feed_cache[key]
             scores = self._fused_scores(fused)
             start = page * page_size
             page_ids = fused[start : start + page_size]
@@ -359,6 +409,11 @@ class RecommenderService:
             conn.close()
 
     def _parse_query(self, query: str) -> dict:
+        q_lower = query.lower()
+        has_filter_cues = bool(re.search(r"(\$|\bunder\b|\bbelow\b|\bless than\b|\bwithout\b|\bno\b|\bnot\b|\bexcept\b|\bcheap\b|\bmax\b|\bbudget\b)", q_lower))
+        if not has_filter_cues:
+            return {"query": query, "keywords": query.split(), "max_price": None, "exclude_terms": []}
+
         from arag.agents.prompts import load_prompt, render
         from arag.llm.schemas import SearchQuery, to_strict_schema
         prompt_path = self.cfg.path("prompts") / "search.txt"
@@ -381,11 +436,15 @@ class RecommenderService:
         if mx is not None:
             mask &= items["price"].fillna(float("inf")) <= mx
         for term in q.get("exclude_terms", []):
-            mask &= ~items["text"].str.contains(term, case=False, na=False)
+            # match the singular stem too: "zombies" must also drop "Zombie Army"
+            t = term.strip()
+            stem = t[:-1] if len(t) > 3 and t.lower().endswith("s") else t
+            if stem:
+                mask &= ~items["text"].str.contains(r"\b" + re.escape(stem), case=False, na=False, regex=True)
         eligible = set(items.loc[mask, "item_id"].astype(str))
-        emb = self._embedder_model().encode(
-            [q.get("query", " ".join(q["keywords"]))], normalize_embeddings=True
-        ).astype(np.float32)
+        # embed the parsed keywords, not the raw query, so "without zombies" doesn't pull zombie games
+        text = " ".join(q.get("keywords") or []) or q.get("query", "")
+        emb = self._embedder_model().encode([text], normalize_embeddings=True).astype(np.float32)
         idx = self._faiss()
         _, I = idx.search(emb, k * 5)
         candidate_ids = [iid for iid in self._emb_ids[I[0]].tolist() if iid in eligible]
@@ -397,6 +456,8 @@ class RecommenderService:
             self._check_session(conn, session_id, user_id)
             repo.add_interaction(conn, user_id, item_id, event_type, source="app")
             repo.add_session_event(conn, session_id, user_id, item_id, event_type)
+            for key in [k for k in self._feed_cache if k[0] == user_id]:
+                del self._feed_cache[key]
         finally:
             conn.close()
 

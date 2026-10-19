@@ -26,6 +26,14 @@ class RecItem(BaseModel):
     reason: str = ""
     evidence: str = ""
     score: float = 0.0
+    # display-only product fields (scripts/build_item_extras.py)
+    image: str | None = None
+    avg_rating: float | None = None
+    n_ratings: int | None = None
+    store: str | None = None
+    platform: str | None = None
+    about: str | None = None
+    features: list[str] = []
 
 
 class FeedResponse(BaseModel):

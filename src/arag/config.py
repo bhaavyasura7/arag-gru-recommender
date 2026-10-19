@@ -11,8 +11,10 @@ from pathlib import Path
 from typing import Any
 
 import yaml
+from dotenv import load_dotenv
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+load_dotenv(REPO_ROOT / ".env", override=False)
 
 
 class Config:

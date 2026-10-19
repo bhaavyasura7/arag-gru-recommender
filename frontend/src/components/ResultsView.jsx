@@ -82,7 +82,7 @@ export default function ResultsView({ data }) {
         <div className="stat"><div className="stat-k">Test users</div><div className="stat-v">100</div></div>
         <div className="stat"><div className="stat-k">Best θ</div><div className="stat-v">{data.best_theta}</div></div>
         <div className="stat"><div className="stat-k">Best α</div><div className="stat-v">{data.best_alpha}</div></div>
-        <div className="stat"><div className="stat-k">LLM cost</div><div className="stat-v">${(data.cost?.cost_usd ?? 0).toFixed(3)}</div></div>
+        <div className="stat"><div className="stat-k">LLM tokens (test eval)</div><div className="stat-v">{(((data.cost?.tokens?.prompt ?? 0) + (data.cost?.tokens?.completion ?? 0)) / 1e6).toFixed(1)}M</div></div>
         <div className="stat"><div className="stat-k">Model</div><div className="stat-v small">{data.model || "gpt-4o-mini"}</div></div>
       </div>
 

@@ -54,9 +54,16 @@ def run_nli(
 ) -> NLIResult:
     result = NLIResult()
     results: dict[str, dict] = result.items
+    from concurrent.futures import ThreadPoolExecutor
+
     chunks = [candidates[i : i + per_call] for i in range(0, len(candidates), per_call)]
-    for chunk in chunks:
-        out, res = _nli_call(client, cfg, user_context, chunk)
+    if len(chunks) > 1:
+        with ThreadPoolExecutor(max_workers=min(len(chunks), 4)) as ex:
+            out_and_res = list(ex.map(lambda c: _nli_call(client, cfg, user_context, c), chunks))
+    else:
+        out_and_res = [_nli_call(client, cfg, user_context, c) for c in chunks]
+
+    for out, res in out_and_res:
         result.fallback_calls += int(res.fallback)
         for item in out.results:
             if item.item_id not in results:

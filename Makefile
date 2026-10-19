@@ -54,6 +54,7 @@ test:
 ## Build the frontend, seed the DB, run the API on 127.0.0.1:8000.
 app:
 	cd frontend && npm run build
+	test -f artifacts/item_extras.parquet || $(PY) scripts/build_item_extras.py
 	$(PY) -m arag.api.app
 
 ## Full pipeline: data -> lists -> index -> gru -> eval -> report.
