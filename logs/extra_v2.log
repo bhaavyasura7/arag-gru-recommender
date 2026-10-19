@@ -1,0 +1,5 @@
+2026-10-20 04:20:52,032 INFO arag.eval.extra: systems: ['random', 'popularity', 'content', 'itemknn', 'gru', 'gru_text', 'sasrec', 'recency', 'vanilla_rag', 'arag', 'arag_gru', 'arag_gru_text']
+2026-10-20 04:21:16,913 INFO arag.eval.extra: history-length analysis done
+2026-10-20 04:21:31,537 INFO arag.eval.extra: overall + SASRec comparisons done
+2026-10-20 04:21:31,743 INFO arag.eval.extra: beyond-accuracy done
+2026-10-20 04:21:32,103 INFO arag.eval.extra: wrote results/extra_metrics.json, results/extra_tables.md and docs/figures/fig12-14

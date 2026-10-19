@@ -13,10 +13,10 @@ Outputs to docs/figures/:
   fig05_alpha_curve.png     fusion weight alpha (validation vs test)
   fig06_paper_vs_ours.png   paper Table 1 side by side
   fig07_protocol_flaw.png   the degenerate-vs-corrected reversal
-  fig08_history_lengths.png why the GRU fails: user history length
+  fig08_history_lengths.png how long user histories are
   fig09_fusion_methods.png  uniform vs RRF vs exponential fusion
   fig10_content_aware.png   extension: content baselines + text-aware GRU (zero LLM cost)
-  fig11_text_gru_training.png  text-aware GRU validation curve vs the ID-only GRU
+  fig11_text_gru_training.png  validation curves: text-aware GRU vs ID-only GRU (fixed init)
 
 Usage:  .venv/bin/python scripts/make_figures.py
 """
@@ -148,12 +148,14 @@ def fig_main_results():
         ("random", "Random", C["base"]),
         ("popularity", "Popularity", C["base"]),
         ("gru_seed0", "GRU (seed 0)", C["gru"]),
+        ("gru_text_seed0", "Text-aware GRU (seed 0)", C["gru"]),
         ("vanilla_rag", "LLM-Vanilla-RAG", C["llm"]),
         ("recency", "LLM-Recency", C["llm"]),
         ("arag_wo_nli_csa", "ARAG w/o NLI+CSA", C["abl"]),
         ("arag_wo_nli", "ARAG w/o NLI", C["abl"]),
-        ("arag_gru", "ARAG + GRU (fusion)", C["arag"]),
         ("arag", "ARAG", C["arag"]),
+        ("arag_gru", "ARAG + GRU (fusion)", C["arag"]),
+        ("arag_gru_text", "ARAG + text-GRU (fusion)", C["arag"]),
     ]
     names = [o[1] for o in order]
     nd = [ndcg(o[0]) for o in order]
@@ -184,7 +186,7 @@ def fig_main_results():
     axes[1].set_xlim(0, max(ht) * 1.18)
 
     fig.suptitle(
-        "All systems on 100 held-out test users  —  ARAG is best, fusion ≈ ARAG",
+        "All systems on 100 held-out test users  —  ARAG beats the LLM baselines; fusing it with a GRU is best",
         x=0.02, ha="left", fontsize=13, fontweight="bold",
     )
     fig.savefig(OUT / "fig02_main_results.png", bbox_inches="tight")
@@ -228,7 +230,7 @@ def fig_hypotheses():
     ax.set_yticklabels(labels)
     ax.invert_yaxis()
     ax.set_xlabel("Δ NDCG@5   (positive = ARAG / fusion better)")
-    ax.set_title("Paired bootstrap comparisons vs ARAG / GRU  (95% CI, 2,000 draws)")
+    ax.set_title("Paired bootstrap comparisons vs ARAG / GRU  (95% CI, 10,000 draws)")
     # annotate
     for i, (d, lo, hi) in enumerate(zip(diffs, los, his)):
         mark = "SIG" if lo > 0 else "n.s."
@@ -242,7 +244,7 @@ def fig_hypotheses():
         mpatches.Patch(color=C["arag"], label="CI excludes 0 (significant)"),
         mpatches.Patch(color=C["base"], label="CI includes 0 (not significant)"),
     ]
-    ax.legend(handles=handles, loc="lower right", framealpha=0.9)
+    ax.legend(handles=handles, loc="upper center", bbox_to_anchor=(0.5, -0.14), ncol=2, framealpha=0.9)
     fig.savefig(OUT / "fig03_hypotheses.png", bbox_inches="tight")
     plt.close(fig)
 
@@ -306,21 +308,16 @@ def fig_alpha_curve():
     fig, ax = plt.subplots(figsize=(8, 4.6))
     ax.plot(alphas, t, "o-", color=C["arag"], lw=2.4, ms=6, label="Test")
     ax.plot(alphas, v, "s--", color=C["gru"], lw=1.8, ms=5, label="Validation")
-    best_alpha = 0.9
+    best_alpha = float(mc["best_alpha"])
     ax.axvline(best_alpha, color=C["ink"], ls=":", lw=1.2, alpha=0.8)
     ax.annotate(
-        "α*=0.9\n(validation best)", xy=(best_alpha, 0.4341),
-        xytext=(best_alpha - 0.28, 0.435), fontsize=9,
-        arrowprops=dict(arrowstyle="->", color=C["ink"], lw=1.0),
-    )
-    ax.annotate(
-        "test peaks at α=1.0\n(= pure ARAG)", xy=(1.0, 0.4245),
-        xytext=(0.52, 0.30), fontsize=9,
+        f"α*={best_alpha:g}\n(validation best)", xy=(best_alpha, v[alphas.index(best_alpha)]),
+        xytext=(best_alpha + 0.12, min(v) + 0.02), fontsize=9,
         arrowprops=dict(arrowstyle="->", color=C["ink"], lw=1.0),
     )
     ax.set_xlabel("α   (weight on LLM ranking;  0 = pure GRU, 1 = pure ARAG)")
     ax.set_ylabel("NDCG@5")
-    ax.set_title("Fusion weight α: more LLM ⇒ better; α*=0.9 is close to pure ARAG")
+    ax.set_title(f"Fusion weight α (0 = pure GRU, 1 = pure ARAG): best mix α*={best_alpha:g}")
     ax.set_xticks(alphas)
     ax.legend(loc="upper left", framealpha=0.9)
     fig.savefig(OUT / "fig05_alpha_curve.png", bbox_inches="tight")
@@ -405,7 +402,8 @@ def fig_protocol_flaw():
     ax = axes[1]
     metrics = ["H1\n(fusion−ARAG)", "H2\n(fusion−GRU)", "α*"]
     old_h = [0.349, 0.002, 0.1]
-    new_h = [-0.013, 0.174, 0.9]
+    full = json.loads((ROOT / "results" / "metrics.json").read_text())
+    new_h = [paired("arag_gru_vs_arag")[0], paired("arag_gru_vs_gru_seed0")[0], float(full["best_alpha"])]
     x2 = np.arange(len(metrics))
     b1 = ax.bar(x2 - width / 2, old_h, width, color=C["base"], edgecolor="none")
     b2 = ax.bar(x2 + width / 2, new_h, width, color=C["arag"], edgecolor="none")
@@ -416,7 +414,7 @@ def fig_protocol_flaw():
     ax.axhline(0, color=C["ink"], lw=0.9)
     ax.set_xticks(x2)
     ax.set_xticklabels(metrics, fontsize=9)
-    ax.set_title("Headline claims flip")
+    ax.set_title("Headline numbers under each protocol")
     handles = [
         mpatches.Patch(color=C["base"], label="Superseded"),
         mpatches.Patch(color=C["arag"], label="Corrected"),
@@ -451,14 +449,14 @@ def fig_history_lengths():
     )
     ax.set_xlabel("Training-history length (number of items)")
     ax.set_ylabel("# users")
-    ax.set_title("Why the GRU fails: users have almost no sequence to learn from")
+    ax.set_title("User histories are short: most users have only a few items")
     # inset text box
     txt = (
-        "A next-item GRU needs long sequences.\n"
-        "Here the median user has 4 past items —\n"
-        "the GRU largely learns 'popular wins',\n"
-        "which the corrected protocol deliberately\n"
-        "removes as a free signal."
+        "Short histories are normal in Amazon data.\n"
+        "They do NOT explain the old weak GRU:\n"
+        "the fixed GRU scores the same for 4-item\n"
+        "and 11+-item users (fig12). The real\n"
+        "cause was a weight-initialisation bug."
     )
     ax.text(
         0.98, 0.95, txt, transform=ax.transAxes, ha="right", va="top",
@@ -548,7 +546,8 @@ def fig_fusion_methods():
                 label=f"{name} best ({ys[bi]:.3f} @ α={alphas[bi]:.1f})")
     ax.set_xlabel("α   (weight on LLM ranking)")
     ax.set_ylabel("NDCG@5")
-    ax.set_title("Fusion rule matters: exponential decay beats the current uniform rule")
+    best_name = max(curves, key=lambda n: max(curves[n]))
+    ax.set_title(f"Fusion rule comparison: best is {best_name.lower()} ({max(curves[best_name]):.3f})")
     ax.set_xticks(alphas)
     ax.legend(loc="upper left", fontsize=8.5, framealpha=0.95)
     fig.savefig(OUT / "fig09_fusion_methods.png", bbox_inches="tight")
@@ -589,7 +588,8 @@ def fig_content_aware():
         ax.set_xlim(0, max(vals) * 1.18)
         ax.set_xlabel("NDCG@5")
         ax.set_title(title)
-    fig.suptitle("Adding item text to the GRU: 0.287 → 0.461 NDCG@5 (no LLM calls)", fontweight="bold")
+    a, b = allu["gru_seed0"]["ndcg@5"]["mean"], allu["gru_text_seed0"]["ndcg@5"]["mean"]
+    fig.suptitle(f"Adding item text to the GRU: {a:.3f} → {b:.3f} NDCG@5 on all users (no LLM calls)", fontweight="bold")
     fig.savefig(OUT / "fig10_content_aware.png", bbox_inches="tight")
     plt.close(fig)
 
@@ -597,25 +597,32 @@ def fig_content_aware():
 # ---------------------------------------------------------------------------
 # fig11 text-aware GRU training curve (values from the training log, PROCESS.md §12)
 # ---------------------------------------------------------------------------
-TEXT_GRU_VAL_CURVE = [0.2520, 0.2889, 0.3279, 0.3549, 0.3847, 0.3975,
-                      0.4160, 0.4422, 0.4446, 0.4560, 0.4673, 0.4761]  # seed 0
-ID_GRU_BEST_VAL = 0.2928  # seed 0, artifacts/gru/0/config.json
+# seed-0 validation curves from logs/gru_text_v2.log and logs/gru_v2.log (fixed init, re-run 2026-10-20)
+TEXT_GRU_VAL_CURVE = [0.3900, 0.4589, 0.4997, 0.5257, 0.5313, 0.5315, 0.5359,
+                      0.5490, 0.5378, 0.5496, 0.5465, 0.5404, 0.5414]
+ID_GRU_VAL_CURVE = [0.1548, 0.2827, 0.3005, 0.3587, 0.3869, 0.4037, 0.4183, 0.4305, 0.4447, 0.4553,
+                    0.4640, 0.4757, 0.4834, 0.4912, 0.4956, 0.5030, 0.5044, 0.5100, 0.5134, 0.5152,
+                    0.5174, 0.5190, 0.5219, 0.5237, 0.5247, 0.5239, 0.5251, 0.5280, 0.5285, 0.5282]
+ID_GRU_V1_BEST_VAL = 0.2928  # before the init fix (artifacts/backup_v1/gru/0/config.json)
 
 
 def fig_text_gru_training():
     full = json.loads((ROOT / "results" / "metrics.json").read_text())
     content_val = full["content_decay"]["curve"][str(full["content_decay"]["best"])]
     knn_val = full["itemknn_decay"]["curve"][str(full["itemknn_decay"]["best"])]
-    ep = np.arange(1, len(TEXT_GRU_VAL_CURVE) + 1)
     fig, ax = plt.subplots(figsize=(8.5, 4.6))
-    ax.plot(ep, TEXT_GRU_VAL_CURVE, "-o", color=C["arag"], lw=2.2, label="Text-aware GRU (seed 0)")
-    ax.axhline(ID_GRU_BEST_VAL, color=C["gru"], ls="--", lw=1.8, label=f"ID-only GRU, best epoch ({ID_GRU_BEST_VAL:.3f})")
+    ax.plot(np.arange(1, len(TEXT_GRU_VAL_CURVE) + 1), TEXT_GRU_VAL_CURVE, "-o", ms=4, color=C["arag"], lw=2.2,
+            label="Text-aware GRU (seed 0)")
+    ax.plot(np.arange(1, len(ID_GRU_VAL_CURVE) + 1), ID_GRU_VAL_CURVE, "-o", ms=3, color=C["gru"], lw=2.0,
+            label="ID-only GRU (seed 0)")
+    ax.axhline(ID_GRU_V1_BEST_VAL, color=C["base"], ls="--", lw=1.6,
+               label=f"ID-only GRU before the init fix ({ID_GRU_V1_BEST_VAL:.3f})")
     ax.axhline(content_val, color=C["llm"], ls=":", lw=1.8, label=f"Content similarity ({content_val:.3f})")
     ax.axhline(knn_val, color=C["abl"], ls="-.", lw=1.8, label=f"ItemKNN ({knn_val:.3f})")
-    ax.set_xticks(ep)
+    ax.set_xticks(np.arange(1, len(ID_GRU_VAL_CURVE) + 1, 2))
     ax.set_xlabel("Epoch")
     ax.set_ylabel("Validation NDCG@5 (94,762 users)")
-    ax.set_title("Text-aware GRU: validation NDCG@5 per epoch (12-epoch budget)")
+    ax.set_title("GRU training curves: text features speed up learning (early stop, patience 3)")
     ax.legend(loc="lower right", fontsize=9.5)
     fig.savefig(OUT / "fig11_text_gru_training.png", bbox_inches="tight")
     plt.close(fig)
