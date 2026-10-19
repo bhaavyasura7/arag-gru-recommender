@@ -64,7 +64,7 @@ def test_gru_beats_random_on_toy_sequence():
     torch.manual_seed(0)
     model = GRU4Rec(vocab_size=12, emb_dim=8, hidden=16, dropout=0.0)
     model, history = train_model(
-        model, train_arr, val, epochs=8, batch_size=64, lr=0.01, patience=5, logger=_quiet_logger()
+        model, train_arr, val, epochs=30, batch_size=64, lr=0.01, patience=30, logger=_quiet_logger()
     )
     ndcg = evaluate(model, val)
     # perfect successor prediction -> rank 1 -> NDCG@5 = 1.0; random ~0.25
