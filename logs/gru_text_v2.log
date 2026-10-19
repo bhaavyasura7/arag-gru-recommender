@@ -1,0 +1,50 @@
+2026-10-20 03:44:43,950 INFO arag.models.train_gru: train vocab: 25527 items
+2026-10-20 03:44:44,795 INFO arag.models.train_gru: training sequences: 94762
+2026-10-20 03:44:47,258 INFO arag.models.train_gru: validation users for early stop: 94762
+2026-10-20 03:44:47,343 INFO arag.models.train_gru: text features: 25526 of 25527 vocab items
+2026-10-20 03:44:47,343 INFO arag.models.train_gru: best config: hidden=128 dropout=0.2 NDCG@5=None
+2026-10-20 03:45:24,109 INFO arag.models.train_gru: epoch 0: loss 9.2404  val NDCG@5 0.3900
+2026-10-20 03:46:00,594 INFO arag.models.train_gru: epoch 1: loss 8.3192  val NDCG@5 0.4589
+2026-10-20 03:46:36,552 INFO arag.models.train_gru: epoch 2: loss 8.0595  val NDCG@5 0.4997
+2026-10-20 03:47:14,104 INFO arag.models.train_gru: epoch 3: loss 7.9093  val NDCG@5 0.5257
+2026-10-20 03:47:51,432 INFO arag.models.train_gru: epoch 4: loss 7.8172  val NDCG@5 0.5313
+2026-10-20 03:48:29,080 INFO arag.models.train_gru: epoch 5: loss 7.7538  val NDCG@5 0.5315
+2026-10-20 03:49:07,450 INFO arag.models.train_gru: epoch 6: loss 7.7102  val NDCG@5 0.5359
+2026-10-20 03:49:44,186 INFO arag.models.train_gru: epoch 7: loss 7.6685  val NDCG@5 0.5490
+2026-10-20 03:50:22,784 INFO arag.models.train_gru: epoch 8: loss 7.6333  val NDCG@5 0.5378
+2026-10-20 03:50:58,692 INFO arag.models.train_gru: epoch 9: loss 7.5991  val NDCG@5 0.5496
+2026-10-20 03:51:35,954 INFO arag.models.train_gru: epoch 10: loss 7.5739  val NDCG@5 0.5465
+2026-10-20 03:52:15,181 INFO arag.models.train_gru: epoch 11: loss 7.5425  val NDCG@5 0.5404
+2026-10-20 03:52:54,144 INFO arag.models.train_gru: epoch 12: loss 7.5142  val NDCG@5 0.5414
+2026-10-20 03:52:54,147 INFO arag.models.train_gru: early stop at epoch 12
+2026-10-20 03:52:54,220 INFO arag.models.train_gru: saved seed=0 -> /Users/likhith/Projects/DeepLearningProject/artifacts/gru_text/0 (487s, val NDCG@5=0.5496)
+2026-10-20 03:53:33,194 INFO arag.models.train_gru: epoch 0: loss 9.2592  val NDCG@5 0.3773
+2026-10-20 03:54:12,115 INFO arag.models.train_gru: epoch 1: loss 8.3408  val NDCG@5 0.4582
+2026-10-20 03:54:50,765 INFO arag.models.train_gru: epoch 2: loss 8.0717  val NDCG@5 0.5011
+2026-10-20 03:55:30,558 INFO arag.models.train_gru: epoch 3: loss 7.9462  val NDCG@5 0.5136
+2026-10-20 03:56:10,063 INFO arag.models.train_gru: epoch 4: loss 7.8570  val NDCG@5 0.5196
+2026-10-20 03:56:48,876 INFO arag.models.train_gru: epoch 5: loss 7.7946  val NDCG@5 0.5214
+2026-10-20 03:57:28,920 INFO arag.models.train_gru: epoch 6: loss 7.7411  val NDCG@5 0.5418
+2026-10-20 03:58:09,023 INFO arag.models.train_gru: epoch 7: loss 7.6909  val NDCG@5 0.5384
+2026-10-20 03:58:49,590 INFO arag.models.train_gru: epoch 8: loss 7.6510  val NDCG@5 0.5446
+2026-10-20 03:59:29,744 INFO arag.models.train_gru: epoch 9: loss 7.6166  val NDCG@5 0.5473
+2026-10-20 04:00:10,411 INFO arag.models.train_gru: epoch 10: loss 7.5899  val NDCG@5 0.5370
+2026-10-20 04:00:50,577 INFO arag.models.train_gru: epoch 11: loss 7.5647  val NDCG@5 0.5425
+2026-10-20 04:01:31,098 INFO arag.models.train_gru: epoch 12: loss 7.5354  val NDCG@5 0.5411
+2026-10-20 04:01:31,100 INFO arag.models.train_gru: early stop at epoch 12
+2026-10-20 04:01:31,129 INFO arag.models.train_gru: saved seed=1 -> /Users/likhith/Projects/DeepLearningProject/artifacts/gru_text/1 (517s, val NDCG@5=0.5473)
+2026-10-20 04:02:11,632 INFO arag.models.train_gru: epoch 0: loss 9.2481  val NDCG@5 0.3800
+2026-10-20 04:02:52,648 INFO arag.models.train_gru: epoch 1: loss 8.3538  val NDCG@5 0.4692
+2026-10-20 04:03:33,484 INFO arag.models.train_gru: epoch 2: loss 8.0603  val NDCG@5 0.5008
+2026-10-20 04:04:13,938 INFO arag.models.train_gru: epoch 3: loss 7.9266  val NDCG@5 0.5210
+2026-10-20 04:04:54,867 INFO arag.models.train_gru: epoch 4: loss 7.8307  val NDCG@5 0.5313
+2026-10-20 04:05:34,573 INFO arag.models.train_gru: epoch 5: loss 7.7630  val NDCG@5 0.5352
+2026-10-20 04:06:17,666 INFO arag.models.train_gru: epoch 6: loss 7.7099  val NDCG@5 0.5445
+2026-10-20 04:07:02,025 INFO arag.models.train_gru: epoch 7: loss 7.6682  val NDCG@5 0.5403
+2026-10-20 04:07:42,670 INFO arag.models.train_gru: epoch 8: loss 7.6340  val NDCG@5 0.5463
+2026-10-20 04:08:23,556 INFO arag.models.train_gru: epoch 9: loss 7.6039  val NDCG@5 0.5474
+2026-10-20 04:09:03,997 INFO arag.models.train_gru: epoch 10: loss 7.5807  val NDCG@5 0.5470
+2026-10-20 04:09:46,704 INFO arag.models.train_gru: epoch 11: loss 7.5551  val NDCG@5 0.5434
+2026-10-20 04:10:28,100 INFO arag.models.train_gru: epoch 12: loss 7.5237  val NDCG@5 0.5458
+2026-10-20 04:10:28,103 INFO arag.models.train_gru: early stop at epoch 12
+2026-10-20 04:10:28,132 INFO arag.models.train_gru: saved seed=2 -> /Users/likhith/Projects/DeepLearningProject/artifacts/gru_text/2 (537s, val NDCG@5=0.5474)

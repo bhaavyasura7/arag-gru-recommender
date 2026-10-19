@@ -28,6 +28,11 @@ class GRU4Rec(nn.Module):
         self.emb_dim = emb_dim
         self.hidden = hidden
         self.embedding = nn.Embedding(vocab_size, emb_dim, padding_idx=0)
+        # small init (as SASRec): PyTorch's default N(0, 1) makes the tied output logits huge
+        # at the start, and the v1 GRU stalled at val NDCG@5 ~0.29 (0.51 with this init)
+        nn.init.normal_(self.embedding.weight, std=0.02)
+        with torch.no_grad():
+            self.embedding.weight[0].zero_()
         self.gru = nn.GRU(emb_dim, hidden, batch_first=True)
         self.dropout = nn.Dropout(dropout)
         self.proj = nn.Linear(hidden, emb_dim, bias=False) if hidden != emb_dim else nn.Identity()

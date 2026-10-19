@@ -85,7 +85,7 @@ gru:
   dropout: 0.2                  # best-config default
   lr: 0.001
   batch_size: 256
-  max_epochs: 12
+  max_epochs: 30                # v1 used 12; raised to match SASRec (early stopping still applies)
   patience: 3
   seq_len: 50
   seeds: [0, 1, 2]
@@ -94,6 +94,12 @@ gru:
 gru_text:                       # text-aware GRU (python -m arag.models.train_gru --text)
   hidden_grid: [128]            # best ID-only config; a 1x1 grid skips the grid run
   dropout_grid: [0.2]
+
+sasrec:                         # SASRec baseline (python -m arag.models.train_sasrec); other settings shared with gru:
+  blocks_grid: [2]
+  dropout_grid: [0.2, 0.5]
+  n_heads: 2
+  max_epochs: 30
 
 app:
   gru_variant: text             # demo fuses ARAG with the text-aware GRU (alpha = best_alpha_text); 'id' = original GRU

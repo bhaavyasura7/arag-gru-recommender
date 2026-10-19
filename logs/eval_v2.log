@@ -1,0 +1,12 @@
+2026-10-20 04:10:58,036 INFO arag.eval.run: validation UUA+NLI done (100 users)
+2026-10-20 04:10:58,126 INFO arag.eval.run: theta=4 validation NDCG@5=0.4228
+2026-10-20 04:10:58,214 INFO arag.eval.run: theta=5 validation NDCG@5=0.4305
+2026-10-20 04:10:58,301 INFO arag.eval.run: theta=6 validation NDCG@5=0.3993
+2026-10-20 04:10:58,387 INFO arag.eval.run: theta=7 validation NDCG@5=0.3962
+2026-10-20 04:10:58,387 INFO arag.eval.run: best theta=5
+2026-10-20 04:10:58,397 INFO arag.eval.run: best alpha=0.2
+2026-10-20 04:12:47,633 INFO arag.eval.run: content decay=0.3 {0.0: 0.40764192765306423, 0.3: 0.4235389446841963, 0.6: 0.42191524101961697, 1.0: 0.4120677603781762} | itemknn decay=0.3 {0.0: 0.43170512986881837, 0.3: 0.4442190007181217, 0.6: 0.4404659764326596, 1.0: 0.4317501326765698}
+2026-10-20 04:12:47,645 INFO arag.eval.run: best alpha (ARAG+content)=0.4
+2026-10-20 04:12:47,942 INFO arag.eval.run: text GRU seeds [0, 1, 2]; best alpha (ARAG+text GRU)=0.1
+2026-10-20 04:16:09,384 INFO arag.eval.run: test LLM systems done (100 users)
+2026-10-20 04:17:42,400 INFO arag.eval.run: evaluation done in 405s; cost 0.0000 USD
