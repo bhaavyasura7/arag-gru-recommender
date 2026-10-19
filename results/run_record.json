@@ -1,10 +1,10 @@
 {
-  "git_commit": "e573c8b888bdfb7d58fd6685239205c282891ec0",
+  "git_commit": "e61793949c38b4f8e3ae25afc368d309d45dddbe",
   "model": "gpt-4o-mini",
   "provider": "openai",
   "category": "Video_Games",
   "seed": 42,
-  "elapsed_s": 404.8223969936371,
+  "elapsed_s": 302.1482651233673,
   "manifest": {
     "dataset_id": "McAuley-Lab/Amazon-Reviews-2023",
     "category": "Video_Games",
