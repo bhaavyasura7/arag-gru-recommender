@@ -9,12 +9,12 @@ System & Hit@5 & NDCG@5 & Hit@10 & NDCG@10 & MRR \\
 \quad ItemKNN & 0.540 & 0.399 & 0.670 & 0.442 & 0.392 \\
 \midrule
 \multicolumn{6}{l}{\textit{Trained sequential models}} \\
-\quad GRU, ID only (seed 0) & 0.390 & 0.238 & 0.640 & 0.321 & 0.249 \\
-\quad GRU, ID only (seed 1) & 0.450 & 0.246 & 0.640 & 0.306 & 0.230 \\
-\quad GRU, ID only (seed 2) & 0.360 & 0.216 & 0.630 & 0.302 & 0.230 \\
-\quad Text-aware GRU (seed 0) & 0.660 & 0.462 & \textbf{0.870} & 0.529 & 0.433 \\
-\quad Text-aware GRU (seed 1) & 0.660 & \textbf{0.489} & \textbf{0.870} & \textbf{0.558} & \textbf{0.471} \\
-\quad Text-aware GRU (seed 2) & \textbf{0.670} & 0.473 & 0.860 & 0.535 & 0.444 \\
+\quad GRU, ID only (seed 0) & 0.680 & 0.519 & 0.850 & 0.575 & 0.499 \\
+\quad GRU, ID only (seed 1) & \textbf{0.720} & 0.526 & 0.840 & 0.563 & 0.487 \\
+\quad GRU, ID only (seed 2) & 0.690 & 0.515 & 0.850 & 0.565 & 0.486 \\
+\quad Text-aware GRU (seed 0) & \textbf{0.720} & 0.506 & 0.900 & 0.565 & 0.465 \\
+\quad Text-aware GRU (seed 1) & 0.700 & 0.497 & 0.900 & 0.562 & 0.463 \\
+\quad Text-aware GRU (seed 2) & 0.700 & 0.499 & \textbf{0.910} & 0.568 & 0.468 \\
 \midrule
 \multicolumn{6}{l}{\textit{LLM baselines and ablations}} \\
 \quad LLM-Recency & 0.400 & 0.285 & 0.630 & 0.358 & 0.300 \\
@@ -24,8 +24,8 @@ System & Hit@5 & NDCG@5 & Hit@10 & NDCG@10 & MRR \\
 \midrule
 \multicolumn{6}{l}{\textit{Agentic LLM and fusion}} \\
 \quad ARAG & 0.530 & 0.424 & 0.700 & 0.479 & 0.432 \\
-\quad ARAG + GRU & 0.540 & 0.412 & 0.710 & 0.466 & 0.411 \\
+\quad ARAG + GRU & 0.690 & 0.523 & 0.840 & 0.574 & \textbf{0.502} \\
 \quad ARAG + content & 0.590 & 0.423 & 0.810 & 0.494 & 0.411 \\
-\quad ARAG + text-aware GRU & 0.660 & 0.468 & \textbf{0.870} & 0.537 & 0.443 \\
+\quad ARAG + text-aware GRU & \textbf{0.720} & \textbf{0.532} & \textbf{0.910} & \textbf{0.594} & 0.501 \\
 \bottomrule
 \end{tabular}

@@ -12,6 +12,16 @@ Companion documents: `SPEC.md` (specification & recorded deviations), `docs/PROC
 > rebuilt, every system was re-evaluated, the GRU was retrained, and this document was
 > rewritten. The original numbers are preserved — not deleted — in **Appendix E**.
 
+> **Final-run notice (§15, Appendix G) — read this first.** The original GRU had a
+> weight-initialisation bug (default N(0, 1) item embeddings with a tied output layer), which
+> stalled training and made it look weak (NDCG@5 0.279). It was found while adding a SASRec
+> baseline, fixed, and both GRUs were retrained; the whole evaluation was re-run from the LLM
+> cache at **$0**. With the fixed GRU (0.505 on all users) **H1 is supported** (+0.098, significant)
+> and **H2 is not** (+0.004, n.s.) — the reverse of §§6–7 and §12. Trained sequence models
+> (GRU, SASRec, text-aware GRU) are more accurate than ARAG on this data; the paper's claims
+> versus LLM baselines still reproduce. **§15 has the final numbers;** §§1–14 are kept as the
+> record of the study as first run, and their GRU-dependent numbers are superseded.
+
 > **Extension notice (§14).** After the main study, the GRU's weakness was traced to thin ID
 > sequences (median 4 training items per user). A **text-aware GRU** (ID embedding + projected
 > MiniLM item embedding) and two cheap baselines (content similarity, ItemKNN) were added and
@@ -26,13 +36,15 @@ Companion documents: `SPEC.md` (specification & recorded deviations), `docs/PROC
 
 This project implements an **ARAG-style agentic recommender** (Maragheh et al., 2025, arXiv:2506.21931) on the Amazon Reviews 2023 **Video Games** category and extends it with **one trained deep-learning component: a PyTorch GRU sequential user model late-fused into the final LLM ranking**. All systems rank the *same frozen 20-item candidate lists* (1 held-out target + 19 **popularity-matched** negatives drawn from the training vocabulary) per user, so the comparison isolates **ranking** from retrieval and no system can win by exploiting an information asymmetry.
 
-Using OpenAI `gpt-4o-mini` for the agent pipeline, 100 sampled test users for every system (plus all 94,762 test users for the non-LLM systems as a secondary table), we find:
+Using OpenAI `gpt-4o-mini` for the agent pipeline, 100 sampled test users for every system (plus all 94,762 test users for the non-LLM systems), and the **final run with the fixed GRU (§15)**, we find:
 
-- **H1 not supported:** fusing the trained GRU into ARAG does **not** improve on ARAG alone (ΔNDCG@5 = **−0.013**, 95% CI [−0.032, +0.005] — not significant). The validation-optimal fusion weight is **α\* = 0.9**, but on test even that 10% GRU weight is a small, non-significant *drag*.
-- **H2 supported:** the fused system significantly outperforms the GRU alone (ΔNDCG@5 = **+0.174**, 95% CI [+0.069, +0.278]) — the LLM agent adds a large increment on top of the trained model.
-- **ARAG is the best system.** It significantly beats LLM-Recency (Δ = −0.139), LLM-Vanilla-RAG (Δ = −0.162), GRU seeds 1 and 2 (Δ = −0.179, −0.209; and the fused system — statistically equal to ARAG — beats seed 0 by +0.174), Popularity (Δ = −0.315) and Random (Δ = −0.299) — every CI excluding 0.
-- **The paper's claims reproduce.** The baseline ordering (Recency, Vanilla-RAG < ARAG) and one of the two ablations (removing NLI **and** CSA significantly hurts, Δ = −0.062) now hold **statistically**, unlike the earlier degenerate run.
-- **A pure popularity baseline is at or below random** (NDCG@5 0.109 vs random 0.125): because negatives are drawn to be about as popular as targets, popularity carries no free signal.
+- **H1 supported:** fusing the trained GRU into ARAG significantly improves ARAG (ΔNDCG@5 = **+0.098**, 95% CI [+0.013, +0.182]) at the validation-optimal **α\* = 0.2** (mostly GRU).
+- **H2 not supported:** the fused system is no better than the GRU alone (ΔNDCG@5 = **+0.004**, [−0.038, +0.045]).
+- **The paper's claims reproduce.** ARAG significantly beats LLM-Recency (+0.139) and LLM-Vanilla-RAG (+0.162), and removing NLI **and** CSA significantly hurts (−0.062).
+- **Trained sequence models beat ARAG on accuracy** — a comparison the paper did not make. On the same 100 users: SASRec 0.536, ARAG + text-GRU 0.532, GRU 0.520, text-GRU 0.501 vs ARAG 0.424 (ARAG vs SASRec −0.112, significant; vs GRU −0.095, borderline). On all users the text-aware GRU is best (0.530 vs GRU 0.505, SASRec 0.508).
+- **ARAG's advantages are elsewhere:** the lowest popularity bias of any learned system (popularity lift 0.13 vs ~0.77) and the highest coverage, plus natural-language explanations.
+- **A pure popularity baseline is at or below random** (NDCG@5 0.109 vs random 0.125): popularity carries no free signal under this protocol.
+- **Two of our own mistakes were found and fixed** — degenerate candidate lists (Appendix E) and the GRU initialisation bug (Appendix G); both are documented with the superseded numbers kept.
 
 All numbers are produced by a deterministic, audited pipeline: **`make verify` re-derives every reported metric from the raw per-user predictions and checks dataset hashes and the run record — it passes on the committed artifacts.** The corrected evaluation added **2,263 LLM calls ≈ $1.06** (total unique project spend across both protocol versions: **$2.04**); a re-run from cache is **free (137 s)**.
 
@@ -280,6 +292,10 @@ Both are selected **only** on the 100 validation users; the test set is never us
 
 ## 6. Results
 
+> **Superseded GRU numbers.** §§6–7 report the first run, with the GRU initialisation bug. The
+> ARAG, LLM-baseline and ablation rows are unchanged in the final run; every GRU and fusion row
+> (and α\*, H1, H2) is superseded by **§15**.
+
 ### 6.1 Main comparison (test)
 
 **Every system is scored on the same 100 sampled test users.** GRU rows are individual seeds (the trained model is not seed-averaged at inference).
@@ -382,13 +398,15 @@ Note the list itself: **every item is a plausible, well-known gaming product** �
 
 ### 7.1 H1 not supported: the trained GRU adds nothing to the agentic pipeline
 
+> *Superseded (§15): with the fixed GRU, H1 is supported (+0.098, significant) and H2 is not.*
+
 Fusing the GRU at the validation-optimal α\* = 0.9 changes NDCG@5 by **−0.013 [−0.032, +0.005]** versus ARAG alone — not significant, and if anything slightly negative. The α curve (§6.3) shows why: validation and test both rise monotonically towards α = 1, with the only exception being a 0.0036 validation-only bump at 0.9 that reverses on test. On 100 validation users that bump is noise; tuning α there and applying it to test is exactly the setting where a small overfit is expected, and we report it rather than hide it.
 
 Substantively: the GRU's signal — sequential co-occurrence statistics over 625k interactions — is **subsumed** by what the IRA agent already does. The IRA sees the same user's full history in text plus 20 candidate descriptions and a NLI score per candidate; the 10% weight on a blind sequence model cannot add information the LLM has not already used. This is the honest, null answer to the project's primary question.
 
 ### 7.2 H2 supported: the LLM adds a large, significant increment over the GRU
 
-The fused system beats the GRU alone by **+0.174 [+0.069, +0.278]**, and pure ARAG significantly beats GRU seeds 1 and 2 (Δ = +0.179, +0.209) while the fused system — statistically indistinguishable from ARAG — significantly beats seed 0. Even the paper's *weakest* LLM baseline (Vanilla-RAG, +0.025) is directionally above the GRU, though not significantly. Under a protocol where popularity cannot win for free, **content reasoning beats sequential co-occurrence** in this domain. Plausible reasons: 5-core users have short histories (~6.6 interactions), so the GRU's sequence signal is thin; item text (title, category, features) is highly informative in Video Games (genres, platforms, accessories); and the LLM can perform cross-category inference ("buys Wii U games → buys a headset") that a 128-d sequence embedding trained on next-item likelihood does not capture.
+The fused system beats the GRU alone by **+0.174 [+0.069, +0.278]**, and pure ARAG significantly beats GRU seeds 1 and 2 (Δ = +0.179, +0.209) while the fused system — statistically indistinguishable from ARAG — significantly beats seed 0. Even the paper's *weakest* LLM baseline (Vanilla-RAG, +0.025) is directionally above the GRU, though not significantly. Under a protocol where popularity cannot win for free, **content reasoning beats sequential co-occurrence** in this domain. Plausible reasons *(at the time; the short-history explanation was later disproved, §15.3)*: 5-core users have short histories (~6.6 interactions), so the GRU's sequence signal is thin; item text (title, category, features) is highly informative in Video Games (genres, platforms, accessories); and the LLM can perform cross-category inference ("buys Wii U games → buys a headset") that a 128-d sequence embedding trained on next-item likelihood does not capture.
 
 ### 7.3 The paper's claims now reproduce — significantly
 
@@ -485,6 +503,8 @@ A complete log is in `docs/PROCESS.md §10–§11`. The notable ones:
 ---
 
 ## 12. Conclusion
+
+> *This is the conclusion of the first run. The final conclusion, with the fixed GRU, is in §15.6.*
 
 We built, trained and evaluated an ARAG-inspired agentic recommender fused with a trained GRU, under a ranking-isolating protocol with **hard, popularity-matched candidate lists** (rebuilt after review — Appendix E):
 
@@ -599,6 +619,10 @@ Paired differences (ΔNDCG@5, 95% CI, 10,000 resamples):
 
 ### 14.5 Analysis
 
+> *Correction (§15): points 1 and 3 below were written with the buggy GRU. The real cause of
+> the GRU's weakness was its initialisation, not sparse IDs; with the fix the text-aware GRU's
+> gain over the ID-only GRU is +0.026 (all users), not +0.17.*
+
 1. **The GRU's failure was a representation problem, not a model-class problem.** Giving the
    same architecture, config and training budget access to item text raises it by +0.17–0.22
    NDCG@5. With 3–5 interactions per user, item IDs alone are too sparse; text lets the model
@@ -628,6 +652,136 @@ Paired differences (ΔNDCG@5, 95% CI, 10,000 resamples):
 - MiniLM embeddings come from item metadata only (title, categories, features, description,
   ≤120 words); no reviews or held-out interactions are used, so the text features carry no
   label leakage. The LLM agents see the same metadata.
+
+---
+
+## 15. Final run: fixed GRU, SASRec and extra analyses (October 2026)
+
+All numbers in this section come from `results/metrics.json` and `results/extra_tables.md`
+(`make eval`, `make extra`); `make verify` passes. No new LLM calls were made: the evaluation
+was re-run with `REPLAY_ONLY=1` (cost $0.00).
+
+### 15.1 What changed
+
+1. **GRU initialisation fix.** `GRU4Rec` used PyTorch's default `nn.Embedding` init, N(0, 1).
+   With tied input/output embeddings the initial logits are dot products of two such vectors
+   (|logit| ≈ 8 for 64 dimensions), so the softmax over 25,527 items is saturated from the start
+   (initial loss ≈ 30 vs ln 25,527 ≈ 10) and training stalls. Fix: N(0, 0.02) with the padding
+   row zeroed, as in SASRec/BERT. Seed-0 validation NDCG@5: 0.293 → 0.528.
+2. **Retraining.** ID-only GRU: same grid (hidden {64, 128} × dropout {0.2, 0.5}), best 64/0.2;
+   text-aware GRU: hidden 128, dropout 0.2; both 3 seeds, epoch cap raised 12 → 30, early
+   stopping (patience 3) on validation NDCG@5.
+3. **SASRec** (Kang & McAuley, 2018): 2 pre-norm Transformer blocks, 2 heads, d = 64, causal
+   mask, learned positions, same vocabulary, training sequences, tied full-softmax loss,
+   optimiser, early stopping and seeds as the GRU; dropout {0.2, 0.5} → 0.5.
+4. **Re-tuning.** θ\* = 5 (unchanged), α\* = 0.2 (ARAG + GRU, was 0.9), 0.1 (ARAG + text-GRU,
+   was 0.3), 0.4 (ARAG + content, unchanged).
+5. **Bootstrap fix.** For n > 20,000 the bootstrap used to subsample 20,000 users, which centred
+   all-users CIs on the subsample mean and made them ~2× too wide. It now draws exact bootstrap
+   means via a multinomial over the few distinct per-user values. 100-user CIs are unchanged.
+
+### 15.2 Main results
+
+NDCG@5. 100 users = the same 100 test users for every system; seeded systems averaged over 3 seeds
+per user. Brackets: 95% bootstrap CI.
+
+| System | All 94,762 users | Same 100 users |
+|---|---|---|
+| Random | 0.149 | 0.125 |
+| Popularity | 0.128 | 0.109 |
+| LLM-Vanilla-RAG | — | 0.263 |
+| LLM-Recency | — | 0.285 |
+| ItemKNN | 0.406 | 0.399 |
+| ARAG | — | 0.424 [0.340, 0.511] |
+| Content similarity | 0.411 | 0.439 |
+| Text-aware GRU | **0.530** [0.528, 0.533] | 0.501 [0.430, 0.573] |
+| GRU (ID only) | 0.505 [0.502, 0.507] | 0.520 [0.447, 0.596] |
+| SASRec | 0.508 [0.505, 0.510] | **0.536** [0.462, 0.613] |
+| ARAG + GRU (α = 0.2) | — | 0.523 [0.445, 0.603] |
+| ARAG + text-GRU (α = 0.1) | — | 0.532 [0.456, 0.609] |
+
+| Contrast (ΔNDCG@5) | Users | Δ [95% CI] | Significant |
+|---|---|---|---|
+| **H1:** ARAG + GRU − ARAG | 100 | +0.098 [+0.013, +0.182] | yes |
+| **H2:** ARAG + GRU − GRU (seed 0) | 100 | +0.004 [−0.038, +0.045] | no |
+| ARAG + text-GRU − ARAG | 100 | +0.108 [+0.016, +0.197] | yes |
+| ARAG + text-GRU − text-GRU (3-seed avg) | 100 | +0.031 [+0.002, +0.061] | yes |
+| ARAG − SASRec | 100 | −0.112 [−0.213, −0.009] | yes |
+| ARAG − GRU | 100 | −0.095 [−0.196, +0.006] | no (borderline) |
+| ARAG − text-GRU | 100 | −0.076 [−0.173, +0.021] | no |
+| Text-GRU − GRU | 94,762 | +0.026 [+0.024, +0.027] | yes |
+| SASRec − GRU | 94,762 | +0.003 [+0.002, +0.004] | yes (negligible) |
+| SASRec − text-GRU | 94,762 | −0.023 [−0.024, −0.021] | yes |
+| Text-GRU − content | 94,762 | +0.120 [+0.117, +0.122] | yes |
+
+![All systems on the 100 test users](figures/fig13_sasrec_baseline.png)
+
+**SASRec sanity checks** (test NDCG@5, all users): normal 0.509; another user's history 0.181;
+empty history 0.130; shuffled history 0.434; last item only 0.472. 0.4% of targets and 0% of
+negatives are out of vocabulary. The model depends on the user's own history, as it should.
+
+### 15.3 History length
+
+| History before test | Users | GRU | Text-GRU | SASRec | Content | ItemKNN |
+|---|---|---|---|---|---|---|
+| 4 items | 30,451 | 0.497 | 0.521 | 0.502 | 0.420 | 0.389 |
+| 5–6 | 29,707 | 0.503 | 0.530 | 0.508 | 0.417 | 0.398 |
+| 7–10 | 20,678 | 0.510 | 0.536 | 0.511 | 0.402 | 0.419 |
+| 11+ | 13,926 | 0.519 | 0.543 | 0.513 | 0.391 | 0.437 |
+
+The trained models are nearly flat across history length (GRU +0.022 from 4 to 11+ items), so
+short histories do **not** explain the first run's weak GRU — this claim in §7.2 and §14.5 is
+withdrawn. The text-aware GRU leads the GRU in every bucket (+0.024 to +0.027, all significant).
+Content similarity degrades with longer histories; ItemKNN improves. On the 100 LLM users
+(44 / 30 / 26 per bucket) ARAG is below the GRU in every bucket, none significantly.
+
+![History length](figures/fig12_history_length_performance.png)
+
+### 15.4 Beyond accuracy (100 users)
+
+| System | Popularity lift | Diversity (ILD) | Coverage |
+|---|---|---|---|
+| Popularity | 1.783 | 0.723 | 0.181 |
+| ItemKNN | 0.983 | 0.723 | 0.241 |
+| GRU | 0.768 | 0.721 | 0.252 |
+| Text-aware GRU | 0.741 | 0.718 | 0.253 |
+| SASRec | 0.787 | 0.718 | 0.247 |
+| ARAG + GRU | 0.728 | 0.720 | 0.254 |
+| ARAG + text-GRU | 0.750 | 0.717 | 0.254 |
+| **ARAG** | **0.127** | 0.726 | **0.275** |
+| Content similarity | 0.083 | 0.646 | 0.278 |
+
+Popularity lift = mean log(1 + train count) of the top 5 minus the 20-candidate average.
+ILD = 1 − mean pairwise MiniLM cosine of the top 5. Coverage = distinct top-5 items / distinct
+candidates. ARAG is far less popularity-biased than every trained model and covers more of the
+catalogue; diversity is essentially equal across systems except content similarity.
+
+![Beyond accuracy](figures/fig14_beyond_accuracy.png)
+
+### 15.5 Discussion
+
+- **The paper's claims hold; its comparison was incomplete.** ARAG beats every LLM baseline and
+  its own ablations, as the paper says. It does not beat properly trained sequence models,
+  which the paper did not evaluate. One category, one LLM and 100 users limit how far this
+  generalises.
+- **Fusion is useful in one direction.** α\* = 0.2 shows validation trusts the GRU; adding a
+  little ARAG significantly improves ARAG and very slightly improves the text-GRU (+0.031), but
+  ARAG + GRU is not better than the GRU alone.
+- **Why keep the LLM?** Explanations, natural-language queries (the demo's search), lower
+  popularity bias and higher coverage. These are real product properties that NDCG@5 does not
+  measure.
+- **Two architectures agree.** SASRec and the fixed GRU differ by 0.003 on 94,762 users, which
+  is strong evidence the trained-model numbers are right rather than an artefact of one model.
+
+### 15.6 Final conclusion
+
+Under a fair, audited ranking protocol on Amazon Video Games, an ARAG-style agentic recommender
+is the best of the LLM methods and reproduces the paper's claims, but properly trained sequential
+recommenders (GRU4Rec, SASRec, and our text-aware GRU) rank more accurately at zero per-request
+cost. Fusing the GRU into ARAG significantly improves ARAG (H1 supported) but does not improve on
+the GRU (H2 not supported). ARAG's distinctive value is explanation and low popularity bias.
+Both mistakes we made along the way — degenerate candidate lists and a GRU initialisation bug —
+changed the headline conclusion, and both are documented with the superseded numbers.
 
 ---
 
@@ -661,6 +815,11 @@ artifacts/               (git-ignored) frozen lists, GRU + text-GRU checkpoints,
 
 ## Appendix B — Headline numbers at a glance
 
+**Final run (§15):** GRU (fixed) 0.505 / text-GRU 0.530 / SASRec 0.508 NDCG@5 on all users;
+on the 100 users ARAG 0.424, GRU 0.520, SASRec 0.536, ARAG + GRU 0.523, ARAG + text-GRU 0.532;
+α\* = 0.2; **H1 +0.098 [+0.013, +0.182] supported; H2 +0.004 n.s.** The table below is the
+first run (buggy GRU) and is kept for the record.
+
 | Quantity | Value |
 |---|---|
 | Interactions / users / items | 814,586 / 94,762 / 137,269 (25,612 with interactions) |
@@ -689,6 +848,8 @@ Because the research question is about *ranking*, not retrieval. If each system 
 **Q2. Why are the negatives sampled proportional to popularity?**
 Because uniform sampling over the catalogue was catastrophic: 81% of catalogue items have zero reviews, so ~15.5 of 19 uniform negatives were unknown to Popularity and the GRU (tied scores) and the task collapsed to a ~4.5-way choice (Appendix E). Sampling proportional to train popularity makes negatives about as popular as targets (measured 1.0–1.4×), so **popularity alone separates nothing** — and indeed the Popularity baseline now sits at or below random. Any system that wins must actually use the user.
 
+*Note: Q3, Q4 and Q6 were written for the first run. Final answers: H1 is supported (+0.098) and H2 is not (+0.004); α\* = 0.2; a Transformer (SASRec) was trained and scores 0.508, essentially equal to the fixed GRU (§15).*
+
 **Q3. H1 failed — is the project a failure?**
 No, and it is the more informative outcome. H2 succeeds strongly: the LLM agent adds a large significant increment over the trained model (+0.174), and the paper's own baseline and ablation claims reproduce significantly. A null result on H1 — not significant at n=100, with the fusion weight tuned honestly on validation and the full α curve shown — is a defensible scientific result, although a larger sample would be needed to rule out a small effect. What would *not* be defensible is reporting the earlier artefactual "+0.349 supported" (Appendix E).
 
@@ -716,6 +877,14 @@ Qualitatively and now statistically: ARAG significantly beats LLM-Recency and LL
 ---
 
 ## Appendix D — One-paragraph summaries at three levels
+
+*Final-run versions (§15):*
+
+**To a non-technical person (final):** We built a video-game store recommender and compared an AI assistant that reads your past reviews and reasons about products with small neural networks trained on 625,000 past reviews. After fixing a bug in our own network, the trained networks pick the right game more often than the AI assistant, and they cost nothing to run. Combining the two makes the assistant much better, but not better than the network alone. The assistant's strengths are that it explains itself in plain words and recommends less-famous games more often.
+
+**To a computer-science student (final):** ARAG (4 gpt-4o-mini agents) beats LLM-Recency, Vanilla-RAG and its own ablations significantly, as the paper claims. GRU4Rec (fixed init), SASRec and a text-aware GRU reach 0.505–0.530 NDCG@5 on 94,762 users and 0.50–0.54 on the 100 LLM users vs ARAG's 0.424. Late fusion at α\* = 0.2 improves ARAG by +0.098 (significant) but not the GRU (+0.004). ARAG has the least popularity bias (lift 0.13 vs ~0.77).
+
+*First-run versions (superseded):*
 
 **To a non-technical person:** We built a video-game store recommender that combines two "brains": an AI assistant that reads the products you reviewed and reasons about them, and a small neural network that has learned from 625,000 past reviews what people pick next (reviews are the standard stand-in for purchases in this dataset). We tested whether combining them beats each alone by giving all systems the same 20 real products to rank (1 right answer + 19 plausible decoys that are as popular as the right answer, so nobody can cheat by just picking famous products). Result: **the AI assistant is clearly better**, and adding the neural network on top doesn't help — but the neural network alone would have been much worse. We also found, and fixed, an earlier version of the test that accidentally made the neural network look much better than it was.
 
@@ -842,13 +1011,48 @@ The paper's core mechanistic claim is that each agent component earns its place.
 
 | Feature | Paper | Ours |
 |---|---|---|
-| Trained sequential baseline | none | GRU4Rec-style model, 3 seeds, grid-searched |
-| LLM + neural fusion | none | rank-score late fusion, α tuned on validation (α\* = 0.9) |
+| Trained sequential baselines | none | GRU4Rec-style model and SASRec, 3 seeds each, grid-searched; text-aware GRU |
+| LLM + neural fusion | none | rank-score late fusion, α tuned on validation (final α\* = 0.2) |
+| Beyond-accuracy metrics | none | popularity lift, diversity, coverage (§15.4) |
 | Frozen, audited candidate lists | unspecified | SHA-256-hashed; `make verify` re-derives all metrics |
-| Protocol-flaw audit | n/a | Appendix E: degenerate lists found, fixed, re-run, both runs preserved |
+| Protocol-flaw audit | n/a | Appendix E (degenerate lists) and Appendix G (GRU init bug): found, fixed, re-run, superseded numbers preserved |
 
-The paper's evaluation ends at "ARAG beats its two baselines." Ours extends the question to "does ARAG beat a *trained* model, and does fusing them help?" — the answer to both is in §7: yes to the first (significantly), no to the second (H1 fails).
+The paper's evaluation ends at "ARAG beats its two baselines." Ours extends the question to "does ARAG beat a *trained* model, and does fusing them help?" — in the final run (§15): **no** to the first (trained models are more accurate) and **yes** to the second for ARAG (+0.098), though not beyond the GRU alone.
 
 ### F.6 One-sentence summary for a talk or viva
 
+*Final:* *ARAG reproduces the paper's claims against LLM baselines, but properly trained sequence models — which the paper never compared against — rank more accurately on our data; fusing them improves ARAG, and ARAG's real advantages are explanations and low popularity bias.*
+
+*First run:*
+
 *On a category the paper never evaluated, with a different and cheaper LLM, our ARAG implementation lands within 1.6 NDCG@5 points of the paper's best category, reproduces the paper's ablation staircase and baseline ordering significantly, shows a larger relative lift over baselines than the paper reports, and extends the evaluation with a trained GRU baseline and a fusion test the paper never attempted — while never claiming the absolute numbers are comparable.*
+
+## Appendix G — Errata: the GRU initialisation bug
+
+**Symptom.** The first-run ID-only GRU reached only 0.293 validation NDCG@5 (test 0.279, all
+users), below untrained content similarity (0.411). We attributed this to short histories.
+
+**Discovery.** SASRec, added in October 2026, stalled in the same way (loss ≈ 32, validation ≈
+0.15). Both models used default `nn.Embedding` initialisation, N(0, 1), with a tied output layer.
+Re-initialising with N(0, 0.02) fixed SASRec, and a short GRU test run with the same change
+reached 0.513 validation NDCG@5. The history-length analysis (§15.3) independently contradicted
+the short-history explanation: the buggy GRU was flat across history lengths too.
+
+**Fix.** Three lines in `src/arag/models/gru.py`. Both GRUs were retrained (same grid, seeds and
+early stopping; epoch cap 12 → 30), α re-tuned on validation, and the full evaluation re-run in
+replay-only mode ($0). The first-run models and results are kept in `artifacts/backup_v1/`.
+
+| Quantity | First run (bug) | Final run (fixed) |
+|---|---|---|
+| GRU validation NDCG@5 (seed 0) | 0.293 | 0.528 |
+| GRU test NDCG@5, all users (3 seeds) | 0.279 | 0.505 |
+| Text-aware GRU test NDCG@5, all users | 0.461 | 0.530 |
+| GRU NDCG@5, 100 users (seed 0) | 0.238 | 0.519 |
+| α\* (ARAG + GRU) | 0.9 | 0.2 |
+| H1: ARAG + GRU − ARAG | −0.013, n.s. | **+0.098, significant** |
+| H2: ARAG + GRU − GRU | +0.174, significant | +0.004, n.s. |
+| ARAG + text-GRU − ARAG | +0.044, n.s. | +0.108, significant |
+
+**Lesson.** A weak baseline is a reason to check the baseline, not just a result. Adding a
+second, independent architecture (SASRec) is what exposed the bug.
+

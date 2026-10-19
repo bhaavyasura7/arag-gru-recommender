@@ -259,6 +259,8 @@ users; LLM systems on the 100 sampled test users.
 
 ## 7. Results
 
+> First-run results. GRU and fusion numbers are superseded by §13 (GRU initialisation fix).
+
 See `results/report.md`, `results/tables.md`, `results/alpha_curve.png`,
 `results/metrics.json`, `results/cost.json`. Headline (test, 100 users):
 
@@ -429,3 +431,62 @@ Seed-0 curve: 0.252, 0.289, 0.328, 0.355, 0.385, 0.398, 0.416, 0.442, 0.445, 0.4
 
 **Evaluation.** 316 s, **$0.0000**, θ\* = 5 and α\* = 0.9 unchanged; α\* (ARAG + text-GRU) = 0.3,
 α\* (ARAG + content) = 0.4. Every original system's metrics are byte-identical to the previous run.
+
+## 13. SASRec, the GRU initialisation fix and extra analyses (2026-10-20, zero LLM cost)
+
+> This step **supersedes every GRU and fusion number above** (§§6–7, 11–12). ARAG, LLM-baseline,
+> ablation, random, popularity, content and ItemKNN numbers are unchanged.
+
+**SASRec.** `src/arag/models/sasrec.py` + `train_sasrec.py` (`make sasrec`): 2 pre-norm Transformer
+blocks, 2 heads, d = 64, causal mask, learned positions, right-padded, tied full-softmax loss.
+Re-uses the GRU's vocabulary, training sequences, validation users, early stopping (patience 3),
+≤30 epochs, 3 seeds. Test history = every interaction before the test timestamp (reproduces the
+GRU's rankings exactly on a 500-user check).
+
+| Run | Val NDCG@5 | Test NDCG@5 (all users) | Time |
+|---|---|---|---|
+| grid dropout 0.2 | 0.5137 | — | 439 s |
+| grid dropout 0.5 (chosen) | 0.5297 | — | 845 s |
+| seed 0 / 1 / 2 | 0.5297 / 0.5318 / 0.5297 | 0.5060 / 0.5104 / 0.5064 | 802 / 1156 / 1034 s |
+
+Leakage checks (test NDCG@5): normal 0.509, another user's history 0.181, empty history 0.130,
+shuffled 0.434, last item only 0.472. OOV: 0.4% of targets, 0% of negatives.
+
+**Issues found and fixed.**
+
+| # | Issue | Fix |
+|---|---|---|
+| 18 | First SASRec run stalled: loss ≈ 32, val NDCG@5 ≈ 0.15. Default `nn.Embedding` init N(0, 1) with a tied output layer gives huge initial logits; the √d input scaling made it worse | N(0, 0.02) init for item and position embeddings, padding row zeroed, no √d scaling |
+| 19 | **The GRU had the same init.** A short GRU test with the fix reached val 0.513 vs 0.293 (`logs/gru_init_test.log`). The "short histories" explanation for the weak GRU was wrong | Same 3-line fix in `GRU4Rec.__init__`; retrained both GRUs; epoch cap 12 → 30; toy test given 30 epochs (it relied on the old init) |
+| 20 | `paired_bootstrap` subsampled to 20,000 users when n was larger: all-users CIs were centred on the subsample mean (the mean could fall outside its own CI) and ~2× too wide | Exact multinomial bootstrap over distinct per-user values for n > 20,000; ≤20k path unchanged, so 100-user CIs are identical. Regression test added |
+| 21 | `make_figures.py` hard-coded first-run narratives (α\* = 0.9, "ARAG is best", "0.287 → 0.461", "Why the GRU fails") | Figures now read α\*, H1/H2 and GRU numbers from `metrics.json`; fig08 re-captioned |
+
+**Retraining (`logs/gru_v2.log`, `logs/gru_text_v2.log`).** ID-only grid on seed 0:
+
+| hidden / dropout | 64 / 0.2 | 64 / 0.5 | 128 / 0.2 | 128 / 0.5 |
+|---|---|---|---|---|
+| val NDCG@5 | **0.5306** | 0.5197 | 0.5116 | 0.5215 |
+
+Seeds (best val): ID-only 0.5285 / 0.5275 / 0.5304 (~15–25 min each, still creeping up at epoch 30);
+text-aware (hidden 128) 0.5496 / 0.5473 / 0.5474 (early stop at epoch 12, ~8–9 min each).
+First-run artefacts are kept in `artifacts/backup_v1/`.
+
+**Re-evaluation.** `REPLAY_ONLY=1 python -m arag.eval.run`: 302 s, **$0.0000**, 2,504 cached
+calls, 0 fallbacks. θ\* = 5 (unchanged); α\* = 0.2 (ARAG + GRU, was 0.9), 0.1 (ARAG + text-GRU,
+was 0.3), 0.4 (ARAG + content). `make report verify` → VERIFY OK.
+
+| NDCG@5 | First run | Final |
+|---|---|---|
+| GRU, all users (3 seeds) | 0.279 | 0.505 |
+| Text-GRU, all users (3 seeds) | 0.461 | 0.530 |
+| GRU seed 0, 100 users | 0.238 | 0.519 |
+| ARAG + GRU, 100 users | 0.412 | 0.523 |
+| ARAG + text-GRU, 100 users | 0.468 | 0.532 |
+| H1 (ARAG + GRU − ARAG) | −0.013 n.s. | +0.098 [+0.013, +0.182] |
+| H2 (ARAG + GRU − GRU) | +0.174 | +0.004 n.s. |
+
+**Extra analyses** (`make extra` → `results/extra_tables.md`, figures 12–14; ~45 s, no LLM):
+NDCG@5 by history length (trained models nearly flat: GRU 0.497 for 4 items → 0.519 for 11+),
+SASRec comparisons (ARAG − SASRec = −0.112 [−0.213, −0.009] on the 100 users), and
+beyond-accuracy metrics (popularity lift ARAG 0.127 vs GRU 0.768; ILD ≈ 0.72 for all but content;
+coverage ARAG 0.275 vs GRU 0.252). Tests: 59 passed, 4 skipped (Ollama).

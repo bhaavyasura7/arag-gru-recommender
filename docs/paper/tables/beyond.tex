@@ -1,0 +1,17 @@
+\begin{tabular}{lcccc}
+\toprule
+System & NDCG@5 & Popularity lift & Diversity (ILD) & Coverage \\
+\midrule
+Popularity & 0.109 & 1.783 & 0.723 & 0.181 \\
+ItemKNN & 0.399 & 0.983 & 0.723 & 0.241 \\
+Content similarity & 0.439 & 0.083 & 0.646 & 0.278 \\
+GRU (ID only) & 0.520 & 0.768 & 0.721 & 0.252 \\
+Text-aware GRU & 0.501 & 0.741 & 0.718 & 0.253 \\
+SASRec & 0.536 & 0.787 & 0.718 & 0.247 \\
+LLM-Recency & 0.285 & 0.162 & 0.724 & 0.281 \\
+LLM-Vanilla-RAG & 0.263 & 0.278 & 0.725 & 0.273 \\
+ARAG & 0.424 & 0.127 & 0.726 & 0.275 \\
+ARAG + GRU & 0.523 & 0.728 & 0.720 & 0.254 \\
+ARAG + text-GRU & 0.532 & 0.750 & 0.717 & 0.254 \\
+\bottomrule
+\end{tabular}

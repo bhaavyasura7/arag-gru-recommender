@@ -27,7 +27,7 @@ baselines when every system ranks exactly the same candidates?
 |---|---|---|
 | Trivial | Random, Popularity | 0 |
 | Classic (extension) | Content similarity (MiniLM), ItemKNN (co-occurrence) | 0 |
-| Trained deep models | **GRU** (ID embeddings), **text-aware GRU** (ID + MiniLM item vectors, extension) | 0 |
+| Trained deep models | **GRU** (ID embeddings), **text-aware GRU** (ID + MiniLM item vectors, extension), **SASRec** (Transformer) | 0 |
 | LLM baselines | LLM-Recency, LLM-Vanilla-RAG | 1 |
 | Agentic LLM | **ARAG**: UUA ∥ NLI → CSA → IRA, plus two ablations | 7 |
 | Fusion | ARAG + GRU, ARAG + text-aware GRU, ARAG + content (late fusion, α on validation) | 0 extra |
@@ -40,46 +40,51 @@ history ──► GRU (trained, PyTorch)   ──► GRU ranking ─┘
 
 ## 4. Results (NDCG@5)
 
+Final run (October 2026, fixed GRU initialisation — see Finding 5).
+
 | System | All 94,762 users | Same 100 users |
 |---|---|---|
 | Random / Popularity | 0.149 / 0.128 | 0.125 / 0.109 |
-| GRU, ID only | 0.279 (3 seeds) | 0.238 |
 | LLM-Recency / Vanilla-RAG | — | 0.285 / 0.263 |
 | ItemKNN | 0.406 | 0.399 |
-| ARAG + GRU | — | 0.412 |
 | Content similarity | 0.411 | 0.439 |
 | ARAG | — | 0.424 |
-| **Text-aware GRU** | **0.461** (3 seeds, ±0.002) | 0.462 |
-| **ARAG + text-aware GRU** | — | **0.468** |
+| GRU, ID only (3 seeds) | 0.505 ± 0.001 | 0.520 |
+| Text-aware GRU (3 seeds) | **0.530** ± 0.001 | 0.501 |
+| SASRec (3 seeds) | 0.508 | **0.536** |
+| ARAG + GRU (α = 0.2) | — | 0.523 |
+| ARAG + text-aware GRU (α = 0.1) | — | 0.532 |
 
-![Content-aware extension](figures/fig10_content_aware.png)
+![All systems on the 100 test users](figures/fig13_sasrec_baseline.png)
 
 ## 5. Findings
 
-1. **Original study:** fusing the ID-only GRU into ARAG does **not** help (H1: −0.013, n.s.).
-   ARAG significantly beats the ID-only GRU, LLM-Recency, Vanilla-RAG, Popularity and Random, and
-   the paper's NLI+CSA ablation reproduces significantly.
-2. **Why the GRU lost:** with ~4 items per user, item IDs are too sparse. The LLM reads item text.
-3. **Extension:** adding MiniLM item text to the *same* GRU raises it **0.279 → 0.461** on all
-   users (+0.174, CI [+0.172, +0.176]). It beats content similarity and ItemKNN significantly on
-   all users and is numerically above ARAG on the 100-user sample (+0.038, n.s.).
-4. **Cheap beats expensive here:** content similarity (no training, no API) ties with ARAG, and
-   the text-aware GRU scores every user in seconds for $0. ARAG costs 7 LLM calls per user.
-5. **Methodology matters:** an earlier version of the candidate lists made popularity look
-   strong and produced a false "H1 supported" result; it was caught, fixed, and documented
-   (REPORT Appendix E).
+1. **H1 holds:** fusing the GRU into ARAG significantly improves ARAG (+0.098, CI [+0.013, +0.182]).
+   **H2 does not:** the fusion is no better than the GRU alone (+0.004, n.s.).
+2. **The paper's claims reproduce:** ARAG significantly beats LLM-Recency (+0.139) and
+   Vanilla-RAG (+0.162), and removing NLI+CSA significantly hurts (−0.062).
+3. **Trained sequence models are more accurate than ARAG here** — a comparison the paper did not
+   make. SASRec beats ARAG significantly on the 100 users (+0.112); the GRU is +0.095 (borderline).
+   Text-aware GRU is the best single model on all users (+0.026 over the GRU, significant).
+4. **ARAG's strengths are elsewhere:** almost no popularity bias (lift 0.13 vs ~0.77 for trained
+   models), higher catalogue coverage, natural-language explanations and search.
+5. **Two mistakes caught and fixed:** (a) candidate lists that let popularity win (REPORT
+   Appendix E); (b) a GRU weight-initialisation bug (default N(0,1) embeddings with tied output)
+   that made the GRU look weak (0.279) — we had wrongly blamed short histories. Performance is in
+   fact flat across history lengths (fig12). All re-runs cost $0 (LLM cache, `REPLAY_ONLY=1`).
 
-Limits: 100 LLM-evaluated users cannot separate the top systems (CIs ≈ ±0.08–0.10); sampled
-negatives are easier than real retrieval; a single category.
+Limits: 100 LLM-evaluated users cannot separate the top systems (CIs ≈ ±0.08); sampled
+negatives are easier than real retrieval; a single category and a single LLM.
 
 ## 6. Reproduce
 
 ```bash
 make setup                      # venv + Python deps + npm
 make data lists index           # dataset -> frozen lists -> MiniLM + FAISS
-make gru gru-text               # ID-only GRU (grid + 3 seeds), text-aware GRU (3 seeds, ~15 min)
+make gru gru-text sasrec        # ID-only GRU, text-aware GRU, SASRec (grid + 3 seeds each; CPU)
 make eval                       # all systems; resumable, LLM disk-cached
 make report verify              # results/*; re-derive every metric from raw predictions
+make extra                      # history length, SASRec, beyond-accuracy (no LLM calls)
 make app                        # demo on http://127.0.0.1:8000
 ```
 
@@ -94,9 +99,10 @@ LLM call from the cache and raises on any uncached call (~5 min, $0). Total proj
 | `configs/config.yaml` | every path, seed, model name, grid |
 | `src/arag/dataprep/` | download, item text, sequences, frozen lists |
 | `src/arag/agents/` | ARAG agents (UUA, NLI, CSA, IRA) and LLM baselines |
-| `src/arag/models/` | GRU / text-aware GRU, training, scoring |
+| `src/arag/models/` | GRU / text-aware GRU, SASRec, training, scoring |
 | `src/arag/ranking/` | fusion, LLM output parser, random/popularity, content/ItemKNN |
-| `src/arag/eval/` | evaluation driver, metrics, bootstrap, report, verify |
+| `src/arag/eval/` | evaluation driver, metrics, bootstrap, report, verify, extra analyses |
 | `src/arag/api/`, `frontend/` | FastAPI backend and React demo |
-| `results/` | `tables.md`, `report.md`, `metrics.json`, per-user predictions |
-| `docs/figures/` | 10 presentation figures (`scripts/make_figures.py`) |
+| `results/` | `tables.md`, `report.md`, `metrics.json`, `extra_tables.md`, per-user predictions |
+| `docs/figures/` | 14 figures (`scripts/make_figures.py`, `arag.eval.extra`) |
+| `docs/PROJECT_GUIDE.docx` | study guide with viva Q&A (`scripts/make_guide.js`) |

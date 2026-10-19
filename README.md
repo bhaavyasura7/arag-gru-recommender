@@ -15,22 +15,22 @@ Detailed end-to-end process & training documentation with real run numbers: [`do
 
 - **Primary question:** on identical frozen candidate lists, does fusing a GRU score into
   ARAG's LLM ranking improve Hit@5 / NDCG@5 over ARAG alone and over the GRU alone?
-- **Systems compared:** Random, Popularity, GRU, LLM-Recency, LLM-Vanilla-RAG, ARAG,
-  two ARAG ablations, and **ARAG + GRU** (late fusion).
+- **Systems compared:** Random, Popularity, content similarity, ItemKNN, GRU, text-aware GRU,
+  SASRec, LLM-Recency, LLM-Vanilla-RAG, ARAG, two ARAG ablations, and **ARAG + GRU** (late fusion).
 - **LLM:** configurable provider. The committed results were produced with OpenAI **`gpt-4o-mini`**
   (~$1 per evaluation run; ≈$2 total across both protocol versions). Local **`qwen3:8b`** via
   Ollama is also supported and is what the test-suite uses (zero cost, offline).
-- **Headline result (corrected run):** ARAG is the best system (NDCG@5 0.424 on 100 test users);
-  fusing the trained GRU does **not** help ARAG (H1 fails, Δ = −0.013 n.s.), while the LLM
-  significantly beats the GRU (H2, Δ = +0.174). Popularity is at or below random because the
-  frozen lists use **popularity-matched negatives**. The paper's baseline ordering and its
-  NLI+CSA ablation reproduce significantly. See `docs/REPORT.md` (Appendix E documents an
-  earlier degenerate-list run whose conclusions were artefactual and are superseded).
-- **Extension (zero LLM cost, REPORT §14):** a **text-aware GRU** (ID embedding + projected
-  MiniLM item embedding) lifts the trained model from NDCG@5 **0.279 → 0.461** on all 94,762 test
-  users, beats new content-similarity (0.411) and ItemKNN (0.406) baselines, and is numerically
-  above ARAG on the 100-user sample (0.462 vs 0.424, n.s.). Evaluated by replaying cached LLM
-  outputs ($0).
+- **Headline result (final run, REPORT §15):** ARAG significantly beats the paper's LLM baselines
+  (NDCG@5 0.424 on 100 test users) and its NLI+CSA ablation reproduces. Properly trained
+  sequential models are more accurate: GRU 0.505, SASRec 0.508 and a **text-aware GRU** (ID +
+  projected MiniLM item embedding) 0.530 on all 94,762 test users; on the same 100 users SASRec
+  beats ARAG significantly (+0.112). Fusing the GRU into ARAG significantly improves ARAG
+  (**H1 supported**, +0.098) but not the GRU (**H2 not supported**, +0.004). ARAG has far lower
+  popularity bias than the trained models. Popularity is at or below random because the frozen
+  lists use **popularity-matched negatives**.
+- **Two corrections, both documented:** degenerate candidate lists (REPORT Appendix E) and a GRU
+  embedding-initialisation bug that had made the GRU look weak (Appendix G). All re-runs replayed
+  cached LLM outputs ($0).
 - **Embeddings:** sentence-transformers `all-MiniLM-L6-v2`, FAISS `IndexFlatIP`.
 
 ## Environment prerequisites
