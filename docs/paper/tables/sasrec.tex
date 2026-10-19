@@ -1,0 +1,14 @@
+\begin{tabular}{lrc}
+\toprule
+Contrast ($\Delta$NDCG@5) & Users & 95\% CI \\
+\midrule
+SASRec vs GRU (ID) & 94{,}762 & $+0.003$ [$+0.002$, $+0.004$]$^{*}$ \\
+SASRec vs Text-aware GRU & 94{,}762 & $-0.023$ [$-0.024$, $-0.021$]$^{*}$ \\
+SASRec vs ItemKNN & 94{,}762 & $+0.102$ [$+0.100$, $+0.105$]$^{*}$ \\
+ARAG vs SASRec & 100 & $-0.112$ [$-0.213$, $-0.009$]$^{*}$ \\
+ARAG vs GRU (ID) & 100 & $-0.095$ [$-0.196$, $+0.006$] \\
+ARAG vs Text-aware GRU & 100 & $-0.076$ [$-0.173$, $+0.021$] \\
+ARAG + text-GRU vs ARAG & 100 & $+0.108$ [$+0.016$, $+0.197$]$^{*}$ \\
+ARAG + text-GRU vs SASRec & 100 & $-0.004$ [$-0.052$, $+0.043$] \\
+\bottomrule
+\end{tabular}

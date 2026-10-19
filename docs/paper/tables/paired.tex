@@ -2,21 +2,21 @@
 \toprule
 Contrast & $\Delta$NDCG@5 & 95\% CI & Sig. \\
 \midrule
-\textbf{H1}: ARAG + GRU $-$ ARAG & $-0.013$ & $[-0.032, +0.005]$ & no \\
-\textbf{H2}: ARAG + GRU $-$ GRU & $+0.174$ & $[+0.069, +0.278]$ & yes \\
+\textbf{H1}: ARAG + GRU $-$ ARAG & $+0.098$ & $[+0.013, +0.182]$ & yes \\
+\textbf{H2}: ARAG + GRU $-$ GRU & $+0.004$ & $[-0.038, +0.045]$ & no \\
 ARAG $-$ LLM-Recency & $+0.139$ & $[+0.063, +0.217]$ & yes \\
 ARAG $-$ LLM-Vanilla-RAG & $+0.162$ & $[+0.079, +0.247]$ & yes \\
 ARAG $-$ ARAG w/o NLI & $+0.049$ & $[-0.011, +0.111]$ & no \\
 ARAG $-$ ARAG w/o NLI \& CSA & $+0.062$ & $[+0.016, +0.113]$ & yes \\
-ARAG $-$ GRU (seed 1) & $+0.179$ & $[+0.078, +0.282]$ & yes \\
+ARAG $-$ GRU (seed 1) & $-0.101$ & $[-0.201, +0.001]$ & no \\
 ARAG $-$ Popularity & $+0.315$ & $[+0.224, +0.408]$ & yes \\
 \midrule
-Text-aware GRU $-$ GRU & $+0.224$ & $[+0.156, +0.294]$ & yes \\
-Text-aware GRU $-$ ARAG & $+0.038$ & $[-0.067, +0.144]$ & no \\
+Text-aware GRU $-$ GRU & $-0.013$ & $[-0.064, +0.039]$ & no \\
+Text-aware GRU $-$ ARAG & $+0.081$ & $[-0.016, +0.179]$ & no \\
 Content similarity $-$ ARAG & $+0.014$ & $[-0.088, +0.116]$ & no \\
 ItemKNN $-$ ARAG & $-0.025$ & $[-0.132, +0.082]$ & no \\
-\textbf{H1$'$}: ARAG + text-GRU $-$ ARAG & $+0.044$ & $[-0.035, +0.122]$ & no \\
-\textbf{H2$'$}: ARAG + text-GRU $-$ text-GRU & $+0.006$ & $[-0.046, +0.058]$ & no \\
+\textbf{H1$'$}: ARAG + text-GRU $-$ ARAG & $+0.108$ & $[+0.016, +0.197]$ & yes \\
+\textbf{H2$'$}: ARAG + text-GRU $-$ text-GRU & $+0.026$ & $[-0.001, +0.054]$ & no \\
 ARAG + content $-$ ARAG & $-0.001$ & $[-0.070, +0.066]$ & no \\
 \bottomrule
 \end{tabular}

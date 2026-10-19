@@ -463,7 +463,7 @@ TABLE(["Contrast", "Δ", "95% CI", "Significant?"], [
   ["ARAG − GRU (100 users, 3-seed avg)", "−0.095", "[−0.196, +0.006]", "no (borderline)"],
   ["ARAG − SASRec (100 users)", "−0.112", "[−0.213, −0.009]", "**yes**"],
   ["ARAG+text-GRU − ARAG", "+0.108", "[+0.016, +0.197]", "**yes**"],
-  ["ARAG+text-GRU − text-GRU", "+0.031", "[+0.002, +0.061]", "**yes** (small)"],
+  ["ARAG+text-GRU − text-GRU (3-seed avg)", "+0.031", "[+0.002, +0.061]", "**yes** (small)"],
   ["Text-GRU − GRU (all 94,762 users)", "+0.026", "[+0.024, +0.027]", "**yes**"],
   ["Text-GRU − content (all users)", "+0.120", "[+0.117, +0.122]", "**yes**"],
   ["SASRec − GRU (all users)", "+0.003", "[+0.002, +0.004]", "yes, but tiny"],

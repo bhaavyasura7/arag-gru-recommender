@@ -13,6 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 MJ = json.loads((ROOT / "results" / "metrics.json").read_text())
 M, ALL = MJ["metrics"], MJ["metrics_all_users"]
+EXTRA = json.loads((ROOT / "results" / "extra_metrics.json").read_text())  # make extra
 OUT = ROOT / "docs" / "paper" / "tables"
 OUT.mkdir(parents=True, exist_ok=True)
 
@@ -173,9 +174,48 @@ def tuning_table():
     print("  tables/theta.tex")
 
 
+XN = {"gru": "GRU (ID only)", "gru_text": "Text-aware GRU", "sasrec": "SASRec", "content": "Content similarity",
+      "itemknn": "ItemKNN", "popularity": "Popularity", "recency": "LLM-Recency", "vanilla_rag": "LLM-Vanilla-RAG",
+      "arag": "ARAG", "arag_gru": "ARAG + GRU", "arag_gru_text": "ARAG + text-GRU"}
+
+
+def extra_tables():
+    """History-length, SASRec and beyond-accuracy tables from results/extra_metrics.json."""
+    sys_h = ["content", "itemknn", "gru", "gru_text", "sasrec"]
+    lines = ["\\begin{tabular}{lr" + "c" * len(sys_h) + "}", "\\toprule",
+             "History & Users & " + " & ".join(XN[x] for x in sys_h) + " \\\\", "\\midrule"]
+    for label, row in EXTRA["history_all"].items():
+        lines.append(label.replace("–", "--") + f" & {row['n_users']:,}".replace(",", "{,}") + " & "
+                     + " & ".join(f"{row[x]['mean']:.3f}" for x in sys_h) + " \\\\")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    write("history", "\n".join(lines))
+
+    order = ["popularity", "itemknn", "content", "gru", "gru_text", "sasrec", "recency", "vanilla_rag",
+             "arag", "arag_gru", "arag_gru_text"]
+    b = EXTRA["beyond_accuracy_100"]
+    o = EXTRA["overall_100"]
+    lines = ["\\begin{tabular}{lcccc}", "\\toprule",
+             "System & NDCG@5 & Popularity lift & Diversity (ILD) & Coverage \\\\", "\\midrule"]
+    for x in order:
+        if x in b:
+            lines.append(f"{XN[x]} & {o[x]['ndcg@5']['mean']:.3f} & {b[x]['popularity_lift']['mean']:.3f} & "
+                         f"{b[x]['diversity_ild']['mean']:.3f} & {b[x]['coverage']:.3f} \\\\")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    write("beyond", "\n".join(lines))
+
+    lines = ["\\begin{tabular}{lrc}", "\\toprule", "Contrast ($\\Delta$NDCG@5) & Users & 95\\% CI \\\\", "\\midrule"]
+    for name, t in EXTRA["sasrec_tests"].items():
+        lo, hi = t["ci"]
+        sig = "$^{*}$" if t["significant"] else ""
+        lines.append(f"{name} & {t['n']:,}".replace(",", "{,}") + f" & ${t['mean_diff']:+.3f}$ [${lo:+.3f}$, ${hi:+.3f}$]{sig} \\\\")
+    lines += ["\\bottomrule", "\\end{tabular}"]
+    write("sasrec", "\n".join(lines))
+
+
 if __name__ == "__main__":
     print("Generating paper tables ->", OUT)
     main_table()
     all_users_table()
     paired_table()
     tuning_table()
+    extra_tables()
