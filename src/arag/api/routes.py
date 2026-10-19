@@ -26,6 +26,11 @@ def health(request: Request):
     return _service(request).health()
 
 
+@router.get("/dataset")
+def dataset(request: Request):
+    return _service(request).dataset_stats()
+
+
 @router.get("/users")
 def users(request: Request):
     return _service(request).list_users()
