@@ -350,7 +350,7 @@ export default function App() {
   const [user, setUser] = useState("")
   const [session, setSession] = useState("")
   const [history, setHistory] = useState([])
-  const [view, setView] = useState("home")
+  const [view, setView] = useState(() => (window.location.hash === "#research" ? "research" : "home"))
   const [query, setQuery] = useState("")
   const [draft, setDraft] = useState("")
   const [run, setRun] = useState(null)

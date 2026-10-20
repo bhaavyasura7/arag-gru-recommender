@@ -249,6 +249,7 @@ button:disabled { opacity: 0.5; cursor: default; }
 .finding { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-bottom: 8px; }
 .finding-item { min-width: 0; background: var(--panel); border: 1px solid var(--line); border-left: 4px solid var(--line); border-radius: 12px; padding: 12px 14px; }
 .finding-item.sig { border-left-color: var(--green); background: var(--green-soft); }
+.finding-item.neg { border-left-color: var(--amber); background: var(--amber-soft); }
 .finding-k { font-size: 0.78rem; color: var(--muted); font-weight: 600; }
 .finding-v { font-size: 1.15rem; font-weight: 700; margin: 2px 0; }
 .finding-ci { font-size: 0.78rem; color: var(--muted); }
@@ -274,6 +275,17 @@ table.metrics tr.hl { background: var(--accent-soft); font-weight: 700; }
 .swatch-val { background: var(--accent); }
 .swatch-test { background: var(--green); }
 .swatch-best { background: var(--amber); }
+.finding-note { font-size: 0.8rem; margin-top: 6px; color: #374151; }
+.small-note { font-size: 0.8rem; margin: 6px 0 0; }
+.bar-col { min-width: 170px; }
+.bar { display: inline-block; vertical-align: middle; width: 100px; height: 8px; margin-right: 8px; background: #f0f1f3; border-radius: 4px; overflow: hidden; }
+.bar span { display: block; height: 100%; background: var(--accent); border-radius: 4px; }
+.fam { display: inline-block; font-size: 0.7rem; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: #f3f4f6; color: #374151; }
+.fam-trained { background: var(--green-soft); color: var(--green); }
+.fam-llm { background: var(--amber-soft); color: var(--amber); }
+.fam-hybrid { background: var(--accent-soft); color: var(--accent); }
+.more { margin: 18px 0 4px; }
+.more summary { cursor: pointer; font-weight: 600; margin-bottom: 8px; }
 .protocol { margin: 6px 0; padding-left: 20px; color: #374151; font-size: 0.88rem; line-height: 1.6; }
 .protocol li { margin-bottom: 4px; overflow-wrap: anywhere; }
 
@@ -286,6 +298,8 @@ table.metrics tr.hl { background: var(--accent-soft); font-weight: 700; }
 @media (max-width: 720px) {
   .modal-grid { grid-template-columns: 1fr; }
   .finding { grid-template-columns: 1fr; }
+  .bar { width: 60px; }
+  .bar-col { min-width: 120px; }
   .nli-list li { grid-template-columns: 60px 28px minmax(0, 1fr); }
   .nli-why { display: none; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
