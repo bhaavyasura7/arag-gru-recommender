@@ -202,7 +202,7 @@ export default function ResultsView({ data, stats, nDemo }) {
           </div>
           <div className="how-step">
             <div className="how-n">2</div>
-            <div><b>Make a list of 20 games</b>: the hidden one + 19 random ones. Every system gets the exact same list.</div>
+            <div><b>Make a list of 20 games</b>: the hidden one + 19 decoys, picked so they are about as popular as the real one. Every system gets the exact same list.</div>
           </div>
           <div className="how-step">
             <div className="how-n">3</div>
