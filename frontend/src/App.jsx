@@ -10,7 +10,6 @@ const PAGE_SIZE = 12
 const AGENTS = ["Reading your history", "Checking each game against your taste", "Summarising the best matches", "Ranking + GRU fusion"]
 const EXAMPLES = ["open world rpg", "racing game for kids", "nintendo switch controller", "gaming headset under 50"]
 
-const fmtN = (n) => (n == null ? "–" : Number(n).toLocaleString())
 const fmtDate = (ts) => (ts ? new Date(ts).toLocaleDateString(undefined, { year: "numeric", month: "short" }) : "")
 
 function parseList(s) {
@@ -321,24 +320,9 @@ function Profile({ user }) {
 function Research({ stats, nDemo }) {
   const [results, setResults] = useState(null)
   useEffect(() => { api.results().then(setResults).catch(() => {}) }, [])
-  const r = stats?.rows || {}
-  const tiles = [
-    ["Customers", r.users], ["Reviews", r.interactions], ["Products", r.items],
-    ["GRU training reviews", r.interactions_train], ["LLM test customers", stats?.eval_users?.test], ["Demo accounts", nDemo],
-  ]
   return (
-    <section className="section">
-      <h1>Behind the store</h1>
-      <p className="muted">
-        Amazon Reviews 2023 · Video Games (5-core). A review is our stand-in for a purchase. The demo accounts are the
-        test customers ARAG was evaluated on; the GRU was trained on every customer.
-      </p>
-      <div className="stat-row">
-        {tiles.map(([k, v]) => (
-          <div key={k} className="stat"><div className="stat-v">{fmtN(v)}</div><div className="stat-k">{k}</div></div>
-        ))}
-      </div>
-      <ResultsView data={results} />
+    <section className="section research">
+      <ResultsView data={results} stats={stats} nDemo={nDemo} />
     </section>
   )
 }
