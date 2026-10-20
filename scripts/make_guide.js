@@ -406,7 +406,7 @@ N([
   "**Give feedback:** Like, Save or Dismiss. Dismissed items never appear again for that customer; the GRU’s user vector is recomputed from the updated sequence on the next request (no retraining).",
   "**Search** (top bar): try a natural-language query such as “racing game for PS4 under 30 dollars” or “horror games but not zombies”. The LLM parses keywords, max price and exclusions; FAISS finds matches; ARAG + GRU re-rank them for this customer.",
   "**Taste profile:** view, regenerate or delete the stored UUA profile (what the agent “thinks” about this customer and which events it used).",
-  "**Research:** the evaluation results — dataset size, the main table, H1/H2 with confidence intervals and the α curve; token counts instead of dollar cost because replayed runs are free.",
+  "**Research:** the results told as seven plain questions — does the GRU help ARAG (yes), does the blend beat the GRU (about the same), which system is most accurate (SASRec, our blend right behind), does text help (yes), where ARAG wins (popularity bias), do short histories hurt (barely), how α was chosen. Each has an answer badge, bars with 95% ranges and a short explanation; full tables, a metric glossary and limits are in collapsible sections. Open it directly at /#research.",
   "**Switch customers** and compare: a PlayStation collector and an accessories buyer get visibly different pages.",
 ]);
 NOTE("Offline caveat.", "In replay mode only requests whose LLM answers are already cached work. Pages and queries tried before replay instantly; new ones need Option A (an API key).", "FFF4E5", "C55A11");
