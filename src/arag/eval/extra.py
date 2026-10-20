@@ -91,6 +91,14 @@ def hit5(r):
     return hit_at_k(r, 5)
 
 
+def ndcg10(r):
+    return ndcg_at_k(r, 10)
+
+
+def hit10(r):
+    return hit_at_k(r, 10)
+
+
 # ---------------------------------------------------------------------------
 # 1. history length
 # ---------------------------------------------------------------------------
@@ -327,7 +335,7 @@ def main() -> None:
     logger.info("history-length analysis done")
 
     for key, users, systems in [("overall_100", users_100, systems_100), ("overall_all", users_all, systems_all)]:
-        res[key] = {s: {name: mean_ci(R.metric(s, users, fn)) for name, fn in [("ndcg@5", ndcg5), ("hit@5", hit5), ("mrr", mrr)]}
+        res[key] = {s: {name: mean_ci(R.metric(s, users, fn)) for name, fn in [("ndcg@5", ndcg5), ("hit@5", hit5), ("ndcg@10", ndcg10), ("hit@10", hit10), ("mrr", mrr)]}
                     for s in systems}
     if "sasrec" in R.available:
         tests = {}
