@@ -147,4 +147,9 @@ def results(request: Request):
         raise HTTPException(status_code=404, detail="results/metrics.json not found")
     import json
     with open(p, "r", encoding="utf-8") as fh:
-        return json.load(fh)
+        out = json.load(fh)
+    extra = cfg.path("results") / "extra_metrics.json"  # SASRec, history length, beyond-accuracy
+    if os.path.exists(extra):
+        with open(extra, "r", encoding="utf-8") as fh:
+            out["extra"] = json.load(fh)
+    return out
