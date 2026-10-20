@@ -11,6 +11,7 @@ const NAMES = {
   arag: "ARAG",
   arag_gru: "ARAG + GRU",
   arag_gru_text: "ARAG + text-GRU",
+  arag_content: "ARAG + content",
   arag_wo_nli: "ARAG w/o NLI",
   arag_wo_nli_csa: "ARAG w/o NLI & CSA",
 }
@@ -18,8 +19,9 @@ const FAMILY = {
   random: "baseline", popularity: "baseline", content: "classic", itemknn: "classic",
   gru: "trained", gru_text: "trained", sasrec: "trained",
   recency: "llm", vanilla_rag: "llm", arag: "llm",
-  arag_gru: "hybrid", arag_gru_text: "hybrid",
+  arag_gru: "hybrid", arag_gru_text: "hybrid", arag_content: "hybrid",
 }
+const COLS = [["hit@5", "Hit@5"], ["ndcg@10", "NDCG@10"], ["hit@10", "Hit@10"], ["mrr", "MRR"]]
 const FAMILY_LABEL = { baseline: "Baseline", classic: "Classic", trained: "Trained model", llm: "LLM", hybrid: "ARAG + model" }
 const TRAINED = ["gru", "gru_text", "sasrec", "content"]
 function AlphaCurve({ val, test, best }) {
@@ -93,7 +95,8 @@ export default function ResultsView({ data }) {
     ({ gru: flip(st["ARAG vs GRU (ID)"]), gru_text: flip(st["ARAG vs Text-aware GRU"]), sasrec: flip(st["ARAG vs SASRec"]) })[s] ??
     m[`${s}_vs_arag`]?.["ndcg@5"]
 
-  const overall = ex.overall_100 || {}
+  const overall = { ...(ex.overall_100 || {}) }
+  if (m.arag_content && !overall.arag_content) overall.arag_content = m.arag_content
   const board = Object.keys(overall)
     .filter((s) => NAMES[s])
     .sort((a, b) => overall[b]["ndcg@5"].mean - overall[a]["ndcg@5"].mean)
@@ -136,7 +139,7 @@ export default function ResultsView({ data }) {
           <div className="table-wrap">
             <table className="metrics">
               <thead>
-                <tr><th>System</th><th>Type</th><th className="bar-col">NDCG@5</th><th>Hit@5</th><th>MRR</th><th>vs ARAG</th></tr>
+                <tr><th>System</th><th>Type</th><th className="bar-col">NDCG@5</th>{COLS.map(([k, l]) => <th key={k}>{l}</th>)}<th>vs ARAG</th></tr>
               </thead>
               <tbody>
                 {board.map((s) => {
@@ -150,8 +153,7 @@ export default function ResultsView({ data }) {
                         <div className="bar"><span style={{ width: `${(100 * r["ndcg@5"].mean) / top}%` }} /></div>
                         <b>{f3(r["ndcg@5"].mean)}</b>
                       </td>
-                      <td>{f3(r["hit@5"]?.mean)}</td>
-                      <td>{f3(r.mrr?.mean)}</td>
+                      {COLS.map(([k]) => <td key={k}>{f3(r[k]?.mean)}</td>)}
                       <td className={sig(d?.ci) ? "sig-cell" : ""}>{s === "arag" ? "—" : `${fd(d?.mean_diff)} ${sig(d?.ci) ? "✓" : "–"}`}</td>
                     </tr>
                   )
@@ -161,7 +163,7 @@ export default function ResultsView({ data }) {
           </div>
           <p className="muted small-note">
             ✓ = significant difference from ARAG (95% CI excludes 0). GRU, text-GRU and SASRec are 3-seed averages. With
-            100 customers, gaps under ~0.03 are not reliable.
+            100 customers, gaps under ~0.03 are not reliable. NDCG@k / Hit@k look at the top k of 20; MRR = 1 / rank of the real game.
           </p>
         </>
       )}
@@ -171,15 +173,14 @@ export default function ResultsView({ data }) {
           <h3>All {fmt(data.n_test_users_all)} test customers · non-LLM models</h3>
           <div className="table-wrap">
             <table className="metrics">
-              <thead><tr><th>System</th><th>NDCG@5</th><th>95% CI</th><th>Hit@5</th><th>MRR</th></tr></thead>
+              <thead><tr><th>System</th><th>NDCG@5</th><th>95% CI</th>{COLS.map(([k, l]) => <th key={k}>{l}</th>)}</tr></thead>
               <tbody>
                 {allRows.map((s) => (
                   <tr key={s} className={s === allRows[0] ? "hl" : ""}>
                     <td>{NAMES[s] || s}</td>
                     <td>{f3(all[s]["ndcg@5"].mean)}</td>
                     <td>[{f3(all[s]["ndcg@5"].ci[0])}, {f3(all[s]["ndcg@5"].ci[1])}]</td>
-                    <td>{f3(all[s]["hit@5"]?.mean)}</td>
-                    <td>{f3(all[s].mrr?.mean)}</td>
+                    {COLS.map(([k]) => <td key={k}>{f3(all[s][k]?.mean)}</td>)}
                   </tr>
                 ))}
               </tbody>
@@ -251,7 +252,7 @@ export default function ResultsView({ data }) {
           <summary>ARAG ablations (removing agents)</summary>
           <div className="table-wrap">
             <table className="metrics">
-              <thead><tr><th>System</th><th>NDCG@5</th><th>vs ARAG</th></tr></thead>
+              <thead><tr><th>System</th><th>NDCG@5</th>{COLS.map(([k, l]) => <th key={k}>{l}</th>)}<th>vs ARAG</th></tr></thead>
               <tbody>
                 {["arag", "arag_wo_nli", "arag_wo_nli_csa"].map((s) => {
                   const d = m[`${s}_vs_arag`]?.["ndcg@5"]
@@ -259,6 +260,7 @@ export default function ResultsView({ data }) {
                     <tr key={s}>
                       <td>{NAMES[s]}</td>
                       <td>{f3(m[s]?.["ndcg@5"]?.mean)}</td>
+                      {COLS.map(([k]) => <td key={k}>{f3(m[s]?.[k]?.mean)}</td>)}
                       <td className={sig(d?.ci) ? "sig-cell" : ""}>{s === "arag" ? "—" : `${fd(d?.mean_diff)} ${sig(d?.ci) ? "✓" : "–"}`}</td>
                     </tr>
                   )
