@@ -1,7 +1,7 @@
 VENV := .venv
 PY := $(VENV)/bin/python
 
-.PHONY: setup freeze data lists index gru gru-text eval report test verify app all clean
+.PHONY: setup freeze data lists index gru gru-text sasrec extra eval report test verify app all clean
 
 ## Create the venv and install Python + frontend dependencies.
 setup:
@@ -36,6 +36,14 @@ gru-text:
 	$(PY) -m arag.models.train_gru --text
 
 ## Run all systems on validation (theta/alpha tuning) then test. Resumable via cache.
+## SASRec baseline (same protocol as the GRU; ~1 h on CPU).
+sasrec:
+	$(PY) -m arag.models.train_sasrec
+
+## Extra analyses: history length, SASRec comparison, beyond-accuracy (no LLM calls).
+extra:
+	$(PY) -m arag.eval.extra
+
 eval:
 	$(PY) -m arag.eval.run
 
