@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07ZT5VJSB",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to Zelda games."
+      },
+      {
+        "item_id": "B00004SVXW",
+        "label": "support",
+        "score": 10,
+        "rationale": "Directly related to Zelda series."
+      },
+      {
+        "item_id": "B09Y5KBDW6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Nintendo Switch."
+      },
+      {
+        "item_id": "B0009ER38O",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different genre, not Zelda related."
+      },
+      {
+        "item_id": "B006OIM8CA",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Repair part, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1338,
+    "completion_tokens": 152
+  }
+}

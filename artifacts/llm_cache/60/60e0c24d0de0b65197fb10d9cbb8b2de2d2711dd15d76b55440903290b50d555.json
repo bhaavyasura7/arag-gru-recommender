@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0CDK8Q5T7",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers games, not accessories."
+      },
+      {
+        "item_id": "B00IZT5Y6S",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has PlayStation Vita interest."
+      },
+      {
+        "item_id": "B09ZB6NG7G",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User focuses on consoles, not peripherals."
+      },
+      {
+        "item_id": "B0948WCYVF",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Nintendo Switch products."
+      },
+      {
+        "item_id": "B079JP1MMC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers games over protective cases."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1211,
+    "completion_tokens": 156
+  }
+}

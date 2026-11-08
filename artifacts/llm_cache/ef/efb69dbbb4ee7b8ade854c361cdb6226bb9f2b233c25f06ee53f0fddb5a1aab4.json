@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B005D7G3LA",
+      "B003A0VK10",
+      "B003VWC124",
+      "B001EYUNXK",
+      "B0037M5W24",
+      "B00KWIYPZG",
+      "B006HZA8EA",
+      "B00FR7U15U",
+      "B00L2FGSBM",
+      "B08DCLV85W",
+      "B07J3P1GJM",
+      "B002B9XB0E",
+      "B00NAW5R0I",
+      "B003IU01LC",
+      "B00NAW5R0I",
+      "B01HHKDBRO",
+      "B0B5M66PSW",
+      "B07P27XFP7",
+      "B00KWIYPZG",
+      "B003A0VK10",
+      "B003IU01LC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B005D7G3LA",
+        "reason": "Engaging strategy simulation game"
+      },
+      {
+        "item_id": "B003A0VK10",
+        "reason": "Unique kingdom simulation experience"
+      },
+      {
+        "item_id": "B003VWC124",
+        "reason": "Classic strategy game with expansions"
+      },
+      {
+        "item_id": "B001EYUNXK",
+        "reason": "Immersive gameplay in a fantasy setting"
+      },
+      {
+        "item_id": "B0037M5W24",
+        "reason": "Multiplayer hunting strategy game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3810,
+    "completion_tokens": 336
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "music games",
+      "superhero games",
+      "sports games",
+      "handheld gaming"
+    ],
+    "current_intent": "looking for new video games to play",
+    "avoid": [
+      "non-gaming products",
+      "low-rated games",
+      "boring genres"
+    ],
+    "summary": "User enjoys video games, especially music, superhero, and sports genres, and is currently seeking new gaming experiences."
+  },
+  "usage": {
+    "prompt_tokens": 297,
+    "completion_tokens": 77
+  }
+}

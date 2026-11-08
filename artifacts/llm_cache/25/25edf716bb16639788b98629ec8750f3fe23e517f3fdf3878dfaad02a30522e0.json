@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00005KFSF",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B00TRC3RLQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Skylanders is a Nintendo franchise."
+      },
+      {
+        "item_id": "B0037HPS6Y",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not play Xbox games."
+      },
+      {
+        "item_id": "B00004TJDK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers modern PlayStation games."
+      },
+      {
+        "item_id": "B00JQR54Q8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for Xbox, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1347,
+    "completion_tokens": 160
+  }
+}

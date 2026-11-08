@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B000ANY9QS",
+      "B004YIM3OU",
+      "B00002R29G",
+      "B00008YGQI",
+      "B07DLLXF58",
+      "B000FDTKEPE",
+      "B09TXR8F3C",
+      "B09XB66KBD",
+      "B0BX8HN93J",
+      "B01LEWV79K",
+      "B003UVADAS",
+      "B00B5QGJ5S",
+      "B00EIWTFQ6",
+      "B07W924264",
+      "B00B7UHWB2",
+      "B096RYM5PM",
+      "B0BQ2LM1KL",
+      "B00GT3PG56",
+      "B00FDTKEPE",
+      "B09TVDJW2B",
+      "B00B5QGJ5S"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000ANY9QS",
+        "reason": "Nostalgic Nintendo collectible game"
+      },
+      {
+        "item_id": "B004YIM3OU",
+        "reason": "Protective case for Nintendo 3DS"
+      },
+      {
+        "item_id": "B00002R29G",
+        "reason": "Classic wrestling game for Nintendo 64"
+      },
+      {
+        "item_id": "B00008YGQI",
+        "reason": "Legacy game for GameCube"
+      },
+      {
+        "item_id": "B07DLLXF58",
+        "reason": "High-quality gaming headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3493,
+    "completion_tokens": 331
+  }
+}

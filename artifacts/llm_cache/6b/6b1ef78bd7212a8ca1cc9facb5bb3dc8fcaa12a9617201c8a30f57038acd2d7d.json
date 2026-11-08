@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000HCU7CC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B0030T1U2A",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC strategy game, user prefers action games."
+      },
+      {
+        "item_id": "B09YMBM8N6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo Switch accessories, user prefers PlayStation."
+      },
+      {
+        "item_id": "B08RN4CSSW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Gaming keyboard, not directly related to games."
+      },
+      {
+        "item_id": "B01LVTRP7D",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse, not a game itself."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1371,
+    "completion_tokens": 165
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07P2W7NPS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers modern gaming headsets."
+      },
+      {
+        "item_id": "B004G45V8C",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in DSi."
+      },
+      {
+        "item_id": "B00009YXE0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PC gaming over consoles."
+      },
+      {
+        "item_id": "B00KGCPT4O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User may enjoy casual PC games."
+      },
+      {
+        "item_id": "B0B1MBB7SZ",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has interest in gaming headsets."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1154,
+    "completion_tokens": 165
+  }
+}

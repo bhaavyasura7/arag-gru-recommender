@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00005ME6O",
+      "B007VDOOBU",
+      "B078GLDBZX",
+      "B00D5SZ04K",
+      "B00Z9TIGCG",
+      "B0091GS8R6",
+      "B07YBX5FVF",
+      "B003TSANLQ",
+      "B00LVAHX9O",
+      "B00O99EWPM",
+      "B08FY73CRW",
+      "B0B7HD8865",
+      "B0051D8P26",
+      "B0BNPKQ5N8",
+      "B08MBMWTYR",
+      "B12YBXFF99",
+      "B00CSIB3PS",
+      "B0BPM13LPG",
+      "B07YBXFF99",
+      "B00D5SZ04K"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00005ME6O",
+        "reason": "Classic horror game experience"
+      },
+      {
+        "item_id": "B007VDOOBU",
+        "reason": "Highly rated single-player title"
+      },
+      {
+        "item_id": "B078GLDBZX",
+        "reason": "Includes classic arcade games"
+      },
+      {
+        "item_id": "B00D5SZ04K",
+        "reason": "Popular racing game on PS3"
+      },
+      {
+        "item_id": "B00Z9TIGCG",
+        "reason": "Engaging single-player content"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3982,
+    "completion_tokens": 322
+  }
+}

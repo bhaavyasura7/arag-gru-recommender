@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07TD17MTK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with console preferences."
+      },
+      {
+        "item_id": "B00F4OZMHS",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances Xbox 360 gaming experience."
+      },
+      {
+        "item_id": "B008B2OSQQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not a preferred game genre."
+      },
+      {
+        "item_id": "B06XC5JQ8V",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Switch not in user history."
+      },
+      {
+        "item_id": "B00002SVBL",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Older PC game, not a strong interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1371,
+    "completion_tokens": 155
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07T6WCM7C",
+      "B07Y7C43P6",
+      "B00US76VKS",
+      "B00U7DREDG",
+      "B01JJFG1XG",
+      "B00009XS6G",
+      "B000067O0D",
+      "B073Z99D25",
+      "B004LM4UMM",
+      "B0C6YY17NJ",
+      "B0891XRMGC",
+      "B000R5H7KE",
+      "B004M5ID9O",
+      "B00J1ZSOTE",
+      "B002EE7OKE",
+      "B00081K4AM",
+      "B01JHB3J82",
+      "B00081K4AM",
+      "B07MJJL3FH",
+      "B000067O0D",
+      "B19TQZZJ2V"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07T6WCM7C",
+        "reason": "High-quality gaming accessory"
+      },
+      {
+        "item_id": "B07Y7C43P6",
+        "reason": "Popular gaming title"
+      },
+      {
+        "item_id": "B00US76VKS",
+        "reason": "Relevant Xbox content"
+      },
+      {
+        "item_id": "B00U7DREDG",
+        "reason": "Classic game for nostalgia"
+      },
+      {
+        "item_id": "B01JJFG1XG",
+        "reason": "Replacement part for controllers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3313,
+    "completion_tokens": 332
+  }
+}

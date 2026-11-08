@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00MUY0OFU",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo Wii U interests."
+      },
+      {
+        "item_id": "B013OW09WY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not related to user's preferred systems."
+      },
+      {
+        "item_id": "B08NRVRF3J",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "For PS4, not Nintendo systems."
+      },
+      {
+        "item_id": "B08N7PX4WX",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to Nintendo, but not Wii U."
+      },
+      {
+        "item_id": "B002I0K8SE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "For PlayStation, not Nintendo systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1253,
+    "completion_tokens": 164
+  }
+}

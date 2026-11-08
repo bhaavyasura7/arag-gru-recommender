@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00002EPZ2",
+        "label": "support",
+        "score": 8,
+        "rationale": "Classic RPG aligns with user preferences."
+      },
+      {
+        "item_id": "B00Z9TIGCG",
+        "label": "support",
+        "score": 7,
+        "rationale": "Military shooter matches user gaming interests."
+      },
+      {
+        "item_id": "B08GMTJYXJ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Retro gaming may not align with preferences."
+      },
+      {
+        "item_id": "B0053B7ICO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Horror shooter differs from user's interests."
+      },
+      {
+        "item_id": "B0B9MJK753",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Accessory not relevant to gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1453,
+    "completion_tokens": 156
+  }
+}

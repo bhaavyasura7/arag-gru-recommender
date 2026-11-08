@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07Z9F3GLG",
+      "B00005B43U",
+      "B006NU6EJC",
+      "B00005RCPT",
+      "B078GCN37N",
+      "B000WMEEAI",
+      "B000054BEB",
+      "B001LRQ8TI",
+      "B0859WXCCT",
+      "B075PH6YKJ",
+      "B0009NWQFK",
+      "B000LV7PC4",
+      "B000OF0O8Y",
+      "B000F4WM1XS",
+      "B00005B43U",
+      "B0009NWQFK",
+      "B005HUVT62",
+      "B00005RCPT",
+      "B000LV7PC4",
+      "B0009NWQFK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07Z9F3GLG",
+        "reason": "Highly rated anime-themed game"
+      },
+      {
+        "item_id": "B00005B43U",
+        "reason": "Classic action-adventure title"
+      },
+      {
+        "item_id": "B006NU6EJC",
+        "reason": "Engaging simulation experience"
+      },
+      {
+        "item_id": "B00005RCPT",
+        "reason": "Popular RPG with adventure elements"
+      },
+      {
+        "item_id": "B078GCN37N",
+        "reason": "Unique exploration gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2934,
+    "completion_tokens": 310
+  }
+}

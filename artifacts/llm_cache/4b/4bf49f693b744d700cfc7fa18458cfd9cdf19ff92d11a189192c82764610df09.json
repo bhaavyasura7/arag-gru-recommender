@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BL9SNXFQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo 3DS games."
+      },
+      {
+        "item_id": "B07869V1JT",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Compatible with Nintendo Switch, not primary interest."
+      },
+      {
+        "item_id": "B000Q6J51S",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly related to Nintendo DS games."
+      },
+      {
+        "item_id": "B006HZA7Y6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox 360 game, not Nintendo related."
+      },
+      {
+        "item_id": "B0019N6RG8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Wii accessory, not directly aligned."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1335,
+    "completion_tokens": 165
+  }
+}

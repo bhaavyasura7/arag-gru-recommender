@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "retro gaming",
+      "video game accessories",
+      "Nintendo products",
+      "wireless controllers",
+      "gaming hardware protection"
+    ],
+    "current_intent": "Looking for more gaming accessories or protective gear.",
+    "avoid": [
+      "high-priced items",
+      "non-gaming products",
+      "generic brands"
+    ],
+    "summary": "The user enjoys retro gaming and seeks affordable accessories for their gaming consoles, particularly focusing on protective gear and wireless controllers."
+  },
+  "usage": {
+    "prompt_tokens": 380,
+    "completion_tokens": 95
+  }
+}

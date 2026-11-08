@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B074C49V46",
+      "B00XUZFFBG",
+      "B001CDKE9M4",
+      "B17ZV7GGB3",
+      "B000062YCV",
+      "B0036N6E2Q",
+      "B00002JXBC",
+      "B004E0M5H8",
+      "B0913J86YM",
+      "B091HSSYV9",
+      "B000R37S00",
+      "B002BXJ7G2",
+      "B000MWWN7O",
+      "B00TAAA42U",
+      "B000RO5JH8",
+      "B000BFLRNKW",
+      "B000EAYCHG",
+      "B000HZ9741H",
+      "B000BFLRNKW",
+      "B000MWWN7O"
+    ],
+    "reasons": [
+      {
+        "item_id": "B074C49V46",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B00XUZFFBG",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B01CDKE9M4",
+        "reason": "Unlocks content for Mortal Kombat"
+      },
+      {
+        "item_id": "B17ZV7GGB3",
+        "reason": "Remastered action game with multiplayer"
+      },
+      {
+        "item_id": "B000062YCV",
+        "reason": "Classic wrestling game for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3216,
+    "completion_tokens": 328
+  }
+}

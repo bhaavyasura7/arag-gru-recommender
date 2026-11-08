@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000H3OBFU",
+      "B002DO87NS",
+      "B01LZ8BG4F",
+      "B00554EXG8",
+      "B000621X5S",
+      "B013J1QRHG",
+      "B00080Q7KY",
+      "B19L8W5V6",
+      "B07YD1TM37",
+      "B0BJWZZ9T1",
+      "B0B49HTMHG",
+      "B00064X50M",
+      "B008B32ZCE",
+      "B0038MMAH8",
+      "B000035XI5",
+      "B000H3OBFU",
+      "B00080Q7KY",
+      "B00064X50M",
+      "B000621X5S",
+      "B07DFD6HDK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000H3OBFU",
+        "reason": "Popular retro Nintendo game"
+      },
+      {
+        "item_id": "B002DO87NS",
+        "reason": "Engaging Nintendo DS game"
+      },
+      {
+        "item_id": "B01LZ8BG4F",
+        "reason": "Useful accessory for retro consoles"
+      },
+      {
+        "item_id": "B00554EXG8",
+        "reason": "Classic Nintendo game experience"
+      },
+      {
+        "item_id": "B000621X5S",
+        "reason": "Legacy PlayStation game option"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3343,
+    "completion_tokens": 318
+  }
+}

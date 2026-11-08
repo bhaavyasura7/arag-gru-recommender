@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0000C4E7C",
+      "B000AA87EG",
+      "B000IBVADW",
+      "B00005US8K",
+      "B00005JFZN",
+      "B0006373KQ",
+      "B000059P0T",
+      "B00005MP0D",
+      "B00005QEFI",
+      "B000ICKLPE",
+      "B00004SVUR",
+      "B001QCWQF8",
+      "B0000302P8",
+      "B0007KWOR0",
+      "B00006TNCP0",
+      "B00005MP0D",
+      "B00005JFZN",
+      "B00005JFZN",
+      "B00005JFZN",
+      "B00005JFZN"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0000C4E7C",
+        "reason": "Realistic flight physics and missions"
+      },
+      {
+        "item_id": "B000AA87EG",
+        "reason": "Modern jets and multiplayer options"
+      },
+      {
+        "item_id": "B000IBVADW",
+        "reason": "Classic combat jet experience"
+      },
+      {
+        "item_id": "B00005US8K",
+        "reason": "Wide selection of fighters available"
+      },
+      {
+        "item_id": "B00005JFZN",
+        "reason": "Engaging single-player campaign"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2543,
+    "completion_tokens": 306
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000092W8W",
+      "B00XPM3TFI",
+      "B0BHVPZH7R",
+      "B0BZGMSVYK",
+      "B16F217SXB",
+      "B09644NPJ4",
+      "B07KSYFP8V",
+      "B08KQS2RRK",
+      "B08MVK1W54",
+      "B08N5XZ6L5",
+      "B01N8X8HO2",
+      "B08PB3J789",
+      "B08K327RKS",
+      "B002MB0BUO",
+      "B087RCMV4N",
+      "B08F217SXB",
+      "B07G5PPPFX",
+      "B08KQS2RRK",
+      "B092SD4L6P",
+      "B08KQS2RRK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000092W8W",
+        "reason": "Classic PS2 game title"
+      },
+      {
+        "item_id": "B00XPM3TFI",
+        "reason": "Retro Xbox 360 game"
+      },
+      {
+        "item_id": "B0BHVPZH7R",
+        "reason": "Xbox 360 controller accessory"
+      },
+      {
+        "item_id": "B0BZGMSVYK",
+        "reason": "PSVR2 carrying case"
+      },
+      {
+        "item_id": "B16F217SXB",
+        "reason": "Retro game case for iPhone"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3043,
+    "completion_tokens": 328
+  }
+}

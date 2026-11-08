@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "retro gaming",
+      "gaming accessories",
+      "video game consoles",
+      "gaming headsets",
+      "HDMI converters"
+    ],
+    "current_intent": "looking for gaming accessories or upgrades for retro consoles",
+    "avoid": [
+      "overpriced items",
+      "non-gaming products",
+      "low-quality brands"
+    ],
+    "summary": "User is a retro gaming enthusiast seeking quality accessories and upgrades for older gaming consoles."
+  },
+  "usage": {
+    "prompt_tokens": 520,
+    "completion_tokens": 74
+  }
+}

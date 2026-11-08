@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00001N2MT",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, not aligned with user history."
+      },
+      {
+        "item_id": "B07HFNQRWT",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B000COFGZI",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system game, not user preference."
+      },
+      {
+        "item_id": "B003N46URC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Repair kit, not a game."
+      },
+      {
+        "item_id": "B003KXCGUG",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory for Wii, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 991,
+    "completion_tokens": 156
+  }
+}

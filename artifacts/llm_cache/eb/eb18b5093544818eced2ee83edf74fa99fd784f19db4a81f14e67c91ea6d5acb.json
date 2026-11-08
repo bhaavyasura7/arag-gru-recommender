@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09SHF5XL1",
+        "label": "support",
+        "score": 9,
+        "rationale": "High-quality gaming headset, user preference."
+      },
+      {
+        "item_id": "B013GMXA2I",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular brand, good features for gaming."
+      },
+      {
+        "item_id": "B0B7G4RC16",
+        "label": "support",
+        "score": 9,
+        "rationale": "Wireless, high-quality sound, user interest."
+      },
+      {
+        "item_id": "B083TB41MX",
+        "label": "support",
+        "score": 8,
+        "rationale": "Comfortable, good sound, aligns with preferences."
+      },
+      {
+        "item_id": "B08LHFFWB7",
+        "label": "support",
+        "score": 7,
+        "rationale": "Virtual surround sound, matches gaming needs."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3005,
+    "completion_tokens": 160
+  }
+}

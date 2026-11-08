@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00OZAIKMQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo interest, but not Switch related."
+      },
+      {
+        "item_id": "B00004TEYR",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports Nintendo Switch accessories."
+      },
+      {
+        "item_id": "B072V478NR",
+        "label": "support",
+        "score": 9,
+        "rationale": "Perfect accessory for Nintendo Switch."
+      },
+      {
+        "item_id": "B002I092MM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Nintendo game, but not Switch specific."
+      },
+      {
+        "item_id": "B001C0L7Q8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation game, not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1377,
+    "completion_tokens": 155
+  }
+}

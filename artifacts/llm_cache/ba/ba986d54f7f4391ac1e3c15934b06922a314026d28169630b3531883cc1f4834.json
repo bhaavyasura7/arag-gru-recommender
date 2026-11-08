@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000ZK696O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Action game, not RPG-focused."
+      },
+      {
+        "item_id": "B07D2LGY25",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "New IP, mixed genre appeal."
+      },
+      {
+        "item_id": "B009AFLXQQ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B004CHLNWQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Strong Zelda interest in history."
+      },
+      {
+        "item_id": "B00NFXOQW2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Console bundle, mixed game types."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2363,
+    "completion_tokens": 151
+  }
+}

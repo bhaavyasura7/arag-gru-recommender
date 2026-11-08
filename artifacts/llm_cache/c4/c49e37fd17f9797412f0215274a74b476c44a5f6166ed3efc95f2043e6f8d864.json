@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07YBXFF44",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers platformers, not shooters."
+      },
+      {
+        "item_id": "B01AC3Z9J6",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar platforming style to user favorites."
+      },
+      {
+        "item_id": "B004XYQ3M8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, but compatible."
+      },
+      {
+        "item_id": "B006WVR9CI",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but casual gameplay."
+      },
+      {
+        "item_id": "B003O6G8D4",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not a platformer, but still a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1221,
+    "completion_tokens": 164
+  }
+}

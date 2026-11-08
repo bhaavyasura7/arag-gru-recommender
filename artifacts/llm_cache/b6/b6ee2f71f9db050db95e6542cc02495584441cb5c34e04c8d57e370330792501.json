@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "PlayStation accessories",
+      "Performance thumb grips",
+      "Fighting sticks",
+      "PS5 customization",
+      "Gaming enhancements"
+    ],
+    "current_intent": "Looking for high-quality gaming accessories for PlayStation.",
+    "avoid": [
+      "Low-quality products",
+      "Non-gaming items",
+      "Overpriced accessories"
+    ],
+    "summary": "User is a dedicated gamer focused on enhancing their PlayStation experience with quality accessories."
+  },
+  "usage": {
+    "prompt_tokens": 517,
+    "completion_tokens": 75
+  }
+}

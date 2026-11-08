@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DC7G2W8",
+      "B06Z8Z5F3J",
+      "B00MUY0OFU",
+      "B07P77CLG1",
+      "B00ZOMO3K2",
+      "B12D3F4G5H",
+      "B00BN5T30E",
+      "B001QCWRZC",
+      "B0765TZVMD",
+      "B003IPCF02",
+      "B007OAGLSO",
+      "B00DDILSBG",
+      "B08NRVRF3J",
+      "B08N7PX4WX",
+      "B00002SWA8",
+      "B004OUGQ9Q",
+      "B00GM5W5H8",
+      "B00FLZEXM",
+      "B00MUY0OFU",
+      "B08N7PX4WX"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DC7G2W8",
+        "reason": "Popular Nintendo racing game"
+      },
+      {
+        "item_id": "B0765TZVMD",
+        "reason": "Nintendo-themed accessory kit"
+      },
+      {
+        "item_id": "B00MUY0OFU",
+        "reason": "Essential controller for Wii U"
+      },
+      {
+        "item_id": "B07P77CLG1",
+        "reason": "Battery pack for Nintendo Switch"
+      },
+      {
+        "item_id": "B00ZOMO3K2",
+        "reason": "Amiibo accessory for Nintendo 3DS"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3817,
+    "completion_tokens": 337
+  }
+}

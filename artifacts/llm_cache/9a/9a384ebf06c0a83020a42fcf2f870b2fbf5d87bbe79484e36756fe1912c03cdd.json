@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0009AHCQ6",
+      "B000FRV2UK",
+      "B000021Y30",
+      "B000HASW0I",
+      "B00W3X5E62",
+      "B07V5CFMY4",
+      "B001EYUU2O",
+      "B00BGA9X9W",
+      "B000G75AXY",
+      "B08D3XL1KF",
+      "B000EV0CT6S",
+      "B0009AHCQ6",
+      "B071YVC3NJ",
+      "B099F24PHK",
+      "B0BF5VRLHV",
+      "B0BGLVVCR1",
+      "B00428MTNM",
+      "B0BF5VRLHV",
+      "B000021Y30",
+      "B000HASW0I"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0009AHCQ6",
+        "reason": "Classic NES console experience"
+      },
+      {
+        "item_id": "B000FRV2UK",
+        "reason": "Popular Zelda game for nostalgia"
+      },
+      {
+        "item_id": "B000021Y30",
+        "reason": "N64 classic game for retro fun"
+      },
+      {
+        "item_id": "B000HASW0I",
+        "reason": "PSP game with classic gameplay"
+      },
+      {
+        "item_id": "B00W3X5E62",
+        "reason": "Charger for nostalgic handhelds"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3713,
+    "completion_tokens": 323
+  }
+}

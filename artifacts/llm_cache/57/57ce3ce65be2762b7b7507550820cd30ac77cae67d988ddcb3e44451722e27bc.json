@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01B5S9KEM",
+        "label": "support",
+        "score": 7,
+        "rationale": "Related to Xbox 360 console usage."
+      },
+      {
+        "item_id": "B06WVCWY41",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not related to user's gaming systems."
+      },
+      {
+        "item_id": "B09FQF1WQT",
+        "label": "support",
+        "score": 9,
+        "rationale": "High-performance gaming mouse for PC."
+      },
+      {
+        "item_id": "B0007KTBFS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo DS game, not relevant."
+      },
+      {
+        "item_id": "B0B96LXBMP",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Steam Deck case, not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1332,
+    "completion_tokens": 164
+  }
+}

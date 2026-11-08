@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00LF7HAXM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Xbox, not a game."
+      },
+      {
+        "item_id": "B0BF8H4WNC",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys RPGs, this is one."
+      },
+      {
+        "item_id": "B0CF82DZ4P",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for Switch, not a game."
+      },
+      {
+        "item_id": "B08LP8JWJ7",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's PS4 game."
+      },
+      {
+        "item_id": "B08PDW1Z2G",
+        "label": "support",
+        "score": 9,
+        "rationale": "Includes popular Mario games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 159
+  }
+}

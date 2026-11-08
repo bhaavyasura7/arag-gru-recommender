@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08MBKGJVY",
+      "B001EHD9N8",
+      "B19F6CY625",
+      "B001ELJE8I",
+      "B16K1OO5PU",
+      "B07WS18ZS3",
+      "B07624RBWB",
+      "B0053B7ICO",
+      "B000TTZMCS",
+      "B0056L328K",
+      "B001EYUNYY",
+      "B08NRVRF3J",
+      "B00W9DHUBS",
+      "B018JDBWQ0",
+      "B001EHD9N8",
+      "B086M4DQ7R",
+      "B12NASEX0C",
+      "B0056L328K",
+      "B00I7NA43U",
+      "B00000JRSB",
+      "B08VS3Z468"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08MBKGJVY",
+        "reason": "Directly related to Kingdom Hearts"
+      },
+      {
+        "item_id": "B001EHD9N8",
+        "reason": "Classic RPG from PlayStation"
+      },
+      {
+        "item_id": "B19F6CY625",
+        "reason": "Modern console accessory, not preferred"
+      },
+      {
+        "item_id": "B001ELJE8I",
+        "reason": "Popular retro game title"
+      },
+      {
+        "item_id": "B16K1OO5PU",
+        "reason": "Remastered classic RPG experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3923,
+    "completion_tokens": 330
+  }
+}

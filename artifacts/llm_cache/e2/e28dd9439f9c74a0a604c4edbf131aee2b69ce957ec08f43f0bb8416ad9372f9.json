@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000089G5U",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B00DCUO3SK",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 3 games."
+      },
+      {
+        "item_id": "B00K1L8B40",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B07VTHT18S",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Racing game, but on PlayStation 4."
+      },
+      {
+        "item_id": "B077C47BGP",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR game, different genre from user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 166
+  }
+}

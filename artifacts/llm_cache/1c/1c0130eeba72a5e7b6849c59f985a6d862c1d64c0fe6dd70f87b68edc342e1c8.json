@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Star Trek games",
+      "Nintendo DS games",
+      "Wii games",
+      "stylus accessories",
+      "family-friendly games"
+    ],
+    "current_intent": "Looking for fun and engaging video games for Nintendo consoles.",
+    "avoid": [
+      "poor quality accessories",
+      "high difficulty games",
+      "non-family friendly content"
+    ],
+    "summary": "User enjoys family-friendly video games, particularly for Nintendo consoles, and seeks engaging gameplay experiences."
+  },
+  "usage": {
+    "prompt_tokens": 353,
+    "completion_tokens": 79
+  }
+}

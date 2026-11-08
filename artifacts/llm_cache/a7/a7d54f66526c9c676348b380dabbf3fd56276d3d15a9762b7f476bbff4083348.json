@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003VD56KC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller for Xbox 360, user owns one."
+      },
+      {
+        "item_id": "B09T37XVVV",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Compatible with Xbox, but not owned."
+      },
+      {
+        "item_id": "B004JU0JSA",
+        "label": "support",
+        "score": 7,
+        "rationale": "Xbox 360 controller for Windows, user interests."
+      },
+      {
+        "item_id": "B07Y2RNCQ8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Compatible with Xbox 360, user owns one."
+      },
+      {
+        "item_id": "B002SU7GJ8",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox 360 controller, aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1418,
+    "completion_tokens": 166
+  }
+}

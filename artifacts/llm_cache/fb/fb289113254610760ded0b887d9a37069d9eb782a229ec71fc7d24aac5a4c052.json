@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B004ZCPKDG",
+      "B00DDILSBG",
+      "B11K3KHFSY",
+      "B00A39IEN8",
+      "B0B7HD8865",
+      "B07P2GPJJ9",
+      "B001AW156U",
+      "B07WS5R5DP",
+      "B098KX2GTR",
+      "B00YQM1PNY",
+      "B013HMN66M",
+      "B0025QWPYQ",
+      "B000E9TBRK",
+      "B002IT33S2",
+      "B00AK4QB22",
+      "B00004YUWA",
+      "B07K3KHFSY",
+      "B001Q54VVC",
+      "B07YBXNWXL",
+      "B00884S5N4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004ZCPKDG",
+        "reason": "Highly interactive and engaging gameplay"
+      },
+      {
+        "item_id": "B00DDILSBG",
+        "reason": "Fun multiplayer racing experience"
+      },
+      {
+        "item_id": "B11K3KHFSY",
+        "reason": "Great for Wii sports and action games"
+      },
+      {
+        "item_id": "B00A39IEN8",
+        "reason": "Open world with multiplayer features"
+      },
+      {
+        "item_id": "B0B7HD8865",
+        "reason": "Customizable and practical gaming keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3662,
+    "completion_tokens": 324
+  }
+}

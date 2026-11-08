@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B14CDKVCR7",
+      "B0055ES7OW",
+      "B00005LLSS",
+      "B0BNKXX9SP",
+      "B018ZC8669L",
+      "B008MXPKP2",
+      "B013EJYOMU",
+      "B016A9B5HG",
+      "B000ZEV3U2",
+      "B005UFVLJ4",
+      "B005R40DTM",
+      "B01D93X3QW",
+      "B0876KN5WH",
+      "B001GU9NV0A",
+      "B002I0JZTW",
+      "B004BDJZCG",
+      "B0BBLB1DJN",
+      "B0055ES7OW",
+      "B000VL2VQO",
+      "B0BBLB1DJN"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09CDKVCR7",
+        "reason": "Replacement for PS5 headset"
+      },
+      {
+        "item_id": "B0055ES7OW",
+        "reason": "Kinect clip for Xbox 360"
+      },
+      {
+        "item_id": "B00005LLSS",
+        "reason": "Game cheat codes for PS2"
+      },
+      {
+        "item_id": "B0BNKXX9SP",
+        "reason": "New Xbox controller edition"
+      },
+      {
+        "item_id": "B08ZC8669L",
+        "reason": "Repair tool for PS4/PS5"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3508,
+    "completion_tokens": 329
+  }
+}

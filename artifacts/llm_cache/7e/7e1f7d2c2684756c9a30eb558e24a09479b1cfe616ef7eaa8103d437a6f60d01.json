@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B010N0XTTU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B0092ZEIN4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform than user's games."
+      },
+      {
+        "item_id": "B0BFF97R18",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "VR accessories not in user history."
+      },
+      {
+        "item_id": "B001MW91IW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no PS2 games."
+      },
+      {
+        "item_id": "B000M17AVO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own PS3."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1279,
+    "completion_tokens": 153
+  }
+}

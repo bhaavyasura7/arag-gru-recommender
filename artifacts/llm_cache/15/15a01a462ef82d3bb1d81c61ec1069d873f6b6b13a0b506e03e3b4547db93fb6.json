@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07DML9W41",
+      "B09WBQQ6XT",
+      "B07GCWJM78",
+      "B08F4D36D9",
+      "B0002MQG36",
+      "B01MFFGRVP",
+      "B00UK5A0P0",
+      "B001EYUT6G",
+      "B0009VXBAQ",
+      "B0000AI1KE",
+      "B004XYQ3M8",
+      "B0006B7DXA",
+      "B005FVBYV8",
+      "B00NY7H5EA",
+      "B00002STF7",
+      "B001EYUPHO",
+      "B07YBXFF44",
+      "B0002MQG36",
+      "B006WVR9CI",
+      "B18F4D36D9"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07DML9W41",
+        "reason": "Popular sports game on Switch"
+      },
+      {
+        "item_id": "B09WBQQ6XT",
+        "reason": "Classic TMNT games collection"
+      },
+      {
+        "item_id": "B07GCWJM78",
+        "reason": "New gaming controller for Xbox"
+      },
+      {
+        "item_id": "B08F4D36D9",
+        "reason": "Popular Pokémon game bundle"
+      },
+      {
+        "item_id": "B0002MQG36",
+        "reason": "Action-packed Riddick game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3642,
+    "completion_tokens": 324
+  }
+}

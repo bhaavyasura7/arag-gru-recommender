@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09NNB18PS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to gaming."
+      },
+      {
+        "item_id": "B08V4PMGHZ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Keyboard, not a game."
+      },
+      {
+        "item_id": "B07CK1VR2N",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming keyboard aligns with interests."
+      },
+      {
+        "item_id": "B000VGP7T2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B08RHGW9QZ",
+        "label": "support",
+        "score": 6,
+        "rationale": "Mechanical keyboard for gaming use."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1035,
+    "completion_tokens": 150
+  }
+}

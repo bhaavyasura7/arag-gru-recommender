@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09J4HSXSZ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B000035Y6B",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with Nintendo systems."
+      },
+      {
+        "item_id": "B005EHQJ2C",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo game aligns with user interests."
+      },
+      {
+        "item_id": "B09BN2KXVC",
+        "label": "support",
+        "score": 5,
+        "rationale": "Accessory for Nintendo Switch Lite."
+      },
+      {
+        "item_id": "B0041RWIGW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Related to PlayStation, not Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 153
+  }
+}

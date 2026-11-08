@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "first-person shooters",
+      "action-adventure games",
+      "multiplayer gaming",
+      "historical settings",
+      "console gaming"
+    ],
+    "current_intent": "looking for new video games to play",
+    "avoid": [
+      "puzzle games",
+      "sports games",
+      "mobile games"
+    ],
+    "summary": "The user enjoys action-packed video games, particularly first-person shooters and historical adventures, and is currently seeking new titles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 296,
+    "completion_tokens": 83
+  }
+}

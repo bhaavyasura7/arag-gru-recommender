@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0070EZDRO",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox 360 interests."
+      },
+      {
+        "item_id": "B07NY2YJSH",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User likes video games generally."
+      },
+      {
+        "item_id": "B09NDCX7GK",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has interest in gaming keyboards."
+      },
+      {
+        "item_id": "B001MBP678",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User shows no interest in fishing."
+      },
+      {
+        "item_id": "B0038K69UO",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers modern gaming over vintage."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1035,
+    "completion_tokens": 155
+  }
+}

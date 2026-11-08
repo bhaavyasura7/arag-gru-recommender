@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00004NS11",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B07TD17MTK",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Nintendo devices, needs controllers."
+      },
+      {
+        "item_id": "B09M6YFK7Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User may use a gaming mouse occasionally."
+      },
+      {
+        "item_id": "B09VP9LKJ2",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Nintendo Switch, needs protection."
+      },
+      {
+        "item_id": "B00030CKFU",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User shows no interest in bass games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1167,
+    "completion_tokens": 160
+  }
+}

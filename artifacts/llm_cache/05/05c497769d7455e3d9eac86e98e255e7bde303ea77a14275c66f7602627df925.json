@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B6GM69MS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Compatible with older PlayStation systems."
+      },
+      {
+        "item_id": "B016MC8C68",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Japanese version, not aligned with interests."
+      },
+      {
+        "item_id": "B00UCP1IYA",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports Nintendo 3DS devices."
+      },
+      {
+        "item_id": "B07BLWZR3G",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Wii, matches user history."
+      },
+      {
+        "item_id": "B0BK3KGRTS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "VR golf accessory, not relevant to history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 164
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002BSA388",
+      "B00KXAI6MQ",
+      "B0086VPUHI",
+      "B002I0J5FG",
+      "B0099OUMAQ",
+      "B0050SY300",
+      "B017V6YVDC",
+      "B00LV8IFUW",
+      "B002I08CSW",
+      "B0050SYY5E",
+      "B0094BM8VK",
+      "B00BHRD4BM",
+      "B087CR9TR7",
+      "B0056WJA6M",
+      "B0BLFYF8K2",
+      "B0BMT9B9PX",
+      "B079C6C1RX",
+      "B00OAYHIRA",
+      "B002JTX9VC",
+      "B0050SYY5E"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002BSA388",
+        "reason": "Family-friendly platforming adventure"
+      },
+      {
+        "item_id": "B00KXAI6MQ",
+        "reason": "Fun for kids and family"
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "reason": "Engaging and humorous gameplay"
+      },
+      {
+        "item_id": "B002I0J5FG",
+        "reason": "Classic games for family fun"
+      },
+      {
+        "item_id": "B0099OUMAQ",
+        "reason": "Colorful racing game for kids"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3691,
+    "completion_tokens": 324
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07NDT3FXD",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Visual novel genre, not preferred."
+      },
+      {
+        "item_id": "B09572TDFW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox accessory, user prefers Nintendo."
+      },
+      {
+        "item_id": "B07DHS8SGT",
+        "label": "support",
+        "score": 7,
+        "rationale": "3DS game aligns with user interests."
+      },
+      {
+        "item_id": "B0BB79GLD4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Screen protector, not a game."
+      },
+      {
+        "item_id": "B0048QXD9C",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PS3 game, user prefers Nintendo systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1241,
+    "completion_tokens": 159
+  }
+}

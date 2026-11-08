@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BVKYMWLQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not related to user's gaming interests."
+      },
+      {
+        "item_id": "B00000JIUG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic RPG, not a strong match."
+      },
+      {
+        "item_id": "B0041G5EU0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Platformer, different genre preference."
+      },
+      {
+        "item_id": "B001KMRN0M",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Portable console, not aligned with interests."
+      },
+      {
+        "item_id": "B00503E8S2",
+        "label": "support",
+        "score": 8,
+        "rationale": "Part of Call of Duty franchise, user likes."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1262,
+    "completion_tokens": 163
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B008B3QCJQ",
+      "B0B2X6WCTZ",
+      "B004I1RT1A",
+      "B00005V8TC",
+      "B0044DFHVQ",
+      "B09LTV2PN4",
+      "B07S7BY9MV",
+      "B075NB5DM6",
+      "B000BZ6BPW",
+      "B01ICSN76U",
+      "B09FPFZJ8L",
+      "B0029D57NG",
+      "B07CJGDZJ5",
+      "B093Y94G53",
+      "B000EA8UJY",
+      "B07VLCS2MK",
+      "B018D8FRSK",
+      "B00IG6L4R8",
+      "B00029P9I2",
+      "B0044DFHVQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B008B3QCJQ",
+        "reason": "Engaging RPG gameplay and story"
+      },
+      {
+        "item_id": "B0B2X6WCTZ",
+        "reason": "Popular gaming console for RPGs"
+      },
+      {
+        "item_id": "B004I1RT1A",
+        "reason": "Unique RPG with time mechanics"
+      },
+      {
+        "item_id": "B00005V8TC",
+        "reason": "Fun building and racing mechanics"
+      },
+      {
+        "item_id": "B0044DFHVQ",
+        "reason": "Superhero RPG with engaging story"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3519,
+    "completion_tokens": 333
+  }
+}

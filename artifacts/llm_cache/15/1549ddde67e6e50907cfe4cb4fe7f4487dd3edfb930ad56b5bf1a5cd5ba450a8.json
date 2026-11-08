@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00007M9SH",
+      "B018YXCI18",
+      "B0831KLMFG",
+      "B004YVF8Z8",
+      "B08T5LC9FJ",
+      "B016MN5J0O",
+      "B00D424FSE",
+      "B094VSX6LJ",
+      "B00JC5Y9LK",
+      "B08TBXXCZW",
+      "B08T9KZQZ6",
+      "B07JN57NG4",
+      "B07CVC9CSQ",
+      "B000078JT3",
+      "B07JZ1MD89",
+      "B004Y2VAVS",
+      "B00007M9SH",
+      "B00H900YLE",
+      "B12ZXX67PC",
+      "B08L4PGFXT"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00007M9SH",
+        "reason": "Engaging narrative-driven puzzles"
+      },
+      {
+        "item_id": "B018YXCI18",
+        "reason": "Classic hidden object gameplay"
+      },
+      {
+        "item_id": "B0831KLMFG",
+        "reason": "Quiet keyboard for strategy games"
+      },
+      {
+        "item_id": "B004YVF8Z8",
+        "reason": "Useful gaming accessory"
+      },
+      {
+        "item_id": "B08T5LC9FJ",
+        "reason": "Compatible with PC gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3416,
+    "completion_tokens": 320
+  }
+}

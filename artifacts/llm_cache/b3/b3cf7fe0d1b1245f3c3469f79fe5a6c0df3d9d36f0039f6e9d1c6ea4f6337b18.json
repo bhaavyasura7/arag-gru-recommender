@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B015WJ8QV8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Compatible with PS4, user prefers headsets."
+      },
+      {
+        "item_id": "B078RNR8S7",
+        "label": "support",
+        "score": 7,
+        "rationale": "Supports PS4, user enjoys gaming headsets."
+      },
+      {
+        "item_id": "B01KZUL1CA",
+        "label": "support",
+        "score": 8,
+        "rationale": "Wireless, compatible with PS3 and PS4."
+      },
+      {
+        "item_id": "B07PN8GY68",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar to other headsets, user may like."
+      },
+      {
+        "item_id": "B016MN5J0O",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC headset, user prefers console gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1006,
+    "completion_tokens": 167
+  }
+}

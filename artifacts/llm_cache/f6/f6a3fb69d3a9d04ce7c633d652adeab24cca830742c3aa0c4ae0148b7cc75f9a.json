@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00002SU3F",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has interest in Nintendo 64 games."
+      },
+      {
+        "item_id": "B00DP7CKTE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B00DW839FU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B0735DRQ1Z",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has Xbox One, not PS4."
+      },
+      {
+        "item_id": "B00E9B0OMK",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox 360, headset is compatible."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1069,
+    "completion_tokens": 167
+  }
+}

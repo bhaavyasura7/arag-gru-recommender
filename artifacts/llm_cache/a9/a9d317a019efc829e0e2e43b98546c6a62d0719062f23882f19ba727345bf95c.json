@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B9R27GVV",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action/adventure games."
+      },
+      {
+        "item_id": "B002DZKZ5K",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar adventure style to user favorites."
+      },
+      {
+        "item_id": "B07RLZPYK1",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, but relevant."
+      },
+      {
+        "item_id": "B0BZ8GZW38",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming keyboard, not directly related."
+      },
+      {
+        "item_id": "B00BGA9WK2",
+        "label": "support",
+        "score": 6,
+        "rationale": "Supports gaming experience, user owns PS."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1304,
+    "completion_tokens": 161
+  }
+}

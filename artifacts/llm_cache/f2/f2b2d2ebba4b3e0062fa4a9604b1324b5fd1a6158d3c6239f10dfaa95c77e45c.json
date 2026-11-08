@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08LK9926Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not directly related to games."
+      },
+      {
+        "item_id": "B0BQJV18YK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Organizes gaming accessories, relevant to user."
+      },
+      {
+        "item_id": "B0C378F4Y5",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Keyboard not directly related to console gaming."
+      },
+      {
+        "item_id": "B019NF75FK",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances Xbox One controller experience."
+      },
+      {
+        "item_id": "B07HS49KWM",
+        "label": "support",
+        "score": 7,
+        "rationale": "Useful for Xbox One, matches user interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1413,
+    "completion_tokens": 157
+  }
+}

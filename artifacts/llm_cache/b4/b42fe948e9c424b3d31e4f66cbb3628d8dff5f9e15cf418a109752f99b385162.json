@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00YOGZFCO",
+      "B001FEO74U",
+      "B001EYUWL8",
+      "B009VUHW60",
+      "B00EQNP8F4",
+      "B001FRTK4O",
+      "B06ZXXHMS7",
+      "B18I9TNNE4",
+      "B00I9TNNE4",
+      "B001ELJEH4",
+      "B00MWK17I0",
+      "B019GXXRRO",
+      "B00F4WM1XS",
+      "B001EYUY7K",
+      "B014PHZOWM",
+      "B075MV4VF4",
+      "B07YYZY2SW",
+      "B08JHX17ZZ",
+      "B001FRTK4O",
+      "B000VBIGK4",
+      "B001EYUY7K"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00YOGZFCO",
+        "reason": "Engaging multiplayer racing experience"
+      },
+      {
+        "item_id": "B001FEO74U",
+        "reason": "Fun party game with multiplayer"
+      },
+      {
+        "item_id": "B001EYUWL8",
+        "reason": "Action-oriented military strategy"
+      },
+      {
+        "item_id": "B009VUHW60",
+        "reason": "Popular character from a franchise"
+      },
+      {
+        "item_id": "B00EQNP8F4",
+        "reason": "Access to online multiplayer games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3704,
+    "completion_tokens": 327
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000HAWCFE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action-oriented games."
+      },
+      {
+        "item_id": "B00D5SZ04K",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys racing and competitive gameplay."
+      },
+      {
+        "item_id": "B00002STOQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Puzzle game, not aligned with user preferences."
+      },
+      {
+        "item_id": "B01GH9MRPI",
+        "label": "support",
+        "score": 7,
+        "rationale": "Headset enhances gaming experience for user."
+      },
+      {
+        "item_id": "B0050SX1JO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Sports game, less aligned with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1243,
+    "completion_tokens": 156
+  }
+}

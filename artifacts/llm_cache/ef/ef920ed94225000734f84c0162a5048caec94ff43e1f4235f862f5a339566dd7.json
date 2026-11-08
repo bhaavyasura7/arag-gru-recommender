@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "classic video games",
+      "PlayStation 2 titles",
+      "gaming accessories",
+      "retro gaming",
+      "action-adventure games"
+    ],
+    "current_intent": "looking for more retro video games or accessories",
+    "avoid": [
+      "modern gaming consoles",
+      "first-person shooters",
+      "mobile games"
+    ],
+    "summary": "User enjoys retro gaming, particularly on PlayStation 2, and seeks additional classic titles or related accessories."
+  },
+  "usage": {
+    "prompt_tokens": 389,
+    "completion_tokens": 79
+  }
+}

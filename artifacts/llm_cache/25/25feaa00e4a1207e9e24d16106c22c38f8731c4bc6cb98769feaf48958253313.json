@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0037JT3K4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Nintendo systems, not games."
+      },
+      {
+        "item_id": "B0194X7X7Q",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Gaming mouse, not related to user's games."
+      },
+      {
+        "item_id": "B00CP1QA1U",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, different genre from user history."
+      },
+      {
+        "item_id": "B00MA089GA",
+        "label": "support",
+        "score": 7,
+        "rationale": "Organizer for Nintendo games, relevant accessory."
+      },
+      {
+        "item_id": "B08HSQDH45",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PS5 game, user prefers older systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 165
+  }
+}

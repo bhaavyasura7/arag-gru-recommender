@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BL3JVHPD",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B00CSIB3PS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Includes Forza Horizon 2, user liked it."
+      },
+      {
+        "item_id": "B07CZN97BH",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox, user plays Xbox."
+      },
+      {
+        "item_id": "B002G1TU7U",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not related to user's preferences."
+      },
+      {
+        "item_id": "B01IBJ46J2",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different genre, not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1240,
+    "completion_tokens": 157
+  }
+}

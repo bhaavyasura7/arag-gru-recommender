@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The candidates primarily include video games across various platforms, focusing on genres like action, rhythm, and sports. They cater to the user's interest in engaging gameplay experiences, with options for both handheld and console gaming, while avoiding non-gaming products and low-rated titles."
+  },
+  "usage": {
+    "prompt_tokens": 3090,
+    "completion_tokens": 56
+  }
+}

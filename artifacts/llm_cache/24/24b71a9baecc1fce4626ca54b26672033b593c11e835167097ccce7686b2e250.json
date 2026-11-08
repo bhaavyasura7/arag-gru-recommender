@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00XDSJSGS",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Wii gaming experience."
+      },
+      {
+        "item_id": "B09FH27KTW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not directly related to games."
+      },
+      {
+        "item_id": "B00005Y3ZU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older game, user prefers newer titles."
+      },
+      {
+        "item_id": "B08JLYSH4B",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "VR accessory, user hasn't shown interest."
+      },
+      {
+        "item_id": "B01CSG15AM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no 3DS interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1172,
+    "completion_tokens": 157
+  }
+}

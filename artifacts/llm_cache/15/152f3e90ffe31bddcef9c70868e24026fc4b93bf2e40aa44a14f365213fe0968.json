@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07M9Q5TLJ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers gaming peripherals, not decals."
+      },
+      {
+        "item_id": "B089CJNG33",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User shows no interest in Nintendo Switch."
+      },
+      {
+        "item_id": "B07VBFLNV2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR headset accessory, user has gaming interest."
+      },
+      {
+        "item_id": "B09LR7VX11",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not engage with amiibo cards."
+      },
+      {
+        "item_id": "B0BVFHFP37",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches user interest in gaming keyboards and mice."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 165
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000FRV2UK",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo games."
+      },
+      {
+        "item_id": "B00EV0CT6S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own PS4."
+      },
+      {
+        "item_id": "B000G75AXY",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes Xbox games."
+      },
+      {
+        "item_id": "B099F24PHK",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User has no VR interest."
+      },
+      {
+        "item_id": "B00428MTNM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers console over PC games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1116,
+    "completion_tokens": 147
+  }
+}

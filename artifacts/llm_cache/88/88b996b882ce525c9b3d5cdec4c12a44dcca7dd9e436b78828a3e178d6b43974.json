@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000066JRA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers classic games, not gore."
+      },
+      {
+        "item_id": "B000035XII",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User's history lacks interest in kids' games."
+      },
+      {
+        "item_id": "B002WARC7A",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, mixed relevance."
+      },
+      {
+        "item_id": "B0B9G2RJH3",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Skin for console, not directly a game."
+      },
+      {
+        "item_id": "B002GMQ75W",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys fighting games like Tekken."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 964,
+    "completion_tokens": 164
+  }
+}

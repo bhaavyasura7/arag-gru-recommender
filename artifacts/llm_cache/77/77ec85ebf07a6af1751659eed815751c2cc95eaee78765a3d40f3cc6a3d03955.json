@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01LRLJV28",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo over PlayStation."
+      },
+      {
+        "item_id": "B004OYV7ZU",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Nintendo 3DS interests."
+      },
+      {
+        "item_id": "B0CB9V2FYF",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likely owns NES/SNES systems."
+      },
+      {
+        "item_id": "B001EYUW72",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User may enjoy action-adventure games."
+      },
+      {
+        "item_id": "B00005LABK",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User's interest in Star Wars is unclear."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1271,
+    "completion_tokens": 157
+  }
+}

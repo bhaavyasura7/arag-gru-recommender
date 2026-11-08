@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00L59D9HG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "AC adapter, not a game."
+      },
+      {
+        "item_id": "B076FCM9B5",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Mount for PS4, user prefers Nintendo."
+      },
+      {
+        "item_id": "B08KHFBP4S",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances Nintendo Switch gaming experience."
+      },
+      {
+        "item_id": "B08JJ14GQZ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Cute grips for Nintendo Switch controllers."
+      },
+      {
+        "item_id": "B00776UHG2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Skylanders case, not directly related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1370,
+    "completion_tokens": 157
+  }
+}

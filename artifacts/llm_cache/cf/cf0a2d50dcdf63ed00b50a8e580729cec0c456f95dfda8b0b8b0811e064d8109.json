@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09BC4NDXG",
+      "B07GQPWR34",
+      "B07D6JF2CM",
+      "B09SVN1YLY",
+      "B0819DMJ8D",
+      "B07D6JGQK7",
+      "B07BBQ5DN1",
+      "B098N6XSK4",
+      "B01N90W586",
+      "B00BSE90T4",
+      "B003WEZVJG",
+      "B00HXKGO8C",
+      "B08F43Q6GQ",
+      "B08K7G4TJ1",
+      "B08XKC8YQC",
+      "B094Y1G4F4",
+      "B19SVN1YLY",
+      "B00006N5T8",
+      "B01J4JV1GO",
+      "B16D6JF2CM",
+      "B07D6JGQK7"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09BC4NDXG",
+        "reason": "High-quality Xbox Series X|S controller"
+      },
+      {
+        "item_id": "B07GQPWR34",
+        "reason": "Limited edition with custom features"
+      },
+      {
+        "item_id": "B07D6JF2CM",
+        "reason": "Ergonomic design for Xbox 360"
+      },
+      {
+        "item_id": "B09SVN1YLY",
+        "reason": "Stylish design with advanced features"
+      },
+      {
+        "item_id": "B0819DMJ8D",
+        "reason": "Wireless option for Xbox 360"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2624,
+    "completion_tokens": 356
+  }
+}

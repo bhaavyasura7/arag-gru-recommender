@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0883P3VSH",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with PlayStation systems."
+      },
+      {
+        "item_id": "B00J48C36S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox One game, user prefers PlayStation."
+      },
+      {
+        "item_id": "B00A878J5I",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Wii U accessory, not relevant to user."
+      },
+      {
+        "item_id": "B077G9B628",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Nintendo Switch game, user prefers PlayStation."
+      },
+      {
+        "item_id": "B00K01ZU18",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Game cases, not directly related to interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1289,
+    "completion_tokens": 167
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0009UC6AI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern gaming experiences."
+      },
+      {
+        "item_id": "B00002SVEA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy system not aligned with interests."
+      },
+      {
+        "item_id": "B0042A4ZLY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B004B6N790",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not a preferred gaming genre."
+      },
+      {
+        "item_id": "B0BVWPMMCT",
+        "label": "support",
+        "score": 8,
+        "rationale": "High-quality gaming headset matches interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2536,
+    "completion_tokens": 158
+  }
+}

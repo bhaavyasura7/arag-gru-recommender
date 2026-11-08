@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B014F1D8D4",
+      "B014F1D8D4",
+      "B017LKMR5W",
+      "B14F1D8D4",
+      "B14F1D8D4",
+      "B14F1D8D4",
+      "B14F1D8D4",
+      "B14F1D8D4",
+      "B14F1D8D4",
+      "B14F1D8D4",
+      "B14F1D8D4",
+      "B14F1D8D4",
+      "B14F1D8D4",
+      "B14F1D8D4",
+      "B14F1D8D4",
+      "B14F1D8D4",
+      "B14F1D8D4",
+      "B14F1D8D4",
+      "B14F1D8D4",
+      "B14F1D8D4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B017LKMR5W",
+        "reason": "Essential PlayStation controller accessory"
+      },
+      {
+        "item_id": "B14F1D8D4",
+        "reason": "High-quality action RPG experience"
+      },
+      {
+        "item_id": "B14F1D8D4",
+        "reason": "Popular Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B14F1D8D4",
+        "reason": "Classic video game remaster"
+      },
+      {
+        "item_id": "B14F1D8D4",
+        "reason": "Limited edition gaming accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3675,
+    "completion_tokens": 356
+  }
+}

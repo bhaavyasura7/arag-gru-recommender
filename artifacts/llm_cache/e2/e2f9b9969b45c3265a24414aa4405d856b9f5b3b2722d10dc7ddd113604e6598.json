@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000051WA3",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B00GX330XW",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no interest in Nintendo 3DS."
+      },
+      {
+        "item_id": "B0BDM5LQG5",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming accessories."
+      },
+      {
+        "item_id": "B07ZHZBYCJ",
+        "label": "support",
+        "score": 9,
+        "rationale": "User is interested in advanced gaming peripherals."
+      },
+      {
+        "item_id": "B07WP2ZYNR",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has mixed interest in retro gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1341,
+    "completion_tokens": 158
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08LT6PT1X",
+        "label": "support",
+        "score": 8,
+        "rationale": "High-quality controller for Xbox gaming."
+      },
+      {
+        "item_id": "B0BN2FNKLM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not relevant to user's gaming preferences."
+      },
+      {
+        "item_id": "B00X3EDHZU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic game, but on older console."
+      },
+      {
+        "item_id": "B01IFE2OFG",
+        "label": "support",
+        "score": 7,
+        "rationale": "Limited edition controller for Xbox One."
+      },
+      {
+        "item_id": "B07DNDZZ38",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Different game genre, not preferred."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1174,
+    "completion_tokens": 158
+  }
+}

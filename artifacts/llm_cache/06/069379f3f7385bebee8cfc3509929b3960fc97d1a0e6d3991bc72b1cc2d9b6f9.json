@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08VS3Z468",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not directly related."
+      },
+      {
+        "item_id": "B01K1OO5PU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "For Nintendo, user prefers PlayStation."
+      },
+      {
+        "item_id": "B0056L328K",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "For Nintendo, user prefers PlayStation."
+      },
+      {
+        "item_id": "B018JDBWQ0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "For Nintendo, user prefers PlayStation."
+      },
+      {
+        "item_id": "B001EYUNYY",
+        "label": "support",
+        "score": 8,
+        "rationale": "PlayStation 3 game aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1330,
+    "completion_tokens": 162
+  }
+}

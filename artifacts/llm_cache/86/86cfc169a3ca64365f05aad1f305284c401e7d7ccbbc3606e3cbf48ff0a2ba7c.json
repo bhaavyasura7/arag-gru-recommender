@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B085Y8GWCT",
+      "B09G8BYXR3",
+      "B006RALA88",
+      "B0000C88HW",
+      "B01M683C4O",
+      "B002JTX7KA",
+      "B00008ZLHK",
+      "B006C4B9I0",
+      "B01DJD5F7C",
+      "B073ZLZ9X9",
+      "B00DH1EFD2",
+      "B00WPKQY5S",
+      "B005T4S0OA",
+      "B00004ZBQJ",
+      "B002G9U72Y",
+      "B08G8BYXR3",
+      "B077BSBXPK",
+      "B00H8NKMJG",
+      "B00008KTPN",
+      "B06ZYRZMBX"
+    ],
+    "reasons": [
+      {
+        "item_id": "B085Y8GWCT",
+        "reason": "Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B09G8BYXR3",
+        "reason": "Joy-Con charging station"
+      },
+      {
+        "item_id": "B006RALA88",
+        "reason": "Classic Nintendo game"
+      },
+      {
+        "item_id": "B0000C88HW",
+        "reason": "Nintendo Game Boy Advance game"
+      },
+      {
+        "item_id": "B01M683C4O",
+        "reason": "3DS digital game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3304,
+    "completion_tokens": 321
+  }
+}

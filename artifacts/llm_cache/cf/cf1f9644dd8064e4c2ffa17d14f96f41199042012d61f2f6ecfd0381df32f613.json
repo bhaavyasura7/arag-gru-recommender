@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BFR8WVH4",
+      "B08CH4ZNKD",
+      "B09XHKHMPM",
+      "B0B1GVQFRH",
+      "B0947C585P",
+      "B0BZDWM91S",
+      "B0C7PPFR3Y",
+      "B0998YGFTN",
+      "B08PCJY2VJ",
+      "B07SZ52PQM",
+      "B07KPGMK62",
+      "B0BKH24FYQ",
+      "B08DY6V5V2",
+      "B0B1GVQFRH",
+      "B08H263NLJ",
+      "B07VT2491H",
+      "B002TK6RBU",
+      "B08LPXBY93",
+      "B0BZDWM91S",
+      "B0B1GVQFRH"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BFR8WVH4",
+        "reason": "Wireless with low latency"
+      },
+      {
+        "item_id": "B08CH4ZNKD",
+        "reason": "7.1 surround sound quality"
+      },
+      {
+        "item_id": "B09XHKHMPM",
+        "reason": "Comfortable for long sessions"
+      },
+      {
+        "item_id": "B0B1GVQFRH",
+        "reason": "Noise-canceling features"
+      },
+      {
+        "item_id": "B0947C585P",
+        "reason": "High-quality audio drivers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4808,
+    "completion_tokens": 334
+  }
+}

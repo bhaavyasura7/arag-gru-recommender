@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08L74DB2M",
+      "B0002MIE0O",
+      "B001MS4JCE",
+      "B07TZ6QV3L",
+      "B19BW131CKM",
+      "B078JK6B2T",
+      "B08Y17BR4J",
+      "B08F6R3RLC",
+      "B00452V21K",
+      "B07BF3KC6Y",
+      "B07FNF24S2",
+      "B002MUB0XW",
+      "B00004NHFM",
+      "B015ZWKLWO",
+      "B08QW3Y3D6",
+      "B07BF3KC6Y",
+      "B08F6R3RLC",
+      "B07TZ6QV3L",
+      "B00004NHFM",
+      "B00I9RA5AQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08L74DB2M",
+        "reason": "New Nintendo Switch game"
+      },
+      {
+        "item_id": "B0002MIE0O",
+        "reason": "Popular Mario game"
+      },
+      {
+        "item_id": "B001MS4JCE",
+        "reason": "Classic Nintendo title"
+      },
+      {
+        "item_id": "B07TZ6QV3L",
+        "reason": "Zelda series game"
+      },
+      {
+        "item_id": "B19BW131CKM",
+        "reason": "Retro Nintendo console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3164,
+    "completion_tokens": 322
+  }
+}

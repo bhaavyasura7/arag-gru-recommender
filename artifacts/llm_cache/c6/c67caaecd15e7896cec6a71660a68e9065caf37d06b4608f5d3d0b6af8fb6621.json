@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08WBRSD1J",
+      "B017C27MT0",
+      "B071DVVFVZ",
+      "B0010B675K",
+      "B00KE6DCIM",
+      "B005QT3VJW",
+      "B001NGS6DI",
+      "B00009VRFV",
+      "B00005QX4K",
+      "B000MED9FM",
+      "B00DAP835G",
+      "B06Y65LZMX",
+      "B07S5YN1H9",
+      "B01DU8A38M",
+      "B07QKLZYX9",
+      "B00009VRFV",
+      "B00009VRFV",
+      "B00009VRFV",
+      "B00009VRFV",
+      "B00009VRFV"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08WBRSD1J",
+        "reason": "New racing simulation game"
+      },
+      {
+        "item_id": "B017C27MT0",
+        "reason": "Compatible with Xbox consoles"
+      },
+      {
+        "item_id": "B071DVVFVZ",
+        "reason": "Gaming headset for consoles"
+      },
+      {
+        "item_id": "B0010B675K",
+        "reason": "Combat simulation game"
+      },
+      {
+        "item_id": "B00KE6DCIM",
+        "reason": "PlayStation accessory kit"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3086,
+    "completion_tokens": 306
+  }
+}

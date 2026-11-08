@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The recommended products align with the user's interest in action-adventure games and high-quality graphics. They feature engaging multiplayer experiences, story-driven gameplay, and are highly rated, catering to the user's current intent for top-rated action games while avoiding low-rated and non-action genres."
+  },
+  "usage": {
+    "prompt_tokens": 2384,
+    "completion_tokens": 57
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video game accessories",
+      "charging docks",
+      "Nintendo Wii",
+      "PlayStation games",
+      "Crash Bandicoot series"
+    ],
+    "current_intent": "looking for gaming accessories or games",
+    "avoid": [
+      "non-gaming products",
+      "low-quality items",
+      "overpriced accessories"
+    ],
+    "summary": "User is a gaming enthusiast focused on accessories and games, particularly for Nintendo and PlayStation, with a preference for reliable charging solutions."
+  },
+  "usage": {
+    "prompt_tokens": 342,
+    "completion_tokens": 83
+  }
+}

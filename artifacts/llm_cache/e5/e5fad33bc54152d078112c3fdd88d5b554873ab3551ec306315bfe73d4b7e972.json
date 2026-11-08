@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "karaoke games",
+      "fitness games",
+      "hunting games",
+      "Nintendo Wii accessories",
+      "PlayStation 2 games"
+    ],
+    "current_intent": "looking for fun and engaging video games",
+    "avoid": [
+      "low-quality games",
+      "non-interactive experiences",
+      "overly complex games"
+    ],
+    "summary": "User enjoys interactive video games, particularly in karaoke and fitness genres, and seeks enjoyable gaming experiences."
+  },
+  "usage": {
+    "prompt_tokens": 327,
+    "completion_tokens": 79
+  }
+}

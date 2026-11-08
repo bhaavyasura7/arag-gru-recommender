@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08PBDJ6CJ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not directly related."
+      },
+      {
+        "item_id": "B07GLNQV9J",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Xbox One games."
+      },
+      {
+        "item_id": "B09MHWTC7M",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo Switch."
+      },
+      {
+        "item_id": "B000059WIZ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, not in user's history."
+      },
+      {
+        "item_id": "B07S9LY4PB",
+        "label": "support",
+        "score": 6,
+        "rationale": "Gaming headset aligns with gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1462,
+    "completion_tokens": 152
+  }
+}

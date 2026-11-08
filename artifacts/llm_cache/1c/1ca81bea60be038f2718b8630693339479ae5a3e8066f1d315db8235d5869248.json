@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000035XH4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Older game, not highly rated."
+      },
+      {
+        "item_id": "B0099F1NZI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre, not Mario or Batman."
+      },
+      {
+        "item_id": "B00005RQRH",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Game collection, not specific interests."
+      },
+      {
+        "item_id": "B004HH81S0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00004TNU6",
+        "label": "support",
+        "score": 8,
+        "rationale": "Classic Nintendo console, aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 939,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004D4YDPC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers different game genres."
+      },
+      {
+        "item_id": "B00ANZR7X0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys various video game franchises."
+      },
+      {
+        "item_id": "B07GNDK3MQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes Pokémon and Nintendo accessories."
+      },
+      {
+        "item_id": "B0BN2FNKLM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User may not prefer flight simulation."
+      },
+      {
+        "item_id": "B00CISMP8M",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in sports games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1169,
+    "completion_tokens": 159
+  }
+}

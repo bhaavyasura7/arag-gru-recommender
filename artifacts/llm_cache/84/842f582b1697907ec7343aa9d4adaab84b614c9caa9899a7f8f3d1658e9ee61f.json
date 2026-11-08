@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00KNBR59U",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PC games."
+      },
+      {
+        "item_id": "B00W1E4PHC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in PS4 games."
+      },
+      {
+        "item_id": "B004GWZJKE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox, not Wii games."
+      },
+      {
+        "item_id": "B0071NK9SC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not need Wii accessories."
+      },
+      {
+        "item_id": "B07MFQFGC4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox controllers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 888,
+    "completion_tokens": 165
+  }
+}

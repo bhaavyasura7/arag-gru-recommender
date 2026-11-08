@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B004ZCPQ4O",
+      "B001D7JEJM",
+      "B17YQNCM8K",
+      "B07MLB1P21",
+      "B06XS35SSM",
+      "B003IMAML4",
+      "B004G5YI3U",
+      "B07WPFV4ZW",
+      "B07HTXK28M",
+      "B06XFXSJNG",
+      "B003O6JKLC",
+      "B0029ZUPU4",
+      "B00DDILSBG",
+      "B088TRSGFL",
+      "B002EJVTC8",
+      "B004GWWW22",
+      "B07CHRQC25",
+      "B07YQNCM8K",
+      "B005C8NGTW",
+      "B07MLB1P21"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004ZCPQ4O",
+        "reason": "Complex military strategy gameplay"
+      },
+      {
+        "item_id": "B001D7JEJM",
+        "reason": "Tactical multiplayer shooter experience"
+      },
+      {
+        "item_id": "B07MLB1P21",
+        "reason": "Action-packed multiplayer battles"
+      },
+      {
+        "item_id": "B06XS35SSM",
+        "reason": "Tactical RPG with strategy elements"
+      },
+      {
+        "item_id": "B003IMAML4",
+        "reason": "Engaging combat tactics and strategy"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3747,
+    "completion_tokens": 319
+  }
+}

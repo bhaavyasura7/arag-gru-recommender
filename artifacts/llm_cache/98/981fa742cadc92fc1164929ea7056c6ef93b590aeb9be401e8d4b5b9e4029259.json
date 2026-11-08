@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B004GEBB2W",
+      "B00007M9SH",
+      "B001D7T2US",
+      "B0046A8IRC",
+      "B0001VNNE8",
+      "B001F8188Y",
+      "B007W8S2MG",
+      "B002LH4UB0",
+      "B001ELJEGU",
+      "B00006418I",
+      "B00LV8IL5Q",
+      "B002XH972U",
+      "B07VLCRZ21",
+      "B017W175Y8",
+      "B00B1N07QM",
+      "B094WQR3H3",
+      "B001EYUQT6",
+      "B004RMK5QG",
+      "B00KCCNMYW",
+      "B074MMGR8F",
+      "B0001VNNE8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004GEBB2W",
+        "reason": "Engaging narrative and puzzles"
+      },
+      {
+        "item_id": "B00007M9SH",
+        "reason": "Classic puzzle-solving gameplay"
+      },
+      {
+        "item_id": "B001D7T2US",
+        "reason": "Fun, engaging mini-games"
+      },
+      {
+        "item_id": "B0046A8IRC",
+        "reason": "Classic RPG with strategy elements"
+      },
+      {
+        "item_id": "B0001VNNE8",
+        "reason": "Unique time-travel puzzles"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3683,
+    "completion_tokens": 329
+  }
+}

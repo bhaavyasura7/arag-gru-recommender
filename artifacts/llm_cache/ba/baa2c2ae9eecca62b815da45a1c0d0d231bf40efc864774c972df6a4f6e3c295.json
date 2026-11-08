@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B019WRM1IA",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox 360 games."
+      },
+      {
+        "item_id": "B08LT6PT1X",
+        "label": "support",
+        "score": 8,
+        "rationale": "High-end controller for Xbox gaming."
+      },
+      {
+        "item_id": "B07YBX6T95",
+        "label": "support",
+        "score": 6,
+        "rationale": "Popular RPG for Xbox 360."
+      },
+      {
+        "item_id": "B003S9VNWE",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform, but wrestling genre."
+      },
+      {
+        "item_id": "B06ZXXH1TT",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers console games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1267,
+    "completion_tokens": 156
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08LB4HJT2",
+      "B07X649B77",
+      "B00KVP78FE",
+      "B014KFGC8R",
+      "B01GH9MVWW",
+      "B08MBPMKPC",
+      "B000GA73O0",
+      "B00005AW1Y",
+      "B00328P0GG",
+      "B0050SZ0JI",
+      "B00TS0UFOY",
+      "B000HKKQ3Y",
+      "B000KVP78FE",
+      "B003KVLGD6",
+      "B00KWFCSB2",
+      "B00SZ1DQFM",
+      "B00005AW1Y",
+      "B00005AW1Y",
+      "B00005AW1Y",
+      "B00005AW1Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08LB4HJT2",
+        "reason": "Action-adventure with open-world"
+      },
+      {
+        "item_id": "B07X649B77",
+        "reason": "Challenging gameplay and exploration"
+      },
+      {
+        "item_id": "B00KVP78FE",
+        "reason": "Xbox controller for immersive play"
+      },
+      {
+        "item_id": "B014KFGC8R",
+        "reason": "Collector's edition available"
+      },
+      {
+        "item_id": "B01GH9MVWW",
+        "reason": "Compatible with Xbox and PC"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3759,
+    "completion_tokens": 320
+  }
+}

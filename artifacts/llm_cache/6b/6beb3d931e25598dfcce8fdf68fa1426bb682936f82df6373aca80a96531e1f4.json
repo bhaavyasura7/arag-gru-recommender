@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00GM5WGNQ",
+      "B0001DLLZE",
+      "B07QYV9HF2",
+      "B000Y8YYCI",
+      "B13BGVK9W6",
+      "B06XYRVKTH",
+      "B004GBJJ1U",
+      "B00079MUXE",
+      "B000I20TBU",
+      "B0006MXSQ0",
+      "B07582RP7X",
+      "B07PN5XSLV",
+      "B00002STY4",
+      "B000077W0H",
+      "B000GM5URR8",
+      "B097MG9M1V",
+      "B00079MUXE",
+      "B0006MXSQ0",
+      "B097RD75K6",
+      "B001ELJEJM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00GM5WGNQ",
+        "reason": "Highly action-packed gameplay"
+      },
+      {
+        "item_id": "B0001DLLZE",
+        "reason": "Multiplayer air combat experience"
+      },
+      {
+        "item_id": "B07QYV9HF2",
+        "reason": "Enhances mobile gaming experience"
+      },
+      {
+        "item_id": "B000Y8YYCI",
+        "reason": "Action-oriented powerboating game"
+      },
+      {
+        "item_id": "B13BGVK9W6",
+        "reason": "Versatile gamepad for various games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3299,
+    "completion_tokens": 322
+  }
+}

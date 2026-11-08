@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming headsets",
+      "gaming controllers",
+      "VR gaming",
+      "mechanical keyboards",
+      "gaming accessories"
+    ],
+    "current_intent": "looking for high-quality gaming peripherals",
+    "avoid": [
+      "low-quality products",
+      "wired headsets",
+      "non-gaming brands"
+    ],
+    "summary": "User is a dedicated gamer focused on high-performance gaming gear, particularly headsets and controllers, seeking the latest technology."
+  },
+  "usage": {
+    "prompt_tokens": 1811,
+    "completion_tokens": 77
+  }
+}

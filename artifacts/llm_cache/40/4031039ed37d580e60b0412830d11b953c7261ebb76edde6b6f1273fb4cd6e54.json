@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming accessories",
+      "wireless controllers",
+      "Nintendo Switch",
+      "Xbox controllers",
+      "competitive gaming"
+    ],
+    "current_intent": "looking for high-quality gaming controllers",
+    "avoid": [
+      "cheap products",
+      "wired controllers",
+      "non-gaming accessories"
+    ],
+    "summary": "User is a gaming enthusiast focused on premium wireless controllers for Nintendo Switch and Xbox, seeking to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 310,
+    "completion_tokens": 74
+  }
+}

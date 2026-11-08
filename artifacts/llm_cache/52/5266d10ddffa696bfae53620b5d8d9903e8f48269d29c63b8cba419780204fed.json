@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07YYZY2SW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to gaming interests."
+      },
+      {
+        "item_id": "B00I9TNNE4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Headset enhances gaming experience."
+      },
+      {
+        "item_id": "B08JHX17ZZ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different game genre than user prefers."
+      },
+      {
+        "item_id": "B000VBIGK4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Racing wheel fits user's gaming style."
+      },
+      {
+        "item_id": "B00MWK17I0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game or controller."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1602,
+    "completion_tokens": 153
+  }
+}

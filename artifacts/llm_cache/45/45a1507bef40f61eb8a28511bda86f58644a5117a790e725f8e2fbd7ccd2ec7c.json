@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B074HBNNH6",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys retro gaming accessories."
+      },
+      {
+        "item_id": "B00I5LAGM8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has mixed interest in PlayStation games."
+      },
+      {
+        "item_id": "B00H4G8J9C",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has Nintendo handhelds, needs storage."
+      },
+      {
+        "item_id": "B07NBVRCFN",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no Xbox gaming history."
+      },
+      {
+        "item_id": "B0B839Q9H1",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User focuses on console, not PC gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1428,
+    "completion_tokens": 166
+  }
+}

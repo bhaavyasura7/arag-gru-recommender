@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0000A0O28",
+      "B013K8N1TCR",
+      "B07DNMPB2Q",
+      "B01N6QKT7H",
+      "B07D53QSMK",
+      "B018N6QKT7H",
+      "B003VUO6H4",
+      "B0001NYK1G",
+      "B002JTX7SM",
+      "B072V478NR",
+      "B00WW0D54E",
+      "B00K5I323O",
+      "B003O680ZY",
+      "B00006LELH",
+      "B0001NYK1G",
+      "B0001NYK1G",
+      "B0001NYK1G",
+      "B0001NYK1G",
+      "B0001NYK1G",
+      "B0001NYK1G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0000A0O28",
+        "reason": "Nostalgic multiplayer party game"
+      },
+      {
+        "item_id": "B013K8N1TCR",
+        "reason": "Engaging courtroom adventure series"
+      },
+      {
+        "item_id": "B07DNMPB2Q",
+        "reason": "Fun co-op gameplay with friends"
+      },
+      {
+        "item_id": "B01N6QKT7H",
+        "reason": "Enhances multiplayer gaming experience"
+      },
+      {
+        "item_id": "B07D53QSMK",
+        "reason": "Improves comfort for long sessions"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3542,
+    "completion_tokens": 339
+  }
+}

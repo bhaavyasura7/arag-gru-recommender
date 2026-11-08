@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00YTUZF34",
+      "B00GN67PJ4",
+      "B18B0K01ZU18",
+      "B15B0A878J5I",
+      "B00J48C36S",
+      "B00DU2CHE2",
+      "B0C3QFBBH5",
+      "B0883P3VSH",
+      "B001EYUNYY",
+      "B001262U54",
+      "B0016Q00FC",
+      "B00A878J5I",
+      "B00K01ZU18",
+      "B09ZTW259L",
+      "B09PTBF78B",
+      "B0BYHMDYZN",
+      "B002BSA298",
+      "B077G9B628",
+      "B00KRXAGE",
+      "B0016Q00FC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00YTUZF34",
+        "reason": "Highly rated immersive RPG experience"
+      },
+      {
+        "item_id": "B00GN67PJ4",
+        "reason": "Popular action RPG on PlayStation"
+      },
+      {
+        "item_id": "B15B0A878J5I",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B00J48C36S",
+        "reason": "Engaging co-op action RPG"
+      },
+      {
+        "item_id": "B00DU2CHE2",
+        "reason": "Comfortable gaming headset option"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3883,
+    "completion_tokens": 325
+  }
+}

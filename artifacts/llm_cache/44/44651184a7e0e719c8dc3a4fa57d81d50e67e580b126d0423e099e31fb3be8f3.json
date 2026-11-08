@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Xbox gaming",
+      "Call of Duty series",
+      "Final Fantasy games",
+      "Xbox gift cards",
+      "Online gaming subscriptions"
+    ],
+    "current_intent": "Looking for new Xbox games or subscriptions.",
+    "avoid": [
+      "PC games",
+      "Mobile games",
+      "Non-gaming products"
+    ],
+    "summary": "User is a dedicated Xbox gamer interested in purchasing games and subscriptions, particularly in the action and RPG genres."
+  },
+  "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 77
+  }
+}

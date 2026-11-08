@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo gaming accessories",
+      "Plants vs. Zombies games",
+      "Durable charging cables",
+      "Video game consoles",
+      "PC gaming"
+    ],
+    "current_intent": "Looking for more video games or accessories for Nintendo systems.",
+    "avoid": [
+      "Low-quality products",
+      "Non-gaming items",
+      "Overpriced accessories"
+    ],
+    "summary": "User enjoys Nintendo games and accessories, particularly Plants vs. Zombies, and seeks reliable gaming products."
+  },
+  "usage": {
+    "prompt_tokens": 411,
+    "completion_tokens": 82
+  }
+}

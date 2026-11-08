@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07C9BL3KM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, not directly related."
+      },
+      {
+        "item_id": "B08CDQJQLD",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, not aligned with interests."
+      },
+      {
+        "item_id": "B00005NN7H",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Older system, not relevant to user."
+      },
+      {
+        "item_id": "B009AWC30Y",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with Xbox 360, user interest."
+      },
+      {
+        "item_id": "B00BWFLSO4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not a strong match."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1081,
+    "completion_tokens": 162
+  }
+}

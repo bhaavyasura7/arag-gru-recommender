@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002JTX7HI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B001SGZL2W",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B002R2JCNK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for PlayStation, not Nintendo."
+      },
+      {
+        "item_id": "B09WB49MP6",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Racing wheel stand, not directly relevant."
+      },
+      {
+        "item_id": "B0053BCML6",
+        "label": "support",
+        "score": 10,
+        "rationale": "Directly compatible with Nintendo 3DS."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1314,
+    "completion_tokens": 157
+  }
+}

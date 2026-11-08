@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo games",
+      "Spider-Man franchise",
+      "video game accessories",
+      "music games",
+      "Wii console games"
+    ],
+    "current_intent": "Looking for more video games or accessories for Nintendo consoles.",
+    "avoid": [
+      "non-Nintendo products",
+      "low-rated games",
+      "unrelated genres"
+    ],
+    "summary": "User enjoys Nintendo games, especially Spider-Man titles, and seeks related accessories or games."
+  },
+  "usage": {
+    "prompt_tokens": 316,
+    "completion_tokens": 77
+  }
+}

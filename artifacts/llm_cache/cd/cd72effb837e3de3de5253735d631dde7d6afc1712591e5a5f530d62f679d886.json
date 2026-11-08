@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BVVTQ5JP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not directly related."
+      },
+      {
+        "item_id": "B09XM8MMYD",
+        "label": "support",
+        "score": 7,
+        "rationale": "VR headset aligns with gaming interests."
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular game, matches Xbox interest."
+      },
+      {
+        "item_id": "B07DLNHQZX",
+        "label": "support",
+        "score": 7,
+        "rationale": "Action game fits gaming preferences."
+      },
+      {
+        "item_id": "B0072A4JVW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for legacy system, less relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1450,
+    "completion_tokens": 152
+  }
+}

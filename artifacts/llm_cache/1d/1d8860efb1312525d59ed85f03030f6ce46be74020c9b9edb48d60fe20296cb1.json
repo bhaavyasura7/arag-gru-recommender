@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07VHHPJBV",
+      "B0012N7BSI",
+      "B001D7JEJM",
+      "B003HGGN82",
+      "B0051D8PGM",
+      "B00562O8U0",
+      "B00332F3QI",
+      "B002JTX7FK",
+      "B000NJBD90",
+      "B004WLRQ2S",
+      "B000935256",
+      "B00CEGCN76",
+      "B00MP7SFJE",
+      "B00DR8V74A",
+      "B002I0EMBI",
+      "B08VFQ3XJX",
+      "B000CC3IEQ",
+      "B0015HYPOO",
+      "B00CEGCN76",
+      "B000H8D8A0",
+      "B003HGGN82"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07VHHPJBV",
+        "reason": "High DPI and RGB lighting"
+      },
+      {
+        "item_id": "B0012N7BSI",
+        "reason": "Popular gaming title"
+      },
+      {
+        "item_id": "B001D7JEJM",
+        "reason": "Well-known franchise"
+      },
+      {
+        "item_id": "B003HGGN82",
+        "reason": "Action-packed gameplay"
+      },
+      {
+        "item_id": "B0051D8PGM",
+        "reason": "Compatible with gaming setup"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3851,
+    "completion_tokens": 322
+  }
+}

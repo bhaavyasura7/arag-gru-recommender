@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00KVP76G0",
+      "B00W9DHUBS",
+      "B07GWJN5YW",
+      "B00KQHHDZC",
+      "B001EYURK4",
+      "B00NOD0OTW",
+      "B00HX1UXD8",
+      "B002WTC4VA",
+      "B00KLH0XMW",
+      "B00G9AYVTG",
+      "B007YZCE94",
+      "B001H8DUB0",
+      "B00K32USMU",
+      "B00C3BNJFBV",
+      "B00W9DHUBS",
+      "B0079V4FAY",
+      "B000NKNB4Y",
+      "B00KVP76G0",
+      "B00NOD0OTW",
+      "B001KBZZYE",
+      "B008CZN458"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KVP76G0",
+        "reason": "High precision gaming controller"
+      },
+      {
+        "item_id": "B00W9DHUBS",
+        "reason": "Ergonomic gaming mouse"
+      },
+      {
+        "item_id": "B07GWJN5YW",
+        "reason": "Comfortable gaming headset"
+      },
+      {
+        "item_id": "B00KQHHDZC",
+        "reason": "Popular gaming title"
+      },
+      {
+        "item_id": "B001EYURK4",
+        "reason": "Classic action game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3577,
+    "completion_tokens": 333
+  }
+}

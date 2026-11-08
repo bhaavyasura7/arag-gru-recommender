@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUPEC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B07HCTJC91",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys Nintendo Switch games."
+      },
+      {
+        "item_id": "B001EYUNW6",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Xbox One, enjoys RPGs."
+      },
+      {
+        "item_id": "B013P0HW7K",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has gaming accessories, not specific."
+      },
+      {
+        "item_id": "B01ALCAIMQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a PS4."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1368,
+    "completion_tokens": 158
+  }
+}

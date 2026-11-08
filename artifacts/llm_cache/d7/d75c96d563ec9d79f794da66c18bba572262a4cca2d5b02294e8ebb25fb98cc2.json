@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DYJMSM2",
+      "B000P297F2",
+      "B08X56S77D",
+      "B004M4IO08",
+      "B003S3RFAY",
+      "B001EYUQN2",
+      "B004JSDQPU",
+      "B07K3KHFSY",
+      "B001ELJFPA",
+      "B006YDPU48",
+      "B001EYUNXU",
+      "B07KZ6QJTL",
+      "B00KSQHX1K",
+      "B004M4IO08",
+      "B00005KAY0",
+      "B0764BLMJL",
+      "B001EYUNXU",
+      "B07X56S77D",
+      "B001ELJFPA",
+      "B07K3KHFSY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DYJMSM2",
+        "reason": "Classic Nintendo action-adventure game"
+      },
+      {
+        "item_id": "B000P297F2",
+        "reason": "Resident Evil with nostalgic elements"
+      },
+      {
+        "item_id": "B08X56S77D",
+        "reason": "Batman game with immersive gameplay"
+      },
+      {
+        "item_id": "B004M4IO08",
+        "reason": "Fun multiplayer fitness game"
+      },
+      {
+        "item_id": "B003S3RFAY",
+        "reason": "Action-packed Warhammer adventure"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3824,
+    "completion_tokens": 319
+  }
+}

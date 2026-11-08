@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09BN2KXVC",
+      "B077W2Z2SF",
+      "B12ITXFF8Q",
+      "B0041RWIGW",
+      "B001EYUNW6",
+      "B001EYUPEC",
+      "B005EHQJ2C",
+      "B0045EPEAI",
+      "B001G78TRW",
+      "B001EYUNS0",
+      "B071JDWSBL",
+      "B005CELMWY",
+      "B013P0HW7K",
+      "B004LVO4M4",
+      "B18P0HW7K",
+      "B000035Y6B",
+      "B001EYUNW6",
+      "B07HCTJC91",
+      "B002LLRLMQ",
+      "B19X1HF3V6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09BN2KXVC",
+        "reason": "Cute protective case for Switch Lite"
+      },
+      {
+        "item_id": "B077W2Z2SF",
+        "reason": "Popular game on Xbox One"
+      },
+      {
+        "item_id": "B12ITXFF8Q",
+        "reason": "High-quality charging station"
+      },
+      {
+        "item_id": "B0041RWIGW",
+        "reason": "Useful charger for PS3 controllers"
+      },
+      {
+        "item_id": "B001EYUNW6",
+        "reason": "Classic Xbox game from franchise"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3931,
+    "completion_tokens": 322
+  }
+}

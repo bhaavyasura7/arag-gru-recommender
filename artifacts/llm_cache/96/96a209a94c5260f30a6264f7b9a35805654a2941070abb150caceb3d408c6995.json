@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001GGS6VW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not simulation."
+      },
+      {
+        "item_id": "B00N2KKSNO",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys action games on PlayStation."
+      },
+      {
+        "item_id": "B00M3D8AQ8",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has a PS3 and likes adventure games."
+      },
+      {
+        "item_id": "B07543W7XS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game; mixed relevance."
+      },
+      {
+        "item_id": "B00IPTUJ8G",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys portable games on PlayStation Vita."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1282,
+    "completion_tokens": 165
+  }
+}

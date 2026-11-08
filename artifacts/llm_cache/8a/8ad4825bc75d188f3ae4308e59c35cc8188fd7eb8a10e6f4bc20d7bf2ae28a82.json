@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00AAS888S",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not console specific."
+      },
+      {
+        "item_id": "B001ELJFMS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Fishing game, not user’s interest."
+      },
+      {
+        "item_id": "B0CB7JB1V6",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible controller for Nintendo Switch."
+      },
+      {
+        "item_id": "B00CSIB3PS",
+        "label": "support",
+        "score": 9,
+        "rationale": "Includes Forza Horizon 2, user liked it."
+      },
+      {
+        "item_id": "B001G6063I",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PSP game, user prefers Xbox titles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1275,
+    "completion_tokens": 161
+  }
+}

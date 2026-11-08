@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00DJRLDMU",
+      "B0BYNPVB24",
+      "B008KGNCSI",
+      "B00004U5VK",
+      "B0086VPUHI",
+      "B000EHIXJY",
+      "B0001NYK1G",
+      "B074DVJJWB",
+      "B00006LELH",
+      "B002BSC4ZS",
+      "B002TDIEDG",
+      "B087NN2K41",
+      "B00008KTW6",
+      "B0088TN7BO",
+      "B00004U5VK",
+      "B0001NYK1G",
+      "B0029F2FB6",
+      "B00006LELH",
+      "B0001NYK1G",
+      "B0001NYK1G",
+      "B0001NYK1G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DJRLDMU",
+        "reason": "Popular DLC for current game"
+      },
+      {
+        "item_id": "B0BYNPVB24",
+        "reason": "New controller for Xbox"
+      },
+      {
+        "item_id": "B008KGNCSI",
+        "reason": "Story-driven zombie game"
+      },
+      {
+        "item_id": "B00004U5VK",
+        "reason": "Classic game with strong narrative"
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "reason": "Essential gaming headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3750,
+    "completion_tokens": 317
+  }
+}

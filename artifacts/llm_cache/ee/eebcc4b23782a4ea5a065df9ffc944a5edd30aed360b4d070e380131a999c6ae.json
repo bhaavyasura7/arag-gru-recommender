@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000N5Z2L4",
+      "B00Z9TM72Q",
+      "B0B8XNG9NX",
+      "B0B6GLJ6YQ",
+      "B0714FFZD8",
+      "B0064VBM4W",
+      "B0017Q4DGI",
+      "B19N1P0KFI",
+      "B0041RWIGW",
+      "B0BLFYF8K2",
+      "B0B8XNG9NX",
+      "B002I0GZ5Y",
+      "B078SM4YJ9",
+      "B06XX2PLBX",
+      "B00ECOGM52",
+      "B002ZLPLUQ",
+      "B0064VBM4W",
+      "B0006A9SM0",
+      "B00800VJWU",
+      "B06X3WTK4X"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000N5Z2L4",
+        "reason": "Essential for multiplayer gaming"
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Popular multiplayer franchise"
+      },
+      {
+        "item_id": "B0B8XNG9NX",
+        "reason": "Enhances VR gaming experience"
+      },
+      {
+        "item_id": "B0B6GLJ6YQ",
+        "reason": "Great for gaming aesthetics"
+      },
+      {
+        "item_id": "B0714FFZD8",
+        "reason": "Fun multiplayer party game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3713,
+    "completion_tokens": 339
+  }
+}

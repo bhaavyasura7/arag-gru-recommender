@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0899K851H",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B003EGULF6",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo console aligns with user history."
+      },
+      {
+        "item_id": "B09Q34494V",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with Switch, user enjoys Nintendo."
+      },
+      {
+        "item_id": "B08P2VSYM9",
+        "label": "support",
+        "score": 5,
+        "rationale": "Accessory for Switch, relevant to user."
+      },
+      {
+        "item_id": "B01M2YE3HW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Skylanders not in user's review history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1264,
+    "completion_tokens": 155
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "open-world games",
+      "action-adventure titles",
+      "sports games",
+      "multiplayer experiences",
+      "classic video games"
+    ],
+    "current_intent": "looking for engaging video games to play",
+    "avoid": [
+      "puzzle games",
+      "simulation games",
+      "horror titles"
+    ],
+    "summary": "The user enjoys action-packed and multiplayer video games, particularly in the open-world genre, and is currently seeking new titles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 445,
+    "completion_tokens": 101
+  }
+}

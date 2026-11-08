@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "The Legend of Zelda series",
+      "Classic video games",
+      "Adventure RPGs",
+      "Nostalgic gaming experiences",
+      "Puzzle-solving games"
+    ],
+    "current_intent": "Looking for more games similar to The Legend of Zelda.",
+    "avoid": [
+      "Modern action games",
+      "First-person shooters",
+      "Multiplayer online games"
+    ],
+    "summary": "User is a fan of classic Zelda games and seeks similar nostalgic adventure RPGs."
+  },
+  "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 82
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00BGA9WK2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B00KIWEMIG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not play PlayStation games."
+      },
+      {
+        "item_id": "B07ZJ6RY1W",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly supports Nintendo Switch purchases."
+      },
+      {
+        "item_id": "B006VB2V54",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not play PlayStation Vita."
+      },
+      {
+        "item_id": "B001EYUT70",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Wii game, not directly related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1310,
+    "completion_tokens": 159
+  }
+}

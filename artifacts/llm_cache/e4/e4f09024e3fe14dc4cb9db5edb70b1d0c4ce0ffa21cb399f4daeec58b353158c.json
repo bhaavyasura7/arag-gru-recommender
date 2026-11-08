@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00DBDPOZ4",
+      "B15B0BRCPMHK1",
+      "B00GUDHUDQ",
+      "B00L2Q5KWE",
+      "B00DRPPC8A",
+      "B0C28BJR3H",
+      "B15B00DQAJG4C",
+      "B07FN3G4Q1",
+      "B005FPDJP8",
+      "B0006D3684",
+      "B0006BH5CO",
+      "B00297KTMG",
+      "B002WVQHB6",
+      "B09Y2X5ZR3",
+      "B011L4D3BG",
+      "B005O65QBS",
+      "B08L7ZNPTT",
+      "B07WMYH7TY",
+      "B12B0BRCPMHK1",
+      "B00DQAJG4C",
+      "B000092P91"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DBDPOZ4",
+        "reason": "Essential Xbox charging accessory"
+      },
+      {
+        "item_id": "B15B0BRCPMHK1",
+        "reason": "Compatible wireless controller for Xbox"
+      },
+      {
+        "item_id": "B00GUDHUDQ",
+        "reason": "Popular multiplayer Xbox game"
+      },
+      {
+        "item_id": "B00L2Q5KWE",
+        "reason": "Complete Xbox console package"
+      },
+      {
+        "item_id": "B00DRPPC8A",
+        "reason": "Wired controller for legacy systems"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3737,
+    "completion_tokens": 348
+  }
+}

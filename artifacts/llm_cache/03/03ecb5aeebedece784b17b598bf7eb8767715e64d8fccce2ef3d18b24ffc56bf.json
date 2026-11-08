@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B20Z8Z9DHW",
+      "B07VT3FNTN",
+      "B12B38RR7NB",
+      "B079BBHDMM",
+      "B07L72BFH1",
+      "B0BF7QNXMK",
+      "B0029ZMIEK",
+      "B07CGPPVPM",
+      "B14B0BXSHJPTB",
+      "B09YRFLM1Z",
+      "B01KTJWF5Y",
+      "B004KEMI66",
+      "B08GTGW93M",
+      "B00F4N0GXO",
+      "B005N2CTPO",
+      "B072K5LN6P",
+      "B00OMBGAF2",
+      "B096XNVT3S",
+      "B004U1658Q",
+      "B07CGPPVPM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09Z8Z9DHW",
+        "reason": "High compatibility with Nintendo Switch"
+      },
+      {
+        "item_id": "B07VT3FNTN",
+        "reason": "Quality headset for gaming"
+      },
+      {
+        "item_id": "B12B38RR7NB",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B079BBHDMM",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B07L72BFH1",
+        "reason": "Popular racing game for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3686,
+    "completion_tokens": 328
+  }
+}

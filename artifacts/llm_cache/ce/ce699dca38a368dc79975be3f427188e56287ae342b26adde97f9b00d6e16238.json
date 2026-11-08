@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "1945625937",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B002DGRUU2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not aligned with gaming preferences."
+      },
+      {
+        "item_id": "B09CGGNJ56",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not relevant to user's devices."
+      },
+      {
+        "item_id": "B00HQCSHKK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Focus on Xbox, not Nintendo."
+      },
+      {
+        "item_id": "B07JXV1FYY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly related to Nintendo 3DS."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1295,
+    "completion_tokens": 148
+  }
+}

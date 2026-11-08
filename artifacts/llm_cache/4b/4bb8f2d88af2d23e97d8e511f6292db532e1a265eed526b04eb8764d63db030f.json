@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07QB4TF3F",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation and Nintendo."
+      },
+      {
+        "item_id": "B004K6LQ9Y",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has Nintendo products."
+      },
+      {
+        "item_id": "B000LV9N8S",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Xbox systems."
+      },
+      {
+        "item_id": "B07491YH2R",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Retro gaming interest is unclear."
+      },
+      {
+        "item_id": "B00IG3GPTS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User focuses on consoles, not PC."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1764,
+    "completion_tokens": 159
+  }
+}

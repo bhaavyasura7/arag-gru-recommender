@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0002WYU98",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers RPGs and sports games."
+      },
+      {
+        "item_id": "B01N7VUOPH",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys RPGs and PlayStation games."
+      },
+      {
+        "item_id": "B008KGNCSI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Zombie theme may interest some users."
+      },
+      {
+        "item_id": "B016L2MIUA",
+        "label": "support",
+        "score": 7,
+        "rationale": "Action RPG aligns with user interests."
+      },
+      {
+        "item_id": "B001EYUPHO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Horror theme may not match preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1291,
+    "completion_tokens": 155
+  }
+}

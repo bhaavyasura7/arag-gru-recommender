@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0015R97TM",
+      "B01EKW0Z6M",
+      "B003JVKHEQ",
+      "B08P5THG2C",
+      "B08QRZ1HSW",
+      "B07DFV769C",
+      "B08BYQVK3X",
+      "B0B82PNYJ2",
+      "B06WGRCQMW",
+      "B08PDZ9L5H",
+      "B01MT1K6KS",
+      "B07CPH3DBQ",
+      "B00A63GL4A",
+      "B00B2ROJVG",
+      "B01AJRKKGC",
+      "B08BYQVK3X",
+      "B09Q155SLZ",
+      "B01IJAQS9Y",
+      "B08QRZ1HSW",
+      "B12MBLGDJ",
+      "B075WLXG7L"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0015R97TM",
+        "reason": "Custom Xbox 360 controller buttons"
+      },
+      {
+        "item_id": "B01EKW0Z6M",
+        "reason": "High-quality Xbox 360 controller"
+      },
+      {
+        "item_id": "B003JVKHEQ",
+        "reason": "Popular Xbox 360 game title"
+      },
+      {
+        "item_id": "B08P5THG2C",
+        "reason": "Charger for Xbox Series controllers"
+      },
+      {
+        "item_id": "B08QRZ1HSW",
+        "reason": "Comfortable gaming headset replacement"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3158,
+    "completion_tokens": 347
+  }
+}

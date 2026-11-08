@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000PE17ZI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with LEGO or sports games."
+      },
+      {
+        "item_id": "B09SH69BQX",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Keyboard not directly related to gaming."
+      },
+      {
+        "item_id": "B01GW3H7DQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Xbox One matches user's gaming interest."
+      },
+      {
+        "item_id": "B07B4TQY4K",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers LEGO and sports games."
+      },
+      {
+        "item_id": "B0C9JDF5J6",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Carrying case not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1377,
+    "completion_tokens": 159
+  }
+}

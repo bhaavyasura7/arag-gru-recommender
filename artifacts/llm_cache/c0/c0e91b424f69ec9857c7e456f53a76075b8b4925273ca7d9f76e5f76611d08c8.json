@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00C5M4I54",
+        "label": "support",
+        "score": 7,
+        "rationale": "Racing game aligns with user interests."
+      },
+      {
+        "item_id": "B006VB2W3A",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory not relevant to gaming preferences."
+      },
+      {
+        "item_id": "B001K7HUR8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but still a video game."
+      },
+      {
+        "item_id": "B000VBIGK4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances racing experience for Xbox 360 games."
+      },
+      {
+        "item_id": "B001ELJF8M",
+        "label": "support",
+        "score": 6,
+        "rationale": "Action game fits user’s gaming style."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1261,
+    "completion_tokens": 163
+  }
+}

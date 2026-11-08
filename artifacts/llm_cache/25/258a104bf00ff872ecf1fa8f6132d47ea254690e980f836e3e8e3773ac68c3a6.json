@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B014R4KYMS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar action-adventure genre interests."
+      },
+      {
+        "item_id": "B00K5I323O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to gaming but not a game."
+      },
+      {
+        "item_id": "B07RQP5S8C",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Accessory, not a video game."
+      },
+      {
+        "item_id": "B07DPK5NPD",
+        "label": "support",
+        "score": 7,
+        "rationale": "Popular franchise aligns with interests."
+      },
+      {
+        "item_id": "B001E27DLM",
+        "label": "support",
+        "score": 6,
+        "rationale": "Classic RPG aligns with gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1351,
+    "completion_tokens": 156
+  }
+}

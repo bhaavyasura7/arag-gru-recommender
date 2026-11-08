@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08R3KWK7X",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's past purchases."
+      },
+      {
+        "item_id": "B01N29EV8R",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming mouse aligns with gaming interest."
+      },
+      {
+        "item_id": "B084X6T3HF",
+        "label": "support",
+        "score": 6,
+        "rationale": "Large mouse pad supports gaming setup."
+      },
+      {
+        "item_id": "B08HV6YGK2",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wireless gaming mouse fits gaming needs."
+      },
+      {
+        "item_id": "B006ZNGSFW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Card games differ from user's gaming focus."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1236,
+    "completion_tokens": 156
+  }
+}

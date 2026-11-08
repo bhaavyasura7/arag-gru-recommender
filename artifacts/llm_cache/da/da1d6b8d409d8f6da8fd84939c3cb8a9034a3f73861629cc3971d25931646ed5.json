@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002JTX7SM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers different game genres."
+      },
+      {
+        "item_id": "B00WW0D54E",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B072V478NR",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not related to user's game preferences."
+      },
+      {
+        "item_id": "B00CPBZCIM",
+        "label": "support",
+        "score": 7,
+        "rationale": "Action-adventure game aligns with interests."
+      },
+      {
+        "item_id": "B003VUO6H4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers older consoles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 150
+  }
+}

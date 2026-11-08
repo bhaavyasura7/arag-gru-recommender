@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00HMCK2ZC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B00Q2NT48S",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B002L8W5V6",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has GameCube accessories interest."
+      },
+      {
+        "item_id": "B017YWO8K4",
+        "label": "neutral",
+        "score": 0,
+        "rationale": "Unrelated to user's gaming interests."
+      },
+      {
+        "item_id": "B01HK5II7O",
+        "label": "neutral",
+        "score": 0,
+        "rationale": "Unrelated to user's gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1039,
+    "completion_tokens": 162
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001E53N36",
+      "B00657AVMO",
+      "B019QU5KLK",
+      "B07DPK5NPD",
+      "B00F4WM1XS",
+      "B0118GJKIW",
+      "B0041T4MTG",
+      "B08SMFZLB6",
+      "B00KVOVBGM",
+      "B0079V4GK8",
+      "B00USM22DI",
+      "B078NB6TWZ",
+      "B009AGXH64",
+      "B00UZEIKJY",
+      "B00CNY4YTZ",
+      "B000OAO188",
+      "B00F4WM1XS",
+      "B08FX5QKGD",
+      "B009GE437W",
+      "B00UZEIKJY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001E53N36",
+        "reason": "Strong narrative and engaging gameplay"
+      },
+      {
+        "item_id": "B00657AVMO",
+        "reason": "Multiplayer and engaging challenges"
+      },
+      {
+        "item_id": "B017QU5KLK",
+        "reason": "Popular multiplayer action experience"
+      },
+      {
+        "item_id": "B07DPK5NPD",
+        "reason": "Fun multiplayer with Nintendo characters"
+      },
+      {
+        "item_id": "B00F4WM1XS",
+        "reason": "Disney-themed action-adventure gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3753,
+    "completion_tokens": 320
+  }
+}

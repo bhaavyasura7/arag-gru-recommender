@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000H3OBFU",
+      "B002DO87NS",
+      "B01LZ8BG4F",
+      "B00554EXG8",
+      "B000621X5S",
+      "B19B00080Q7KY",
+      "B00064X50M",
+      "B002L8W5V6",
+      "B013J1QRHG",
+      "B07DFD6HDK",
+      "B0B49HTMHG",
+      "B00080Q7KY",
+      "B0038MMAH8",
+      "B07YD1TM37",
+      "B000035XI5",
+      "B008B32ZCE",
+      "B000H3OBFU",
+      "B00X70X7HS",
+      "B00064X50M",
+      "B000621X5S"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000H3OBFU",
+        "reason": "Popular retro game for Nintendo DS"
+      },
+      {
+        "item_id": "B002DO87NS",
+        "reason": "Engaging gameplay with retro theme"
+      },
+      {
+        "item_id": "B01LZ8BG4F",
+        "reason": "Essential accessory for Nintendo consoles"
+      },
+      {
+        "item_id": "B00554EXG8",
+        "reason": "Classic Nintendo fighting game"
+      },
+      {
+        "item_id": "B000621X5S",
+        "reason": "Legacy PS3 game with retro appeal"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3347,
+    "completion_tokens": 324
+  }
+}

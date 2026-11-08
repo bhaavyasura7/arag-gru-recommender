@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004JHY3ZI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox and PS4 games."
+      },
+      {
+        "item_id": "B01IFE2OFG",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox One games and accessories."
+      },
+      {
+        "item_id": "B07C75CLCD",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers Xbox and PS4 games."
+      },
+      {
+        "item_id": "B004HKIMK4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not play Nintendo DS games."
+      },
+      {
+        "item_id": "B000X2H8UA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has PS3 but no recent activity."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1298,
+    "completion_tokens": 163
+  }
+}

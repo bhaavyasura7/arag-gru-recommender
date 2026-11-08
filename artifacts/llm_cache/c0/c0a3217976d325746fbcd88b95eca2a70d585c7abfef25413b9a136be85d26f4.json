@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B006PP404Q",
+      "B00BGA9WK2",
+      "B017EI5BK4",
+      "B0BZ8GZW38",
+      "B00C0Z6KCA",
+      "B0B9R27GVV",
+      "B00JA81WQE",
+      "B00T8F5VKW",
+      "B000B6MLUA",
+      "B00009YEJV",
+      "B00006J3H0",
+      "B002DZKZ5K",
+      "B00CJ9OTNE",
+      "B0076HD2W8",
+      "B0862GHVT9",
+      "B00C0Z6KCA",
+      "B0049H2W74",
+      "B00D1H7CW3",
+      "B07RLZPYK1",
+      "B00000K10O",
+      "B00BGA9WK2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B006PP404Q",
+        "reason": "Classic Nintendo console with popular game"
+      },
+      {
+        "item_id": "B00BGA9WK2",
+        "reason": "Engaging PlayStation 4 console"
+      },
+      {
+        "item_id": "B017EI5BK4",
+        "reason": "Includes classic Mario game"
+      },
+      {
+        "item_id": "B0BZ8GZW38",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B00C0Z6KCA",
+        "reason": "Limited edition PlayStation 3 console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3800,
+    "completion_tokens": 343
+  }
+}

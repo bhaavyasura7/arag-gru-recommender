@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0007ZDKTQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user preferences."
+      },
+      {
+        "item_id": "B000FDDWSY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Shooting gallery not preferred genre."
+      },
+      {
+        "item_id": "B004MPRFF2",
+        "label": "support",
+        "score": 7,
+        "rationale": "First-person shooter aligns with interests."
+      },
+      {
+        "item_id": "B0714KY9NQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User shows no interest in sports games."
+      },
+      {
+        "item_id": "B0716W5LL4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User shows no interest in sports games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2325,
+    "completion_tokens": 158
+  }
+}

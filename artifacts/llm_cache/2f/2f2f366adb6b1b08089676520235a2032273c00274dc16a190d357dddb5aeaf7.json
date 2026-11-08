@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01HY10OUI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers action over horror games."
+      },
+      {
+        "item_id": "B00EHRSQTY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User enjoys story-driven games."
+      },
+      {
+        "item_id": "B00004U8KA",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User's history lacks horror genre interest."
+      },
+      {
+        "item_id": "B004FYVPRY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User may appreciate classic horror themes."
+      },
+      {
+        "item_id": "B00NP4TWNY",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User prefers varied gameplay experiences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2088,
+    "completion_tokens": 149
+  }
+}

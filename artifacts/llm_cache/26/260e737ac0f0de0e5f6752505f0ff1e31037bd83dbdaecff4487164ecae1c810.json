@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00BQVXSSS",
+      "B20H0TJM70",
+      "B078WKY7F6",
+      "B07C9W9FK4",
+      "B000Q0ASEW",
+      "B005669IE2",
+      "B000GA8U9W",
+      "B0C5K4M7WJ",
+      "B005QP3MGI",
+      "B00004S9AC",
+      "B0012RCNTG",
+      "B000HX1UXD8",
+      "B004GEBB2W",
+      "B06Y626MDF",
+      "B008B6OC5O",
+      "B00DOD52QW",
+      "B002KJ02ZC",
+      "B000MI0W3U",
+      "B005QP3MGI",
+      "B000GA8U9W",
+      "B000HX1UXD8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00BQVXSSS",
+        "reason": "Popular action game series"
+      },
+      {
+        "item_id": "B01H0TJM70",
+        "reason": "Highly rated superhero game"
+      },
+      {
+        "item_id": "B078WKY7F6",
+        "reason": "Essential accessory for Switch"
+      },
+      {
+        "item_id": "B07C9W9FK4",
+        "reason": "Quality Xbox One power supply"
+      },
+      {
+        "item_id": "B000Q0ASEW",
+        "reason": "Strategic card game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3813,
+    "completion_tokens": 340
+  }
+}

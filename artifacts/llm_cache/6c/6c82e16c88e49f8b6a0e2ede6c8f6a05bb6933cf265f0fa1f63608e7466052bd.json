@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00005AC5L",
+      "B07YBXP45M",
+      "B09325LCPJ",
+      "B01A9Z7UIK",
+      "B0038X3ZVM",
+      "B09Y7VHSS",
+      "B0036DD2JE",
+      "B0000AI1KG",
+      "B07RQR3HRG",
+      "B075N7PDK1",
+      "B072LVNKG7",
+      "B093NXQ952",
+      "B0BC8Q1MG8",
+      "B002WWVB3Y",
+      "B08P2PXGLY",
+      "B01MY9JB2U",
+      "B07KXW7BYY",
+      "B0038X3ZVM",
+      "B0BWXW6YF9",
+      "B06X5ZA200",
+      "B093NXQ952"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00005AC5L",
+        "reason": "Classic Nintendo console experience"
+      },
+      {
+        "item_id": "B07YBXP45M",
+        "reason": "Compatible Nintendo controllers"
+      },
+      {
+        "item_id": "B09325LCPJ",
+        "reason": "VR stand for gaming accessories"
+      },
+      {
+        "item_id": "B01A9Z7UIK",
+        "reason": "Gaming mouse for multiplayer"
+      },
+      {
+        "item_id": "B0038X3ZVM",
+        "reason": "Mechanical keyboard for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3262,
+    "completion_tokens": 334
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B087SHFL9B",
+      "B09LVJB9L9",
+      "B20XUZFFBG",
+      "B076WZK364",
+      "B08X6X4M1S",
+      "B0BW68XJ23",
+      "B09K3ZGD33",
+      "B003VC8TUM",
+      "B0001Q5SL4",
+      "B00002SU96",
+      "B000K0L752",
+      "B00M9O8N0E",
+      "B0007IQG2Q",
+      "B002NBBC8S",
+      "B07C7Y2ZMG",
+      "B0869FPXN8",
+      "B14T7YCHFJ",
+      "B0001Q5SL4",
+      "B00XUZFFBG",
+      "B00002SU96"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087SHFL9B",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B09LVJB9L9",
+        "reason": "High-quality screen protector"
+      },
+      {
+        "item_id": "B20XUZFFBG",
+        "reason": "Stylish vinyl skin for console"
+      },
+      {
+        "item_id": "B076WZK364",
+        "reason": "Durable joystick replacement part"
+      },
+      {
+        "item_id": "B08X6X4M1S",
+        "reason": "Protective dock sleeve for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2914,
+    "completion_tokens": 329
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09PRMCTGB",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to gaming interests."
+      },
+      {
+        "item_id": "B0006B7DXA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Obsolete content, not relevant anymore."
+      },
+      {
+        "item_id": "B000U34SZA",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular franchise, aligns with user interests."
+      },
+      {
+        "item_id": "B019WRM1IA",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible controller for gaming systems."
+      },
+      {
+        "item_id": "B003JBHG90",
+        "label": "support",
+        "score": 6,
+        "rationale": "LEGO and Star Wars appeal to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1962,
+    "completion_tokens": 155
+  }
+}

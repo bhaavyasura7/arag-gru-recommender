@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "JRPGs",
+      "action-adventure games",
+      "immersive storytelling",
+      "console gaming",
+      "gaming accessories"
+    ],
+    "current_intent": "Looking for new JRPGs or action-adventure games to play.",
+    "avoid": [
+      "first-person shooters",
+      "mobile games",
+      "sports games"
+    ],
+    "summary": "User enjoys JRPGs and action-adventure games, seeking new titles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 80
+  }
+}

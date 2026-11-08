@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08R5PR6SG",
+      "B07WXGWPDX",
+      "B0BHT94H1N",
+      "B01LZV4MZB",
+      "B01GU9NQMS",
+      "B00FRCX8ZK",
+      "B08149Z4JV",
+      "B0B8QR5895",
+      "B0BVBJGMHM",
+      "B07VVNP9TB",
+      "B0031TKFUM",
+      "B01N11GQB4",
+      "B0BWRPQMMV",
+      "B089NCV442",
+      "B00478OSYU",
+      "B01J7VKF98",
+      "B0778W12LD",
+      "B01K7HUWI",
+      "B00SQTFPMK",
+      "B0B8QR5895"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08R5PR6SG",
+        "reason": "High-quality wireless gaming headset"
+      },
+      {
+        "item_id": "B07WXGWPDX",
+        "reason": "Compatible with gaming headset"
+      },
+      {
+        "item_id": "B0BHT94H1N",
+        "reason": "Gaming accessory for Nintendo Switch"
+      },
+      {
+        "item_id": "B01LZV4MZB",
+        "reason": "DLC for popular wrestling game"
+      },
+      {
+        "item_id": "B01GU9NQMS",
+        "reason": "Amiibo card for gaming collection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3504,
+    "completion_tokens": 334
+  }
+}

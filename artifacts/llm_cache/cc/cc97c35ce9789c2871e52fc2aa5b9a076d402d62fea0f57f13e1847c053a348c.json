@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00004SVXW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B005N4I24Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Memory card is useful but not exciting."
+      },
+      {
+        "item_id": "B015XC3B46",
+        "label": "support",
+        "score": 7,
+        "rationale": "Useful accessory for PS4 gaming."
+      },
+      {
+        "item_id": "B000BLM5PG",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys Xbox 360 games."
+      },
+      {
+        "item_id": "B07MM94FXQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in Game Boy."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1337,
+    "completion_tokens": 157
+  }
+}

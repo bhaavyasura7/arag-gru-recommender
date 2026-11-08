@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07YBWT3PK",
+      "B001T0HVGQ",
+      "B13N1XKY1L",
+      "B17MT1DCIV",
+      "B005D7G3LA",
+      "B00C1TTF86",
+      "B00006IKB6",
+      "B00Z9TM72Q",
+      "B007VYW5K6",
+      "B0000488VP",
+      "B00005B70U",
+      "B00IA7V81A",
+      "B000UW21A0",
+      "B082N7B2DZ",
+      "B01LW6SOV9",
+      "B00L59D9HG",
+      "B07N1XKY1L",
+      "B00IA7V81A",
+      "B01FSKACPY",
+      "B098815CMR"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07YBWT3PK",
+        "reason": "High-quality Xbox One game"
+      },
+      {
+        "item_id": "B001T0HVGQ",
+        "reason": "Essential Xbox 360 accessory"
+      },
+      {
+        "item_id": "B13N1XKY1L",
+        "reason": "High-performance gaming SSD"
+      },
+      {
+        "item_id": "B17MT1DCIV",
+        "reason": "Improves controller grip"
+      },
+      {
+        "item_id": "B005D7G3LA",
+        "reason": "Enhances controller comfort"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3830,
+    "completion_tokens": 327
+  }
+}

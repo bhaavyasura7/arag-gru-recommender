@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07WMPTF7V",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's console preferences."
+      },
+      {
+        "item_id": "B0084A97Y8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation 3."
+      },
+      {
+        "item_id": "B0054OX7HA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo 3DS not in user's history."
+      },
+      {
+        "item_id": "B00KSQHX1K",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox One game aligns with user interests."
+      },
+      {
+        "item_id": "B00BGA9WK2",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers Xbox, not PlayStation 4."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1305,
+    "completion_tokens": 169
+  }
+}

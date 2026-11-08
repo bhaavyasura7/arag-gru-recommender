@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B2RYGCGJ",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys gaming accessories."
+      },
+      {
+        "item_id": "B000Q34YVM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B0BJF2L9J2",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has VR gaming interests."
+      },
+      {
+        "item_id": "B00QZFBSFU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Decal skin not a primary interest."
+      },
+      {
+        "item_id": "B07NV9RR9D",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy system accessory, not relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2009,
+    "completion_tokens": 157
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000034DMG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre than user's interests."
+      },
+      {
+        "item_id": "B0064VBM4W",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B0017Q4DGI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different console, not preferred."
+      },
+      {
+        "item_id": "B01N1P0KFI",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B0041RWIGW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1155,
+    "completion_tokens": 156
+  }
+}

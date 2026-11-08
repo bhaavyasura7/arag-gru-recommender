@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00LW7F2OE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B07QWTM6XL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse not specific to consoles."
+      },
+      {
+        "item_id": "B00005MA8H",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy system, not PlayStation related."
+      },
+      {
+        "item_id": "B07MX4S86T",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Keyboard for PC, not console specific."
+      },
+      {
+        "item_id": "B00501IBV4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PC game, user prefers console games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1089,
+    "completion_tokens": 161
+  }
+}

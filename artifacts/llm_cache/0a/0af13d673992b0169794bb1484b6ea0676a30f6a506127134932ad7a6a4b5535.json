@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BHVPZH7R",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Xbox 360 accessory, not directly relevant."
+      },
+      {
+        "item_id": "B09644NPJ4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Sega Genesis game, user prefers PlayStation."
+      },
+      {
+        "item_id": "B08K327RKS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR accessory, user focuses on consoles."
+      },
+      {
+        "item_id": "B08N5XZ6L5",
+        "label": "support",
+        "score": 7,
+        "rationale": "Xbox One charger, aligns with user interests."
+      },
+      {
+        "item_id": "B07G5PPPFX",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Nintendo Switch skin, user prefers PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1083,
+    "completion_tokens": 164
+  }
+}

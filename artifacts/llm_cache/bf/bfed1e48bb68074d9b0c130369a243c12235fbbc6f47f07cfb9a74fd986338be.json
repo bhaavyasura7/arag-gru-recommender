@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00006CRUN",
+      "B000035Y10",
+      "B081J6RMT9",
+      "B00189HR7Q",
+      "B07X8ZSL76",
+      "B09Q8XZYWF",
+      "B001QY13C8",
+      "B086ZGXL7J",
+      "B17X8ZSL76",
+      "B0BMFL3RWT",
+      "B0BTBGDSFB",
+      "B001CK89AFA",
+      "B00E4KN6P8",
+      "B07ZF8ZH8C",
+      "B00009W5JS",
+      "B00W4KX272",
+      "B007G4JZ9K",
+      "B0BVVTQ5JP",
+      "B00GGIEQY6",
+      "B01MEG91OJ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00006CRUN",
+        "reason": "Nostalgic simulation game"
+      },
+      {
+        "item_id": "B000035Y10",
+        "reason": "Classic retro fighting game"
+      },
+      {
+        "item_id": "B081J6RMT9",
+        "reason": "Essential Switch accessory"
+      },
+      {
+        "item_id": "B00189HR7Q",
+        "reason": "Stylus for nostalgic gaming"
+      },
+      {
+        "item_id": "B07X8ZSL76",
+        "reason": "Thumb grips for better control"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3205,
+    "completion_tokens": 322
+  }
+}

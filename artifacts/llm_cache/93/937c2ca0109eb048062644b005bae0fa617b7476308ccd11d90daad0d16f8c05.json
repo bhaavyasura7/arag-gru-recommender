@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07X3BFSTZ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for PS4, not a game."
+      },
+      {
+        "item_id": "B00KFBRP5C",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo game, user prefers PlayStation."
+      },
+      {
+        "item_id": "B006QXO0GK",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B09156Z2H3",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Power cable, not directly related to games."
+      },
+      {
+        "item_id": "B09N6P3985",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances PS5 controller, aligns with gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1316,
+    "completion_tokens": 167
+  }
+}

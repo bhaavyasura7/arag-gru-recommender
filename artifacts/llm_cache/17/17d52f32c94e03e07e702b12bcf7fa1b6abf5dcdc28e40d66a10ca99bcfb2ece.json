@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0006TNCKA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers modern gaming headsets."
+      },
+      {
+        "item_id": "B07SNKNWD3",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has mixed interest in horror games."
+      },
+      {
+        "item_id": "B07MG4HBMH",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes gaming keyboards and accessories."
+      },
+      {
+        "item_id": "B00FQF4IE8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in TV shows."
+      },
+      {
+        "item_id": "B000HFZC5Q",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action-oriented games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1015,
+    "completion_tokens": 161
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUQMI",
+      "B074PKQWB1",
+      "B00H9CVO0W",
+      "B005SYWL4Q",
+      "B07BKLWZK6",
+      "B07L7LT3Q6",
+      "B076V8FC1H",
+      "B08ZNCVZRQ",
+      "B002YX09IY",
+      "B08XWFDSP6",
+      "B003YJ4J0Q",
+      "B000059WIQ",
+      "B00030GK56",
+      "B07PPPMBB3",
+      "B0C85TJFFH",
+      "B09577GRRZ",
+      "B0007V46I4",
+      "B08ZNCVZRQ",
+      "B01L5QXEJG",
+      "B077PBNG9B",
+      "B18D3D3D3D"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUQMI",
+        "reason": "Popular family-friendly racing game"
+      },
+      {
+        "item_id": "B074PKQWB1",
+        "reason": "Engaging magical adventure game"
+      },
+      {
+        "item_id": "B00H9CVO0W",
+        "reason": "Classic family-friendly adventure"
+      },
+      {
+        "item_id": "B005SYWL4Q",
+        "reason": "Fun accessory for Nintendo games"
+      },
+      {
+        "item_id": "B07BKLWZK6",
+        "reason": "Transformers toy for kids"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3041,
+    "completion_tokens": 341
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0000C6EDK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B0012BXJDQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not Nintendo."
+      },
+      {
+        "item_id": "B007PIXWMS",
+        "label": "support",
+        "score": 7,
+        "rationale": "Relevant accessory for Xbox 360."
+      },
+      {
+        "item_id": "B07J2SC9ZG",
+        "label": "support",
+        "score": 8,
+        "rationale": "Useful for Xbox 360 gaming experience."
+      },
+      {
+        "item_id": "B08MVQCSV5",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "VR headset not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1141,
+    "completion_tokens": 156
+  }
+}

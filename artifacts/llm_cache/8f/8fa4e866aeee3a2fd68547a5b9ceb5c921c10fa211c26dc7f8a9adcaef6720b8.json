@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo Switch accessories",
+      "gaming controllers",
+      "video game storage solutions",
+      "gaming peripherals",
+      "active PC tools"
+    ],
+    "current_intent": "Looking for more gaming accessories or peripherals.",
+    "avoid": [
+      "non-gaming products",
+      "low-quality items",
+      "overpriced accessories"
+    ],
+    "summary": "The user is a gaming enthusiast focused on high-quality accessories for Nintendo Switch and PC gaming, seeking to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 424,
+    "completion_tokens": 98
+  }
+}

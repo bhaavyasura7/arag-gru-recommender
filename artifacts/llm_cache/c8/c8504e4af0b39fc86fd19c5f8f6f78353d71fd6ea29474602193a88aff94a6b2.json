@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09WDXK8YF",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nostalgic but not directly relevant."
+      },
+      {
+        "item_id": "B07ZGG7GSY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse, not a game."
+      },
+      {
+        "item_id": "B08NX197P4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Useful for Nintendo Switch users."
+      },
+      {
+        "item_id": "B0006JMLN4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Wrestling game, not a strong interest."
+      },
+      {
+        "item_id": "B001DJ7PEQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Gymnastics game, unrelated to interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1389,
+    "completion_tokens": 162
+  }
+}

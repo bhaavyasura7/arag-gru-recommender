@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0044MA3Y8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys tactical shooters occasionally."
+      },
+      {
+        "item_id": "B00KAPFOJ2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in Diablo series."
+      },
+      {
+        "item_id": "B00EVTBVRM",
+        "label": "support",
+        "score": 7,
+        "rationale": "User liked Dead Space series previously."
+      },
+      {
+        "item_id": "B07BX96QQM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has mixed interest in strategy games."
+      },
+      {
+        "item_id": "B0009JIID8",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User's interest in older PC games is unclear."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1806,
+    "completion_tokens": 158
+  }
+}

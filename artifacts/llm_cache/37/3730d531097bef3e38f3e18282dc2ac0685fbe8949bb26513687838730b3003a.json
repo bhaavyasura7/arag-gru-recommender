@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000BTYP4C",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers action and adventure games."
+      },
+      {
+        "item_id": "B00HJZMJ0S",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no racing management interest."
+      },
+      {
+        "item_id": "B00009XS6P",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys various game genres."
+      },
+      {
+        "item_id": "B006OBEFXW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User prefers specific game types."
+      },
+      {
+        "item_id": "B004EC4CPE",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User's interests do not include racing."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2346,
+    "completion_tokens": 150
+  }
+}

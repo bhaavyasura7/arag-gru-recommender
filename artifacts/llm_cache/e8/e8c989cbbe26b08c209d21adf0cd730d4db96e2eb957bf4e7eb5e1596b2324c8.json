@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B19C1XZMKG",
+      "B09H5T4F2S",
+      "B19C1XZMKG",
+      "B07DKXJBBY",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09H5T4F2S",
+        "reason": "Customizable PS5 controller lights"
+      },
+      {
+        "item_id": "B07DKXJBBY",
+        "reason": "Popular basketball game for PS4"
+      },
+      {
+        "item_id": "B19C1XZMKG",
+        "reason": "High-quality gaming accessory"
+      },
+      {
+        "item_id": "B19C1XZMKG",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B19C1XZMKG",
+        "reason": "Improves controller grip"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3253,
+    "completion_tokens": 340
+  }
+}

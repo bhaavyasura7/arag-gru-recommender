@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00W9DHUBS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation games only."
+      },
+      {
+        "item_id": "B08MBKGJVY",
+        "label": "support",
+        "score": 10,
+        "rationale": "Directly related to Kingdom Hearts series."
+      },
+      {
+        "item_id": "B000TTZMCS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not directly related."
+      },
+      {
+        "item_id": "B0053B7ICO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different game type, but on PlayStation."
+      },
+      {
+        "item_id": "B001ELJE8I",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PC game, not aligned with user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1228,
+    "completion_tokens": 159
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07NY76QQL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user's console preferences."
+      },
+      {
+        "item_id": "B00GWX80XS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game, less relevant."
+      },
+      {
+        "item_id": "B003O0KICS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for older systems, not games."
+      },
+      {
+        "item_id": "B00XR3YBM0",
+        "label": "support",
+        "score": 7,
+        "rationale": "WWE game aligns with user's interests."
+      },
+      {
+        "item_id": "B000TLU67W",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Legacy console, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1108,
+    "completion_tokens": 155
+  }
+}

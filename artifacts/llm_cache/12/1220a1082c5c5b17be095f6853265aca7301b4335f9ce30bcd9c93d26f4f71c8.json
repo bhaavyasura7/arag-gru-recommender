@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00007M9SH",
+      "B014YXCI18",
+      "B08T5LC9FJ",
+      "B0831KLMFG",
+      "B00D424FSE",
+      "B004YVF8Z8",
+      "B07JZ1MD89",
+      "B094VSX6LJ",
+      "B00JC5Y9LK",
+      "B08TBXXCZW",
+      "B08T9KZQZ6",
+      "B0787KRJGB",
+      "B06ZXX67PC",
+      "B000078JT3",
+      "B07CVC9CSQ",
+      "B004Y2VAVS",
+      "B00H900YLE",
+      "B19JZ1MD89",
+      "B08L4PGFXT",
+      "B016MN5J0O"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00007M9SH",
+        "reason": "Engaging narrative-driven puzzle game"
+      },
+      {
+        "item_id": "B014YXCI18",
+        "reason": "Classic hidden object game"
+      },
+      {
+        "item_id": "B08T5LC9FJ",
+        "reason": "Compatible controller for PC gaming"
+      },
+      {
+        "item_id": "B0831KLMFG",
+        "reason": "Gaming keyboard for strategy games"
+      },
+      {
+        "item_id": "B00D424FSE",
+        "reason": "Protective case for gaming controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3405,
+    "completion_tokens": 325
+  }
+}

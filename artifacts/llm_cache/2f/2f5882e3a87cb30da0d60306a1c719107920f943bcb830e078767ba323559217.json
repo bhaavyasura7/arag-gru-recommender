@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07N6DTKHX",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not related to gaming or electronics."
+      },
+      {
+        "item_id": "B07N6DSXLL",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not related to gaming or electronics."
+      },
+      {
+        "item_id": "B001UQ6SHC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Online game code, not a physical product."
+      },
+      {
+        "item_id": "B00DZXG1S4",
+        "label": "support",
+        "score": 8,
+        "rationale": "PC game aligns with gaming interest."
+      },
+      {
+        "item_id": "B00DYAQHNC",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox 360 game aligns with gaming interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1049,
+    "completion_tokens": 164
+  }
+}

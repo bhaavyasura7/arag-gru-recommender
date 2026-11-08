@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00005O0I8",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B0009OGJ02",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not relevant to user's console."
+      },
+      {
+        "item_id": "B0C8MPWZ1H",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller for different systems, not PlayStation."
+      },
+      {
+        "item_id": "B0087ACBAW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, not directly related to PlayStation."
+      },
+      {
+        "item_id": "B000B69E9G",
+        "label": "support",
+        "score": 8,
+        "rationale": "Resident Evil 4 is a PlayStation title."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 165
+  }
+}

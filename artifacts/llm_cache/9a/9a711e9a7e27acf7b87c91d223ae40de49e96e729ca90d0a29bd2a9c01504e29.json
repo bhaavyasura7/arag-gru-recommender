@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07177727N",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user history."
+      },
+      {
+        "item_id": "B0B4S2K2ST",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B00PJKWN2Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "General gaming accessory, not specific."
+      },
+      {
+        "item_id": "B000066RKC",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar genre to user preferences."
+      },
+      {
+        "item_id": "B00K1HF3HM",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory for a different console."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1268,
+    "completion_tokens": 150
+  }
+}

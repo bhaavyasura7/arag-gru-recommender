@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "story-driven games",
+      "action-adventure titles",
+      "RPGs",
+      "racing games",
+      "high-quality graphics"
+    ],
+    "current_intent": "looking for more engaging video games",
+    "avoid": [
+      "multiplayer games",
+      "low-quality graphics",
+      "boring gameplay"
+    ],
+    "summary": "The user enjoys immersive, narrative-rich video games and seeks new titles that offer similar experiences."
+  },
+  "usage": {
+    "prompt_tokens": 301,
+    "completion_tokens": 75
+  }
+}

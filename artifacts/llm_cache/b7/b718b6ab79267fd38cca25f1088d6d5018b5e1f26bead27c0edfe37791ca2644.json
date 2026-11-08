@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BJL54SZL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Cyberpunk theme may appeal slightly."
+      },
+      {
+        "item_id": "B0BN6X1BGV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar gameplay style, but different genre."
+      },
+      {
+        "item_id": "B012NQATOU",
+        "label": "support",
+        "score": 7,
+        "rationale": "Zombie theme aligns with action interests."
+      },
+      {
+        "item_id": "B00FMJL78S",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, less relevant to user history."
+      },
+      {
+        "item_id": "B0BS6Y75CZ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory for different console, less relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2725,
+    "completion_tokens": 158
+  }
+}

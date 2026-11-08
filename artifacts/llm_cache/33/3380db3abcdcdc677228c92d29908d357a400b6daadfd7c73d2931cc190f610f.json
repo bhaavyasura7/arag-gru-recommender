@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07XKZ7VKL",
+      "B0788L9WJ1",
+      "B09V25XG1G",
+      "B07WS6ZFTG",
+      "B000GG5JO0",
+      "B0009Z3MQ0",
+      "B001QCWSJ2",
+      "B07GRP33YM",
+      "B001EYUS2G",
+      "B002L8W5V6",
+      "B00L3LQ1FI",
+      "B07PZ8NZSZ",
+      "B12NSSHPFN",
+      "B0061PAZUS",
+      "B000TLU67W",
+      "B07SCYRBRL",
+      "B07J3P1GJM",
+      "B01CR058OS",
+      "B0009Z3MQ0",
+      "B07NSSHPFN"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07XKZ7VKL",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B0788L9WJ1",
+        "reason": "Multi-platform compatibility"
+      },
+      {
+        "item_id": "B09V25XG1G",
+        "reason": "Retro-style controller"
+      },
+      {
+        "item_id": "B07WS6ZFTG",
+        "reason": "Powerful console upgrade"
+      },
+      {
+        "item_id": "B000GG5JO0",
+        "reason": "Classic GameCube controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3768,
+    "completion_tokens": 327
+  }
+}

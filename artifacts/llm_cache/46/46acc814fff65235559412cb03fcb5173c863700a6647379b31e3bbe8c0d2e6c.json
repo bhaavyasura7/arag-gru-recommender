@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B017D3KOJS",
+        "label": "support",
+        "score": 7,
+        "rationale": "Headset supports gaming experience."
+      },
+      {
+        "item_id": "B08DB8H8M5",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not Nintendo Switch."
+      },
+      {
+        "item_id": "B00005OBQ9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, not directly aligned with Xbox."
+      },
+      {
+        "item_id": "B00ABTAZV4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, not Xbox specific."
+      },
+      {
+        "item_id": "B07D122T41",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Switch game, not Xbox related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 160
+  }
+}

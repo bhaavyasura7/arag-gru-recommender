@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00DQWIFNS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "related to Assassin's Creed series"
+      },
+      {
+        "item_id": "B00YQDHAMS",
+        "label": "support",
+        "score": 8,
+        "rationale": "user enjoys Assassin's Creed games"
+      },
+      {
+        "item_id": "B00HLJHL82",
+        "label": "support",
+        "score": 7,
+        "rationale": "user has played Assassin's Creed games"
+      },
+      {
+        "item_id": "B002XCBTP8",
+        "label": "support",
+        "score": 9,
+        "rationale": "user liked Ezio Trilogy"
+      },
+      {
+        "item_id": "B072ZPTQYB",
+        "label": "support",
+        "score": 6,
+        "rationale": "user enjoys Assassin's Creed franchise"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 848,
+    "completion_tokens": 146
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09NQWKKMJ",
+      "B00CISMP8M",
+      "B20TDMBUMI",
+      "B003FMTZSI",
+      "B00BGAA3S2",
+      "B003HKS156",
+      "B001EYUTZ2",
+      "B001BQVXP8",
+      "B0728CJKZS",
+      "B0079V4GK8",
+      "B00Z9TJZAI",
+      "B001ELJDUC",
+      "B00RN7QTF8",
+      "B0C2Y9QX1H",
+      "B014GWNTCI",
+      "B00YDV70NW",
+      "B001EYUOFM",
+      "B00TDMBUMI",
+      "B00BGAA3S2",
+      "B001BQVXP8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09NQWKKMJ",
+        "reason": "High-quality gaming accessory"
+      },
+      {
+        "item_id": "B00CISMP8M",
+        "reason": "Popular sports game for Xbox"
+      },
+      {
+        "item_id": "B20TDMBUMI",
+        "reason": "Essential charging stand for Xbox"
+      },
+      {
+        "item_id": "B003FMTZSI",
+        "reason": "Unique gaming experience"
+      },
+      {
+        "item_id": "B00BGAA3S2",
+        "reason": "Useful camera for PS4"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3552,
+    "completion_tokens": 319
+  }
+}

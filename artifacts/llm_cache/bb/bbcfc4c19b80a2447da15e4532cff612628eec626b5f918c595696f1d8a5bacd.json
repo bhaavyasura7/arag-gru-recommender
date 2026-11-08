@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08P6QNNBQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has PS4 accessories interest."
+      },
+      {
+        "item_id": "B07M7V5GWW",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with PS4, user enjoys controllers."
+      },
+      {
+        "item_id": "B09B71DR67",
+        "label": "support",
+        "score": 8,
+        "rationale": "Wireless controller aligns with user preferences."
+      },
+      {
+        "item_id": "B07PPMLFM3",
+        "label": "support",
+        "score": 9,
+        "rationale": "Charging station matches user's PS4 accessories."
+      },
+      {
+        "item_id": "B07G1ZPDZN",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Skin and grips are less prioritized."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2139,
+    "completion_tokens": 157
+  }
+}

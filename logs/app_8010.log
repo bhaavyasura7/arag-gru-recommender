@@ -1,0 +1,23 @@
+2026-10-20 12:33:29,773 INFO arag.api.app: DB already seeded (/Users/likhith/Projects/DeepLearningProject/artifacts/app.db)
+2026-10-20 12:33:29,814 INFO arag.api.app: preloading models (this may take ~20s) ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7511.18it/s]
+INFO:     Started server process [32594]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8010 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58952 - "GET /results HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58954 - "GET /results HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58956 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58998 - "GET /dataset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58997 - "GET /users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59024 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59026 - "GET /assets/index-BRjaB5Sq.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59024 - "GET /assets/index-BPYx2L6h.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59028 - "GET /dataset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59024 - "GET /results HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59026 - "GET /users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59035 - "GET /users/AGSSKCPJ6LCDU52LST6G7B3G26CQ/history?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59034 - "POST /sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59034 - "GET /feed?user_id=AGSSKCPJ6LCDU52LST6G7B3G26CQ&session_id=2ad9588facbd46aea6ba178209d6cb65&page=0&page_size=12 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59034 - "GET /runs/2229aae059484a26bbbe302518bc5f64 HTTP/1.1" 200 OK

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000MZ8QWM",
+      "B08H8CPSQJ",
+      "B08DJ9L8FZ",
+      "B14H8CPSQJ",
+      "B076DF9F12",
+      "B000U5RRX8",
+      "B0057UCXS0",
+      "B00005J36X",
+      "B002EWD01S",
+      "B07DNDF1D6",
+      "B0B67PQ6HR",
+      "B01M9J5MHK",
+      "B00GQYIAME",
+      "B0756YV3MK",
+      "B01HPCHQ3O",
+      "B085ZNBWF1",
+      "B01HPCHQ3O",
+      "B07S8DWWNX",
+      "B009O8HH3M",
+      "B00005J36X"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000MZ8QWM",
+        "reason": "Compatible with Nintendo DS systems"
+      },
+      {
+        "item_id": "B08H8CPSQJ",
+        "reason": "High compatibility for Wii games"
+      },
+      {
+        "item_id": "B08DJ9L8FZ",
+        "reason": "Remote for Nintendo Wii & Wii U"
+      },
+      {
+        "item_id": "B076DF9F12",
+        "reason": "Durable charging solution for Nintendo"
+      },
+      {
+        "item_id": "B000U5RRX8",
+        "reason": "Quality headset for gaming consoles"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3344,
+    "completion_tokens": 339
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00Q0279ZG",
+      "B12F2522ZY",
+      "B00YSAXP0U",
+      "B08KZ66KV5",
+      "B001QTWAG6",
+      "B011I73MQW",
+      "B0CJ59RVDH",
+      "B0BKZYTYNJ",
+      "B00001ZWPB",
+      "B00009YEJY",
+      "B00003AH2LE",
+      "B08VRZ4NRX",
+      "B0033AH2LE",
+      "B00D5WDI3G",
+      "B00GGVTI3W",
+      "B00FKOH4N2",
+      "B00NJ52G6Y",
+      "B01718KG2U",
+      "B08F2522ZY",
+      "B0BKZYTYNJ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00Q0279ZG",
+        "reason": "Perfect for Wii racing games"
+      },
+      {
+        "item_id": "B00YSAXP0U",
+        "reason": "Display amiibo collection nicely"
+      },
+      {
+        "item_id": "B08KZ66KV5",
+        "reason": "Compatible with Nintendo Switch Lite"
+      },
+      {
+        "item_id": "B001QTWAG6",
+        "reason": "Amiibo for Monster Hunter series"
+      },
+      {
+        "item_id": "B12F2522ZY",
+        "reason": "Protective case for Nintendo 2DS"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3164,
+    "completion_tokens": 330
+  }
+}

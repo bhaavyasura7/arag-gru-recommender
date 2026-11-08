@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00JA81WQE",
+      "B0015AARJI",
+      "B00NHV0XV0",
+      "B00Z9TM72Q",
+      "B09TN8X89W",
+      "B003R7JXMO",
+      "B001DLVIFQ",
+      "B005OGPTSS",
+      "B003MQMD2W",
+      "B0041HROGG",
+      "B001ELJE1U",
+      "B003Z0BRDQ",
+      "B005MICTUE",
+      "B001EYUXLC",
+      "B0029MAXVS",
+      "B00C1TTF86",
+      "B07C3PV1PX",
+      "B07ZJ6RY1W",
+      "B006VR663G",
+      "B0181H0H8G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00JA81WQE",
+        "reason": "Popular PS4 game title"
+      },
+      {
+        "item_id": "B0015AARJI",
+        "reason": "Essential PS3 controller"
+      },
+      {
+        "item_id": "B00NHV0XV0",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Action-packed PS4 game"
+      },
+      {
+        "item_id": "B09TN8X89W",
+        "reason": "Multiplayer action-adventure game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3788,
+    "completion_tokens": 319
+  }
+}

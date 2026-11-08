@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01FMQ3LMU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Racing game, not user’s preference."
+      },
+      {
+        "item_id": "B00CF7KVMI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Football game, user prefers RPGs."
+      },
+      {
+        "item_id": "B003R7LBQK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Fantasy football, not user’s interest."
+      },
+      {
+        "item_id": "B0BYPDQN2W",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Streaming accessory, unrelated to gaming."
+      },
+      {
+        "item_id": "B07D5G4KXJ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo accessory, user prefers PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1337,
+    "completion_tokens": 166
+  }
+}

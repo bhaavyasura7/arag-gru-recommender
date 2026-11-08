@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B005TH6BD4",
+      "B00B2A0STU",
+      "B07W17QSK8",
+      "B0B9L7RQGL",
+      "B00B81THKF3",
+      "B00L002JZ8",
+      "B005ZPAI0M",
+      "B08XZ64Q32",
+      "B002O7HFDC",
+      "B000AMJV44",
+      "B008FJQV1U",
+      "B0C3CTQ41Z",
+      "B071P87W4V",
+      "B07GFH462T",
+      "B0BHYS16BM",
+      "B079RZ8VCL",
+      "B07549RH4C",
+      "B0037HPS6Y",
+      "B0B81THKF3",
+      "B15XJY1LJ1",
+      "B0C3CTQ41Z"
+    ],
+    "reasons": [
+      {
+        "item_id": "B005TH6BD4",
+        "reason": "Engaging action-adventure gameplay"
+      },
+      {
+        "item_id": "B00B2A0STU",
+        "reason": "Popular RPG with immersive story"
+      },
+      {
+        "item_id": "B07W17QSK8",
+        "reason": "Limited edition RPG experience"
+      },
+      {
+        "item_id": "B0B9L7RQGL",
+        "reason": "Protective case for gaming device"
+      },
+      {
+        "item_id": "B00B81THKF3",
+        "reason": "High-quality gaming keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3572,
+    "completion_tokens": 346
+  }
+}

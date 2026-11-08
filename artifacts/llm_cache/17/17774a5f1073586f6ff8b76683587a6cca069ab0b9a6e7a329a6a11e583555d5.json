@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B077GG9D5D",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B0919NSCXL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset compatible with Xbox, not preferred."
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox games, GTA V is popular."
+      },
+      {
+        "item_id": "B07V3G6C1F",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no Nintendo Switch history."
+      },
+      {
+        "item_id": "B0079V2XFS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers Xbox games over PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1310,
+    "completion_tokens": 166
+  }
+}

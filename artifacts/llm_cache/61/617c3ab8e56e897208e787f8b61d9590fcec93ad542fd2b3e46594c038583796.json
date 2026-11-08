@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B017QU5G1O",
+      "B0B9MJK753",
+      "B00BGA9WK2",
+      "B19M7ZIZGC",
+      "B00CD3V9CU",
+      "B0031TKFUM",
+      "B003L77YKS",
+      "B072KHSYDD",
+      "B00004WMVL",
+      "B00005BJ9F",
+      "B00004WI4D",
+      "B00A1AQJAO",
+      "B00J1ZSOTE",
+      "B00M7ZIZGC",
+      "B0050SYEYK",
+      "B00002ST27",
+      "B00008URUA",
+      "B00004WMVL",
+      "B00BGA9WK2",
+      "B00CD3V9CU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B017QU5G1O",
+        "reason": "High-quality charging system"
+      },
+      {
+        "item_id": "B0B9MJK753",
+        "reason": "Wireless adapter for Xbox controllers"
+      },
+      {
+        "item_id": "B00BGA9WK2",
+        "reason": "Compatible Xbox controller"
+      },
+      {
+        "item_id": "B19M7ZIZGC",
+        "reason": "Limited edition Xbox game"
+      },
+      {
+        "item_id": "B00CD3V9CU",
+        "reason": "Co-op game for Xbox 360"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3687,
+    "completion_tokens": 320
+  }
+}

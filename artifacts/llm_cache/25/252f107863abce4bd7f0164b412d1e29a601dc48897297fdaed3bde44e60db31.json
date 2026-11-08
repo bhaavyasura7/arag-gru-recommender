@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01LY6330J",
+        "label": "support",
+        "score": 9,
+        "rationale": "User loves Assassin's Creed series."
+      },
+      {
+        "item_id": "B01N6EAVMA",
+        "label": "support",
+        "score": 9,
+        "rationale": "User loves Assassin's Creed series."
+      },
+      {
+        "item_id": "B07P6DDN8F",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Assassin's Creed games."
+      },
+      {
+        "item_id": "B013D0H7KE",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has played Assassin's Creed games."
+      },
+      {
+        "item_id": "B00YQDHTF6",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Assassin's Creed series."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 883,
+    "completion_tokens": 156
+  }
+}

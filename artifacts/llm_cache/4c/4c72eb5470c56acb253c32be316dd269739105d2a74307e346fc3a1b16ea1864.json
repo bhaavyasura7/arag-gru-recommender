@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B088GTTVFJ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers Xbox products, not Switch."
+      },
+      {
+        "item_id": "B009W6T6XU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no history with Nintendo 3DS."
+      },
+      {
+        "item_id": "B001ELJF96",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User focuses on Xbox, not Mac games."
+      },
+      {
+        "item_id": "B076J6GL6B",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own a PS4."
+      },
+      {
+        "item_id": "B00V6QCI1Q",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no history with Tropico series."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1424,
+    "completion_tokens": 165
+  }
+}

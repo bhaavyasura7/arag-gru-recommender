@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B075PH6YKJ",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys narrative-driven games."
+      },
+      {
+        "item_id": "B0009NWQFK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Carrying case not directly related to interests."
+      },
+      {
+        "item_id": "B078GCN37N",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers action games, not simulations."
+      },
+      {
+        "item_id": "B008V7W1CE",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Japanese import may not align with interests."
+      },
+      {
+        "item_id": "B006NU6EJC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Simulator genre not favored by user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1146,
+    "completion_tokens": 158
+  }
+}

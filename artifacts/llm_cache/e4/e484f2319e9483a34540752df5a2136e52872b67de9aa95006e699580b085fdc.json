@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "virtual reality headsets",
+      "gaming accessories",
+      "Oculus Quest products",
+      "replacement parts",
+      "audio equipment"
+    ],
+    "current_intent": "looking for VR accessories or upgrades",
+    "avoid": [
+      "low-quality products",
+      "non-compatible items",
+      "overpriced accessories"
+    ],
+    "summary": "User is interested in virtual reality gaming and seeks quality accessories for their Oculus Quest setup."
+  },
+  "usage": {
+    "prompt_tokens": 377,
+    "completion_tokens": 72
+  }
+}

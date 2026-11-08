@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07K3KHFSY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different PlayStation system."
+      },
+      {
+        "item_id": "B07YBXNWXL",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User rated Xbox 360 game poorly."
+      },
+      {
+        "item_id": "B001Q54VVC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not user’s preference."
+      },
+      {
+        "item_id": "B00AK4QB22",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers different game styles."
+      },
+      {
+        "item_id": "B00YQM1PNY",
+        "label": "support",
+        "score": 7,
+        "rationale": "PlayStation 4 game aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1234,
+    "completion_tokens": 160
+  }
+}

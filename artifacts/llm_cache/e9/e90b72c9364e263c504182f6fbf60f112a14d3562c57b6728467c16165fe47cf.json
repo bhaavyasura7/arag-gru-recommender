@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0C1M1967M",
+        "label": "support",
+        "score": 9,
+        "rationale": "Enhances gaming experience for multiple consoles."
+      },
+      {
+        "item_id": "B07Z5MP32B",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Useful for legacy systems, not primary interest."
+      },
+      {
+        "item_id": "B07DJCV8P5",
+        "label": "support",
+        "score": 8,
+        "rationale": "Modded controller for popular FPS games."
+      },
+      {
+        "item_id": "B01995X4FY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Protective skin, not a primary interest."
+      },
+      {
+        "item_id": "B08292G7ZZ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wireless controller for PlayStation 4 gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2521,
+    "completion_tokens": 162
+  }
+}

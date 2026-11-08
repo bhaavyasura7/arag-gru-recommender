@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07V3G6C1F",
+      "B00CH923NE",
+      "B0086VPUHI",
+      "B0919NSCXL",
+      "B00CMQTUCE",
+      "B008B2ZKK4",
+      "B01N3ASPNV",
+      "B07CMKDB2K",
+      "B003O6EE4U",
+      "B008MO6BMW",
+      "B00GY35HKE",
+      "B00004YROX",
+      "B0086VPUHI",
+      "B000F1WDHW",
+      "B01GY3601E",
+      "B0929JM6ZS",
+      "B00004YROX",
+      "B01GY35HKE",
+      "B07CMKDB2K",
+      "B008B2ZKK4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07V3G6C1F",
+        "reason": "Popular Nintendo console option"
+      },
+      {
+        "item_id": "B00CH923NE",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "reason": "Top-rated Xbox game"
+      },
+      {
+        "item_id": "B0919NSCXL",
+        "reason": "Premium gaming headset features"
+      },
+      {
+        "item_id": "B00CMQTUCE",
+        "reason": "Engaging Kinect sports game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3837,
+    "completion_tokens": 315
+  }
+}

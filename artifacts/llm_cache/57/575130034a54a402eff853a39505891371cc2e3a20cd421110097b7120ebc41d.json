@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00SEFY6I0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B07Z891548",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo, not Xbox."
+      },
+      {
+        "item_id": "B08PQD4RVQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports Nintendo Switch interests."
+      },
+      {
+        "item_id": "B07XNSVF4P",
+        "label": "support",
+        "score": 7,
+        "rationale": "Supports Nintendo legacy systems interests."
+      },
+      {
+        "item_id": "B0C6MBDYVQ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PC games not aligned with user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1199,
+    "completion_tokens": 157
+  }
+}

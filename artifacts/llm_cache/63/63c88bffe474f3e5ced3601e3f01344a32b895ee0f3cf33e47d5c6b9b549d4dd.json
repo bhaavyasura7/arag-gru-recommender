@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "classic video games",
+      "JRPGs",
+      "action-adventure games",
+      "multiplayer shooters",
+      "nostalgic gaming"
+    ],
+    "current_intent": "looking for more classic or retro video games",
+    "avoid": [
+      "modern AAA titles",
+      "sports games",
+      "mobile games"
+    ],
+    "summary": "The user enjoys classic and nostalgic video games, particularly JRPGs and action-adventure titles, and is currently seeking more retro gaming experiences."
+  },
+  "usage": {
+    "prompt_tokens": 509,
+    "completion_tokens": 102
+  }
+}

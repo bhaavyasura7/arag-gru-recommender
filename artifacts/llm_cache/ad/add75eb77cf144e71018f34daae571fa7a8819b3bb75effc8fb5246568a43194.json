@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B14B7KCVRQ",
+      "B09H3CXTVQ",
+      "B086M4DQ7R",
+      "B014K0KS3M",
+      "B14B0SWB9Y",
+      "B00BY92RC0",
+      "B00B0SWB9Y",
+      "B00F3DGF76",
+      "B00BSOW69K",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09H3CXTVQ",
+        "reason": "Enhances Nintendo gameplay experience"
+      },
+      {
+        "item_id": "B086M4DQ7R",
+        "reason": "Comfortable headset for multiplayer"
+      },
+      {
+        "item_id": "B014K0KS3M",
+        "reason": "Classic controller for nostalgic gaming"
+      },
+      {
+        "item_id": "B14B0SWB9Y",
+        "reason": "Fun family-friendly game"
+      },
+      {
+        "item_id": "B00B0SWB9Y",
+        "reason": "Protective case for Nintendo devices"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3182,
+    "completion_tokens": 328
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09NPJQ4RB",
+      "B08H87324H",
+      "B09YTV96R7",
+      "B19HCTJC91",
+      "B07XG45X73",
+      "B01DQJYC46",
+      "B07TMF3LMY",
+      "B0B11Z2PYX",
+      "B08GP26H23",
+      "B07JVT8VTW",
+      "B004WLRR4K",
+      "B001L5TJ1O",
+      "B00BSKXT2C",
+      "B07NV51P8S",
+      "B07HCTJC91",
+      "B013989D34",
+      "B00002SUM0",
+      "B007HKIV7K",
+      "B01N0OGLXN",
+      "B00MF3SD2C"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09NPJQ4RB",
+        "reason": "Customizable controller for Switch"
+      },
+      {
+        "item_id": "B08H87324H",
+        "reason": "Wired controller for Xbox 360"
+      },
+      {
+        "item_id": "B09YTV96R7",
+        "reason": "Cute protective case for Switch"
+      },
+      {
+        "item_id": "B19HCTJC91",
+        "reason": "Popular game bundle for Switch"
+      },
+      {
+        "item_id": "B07XG45X73",
+        "reason": "Joy-Con shell for personalization"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3086,
+    "completion_tokens": 326
+  }
+}

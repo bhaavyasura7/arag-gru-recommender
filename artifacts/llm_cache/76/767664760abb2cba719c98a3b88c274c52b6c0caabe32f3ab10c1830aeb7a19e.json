@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00776UHG2",
+      "B0038MVFYC",
+      "B08KHFBP4S",
+      "B08JJ14GQZ",
+      "B16B0BHX56VWX",
+      "B09XV52WDK",
+      "B01C48EA1A",
+      "B01GW90BTW",
+      "B07WS18ZS3",
+      "B001EYUU2O",
+      "B001EYUNYY",
+      "B001A4MTGS",
+      "B001EYUQT6",
+      "B09C4DPKGF",
+      "B071JPNC4C",
+      "B08N7PZK77",
+      "B076FCM9B5",
+      "B12B0BHX56VWX",
+      "B09JYH4F31",
+      "B001EYUNYY",
+      "B001EYUU2O"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00776UHG2",
+        "reason": "Skylanders case for Nintendo 3DS"
+      },
+      {
+        "item_id": "B0038MVFYC",
+        "reason": "Popular Pokémon game for DS"
+      },
+      {
+        "item_id": "B08KHFBP4S",
+        "reason": "Ergonomic Joy-Con grip for Switch"
+      },
+      {
+        "item_id": "B08JJ14GQZ",
+        "reason": "Cute thumb grips for Switch controllers"
+      },
+      {
+        "item_id": "B16B0BHX56VWX",
+        "reason": "Wireless gaming mouse for convenience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3999,
+    "completion_tokens": 346
+  }
+}

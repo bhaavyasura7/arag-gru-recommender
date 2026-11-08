@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BN942894",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox One, user interest."
+      },
+      {
+        "item_id": "B008E6ZXRW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Wii game, not aligned with interests."
+      },
+      {
+        "item_id": "B01H440QZI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR game, user hasn't shown interest."
+      },
+      {
+        "item_id": "B07MHNTVBL",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS4 game, aligns with user interests."
+      },
+      {
+        "item_id": "B001EYUPFG",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Legacy system, not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1134,
+    "completion_tokens": 160
+  }
+}

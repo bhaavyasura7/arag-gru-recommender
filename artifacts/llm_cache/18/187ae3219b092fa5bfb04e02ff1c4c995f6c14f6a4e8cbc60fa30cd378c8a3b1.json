@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00CIBAZOU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers non-horror games."
+      },
+      {
+        "item_id": "B01GVE4ZXQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Fighting games align with user interests."
+      },
+      {
+        "item_id": "B001EYUNNK",
+        "label": "support",
+        "score": 6,
+        "rationale": "Action-adventure genre matches user preferences."
+      },
+      {
+        "item_id": "B07F7XWVMQ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00638TBJY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for Xbox 360, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 158
+  }
+}

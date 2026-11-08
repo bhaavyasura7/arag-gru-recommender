@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B003IPCF02",
+      "B00H727K20",
+      "B00NY7H0T0",
+      "B002DY9KCU",
+      "B004GGUAJU",
+      "B004OQML9Y",
+      "B07K3KHFSY",
+      "B00HVBPRUO",
+      "B001Q24UAM",
+      "B07D13QGXM",
+      "B002NNNL1W",
+      "B00005QDPU",
+      "B003L20IQU",
+      "B002HJYKG2",
+      "B00BGA9WK2",
+      "B00005BWH5",
+      "B000W5Y49G",
+      "B0C5K4M7WJ",
+      "B00H727K20",
+      "B002NNNL1W"
+    ],
+    "reasons": [
+      {
+        "item_id": "B003IPCF02",
+        "reason": "Popular military-themed first-person shooter"
+      },
+      {
+        "item_id": "B00H727K20",
+        "reason": "Engaging multiplayer action game"
+      },
+      {
+        "item_id": "B00NY7H0T0",
+        "reason": "Intense combat and story-driven gameplay"
+      },
+      {
+        "item_id": "B002DY9KCU",
+        "reason": "Action-packed adventure with fighting"
+      },
+      {
+        "item_id": "B004GGUAJU",
+        "reason": "Fast-paced extreme sports action"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3570,
+    "completion_tokens": 324
+  }
+}

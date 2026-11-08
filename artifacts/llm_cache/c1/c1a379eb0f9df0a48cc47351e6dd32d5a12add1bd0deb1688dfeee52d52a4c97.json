@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00KXAI6MQ",
+      "B002BSA388",
+      "B0086VPUHI",
+      "B002I0J5FG",
+      "B0099OUMAQ",
+      "B017V6YVDC",
+      "B0050SY300",
+      "B0050SYY5E",
+      "B00BHRD4BM",
+      "B002JTX9VC",
+      "B0094BM8VK",
+      "B00LV8IFUW",
+      "B0BLFYF8K2",
+      "B079C6C1RX",
+      "B0056WJA6M",
+      "B087CR9TR7",
+      "B002I08CSW",
+      "B00OAYHIRA",
+      "B0BMT9B9PX",
+      "B00BHRD4BM",
+      "B0050SYY5E"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KXAI6MQ",
+        "reason": "Family-friendly superhero game"
+      },
+      {
+        "item_id": "B002BSA388",
+        "reason": "Classic Mario adventure for kids"
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "reason": "Fun racing game for family"
+      },
+      {
+        "item_id": "B002I0J5FG",
+        "reason": "Educational and engaging collection"
+      },
+      {
+        "item_id": "B0099OUMAQ",
+        "reason": "Interactive and fun food-themed game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3739,
+    "completion_tokens": 332
+  }
+}

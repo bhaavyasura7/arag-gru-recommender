@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07NWGSZSJ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming keyboard, not directly related."
+      },
+      {
+        "item_id": "B01D8H09LQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming keyboard, not directly related."
+      },
+      {
+        "item_id": "B0017KIBAI",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Wii, user enjoys Wii games."
+      },
+      {
+        "item_id": "B087Z8M5RF",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform, not directly related."
+      },
+      {
+        "item_id": "B00ECOGM52",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wii game, aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1369,
+    "completion_tokens": 157
+  }
+}

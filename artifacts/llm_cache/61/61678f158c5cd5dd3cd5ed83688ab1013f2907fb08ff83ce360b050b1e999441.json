@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B083HRJJ8K",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Unclear relevance to user interests."
+      },
+      {
+        "item_id": "B00004YUI8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "General game collection, not specific."
+      },
+      {
+        "item_id": "B0007N3KIO",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Magic the Gathering not in history."
+      },
+      {
+        "item_id": "B08KG2V9LJ",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "No specific information available."
+      },
+      {
+        "item_id": "B00006LISK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Brain games differ from user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 609,
+    "completion_tokens": 152
+  }
+}

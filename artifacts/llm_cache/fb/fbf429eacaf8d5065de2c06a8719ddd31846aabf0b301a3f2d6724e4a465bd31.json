@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01H6DHITE",
+      "B0031DNM5S",
+      "B07K8385XL",
+      "B15J4B5YMB",
+      "B00354VS8Q",
+      "B003BE6OZW",
+      "B0091KKHJ4",
+      "B0787STG8T",
+      "B00CY58LMS",
+      "B01L91OUHM",
+      "B0B3N3P3P1",
+      "B0006TNDAO",
+      "B09PV6DRNH",
+      "B003DKL48G",
+      "B00002SX0G",
+      "B0007Z70YM",
+      "B07GVPLS99",
+      "B09637ZPSF",
+      "B0031DNM5S",
+      "B0006TNDAO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01H6DHITE",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B0031DNM5S",
+        "reason": "Gaming headset for immersive experience"
+      },
+      {
+        "item_id": "B07K8385XL",
+        "reason": "Keyboard for Nintendo Switch gaming"
+      },
+      {
+        "item_id": "B15J4B5YMB",
+        "reason": "Ergonomic grip for handheld gaming"
+      },
+      {
+        "item_id": "B00354VS8Q",
+        "reason": "Portable gaming device with classic games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3689,
+    "completion_tokens": 324
+  }
+}

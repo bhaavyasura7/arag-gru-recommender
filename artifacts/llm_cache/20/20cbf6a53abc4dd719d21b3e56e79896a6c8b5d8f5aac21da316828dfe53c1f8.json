@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00FM5IY0Q",
+      "B01J4K4TSU",
+      "B01FWI2VZQ",
+      "B001G7PTAC",
+      "B001AI7CF2",
+      "B00HM1XPN4",
+      "B000RWWWJ8",
+      "B001EYUPFG",
+      "B07MHNTVBL",
+      "B0BN942894",
+      "B00Z9LUDX4",
+      "B00NCA8R32",
+      "B076FCM9B5",
+      "B01N7VUOPH",
+      "B00005O0I2",
+      "B0001GSV1S",
+      "B008E6ZXRW",
+      "B07NY3JTXK",
+      "B0BT9MG6TR",
+      "B12H440QZI",
+      "B00FM5IY0Q"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00FM5IY0Q",
+        "reason": "Action-packed multiplayer gameplay"
+      },
+      {
+        "item_id": "B01J4K4TSU",
+        "reason": "Includes competitive multiplayer modes"
+      },
+      {
+        "item_id": "B01FWI2VZQ",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B001G7PTAC",
+        "reason": "Classic multiplayer shooter experience"
+      },
+      {
+        "item_id": "B001AI7CF2",
+        "reason": "Useful for multiplayer gaming sessions"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3473,
+    "completion_tokens": 340
+  }
+}

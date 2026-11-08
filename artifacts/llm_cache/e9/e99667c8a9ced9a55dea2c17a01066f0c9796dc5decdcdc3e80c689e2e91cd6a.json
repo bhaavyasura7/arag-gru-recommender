@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08F97Q8HS",
+      "B06ZYYC5KK",
+      "B07NVZK5TK",
+      "B00H4G8J9C",
+      "B017V7S4TI",
+      "B01N7H7RWC",
+      "B07DHS4DST",
+      "B15YLB1C6V",
+      "B00005JTVK",
+      "B001KC02EG",
+      "B00PJDF12A",
+      "B000K9DMLU",
+      "B002LE714Q",
+      "B15N0QZV5K",
+      "B01N0QZV5K",
+      "B00P9Y7QTU",
+      "B00A80AAZW",
+      "B09TDYJBCL",
+      "B01163CH8W",
+      "B15YLB1C6V",
+      "B15YLB1C6V"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08F97Q8HS",
+        "reason": "High-quality Switch carrying case"
+      },
+      {
+        "item_id": "B06ZYYC5KK",
+        "reason": "Protective storage for Switch"
+      },
+      {
+        "item_id": "B07NVZK5TK",
+        "reason": "Joy-Con racing grips for Switch"
+      },
+      {
+        "item_id": "B00H4G8J9C",
+        "reason": "Game card case for Nintendo"
+      },
+      {
+        "item_id": "B017V7S4TI",
+        "reason": "Console skin for protection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3101,
+    "completion_tokens": 350
+  }
+}

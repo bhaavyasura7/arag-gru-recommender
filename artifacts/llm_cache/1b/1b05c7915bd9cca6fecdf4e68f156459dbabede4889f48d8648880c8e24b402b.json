@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09N9TWCCB",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers PlayStation over Xbox controllers."
+      },
+      {
+        "item_id": "B00BGAA3S2",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has strong interest in PlayStation 4."
+      },
+      {
+        "item_id": "B08R8CJZC6",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys PlayStation games, especially Spider-Man."
+      },
+      {
+        "item_id": "B0136BEH1W",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User has no interest in iPhone accessories."
+      },
+      {
+        "item_id": "B00I6BOQDW",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User does not play Nintendo Wii U."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1310,
+    "completion_tokens": 170
+  }
+}

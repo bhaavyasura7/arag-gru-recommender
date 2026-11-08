@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000ENMSXU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "not related to user's gaming hardware"
+      },
+      {
+        "item_id": "B00BHV29Y6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "user prefers PC over Xbox games"
+      },
+      {
+        "item_id": "B09N9GGR51",
+        "label": "support",
+        "score": 8,
+        "rationale": "matches interest in mechanical keyboards"
+      },
+      {
+        "item_id": "B08PKJ3C7S",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "related to PS5, not user’s focus"
+      },
+      {
+        "item_id": "B07FL8NYQH",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "user does not show interest in retro consoles"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1421,
+    "completion_tokens": 158
+  }
+}

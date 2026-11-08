@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00006FWU7",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Racing games not previously reviewed."
+      },
+      {
+        "item_id": "B004ZCPL26",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has low interest in PS3 games."
+      },
+      {
+        "item_id": "B001EYUXWQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Xbox 360 horror games."
+      },
+      {
+        "item_id": "B00DB2BI00",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User dislikes dance games."
+      },
+      {
+        "item_id": "B007CSCWVI",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User hasn't reviewed RPGs or fantasy games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1244,
+    "completion_tokens": 156
+  }
+}

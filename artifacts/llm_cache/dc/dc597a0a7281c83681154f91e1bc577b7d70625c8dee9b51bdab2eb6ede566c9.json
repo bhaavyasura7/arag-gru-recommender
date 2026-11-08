@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09FQF1WQT",
+      "B10ATJIRO8",
+      "B09GYN7T42",
+      "B071GCLQZP",
+      "B00068OLAG",
+      "B001QCWSJ2",
+      "B08VS1F8BG",
+      "B004GKMXPK",
+      "B06WVCWY41",
+      "B00009WKCM",
+      "B00L4KZMDA",
+      "B000063RRM",
+      "B003E3NK2A",
+      "B0007KTBFS",
+      "B00LB3A302",
+      "B06XXLZFWX",
+      "B00406ZRCG",
+      "B0007KTBFS",
+      "B00009WKCM",
+      "B00ATJIRO8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09FQF1WQT",
+        "reason": "High-DPI gaming mouse"
+      },
+      {
+        "item_id": "B09GYN7T42",
+        "reason": "Quality gaming mouse"
+      },
+      {
+        "item_id": "B10ATJIRO8",
+        "reason": "Compatible with gaming systems"
+      },
+      {
+        "item_id": "B071GCLQZP",
+        "reason": "Popular Xbox game"
+      },
+      {
+        "item_id": "B001QCWSJ2",
+        "reason": "Legacy gaming accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3356,
+    "completion_tokens": 312
+  }
+}

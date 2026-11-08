@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B15QZTNYTB",
+      "B005DUEPQ2",
+      "B0056BDZXM",
+      "B00CW9QZ88",
+      "B003VUO6LU",
+      "B001G7PTAC",
+      "B0029MAXVS",
+      "B014HD55VK",
+      "B08NW7QQH8",
+      "B0722GG88M",
+      "B001G7PRPO",
+      "B018QH6VVA",
+      "B005IMVP0O",
+      "B000096KDT",
+      "B001EYUTKW",
+      "B07G3Y68KR",
+      "B00O65I2VY",
+      "B004HD55VK",
+      "B001G7PTAC",
+      "B005DUEPQ2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B15QZTNYTB",
+        "reason": "Engaging RPG with crafting elements"
+      },
+      {
+        "item_id": "B005DUEPQ2",
+        "reason": "Nostalgic Nintendo title"
+      },
+      {
+        "item_id": "B0056BDZXM",
+        "reason": "Fun cooking mini-games"
+      },
+      {
+        "item_id": "B00CW9QZ88",
+        "reason": "Stylus for Nintendo 3DS"
+      },
+      {
+        "item_id": "B003VUO6LU",
+        "reason": "Classic PlayStation console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3786,
+    "completion_tokens": 316
+  }
+}

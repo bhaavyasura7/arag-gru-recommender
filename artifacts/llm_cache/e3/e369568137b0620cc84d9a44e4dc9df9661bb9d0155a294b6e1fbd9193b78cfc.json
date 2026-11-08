@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07QQ8N7LL",
+      "B001EBBGTS",
+      "B004I1JTEK",
+      "B08TSSJ59Y",
+      "B001N74CXK",
+      "B001ELJE88",
+      "B07YBXP45M",
+      "B001EBBGTS",
+      "B007CM0K86",
+      "B004FYSCHK",
+      "B00QM7JUMY",
+      "B00KO4ULZ6",
+      "B09GHQVX3N",
+      "B06XSMSL45",
+      "B00HGLLRV2",
+      "B000FJEV06",
+      "B00FB23CTG",
+      "B00019AZBO",
+      "B001N74CXK",
+      "B001EBBGTS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07QQ8N7LL",
+        "reason": "Star Wars action-adventure game"
+      },
+      {
+        "item_id": "B001EBBGTS",
+        "reason": "Popular action RPG series"
+      },
+      {
+        "item_id": "B004I1JTEK",
+        "reason": "Dynamic combat and choices"
+      },
+      {
+        "item_id": "B08TSSJ59Y",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B001N74CXK",
+        "reason": "Classic music rhythm game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3951,
+    "completion_tokens": 312
+  }
+}

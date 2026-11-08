@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08R2CZ9VD",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Microphone not directly related to gaming."
+      },
+      {
+        "item_id": "B06XP2NMYY",
+        "label": "support",
+        "score": 7,
+        "rationale": "Accessory for Nintendo Switch gaming."
+      },
+      {
+        "item_id": "B001ELJFIM",
+        "label": "support",
+        "score": 8,
+        "rationale": "Baseball game aligns with gaming interests."
+      },
+      {
+        "item_id": "B081T1XVBQ",
+        "label": "support",
+        "score": 6,
+        "rationale": "Gaming mouse enhances PC gaming experience."
+      },
+      {
+        "item_id": "B07FM4GCRH",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Mobile controller not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 153
+  }
+}

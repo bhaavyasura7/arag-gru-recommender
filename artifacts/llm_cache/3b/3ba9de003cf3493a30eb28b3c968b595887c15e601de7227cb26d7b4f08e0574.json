@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0001PWCPU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "not aligned with gaming preferences"
+      },
+      {
+        "item_id": "B01J4K384Q",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "not a popular genre for user"
+      },
+      {
+        "item_id": "B00002SVMJ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "puzzle game not in user history"
+      },
+      {
+        "item_id": "B001EYUT5C",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "equestrian theme not relevant to user"
+      },
+      {
+        "item_id": "B00005MDZ0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "accessory, not a game, but useful"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2427,
+    "completion_tokens": 158
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00375MX5U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no Pokemon game history."
+      },
+      {
+        "item_id": "B086QVLSWY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Stylus for Switch, not directly relevant."
+      },
+      {
+        "item_id": "B08BLDRTG1",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, no direct game interest shown."
+      },
+      {
+        "item_id": "B01ARD1YYK",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not related to video games."
+      },
+      {
+        "item_id": "B0127JVZE6",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has PS4 controller interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1143,
+    "completion_tokens": 153
+  }
+}

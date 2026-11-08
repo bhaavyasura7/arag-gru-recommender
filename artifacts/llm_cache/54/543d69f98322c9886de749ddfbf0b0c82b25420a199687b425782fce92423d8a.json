@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01K48C6EK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B07FNF24S2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not play Xbox games."
+      },
+      {
+        "item_id": "B079JGHRK3",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "South Park is unrelated to user interests."
+      },
+      {
+        "item_id": "B002MUB0XW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers action/adventure games."
+      },
+      {
+        "item_id": "B0002MIE0O",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not play PC games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1468,
+    "completion_tokens": 161
+  }
+}

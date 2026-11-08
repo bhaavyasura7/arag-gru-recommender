@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08GC7JNKB",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo Switch."
+      },
+      {
+        "item_id": "B0087YYY3K",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo, not Xbox."
+      },
+      {
+        "item_id": "B07NRHR43N",
+        "label": "support",
+        "score": 9,
+        "rationale": "Nintendo Switch game aligns with interests."
+      },
+      {
+        "item_id": "B0000631V3",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Older game, not directly relevant."
+      },
+      {
+        "item_id": "B09XH3GB1S",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PlayStation accessory, not Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1100,
+    "completion_tokens": 155
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07MRJ12HX",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly related to Nintendo Switch repair."
+      },
+      {
+        "item_id": "B00WH0WRES",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not related to user's Nintendo interests."
+      },
+      {
+        "item_id": "B087NNPYP3",
+        "label": "support",
+        "score": 9,
+        "rationale": "Popular Nintendo Switch game, highly rated."
+      },
+      {
+        "item_id": "B07N2Z9VZX",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "PlayStation 2 game, not relevant."
+      },
+      {
+        "item_id": "B07C2Z98W4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Charger for Nintendo Switch, highly relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1344,
+    "completion_tokens": 160
+  }
+}

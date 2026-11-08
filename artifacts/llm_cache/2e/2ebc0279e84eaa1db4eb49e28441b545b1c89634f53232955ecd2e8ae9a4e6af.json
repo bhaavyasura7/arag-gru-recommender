@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00N3OELPU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC gaming accessory, not console related."
+      },
+      {
+        "item_id": "B000I10PY2",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo product aligns with user interests."
+      },
+      {
+        "item_id": "B001TEYMRI",
+        "label": "support",
+        "score": 7,
+        "rationale": "PlayStation accessory matches user history."
+      },
+      {
+        "item_id": "B002BSA388",
+        "label": "support",
+        "score": 6,
+        "rationale": "Nintendo game fits user gaming preferences."
+      },
+      {
+        "item_id": "B00CWV550U",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Xbox game, not aligned with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1157,
+    "completion_tokens": 152
+  }
+}

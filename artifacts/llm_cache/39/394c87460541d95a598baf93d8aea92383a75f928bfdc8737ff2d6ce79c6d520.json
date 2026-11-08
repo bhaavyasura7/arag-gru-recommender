@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09WYGMY5T",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming keyboard and mouse not preferred."
+      },
+      {
+        "item_id": "B005GISQX4",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys cooperative video games."
+      },
+      {
+        "item_id": "B01L8XES3W",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for Xbox One, not a game."
+      },
+      {
+        "item_id": "B07J2FZMMK",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Controller accessory, not directly relevant."
+      },
+      {
+        "item_id": "B09WS2QZXT",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys competitive multiplayer games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1333,
+    "completion_tokens": 156
+  }
+}

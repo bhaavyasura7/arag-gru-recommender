@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01M6C7YE8",
+      "B004AYCNQ6",
+      "B07YW3W8TK",
+      "B001R2VW70",
+      "B16B0013LTP6U",
+      "B002I0JMB8",
+      "B0013LTP6U",
+      "B0050SVDQ2",
+      "B002JTX5SO",
+      "B001EYUY70",
+      "B005YR308S",
+      "B00IAVDQCK",
+      "B005JQNEO4",
+      "B00QU93WW8",
+      "B0784BTZBR",
+      "B001R2VW70",
+      "B0013LTP6U",
+      "B002I0EMBI",
+      "B001R2VW70",
+      "B0013LTP6U"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01M6C7YE8",
+        "reason": "Highly acclaimed action-adventure game"
+      },
+      {
+        "item_id": "B004AYCNQ6",
+        "reason": "Classic RTS with multiplayer support"
+      },
+      {
+        "item_id": "B07YW3W8TK",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B001R2VW70",
+        "reason": "Improves control for gaming"
+      },
+      {
+        "item_id": "B002I0JMB8",
+        "reason": "Collector's edition of a popular game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3596,
+    "completion_tokens": 328
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08LC4JYDS",
+      "B0BW99BHSX",
+      "B08H1ZNKW9",
+      "B00008D0NR",
+      "B000K5UY2E",
+      "B000FQBF1M",
+      "B08RN4CSSW",
+      "B0BC7HHK71",
+      "B08DCHZY6T",
+      "B0MKYQE3G",
+      "B00002ST5J",
+      "B00006B0NR",
+      "B07Q6S4XKH",
+      "B0030T1U2A",
+      "B0050SWP96",
+      "B000EM0M4I",
+      "B000HCU7CC",
+      "B000K5UY2E",
+      "B00006B0NR",
+      "B01LVTRP7D"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08LC4JYDS",
+        "reason": "PS5 controller cover for protection"
+      },
+      {
+        "item_id": "B0BW99BHSX",
+        "reason": "Personalized console skin for Xbox"
+      },
+      {
+        "item_id": "B08H1ZNKW9",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B00008D0NR",
+        "reason": "First-person shooter game for PS3"
+      },
+      {
+        "item_id": "B000K5UY2E",
+        "reason": "Classic PS3 game for collectors"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3559,
+    "completion_tokens": 337
+  }
+}

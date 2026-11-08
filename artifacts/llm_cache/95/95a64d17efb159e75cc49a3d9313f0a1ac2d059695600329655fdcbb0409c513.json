@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08GPDDZX1",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a console user."
+      },
+      {
+        "item_id": "B07WWSVDQZ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B09MP7ZZZP",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's PlayStation interests."
+      },
+      {
+        "item_id": "B000063TQU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Chess game, not directly related."
+      },
+      {
+        "item_id": "B08K3NMS19",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PC gaming accessory, not console related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1263,
+    "completion_tokens": 151
+  }
+}

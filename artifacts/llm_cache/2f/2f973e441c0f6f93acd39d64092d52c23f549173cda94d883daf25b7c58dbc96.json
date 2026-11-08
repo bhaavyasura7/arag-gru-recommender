@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo amiibo",
+      "Nintendo Switch accessories",
+      "PlayStation controller mounts",
+      "gaming protective cases",
+      "Wii accessories"
+    ],
+    "current_intent": "Looking for more Nintendo gaming accessories.",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "overpriced accessories"
+    ],
+    "summary": "The user is a gaming enthusiast focused on Nintendo products and accessories, seeking quality items to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 407,
+    "completion_tokens": 96
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BDY26LSF",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to gaming mice."
+      },
+      {
+        "item_id": "B01DJFM3OI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Baseball game, not a gaming mouse."
+      },
+      {
+        "item_id": "B003XX4462",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "RPG game, not related to gaming mice."
+      },
+      {
+        "item_id": "B001EYUY0W",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Arcade classics, not gaming peripherals."
+      },
+      {
+        "item_id": "B07YDQZR2Z",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Narrative game, not gaming hardware."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1355,
+    "completion_tokens": 165
+  }
+}

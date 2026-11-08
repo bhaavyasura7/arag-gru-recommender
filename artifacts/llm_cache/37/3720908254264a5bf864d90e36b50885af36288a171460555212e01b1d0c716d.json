@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B010BWD364",
+      "B005R40DTM",
+      "B00005LLSS",
+      "B04CDKVCR7",
+      "B0055ES7OW",
+      "B016A9B5HG",
+      "B000ZEV3U2",
+      "B18ZC8669L",
+      "B007EJYOMU",
+      "B08ZC8669L",
+      "B0BBLB1DJN",
+      "B002I0JZTW",
+      "B005UFVLJ4",
+      "B0BNKXX9SP",
+      "B000VL2VQO",
+      "B004BDJZCG",
+      "B01D93X3QW",
+      "B0876KN5WH",
+      "B008MXPKP2",
+      "B01GU9NV0A"
+    ],
+    "reasons": [
+      {
+        "item_id": "B010BWD364",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B005R40DTM",
+        "reason": "Engaging narrative experience"
+      },
+      {
+        "item_id": "B00005LLSS",
+        "reason": "Enhances PS2 gaming experience"
+      },
+      {
+        "item_id": "B04CDKVCR7",
+        "reason": "Comfortable PS5 headset upgrade"
+      },
+      {
+        "item_id": "B0055ES7OW",
+        "reason": "Essential Xbox 360 accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3526,
+    "completion_tokens": 321
+  }
+}

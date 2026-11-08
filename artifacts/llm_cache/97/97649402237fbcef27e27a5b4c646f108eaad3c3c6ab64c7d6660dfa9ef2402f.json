@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0719W8QL3",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Nintendo accessories interest."
+      },
+      {
+        "item_id": "B01M6C7YE8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo, not PlayStation."
+      },
+      {
+        "item_id": "B00OYPWRHQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no motocross game interest."
+      },
+      {
+        "item_id": "B00DJRLDMU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games, not Xbox."
+      },
+      {
+        "item_id": "B00004S9AA",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has interest in Nintendo accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1336,
+    "completion_tokens": 161
+  }
+}

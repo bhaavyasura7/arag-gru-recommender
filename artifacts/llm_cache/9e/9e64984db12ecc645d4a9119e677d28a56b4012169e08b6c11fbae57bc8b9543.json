@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B18SC46N9J",
+      "B0012BXJDQ",
+      "B007PIXWMS",
+      "B01LY0NFAN",
+      "B07WTWBLWZ",
+      "B0000C6EDK",
+      "B07J2SC9ZG",
+      "B08MVQCSV5",
+      "B07Q5WHPSV",
+      "B08HJVDXYB",
+      "B01NAFZ77D",
+      "B003P0X5Y0",
+      "B075VK2Z7C",
+      "B000P5BSUQ",
+      "B07DCZJ297",
+      "B08SC46N9J",
+      "B07DCZJ297",
+      "B0793C434Z",
+      "B0B7RQQTXQ",
+      "B00CA5FJPE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08SC46N9J",
+        "reason": "Best for Nintendo Switch gaming"
+      },
+      {
+        "item_id": "B0012BXJDQ",
+        "reason": "Star Wars themed Nintendo accessory"
+      },
+      {
+        "item_id": "B007PIXWMS",
+        "reason": "Replacement shell for Xbox 360"
+      },
+      {
+        "item_id": "B01LY0NFAN",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B07WTWBLWZ",
+        "reason": "Portable wireless gaming controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3283,
+    "completion_tokens": 325
+  }
+}

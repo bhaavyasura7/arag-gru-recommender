@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00DJRLAZ0",
+      "B006VR689I",
+      "B001EYUS2Q",
+      "B004G5YI3U",
+      "B00L3KU0S8",
+      "B007CM0K86",
+      "B08LBK5J49",
+      "B0040Y1LT6",
+      "B00000DMAQ",
+      "B00005V5N0",
+      "B003ZDOFF0",
+      "B0009F3QSE",
+      "B00006JC46",
+      "B001EYUS2Q",
+      "B004G5YI3U",
+      "B007W5P8TE",
+      "B00001XDUB",
+      "B005Z3DYPK",
+      "B0009F3QSE",
+      "B008HPAXZ2",
+      "B00000DMAQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DJRLAZ0",
+        "reason": "Multiplayer sports driving game"
+      },
+      {
+        "item_id": "B006VR689I",
+        "reason": "Supports multiplayer PS4 controllers"
+      },
+      {
+        "item_id": "B001EYUS2Q",
+        "reason": "Classic RPG with multiplayer elements"
+      },
+      {
+        "item_id": "B004G5YI3U",
+        "reason": "Popular action-driving game"
+      },
+      {
+        "item_id": "B00L3KU0S8",
+        "reason": "Dust cover for PS4 console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3772,
+    "completion_tokens": 334
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0006373KQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar genre, but not a strong match."
+      },
+      {
+        "item_id": "B000059P0T",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar flight combat theme, likely appealing."
+      },
+      {
+        "item_id": "B00005MP0D",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different theme, but still a video game."
+      },
+      {
+        "item_id": "B00005QEFI",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Controller not aligned with gaming preferences."
+      },
+      {
+        "item_id": "B000ICKLPE",
+        "label": "support",
+        "score": 6,
+        "rationale": "Related to flight games, potential interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 803,
+    "completion_tokens": 156
+  }
+}

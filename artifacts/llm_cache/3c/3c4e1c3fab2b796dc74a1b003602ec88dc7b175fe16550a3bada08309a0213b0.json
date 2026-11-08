@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0002A6CQ4",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys narrative-driven games."
+      },
+      {
+        "item_id": "B077GG9D5D",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers games, not accessories."
+      },
+      {
+        "item_id": "B004GX4864",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Xbox 360."
+      },
+      {
+        "item_id": "B00BGA9WK2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo systems."
+      },
+      {
+        "item_id": "B0B96D3GG8",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys action RPGs."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1248,
+    "completion_tokens": 157
+  }
+}

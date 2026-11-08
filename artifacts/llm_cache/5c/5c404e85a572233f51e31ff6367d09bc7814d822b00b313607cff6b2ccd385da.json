@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0017Q4DGI",
+      "B00K278H60",
+      "B000YDIYFG",
+      "B009GE437W",
+      "B14B3DBSBL",
+      "B008J16AGA",
+      "B00PV515DU",
+      "B00N73UUJI",
+      "B003YDH4PO",
+      "B00IG3GPTS",
+      "B00J4Y6L2Y",
+      "B00ANHBI4W",
+      "B00K278H60",
+      "B0793DBSBL",
+      "B0BWTD64WB",
+      "B0029F2FB6",
+      "B00DDZHZF6",
+      "B00EYUY8E",
+      "B00EYUQNM",
+      "B00PV515DU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0017Q4DGI",
+        "reason": "Classic Nintendo game, highly rated"
+      },
+      {
+        "item_id": "B00K278H60",
+        "reason": "Official Nintendo accessory, amiibo related"
+      },
+      {
+        "item_id": "B000YDIYFG",
+        "reason": "Classic Nintendo game, family-friendly"
+      },
+      {
+        "item_id": "B009GE437W",
+        "reason": "Nintendo branded controller, collectible"
+      },
+      {
+        "item_id": "B0793DBSBL",
+        "reason": "Innovative Nintendo product, creative play"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3457,
+    "completion_tokens": 320
+  }
+}

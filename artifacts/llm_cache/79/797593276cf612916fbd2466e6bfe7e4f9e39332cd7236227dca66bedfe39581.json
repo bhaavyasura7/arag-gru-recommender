@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BCKN6Y4X",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B00ZMBLKPG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in Xbox."
+      },
+      {
+        "item_id": "B002JTX87C",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys Scooby-Doo games."
+      },
+      {
+        "item_id": "B00TXOD7ZY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has PS4 interest but no history."
+      },
+      {
+        "item_id": "B07D5JKKQB",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User has no headset preferences shown."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1396,
+    "completion_tokens": 161
+  }
+}

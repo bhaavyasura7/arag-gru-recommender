@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B005MICTUE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action-oriented games."
+      },
+      {
+        "item_id": "B001EYUXLC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Targeted at younger audience, not user."
+      },
+      {
+        "item_id": "B001DLVIFQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys action-adventure games."
+      },
+      {
+        "item_id": "B003MQMD2W",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Wii not in user's history."
+      },
+      {
+        "item_id": "B005OGPTSS",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys expansive open-world games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1223,
+    "completion_tokens": 152
+  }
+}

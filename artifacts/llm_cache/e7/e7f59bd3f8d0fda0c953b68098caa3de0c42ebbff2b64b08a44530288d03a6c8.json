@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000FII14O",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not Avatar."
+      },
+      {
+        "item_id": "B07YQQL7G5",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller accessory, not a game."
+      },
+      {
+        "item_id": "B016PWS77E",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers action games, not platformers."
+      },
+      {
+        "item_id": "B01AC3Z9J6",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers action games, not platformers."
+      },
+      {
+        "item_id": "B08YHH5QDG",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Nintendo games, Pokémon fits."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1244,
+    "completion_tokens": 167
+  }
+}

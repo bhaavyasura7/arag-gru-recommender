@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video game accessories",
+      "strategy games",
+      "music rhythm games",
+      "console gaming",
+      "PC gaming"
+    ],
+    "current_intent": "looking for new video games or accessories",
+    "avoid": [
+      "low-quality games",
+      "non-gaming products",
+      "overpriced items"
+    ],
+    "summary": "User enjoys gaming, particularly strategy and music games, and seeks new titles or accessories for their consoles."
+  },
+  "usage": {
+    "prompt_tokens": 429,
+    "completion_tokens": 75
+  }
+}

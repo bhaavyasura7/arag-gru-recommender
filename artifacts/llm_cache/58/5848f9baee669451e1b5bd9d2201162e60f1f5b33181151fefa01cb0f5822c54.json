@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B071XTSK94",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar brand and features to favorites."
+      },
+      {
+        "item_id": "B078TTKRGH",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wireless, programmable, matches user preferences."
+      },
+      {
+        "item_id": "B08CG48XJ9",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User rated similar product very low."
+      },
+      {
+        "item_id": "B08T5J57DK",
+        "label": "support",
+        "score": 6,
+        "rationale": "Wireless and ergonomic, fits user needs."
+      },
+      {
+        "item_id": "B00TDGST0U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Basic features, not strongly aligned."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1780,
+    "completion_tokens": 156
+  }
+}

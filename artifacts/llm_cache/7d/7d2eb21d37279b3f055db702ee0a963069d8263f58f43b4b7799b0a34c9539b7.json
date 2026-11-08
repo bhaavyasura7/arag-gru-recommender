@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUQMI",
+      "B09BKLWZK6",
+      "B000059WIQ",
+      "B074PKQWB1",
+      "B077PBNG9B",
+      "B00H9CVO0W",
+      "B08ZNCVZRQ",
+      "B08XWFDSP6",
+      "B003YJ4J0Q",
+      "B076V8FC1H",
+      "B07L7LT3Q6",
+      "B005SYWL4Q",
+      "B00030GK56",
+      "B07PPPMBB3",
+      "B002YX09IY",
+      "B0C85TJFFH",
+      "B0007V46I4",
+      "B09577GRRZ",
+      "B01L5QXEJG",
+      "B0000ZUGY0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUQMI",
+        "reason": "Popular family-friendly racing game"
+      },
+      {
+        "item_id": "B09BKLWZK6",
+        "reason": "Nintendo DS game for kids"
+      },
+      {
+        "item_id": "B000059WIQ",
+        "reason": "Engaging knight adventure game"
+      },
+      {
+        "item_id": "B074PKQWB1",
+        "reason": "Magical adventure suitable for families"
+      },
+      {
+        "item_id": "B077PBNG9B",
+        "reason": "Highly rated Zelda family game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3026,
+    "completion_tokens": 329
+  }
+}

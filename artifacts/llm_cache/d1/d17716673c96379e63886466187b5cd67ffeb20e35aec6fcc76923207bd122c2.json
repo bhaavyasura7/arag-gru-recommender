@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B000ANY9QS",
+      "B004YIM3OU",
+      "B00008YGQI",
+      "B07DLLXF58",
+      "B09TXR8F3C",
+      "B0BX8HN93J",
+      "B09XB66KBD",
+      "B0BQ2LM1KL",
+      "B00B5QGJ5S",
+      "B00EIWTFQ6",
+      "B00002R29G",
+      "B00FDTKEPE",
+      "B00008YGQI",
+      "B09TVDJW2B",
+      "B07W924264",
+      "B003UVADAS",
+      "B01LEWV79K",
+      "B079RSQ1H6",
+      "B00GT3PG56",
+      "B00B7UHWB2",
+      "B096RYM5PM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000ANY9QS",
+        "reason": "Narnia game for Nintendo consoles"
+      },
+      {
+        "item_id": "B004YIM3OU",
+        "reason": "Protective case for Nintendo 3DS"
+      },
+      {
+        "item_id": "B00008YGQI",
+        "reason": "Classic Nintendo GameCube title"
+      },
+      {
+        "item_id": "B07DLLXF58",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B09TXR8F3C",
+        "reason": "Compatible PS4 controller with features"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3500,
+    "completion_tokens": 328
+  }
+}

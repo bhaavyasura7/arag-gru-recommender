@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BMGHMP23",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers gaming but not mice."
+      },
+      {
+        "item_id": "B013HMN66M",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PlayStation games."
+      },
+      {
+        "item_id": "B07WS5R5DP",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has Xbox 360 games."
+      },
+      {
+        "item_id": "B0B7HD8865",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User hasn't shown interest in keyboards."
+      },
+      {
+        "item_id": "B001AW156U",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User's interest in PS3 is unclear."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1299,
+    "completion_tokens": 153
+  }
+}

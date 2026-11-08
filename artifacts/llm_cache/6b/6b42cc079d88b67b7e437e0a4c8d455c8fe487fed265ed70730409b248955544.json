@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08RZC5JXY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes gaming headsets."
+      },
+      {
+        "item_id": "B00HQNYMQ2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys video games generally."
+      },
+      {
+        "item_id": "B00JEYPJGS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Visual novel may not interest user."
+      },
+      {
+        "item_id": "B08B1T61CC",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User has no PS3 interest shown."
+      },
+      {
+        "item_id": "B07P54T1JF",
+        "label": "support",
+        "score": 9,
+        "rationale": "User owns Nintendo 3DS games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1170,
+    "completion_tokens": 154
+  }
+}

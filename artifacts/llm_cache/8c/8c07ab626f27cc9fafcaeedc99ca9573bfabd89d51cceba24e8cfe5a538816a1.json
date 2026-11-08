@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00KWEH61U",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo 3DS games."
+      },
+      {
+        "item_id": "B000FLZEXM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has Xbox 360 game experience."
+      },
+      {
+        "item_id": "B07BWJWBJL",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys RPGs on Nintendo systems."
+      },
+      {
+        "item_id": "B003UVA4KC",
+        "label": "support",
+        "score": 9,
+        "rationale": "User likes art-related games."
+      },
+      {
+        "item_id": "B00FKV8AK6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has Xbox 360 interest but not Halo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1157,
+    "completion_tokens": 157
+  }
+}

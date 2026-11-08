@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08QCP5L9F",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B00001LCD8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers casual games, not tactical."
+      },
+      {
+        "item_id": "B00UURTXY2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game, less relevant."
+      },
+      {
+        "item_id": "B004ZCPKDG",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Wii games, relevant title."
+      },
+      {
+        "item_id": "B07L2DTNNZ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory for gaming, not a game itself."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 161
+  }
+}

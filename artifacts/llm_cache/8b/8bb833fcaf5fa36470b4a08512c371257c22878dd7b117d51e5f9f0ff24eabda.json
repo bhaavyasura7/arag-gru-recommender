@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01MT1NE7T",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B00GMPJKDA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox games, not PS4."
+      },
+      {
+        "item_id": "B071CK7P1L",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B0827PV64C",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo Switch Lite."
+      },
+      {
+        "item_id": "B075YP1CTH",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not relevant to user's current devices."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1367,
+    "completion_tokens": 155
+  }
+}

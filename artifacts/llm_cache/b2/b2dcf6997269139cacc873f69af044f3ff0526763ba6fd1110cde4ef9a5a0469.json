@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BDF9WZQQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not VR accessories."
+      },
+      {
+        "item_id": "B001E8WQJA",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no GameCube interest."
+      },
+      {
+        "item_id": "B002I090AG",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers Xbox over Nintendo systems."
+      },
+      {
+        "item_id": "B09MGJXGBF",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no Wii U interest."
+      },
+      {
+        "item_id": "B001EYUWAO",
+        "label": "contradict",
+        "score": 4,
+        "rationale": "User prefers Xbox games, not PS2."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1308,
+    "completion_tokens": 166
+  }
+}

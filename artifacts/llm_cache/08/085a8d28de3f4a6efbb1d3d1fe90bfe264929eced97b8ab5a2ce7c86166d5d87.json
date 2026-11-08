@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00ZMBLKPG",
+      "B072BX7H6Q",
+      "B0050SXQ12",
+      "B00AAS888S",
+      "B0017KIBAI",
+      "B00X8WTL5M",
+      "B07361T7KP",
+      "B00CSIB3PS",
+      "B001G6063I",
+      "B01D8H09LQ",
+      "B01GY35W22",
+      "B001ELJFMS",
+      "B087Z8M5RF",
+      "B0CB7JB1V6",
+      "B0017KIBAI",
+      "B0017KIBAI",
+      "B0017KIBAI",
+      "B0017KIBAI",
+      "B0017KIBAI",
+      "B0017KIBAI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00ZMBLKPG",
+        "reason": "Top-rated Xbox One game"
+      },
+      {
+        "item_id": "B072BX7H6Q",
+        "reason": "Popular racing game"
+      },
+      {
+        "item_id": "B0050SXQ12",
+        "reason": "Party game for friends"
+      },
+      {
+        "item_id": "B00AAS888S",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B0017KIBAI",
+        "reason": "Compatible with Wii games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3847,
+    "completion_tokens": 315
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01EV5SOVQ",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with Xbox One, user interest."
+      },
+      {
+        "item_id": "B01EV5SUDS",
+        "label": "support",
+        "score": 9,
+        "rationale": "Supports Xbox One, matches user preference."
+      },
+      {
+        "item_id": "B09Q5M4FVK",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox One, good features."
+      },
+      {
+        "item_id": "B0785WMMZ1",
+        "label": "support",
+        "score": 8,
+        "rationale": "Multi-platform, includes Xbox One support."
+      },
+      {
+        "item_id": "B07LF8PW5K",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox One, good sound."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1604,
+    "completion_tokens": 161
+  }
+}

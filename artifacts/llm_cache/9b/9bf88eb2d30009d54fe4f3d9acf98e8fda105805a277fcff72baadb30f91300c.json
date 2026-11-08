@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07GSKS2K7",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Retro gaming interest, but not PS3."
+      },
+      {
+        "item_id": "B00002SVMF",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Older game, not aligned with interests."
+      },
+      {
+        "item_id": "B09CPY8X72",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Nintendo Switch accessory, not PS3."
+      },
+      {
+        "item_id": "B0165YCDC2",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS3 controller shell matches user interest."
+      },
+      {
+        "item_id": "B00005QIQX",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PC game, not aligned with console preference."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1171,
+    "completion_tokens": 164
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B003DNSR3S",
+      "B07V5CFMY4",
+      "B007CM0K86",
+      "B08SC46N9J",
+      "B08L7JTBCN",
+      "B09V5R5LSZ",
+      "B0883P3VSH",
+      "B000ARPXU0",
+      "B08MBKBH6G",
+      "B0BLFYF8K2",
+      "B07KXQS738",
+      "B0BX8VPN1L",
+      "B00IIHU44E",
+      "B019WRM1IA",
+      "B00111SFEU",
+      "B0754LGLFP",
+      "B001EYUQUU",
+      "B01GKFPFZS",
+      "B0BRQ8G28W",
+      "B07YBXFF99"
+    ],
+    "reasons": [
+      {
+        "item_id": "B007CM0K86",
+        "reason": "Highly rated action game"
+      },
+      {
+        "item_id": "B08SC46N9J",
+        "reason": "Compatible with Nintendo Switch"
+      },
+      {
+        "item_id": "B07V5CFMY4",
+        "reason": "Versatile gaming controller"
+      },
+      {
+        "item_id": "B08L7JTBCN",
+        "reason": "Great for multiplayer gaming"
+      },
+      {
+        "item_id": "B09V5R5LSZ",
+        "reason": "Enhances Halo 5 experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4157,
+    "completion_tokens": 326
+  }
+}

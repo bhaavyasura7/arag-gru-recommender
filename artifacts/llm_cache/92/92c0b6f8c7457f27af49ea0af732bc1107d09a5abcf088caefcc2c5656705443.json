@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "open-world RPGs",
+      "story-driven games",
+      "retro gaming",
+      "console accessories",
+      "immersive gameplay"
+    ],
+    "current_intent": "looking for engaging video games to play on Xbox 360",
+    "avoid": [
+      "poorly rated games",
+      "linear gameplay",
+      "multiplayer-focused titles"
+    ],
+    "summary": "User enjoys RPGs and story-driven games, seeking new titles for Xbox 360 while avoiding low-rated and multiplayer games."
+  },
+  "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 85
+  }
+}

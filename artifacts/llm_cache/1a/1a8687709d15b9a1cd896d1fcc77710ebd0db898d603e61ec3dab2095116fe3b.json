@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B082N7B2DZ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not retro games."
+      },
+      {
+        "item_id": "B01LW6SOV9",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User is focused on Xbox accessories."
+      },
+      {
+        "item_id": "B0B7Q1S7GY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox, enhances gaming experience."
+      },
+      {
+        "item_id": "B000UW21A0",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PlayStation game, user prefers Xbox."
+      },
+      {
+        "item_id": "B07JXV1FYY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo game, not aligned with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1409,
+    "completion_tokens": 169
+  }
+}

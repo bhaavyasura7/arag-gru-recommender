@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07NRHR43N",
+      "B0945F6THC",
+      "B009DKZYMW",
+      "B002KQJNO6",
+      "B13XH3GB1S",
+      "B08GC7JNKB",
+      "B005GDED6S",
+      "B0000631V3",
+      "B00T5458IG",
+      "B000KJW71Q",
+      "B08S7HN8PT",
+      "B000DZLMTA",
+      "B07JPZTHYT",
+      "B19XH3GB1S",
+      "B0010KTLLS",
+      "B003ALEWKU",
+      "B0744H7B2M",
+      "B0087YYY3K",
+      "B0BXKSJTDP",
+      "B0000C7FPT",
+      "B09QJCBLHS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07NRHR43N",
+        "reason": "Popular RPG from Nintendo"
+      },
+      {
+        "item_id": "B0945F6THC",
+        "reason": "Essential Switch accessories"
+      },
+      {
+        "item_id": "B009DKZYMW",
+        "reason": "Engaging DLC for action-adventure"
+      },
+      {
+        "item_id": "B002KQJNO6",
+        "reason": "Classic basketball game nostalgia"
+      },
+      {
+        "item_id": "B13XH3GB1S",
+        "reason": "Unique RPG crafting experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3643,
+    "completion_tokens": 329
+  }
+}

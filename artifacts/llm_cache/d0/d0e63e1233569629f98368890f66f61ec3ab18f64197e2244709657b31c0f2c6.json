@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09M8P5GRC",
+      "B08NX197P4",
+      "B09WDXK8YF",
+      "B07ZGG7GSY",
+      "B11M9JNWG6",
+      "B0006JMLN4",
+      "B0009MF6XU",
+      "B00007G33Y",
+      "B000UYC60S",
+      "B003O6EE4U",
+      "B09DP6H2XT",
+      "B001DJ7PEQ",
+      "B09CQ1C54Q",
+      "B09BCT8SXP",
+      "B08NJTHY3G",
+      "B097B85RPL",
+      "B0053UVDTE",
+      "B000ODVKUC",
+      "B000LHKVXHG",
+      "B08NJTHY3G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09M8P5GRC",
+        "reason": "Essential accessories for Nintendo Switch"
+      },
+      {
+        "item_id": "B08NX197P4",
+        "reason": "Compact dock for Nintendo Switch"
+      },
+      {
+        "item_id": "B09WDXK8YF",
+        "reason": "Nostalgic N64 controller for gaming"
+      },
+      {
+        "item_id": "B07ZGG7GSY",
+        "reason": "High-quality lightweight gaming mouse"
+      },
+      {
+        "item_id": "B11M9JNWG6",
+        "reason": "Durable controller protector for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3739,
+    "completion_tokens": 338
+  }
+}

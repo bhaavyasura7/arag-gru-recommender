@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B017V7DMI6",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo 3DS games."
+      },
+      {
+        "item_id": "B01B6WTL1O",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers video games over board games."
+      },
+      {
+        "item_id": "B002MUB0UU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Casual game, not user’s main interest."
+      },
+      {
+        "item_id": "B06XH297M5",
+        "label": "support",
+        "score": 9,
+        "rationale": "User liked Minecraft: Story Mode previously."
+      },
+      {
+        "item_id": "B000FZXGEM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Roleplaying games not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1495,
+    "completion_tokens": 165
+  }
+}

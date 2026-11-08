@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00OHJY7C2",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming accessories and PC games."
+      },
+      {
+        "item_id": "B001BZ8EX8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to Nintendo, but not gaming."
+      },
+      {
+        "item_id": "B0BN2FNKLM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Flight stick not aligned with user interests."
+      },
+      {
+        "item_id": "B001G6062O",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys video games, especially action."
+      },
+      {
+        "item_id": "B00UBL0ZQC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Farming simulator not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1145,
+    "completion_tokens": 160
+  }
+}

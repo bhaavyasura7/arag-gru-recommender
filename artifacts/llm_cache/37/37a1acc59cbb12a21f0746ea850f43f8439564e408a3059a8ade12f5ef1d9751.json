@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07T6WCM7C",
+      "B00U7DREDG",
+      "B00US76VKS",
+      "B07MJJL3FH",
+      "B07Y7C43P6",
+      "B01JJFG1XG",
+      "B00009XS6G",
+      "B000067O0D",
+      "B004LM4UMM",
+      "B08P5Z2CGC",
+      "B000R5H7KE",
+      "B004M5ID9O",
+      "B0C6YY17NJ",
+      "B01JHB3J82",
+      "B002EE7OKE",
+      "B09TQZZJ2V",
+      "B073Z99D25",
+      "B00081K4AM",
+      "B00081K4AM",
+      "B00081K4AM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07T6WCM7C",
+        "reason": "High-quality gaming accessory"
+      },
+      {
+        "item_id": "B00U7DREDG",
+        "reason": "Popular game for Xbox"
+      },
+      {
+        "item_id": "B00US76VKS",
+        "reason": "DLC for a well-known game"
+      },
+      {
+        "item_id": "B07MJJL3FH",
+        "reason": "Protects gaming console"
+      },
+      {
+        "item_id": "B07Y7C43P6",
+        "reason": "Unique gaming experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3307,
+    "completion_tokens": 329
+  }
+}

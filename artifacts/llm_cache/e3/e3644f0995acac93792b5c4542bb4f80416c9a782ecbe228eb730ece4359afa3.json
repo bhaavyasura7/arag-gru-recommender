@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "1633441180",
+      "B08P2VSYM9",
+      "B0899K851H",
+      "B003EGULF6",
+      "B01M2YE3HW",
+      "B09Q34494V",
+      "B000067DPF",
+      "B004HITS36",
+      "B01AXFST36",
+      "B007Z0OCDY",
+      "B00LSIR2H2",
+      "B07HR9JV99",
+      "B09CTMDQG9",
+      "B0BMZWKJPC",
+      "B088FTF1XK",
+      "B07XDQHCWL",
+      "B018BKB7SO",
+      "B003K1VL3Q",
+      "B07MC81S26",
+      "B12"
+    ],
+    "reasons": [
+      {
+        "item_id": "1633441180",
+        "reason": "Star Wars strategy game expansion"
+      },
+      {
+        "item_id": "B08P2VSYM9",
+        "reason": "Retro gaming accessories kit"
+      },
+      {
+        "item_id": "B0899K851H",
+        "reason": "USB controller for retro games"
+      },
+      {
+        "item_id": "B003EGULF6",
+        "reason": "Classic retro game for Game Boy"
+      },
+      {
+        "item_id": "B01M2YE3HW",
+        "reason": "Skylanders collectible for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3296,
+    "completion_tokens": 312
+  }
+}

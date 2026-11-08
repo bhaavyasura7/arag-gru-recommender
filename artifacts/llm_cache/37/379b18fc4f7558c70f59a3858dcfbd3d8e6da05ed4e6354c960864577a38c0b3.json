@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B087SN6TC5",
+      "B01EFVAOF0",
+      "B071XXRQ7L",
+      "B006XR5TW2B",
+      "B01E3NIVRS",
+      "B0038JVJ9G",
+      "B002C741S6",
+      "B0035FYXSC",
+      "B0026ZQBGO",
+      "B003C1PVCQ",
+      "B008B9IJF0",
+      "B12N6SW518",
+      "B0725W7Q58",
+      "B008Y9FMHA",
+      "B0035FYXSC",
+      "B003C1PVCQ",
+      "B08DDLL1NB",
+      "B08GPGL3ZP",
+      "B09MKF6N7V",
+      "B01N6SW518",
+      "B003C1PVCQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087SN6TC5",
+        "reason": "Popular game for Nintendo Switch"
+      },
+      {
+        "item_id": "B01EFVAOF0",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B071XXRQ7L",
+        "reason": "Essential screen protector for Switch"
+      },
+      {
+        "item_id": "B01E3NIVRS",
+        "reason": "Popular PS4 game with survival elements"
+      },
+      {
+        "item_id": "B0035FYXSC",
+        "reason": "Unique chess game for PS3"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3708,
+    "completion_tokens": 332
+  }
+}

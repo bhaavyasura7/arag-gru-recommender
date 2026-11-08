@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07QQ8N7LL",
+      "B001N74CXK",
+      "B004I1JTEK",
+      "B12YBXP45M",
+      "B007CM0K86",
+      "B08TSSJ59Y",
+      "B00QM7JUMY",
+      "B00KO4ULZ6",
+      "B001EBBGTS",
+      "B001ELJE88",
+      "B06XSMSL45",
+      "B00HGLLRV2",
+      "B00FB23CTG",
+      "B09YHBZXBF",
+      "B000FJEV06",
+      "B004FYSCHK",
+      "B00QM7JUMY",
+      "B001EBBGTS",
+      "B09GHQVX3N",
+      "B001N74CXK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07QQ8N7LL",
+        "reason": "Star Wars action-adventure game"
+      },
+      {
+        "item_id": "B001N74CXK",
+        "reason": "Includes action-packed gameplay"
+      },
+      {
+        "item_id": "B004I1JTEK",
+        "reason": "Dynamic combat and storytelling"
+      },
+      {
+        "item_id": "B12YBXP45M",
+        "reason": "Post-apocalyptic theme"
+      },
+      {
+        "item_id": "B007CM0K86",
+        "reason": "Survival-action in a pandemic world"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3877,
+    "completion_tokens": 319
+  }
+}

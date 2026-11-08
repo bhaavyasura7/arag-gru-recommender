@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B002ELCUHY",
+      "B001EYUTHU",
+      "B09GLN64K6",
+      "B07KN2N17R",
+      "B07SZXMTT7",
+      "B000069T96",
+      "B00005Y1NH",
+      "B00005V5N0",
+      "B0060RP14M",
+      "B07BGGSHCW",
+      "B09J1DF3YY",
+      "B006ZO8LG0",
+      "B07PTPMYWM",
+      "B07FSJPL5C",
+      "B0B8T8B2WK",
+      "B0BYYQWJ9S",
+      "B07TSZV2VS",
+      "B00005KG5U",
+      "B00006IKBL",
+      "B07P9K1KVW",
+      "B07BGGSHCW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002ELCUHY",
+        "reason": "Popular sports video game"
+      },
+      {
+        "item_id": "B001EYUTHU",
+        "reason": "NASCAR racing experience"
+      },
+      {
+        "item_id": "B09GLN64K6",
+        "reason": "Gaming keyboard for multiplayer"
+      },
+      {
+        "item_id": "B07KN2N17R",
+        "reason": "Accessory for sports games"
+      },
+      {
+        "item_id": "B07SZXMTT7",
+        "reason": "Dance game for multiplayer fun"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3646,
+    "completion_tokens": 330
+  }
+}

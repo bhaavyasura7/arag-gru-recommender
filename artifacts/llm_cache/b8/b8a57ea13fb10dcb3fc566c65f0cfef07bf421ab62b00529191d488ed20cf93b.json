@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07L9Z33MH",
+      "B0725KSRJ8",
+      "B01KWLKKQU",
+      "B09ZJF8VR1",
+      "B16ZHZBYCJ",
+      "B0011E4J7O",
+      "B001EYUQBO",
+      "B0140Z6SZQ",
+      "B075S5BLY2",
+      "B00CMQTVUA",
+      "B001EYUPOC",
+      "B000NKPE4E",
+      "B00H727K20",
+      "B005GISPMQ",
+      "B002BRZ8BQ",
+      "B19QVJDVHN",
+      "B06ZZ6FGGL",
+      "B00NA6LH58",
+      "B087SLTR2B",
+      "B01KWLKKQU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07L9Z33MH",
+        "reason": "High compatibility and quality"
+      },
+      {
+        "item_id": "B0725KSRJ8",
+        "reason": "Versatile headset for gaming"
+      },
+      {
+        "item_id": "B01KWLKKQU",
+        "reason": "Connects DualShock 4 to PC"
+      },
+      {
+        "item_id": "B09ZJF8VR1",
+        "reason": "Lightweight and fast gaming mouse"
+      },
+      {
+        "item_id": "B16ZHZBYCJ",
+        "reason": "Programmable keypad for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3674,
+    "completion_tokens": 324
+  }
+}

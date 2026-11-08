@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "open-world exploration",
+      "multiplayer experiences",
+      "sports games",
+      "post-apocalyptic themes"
+    ],
+    "current_intent": "looking for new action or adventure video games",
+    "avoid": [
+      "puzzle games",
+      "horror games",
+      "mobile games"
+    ],
+    "summary": "User enjoys action and adventure video games, particularly in open-world settings, and is currently seeking new titles to play."
+  },
+  "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 81
+  }
+}

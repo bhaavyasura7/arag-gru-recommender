@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09V25XG1G",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Compatible with multiple systems, not Xbox."
+      },
+      {
+        "item_id": "B07GRP33YM",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox One game aligns with user interest."
+      },
+      {
+        "item_id": "B0009Z3MQ0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Nintendo DS game, not directly relevant."
+      },
+      {
+        "item_id": "B01CR058OS",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PlayStation 4 game, user prefers Xbox."
+      },
+      {
+        "item_id": "B0B79ZNRT2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Switch accessory, not directly relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1291,
+    "completion_tokens": 159
+  }
+}

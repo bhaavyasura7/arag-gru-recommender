@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07N6YNDWS",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys narrative-driven games."
+      },
+      {
+        "item_id": "B000641ZC2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has mixed interest in Mario games."
+      },
+      {
+        "item_id": "B001G7PRK4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers RPGs over action shooters."
+      },
+      {
+        "item_id": "B002I0K6DG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not favor military shooters."
+      },
+      {
+        "item_id": "B07YN82X3B",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User's focus is on video games, not accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1518,
+    "completion_tokens": 161
+  }
+}

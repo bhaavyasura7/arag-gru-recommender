@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00BSWYN2K",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PC games, not PS3."
+      },
+      {
+        "item_id": "B07Q63K8QY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User plays PC games, needs keyboard."
+      },
+      {
+        "item_id": "B00XXSO1YW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a PS Vita."
+      },
+      {
+        "item_id": "B01LWJB4QT",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PC games, not PS4."
+      },
+      {
+        "item_id": "B00001OWYX",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers newer games, not PS1."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 168
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B19C1XZMKG",
+      "B09H5T4F2S",
+      "B19C1XZMKG",
+      "B07DKXJBBY",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG",
+      "B19C1XZMKG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09H5T4F2S",
+        "reason": "Customizable PS5 controller lights"
+      },
+      {
+        "item_id": "B07DKXJBBY",
+        "reason": "Popular basketball game for PS4"
+      },
+      {
+        "item_id": "B19C1XZMKG",
+        "reason": "High-quality arcade fight stick"
+      },
+      {
+        "item_id": "B09ZPPXGZB",
+        "reason": "Upgrade for arcade gaming experience"
+      },
+      {
+        "item_id": "B08F5T3F9Y",
+        "reason": "Comfortable VR strap for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3247,
+    "completion_tokens": 347
+  }
+}

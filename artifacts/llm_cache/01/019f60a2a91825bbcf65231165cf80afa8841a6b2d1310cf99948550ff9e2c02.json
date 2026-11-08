@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DBDPOZ4",
+      "B15Y2X5ZR3",
+      "B00GUDHUDQ",
+      "B00L2Q5KWE",
+      "B00DQAJG4C",
+      "B15Y2X5ZR3",
+      "B00DRPPC8A",
+      "B00FPDJP8",
+      "B0006D3684",
+      "B0006BH5CO",
+      "B00GUDHUDQ",
+      "B00F65QBS",
+      "B0C28BJR3H",
+      "B00F65QBS",
+      "B00F65QBS",
+      "B00F65QBS",
+      "B00F65QBS",
+      "B00F65QBS",
+      "B00F65QBS",
+      "B00F65QBS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DBDPOZ4",
+        "reason": "Essential Xbox charging accessory"
+      },
+      {
+        "item_id": "B15Y2X5ZR3",
+        "reason": "Compatible wireless controller"
+      },
+      {
+        "item_id": "B00GUDHUDQ",
+        "reason": "New Xbox game for multiplayer"
+      },
+      {
+        "item_id": "B00L2Q5KWE",
+        "reason": "Complete Xbox console package"
+      },
+      {
+        "item_id": "B00DQAJG4C",
+        "reason": "Microsoft Points for Xbox games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3746,
+    "completion_tokens": 325
+  }
+}

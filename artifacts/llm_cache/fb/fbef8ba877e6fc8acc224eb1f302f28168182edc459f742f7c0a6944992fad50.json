@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00JQSCIKM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers non-horror games."
+      },
+      {
+        "item_id": "B0BJL43H8Z",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Mixed genre, not a clear match."
+      },
+      {
+        "item_id": "B002IYR0KO",
+        "label": "support",
+        "score": 8,
+        "rationale": "Co-op survival horror aligns with interests."
+      },
+      {
+        "item_id": "B011BQ6IJS",
+        "label": "support",
+        "score": 7,
+        "rationale": "Zombie theme matches user preferences."
+      },
+      {
+        "item_id": "B00SDCEHYM",
+        "label": "support",
+        "score": 6,
+        "rationale": "Third-person shooter aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2748,
+    "completion_tokens": 156
+  }
+}

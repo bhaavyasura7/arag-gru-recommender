@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07V5CFMY4",
+      "B00IJ1VWZ4",
+      "B15T3SL2HU",
+      "B00H3S1B5A",
+      "B0B6HQ43ST",
+      "B01MYUCFBK",
+      "B001EYUX3K",
+      "B001MW91IW",
+      "B00F27JGVA",
+      "B001EYUU3I",
+      "B00ZM6I932",
+      "B00CMQTVUA",
+      "B0BGXRNJ8D",
+      "B0018QOWEU",
+      "B001EYUU3I",
+      "B00Z9TM1KY",
+      "B00T3SL2HU",
+      "B0092ZEIN4",
+      "B00F27JGVA",
+      "B001EYUX3K",
+      "B000M17AVO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07V5CFMY4",
+        "reason": "Best wireless controller for Switch"
+      },
+      {
+        "item_id": "B00IJ1VWZ4",
+        "reason": "Improves grip for Xbox controllers"
+      },
+      {
+        "item_id": "B15T3SL2HU",
+        "reason": "Enhances control for Xbox gaming"
+      },
+      {
+        "item_id": "B00H3S1B5A",
+        "reason": "Essential stand for PS4"
+      },
+      {
+        "item_id": "B0B6HQ43ST",
+        "reason": "Top gaming mouse pad choice"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3635,
+    "completion_tokens": 340
+  }
+}

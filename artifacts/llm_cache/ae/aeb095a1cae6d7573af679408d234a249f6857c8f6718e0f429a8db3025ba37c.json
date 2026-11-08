@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00SDCEHYM",
+      "B011BQ6IJS",
+      "B00FMJL78S",
+      "B0BJL43H8Z",
+      "B0BJL54SZL",
+      "B0BN6X1BGV",
+      "B0BFDJ1S64",
+      "B0BJL43H8Z",
+      "B012NQATOU",
+      "B0BJL54SZL",
+      "B0BN6X1BGV",
+      "B00WV89IXO",
+      "B0BFDJ1S64",
+      "B0BJL43H8Z",
+      "B00FMJL78S",
+      "B0BJL54SZL",
+      "B0BFDJ1S64",
+      "B0BJL43H8Z",
+      "B00FMJL78S",
+      "B0BJL54SZL"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00SDCEHYM",
+        "reason": "High-quality zombie shooter experience"
+      },
+      {
+        "item_id": "B011BQ6IJS",
+        "reason": "Intense co-op gameplay with zombies"
+      },
+      {
+        "item_id": "B00FMJL78S",
+        "reason": "Classic zombie FPS with co-op"
+      },
+      {
+        "item_id": "B0BJL43H8Z",
+        "reason": "Engaging hack-n-slash mechanics"
+      },
+      {
+        "item_id": "B0BJL54SZL",
+        "reason": "Collector's edition with extras"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3568,
+    "completion_tokens": 342
+  }
+}

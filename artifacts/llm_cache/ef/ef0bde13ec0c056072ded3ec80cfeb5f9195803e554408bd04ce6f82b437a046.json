@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B074C49V46",
+      "B17ZV7GGB3",
+      "B17ZV7GGB3",
+      "B004E0M5H8",
+      "B17ZV7GGB3",
+      "B00002JXBC",
+      "B0036N6E2Q",
+      "B01BFLRNKW",
+      "B000R37S00",
+      "B000062YCV",
+      "B002BXJ7G2",
+      "B000MWWN7O",
+      "B000RO5JH8",
+      "B0913J86YM",
+      "B091HSSYV9",
+      "B00XUZFFBG",
+      "B00Z9LUDX4",
+      "B000062YCV",
+      "B000MWWN7O",
+      "B00TAAA42U",
+      "B000RO5JH8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B074C49V46",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B17ZV7GGB3",
+        "reason": "Compatible with multiple devices"
+      },
+      {
+        "item_id": "B004E0M5H8",
+        "reason": "Cooling fan for Xbox 360"
+      },
+      {
+        "item_id": "B01BFLRNKW",
+        "reason": "Action-packed multiplayer game"
+      },
+      {
+        "item_id": "B000R37S00",
+        "reason": "Remastered action game collection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3207,
+    "completion_tokens": 339
+  }
+}

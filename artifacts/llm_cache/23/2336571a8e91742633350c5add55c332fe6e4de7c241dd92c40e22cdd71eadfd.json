@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07ZL9G9HJ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances Xbox One gaming experience."
+      },
+      {
+        "item_id": "B01HP5XR0M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B08Z7X9VKM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a Switch."
+      },
+      {
+        "item_id": "B000068I35",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Legacy game, not a strong interest."
+      },
+      {
+        "item_id": "B0000512IE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Flight simulator pedals not relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1185,
+    "completion_tokens": 159
+  }
+}

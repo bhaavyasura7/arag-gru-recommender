@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0CBRT4BWW",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo Switch."
+      },
+      {
+        "item_id": "B00NAW5R0I",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has 3DS accessories, shows interest."
+      },
+      {
+        "item_id": "B00000K1VE",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B00L59D9HG",
+        "label": "support",
+        "score": 9,
+        "rationale": "Essential accessory for user's 3DS."
+      },
+      {
+        "item_id": "B074MMGR8F",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo, not PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1292,
+    "completion_tokens": 160
+  }
+}

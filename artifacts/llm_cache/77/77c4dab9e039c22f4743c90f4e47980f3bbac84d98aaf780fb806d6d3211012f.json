@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BL65X86R",
+        "label": "support",
+        "score": 8,
+        "rationale": "Supports PlayStation gaming interests."
+      },
+      {
+        "item_id": "B00EQNP8W2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation, not Xbox."
+      },
+      {
+        "item_id": "B0007P0U3U",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo DS not aligned with interests."
+      },
+      {
+        "item_id": "B000087L4E",
+        "label": "support",
+        "score": 7,
+        "rationale": "Related to Wolfenstein series."
+      },
+      {
+        "item_id": "B006JKARN0",
+        "label": "support",
+        "score": 9,
+        "rationale": "Gran Turismo 5 for PlayStation 3."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1208,
+    "completion_tokens": 160
+  }
+}

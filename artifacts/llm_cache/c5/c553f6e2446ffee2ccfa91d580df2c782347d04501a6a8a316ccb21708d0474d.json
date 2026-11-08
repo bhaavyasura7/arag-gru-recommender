@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B10W6CTY8B",
+      "B00917DBUE",
+      "B07H68BTNJ",
+      "B08R5RM4SF",
+      "B000KIPDZY",
+      "B00BG2CSDS",
+      "B0030ZRUOQ",
+      "B01FFC4NVY",
+      "B08N5XK81R",
+      "B00004SW2C",
+      "B001ELJFLE",
+      "B00002SVMF",
+      "B07GFH462T",
+      "B08S39W8JR",
+      "B07GSKS2K7",
+      "B00005QIQX",
+      "B0165YCDC2",
+      "B12GFH462T",
+      "B12GFH462T",
+      "B12GFH462T"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00917DBUE",
+        "reason": "Highly rated action-adventure game"
+      },
+      {
+        "item_id": "B07H68BTNJ",
+        "reason": "Compatible with Nintendo Switch"
+      },
+      {
+        "item_id": "B08R5RM4SF",
+        "reason": "Useful for console gaming"
+      },
+      {
+        "item_id": "B00BG2CSDS",
+        "reason": "Open-world exploration"
+      },
+      {
+        "item_id": "B000KIPDZY",
+        "reason": "Essential gaming accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3262,
+    "completion_tokens": 314
+  }
+}

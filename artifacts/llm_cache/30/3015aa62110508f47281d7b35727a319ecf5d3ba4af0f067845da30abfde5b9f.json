@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "PlayStation 2 games",
+      "Classic video games",
+      "Madden NFL series",
+      "Harry Potter games",
+      "Scooby-Doo games"
+    ],
+    "current_intent": "Looking for more PlayStation 2 games to add to collection.",
+    "avoid": [
+      "Modern gaming consoles",
+      "Non-video game items",
+      "High-priced collectibles"
+    ],
+    "summary": "User is a retro gaming enthusiast focused on PlayStation 2 titles, particularly interested in classic games and franchises."
+  },
+  "usage": {
+    "prompt_tokens": 474,
+    "completion_tokens": 90
+  }
+}

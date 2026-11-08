@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01H1GJ7IQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B004H7VYYI",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Xbox 360."
+      },
+      {
+        "item_id": "B00P1OYN0S",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Nintendo games."
+      },
+      {
+        "item_id": "B08BSKT43L",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers Nintendo over PlayStation."
+      },
+      {
+        "item_id": "B00DU2CHE2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "General gaming accessory, not specific."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1169,
+    "completion_tokens": 158
+  }
+}

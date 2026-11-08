@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07H5NGZQ8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PC and PlayStation games."
+      },
+      {
+        "item_id": "B00WUZUP3U",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has Xbox 360 game experience."
+      },
+      {
+        "item_id": "B00005LOW9",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User hasn't shown interest in sports games."
+      },
+      {
+        "item_id": "B013QFQR9S",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation 3 games."
+      },
+      {
+        "item_id": "B09VZMN1DL",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PC and PlayStation games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1447,
+    "completion_tokens": 165
+  }
+}

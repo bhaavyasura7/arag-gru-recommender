@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07X56VM5R",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys RPGs but no history."
+      },
+      {
+        "item_id": "B00HGLLRV2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Open world game, user prefers shooters."
+      },
+      {
+        "item_id": "B0C3KYVDWT",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for Nintendo Switch, not preferred."
+      },
+      {
+        "item_id": "B08MZG427Q",
+        "label": "support",
+        "score": 6,
+        "rationale": "User owns Oculus Quest, relevant accessory."
+      },
+      {
+        "item_id": "B00F8W9SWQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has multiple gaming keyboards."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2778,
+    "completion_tokens": 157
+  }
+}

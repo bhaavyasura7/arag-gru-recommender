@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00SVVUOGU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PC gaming, not Xbox."
+      },
+      {
+        "item_id": "B09DL5PMWL",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in Nintendo games."
+      },
+      {
+        "item_id": "B00A7ALZ8O",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Hidden object games are not preferred."
+      },
+      {
+        "item_id": "B00005LABK",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys PC video games."
+      },
+      {
+        "item_id": "B0B413WD1M",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game, less relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1271,
+    "completion_tokens": 159
+  }
+}

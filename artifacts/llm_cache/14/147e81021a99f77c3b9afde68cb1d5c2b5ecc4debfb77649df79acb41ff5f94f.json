@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07MCJ6HNK",
+      "B01GY35AOM",
+      "B07D43RHG7",
+      "B08FZLLXU4",
+      "B00GGUN3FW",
+      "B0017HPSIO",
+      "B00ZQB28XK",
+      "B004QGYJ8S",
+      "B07D4CMKT4",
+      "B0052U2IEO",
+      "B091PVG74G",
+      "B00OBAQDRO",
+      "B07F3GF285",
+      "B00GGUN3FW",
+      "B003L139O4",
+      "B07H8MM4X6",
+      "B016BGLVOK",
+      "B00ZQB28XK",
+      "B07D43RHG7",
+      "B09DG9J3FP",
+      "B0BC88SFTJ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07MCJ6HNK",
+        "reason": "Strong narrative and RPG elements"
+      },
+      {
+        "item_id": "B01GY35AOM",
+        "reason": "Classic RPG with engaging gameplay"
+      },
+      {
+        "item_id": "B07D43RHG7",
+        "reason": "Features beloved characters and story"
+      },
+      {
+        "item_id": "B08FZLLXU4",
+        "reason": "Classic RPG appeal"
+      },
+      {
+        "item_id": "B00GGUN3FW",
+        "reason": "Expands on a popular narrative"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3493,
+    "completion_tokens": 337
+  }
+}

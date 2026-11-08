@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01GY35W22",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox games, not PS4."
+      },
+      {
+        "item_id": "B01CHQ7YIA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming keyboard, not directly related."
+      },
+      {
+        "item_id": "B00X8WTL5M",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Nintendo games, relevant."
+      },
+      {
+        "item_id": "B007WPM8WO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game, less relevant."
+      },
+      {
+        "item_id": "B002JTX8OK",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Older game, user prefers newer titles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1363,
+    "completion_tokens": 160
+  }
+}

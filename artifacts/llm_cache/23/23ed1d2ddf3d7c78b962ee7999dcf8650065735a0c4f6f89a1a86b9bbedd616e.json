@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01LXOW3UA",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys gaming accessories."
+      },
+      {
+        "item_id": "B07BF5XTGR",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User plays video games, but not Nintendo."
+      },
+      {
+        "item_id": "B00015HWSC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers modern games over legacy."
+      },
+      {
+        "item_id": "B005QI3SSM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in Kinect games."
+      },
+      {
+        "item_id": "B00183H290",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys strategy games on PC."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1032,
+    "completion_tokens": 151
+  }
+}

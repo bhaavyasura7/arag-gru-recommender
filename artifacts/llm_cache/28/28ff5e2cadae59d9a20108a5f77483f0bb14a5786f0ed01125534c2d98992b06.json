@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08YMW63JT",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U",
+      "B20D5JL05U"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08YMW63JT",
+        "reason": "Custom faceplate for PS5 controller"
+      },
+      {
+        "item_id": "B00006IJHZ",
+        "reason": "Family-friendly Xbox game"
+      },
+      {
+        "item_id": "B20D5JL05U",
+        "reason": "Performance-enhancing controller adapter"
+      },
+      {
+        "item_id": "B07MHPCV3B",
+        "reason": "Useful gaming accessory"
+      },
+      {
+        "item_id": "B12D5JL05U",
+        "reason": "Durable carrying case for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3157,
+    "completion_tokens": 333
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002LE714Q",
+        "label": "support",
+        "score": 8,
+        "rationale": "Wii game aligns with Nintendo interest."
+      },
+      {
+        "item_id": "B07YLB1C6V",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox accessory not relevant to user."
+      },
+      {
+        "item_id": "B01163CH8W",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Football book unrelated to gaming preferences."
+      },
+      {
+        "item_id": "B01N0QZV5K",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PS4 skin not relevant to user interests."
+      },
+      {
+        "item_id": "B01N7H7RWC",
+        "label": "support",
+        "score": 7,
+        "rationale": "Amiibo card fits Nintendo gaming collection."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1012,
+    "completion_tokens": 165
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07HC3FMXC",
+      "B00IEZ6H4G",
+      "B12YBX8RNF",
+      "B00KSQHX1K",
+      "B07HDYY8WK",
+      "B001EYUQ8M",
+      "B08F97Q8HS",
+      "B07WMPTF7V",
+      "B07YBX8RNF",
+      "B08XQLJRZG",
+      "B075MYT126",
+      "B07HYW4XMP",
+      "B004OL4980",
+      "B00BGA9WK2",
+      "B00IAVDOS6",
+      "B08F97Q8HS",
+      "B01CEFEMFW",
+      "B008U4QPJI",
+      "B07HDYY8WK",
+      "B01LD7MR2C"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07HC3FMXC",
+        "reason": "Perfect for Xbox One controllers"
+      },
+      {
+        "item_id": "B00IEZ6H4G",
+        "reason": "Enhances audio experience on Xbox"
+      },
+      {
+        "item_id": "B12YBX8RNF",
+        "reason": "Popular family-friendly game"
+      },
+      {
+        "item_id": "B00KSQHX1K",
+        "reason": "Includes multiple Halo games"
+      },
+      {
+        "item_id": "B07HDYY8WK",
+        "reason": "Comfortable gaming headset for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3843,
+    "completion_tokens": 325
+  }
+}

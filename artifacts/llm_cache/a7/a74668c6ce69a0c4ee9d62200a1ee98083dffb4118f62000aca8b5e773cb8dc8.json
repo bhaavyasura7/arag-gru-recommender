@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0026775B2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B00454C276",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Xbox 360."
+      },
+      {
+        "item_id": "B07MZPRW6X",
+        "label": "support",
+        "score": 10,
+        "rationale": "Directly enhances Nintendo Switch experience."
+      },
+      {
+        "item_id": "B005OGL4V4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo games."
+      },
+      {
+        "item_id": "B00B2A0TPS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Repair kit, not directly related to gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1395,
+    "completion_tokens": 158
+  }
+}

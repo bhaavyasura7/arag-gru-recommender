@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09K77F43Z",
+      "B09SHJY9SD",
+      "B001KC03UO",
+      "B00076OMOW",
+      "B099RDW9V8",
+      "B06WVDMRNZ",
+      "B08R3B4RBN",
+      "B0050JNR42",
+      "B0055A7S8W",
+      "B07D1X681S",
+      "B0030GBU32",
+      "B01AUDYZHA",
+      "B07VK41184",
+      "B06XD1WF8G",
+      "B08P9N8JXP",
+      "B0BD4B49VN",
+      "B005VA5D24",
+      "B0B3JCL874",
+      "B0050JNR42",
+      "B07X7HJ3QF"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09K77F43Z",
+        "reason": "Classic controller for retro gaming"
+      },
+      {
+        "item_id": "B00076OMOW",
+        "reason": "Includes classic Atari games"
+      },
+      {
+        "item_id": "B099RDW9V8",
+        "reason": "Wireless controller for PS3"
+      },
+      {
+        "item_id": "B08R3B4RBN",
+        "reason": "Wireless game controller for PS3"
+      },
+      {
+        "item_id": "B07VK41184",
+        "reason": "Gaming headset for immersive experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3470,
+    "completion_tokens": 326
+  }
+}

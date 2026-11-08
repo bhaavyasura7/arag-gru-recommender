@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00HCRMWN2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers controllers, not games."
+      },
+      {
+        "item_id": "B0BTHS5YRW",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has gaming accessories in history."
+      },
+      {
+        "item_id": "B00457X0YM",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has interest in gaming mice."
+      },
+      {
+        "item_id": "B005Z9GNSE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers controllers over games."
+      },
+      {
+        "item_id": "B007B64TCQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User does not own a PS Vita."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1409,
+    "completion_tokens": 153
+  }
+}

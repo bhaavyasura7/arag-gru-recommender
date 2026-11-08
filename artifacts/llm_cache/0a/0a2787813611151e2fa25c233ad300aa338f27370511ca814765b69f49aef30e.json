@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00B1N07QM",
+        "label": "support",
+        "score": 8,
+        "rationale": "Mechanical gaming keypad for PC gaming."
+      },
+      {
+        "item_id": "B00KSQHX1K",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox game, user prefers PC games."
+      },
+      {
+        "item_id": "B005UUOAOM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo Wii game, not PC."
+      },
+      {
+        "item_id": "B0053BCP40",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo 3DS game, not PC."
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Xbox Live membership, not directly relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1261,
+    "completion_tokens": 163
+  }
+}

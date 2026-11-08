@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07D5M7SNW",
+      "B18D3N7JTY",
+      "B18D3N7JTY",
+      "B000HCQK0A",
+      "B00BGA9X9W",
+      "B12AC3ZD06",
+      "B0029F2FB6",
+      "B07MWB5YJW",
+      "B00E8CF268",
+      "B00KG3W8X8",
+      "B002I0HCNI",
+      "B00ANZR7X0",
+      "B004DI5H26",
+      "B00EV0CQZC",
+      "B07T4JL1BM",
+      "B00ZK695U",
+      "B00KG3W8X8",
+      "B00E8CF268",
+      "B002I0HCNI",
+      "B00KG3W8X8",
+      "B00KG3W8X8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07D5M7SNW",
+        "reason": "Renewed PS4 console for gaming"
+      },
+      {
+        "item_id": "B00BGA9X9W",
+        "reason": "Essential PS4 controller upgrade"
+      },
+      {
+        "item_id": "B18D3N7JTY",
+        "reason": "Amplified headset for PS4"
+      },
+      {
+        "item_id": "B00E8CF268",
+        "reason": "Comfortable gaming headset"
+      },
+      {
+        "item_id": "B004DI5H26",
+        "reason": "High-quality PS3 controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3928,
+    "completion_tokens": 351
+  }
+}

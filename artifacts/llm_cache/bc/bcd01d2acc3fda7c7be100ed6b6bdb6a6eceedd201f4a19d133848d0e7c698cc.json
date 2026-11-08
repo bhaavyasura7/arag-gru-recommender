@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUQT6",
+      "B083TYGFZC",
+      "B07YPTMRHX",
+      "B083MN9X6W",
+      "B08FQTXV82",
+      "B006LR5KQK",
+      "B000CBCX52",
+      "B018WFSX0S",
+      "B07M8HN8XK",
+      "B000EQFVJ0",
+      "B07GSB84R8",
+      "B000068I7T",
+      "B08JGD74NB",
+      "B002KN32XW",
+      "B00006409H",
+      "B0092X8Z8G",
+      "B07TF86B47",
+      "B00839422C",
+      "B000068I7T",
+      "B000068I7T"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUQT6",
+        "reason": "Popular FPS game title"
+      },
+      {
+        "item_id": "B083TYGFZC",
+        "reason": "Comfortable gaming headset"
+      },
+      {
+        "item_id": "B07YPTMRHX",
+        "reason": "Enhances controller performance"
+      },
+      {
+        "item_id": "B083MN9X6W",
+        "reason": "Compatible with multiple consoles"
+      },
+      {
+        "item_id": "B08FQTXV82",
+        "reason": "Improves gaming accuracy"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2963,
+    "completion_tokens": 313
+  }
+}

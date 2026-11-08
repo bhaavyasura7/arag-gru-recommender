@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The recommended products align with the user's love for classic Nintendo games and nostalgic experiences. They include iconic titles like 'The Legend of Zelda: Twilight Princess' and 'Prince of Persia: Sands of Time,' emphasizing action-adventure and platforming elements, while avoiding modern AAA titles and first-person shooters."
+  },
+  "usage": {
+    "prompt_tokens": 1400,
+    "completion_tokens": 63
+  }
+}

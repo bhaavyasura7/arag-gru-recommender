@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0000034A1",
+      "B000W495PA",
+      "B00LYPLAMW",
+      "B0000631V8",
+      "B09P5Y55RR",
+      "B00BMJYLTO",
+      "B08TVPBH3Y",
+      "B00004TMYC",
+      "B00KQOW0XU",
+      "B00ER8HHFW",
+      "B0BV799V2Q",
+      "B00V4Y2CQQ",
+      "B000040OEI",
+      "B00BMJYLTO",
+      "B00LYPLAMW",
+      "B0BFWPF3NZ",
+      "B094VFSHGK",
+      "B003VWC124",
+      "B0BMXG6T3Q",
+      "B00KQOW0XU",
+      "B00ER8HHFW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0000034A1",
+        "reason": "Engaging strategy gameplay"
+      },
+      {
+        "item_id": "B000W495PA",
+        "reason": "Historical theme with strategy"
+      },
+      {
+        "item_id": "B00LYPLAMW",
+        "reason": "Unique simulation experience"
+      },
+      {
+        "item_id": "B0000631V8",
+        "reason": "Adventure with strategic elements"
+      },
+      {
+        "item_id": "B09P5Y55RR",
+        "reason": "Pirate-themed adventure game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3423,
+    "completion_tokens": 325
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004NZ4EC8",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has PS3 cooling fan interest."
+      },
+      {
+        "item_id": "B0BS9WR9YP",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PS4, not PS5."
+      },
+      {
+        "item_id": "B002L1AMWC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a Wii."
+      },
+      {
+        "item_id": "B0B3DGSCGD",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PS4, not PS5."
+      },
+      {
+        "item_id": "B071RMLJKQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Xbox One."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1804,
+    "completion_tokens": 165
+  }
+}

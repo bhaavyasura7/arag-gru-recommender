@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07H57RV43",
+      "B07FZ95SHS",
+      "B07K53BKLC",
+      "B0983WH43N",
+      "B08434HXLG",
+      "B07WH3VP41",
+      "B00GUSRZMM",
+      "B00IAVDOS6",
+      "B000KHYKJA",
+      "B000034DC7",
+      "B00305HJKQ",
+      "B00JC5Y2L2",
+      "B07FX6JXC1",
+      "B08BNNHYP9",
+      "B07678GGFN",
+      "B00GCBAF8I",
+      "B00HDO40JI",
+      "B00IAVDOS6",
+      "B00GCBAF8I",
+      "B09V2W72P8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07H57RV43",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B07FZ95SHS",
+        "reason": "Compatible with multiple consoles"
+      },
+      {
+        "item_id": "B07K53BKLC",
+        "reason": "Wired controller for Xbox One"
+      },
+      {
+        "item_id": "B0983WH43N",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B08434HXLG",
+        "reason": "Gaming rulebook for strategy games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3263,
+    "completion_tokens": 317
+  }
+}

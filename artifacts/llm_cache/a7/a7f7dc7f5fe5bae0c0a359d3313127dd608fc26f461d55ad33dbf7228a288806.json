@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BVVTQ5JP",
+      "B07HK95QL5",
+      "B07TLKC6XN",
+      "B08LYK1F6T",
+      "B18B8ZQS59N",
+      "B07B2T5BHW",
+      "B09BJKNQ8J",
+      "B08RN3KF36",
+      "B13HWV56U",
+      "B0052556DY",
+      "B000035XCC",
+      "B000069U4X",
+      "B000035Y1T",
+      "B00HHUSOLI",
+      "B00QVLVEAC",
+      "B092SFJSNM",
+      "B091CQP4CS",
+      "B000035XCC",
+      "B000069U4X",
+      "B000035Y1T"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BVVTQ5JP",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B07HK95QL5",
+        "reason": "RGB mechanical keyboard"
+      },
+      {
+        "item_id": "B07TLKC6XN",
+        "reason": "Replaceable switches for keyboards"
+      },
+      {
+        "item_id": "B08LYK1F6T",
+        "reason": "VR gaming headphone for immersion"
+      },
+      {
+        "item_id": "B08RN3KF36",
+        "reason": "RGB wired gaming keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2918,
+    "completion_tokens": 315
+  }
+}

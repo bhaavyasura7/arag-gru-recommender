@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00KVP3OY8",
+      "B01JS3F79I",
+      "B08GY1F43S",
+      "B08GY1R4DN",
+      "B08GX5ZMNV",
+      "B08JY5GTCQ",
+      "B00F32V9DM",
+      "B00JC5Y9LK",
+      "B00M1RTMS6",
+      "B00R4Y7YH2",
+      "B07TKWH7J9",
+      "B07PN8GY68",
+      "B01KZUL1CA",
+      "B18D1WJ8QV8",
+      "B00R4Y7YH2",
+      "B00F32V9DM",
+      "B00JC5Y9LK",
+      "B07JBMX8QS",
+      "B06XDB13HZ",
+      "B015WJ8QV8",
+      "B19P88WHN4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KVP3OY8",
+        "reason": "High-quality wireless headset"
+      },
+      {
+        "item_id": "B01JS3F79I",
+        "reason": "Premium wireless experience"
+      },
+      {
+        "item_id": "B08GY1F43S",
+        "reason": "Deep bass and noise isolation"
+      },
+      {
+        "item_id": "B08GY1R4DN",
+        "reason": "Great sound directionality"
+      },
+      {
+        "item_id": "B08GX5ZMNV",
+        "reason": "Multi-platform compatibility"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3460,
+    "completion_tokens": 343
+  }
+}

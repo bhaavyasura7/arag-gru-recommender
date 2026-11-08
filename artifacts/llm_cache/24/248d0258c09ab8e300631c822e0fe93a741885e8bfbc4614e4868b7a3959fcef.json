@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07YBX7Y3P",
+      "B0716ZFWWV",
+      "B01M26YUKO",
+      "B005GISQX4",
+      "B20KTQCA9Y",
+      "B004HX1QFY",
+      "B14DK1H3H5",
+      "B003O6G114",
+      "B0031Q7N1E",
+      "B008N9NX4U",
+      "B00EZIXEIS",
+      "B00M3D8AQ8",
+      "B00KTORA0K",
+      "B00EZIXEIS",
+      "B008VXCPV0",
+      "B0086VPUHI",
+      "B09JDDBX8R",
+      "B00KTQCA9Y",
+      "B00M3D8AQ8",
+      "B00EZIXEIS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07YBX7Y3P",
+        "reason": "Popular Xbox game edition"
+      },
+      {
+        "item_id": "B0716ZFWWV",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B01M26YUKO",
+        "reason": "Affordable gaming mouse"
+      },
+      {
+        "item_id": "B005GISQX4",
+        "reason": "Co-op gameplay experience"
+      },
+      {
+        "item_id": "B20KTQCA9Y",
+        "reason": "Highly rated action game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3735,
+    "completion_tokens": 325
+  }
+}

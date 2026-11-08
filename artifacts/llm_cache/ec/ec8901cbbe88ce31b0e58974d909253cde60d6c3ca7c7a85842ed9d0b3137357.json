@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B11TXDLL7D",
+      "B07H1SW5T3",
+      "B09JYT9CBM",
+      "B18Z3JW77T",
+      "B000HWZYF2",
+      "B00QI2WPJ8",
+      "B005ZHS8HK",
+      "B07FYKM74X",
+      "B07TN89FGQ",
+      "B07N7HPG82",
+      "B0BLSF9HD6",
+      "B00002STS4",
+      "B091BXWB7Q",
+      "B08LSTKX53",
+      "B0BTDD6Z24",
+      "B000YSYDOC",
+      "B08Z3JW77T",
+      "B017DD49GW",
+      "B07TXDLL7D",
+      "B00SS12V8W"
+    ],
+    "reasons": [
+      {
+        "item_id": "B11TXDLL7D",
+        "reason": "Essential Nintendo Switch controller"
+      },
+      {
+        "item_id": "B07H1SW5T3",
+        "reason": "Compatible with Nintendo Switch"
+      },
+      {
+        "item_id": "B09JYT9CBM",
+        "reason": "Multi-platform headset for Switch"
+      },
+      {
+        "item_id": "B18Z3JW77T",
+        "reason": "Portable charging dock for Switch"
+      },
+      {
+        "item_id": "B000HWZYF2",
+        "reason": "Classic game for nostalgic players"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3628,
+    "completion_tokens": 323
+  }
+}

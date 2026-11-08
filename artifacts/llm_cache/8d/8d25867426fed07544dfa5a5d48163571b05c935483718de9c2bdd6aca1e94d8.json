@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming accessories",
+      "headsets",
+      "controllers",
+      "Xbox products",
+      "PC gaming gear"
+    ],
+    "current_intent": "Looking for high-quality gaming headsets.",
+    "avoid": [
+      "low-quality products",
+      "wired headsets",
+      "overpriced items"
+    ],
+    "summary": "The user is a gamer focused on quality accessories, particularly headsets, for an enhanced gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 426,
+    "completion_tokens": 88
+  }
+}

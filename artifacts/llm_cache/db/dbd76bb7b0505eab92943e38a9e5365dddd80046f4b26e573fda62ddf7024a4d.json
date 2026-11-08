@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0079V4GK8",
+      "B0123D8UE2C",
+      "B0000A33W7",
+      "B12D8UE2C",
+      "B001ISK4GI",
+      "B071G1DTH3",
+      "B003GSLGK6",
+      "B000666BWO",
+      "B0009TTHB0",
+      "B01N9USHKJ",
+      "B081DHKGQB",
+      "B006B7FLKA",
+      "B0753FLMVG",
+      "B09HMTK5MW",
+      "B00269DXXO",
+      "B005ZWIV9A",
+      "B01N955CE7",
+      "B079C4BCPV",
+      "B008N4D926",
+      "B071G1DTH3"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0079V4GK8",
+        "reason": "Strong narrative and action gameplay"
+      },
+      {
+        "item_id": "B0000A33W7",
+        "reason": "Engaging action-adventure storyline"
+      },
+      {
+        "item_id": "B0123D8UE2C",
+        "reason": "Based on popular superhero series"
+      },
+      {
+        "item_id": "B001ISK4GI",
+        "reason": "Useful accessory for gaming"
+      },
+      {
+        "item_id": "B071G1DTH3",
+        "reason": "Popular survival horror collection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3070,
+    "completion_tokens": 322
+  }
+}

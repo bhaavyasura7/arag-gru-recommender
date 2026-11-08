@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0BPLX2X7C",
+      "B09TH69VNT",
+      "B09GPF775B",
+      "B08TTZGK1N",
+      "B18D2R12D6",
+      "B09WPXBF43",
+      "B07YFC8D87",
+      "B09L7NMWWM",
+      "B00JVIPSZ4",
+      "B017W2U26U",
+      "B00005Q5Q5",
+      "B000FRTTJG",
+      "B003AHPA46",
+      "B000067QD3",
+      "B01NA9M7RK",
+      "B000CCEFRQ4",
+      "B07G4YYZ1M",
+      "B00E67D096",
+      "B0776CBM1Q",
+      "B0BN885BT8",
+      "B00005Q5Q5"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BPLX2X7C",
+        "reason": "Racing simulator cockpit frame"
+      },
+      {
+        "item_id": "B09TH69VNT",
+        "reason": "Custom grips for Nintendo Switch"
+      },
+      {
+        "item_id": "B09GPF775B",
+        "reason": "Controller wall mount holder"
+      },
+      {
+        "item_id": "B08TTZGK1N",
+        "reason": "VR controller grip covers"
+      },
+      {
+        "item_id": "B0182R12D6",
+        "reason": "PS3 game digital code"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3423,
+    "completion_tokens": 337
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000G79YNQ",
+      "B002JTX87C",
+      "B0046A8IRC",
+      "B20BGA9WK2",
+      "B003JVCA9Q",
+      "B004LLHFAW",
+      "B00C1TTF86",
+      "B07CB12726",
+      "B01LX4ZCJL",
+      "B07VYHB37P",
+      "B0061PAZUS",
+      "B08QFPS48J",
+      "B015NGZFWS",
+      "B004LLHFAW",
+      "B07DLNHQZX",
+      "B09Z7DLGWL",
+      "B00EP2WNKY",
+      "B087NNPYP3",
+      "B00BGA9WK2",
+      "B00069GD0Q"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000G79YNQ",
+        "reason": "Classic PS2 racing game"
+      },
+      {
+        "item_id": "B002JTX87C",
+        "reason": "Scooby-Doo game for nostalgia"
+      },
+      {
+        "item_id": "B0046A8IRC",
+        "reason": "Popular PS3 RPG, not PS2"
+      },
+      {
+        "item_id": "B20BGA9WK2",
+        "reason": "Classic PS3 shooter, not PS2"
+      },
+      {
+        "item_id": "B003JVCA9Q",
+        "reason": "Classic PS3 title, not PS2"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3869,
+    "completion_tokens": 328
+  }
+}

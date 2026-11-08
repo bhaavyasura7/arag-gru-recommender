@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01GY35AOM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Racing games not in user history."
+      },
+      {
+        "item_id": "B004QGYJ8S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's interests."
+      },
+      {
+        "item_id": "B07MCJ6HNK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Action-platformer aligns with user preferences."
+      },
+      {
+        "item_id": "B003L139O4",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B01FZLLXU4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Faceplate, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2183,
+    "completion_tokens": 156
+  }
+}

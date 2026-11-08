@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00006CRUN",
+      "B000035Y10",
+      "B081J6RMT9",
+      "B00009W5JS",
+      "B01CK89AFA",
+      "B000E4KN6P8",
+      "B086ZGXL7J",
+      "B07X8ZSL76",
+      "B09Q8XZYWF",
+      "B00189HR7Q",
+      "B007G4JZ9K",
+      "B0BMFL3RWT",
+      "B0BTBGDSFB",
+      "B08SW7G6V7",
+      "B00W4KX272",
+      "B0BVVTQ5JP",
+      "B001QY13C8",
+      "B07ZF8ZH8C",
+      "B00GGIEQY6",
+      "B01MEG91OJ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00006CRUN",
+        "reason": "Nostalgic simulation game"
+      },
+      {
+        "item_id": "B000035Y10",
+        "reason": "Classic retro gaming experience"
+      },
+      {
+        "item_id": "B081J6RMT9",
+        "reason": "Popular game for Switch"
+      },
+      {
+        "item_id": "B00009W5JS",
+        "reason": "Retro controller for PS2"
+      },
+      {
+        "item_id": "B01CK89AFA",
+        "reason": "Zoo simulation game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3156,
+    "completion_tokens": 321
+  }
+}

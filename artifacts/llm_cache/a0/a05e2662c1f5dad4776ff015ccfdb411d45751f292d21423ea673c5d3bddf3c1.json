@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01A13062W",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Diablo III series."
+      },
+      {
+        "item_id": "B00KAPFOJ2",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Diablo III series."
+      },
+      {
+        "item_id": "B01FCLK7CC",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Diablo III series."
+      },
+      {
+        "item_id": "B00KLXU8WG",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Diablo III series."
+      },
+      {
+        "item_id": "B00644IK30",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Mixed interest in included games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2000,
+    "completion_tokens": 146
+  }
+}

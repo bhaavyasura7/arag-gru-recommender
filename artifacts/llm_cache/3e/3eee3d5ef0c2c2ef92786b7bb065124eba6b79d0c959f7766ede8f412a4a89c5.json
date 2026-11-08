@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00503E8S2",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys first-person shooter games."
+      },
+      {
+        "item_id": "B0019VMEN0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no clear RPG preferences."
+      },
+      {
+        "item_id": "B000BC38LA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers action over RPG elements."
+      },
+      {
+        "item_id": "B0C4B2R2WM",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has multiple Nintendo Switch accessories."
+      },
+      {
+        "item_id": "B06ZYTHKR7",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Call of Duty franchise."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1808,
+    "completion_tokens": 153
+  }
+}

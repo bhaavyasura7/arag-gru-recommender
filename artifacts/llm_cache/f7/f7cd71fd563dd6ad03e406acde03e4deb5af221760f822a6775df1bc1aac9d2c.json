@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B006ZNGOJC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not slots."
+      },
+      {
+        "item_id": "B005GAV9HC",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 3 games."
+      },
+      {
+        "item_id": "B003G2Z4VY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Karaoke not directly related to interests."
+      },
+      {
+        "item_id": "B076M9SMZ8",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Keyboard not specifically gaming-focused."
+      },
+      {
+        "item_id": "B085QFH3HW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Mouse accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1350,
+    "completion_tokens": 158
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002Z01QO2",
+      "B01IFE2OFG",
+      "B014W1YRY2",
+      "B00N34CK5I",
+      "B000WJFZEA",
+      "B007VM72BA",
+      "B00GM5TPSA",
+      "B07SSZGYNR",
+      "B0816ZR4DX",
+      "B09H4FY96B",
+      "B004DGIYEG",
+      "B007VYW5K6",
+      "B08MBPMKPC",
+      "B08MBMWTYR",
+      "B06XG5FQ3B",
+      "B00BN5T30E",
+      "B00ZQB28XK",
+      "B0123Q8D8A",
+      "B0BM5YPLKM",
+      "B007VM72BA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002Z01QO2",
+        "reason": "Popular flight simulation game"
+      },
+      {
+        "item_id": "B01IFE2OFG",
+        "reason": "High-quality gaming controller"
+      },
+      {
+        "item_id": "B014W1YRY2",
+        "reason": "Precision gaming mouse for FPS"
+      },
+      {
+        "item_id": "B00N34CK5I",
+        "reason": "Gaming headset for immersive experience"
+      },
+      {
+        "item_id": "B000WJFZEA",
+        "reason": "Classic PS2 game with action elements"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3952,
+    "completion_tokens": 326
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07VTHT18S",
+      "B003L1ADZW",
+      "B14NSTTMVB",
+      "B00K1L8B40",
+      "B002DPUJCE",
+      "B0069A949S",
+      "B0033ZX7DQ",
+      "B000089G5U",
+      "B07MZNLL2G",
+      "B01J4JSI0G",
+      "B00DCUO3SK",
+      "B07NSTTMVB",
+      "B09Y1611MW",
+      "B003VH5Z2C",
+      "B09W2H3JMV",
+      "B01A1V6164",
+      "B003JZT1OY",
+      "B096VSJLC9",
+      "B007D0RPPS",
+      "B003L1ADZW",
+      "B08D0RPPS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07VTHT18S",
+        "reason": "Engaging action-adventure gameplay"
+      },
+      {
+        "item_id": "B003L1ADZW",
+        "reason": "Immersive storytelling experience"
+      },
+      {
+        "item_id": "B00K1L8B40",
+        "reason": "Tactical combat and customization"
+      },
+      {
+        "item_id": "B002DPUJCE",
+        "reason": "Unique RPG mashup experience"
+      },
+      {
+        "item_id": "B0069A949S",
+        "reason": "Classic game with rich narrative"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3881,
+    "completion_tokens": 332
+  }
+}

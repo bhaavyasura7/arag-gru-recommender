@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The relevant candidates cater to the user's interest in classic video games, particularly from PlayStation and Nintendo. They include gaming consoles, accessories, and games that enhance the gaming experience, aligning with the user's intent for engaging gameplay while avoiding mobile, first-person shooters, and sports games."
+  },
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 59
+  }
+}

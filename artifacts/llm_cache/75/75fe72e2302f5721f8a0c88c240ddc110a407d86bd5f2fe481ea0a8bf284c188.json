@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08SF95Y76",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "New console, user prefers Nintendo games."
+      },
+      {
+        "item_id": "B00005OVGD",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B00006IZKN",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy game, user prefers modern titles."
+      },
+      {
+        "item_id": "B01G36K1OY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse, not directly related to interests."
+      },
+      {
+        "item_id": "B0B67JB82Z",
+        "label": "support",
+        "score": 7,
+        "rationale": "Accessory for Nintendo Switch, matches interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1326,
+    "completion_tokens": 159
+  }
+}

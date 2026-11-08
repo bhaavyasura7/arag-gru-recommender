@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B074C49V46",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox and PS4 games."
+      },
+      {
+        "item_id": "B00XUZFFBG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Nintendo DS."
+      },
+      {
+        "item_id": "B002BXJ7G2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Nintendo DS."
+      },
+      {
+        "item_id": "B07ZV7GGB3",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox One and PS4."
+      },
+      {
+        "item_id": "B000R37S00",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Sony PSP."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 163
+  }
+}

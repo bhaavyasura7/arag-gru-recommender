@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000021Y1B",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nostalgic but not highly rated."
+      },
+      {
+        "item_id": "B001ELJFGO",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys action games with depth."
+      },
+      {
+        "item_id": "B000HKMPVA",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes acclaimed shooters."
+      },
+      {
+        "item_id": "B000TUZCQI",
+        "label": "support",
+        "score": 6,
+        "rationale": "Classic games align with user interests."
+      },
+      {
+        "item_id": "B0040Y3K9U",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1876,
+    "completion_tokens": 149
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000038A6U",
+        "label": "support",
+        "score": 7,
+        "rationale": "Classic games align with user interests."
+      },
+      {
+        "item_id": "B00264H2W2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game genre differs from user's history."
+      },
+      {
+        "item_id": "B00HVBPRUO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game, less relevant."
+      },
+      {
+        "item_id": "B002SUTB28",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Fitness game, not traditional gaming."
+      },
+      {
+        "item_id": "B07TC8J6HK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming headset, not a game itself."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1215,
+    "completion_tokens": 159
+  }
+}

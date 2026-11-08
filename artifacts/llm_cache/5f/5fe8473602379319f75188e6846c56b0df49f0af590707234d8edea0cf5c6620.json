@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07HJ7FZM4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances Xbox One gaming experience."
+      },
+      {
+        "item_id": "B07YBXJ5FK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Survival horror aligns with gaming interests."
+      },
+      {
+        "item_id": "B07MYVF61Y",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not compatible with user's consoles."
+      },
+      {
+        "item_id": "B01541ACLQ",
+        "label": "support",
+        "score": 6,
+        "rationale": "Supports Xbox One with legacy controllers."
+      },
+      {
+        "item_id": "B00008KTNW",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Legacy game, not Xbox One compatible."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1324,
+    "completion_tokens": 155
+  }
+}

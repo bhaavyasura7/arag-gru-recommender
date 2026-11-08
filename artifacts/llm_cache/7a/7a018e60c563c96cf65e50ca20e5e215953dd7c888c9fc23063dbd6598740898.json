@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0029ZUPU4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, not a strong match."
+      },
+      {
+        "item_id": "B00DDILSBG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not a strong match."
+      },
+      {
+        "item_id": "B088TRSGFL",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B005C8NGTW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a video game, unrelated."
+      },
+      {
+        "item_id": "B07MLB1P21",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different franchise, but action-oriented."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1102,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "retro gaming",
+      "Nintendo consoles",
+      "video game accessories",
+      "memory cards",
+      "classic controllers"
+    ],
+    "current_intent": "looking for more retro gaming accessories",
+    "avoid": [
+      "modern gaming",
+      "non-gaming products",
+      "high-priced items"
+    ],
+    "summary": "User is a retro gaming enthusiast focused on Nintendo systems and accessories, seeking to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 549,
+    "completion_tokens": 72
+  }
+}

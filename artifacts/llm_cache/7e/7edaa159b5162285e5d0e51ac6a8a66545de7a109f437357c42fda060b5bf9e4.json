@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00K3T531O",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B001D7AGIU",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a PSP."
+      },
+      {
+        "item_id": "B07VYK5L87",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headphones not directly related to gaming."
+      },
+      {
+        "item_id": "B000MWYEE4",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Unrelated game title, no specific interest."
+      },
+      {
+        "item_id": "B06XFYYQ4Q",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports Nintendo Switch usage."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1066,
+    "completion_tokens": 158
+  }
+}

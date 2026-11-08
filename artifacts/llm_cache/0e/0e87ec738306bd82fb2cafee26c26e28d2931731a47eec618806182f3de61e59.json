@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08LT6PT1X",
+      "B003R7JXO2",
+      "B0042GW7CC",
+      "B09YXR2MQR",
+      "B08C7F68XH",
+      "B19Y8F819V",
+      "B07DNDZZ38",
+      "B00X3EDHZU",
+      "B004JN0U8Q",
+      "B0017ZIIK6",
+      "B001TOQ8UW",
+      "B019IAC2OE",
+      "B00004SVZ0",
+      "B002I0J4NE",
+      "B07RB1PM3J",
+      "B0C6BV5XQZ",
+      "B078KJ5VMV",
+      "B0BN2FNKLM",
+      "B0042GW7CC",
+      "B0017ZIIK6",
+      "B08C7F68XH"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08LT6PT1X",
+        "reason": "Elite controller for Xbox gaming"
+      },
+      {
+        "item_id": "B003R7JXO2",
+        "reason": "Multiplayer Harry Potter action"
+      },
+      {
+        "item_id": "B0042GW7CC",
+        "reason": "Classic multiplayer arcade games"
+      },
+      {
+        "item_id": "B09YXR2MQR",
+        "reason": "Limited edition Xbox controller"
+      },
+      {
+        "item_id": "B08C7F68XH",
+        "reason": "Pro controller for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3749,
+    "completion_tokens": 343
+  }
+}

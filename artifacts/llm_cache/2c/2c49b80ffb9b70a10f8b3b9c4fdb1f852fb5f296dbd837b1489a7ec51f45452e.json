@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BVWPMMCT",
+      "B04B3X4L6YZ",
+      "B001G7PRP4",
+      "B002LT24CK",
+      "B09STBH8C8",
+      "B000NKRIZM",
+      "B0001PWCPU",
+      "B00005MDZ0",
+      "B00002SVMJ",
+      "B000EYUPLK",
+      "B000AODB7A",
+      "B00002SVEA",
+      "B0042A4ZLY",
+      "B01J4K384Q",
+      "B0009UC6AI",
+      "B000EYUT5C",
+      "B00002SVEA",
+      "B004B6N790",
+      "B0001PWCPU",
+      "B00005MDZ0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BVWPMMCT",
+        "reason": "High-quality gaming headset features"
+      },
+      {
+        "item_id": "B04B3X4L6YZ",
+        "reason": "7.1 surround sound for immersive gaming"
+      },
+      {
+        "item_id": "B001G7PRP4",
+        "reason": "Gaming controller with turbo function"
+      },
+      {
+        "item_id": "B002LT24CK",
+        "reason": "Officially licensed Xbox controller"
+      },
+      {
+        "item_id": "B09STBH8C8",
+        "reason": "Cooling fan for Xbox Series S"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3156,
+    "completion_tokens": 325
+  }
+}

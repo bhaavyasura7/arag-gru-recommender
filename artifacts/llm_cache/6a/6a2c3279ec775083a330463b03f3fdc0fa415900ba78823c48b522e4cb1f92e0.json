@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "first-person shooters",
+      "collector's editions",
+      "classic video games",
+      "highly rated games",
+      "multiplayer experiences"
+    ],
+    "current_intent": "looking for a new first-person shooter game",
+    "avoid": [
+      "low-rated games",
+      "non-shooter genres",
+      "mobile games"
+    ],
+    "summary": "User enjoys classic first-person shooters and seeks a highly rated game, preferably a collector's edition."
+  },
+  "usage": {
+    "prompt_tokens": 302,
+    "completion_tokens": 78
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "zombie-themed games",
+      "narrative-driven experiences",
+      "action-adventure titles",
+      "survival horror",
+      "interactive storytelling"
+    ],
+    "current_intent": "looking for more engaging zombie games",
+    "avoid": [
+      "puzzle games",
+      "sports titles",
+      "non-interactive media"
+    ],
+    "summary": "User enjoys narrative-driven zombie games and seeks similar titles, avoiding genres like puzzles and sports."
+  },
+  "usage": {
+    "prompt_tokens": 306,
+    "completion_tokens": 77
+  }
+}

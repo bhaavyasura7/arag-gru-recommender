@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B004ZCPKDG",
+      "B19TSV6972",
+      "B0028T8Z3A",
+      "B07L2DTNNZ",
+      "B005LH6PYM",
+      "B00005MNRX",
+      "B19MGVG3W",
+      "B073S4QT54",
+      "B0BMW75V7J",
+      "B0C3HJ7K8S",
+      "B0F4FKSZI",
+      "B08QCP5L9F",
+      "B07TZYK2Z3",
+      "B086YJ6L9B",
+      "B0B3MGVG3W",
+      "B00UURTXY2",
+      "B00001LCD8",
+      "B07PGPK3BD",
+      "B0C3HJ7K8S",
+      "B0BMW75V7J"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004ZCPKDG",
+        "reason": "Fun multiplayer experience"
+      },
+      {
+        "item_id": "B19TSV6972",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B0028T8Z3A",
+        "reason": "Engaging game modes"
+      },
+      {
+        "item_id": "B07L2DTNNZ",
+        "reason": "Interactive controller kit"
+      },
+      {
+        "item_id": "B005LH6PYM",
+        "reason": "Action-packed gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3766,
+    "completion_tokens": 326
+  }
+}

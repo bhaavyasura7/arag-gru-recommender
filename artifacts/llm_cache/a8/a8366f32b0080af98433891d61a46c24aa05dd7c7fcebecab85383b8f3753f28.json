@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00000DMB3",
+      "B00163ROMW",
+      "B0189MJK753",
+      "B000ZK9QCS",
+      "B000BOJPRE",
+      "B00267S2A0",
+      "B01LPZM7VI",
+      "B0000AHRPM",
+      "B006JKAS6G",
+      "B01GOK34SO",
+      "B0044DE88O",
+      "B00BRQN2EM",
+      "B00DB2BI8M",
+      "B07PFT19MG",
+      "B001EYUPHO",
+      "B01GRY9VIY",
+      "B0032C9V7G",
+      "B00000DMB3",
+      "B0044DE88O",
+      "B001ELJPMS",
+      "B00KO4ULZ6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00000DMB3",
+        "reason": "Classic Nintendo game, highly sought"
+      },
+      {
+        "item_id": "B00163ROMW",
+        "reason": "Nintendo DS game, retro appeal"
+      },
+      {
+        "item_id": "B0189MJK753",
+        "reason": "Wireless adapter for multiple controllers"
+      },
+      {
+        "item_id": "B000ZK9QCS",
+        "reason": "Popular PS3 game, good value"
+      },
+      {
+        "item_id": "B000BOJPRE",
+        "reason": "Fun retro game, nostalgic experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3808,
+    "completion_tokens": 328
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01BI4ZW4A",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has PS4 accessories interest."
+      },
+      {
+        "item_id": "B08QGJV6CV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User hasn't shown PS5 interest."
+      },
+      {
+        "item_id": "B01FSYNY5A",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has PS4 console accessory interest."
+      },
+      {
+        "item_id": "B08QGJXYHK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User hasn't shown PS5 interest."
+      },
+      {
+        "item_id": "B00VRYE2YI",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has PS4 accessories interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2160,
+    "completion_tokens": 157
+  }
+}

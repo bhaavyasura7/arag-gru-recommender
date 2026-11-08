@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09NHSVKJK",
+      "B07GMV1X1K",
+      "B00E9B0OMK",
+      "B09TR3Q88F",
+      "B002L8W5V6",
+      "B15HK5II7O",
+      "B07DK364N4",
+      "B15HMCK2ZC",
+      "B00HMCK2ZC",
+      "B00O3JSRHW",
+      "B00DW839FU",
+      "B00DP7CKTE",
+      "B007HPNYBS",
+      "B002Q8HFLG",
+      "B086H9RJ89",
+      "B017YWO8K4",
+      "B00002SU3F",
+      "B00Q2NT48S",
+      "B00HMCK2ZC",
+      "B6257266998",
+      "B00E9B0OMK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09NHSVKJK",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B07GMV1X1K",
+        "reason": "Retro gaming console accessory"
+      },
+      {
+        "item_id": "B00E9B0OMK",
+        "reason": "Amplified audio for immersive gaming"
+      },
+      {
+        "item_id": "B09TR3Q88F",
+        "reason": "Comprehensive Switch accessory bundle"
+      },
+      {
+        "item_id": "B002L8W5V6",
+        "reason": "Compatible GameCube controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3135,
+    "completion_tokens": 340
+  }
+}

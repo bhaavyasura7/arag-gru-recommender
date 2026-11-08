@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00BLZM2ZE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation games."
+      },
+      {
+        "item_id": "B07KQ558JJ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Charger for Nintendo Switch, not PlayStation."
+      },
+      {
+        "item_id": "B07F29Z4R9",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Controller for multiple systems, including PS4."
+      },
+      {
+        "item_id": "B00006LELK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Game Boy Advance not relevant to user."
+      },
+      {
+        "item_id": "B0837MM7TX",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Case for various controllers, not specific."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 161
+  }
+}

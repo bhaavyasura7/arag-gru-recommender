@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00Z9TM72Q",
+      "B002JTX7KA",
+      "B009AFLXJS",
+      "B001BWRB9O",
+      "B001ELJDV6",
+      "B00C1TTF86",
+      "B0764BLMJL",
+      "B00317C69C",
+      "B00ZKZYKMO",
+      "B002USENAS",
+      "B07MLYV9W4",
+      "B01DBTBYC4",
+      "B07H13GWRH",
+      "B006JKAS16",
+      "B004QEAXKS",
+      "B000ZK9QCS",
+      "B00M882BMM",
+      "B009NRO1J2",
+      "B002JTX7KA",
+      "B00ZKZYKMO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Popular shooter game franchise"
+      },
+      {
+        "item_id": "B002JTX7KA",
+        "reason": "Action-adventure with strong narrative"
+      },
+      {
+        "item_id": "B009AFLXJS",
+        "reason": "Competitive multiplayer experience"
+      },
+      {
+        "item_id": "B001BWRB9O",
+        "reason": "Classic RPG with engaging gameplay"
+      },
+      {
+        "item_id": "B001ELJDV6",
+        "reason": "Essential for multiplayer gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3736,
+    "completion_tokens": 319
+  }
+}

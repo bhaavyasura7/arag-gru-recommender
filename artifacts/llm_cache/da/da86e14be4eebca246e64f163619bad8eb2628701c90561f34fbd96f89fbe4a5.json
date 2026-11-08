@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00YSAXP0U",
+      "B07GX8YS78",
+      "B15BHRD4BM",
+      "B0053BCML6",
+      "B01K2O2RSG",
+      "B01DU1SX8G",
+      "B08B49MP6",
+      "B002I0EPP6",
+      "B001ELJE2E",
+      "B002I0J4NE",
+      "B001EYUSJ4",
+      "B002JTX7HI",
+      "B00B19IALK",
+      "B07NKN4VR4",
+      "B00BHRD4BM",
+      "B01LXTD0UN",
+      "B002R2JCNK",
+      "B01MYUCFBK",
+      "B00YSAXP0U",
+      "B00BHRD4BM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00YSAXP0U",
+        "reason": "Official Nintendo amiibo display case"
+      },
+      {
+        "item_id": "B07GX8YS78",
+        "reason": "GameCube controller for Nintendo Switch"
+      },
+      {
+        "item_id": "B0053BCML6",
+        "reason": "Popular Nintendo 3DS game"
+      },
+      {
+        "item_id": "B01K2O2RSG",
+        "reason": "Compatible amiibo diorama kit"
+      },
+      {
+        "item_id": "B01DU1SX8G",
+        "reason": "Enhances amiibo collection display"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3699,
+    "completion_tokens": 333
+  }
+}

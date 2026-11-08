@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000ERVMI8",
+      "B07H5NGZQ8",
+      "B00DOD51UY",
+      "B0015MMN6G",
+      "B000094OT8",
+      "B00BAQXJMO",
+      "B074NJWFXH",
+      "B003INEQ2O",
+      "B0086VPUHI",
+      "B00008RUYZ",
+      "B00BN5T30E",
+      "B00JS9XVNM",
+      "B004S5MB1O",
+      "B0001B15RA",
+      "B00DV16N6U",
+      "B001G60LBK",
+      "B009VUHVY8",
+      "B004LLHFAW",
+      "B07FB23CTG",
+      "B000094OT8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000ERVMI8",
+        "reason": "Mario franchise game"
+      },
+      {
+        "item_id": "B07H5NGZQ8",
+        "reason": "Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B00DOD51UY",
+        "reason": "Wii charging station"
+      },
+      {
+        "item_id": "B0015MMN6G",
+        "reason": "PlayStation memory card"
+      },
+      {
+        "item_id": "B000094OT8",
+        "reason": "Classic RPG experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3647,
+    "completion_tokens": 308
+  }
+}

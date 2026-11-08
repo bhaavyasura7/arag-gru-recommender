@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00EIN266Q",
+      "B01LRLJV28",
+      "B0CB9V2FYF",
+      "B004OYV7ZU",
+      "B06XG8FQ8F",
+      "B074HBNNH6",
+      "B00005LABK",
+      "B00I5LAGM8",
+      "B00H4G8J9C",
+      "B00KWOSQC8",
+      "B001EYUW72",
+      "B00WMMUDR4",
+      "B07WLT1C27",
+      "B00FWWY1V0",
+      "B00NBVRCFN",
+      "B0B839Q9H1",
+      "B078T3R8YS",
+      "B00I5LAGM8",
+      "B00H4G8J9C",
+      "B0B8YWLH4Z",
+      "B00I5LAGM8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00EIN266Q",
+        "reason": "Nostalgic retro game collection"
+      },
+      {
+        "item_id": "B01LRLJV28",
+        "reason": "Includes popular story-driven game"
+      },
+      {
+        "item_id": "B0CB9V2FYF",
+        "reason": "Protects classic gaming consoles"
+      },
+      {
+        "item_id": "B004OYV7ZU",
+        "reason": "Convenient accessory for 3DS"
+      },
+      {
+        "item_id": "B074HBNNH6",
+        "reason": "High-quality wireless controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3966,
+    "completion_tokens": 351
+  }
+}

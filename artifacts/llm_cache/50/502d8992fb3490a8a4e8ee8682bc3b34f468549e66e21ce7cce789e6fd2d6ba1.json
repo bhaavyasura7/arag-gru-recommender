@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "JRPGs",
+      "Action RPGs",
+      "Classic video games",
+      "Story-driven games",
+      "Fantasy settings"
+    ],
+    "current_intent": "Looking for engaging RPGs with strong narratives.",
+    "avoid": [
+      "First-person shooters",
+      "Sports games",
+      "Low-rated titles"
+    ],
+    "summary": "User enjoys classic and narrative-rich RPGs, particularly from the Final Fantasy series, and seeks similar games to play."
+  },
+  "usage": {
+    "prompt_tokens": 1442,
+    "completion_tokens": 79
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00WL8WBE2",
+        "label": "support",
+        "score": 8,
+        "rationale": "First-person shooter aligns with interests."
+      },
+      {
+        "item_id": "B00154J9HK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Singing game not aligned with interests."
+      },
+      {
+        "item_id": "B01DUHQIL4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming headset enhances gaming experience."
+      },
+      {
+        "item_id": "B00020LZAM",
+        "label": "support",
+        "score": 6,
+        "rationale": "Action-adventure game fits gaming preference."
+      },
+      {
+        "item_id": "B08N6HY1FF",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Keycaps are useful but not essential."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1338,
+    "completion_tokens": 156
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0728H6KPV",
+      "B07GDGBPCJ",
+      "B12R58MNGL",
+      "B08F97Q8HS",
+      "B00BGAA3S2",
+      "B07QQ8N7LL",
+      "B003NSLGW2",
+      "B07X1HF3V6",
+      "B07DDD9CPN",
+      "B00005U8TQ",
+      "B0006JMLN4",
+      "B00FA1CLEW",
+      "B076B995TL",
+      "B00CJ9OTNE",
+      "B08CW2M37L",
+      "B00ZD99YXC",
+      "B001KC02Y6",
+      "B07MPSFJG3",
+      "B00FA1CLEW",
+      "B07R58MNGL"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0728H6KPV",
+        "reason": "High-quality charger for Switch"
+      },
+      {
+        "item_id": "B07GDGBPCJ",
+        "reason": "Compact stand for Nintendo Switch"
+      },
+      {
+        "item_id": "B12R58MNGL",
+        "reason": "Durable screen protector for Switch Lite"
+      },
+      {
+        "item_id": "B08F97Q8HS",
+        "reason": "Popular game for Nintendo Switch"
+      },
+      {
+        "item_id": "B00BGAA3S2",
+        "reason": "Fun multiplayer game for Wii"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3637,
+    "completion_tokens": 326
+  }
+}

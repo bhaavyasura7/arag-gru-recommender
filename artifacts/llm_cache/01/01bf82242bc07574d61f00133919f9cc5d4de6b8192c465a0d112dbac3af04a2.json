@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07HDJQDXB",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers video games, not cards."
+      },
+      {
+        "item_id": "B09JKQG7HP",
+        "label": "support",
+        "score": 7,
+        "rationale": "User owns Xbox, appreciates accessories."
+      },
+      {
+        "item_id": "B00006LU9E",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not review preschool games."
+      },
+      {
+        "item_id": "B00AELUUIM",
+        "label": "support",
+        "score": 8,
+        "rationale": "User owns PS Vita, needs protection."
+      },
+      {
+        "item_id": "B07DPJPJNK",
+        "label": "support",
+        "score": 7,
+        "rationale": "User owns Nintendo Switch, needs case."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 997,
+    "completion_tokens": 159
+  }
+}

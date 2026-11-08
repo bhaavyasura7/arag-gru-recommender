@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B006V5S2OE",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming mouse aligns with gaming interest."
+      },
+      {
+        "item_id": "B08MZXNCHT",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo Switch bundle fits gaming preference."
+      },
+      {
+        "item_id": "B0BJK32F71",
+        "label": "support",
+        "score": 6,
+        "rationale": "PS5 adapter supports gaming setup."
+      },
+      {
+        "item_id": "B0008JILX6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Xbox game is less relevant to history."
+      },
+      {
+        "item_id": "B09HGWQKV1",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS5 charger complements gaming accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1385,
+    "completion_tokens": 156
+  }
+}

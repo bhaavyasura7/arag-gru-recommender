@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B006JKARN0",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox over PlayStation."
+      },
+      {
+        "item_id": "B00JM57VDS",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PC game, not Xbox related."
+      },
+      {
+        "item_id": "B00H3SGII0",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "PC game, not Xbox related."
+      },
+      {
+        "item_id": "B001EYUY70",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox over PlayStation."
+      },
+      {
+        "item_id": "B01B14LVGK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1279,
+    "completion_tokens": 152
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0CBRT4BWW",
+      "B006VO0QUI",
+      "B00NAW5R0I",
+      "B001EYUPHO",
+      "B00ZGG13EA",
+      "B9BJF8CYTM",
+      "B074MMGR8F",
+      "B00KVP78FE",
+      "B00L59D9HG",
+      "B008AJETV4",
+      "B003LDKJEA",
+      "B0041RRSP8",
+      "B00KVP78FE",
+      "B0BLW27Z5W",
+      "B003QX4F7C",
+      "B0B28CMVJV",
+      "B00ZGG13EA",
+      "B00L59D9HG",
+      "B003LDKJEA",
+      "B00KVP78FE",
+      "B00ZGG13EA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0CBRT4BWW",
+        "reason": "High-quality Nintendo charger"
+      },
+      {
+        "item_id": "B006VO0QUI",
+        "reason": "Premium gaming mouse"
+      },
+      {
+        "item_id": "B00NAW5R0I",
+        "reason": "Essential Nintendo 3DS adapter"
+      },
+      {
+        "item_id": "B001EYUPHO",
+        "reason": "Popular PC game title"
+      },
+      {
+        "item_id": "B00ZGG13EA",
+        "reason": "Reliable Nintendo power supply"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3913,
+    "completion_tokens": 327
+  }
+}

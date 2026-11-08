@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B015O2T0G8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B00CJ9OTNE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not play PS3 games."
+      },
+      {
+        "item_id": "B00ZS1SRO2",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo RPGs."
+      },
+      {
+        "item_id": "B01MSWGT4C",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not play PS4 games."
+      },
+      {
+        "item_id": "B00A6IPHXQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "User prefers Nintendo handheld consoles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1379,
+    "completion_tokens": 159
+  }
+}

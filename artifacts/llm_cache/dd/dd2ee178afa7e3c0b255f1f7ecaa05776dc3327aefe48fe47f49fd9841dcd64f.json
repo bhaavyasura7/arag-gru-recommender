@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08CDLZNZM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B07X3LPJJW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in Nintendo."
+      },
+      {
+        "item_id": "B0BY2C5KLQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B092TKN6VK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse may interest user."
+      },
+      {
+        "item_id": "B07P9Z1829",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation products."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1306,
+    "completion_tokens": 159
+  }
+}

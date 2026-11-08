@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07FGCW4YS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not farming."
+      },
+      {
+        "item_id": "B09H3HDY94",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, mixed relevance."
+      },
+      {
+        "item_id": "B07WVR6S61",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for PS4, user prefers games."
+      },
+      {
+        "item_id": "B07MYYNX6T",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not directly related to interests."
+      },
+      {
+        "item_id": "B000A6U5ZE",
+        "label": "support",
+        "score": 7,
+        "rationale": "Related to Nintendo, user enjoys gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 163
+  }
+}

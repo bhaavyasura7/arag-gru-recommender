@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01NASUGOS",
+      "B10MY26TSX",
+      "B08RCPY43H",
+      "B12QKZCGXL",
+      "B06LFY75F9",
+      "B10MY26TSX",
+      "B075PVMFY6",
+      "B08MY26TSX",
+      "B000HKN3ES",
+      "B001DW7IFE",
+      "B003BLLGBM",
+      "B017WJYX3Q",
+      "B00002SVBV",
+      "B00740NUVU",
+      "B09QLFHL1D",
+      "B08K2GL19F",
+      "B002X2P562",
+      "B09QKZCGXL",
+      "B0000A03AE",
+      "B009WDS8E6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01NASUGOS",
+        "reason": "Popular controller for PlayStation"
+      },
+      {
+        "item_id": "B08RCPY43H",
+        "reason": "High-quality racing wheel for gaming"
+      },
+      {
+        "item_id": "B12QKZCGXL",
+        "reason": "Versatile gaming headset for consoles"
+      },
+      {
+        "item_id": "B06LFY75F9",
+        "reason": "Useful HDMI adapter for Nintendo Switch"
+      },
+      {
+        "item_id": "B075PVMFY6",
+        "reason": "Exciting racing game for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3033,
+    "completion_tokens": 321
+  }
+}

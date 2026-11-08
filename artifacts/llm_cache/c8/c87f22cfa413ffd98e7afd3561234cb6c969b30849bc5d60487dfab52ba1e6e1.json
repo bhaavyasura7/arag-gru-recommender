@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000ZVVYOU",
+      "B089M2FPMZ",
+      "B000ZKJPXS",
+      "B07V38PT55",
+      "B0B2MN7H4S",
+      "B19MN7LDDN",
+      "B00E67D096",
+      "B008H3QCYU",
+      "B00009X3VG",
+      "B00006B5T8",
+      "B0123PBHHE",
+      "B00062VOSE",
+      "B00001QERU",
+      "B006JKARU8",
+      "B19C3PV1PX",
+      "B087BV4FDP",
+      "B08P44VYCK",
+      "B000GURH7EO",
+      "B00062VOSE",
+      "B00009X3VG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000ZVVYOU",
+        "reason": "Engaging puzzle game experience"
+      },
+      {
+        "item_id": "B089M2FPMZ",
+        "reason": "Unique action-adventure gameplay"
+      },
+      {
+        "item_id": "B000ZKJPXS",
+        "reason": "Compatible game controller for PS3"
+      },
+      {
+        "item_id": "B07V38PT55",
+        "reason": "Racing wheel stand for immersive play"
+      },
+      {
+        "item_id": "B0B2MN7H4S",
+        "reason": "Doctor Who adventure on Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3636,
+    "completion_tokens": 326
+  }
+}

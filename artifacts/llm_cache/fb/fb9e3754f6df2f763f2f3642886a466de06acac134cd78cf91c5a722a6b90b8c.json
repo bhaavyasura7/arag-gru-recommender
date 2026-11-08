@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0028Y4PVQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B08DMQHH8M",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in Nintendo Switch."
+      },
+      {
+        "item_id": "B00002SFLM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not play Mac games."
+      },
+      {
+        "item_id": "B07436WM6M",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in Nintendo Switch."
+      },
+      {
+        "item_id": "B0BLLH6FZD",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox One gaming interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1332,
+    "completion_tokens": 162
+  }
+}

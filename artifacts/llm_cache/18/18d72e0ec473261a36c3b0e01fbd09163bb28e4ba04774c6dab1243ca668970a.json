@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07624RBWB",
+      "B004HILZUA",
+      "B00GOZSR96",
+      "B018K6KV68",
+      "B07HYCZ68N",
+      "B07ZHZBYCJ",
+      "B12C2XYDW8",
+      "B07MGC3XWK",
+      "B00O9GW8TC",
+      "B09H41CRHK",
+      "B001EYUXHG",
+      "B001EYUW6I",
+      "B0052J8FS8",
+      "B07C2XYDW8",
+      "B0BW8N6X48",
+      "B08WQ75YMZ",
+      "B07C2XYDW8",
+      "B07HYCZ68N",
+      "B07MGC3XWK",
+      "B12C2XYDW8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07624RBWB",
+        "reason": "Best controller for Nintendo Switch"
+      },
+      {
+        "item_id": "B004HILZUA",
+        "reason": "Crash Bandicoot game title"
+      },
+      {
+        "item_id": "B00GOZSR96",
+        "reason": "Popular PS4 game title"
+      },
+      {
+        "item_id": "B018K6KV68",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B07HYCZ68N",
+        "reason": "Useful memory card for PS2"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3753,
+    "completion_tokens": 324
+  }
+}

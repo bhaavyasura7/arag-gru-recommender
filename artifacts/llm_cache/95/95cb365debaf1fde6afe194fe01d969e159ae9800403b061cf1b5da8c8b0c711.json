@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00BGA9X9W",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PlayStation 4 not in user history."
+      },
+      {
+        "item_id": "B001EYUPQU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Targeted at young children, not user."
+      },
+      {
+        "item_id": "B07YBWT3PK",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Xbox games, similar genre."
+      },
+      {
+        "item_id": "B01MYUCFBK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no PS4 games in history."
+      },
+      {
+        "item_id": "B07VR26ND8",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likes Xbox 360, shooter genre."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1302,
+    "completion_tokens": 163
+  }
+}

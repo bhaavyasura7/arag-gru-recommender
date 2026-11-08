@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01M0RU6LY",
+      "B07CLKZJF4",
+      "B01H6DHITE",
+      "B12CMQTTZ2",
+      "B12G2EVF3E",
+      "B00B7UNO4Q",
+      "B00G2EVF3E",
+      "B004CDUOJ8",
+      "B004LLHFAW",
+      "B00TEDK8FQ",
+      "B09TX17ZBQ",
+      "B001EYUQ8C",
+      "B00CMQTTZ2",
+      "B00QO4NAOO",
+      "B00G2EVF3E",
+      "B009VURIUA",
+      "B00B7UNO4Q",
+      "B07JN4DGC7",
+      "B004CDUOJ8",
+      "B00TEDK8FQ",
+      "B000B6MLV4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01M0RU6LY",
+        "reason": "High-quality gaming console"
+      },
+      {
+        "item_id": "B07CLKZJF4",
+        "reason": "Premium gaming keyboard"
+      },
+      {
+        "item_id": "B01H6DHITE",
+        "reason": "Mechanical gaming keyboard"
+      },
+      {
+        "item_id": "B12CMQTTZ2",
+        "reason": "RGB lighting features"
+      },
+      {
+        "item_id": "B12G2EVF3E",
+        "reason": "Popular gaming title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3951,
+    "completion_tokens": 332
+  }
+}

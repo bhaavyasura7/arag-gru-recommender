@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "educational video games",
+      "children's games",
+      "Sesame Street merchandise",
+      "family-friendly content",
+      "interactive learning"
+    ],
+    "current_intent": "looking for more educational games for kids",
+    "avoid": [
+      "violent games",
+      "adult content",
+      "complex gameplay"
+    ],
+    "summary": "User enjoys educational and family-friendly video games, particularly those featuring Sesame Street characters, and seeks similar products for children."
+  },
+  "usage": {
+    "prompt_tokens": 297,
+    "completion_tokens": 78
+  }
+}

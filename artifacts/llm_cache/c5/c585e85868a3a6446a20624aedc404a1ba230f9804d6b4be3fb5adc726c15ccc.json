@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08XQM1QHW",
+      "B002I08CJG",
+      "B07NY3JTXK",
+      "B0BWD2QV4N",
+      "B00XY2UYUW",
+      "B07213YKCX",
+      "B00RZ7TC6Y",
+      "B00004SVSS",
+      "B00005LOW9",
+      "B06X9898LZ",
+      "B08N6NT1BW",
+      "B0BMWQLF3V",
+      "B00WUZUP3U",
+      "B00DC7G0GG",
+      "B072FRJWQH",
+      "B013QFQR9S",
+      "B09VZMN1DL",
+      "B00XY2UYUW",
+      "B00RZ7TC6Y",
+      "B00004SVSS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08XQM1QHW",
+        "reason": "Classic action-adventure game"
+      },
+      {
+        "item_id": "B002I08CJG",
+        "reason": "Engaging co-op gameplay"
+      },
+      {
+        "item_id": "B07NY3JTXK",
+        "reason": "Classic Nintendo collectible"
+      },
+      {
+        "item_id": "B0BWD2QV4N",
+        "reason": "Enhances VR gaming experience"
+      },
+      {
+        "item_id": "B00XY2UYUW",
+        "reason": "Popular multiplayer racing game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3716,
+    "completion_tokens": 325
+  }
+}

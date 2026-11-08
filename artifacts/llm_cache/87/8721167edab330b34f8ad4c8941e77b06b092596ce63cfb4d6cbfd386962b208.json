@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0C8BLQZFD",
+      "B0081FKLLE",
+      "B00ZDNNRB8",
+      "B007HYY6HNW",
+      "B20C8MPWZ1H",
+      "B00005O0I8",
+      "B000B69E9G",
+      "B00PQ1OQ4Y",
+      "B000SEU92W",
+      "B008U4QPJI",
+      "B004AE6GPK",
+      "B0032C9V7G",
+      "B00BQVXUOA",
+      "B0009OGJ02",
+      "B003B2BJWW",
+      "B004TM8LJC",
+      "B0087ACBAW",
+      "B001QCWSDI",
+      "B082W522QZ",
+      "B0C8MPWZ1H"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0C8BLQZFD",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B0081FKLLE",
+        "reason": "Protects PlayStation Vita"
+      },
+      {
+        "item_id": "B00ZDNNRB8",
+        "reason": "Advanced Xbox controller"
+      },
+      {
+        "item_id": "B007HYY6HNW",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B008U4QPJI",
+        "reason": "Popular MMORPG expansion"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3712,
+    "completion_tokens": 325
+  }
+}

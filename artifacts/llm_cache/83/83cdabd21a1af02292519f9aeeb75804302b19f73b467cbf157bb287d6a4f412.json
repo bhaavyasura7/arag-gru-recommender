@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002KJ02ZC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user's preferences."
+      },
+      {
+        "item_id": "B004GEBB2W",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PC games like Portal."
+      },
+      {
+        "item_id": "B000MI0W3U",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has PC gaming interest."
+      },
+      {
+        "item_id": "B086VWKLXF",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User hasn't shown interest in this genre."
+      },
+      {
+        "item_id": "B01H0TJM70",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys action games on PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1318,
+    "completion_tokens": 153
+  }
+}

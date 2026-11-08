@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "multiplayer video games",
+      "action-adventure titles",
+      "sports games",
+      "platformers",
+      "digital game codes"
+    ],
+    "current_intent": "looking for new multiplayer games to play",
+    "avoid": [
+      "single-player only games",
+      "low-rated titles",
+      "games with poor graphics"
+    ],
+    "summary": "User enjoys multiplayer and action-adventure games, particularly on Xbox and PlayStation, and seeks new titles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 333,
+    "completion_tokens": 85
+  }
+}

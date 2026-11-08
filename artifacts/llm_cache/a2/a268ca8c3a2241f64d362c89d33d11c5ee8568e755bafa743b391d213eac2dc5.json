@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BYPDQN2W",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to gaming interests."
+      },
+      {
+        "item_id": "B01ANC1TM2",
+        "label": "support",
+        "score": 7,
+        "rationale": "Replacement parts for PlayStation 4 controller."
+      },
+      {
+        "item_id": "B001EYUPVA",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular fighting game in user history."
+      },
+      {
+        "item_id": "B07MKS66XM",
+        "label": "support",
+        "score": 9,
+        "rationale": "Mario game aligns with user preferences."
+      },
+      {
+        "item_id": "B001EYUQIM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not a strong match."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2550,
+    "completion_tokens": 154
+  }
+}

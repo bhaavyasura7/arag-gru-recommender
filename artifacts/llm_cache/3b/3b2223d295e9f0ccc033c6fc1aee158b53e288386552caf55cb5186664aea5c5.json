@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000TGJHRW",
+      "B07G5NHRCM",
+      "B006YDPU48",
+      "B12FJRHFQF",
+      "B000EN81R2",
+      "B092VZ4NC7",
+      "B07TS2ZTXL",
+      "B01MDOFPBU",
+      "B08S72G3K8",
+      "B001L5U0KI",
+      "B07D9LZ73R",
+      "B000BBODYC",
+      "B07GN8YD2H",
+      "B07FJRHFQF",
+      "B000CSUL40",
+      "B005CG2GS6",
+      "B01CTNIV7E",
+      "B0094096EI",
+      "B18FJRHFQF",
+      "B07TS2ZTXL"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000TGJHRW",
+        "reason": "Classic Nintendo game, highly relevant"
+      },
+      {
+        "item_id": "B07G5NHRCM",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B006YDPU48",
+        "reason": "Classic action RPG, user interest"
+      },
+      {
+        "item_id": "B12FJRHFQF",
+        "reason": "Gaming accessory for PC gamers"
+      },
+      {
+        "item_id": "B000EN81R2",
+        "reason": "Not aligned with user interests"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3115,
+    "completion_tokens": 325
+  }
+}

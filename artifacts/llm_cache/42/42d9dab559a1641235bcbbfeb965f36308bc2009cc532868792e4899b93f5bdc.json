@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07YBXJ5FK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action RPGs, not horror."
+      },
+      {
+        "item_id": "B079QKM4Q3",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action RPGs, not horror."
+      },
+      {
+        "item_id": "B00FWMWHSO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Casual mystery game, not user’s focus."
+      },
+      {
+        "item_id": "B005OOZRIM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action RPGs, not horror."
+      },
+      {
+        "item_id": "B07FDZB863",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Family-friendly game, not user’s focus."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2013,
+    "completion_tokens": 168
+  }
+}

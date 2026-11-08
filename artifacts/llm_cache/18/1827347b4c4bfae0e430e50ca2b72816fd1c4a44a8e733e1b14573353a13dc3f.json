@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The recommended products cater to the user's love for classic video games, particularly from Nintendo and PlayStation. They include a console for engaging gameplay, protective accessories for the Nintendo Switch, and games that blend genres, enhancing the user's gaming experience while avoiding mobile, FPS, and sports titles."
+  },
+  "usage": {
+    "prompt_tokens": 782,
+    "completion_tokens": 60
+  }
+}

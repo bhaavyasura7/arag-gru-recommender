@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07QPXBJVD",
+      "B15C3JYGZH",
+      "B08JM2R8HZ",
+      "B07C9KFCYQ",
+      "B091FC8N2W",
+      "B08QRCW6SN",
+      "B0C47NXVG2",
+      "B0030GWIGA",
+      "B002FQJUQM",
+      "B07WS6ZFTG",
+      "B09HY7L5Q4",
+      "B000035XGN",
+      "B082S5ZGXQ",
+      "B09BRN2HJK",
+      "B08JWMJSB6",
+      "B0BHN77JGY",
+      "B01K53ONWW",
+      "B07MDM62W6",
+      "B0C47NXVG2",
+      "B09HY7L5Q4",
+      "B0030GWIGA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07QPXBJVD",
+        "reason": "Perfect for Nintendo Switch gaming"
+      },
+      {
+        "item_id": "B15C3JYGZH",
+        "reason": "Wireless controller for Switch"
+      },
+      {
+        "item_id": "B08JM2R8HZ",
+        "reason": "Compact gaming keyboard for PC"
+      },
+      {
+        "item_id": "B07C9KFCYQ",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B091FC8N2W",
+        "reason": "Protects Xbox console from dust"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3841,
+    "completion_tokens": 340
+  }
+}

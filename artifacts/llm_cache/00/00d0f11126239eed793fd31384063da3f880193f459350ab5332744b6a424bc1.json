@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001G7PSOE",
+      "B001ELJF8W",
+      "B00002SU3F",
+      "B00004R9FY",
+      "B000EVGXLU",
+      "B00002ST56",
+      "B0035G08DK",
+      "B07L5NBTSB",
+      "B08F86ZDRV",
+      "B01NBMMP9L",
+      "B07WF9LCJV",
+      "B19N47ERK1",
+      "B000SQ5LM8",
+      "B0006HHHBW",
+      "B078JW2MRX",
+      "B000OQEIB48",
+      "B07SPHVDL5",
+      "B08N13QYXF",
+      "B01MQTSDWG",
+      "B00002SU3F"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001G7PSOE",
+        "reason": "PlayStation 3 retro game"
+      },
+      {
+        "item_id": "B001ELJF8W",
+        "reason": "Wii game for retro fans"
+      },
+      {
+        "item_id": "B00002SU3F",
+        "reason": "Classic Nintendo 64 game"
+      },
+      {
+        "item_id": "B00004R9FY",
+        "reason": "Sega Game Gear classic"
+      },
+      {
+        "item_id": "B000EVGXLU",
+        "reason": "Nostalgic PC game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3402,
+    "completion_tokens": 320
+  }
+}

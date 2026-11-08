@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00006LEM0",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys fighting games like Street Fighter."
+      },
+      {
+        "item_id": "B07624RBWB",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has Nintendo Switch games."
+      },
+      {
+        "item_id": "B003RJXVU2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has Xbox 360 but no mods."
+      },
+      {
+        "item_id": "B00DC7G2W8",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Mario Kart games."
+      },
+      {
+        "item_id": "B076HHZ41Z",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own original Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1804,
+    "completion_tokens": 153
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07WXKQWTV",
+      "B00004TBA7",
+      "B00020DGMC",
+      "B00002ST7X",
+      "B003LO2GBS",
+      "B18D8HRDT",
+      "B09CHLM157",
+      "B010G4S060",
+      "B08DQDRCGH",
+      "B00004TBA7",
+      "B07FM4GCRH",
+      "B07CGCL449",
+      "B08R2CZ9VD",
+      "B01DVKAMDK",
+      "B07VYWG25L",
+      "B06XP2NMYY",
+      "B00JG6YGZE",
+      "B09X14QMM8",
+      "B08R2CZ9VD",
+      "B00020DGMC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07WXKQWTV",
+        "reason": "Nostalgic retro gaming console"
+      },
+      {
+        "item_id": "B00004TBA7",
+        "reason": "Classic PC game experience"
+      },
+      {
+        "item_id": "B00020DGMC",
+        "reason": "Access to Xbox Live community"
+      },
+      {
+        "item_id": "B00002ST7X",
+        "reason": "Retro Sega Genesis game"
+      },
+      {
+        "item_id": "B003LO2GBS",
+        "reason": "Engaging action-adventure gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3630,
+    "completion_tokens": 315
+  }
+}

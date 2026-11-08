@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00006LJTL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user preferences."
+      },
+      {
+        "item_id": "B004FONRRK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a video game or related."
+      },
+      {
+        "item_id": "B002XD1QEG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B09C1KV8DZ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Gaming mouse, not a game."
+      },
+      {
+        "item_id": "B081TJS2KS",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PC strategy games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1255,
+    "completion_tokens": 150
+  }
+}

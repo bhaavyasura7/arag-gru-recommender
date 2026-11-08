@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08ZDFPKKF",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to Nintendo Switch."
+      },
+      {
+        "item_id": "B076WZK364",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Nintendo 3DS accessories."
+      },
+      {
+        "item_id": "B0BW68XJ23",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to Nintendo Switch."
+      },
+      {
+        "item_id": "B09K3ZGD33",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming keyboard, not specific to Nintendo."
+      },
+      {
+        "item_id": "B00XUZFFBG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "For Nintendo DS Lite, not Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 159
+  }
+}

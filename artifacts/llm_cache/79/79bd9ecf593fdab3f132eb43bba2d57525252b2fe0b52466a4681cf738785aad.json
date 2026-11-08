@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08C8KQS8C",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS4 accessory, user prefers Xbox."
+      },
+      {
+        "item_id": "B01LY7VGQ4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS4 game, user prefers Xbox games."
+      },
+      {
+        "item_id": "B00DUARDFC",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox One game, matches user interests."
+      },
+      {
+        "item_id": "B076H84ZHB",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "3DS case, user has Xbox preferences."
+      },
+      {
+        "item_id": "B008XY3XPE",
+        "label": "support",
+        "score": 7,
+        "rationale": "Xbox 360 accessory, aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1319,
+    "completion_tokens": 163
+  }
+}

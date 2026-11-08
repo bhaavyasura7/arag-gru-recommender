@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BQ2LM1KL",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Pokémon games, not VR."
+      },
+      {
+        "item_id": "B0BX8HN93J",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset may appeal to gaming interests."
+      },
+      {
+        "item_id": "B000ANY9QS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Narnia game aligns with user interests."
+      },
+      {
+        "item_id": "B07DLLXF58",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse is somewhat relevant."
+      },
+      {
+        "item_id": "B096RYM5PM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PS5 cover not related to user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1043,
+    "completion_tokens": 158
+  }
+}

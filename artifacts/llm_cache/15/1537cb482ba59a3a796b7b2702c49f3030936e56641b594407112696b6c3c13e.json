@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "PlayStation consoles",
+      "Video game accessories",
+      "Collector's editions",
+      "Multiplayer games",
+      "PlayStation Plus membership"
+    ],
+    "current_intent": "Looking for more PlayStation 4 accessories or games.",
+    "avoid": [
+      "Xbox products",
+      "Non-gaming items",
+      "Old generation consoles"
+    ],
+    "summary": "User is a dedicated PlayStation gamer seeking accessories and games, particularly for PS4, while avoiding other console brands."
+  },
+  "usage": {
+    "prompt_tokens": 393,
+    "completion_tokens": 84
+  }
+}

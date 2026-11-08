@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01GY35HKE",
+      "B001EYUQ8M",
+      "B19LTXRNCC",
+      "B006PP404Q",
+      "B001G605V6",
+      "B072M6WZSY",
+      "B14KQHHDZC",
+      "B00BS520SG",
+      "B001EYUO4S",
+      "B01N6QPWBV",
+      "B002X36HPY",
+      "B005TH6BD4",
+      "B07KXXB8JR",
+      "B011AH9A16",
+      "B07PZ8NZSZ",
+      "B00KQHHDZC",
+      "B07X6481D4",
+      "B00E31QEC",
+      "B00BS520SG",
+      "B01GY35HKE",
+      "B072M6WZSY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01GY35HKE",
+        "reason": "Engaging RPG with deluxe content"
+      },
+      {
+        "item_id": "B001EYUQ8M",
+        "reason": "Immersive action-adventure experience"
+      },
+      {
+        "item_id": "B19LTXRNCC",
+        "reason": "Action RPG with deep narrative"
+      },
+      {
+        "item_id": "B006PP404Q",
+        "reason": "Enhances gaming experience with sound"
+      },
+      {
+        "item_id": "B001G605V6",
+        "reason": "Unique action-adventure gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3572,
+    "completion_tokens": 334
+  }
+}

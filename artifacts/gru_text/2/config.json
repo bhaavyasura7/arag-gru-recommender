@@ -1,0 +1,1 @@
+{"emb_dim": 64, "hidden": 128, "dropout": 0.2, "seq_len": 50, "seed": 2, "best_val_ndcg5": 0.547379819921127, "vocab_size": 25527, "text_feats_dir": "/Users/likhith/Projects/DeepLearningProject/artifacts/faiss"}

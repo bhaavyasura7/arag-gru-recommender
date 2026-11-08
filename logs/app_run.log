@@ -1,0 +1,34 @@
+cd frontend && npm run build
+
+> arag-gru-frontend@0.1.0 build
+> vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 35 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.41 kB │ gzip:  0.28 kB
+dist/assets/index-kGFLi1RT.css   10.89 kB │ gzip:  2.71 kB
+dist/assets/index-Wo-kjj2Z.js   162.10 kB │ gzip: 51.98 kB
+✓ built in 225ms
+.venv/bin/python -m arag.api.app
+2026-10-16 09:27:03,826 INFO arag.api.app: DB already seeded (/Users/likhith/Projects/DeepLearningProject/artifacts/app.db)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/likhith/Projects/DeepLearningProject/src/arag/api/app.py", line 71, in <module>
+    main()
+  File "/Users/likhith/Projects/DeepLearningProject/src/arag/api/app.py", line 59, in main
+    service = RecommenderService(cfg, db_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/likhith/Projects/DeepLearningProject/src/arag/api/services.py", line 38, in __init__
+    self.client = LLMClient(cfg)
+                  ^^^^^^^^^^^^^^
+  File "/Users/likhith/Projects/DeepLearningProject/src/arag/llm/client.py", line 62, in __init__
+    self._client = openai.OpenAI(
+                   ^^^^^^^^^^^^^^
+  File "/Users/likhith/Projects/DeepLearningProject/.venv/lib/python3.11/site-packages/openai/_client.py", line 276, in __init__
+    raise OpenAIError(
+openai.OpenAIError: Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+make: *** [app] Error 1

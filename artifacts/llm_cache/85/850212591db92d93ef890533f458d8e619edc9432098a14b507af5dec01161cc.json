@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action RPGs",
+      "multiplayer games",
+      "classic video games",
+      "PlayStation titles",
+      "fantasy settings"
+    ],
+    "current_intent": "looking for classic action RPGs to play",
+    "avoid": [
+      "mobile games",
+      "sports games",
+      "non-gaming products"
+    ],
+    "summary": "User enjoys classic action RPGs, particularly on PlayStation, and seeks similar games to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 295,
+    "completion_tokens": 79
+  }
+}

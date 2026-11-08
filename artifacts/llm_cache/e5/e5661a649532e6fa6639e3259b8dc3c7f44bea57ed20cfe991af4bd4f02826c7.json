@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B077ZBT7HP",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B00D4D2YR2",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has PS3, likes customization."
+      },
+      {
+        "item_id": "B073P87KFT",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B000EUFCS6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B000U8Z6BA",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User has no interest in Wii accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2143,
+    "completion_tokens": 164
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming accessories",
+      "video games",
+      "board games",
+      "flight simulators",
+      "electronics"
+    ],
+    "current_intent": "looking for high-quality gaming gear",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "overpriced accessories"
+    ],
+    "summary": "User is a gaming enthusiast seeking reliable and high-quality gaming accessories, particularly for Xbox and PC."
+  },
+  "usage": {
+    "prompt_tokens": 312,
+    "completion_tokens": 71
+  }
+}

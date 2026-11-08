@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00HVBPRUO",
+      "B01DUHQIL4",
+      "B00BFOEY4I",
+      "B07G4YYZ1M",
+      "B00WL8WBE2",
+      "B08N6HY1FF",
+      "B000WQ3838",
+      "B01N3ASPNV",
+      "B00NYALSNQ",
+      "B00154J9HK",
+      "B00020LZAM",
+      "B00GM5TPSA",
+      "B001SIDQRM",
+      "B001ELJDU2",
+      "B094J36QYZ",
+      "B00BGA9WK2",
+      "B00BFOEY4I",
+      "B001EYUPL0",
+      "B07HYY6HNW",
+      "B00004U47O",
+      "B01LX4I8H8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00HVBPRUO",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B01DUHQIL4",
+        "reason": "Universal compatibility for gaming"
+      },
+      {
+        "item_id": "B00BFOEY4I",
+        "reason": "Good sound quality for gaming"
+      },
+      {
+        "item_id": "B07G4YYZ1M",
+        "reason": "Popular ergonomic gaming mouse"
+      },
+      {
+        "item_id": "B00WL8WBE2",
+        "reason": "Engaging first-person shooter experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3909,
+    "completion_tokens": 335
+  }
+}

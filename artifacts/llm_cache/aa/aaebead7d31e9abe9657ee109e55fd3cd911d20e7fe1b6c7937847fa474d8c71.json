@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00KUZ1K8Q",
+      "B077GTT8VH",
+      "B009AYQRJA",
+      "B09SH69BQX",
+      "B07NRH6Q2L",
+      "B001NJ293I",
+      "B002GCJOC0",
+      "B00005NZ1Q",
+      "B001EYUNO4",
+      "B00005QIR5",
+      "B0C1BNQ92Z",
+      "B0C9JDF5J6",
+      "B08NJTHY3G",
+      "B01GW3H7DQ",
+      "B000PE17ZI",
+      "B07B4TQY4K",
+      "B00005NZ1Q",
+      "B00005QIR5",
+      "B0BDS21NS4",
+      "B001EYUNO4",
+      "B082L536MN"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KUZ1K8Q",
+        "reason": "Highly creative multiplayer experience"
+      },
+      {
+        "item_id": "B077GTT8VH",
+        "reason": "Engaging story and exploration"
+      },
+      {
+        "item_id": "B009AYQRJA",
+        "reason": "Family-friendly and cooperative gameplay"
+      },
+      {
+        "item_id": "B09SH69BQX",
+        "reason": "Versatile gaming accessories for Switch"
+      },
+      {
+        "item_id": "B07NRH6Q2L",
+        "reason": "Charming life-sim with crafting elements"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3900,
+    "completion_tokens": 336
+  }
+}

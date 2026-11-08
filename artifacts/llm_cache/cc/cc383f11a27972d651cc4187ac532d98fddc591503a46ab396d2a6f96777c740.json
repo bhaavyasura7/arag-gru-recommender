@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09WRHBGW6",
+      "B07MW9Y588",
+      "B094YHB1QK",
+      "B12WPKRA7E",
+      "B07TX9QKGG",
+      "B08KXHTQHV",
+      "B074GG1RQQ",
+      "B001B5IVHC",
+      "B00006RHLX",
+      "B000EYF88G",
+      "B001ELJFAK",
+      "B000G1O7SE",
+      "B07HZ6N69N",
+      "B000AB0S38",
+      "B08CRWCC3Z",
+      "B07QN3HXRC",
+      "B001N1IUFE",
+      "B004HAEFBE",
+      "B19T36",
+      "B000AB0S38"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09WRHBGW6",
+        "reason": "Popular gaming accessory for PS5"
+      },
+      {
+        "item_id": "B07MW9Y588",
+        "reason": "Essential rechargeable batteries for Xbox"
+      },
+      {
+        "item_id": "B094YHB1QK",
+        "reason": "New DualSense controller for PS5"
+      },
+      {
+        "item_id": "B12WPKRA7E",
+        "reason": "Custom shell for PS4 controller"
+      },
+      {
+        "item_id": "B07TX9QKGG",
+        "reason": "High-quality mechanical gaming keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3391,
+    "completion_tokens": 325
+  }
+}

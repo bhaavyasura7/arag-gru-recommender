@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00F8W9SWQ",
+      "B0BVWPMMCT",
+      "B07X56VM5R",
+      "B001ELJE4W",
+      "B18MZG427Q",
+      "B004HD55VK",
+      "B00WOK8Z74",
+      "B00HGLLRV2",
+      "B0C3KYVDWT",
+      "B00F27JGVA",
+      "B00Y4S5KPY",
+      "B00F8W9SWQ",
+      "B00009WAUO",
+      "B000GCJ6MK",
+      "B00003031F",
+      "B00000K1VE",
+      "B00JA81WQE",
+      "B009DYE3JI",
+      "B073X4RGFP",
+      "B082R172N3"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00F8W9SWQ",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B0BVWPMMCT",
+        "reason": "Premium gaming headset"
+      },
+      {
+        "item_id": "B07X56VM5R",
+        "reason": "VR gaming accessory"
+      },
+      {
+        "item_id": "B001ELJE4W",
+        "reason": "Popular gaming controller"
+      },
+      {
+        "item_id": "B08MZG427Q",
+        "reason": "Essential VR lens cover"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3659,
+    "completion_tokens": 316
+  }
+}

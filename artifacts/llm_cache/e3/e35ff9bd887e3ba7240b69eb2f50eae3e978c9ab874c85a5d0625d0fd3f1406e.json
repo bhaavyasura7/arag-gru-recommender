@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0017OT20W",
+      "B001DKDANA",
+      "B11TBYJNBY",
+      "B001E8WQHW",
+      "B005KGKLWG",
+      "B005QWYKOE",
+      "B001REMNT4",
+      "B08TC2FY16",
+      "B07ZVFNHJ2",
+      "B08TBYJNBY",
+      "B01FMB973M",
+      "B003A5MCTY",
+      "B01BMKAPOW",
+      "B000X1DT22",
+      "B06XS4XXFT",
+      "B09QQJM97D",
+      "B016VGQ2QM",
+      "B00ZWWM7Q6",
+      "B081D85YY2",
+      "B07ZVFNHJ2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0017OT20W",
+        "reason": "Classic Nintendo game title"
+      },
+      {
+        "item_id": "B001DKDANA",
+        "reason": "Sega retro controller accessory"
+      },
+      {
+        "item_id": "B11TBYJNBY",
+        "reason": "Cute Nintendo Switch grips"
+      },
+      {
+        "item_id": "B001E8WQHW",
+        "reason": "Classic PS2 game title"
+      },
+      {
+        "item_id": "B005KGKLWG",
+        "reason": "Classic Harry Potter game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3298,
+    "completion_tokens": 311
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08BKWCL86",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox One, gaming headset."
+      },
+      {
+        "item_id": "B08PQFNP9J",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo Switch accessory, user owns Switch."
+      },
+      {
+        "item_id": "B08RXN3RZD",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not related to gaming or user interests."
+      },
+      {
+        "item_id": "B0B25F59PN",
+        "label": "support",
+        "score": 6,
+        "rationale": "Cute Switch case, aligns with user interests."
+      },
+      {
+        "item_id": "B00Z7STA42",
+        "label": "support",
+        "score": 9,
+        "rationale": "Portable hard drive for Xbox One gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1245,
+    "completion_tokens": 159
+  }
+}

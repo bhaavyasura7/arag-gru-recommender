@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08QF4SVWP",
+        "label": "support",
+        "score": 7,
+        "rationale": "User prefers RGB gaming accessories."
+      },
+      {
+        "item_id": "B07RWWWF59",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compact design aligns with user preferences."
+      },
+      {
+        "item_id": "B07RWDRGH4",
+        "label": "support",
+        "score": 6,
+        "rationale": "Similar features to previous keyboards."
+      },
+      {
+        "item_id": "B07MF1YFX6",
+        "label": "support",
+        "score": 5,
+        "rationale": "RGB and media controls match interests."
+      },
+      {
+        "item_id": "B07NWK4GXX",
+        "label": "support",
+        "score": 7,
+        "rationale": "Mechanical and RGB features are appealing."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1475,
+    "completion_tokens": 151
+  }
+}

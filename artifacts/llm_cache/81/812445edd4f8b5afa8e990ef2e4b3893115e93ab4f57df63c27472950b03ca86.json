@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002L8W5V6",
+      "B001EYUXXK",
+      "B00DC7G2W8",
+      "B004LLHFAW",
+      "B001EYUPQU",
+      "B003V1WHOM",
+      "B06XRR1K4F",
+      "B00YXO5V3U",
+      "B002XH972U",
+      "B00BRQN2EM",
+      "B00E1L2Z52",
+      "B00KVOVBGM",
+      "B00BGA9X9W",
+      "B00DC7G2W8",
+      "B00Z9TMBOU",
+      "B00MYUCFBK",
+      "B001ELJE88",
+      "B00BGA9X9W",
+      "B00YXO5V3U",
+      "B00E1L2Z52"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002L8W5V6",
+        "reason": "Classic Nintendo controller for GameCube"
+      },
+      {
+        "item_id": "B001EYUXXK",
+        "reason": "Popular retro horror game on PS2"
+      },
+      {
+        "item_id": "B00DC7G2W8",
+        "reason": "Multiplayer racing game from Nintendo"
+      },
+      {
+        "item_id": "B004LLHFAW",
+        "reason": "Essential carrying case for Nintendo 3DS"
+      },
+      {
+        "item_id": "B001EYUPQU",
+        "reason": "Kid-friendly retro game on PS2"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3798,
+    "completion_tokens": 343
+  }
+}

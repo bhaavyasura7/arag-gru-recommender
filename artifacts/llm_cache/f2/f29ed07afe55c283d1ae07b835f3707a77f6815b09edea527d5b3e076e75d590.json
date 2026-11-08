@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The user seeks nostalgic adventure RPGs similar to The Legend of Zelda. Relevant candidates include classic collections and games that emphasize exploration, puzzle-solving, and single-player experiences, avoiding modern action and multiplayer titles."
+  },
+  "usage": {
+    "prompt_tokens": 3290,
+    "completion_tokens": 44
+  }
+}

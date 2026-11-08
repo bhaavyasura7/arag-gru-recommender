@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00H0B4BRA",
+      "B013VO5QL4",
+      "B19C1KV8DZ",
+      "B002NIK174",
+      "B00LUL99FU",
+      "B19C1KV8DZ",
+      "B000JJI4Z0",
+      "B00006LJTL",
+      "B002XD1QEG",
+      "B000MNGI9C",
+      "B004FONRRK",
+      "B08D71M21L",
+      "B003CECLA8",
+      "B002NIK174",
+      "B0BC79QXSC",
+      "B0B6VPBCWJ",
+      "B07WXL4V7L",
+      "B0013KOGEC",
+      "B002XD1QEG",
+      "B00006LJTL",
+      "B001KC02M8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00H0B4BRA",
+        "reason": "Custom skin for Xbox controller"
+      },
+      {
+        "item_id": "B013VO5QL4",
+        "reason": "Thumb grips enhance gameplay"
+      },
+      {
+        "item_id": "B19C1KV8DZ",
+        "reason": "Popular Xbox game update"
+      },
+      {
+        "item_id": "B002NIK174",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B00LUL99FU",
+        "reason": "Comfortable gaming headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3764,
+    "completion_tokens": 326
+  }
+}

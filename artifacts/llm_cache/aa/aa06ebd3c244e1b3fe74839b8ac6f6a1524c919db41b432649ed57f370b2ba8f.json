@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B085Y8GWCT",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B01DJD5F7C",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Replacement part for older console."
+      },
+      {
+        "item_id": "B002G9U72Y",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different game for different console."
+      },
+      {
+        "item_id": "B00WPKQY5S",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for Xbox, not Nintendo."
+      },
+      {
+        "item_id": "B073ZLZ9X9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for PlayStation, not Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1014,
+    "completion_tokens": 155
+  }
+}

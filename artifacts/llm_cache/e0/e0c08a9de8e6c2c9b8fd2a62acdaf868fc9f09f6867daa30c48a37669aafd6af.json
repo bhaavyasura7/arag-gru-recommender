@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001E53N36",
+      "B00657AVMO",
+      "B019QU5KLK",
+      "B00USM22DI",
+      "B0079V4GK8",
+      "B0118GJKIW",
+      "B0041T4MTG",
+      "B08SMFZLB6",
+      "B00KVOVBGM",
+      "B078NB6TWZ",
+      "B00F4WM1XS",
+      "B00UZEIKJY",
+      "B00CNY4YTZ",
+      "B009AGXH64",
+      "B08FX5QKGD",
+      "B000OAO188",
+      "B00D4WM1XS",
+      "B00D4WM1XS",
+      "B00D4WM1XS",
+      "B00D4WM1XS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001E53N36",
+        "reason": "Strong narrative and engaging gameplay"
+      },
+      {
+        "item_id": "B00657AVMO",
+        "reason": "Action-adventure with strategic elements"
+      },
+      {
+        "item_id": "B019QU5KLK",
+        "reason": "Multiplayer action with character-driven stories"
+      },
+      {
+        "item_id": "B00USM22DI",
+        "reason": "Epic action-adventure with strong narrative"
+      },
+      {
+        "item_id": "B0079V4GK8",
+        "reason": "Historical action-adventure gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3756,
+    "completion_tokens": 326
+  }
+}

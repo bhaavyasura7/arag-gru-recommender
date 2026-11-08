@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08YR8LFH3",
+      "B19SHFL9B",
+      "B01MS6WG9S",
+      "B08P1C7F1Q",
+      "B009C9DPUW",
+      "B19SHFL9B",
+      "B0055202HE",
+      "B00FXOP1JI",
+      "B01KX8ETK0",
+      "B07DPK5NPD",
+      "B00KIWEMIG",
+      "B006912EXA",
+      "B006JKAS16",
+      "B00BGAA3S2",
+      "B001REZLXO",
+      "B002I096AA",
+      "B00EN9Q8G4",
+      "B001EYUOHK",
+      "B00FXOP1JI",
+      "B07WWK48DV"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08YR8LFH3",
+        "reason": "Best fit for Oculus Quest"
+      },
+      {
+        "item_id": "B19SHFL9B",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B01MS6WG9S",
+        "reason": "Popular gaming title"
+      },
+      {
+        "item_id": "B08P1C7F1Q",
+        "reason": "Stylish PS5 controller skin"
+      },
+      {
+        "item_id": "B009C9DPUW",
+        "reason": "Unique controller customization"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3885,
+    "completion_tokens": 322
+  }
+}

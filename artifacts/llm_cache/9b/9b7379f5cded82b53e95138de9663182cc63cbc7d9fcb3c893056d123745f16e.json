@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00019069K",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not similar to user's interests."
+      },
+      {
+        "item_id": "B00292BQL4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different platform and genre preference."
+      },
+      {
+        "item_id": "B0002IP4LU",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a video game."
+      },
+      {
+        "item_id": "B00HTK0ML6",
+        "label": "support",
+        "score": 7,
+        "rationale": "Related to PlayStation 4 gaming."
+      },
+      {
+        "item_id": "B08CZMWHT4",
+        "label": "support",
+        "score": 6,
+        "rationale": "Gaming accessory for PC users."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1087,
+    "completion_tokens": 150
+  }
+}

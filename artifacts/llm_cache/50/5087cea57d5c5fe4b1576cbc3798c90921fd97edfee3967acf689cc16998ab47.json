@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BTNG1QFB",
+      "B01DE9DY8S",
+      "B0BL3NC33C",
+      "B00T55HUO0",
+      "B08XQM1QHW",
+      "B07TCPVHTM",
+      "B0721GGGS9",
+      "B00IG3GPTS",
+      "B000LV9N8S",
+      "B004K6LQ9Y",
+      "B000U34SXC",
+      "B00ZQB28XK",
+      "B004I1JTEK",
+      "B000NI8WEA",
+      "B07YBWT3PK",
+      "B005TH6BD4",
+      "B07QB4TF3F",
+      "B19DE9DY8S",
+      "B000LV9N8S",
+      "B08XQM1QHW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BTNG1QFB",
+        "reason": "Ergonomic controller for handheld mode"
+      },
+      {
+        "item_id": "B01DE9DY8S",
+        "reason": "VR gaming experience for PlayStation"
+      },
+      {
+        "item_id": "B0BL3NC33C",
+        "reason": "Mechanical keyboard for gaming"
+      },
+      {
+        "item_id": "B00T55HUO0",
+        "reason": "Wireless headset with surround sound"
+      },
+      {
+        "item_id": "B08XQM1QHW",
+        "reason": "Classic Zelda game for Nintendo"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4093,
+    "completion_tokens": 334
+  }
+}

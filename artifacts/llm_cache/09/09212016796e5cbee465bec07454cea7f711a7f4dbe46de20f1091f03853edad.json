@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000G79YNQ",
+      "B002JTX87C",
+      "B0046A8IRC",
+      "B004LLHFAW",
+      "B00C1TTF86",
+      "B07CB12726",
+      "B0061PAZUS",
+      "B00BGA9WK2",
+      "B003JVCA9Q",
+      "B01LX4ZCJL",
+      "B07VYHB37P",
+      "B087NNPYP3",
+      "B08QFPS48J",
+      "B015NGZFWS",
+      "B004LLHFAW",
+      "B00EP2WNKY",
+      "B07DLNHQZX",
+      "B09Z7DLGWL",
+      "B07DLNHQZX",
+      "B00069GD0Q"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000G79YNQ",
+        "reason": "Popular PS2 racing game"
+      },
+      {
+        "item_id": "B002JTX87C",
+        "reason": "Scooby-Doo game interest"
+      },
+      {
+        "item_id": "B0046A8IRC",
+        "reason": "Classic RPG experience"
+      },
+      {
+        "item_id": "B004LLHFAW",
+        "reason": "Legacy PS3 title"
+      },
+      {
+        "item_id": "B00C1TTF86",
+        "reason": "Another PS3 classic"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3869,
+    "completion_tokens": 313
+  }
+}

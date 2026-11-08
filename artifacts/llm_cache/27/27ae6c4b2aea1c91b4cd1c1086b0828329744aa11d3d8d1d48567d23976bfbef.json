@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01JT80134",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo game aligns with user interests."
+      },
+      {
+        "item_id": "B07P5LZZNN",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse not directly related to games."
+      },
+      {
+        "item_id": "B00005B8G8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PlayStation game, user prefers Nintendo."
+      },
+      {
+        "item_id": "B08HJKYBG9",
+        "label": "support",
+        "score": 7,
+        "rationale": "Accessory for Nintendo Switch, user interest."
+      },
+      {
+        "item_id": "B003TL4T9U",
+        "label": "support",
+        "score": 6,
+        "rationale": "Wii accessory matches user's gaming history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1287,
+    "completion_tokens": 157
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00BHJ6KY8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different racing game, not Mario-related."
+      },
+      {
+        "item_id": "B06XPX5XLY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Repair kit, not a game."
+      },
+      {
+        "item_id": "B0988533WP",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar gameplay style, Nintendo Switch."
+      },
+      {
+        "item_id": "B001EYUY8Y",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different franchise, but fighting game."
+      },
+      {
+        "item_id": "B0088MVPFQ",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly related to Mario franchise."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1176,
+    "completion_tokens": 155
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00YQDISN8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers gaming peripherals, not games."
+      },
+      {
+        "item_id": "B01N1IRB37",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no history with puzzle games."
+      },
+      {
+        "item_id": "B002BIULLM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no interest in Watchmen content."
+      },
+      {
+        "item_id": "B08PKJGV97",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on gaming, not smartwatches."
+      },
+      {
+        "item_id": "B09BZCNPYD",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers gaming products over wearables."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 163
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08R5PR6SG",
+      "B09LRQDMHN",
+      "B077TB64KB",
+      "B07FFQN7BY",
+      "B001EYUNYE",
+      "B00009WAVL",
+      "B000TLU67W",
+      "B001C6GVI6",
+      "B00004SVXW",
+      "B000N5Z2L4",
+      "B005N4I24Y",
+      "B015XC3B46",
+      "B001SEQWXQ",
+      "B000BLM5PG",
+      "B07YBX4VQN",
+      "B000EHPQLC",
+      "B07MM94FXQ",
+      "B000TLU67W",
+      "B00009WAVL",
+      "B001EYUNYE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08R5PR6SG",
+        "reason": "High-quality wireless gaming headset"
+      },
+      {
+        "item_id": "B09LRQDMHN",
+        "reason": "Enhances PS5 controller experience"
+      },
+      {
+        "item_id": "B077TB64KB",
+        "reason": "Expansion for popular RPG game"
+      },
+      {
+        "item_id": "B07FFQN7BY",
+        "reason": "Comprehensive Switch accessory kit"
+      },
+      {
+        "item_id": "B001EYUNYE",
+        "reason": "Classic game with engaging gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3971,
+    "completion_tokens": 312
+  }
+}

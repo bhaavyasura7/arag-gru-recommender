@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0132MIUB8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PS2 games, not PS Vita."
+      },
+      {
+        "item_id": "B08TSTKGQT",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B01CBQI3M2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Skylanders not in user history."
+      },
+      {
+        "item_id": "B01EBM5110",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox One accessory, user prefers PS2."
+      },
+      {
+        "item_id": "B001EYUXC6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox 360 game, user prefers PS2 titles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 834,
+    "completion_tokens": 165
+  }
+}

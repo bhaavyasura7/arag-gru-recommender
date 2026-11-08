@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00518GWF8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action RPGs, not farming."
+      },
+      {
+        "item_id": "B00J7N6C26",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Sonic games differ from user's RPG interests."
+      },
+      {
+        "item_id": "B09PG3T3Z7",
+        "label": "support",
+        "score": 7,
+        "rationale": "Accessory for Xbox aligns with user interests."
+      },
+      {
+        "item_id": "B0046EC9ZK",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User does not own Wii, irrelevant accessory."
+      },
+      {
+        "item_id": "B003NSLGW2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Generic accessory, not specific to user preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 168
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01N3ASPNV",
+      "B007BK7J2Y",
+      "B00FA1CLEW",
+      "B12CB9V2FYF",
+      "B00LV8HZH6",
+      "B00Z9TL6KA",
+      "B01L1Y0TCC",
+      "B001G7PSRQ",
+      "B00M3D8AQ8",
+      "B09T7CBPZ9",
+      "B001GGS6VW",
+      "B00IPTUJ8G",
+      "B001EYUSFS",
+      "B00N2KKSNO",
+      "B001EYUQIM",
+      "B00BALK9CM",
+      "B00FA1CLEW",
+      "B0029F2FB6",
+      "B07543W7XS",
+      "B00LV8HZH6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01N3ASPNV",
+        "reason": "Nintendo Switch screen protector"
+      },
+      {
+        "item_id": "B007BK7J2Y",
+        "reason": "PlayStation Vita case"
+      },
+      {
+        "item_id": "B00FA1CLEW",
+        "reason": "Skylanders character for collection"
+      },
+      {
+        "item_id": "B12CB9V2FYF",
+        "reason": "Nintendo console case"
+      },
+      {
+        "item_id": "B00LV8HZH6",
+        "reason": "PlayStation 3 game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3683,
+    "completion_tokens": 329
+  }
+}

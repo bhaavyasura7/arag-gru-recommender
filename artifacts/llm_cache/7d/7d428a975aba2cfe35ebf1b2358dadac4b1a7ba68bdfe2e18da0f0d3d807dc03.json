@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B094YHB1QK",
+      "B00L3KU0S8",
+      "B000PWZKXK",
+      "B008U4QPJI",
+      "B01GY35HKE",
+      "B001QCWSDI",
+      "B003ZHMMEM",
+      "B00008H2IS",
+      "B000065SQJ",
+      "B00DTY9B0O",
+      "B006ZQ85YG",
+      "B017QU5G1O",
+      "B00B8SAB8O",
+      "B00EP2WNKY",
+      "B00ZJBSBD8",
+      "B00BBUCCKO",
+      "B001EYUX3K",
+      "B00DTY9B0O",
+      "B00L3KU0S8",
+      "B00DTY9B0O"
+    ],
+    "reasons": [
+      {
+        "item_id": "B094YHB1QK",
+        "reason": "High-quality PlayStation controller"
+      },
+      {
+        "item_id": "B00L3KU0S8",
+        "reason": "Protects PS4 from dust"
+      },
+      {
+        "item_id": "B000PWZKXK",
+        "reason": "Useful gaming accessory for Wii"
+      },
+      {
+        "item_id": "B008U4QPJI",
+        "reason": "Dual controller charging for Xbox"
+      },
+      {
+        "item_id": "B01GY35HKE",
+        "reason": "Popular action RPG for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3514,
+    "completion_tokens": 331
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07ZL9G9HJ",
+      "B01HP5XR0M",
+      "B00MV1A5IS",
+      "B08TBVNW6Z",
+      "B09BKZ7H97",
+      "B08LBD2S9S",
+      "B07WHHFW3Y",
+      "B08Z7X9VKM",
+      "B000068I35",
+      "B0000512IE",
+      "B000R9PF1I",
+      "B001URRGZY",
+      "B0000C868M",
+      "B001GZPZG2",
+      "B005GM1Y98",
+      "B000AMMRG8",
+      "B000068I35",
+      "B08PV21Y12",
+      "B07C1XCWJM",
+      "B0000512IE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07ZL9G9HJ",
+        "reason": "Customizable Xbox controller mod pack"
+      },
+      {
+        "item_id": "B01HP5XR0M",
+        "reason": "Interactive gaming figures for PlayStation"
+      },
+      {
+        "item_id": "B00MV1A5IS",
+        "reason": "High-quality flight simulator pedals"
+      },
+      {
+        "item_id": "B08TBVNW6Z",
+        "reason": "Protective case with thumb grip caps"
+      },
+      {
+        "item_id": "B09BKZ7H97",
+        "reason": "Replacement joystick for PS Vita"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3083,
+    "completion_tokens": 331
+  }
+}

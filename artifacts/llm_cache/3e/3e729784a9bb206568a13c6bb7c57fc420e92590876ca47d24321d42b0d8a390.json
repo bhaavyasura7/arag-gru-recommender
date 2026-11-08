@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "retro video games",
+      "miniature strategy games",
+      "Star Wars collectibles",
+      "action-adventure games",
+      "game expansions"
+    ],
+    "current_intent": "looking for new strategy game expansions or retro games",
+    "avoid": [
+      "casual games",
+      "mobile games",
+      "sports games"
+    ],
+    "summary": "User enjoys retro video games and strategy miniatures, particularly in the Star Wars universe, and seeks new expansions or similar games."
+  },
+  "usage": {
+    "prompt_tokens": 434,
+    "completion_tokens": 83
+  }
+}

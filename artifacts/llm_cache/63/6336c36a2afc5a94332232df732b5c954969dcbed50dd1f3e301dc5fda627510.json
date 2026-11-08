@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BSKR3G4F",
+      "B11YBXJ5FK",
+      "B00EHRSQTY",
+      "B00V2LZ45M",
+      "B00CMC7AXY",
+      "B004FYVPRY",
+      "B01HY10OUI",
+      "B00005Q5GY",
+      "B007LS8N6W",
+      "B00004U8KA",
+      "B00NP4TWNY",
+      "B079QKM4Q3",
+      "B06ZY6VL7B",
+      "B007VX0AW2",
+      "B005OOZRIM",
+      "B00FWMWHSO",
+      "B00004U8KA",
+      "B07FDZB863",
+      "B00AB9UDAW",
+      "B00NP4TWNY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BSKR3G4F",
+        "reason": "High-quality horror experience"
+      },
+      {
+        "item_id": "B11YBXJ5FK",
+        "reason": "Renowned survival horror title"
+      },
+      {
+        "item_id": "B00EHRSQTY",
+        "reason": "Innovative horror gameplay"
+      },
+      {
+        "item_id": "B00V2LZ45M",
+        "reason": "Variety of horror games"
+      },
+      {
+        "item_id": "B00CMC7AXY",
+        "reason": "Collection of horror games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2152,
+    "completion_tokens": 321
+  }
+}

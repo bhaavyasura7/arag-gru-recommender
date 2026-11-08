@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09BN2KXVC",
+      "B0045EPEAI",
+      "B077W2Z2SF",
+      "B12ITXFF8Q",
+      "B001EYUNW6",
+      "B001EYUPEC",
+      "B001G78TRW",
+      "B005EHQJ2C",
+      "B004LVO4M4",
+      "B001EYUNS0",
+      "B071JDWSBL",
+      "B005CELMWY",
+      "B013P0HW7K",
+      "B18X1HF3V6",
+      "B000035Y6B",
+      "B0041RWIGW",
+      "B001EYUNW6",
+      "B07HCTJC91",
+      "B002LLRLMQ",
+      "B07X1HF3V6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09BN2KXVC",
+        "reason": "Perfect case for Nintendo Switch Lite"
+      },
+      {
+        "item_id": "B0045EPEAI",
+        "reason": "Popular game for Nintendo DS"
+      },
+      {
+        "item_id": "B077W2Z2SF",
+        "reason": "Well-known Xbox game"
+      },
+      {
+        "item_id": "B12ITXFF8Q",
+        "reason": "High-quality gaming accessory"
+      },
+      {
+        "item_id": "B001EYUNW6",
+        "reason": "Classic Xbox game with depth"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3931,
+    "completion_tokens": 321
+  }
+}

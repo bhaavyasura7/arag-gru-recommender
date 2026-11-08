@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00005Y1NH",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not suitable for user's age group."
+      },
+      {
+        "item_id": "B00005V5N0",
+        "label": "support",
+        "score": 7,
+        "rationale": "Rhythm game aligns with user interests."
+      },
+      {
+        "item_id": "B006ZO8LG0",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B001EYUTHU",
+        "label": "support",
+        "score": 6,
+        "rationale": "Racing game fits user's gaming preference."
+      },
+      {
+        "item_id": "B0BYYQWJ9S",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Keyboard accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1378,
+    "completion_tokens": 156
+  }
+}

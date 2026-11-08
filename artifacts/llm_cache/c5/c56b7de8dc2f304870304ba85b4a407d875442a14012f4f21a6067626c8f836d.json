@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo Switch games",
+      "gaming accessories",
+      "video game collectibles",
+      "gaming hardware",
+      "mechanical keyboards"
+    ],
+    "current_intent": "looking for more Nintendo Switch games or accessories",
+    "avoid": [
+      "non-gaming products",
+      "low-quality accessories",
+      "overpriced items"
+    ],
+    "summary": "User is a Nintendo Switch enthusiast seeking games and accessories, with a focus on quality and functionality."
+  },
+  "usage": {
+    "prompt_tokens": 497,
+    "completion_tokens": 76
+  }
+}

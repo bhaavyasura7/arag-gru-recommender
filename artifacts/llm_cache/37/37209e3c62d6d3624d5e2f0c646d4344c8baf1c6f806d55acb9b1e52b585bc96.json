@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "racing games",
+      "LEGO games",
+      "open-world exploration",
+      "multiplayer experiences"
+    ],
+    "current_intent": "Looking for engaging video games to play.",
+    "avoid": [
+      "horror games",
+      "puzzle games",
+      "sports games"
+    ],
+    "summary": "The user enjoys action-adventure and racing games, particularly those with multiplayer elements, and is currently seeking new video game recommendations."
+  },
+  "usage": {
+    "prompt_tokens": 301,
+    "completion_tokens": 98
+  }
+}

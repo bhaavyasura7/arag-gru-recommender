@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001FPX65U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user preferences."
+      },
+      {
+        "item_id": "B000APWZOE",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nicktoons appeal matches user interests."
+      },
+      {
+        "item_id": "B0002ATZ7M",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Dirt biking not in user history."
+      },
+      {
+        "item_id": "B08268DDKC",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Singing games not previously reviewed."
+      },
+      {
+        "item_id": "B008S7JREW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Japanese import unlikely to interest user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1540,
+    "completion_tokens": 154
+  }
+}

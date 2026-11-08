@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0079V4GK8",
+      "B0123V4GK8",
+      "B001ISK4GI",
+      "B12N9USHKJ",
+      "B16HMTK5MW",
+      "B0000A33W7",
+      "B12N955CE7",
+      "B000666BWO",
+      "B003GSLGK6",
+      "B0009TTHB0",
+      "B071G1DTH3",
+      "B008N4D926",
+      "B079C4BCPV",
+      "B006B7FLKA",
+      "B15D8UE2C",
+      "B01N9USHKJ",
+      "B0753FLMVG",
+      "B081DHKGQB",
+      "B00269DXXO",
+      "B005ZWIV9A"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0079V4GK8",
+        "reason": "Strong narrative and action gameplay"
+      },
+      {
+        "item_id": "B0000A33W7",
+        "reason": "Engaging action-adventure storyline"
+      },
+      {
+        "item_id": "B12N9USHKJ",
+        "reason": "Popular action-adventure franchise"
+      },
+      {
+        "item_id": "B16HMTK5MW",
+        "reason": "Immersive horror with narrative depth"
+      },
+      {
+        "item_id": "B001ISK4GI",
+        "reason": "Controller for action games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3076,
+    "completion_tokens": 323
+  }
+}

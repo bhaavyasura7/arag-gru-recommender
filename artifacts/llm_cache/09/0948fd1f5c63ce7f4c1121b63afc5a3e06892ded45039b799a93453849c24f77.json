@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07C7Y2ZMG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products only."
+      },
+      {
+        "item_id": "B0869FPXN8",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not related to Nintendo Switch."
+      },
+      {
+        "item_id": "B00M9O8N0E",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a Nintendo Switch game."
+      },
+      {
+        "item_id": "B07MJGYDD7",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "For Xbox, not Nintendo Switch."
+      },
+      {
+        "item_id": "B087SHFL9B",
+        "label": "support",
+        "score": 10,
+        "rationale": "Directly related to Nintendo Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1088,
+    "completion_tokens": 158
+  }
+}

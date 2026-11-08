@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08CG48XJ9",
+        "label": "support",
+        "score": 9,
+        "rationale": "Similar features to previously liked products."
+      },
+      {
+        "item_id": "B071H7XGNX",
+        "label": "support",
+        "score": 8,
+        "rationale": "High DPI and programmable buttons match interests."
+      },
+      {
+        "item_id": "B011K5O1JY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Lower DPI and fewer buttons than preferred."
+      },
+      {
+        "item_id": "B07F532TCN",
+        "label": "support",
+        "score": 7,
+        "rationale": "Programmable buttons and high DPI are appealing."
+      },
+      {
+        "item_id": "B011K4KH4I",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar to other models but lower DPI."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1771,
+    "completion_tokens": 160
+  }
+}

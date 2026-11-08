@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00IS5Q8C8",
+      "B01J4JWNG6",
+      "B000BQP2RY",
+      "B00NHDSINS",
+      "B00TPJU3BI",
+      "B09W29ZJHY",
+      "B000G1O7SE",
+      "B01B1X7CFA",
+      "B00002STUG",
+      "B000NA6PUG",
+      "B00I9RAW8G",
+      "B00126Y1W4",
+      "B098TBY135",
+      "B0BHKX5FHX",
+      "B000BQP2RY",
+      "B00LB4HJT2",
+      "B000G1O7SE",
+      "B00I9RAW8G",
+      "B00002STUG",
+      "B00126Y1W4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00IS5Q8C8",
+        "reason": "Challenging gameplay experience"
+      },
+      {
+        "item_id": "B01J4JWNG6",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B00TPJU3BI",
+        "reason": "High-quality tactical gameplay"
+      },
+      {
+        "item_id": "B00NHDSINS",
+        "reason": "Collector's edition available"
+      },
+      {
+        "item_id": "B000BQP2RY",
+        "reason": "Accessory for gaming setup"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3093,
+    "completion_tokens": 322
+  }
+}

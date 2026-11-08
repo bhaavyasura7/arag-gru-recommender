@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08TVPBH3Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to gaming preferences."
+      },
+      {
+        "item_id": "B00004TMYC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User dislikes racing games."
+      },
+      {
+        "item_id": "B0BV799V2Q",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not directly related to games."
+      },
+      {
+        "item_id": "B00KQOW0XU",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory for Xbox, not preferred."
+      },
+      {
+        "item_id": "B00LYPLAMW",
+        "label": "support",
+        "score": 6,
+        "rationale": "PC game aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1371,
+    "completion_tokens": 153
+  }
+}

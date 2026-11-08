@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00KR6RB7W",
+      "B07WYMQWXV",
+      "B089PWW14L",
+      "B08RS6ZBND",
+      "B08RSC5FLK",
+      "B013Q0Y7YU",
+      "B08TT2D7J5",
+      "B09C837PCK",
+      "B01MR0SRC4",
+      "B00S5YPDUK",
+      "B00T7WSA1I",
+      "B00QA2ZI5O",
+      "B07QXNNS8H",
+      "B07Q73Q3KG",
+      "B07WDS6PYC",
+      "B0BSNCLMNM",
+      "B0C2J2N9XN",
+      "B07R95WYYD",
+      "B018VAEXD0",
+      "B07P14FQ58"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KR6RB7W",
+        "reason": "High comfort for gaming"
+      },
+      {
+        "item_id": "B07WYMQWXV",
+        "reason": "Ergonomic design for gaming"
+      },
+      {
+        "item_id": "B089PWW14L",
+        "reason": "Enhances grip for gaming"
+      },
+      {
+        "item_id": "B08RS6ZBND",
+        "reason": "One-handed grip for convenience"
+      },
+      {
+        "item_id": "B08RSC5FLK",
+        "reason": "Right-handed grip for comfort"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2683,
+    "completion_tokens": 334
+  }
+}

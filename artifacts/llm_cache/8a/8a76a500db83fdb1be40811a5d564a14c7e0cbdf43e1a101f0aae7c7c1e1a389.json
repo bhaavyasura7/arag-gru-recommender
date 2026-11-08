@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00004WGW1",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, not aligned with consoles."
+      },
+      {
+        "item_id": "B01M01F3DV",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B001M0HJBU",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Historical strategy, not user’s interest."
+      },
+      {
+        "item_id": "B07LD3TKB4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Accessory for Nintendo Switch, user owns one."
+      },
+      {
+        "item_id": "B00403MYIO",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "PC game, user prefers console titles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1332,
+    "completion_tokens": 157
+  }
+}

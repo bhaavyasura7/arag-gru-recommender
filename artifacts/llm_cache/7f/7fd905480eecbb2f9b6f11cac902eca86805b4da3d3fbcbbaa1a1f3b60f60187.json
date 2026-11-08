@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000B6N2MG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B071S7Z6L5",
+        "label": "support",
+        "score": 7,
+        "rationale": "Useful accessory for PlayStation 4 gaming."
+      },
+      {
+        "item_id": "B00SWH7QDC",
+        "label": "support",
+        "score": 6,
+        "rationale": "Gaming mouse aligns with gaming interests."
+      },
+      {
+        "item_id": "B077J1SF2Q",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Switch not in user history."
+      },
+      {
+        "item_id": "B004E0K732",
+        "label": "support",
+        "score": 6,
+        "rationale": "Relevant for Xbox 360 gaming experience."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1141,
+    "completion_tokens": 160
+  }
+}

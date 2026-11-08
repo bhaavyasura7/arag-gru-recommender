@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming accessories",
+      "high-DPI gaming mice",
+      "Xbox games",
+      "PC horror games",
+      "renewed electronics"
+    ],
+    "current_intent": "looking for high-quality gaming peripherals",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "overpriced items"
+    ],
+    "summary": "User is a gamer focused on quality gaming accessories, particularly mice and Xbox games, and prefers renewed items for better value."
+  },
+  "usage": {
+    "prompt_tokens": 362,
+    "completion_tokens": 81
+  }
+}

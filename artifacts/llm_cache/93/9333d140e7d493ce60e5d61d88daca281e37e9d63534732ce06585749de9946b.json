@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00CSIB3PS",
+      "B004LLHFAW",
+      "B00503E8S2",
+      "B007CM0K86",
+      "B008F4C6HCD",
+      "B0714FFZD8",
+      "B001YV3K2Y",
+      "B09LYGV4RT",
+      "B001EHD9GA",
+      "B003RRXW0I",
+      "B00004SVYF",
+      "B084QDTVC6",
+      "B0032C9V7G",
+      "B007VYW5K6",
+      "B001YV3K2Y",
+      "B00HS7L4XU",
+      "B016P6KIFY",
+      "B004FEJ8ZA",
+      "B00001LC25",
+      "B01MTAVRDY",
+      "B001YV3K2Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00CSIB3PS",
+        "reason": "Includes Xbox Live for multiplayer"
+      },
+      {
+        "item_id": "B004LLHFAW",
+        "reason": "Engaging multiplayer vehicular warfare"
+      },
+      {
+        "item_id": "B00503E8S2",
+        "reason": "Popular multiplayer FPS experience"
+      },
+      {
+        "item_id": "B007CM0K86",
+        "reason": "Immersive story-driven action game"
+      },
+      {
+        "item_id": "B008F4C6HCD",
+        "reason": "Classic RPG with multiplayer elements"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3787,
+    "completion_tokens": 340
+  }
+}

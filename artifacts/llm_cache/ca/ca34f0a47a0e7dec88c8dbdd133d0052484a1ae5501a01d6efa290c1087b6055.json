@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01M6CV5IF",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has PS4 controller interests."
+      },
+      {
+        "item_id": "B0007U2CX6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own PSP."
+      },
+      {
+        "item_id": "B07VFYBMTS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User's focus is on consoles, not PC."
+      },
+      {
+        "item_id": "B00SZ1DQFM",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers PlayStation over Xbox."
+      },
+      {
+        "item_id": "B00DS3MPHM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User's focus is on console gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1305,
+    "completion_tokens": 159
+  }
+}

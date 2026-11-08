@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008Z7XC64",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox and PlayStation games."
+      },
+      {
+        "item_id": "B000068GVJ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in Super Famicom."
+      },
+      {
+        "item_id": "B00UGPPBG2",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has PS3 games, relevant content."
+      },
+      {
+        "item_id": "B00YFP5ABA",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PS3 games, relevant DLC."
+      },
+      {
+        "item_id": "B00J1GM1A6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has PS4 interest, but no games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1182,
+    "completion_tokens": 167
+  }
+}

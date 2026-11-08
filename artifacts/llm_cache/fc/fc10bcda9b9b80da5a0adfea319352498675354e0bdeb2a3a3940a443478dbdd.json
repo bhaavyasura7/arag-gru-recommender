@@ -1,0 +1,16 @@
+{
+  "content": {
+    "keywords": [
+      "horror",
+      "game"
+    ],
+    "max_price": null,
+    "exclude_terms": [
+      "zombies"
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 182,
+    "completion_tokens": 29
+  }
+}

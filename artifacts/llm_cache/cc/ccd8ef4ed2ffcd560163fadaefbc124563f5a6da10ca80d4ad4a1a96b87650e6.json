@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B002ELCUHY",
+      "B001EYUTHU",
+      "B09GLN64K6",
+      "B07KN2N17R",
+      "B07TSZV2VS",
+      "B07P9K1KVW",
+      "B0060RP14M",
+      "B00005Y1NH",
+      "B00005V5N0",
+      "B000069T96",
+      "B006ZO8LG0",
+      "B07BGGSHCW",
+      "B09J1DF3YY",
+      "B00006IKBL",
+      "B00005KG5U",
+      "B07FSJPL5C",
+      "B0B8T8B2WK",
+      "B0BYYQWJ9S",
+      "B07SZXMTT7",
+      "B07PTPMYWM",
+      "B006ZO8LG0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002ELCUHY",
+        "reason": "Popular sports video game"
+      },
+      {
+        "item_id": "B001EYUTHU",
+        "reason": "NASCAR aligns with sports interest"
+      },
+      {
+        "item_id": "B09GLN64K6",
+        "reason": "Gaming combo for enhanced experience"
+      },
+      {
+        "item_id": "B07KN2N17R",
+        "reason": "Accessory for sports gaming"
+      },
+      {
+        "item_id": "B07TSZV2VS",
+        "reason": "Gaming headset for multiplayer games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3647,
+    "completion_tokens": 333
+  }
+}

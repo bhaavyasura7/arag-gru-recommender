@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "classic video games",
+      "cartoon-themed games",
+      "platformers",
+      "multiplayer games",
+      "nostalgic titles"
+    ],
+    "current_intent": "looking for fun, engaging video games",
+    "avoid": [
+      "poorly rated games",
+      "sports games",
+      "realistic simulations"
+    ],
+    "summary": "The user enjoys nostalgic, cartoon-themed video games and seeks engaging titles, while avoiding low-rated and sports games."
+  },
+  "usage": {
+    "prompt_tokens": 393,
+    "completion_tokens": 80
+  }
+}

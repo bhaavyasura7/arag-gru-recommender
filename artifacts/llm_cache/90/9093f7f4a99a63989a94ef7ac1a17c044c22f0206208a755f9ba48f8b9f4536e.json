@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BNKQ861F",
+      "B08VJ6F73T",
+      "B0B2RYGCGJ",
+      "B10BMGYCG8",
+      "B07YBKW93N",
+      "B00QZFBSFU",
+      "B0BJF2L9J2",
+      "B00AIF7O8S",
+      "B000Q34YVM",
+      "B08TY2H7RW",
+      "B006FRCUUU",
+      "B000197Z2G",
+      "B00004SVWE",
+      "B0002MCH5M",
+      "B000Q34YVM",
+      "B07NV9RR9D",
+      "B014JNM8GM",
+      "B09DQD1JBG",
+      "B002G9DHGW",
+      "B08PSJW7FC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BNKQ861F",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B08VJ6F73T",
+        "reason": "VR accessory for Oculus Quest 2"
+      },
+      {
+        "item_id": "B0B2RYGCGJ",
+        "reason": "Compatible Xbox controller"
+      },
+      {
+        "item_id": "B10BMGYCG8",
+        "reason": "Replacement mic for gaming headset"
+      },
+      {
+        "item_id": "B07YBKW93N",
+        "reason": "Renewed NES system for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3553,
+    "completion_tokens": 334
+  }
+}

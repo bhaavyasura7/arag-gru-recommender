@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001G7PSOE",
+      "B001ELJF8W",
+      "B00002SU3F",
+      "B000EVGXLU",
+      "B00002ST56",
+      "B00004R9FY",
+      "B0006HHHBW",
+      "B078JW2MRX",
+      "B07L5NBTSB",
+      "B08F86ZDRV",
+      "B01MQTSDWG",
+      "B08N13QYXF",
+      "B000SQ5LM8",
+      "B00002SU3F",
+      "B07WF9LCJV",
+      "B00OQEIB48",
+      "B01NBMMP9L",
+      "B00002SU3F",
+      "B07SPHVDL5",
+      "B0BXFYD8NH"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001G7PSOE",
+        "reason": "Classic PlayStation game experience"
+      },
+      {
+        "item_id": "B001ELJF8W",
+        "reason": "Engaging mystery for Wii"
+      },
+      {
+        "item_id": "B00002SU3F",
+        "reason": "Nostalgic Game Boy title"
+      },
+      {
+        "item_id": "B000EVGXLU",
+        "reason": "Fun educational game for kids"
+      },
+      {
+        "item_id": "B00002ST56",
+        "reason": "Classic retro platformer experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3442,
+    "completion_tokens": 317
+  }
+}

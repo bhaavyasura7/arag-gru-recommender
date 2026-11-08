@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0B4GGGKVD",
+      "B08HZ9PH6J",
+      "B07SLHS2BC",
+      "B06JH69YY",
+      "B07YBX7L4K",
+      "B0B6GM69MS",
+      "B01MQWTO7E",
+      "B002FUI4NI",
+      "B001MIZNK6",
+      "B0000E6ECP",
+      "B00DTT4M76",
+      "B08FYCFZMB",
+      "B07538PLHL",
+      "B14YCM34PZ",
+      "B009ENRWIM",
+      "B00006LJLV",
+      "B0010SDDVY",
+      "B00006LJLV",
+      "B07YCM34PZ",
+      "B006JH69YY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0B4GGGKVD",
+        "reason": "Popular controller for Xbox consoles"
+      },
+      {
+        "item_id": "B08HZ9PH6J",
+        "reason": "Enhanced controller features for Xbox"
+      },
+      {
+        "item_id": "B07SLHS2BC",
+        "reason": "Essential repair part for Switch"
+      },
+      {
+        "item_id": "B06JH69YY",
+        "reason": "Improves racing experience on Wii"
+      },
+      {
+        "item_id": "B07YBX7L4K",
+        "reason": "Action-adventure game for PS4"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2904,
+    "completion_tokens": 327
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000U34SXC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not aligned with user preferences."
+      },
+      {
+        "item_id": "B07YBWT3PK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different platform and genre focus."
+      },
+      {
+        "item_id": "B004I1JTEK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible headset for gaming systems."
+      },
+      {
+        "item_id": "B01A73ZIL0",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with multiple gaming platforms."
+      },
+      {
+        "item_id": "B005TH6BD4",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Legacy system, not preferred by user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1756,
+    "completion_tokens": 154
+  }
+}

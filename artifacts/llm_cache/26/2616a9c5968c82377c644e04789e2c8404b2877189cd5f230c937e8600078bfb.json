@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DHJLL0Y",
+      "B071S7Z6L5",
+      "B08CXBMRG4",
+      "B20NVBMXZ3",
+      "B00SWH7QDC",
+      "B004E0K732",
+      "B08GYRTGNQ",
+      "B08NVBMXZ3",
+      "B08LPY3BPK",
+      "B000B6N2MG",
+      "B077J1SF2Q",
+      "B0009TSG3U",
+      "B002M99VF2",
+      "B079HR59PP",
+      "B000RP216O",
+      "B08B1T61CC",
+      "B07DLPYT8Y",
+      "B07VTW16G7",
+      "B08GYRTGNQ",
+      "B0009TSG3U"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DHJLL0Y",
+        "reason": "Popular fighting game release"
+      },
+      {
+        "item_id": "B071S7Z6L5",
+        "reason": "Essential PS4 controller accessory"
+      },
+      {
+        "item_id": "B08CXBMRG4",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B08NVBMXZ3",
+        "reason": "Versatile PS5 cooling and charging"
+      },
+      {
+        "item_id": "B00SWH7QDC",
+        "reason": "Accurate gaming mouse for PC"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3402,
+    "completion_tokens": 332
+  }
+}

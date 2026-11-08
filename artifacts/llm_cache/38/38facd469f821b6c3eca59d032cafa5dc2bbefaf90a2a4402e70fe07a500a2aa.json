@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01A7YUQ4I",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to gaming experience."
+      },
+      {
+        "item_id": "B0058NY5XC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B073QSRQJ4",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 3 games."
+      },
+      {
+        "item_id": "B01J2I0FK0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B08RMPDLP8",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Xbox One games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 920,
+    "completion_tokens": 158
+  }
+}

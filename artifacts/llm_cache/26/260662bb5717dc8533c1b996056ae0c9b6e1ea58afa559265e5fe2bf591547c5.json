@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B091H1VVZ3",
+      "B0BZNKW237",
+      "B0C65MJ84W",
+      "B08DD3RZFS",
+      "B19JSKBZKX",
+      "B016P6KIFY",
+      "B0792R4Q4J",
+      "B0009F9X3G",
+      "B00005ME8T",
+      "B00004U8GK",
+      "B0000E1RBK",
+      "B004NUJX9M",
+      "B0000E1RBK",
+      "B0000E1RBK",
+      "B0000E1RBK",
+      "B0000E1RBK",
+      "B0000E1RBK",
+      "B0000E1RBK",
+      "B0000E1RBK",
+      "B0000E1RBK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B091H1VVZ3",
+        "reason": "Popular PS5 game title"
+      },
+      {
+        "item_id": "B0BZNKW237",
+        "reason": "VR accessory for immersive gaming"
+      },
+      {
+        "item_id": "B0C65MJ84W",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B08DD3RZFS",
+        "reason": "Essential gaming headset"
+      },
+      {
+        "item_id": "B19JSKBZKX",
+        "reason": "RGB mechanical keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3421,
+    "completion_tokens": 329
+  }
+}

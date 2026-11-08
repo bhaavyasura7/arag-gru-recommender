@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "Xbox One",
+      "family-friendly games",
+      "sports games",
+      "gaming accessories"
+    ],
+    "current_intent": "looking for new video games or gaming accessories",
+    "avoid": [
+      "PC games",
+      "single-player games",
+      "highly competitive games"
+    ],
+    "summary": "User enjoys family-friendly and sports video games on Xbox One, seeking new titles or accessories to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 77
+  }
+}

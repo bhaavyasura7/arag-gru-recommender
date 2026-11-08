@@ -1,0 +1,21 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo 3DS hardware",
+      "Nintendo Wii U games",
+      "3D platformers",
+      "action-adventure games"
+    ],
+    "current_intent": "The user is likely seeking new Nintendo games or accessories compatible with their 3DS/Wii U setup.",
+    "avoid": [
+      "non-Nintendo systems",
+      "2D platformers",
+      "modern console exclusives"
+    ],
+    "summary": "A dedicated Nintendo enthusiast focused on 3DS and Wii U titles, preferring 3D platformers and action games. Active in 2015, they may seek similar experiences but avoid newer systems and non-Nintendo titles. Likely interested in classic Nintendo franchises and hardware accessories."
+  },
+  "usage": {
+    "prompt_tokens": 285,
+    "completion_tokens": 389
+  }
+}

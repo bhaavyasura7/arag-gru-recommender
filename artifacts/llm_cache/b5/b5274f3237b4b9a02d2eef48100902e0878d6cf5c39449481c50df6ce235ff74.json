@@ -1,0 +1,16 @@
+{
+  "content": {
+    "keywords": [
+      "mechanical",
+      "gaming",
+      "keyboard",
+      "rgb"
+    ],
+    "max_price": null,
+    "exclude_terms": []
+  },
+  "usage": {
+    "prompt_tokens": 182,
+    "completion_tokens": 32
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "sci-fi RPGs",
+      "first-person shooters",
+      "gaming peripherals",
+      "high-performance gaming gear"
+    ],
+    "current_intent": "looking for new gaming experiences and high-quality peripherals",
+    "avoid": [
+      "low-rated games",
+      "non-gaming products",
+      "overly complex setups"
+    ],
+    "summary": "User enjoys action and sci-fi games, seeks quality gaming gear, and prefers high ratings in their purchases."
+  },
+  "usage": {
+    "prompt_tokens": 433,
+    "completion_tokens": 85
+  }
+}

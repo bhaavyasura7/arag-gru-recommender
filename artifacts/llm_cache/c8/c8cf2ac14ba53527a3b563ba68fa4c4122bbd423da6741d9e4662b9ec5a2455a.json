@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07D53QSMK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo Switch accessory, not Xbox related."
+      },
+      {
+        "item_id": "B000HKGD4A",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, user prefers Xbox games."
+      },
+      {
+        "item_id": "B00MXRHZ5Q",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox 360 game, aligns with user interests."
+      },
+      {
+        "item_id": "B005JQNEO4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Xbox 360 game, matches user preferences."
+      },
+      {
+        "item_id": "B019CYYSFC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation subscription, not Xbox related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 163
+  }
+}

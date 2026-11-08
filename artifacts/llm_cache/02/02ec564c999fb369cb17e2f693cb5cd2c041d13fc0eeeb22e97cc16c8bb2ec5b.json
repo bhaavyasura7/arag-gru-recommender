@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07739NG1Q",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers video games, not movies."
+      },
+      {
+        "item_id": "B003QCJLQI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Scooby-Doo game may appeal to user."
+      },
+      {
+        "item_id": "B0B9ZSM4LP",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Fashion theme less aligned with user interests."
+      },
+      {
+        "item_id": "B000067QEZ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic game, but not highly relevant."
+      },
+      {
+        "item_id": "B00IYFNWOY",
+        "label": "support",
+        "score": 7,
+        "rationale": "Useful accessory for PS4 gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1226,
+    "completion_tokens": 159
+  }
+}

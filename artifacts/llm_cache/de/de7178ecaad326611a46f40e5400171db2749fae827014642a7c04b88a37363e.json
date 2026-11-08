@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B088FBQX49",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B07Y45483X",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has PlayStation 3 games."
+      },
+      {
+        "item_id": "B001E27KTM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on console, not PC."
+      },
+      {
+        "item_id": "B005FPDFF2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own Nintendo 3DS."
+      },
+      {
+        "item_id": "B00895ALH0",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User has no interest in PC games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1112,
+    "completion_tokens": 160
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The user seeks action-packed video games, particularly in RPG and shooter genres. The candidates feature intense gameplay, open-world exploration, and fantasy elements, aligning with the user's interests while avoiding puzzle, simulation, and horror themes."
+  },
+  "usage": {
+    "prompt_tokens": 415,
+    "completion_tokens": 48
+  }
+}

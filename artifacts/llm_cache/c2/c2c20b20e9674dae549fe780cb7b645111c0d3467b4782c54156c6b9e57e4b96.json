@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003P5AJFI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Wii game, not in user history."
+      },
+      {
+        "item_id": "B004USOOAK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "No specific interest in this title."
+      },
+      {
+        "item_id": "B00D7N1ONE",
+        "label": "support",
+        "score": 7,
+        "rationale": "PC game aligns with action interests."
+      },
+      {
+        "item_id": "B00005V131",
+        "label": "support",
+        "score": 6,
+        "rationale": "First-person shooter matches user preferences."
+      },
+      {
+        "item_id": "B01C7DC59Q",
+        "label": "support",
+        "score": 8,
+        "rationale": "Open-world shooter fits user gaming style."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1737,
+    "completion_tokens": 153
+  }
+}

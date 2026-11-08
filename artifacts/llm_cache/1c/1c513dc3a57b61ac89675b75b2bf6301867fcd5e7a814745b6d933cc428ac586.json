@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUNPI",
+      "B003YMMMFM",
+      "B07YBWT3PK",
+      "B0000A09EN",
+      "B0046D9W88",
+      "B0007P0U3U",
+      "B0044R8X9U",
+      "B0009UC68U",
+      "B00005BW7Q",
+      "B001CM0PJ6",
+      "B006JKARN0",
+      "B000N5Z2L4",
+      "B01MZAUPD6",
+      "B00087L4E",
+      "B0009UC68U",
+      "B000EQNP8W2",
+      "B00EQNP8W2",
+      "B0000A09EN",
+      "B0007P0U3U",
+      "B000N5Z2L4",
+      "B001CM0PJ6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUNPI",
+        "reason": "Collector's edition of a classic RPG"
+      },
+      {
+        "item_id": "B003YMMMFM",
+        "reason": "Highly rated first-person shooter"
+      },
+      {
+        "item_id": "B07YBWT3PK",
+        "reason": "Open-world shooter with high ratings"
+      },
+      {
+        "item_id": "B0000A09EN",
+        "reason": "Classic stealth action game"
+      },
+      {
+        "item_id": "B0046D9W88",
+        "reason": "Classic FPS with multiplayer options"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3792,
+    "completion_tokens": 335
+  }
+}

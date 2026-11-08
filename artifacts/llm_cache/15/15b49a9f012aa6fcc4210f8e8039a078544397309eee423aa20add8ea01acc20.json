@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001AW156U",
+      "B00DDILSBG",
+      "B09K3KHFSY",
+      "B00004YUWA",
+      "B07P2GPJJ9",
+      "B00A39IEN8",
+      "B002IT33S2",
+      "B07WS5R5DP",
+      "B004ZCPKDG",
+      "B0025QWPYQ",
+      "B07YBXNWXL",
+      "B00AK4QB22",
+      "B098KX2GTR",
+      "B00E9TBRK",
+      "B013HMN66M",
+      "B00YQM1PNY",
+      "B00884S5N4",
+      "B07K3KHFSY",
+      "B0025QWPYQ",
+      "B0BMGHMP23"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001AW156U",
+        "reason": "Fun multiplayer sports activities"
+      },
+      {
+        "item_id": "B00DDILSBG",
+        "reason": "Engaging and interactive gameplay"
+      },
+      {
+        "item_id": "B00004YUWA",
+        "reason": "Variety of fun mini-games"
+      },
+      {
+        "item_id": "B07P2GPJJ9",
+        "reason": "Popular character from Splatoon"
+      },
+      {
+        "item_id": "B00A39IEN8",
+        "reason": "Open world racing with friends"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3672,
+    "completion_tokens": 320
+  }
+}

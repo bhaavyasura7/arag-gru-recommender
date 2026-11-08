@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00IG6L4R8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers narrative-driven games."
+      },
+      {
+        "item_id": "B0B2X6WCTZ",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has PS4 games, console is relevant."
+      },
+      {
+        "item_id": "B00005V8TC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "LEGO games may appeal, but not certain."
+      },
+      {
+        "item_id": "B004I1RT1A",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Unfamiliar game, mixed genre appeal."
+      },
+      {
+        "item_id": "B09LTV2PN4",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Gaming accessories are not directly relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1236,
+    "completion_tokens": 166
+  }
+}

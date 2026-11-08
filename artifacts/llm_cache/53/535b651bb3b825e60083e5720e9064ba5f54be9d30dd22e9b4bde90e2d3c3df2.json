@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B15KBNB7K2",
+      "B06ZZCCDP7",
+      "B15TTT1M3B",
+      "B07M7BZF4G",
+      "B001HX3KVA",
+      "B003XDJEIA",
+      "B0B785XS4Q",
+      "B12M7BZF4G",
+      "B002BZ11EG",
+      "B00004WGW1",
+      "B07TTT1M3B",
+      "B001G7POMA",
+      "B0CHM4DQKZ",
+      "B002LCA4K6",
+      "B00008NRMC",
+      "B01BYADRJU",
+      "B004EEUUMG",
+      "B0794HB87R",
+      "B12M7BZF4G",
+      "B003XDJEIA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B06ZZCCDP7",
+        "reason": "Popular first-person shooter title"
+      },
+      {
+        "item_id": "B15TTT1M3B",
+        "reason": "Enhances multiplayer gaming experience"
+      },
+      {
+        "item_id": "B07M7BZF4G",
+        "reason": "Action-adventure with historical elements"
+      },
+      {
+        "item_id": "B001HX3KVA",
+        "reason": "High-quality gaming controller"
+      },
+      {
+        "item_id": "B003XDJEIA",
+        "reason": "Multiplayer hunting action game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3187,
+    "completion_tokens": 326
+  }
+}

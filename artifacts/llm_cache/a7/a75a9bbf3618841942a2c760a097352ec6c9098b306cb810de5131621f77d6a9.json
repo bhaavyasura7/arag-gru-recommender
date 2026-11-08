@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The relevant candidates feature classic and retro-style horror games, appealing to the user's interest in narrative-driven experiences. Titles like Resident Evil and Deadly 30 emphasize survival elements and immersive storytelling, aligning with the user's preference for classic RPGs and action-adventure games while avoiding genres like first-person shooters."
+  },
+  "usage": {
+    "prompt_tokens": 752,
+    "completion_tokens": 63
+  }
+}

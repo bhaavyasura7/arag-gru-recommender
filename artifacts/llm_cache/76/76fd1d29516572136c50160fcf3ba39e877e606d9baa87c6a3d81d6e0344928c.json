@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B005GTNBGK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B003YVK5T8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, but still a strategy game."
+      },
+      {
+        "item_id": "B009T3EOA6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Fitness game, not aligned with user interests."
+      },
+      {
+        "item_id": "B002LHGOU0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game, but relevant."
+      },
+      {
+        "item_id": "B001EYUQR8",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Hunting game, different genre from user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1110,
+    "completion_tokens": 163
+  }
+}

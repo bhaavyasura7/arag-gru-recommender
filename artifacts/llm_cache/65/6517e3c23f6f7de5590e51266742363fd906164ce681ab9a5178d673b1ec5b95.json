@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00IAVDOS6",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys gaming headsets and accessories."
+      },
+      {
+        "item_id": "B003TQM4DI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User plays Xbox 360 games occasionally."
+      },
+      {
+        "item_id": "B00005BIG7",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in PS2 games."
+      },
+      {
+        "item_id": "B004HD55VK",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys action-adventure video games."
+      },
+      {
+        "item_id": "B082M2P278",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has Nintendo Switch interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1378,
+    "completion_tokens": 155
+  }
+}

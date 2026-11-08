@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07DJ6D4ZY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox controllers."
+      },
+      {
+        "item_id": "B08J7Q2J83",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox controllers."
+      },
+      {
+        "item_id": "B088NLT5WL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers branded gaming controllers."
+      },
+      {
+        "item_id": "B08K7G4TJ1",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Generic controller, less appealing."
+      },
+      {
+        "item_id": "B07HHWB23K",
+        "label": "support",
+        "score": 9,
+        "rationale": "User prefers Xbox controllers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2326,
+    "completion_tokens": 147
+  }
+}

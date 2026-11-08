@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B005JAT4LC",
+      "B000FII14Y",
+      "B000HB7USC",
+      "B11GJNSC2P",
+      "B019BFAHXY",
+      "B07GJNSC2P",
+      "B00009ZVI2",
+      "B00005NOFM",
+      "B07CW48RYQ",
+      "B077RLSQYH",
+      "B001EYUWWC",
+      "B001237ZWK",
+      "B081GPTC17",
+      "B12ARRXJJE",
+      "B005GISQX4",
+      "B0083VTBTY",
+      "B0795QV2BH",
+      "B0BBR5T6YG",
+      "B001237ZWK",
+      "B15FII14Y",
+      "B15FII14Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B005JAT4LC",
+        "reason": "Classic Zelda action-adventure game"
+      },
+      {
+        "item_id": "B000FII14Y",
+        "reason": "Nostalgic Avatar game experience"
+      },
+      {
+        "item_id": "B000HB7USC",
+        "reason": "Classic Sims gameplay"
+      },
+      {
+        "item_id": "B07GJNSC2P",
+        "reason": "Survival horror on Nintendo Switch"
+      },
+      {
+        "item_id": "B019BFAHXY",
+        "reason": "Compatible with Nintendo 3DS XL"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3214,
+    "completion_tokens": 330
+  }
+}

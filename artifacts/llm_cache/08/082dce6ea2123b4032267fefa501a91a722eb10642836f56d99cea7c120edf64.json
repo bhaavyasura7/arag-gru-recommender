@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07VYHB37P",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B09Z7DLGWL",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B07DLNHQZX",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B0061PAZUS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B00EP2WNKY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation products."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1447,
+    "completion_tokens": 157
+  }
+}

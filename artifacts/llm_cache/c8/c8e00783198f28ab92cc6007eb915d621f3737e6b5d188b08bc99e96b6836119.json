@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08N7PX4WX",
+      "B08N7VJBH6",
+      "B001EYUQIM",
+      "B0001JXACA",
+      "B000AYH89M",
+      "B005GISQQG",
+      "B000GPVUOY",
+      "B000062SSO",
+      "B013VO5MR2",
+      "B0000ZUGZ4",
+      "B0051D8PGM",
+      "B00000K1VA",
+      "B072C3VM5F",
+      "B01N4V7SNP",
+      "B000AYH89M",
+      "B0000ZUGZ4",
+      "B001EYUPVA",
+      "B000AYH89M",
+      "B000AYH89M",
+      "B000AYH89M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08N7PX4WX",
+        "reason": "Nintendo Switch accessory for comfort"
+      },
+      {
+        "item_id": "B08N7VJBH6",
+        "reason": "Creative Mario game for Switch"
+      },
+      {
+        "item_id": "B001EYUQIM",
+        "reason": "Classic WWII game with strategy"
+      },
+      {
+        "item_id": "B0001JXACA",
+        "reason": "Classic Mario puzzle game"
+      },
+      {
+        "item_id": "B000AYH89M",
+        "reason": "Collection of classic space games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3744,
+    "completion_tokens": 319
+  }
+}

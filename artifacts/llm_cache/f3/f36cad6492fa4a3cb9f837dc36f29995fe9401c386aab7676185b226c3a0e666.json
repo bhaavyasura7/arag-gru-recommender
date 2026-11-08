@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "PlayStation 3 games",
+      "Multiplayer gaming",
+      "Action-adventure titles",
+      "Sports games",
+      "Gaming accessories"
+    ],
+    "current_intent": "Looking for new PlayStation games or accessories.",
+    "avoid": [
+      "Single-player only games",
+      "Non-gaming products",
+      "Older console games"
+    ],
+    "summary": "User enjoys PlayStation games, particularly multiplayer and action-adventure titles, and is currently seeking new gaming experiences or accessories."
+  },
+  "usage": {
+    "prompt_tokens": 399,
+    "completion_tokens": 85
+  }
+}

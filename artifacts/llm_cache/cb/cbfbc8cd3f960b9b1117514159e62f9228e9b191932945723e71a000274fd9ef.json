@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU",
+      "B014J0XTTU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B014J0XTTU",
+        "reason": "High-quality action RPG experience"
+      },
+      {
+        "item_id": "B014J0XTTU",
+        "reason": "Essential accessory for gaming"
+      },
+      {
+        "item_id": "B014J0XTTU",
+        "reason": "Classic remaster for nostalgia"
+      },
+      {
+        "item_id": "B014J0XTTU",
+        "reason": "Popular gaming franchise"
+      },
+      {
+        "item_id": "B014J0XTTU",
+        "reason": "Unique controller customization"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3677,
+    "completion_tokens": 332
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07TKWH7J9",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with PS4, user has PS4 headset."
+      },
+      {
+        "item_id": "B00R4Y7YH2",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS4 compatible, user prefers headsets."
+      },
+      {
+        "item_id": "B07JBMX8QS",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar to previous headset preferences."
+      },
+      {
+        "item_id": "B06XDB13HZ",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS4 compatible, matches user interests."
+      },
+      {
+        "item_id": "B09P88WHN4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Multi-platform, user has PS4 and Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1086,
+    "completion_tokens": 164
+  }
+}

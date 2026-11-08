@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B078N2LX9L",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys gaming controllers."
+      },
+      {
+        "item_id": "B07HZ6N69N",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has positive controller experiences."
+      },
+      {
+        "item_id": "B07CGNL58S",
+        "label": "support",
+        "score": 6,
+        "rationale": "User prefers various gaming controllers."
+      },
+      {
+        "item_id": "B00KM671KY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Less popular brand, mixed reviews."
+      },
+      {
+        "item_id": "B00AB56ETU",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Mod kit may not interest user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2000,
+    "completion_tokens": 147
+  }
+}

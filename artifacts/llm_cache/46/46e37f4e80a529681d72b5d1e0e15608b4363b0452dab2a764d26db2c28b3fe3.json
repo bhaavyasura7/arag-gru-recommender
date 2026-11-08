@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0015Z1I4G",
+      "B07HHW8C4V",
+      "B087SHFL9B",
+      "B00R0ZS9YW",
+      "B001EYUWDG",
+      "B00F27JGVA",
+      "B07X1HF3V6",
+      "B001EYUO52",
+      "B07TN89FGQ",
+      "B07KZ6QJTX",
+      "B004RMK4BC",
+      "B00DTY9B0O",
+      "B078GLDBZX",
+      "B001EYUWDG",
+      "B0015Z1I4G",
+      "B000G75AXY",
+      "B0043B5SKE",
+      "B07V56JYJ9",
+      "B008ZXBYJU",
+      "B008L3UUPS",
+      "B07X1HF3V6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0015Z1I4G",
+        "reason": "Highly rated sports game"
+      },
+      {
+        "item_id": "B07HHW8C4V",
+        "reason": "Includes popular PS4 sports title"
+      },
+      {
+        "item_id": "B087SHFL9B",
+        "reason": "Handheld sports game experience"
+      },
+      {
+        "item_id": "B00R0ZS9YW",
+        "reason": "Popular sports game on PS4"
+      },
+      {
+        "item_id": "B001EYUWDG",
+        "reason": "Skateboarding sports game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3557,
+    "completion_tokens": 343
+  }
+}

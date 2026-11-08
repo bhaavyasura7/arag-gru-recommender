@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08R5PR6SG",
+      "B07WXGWPDX",
+      "B0BHT94H1N",
+      "B01LZV4MZB",
+      "B01GU9NQMS",
+      "B00FRCX8ZK",
+      "B0B8QR5895",
+      "B08149Z4JV",
+      "B00SQTFPMK",
+      "B0BVBJGMHM",
+      "B07VVNP9TB",
+      "B0778W12LD",
+      "B089NCV442",
+      "B0031TKFUM",
+      "B00478OSYU",
+      "B01J7VKF98",
+      "B001K7HUWI",
+      "B0BWRPQMMV",
+      "B01N11GQB4",
+      "B0B8QR5895"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08R5PR6SG",
+        "reason": "High-quality wireless gaming headset"
+      },
+      {
+        "item_id": "B07WXGWPDX",
+        "reason": "Compatible with Oculus Quest headset"
+      },
+      {
+        "item_id": "B0BHT94H1N",
+        "reason": "Gaming accessory for Nintendo Switch"
+      },
+      {
+        "item_id": "B01LZV4MZB",
+        "reason": "WWE game content for Xbox One"
+      },
+      {
+        "item_id": "B01GU9NQMS",
+        "reason": "Amiibo card for Nintendo games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3564,
+    "completion_tokens": 336
+  }
+}

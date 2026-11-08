@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B071WBRCYJ",
+      "B05CQRJAUA",
+      "B088FTCCVB",
+      "B0BHFF5GH8",
+      "B06FAN4M3S",
+      "B0C2TWDSLR",
+      "B0BF4SVFWL",
+      "B095GLBYBC",
+      "B004LNJ1FC",
+      "B07TD5YXGM",
+      "B000SDFFP4",
+      "B08LLB291G",
+      "B004393I0I",
+      "B000F4MEKU",
+      "B07QWWCC4L",
+      "B08TVHZLPL",
+      "B0768GM4V4",
+      "B09QLXS17G",
+      "B004JHY3ZI",
+      "B000F4MEKU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B071WBRCYJ",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B05CQRJAUA",
+        "reason": "Engaging story-driven game"
+      },
+      {
+        "item_id": "B088FTCCVB",
+        "reason": "Ergonomic gaming keyboard and mouse"
+      },
+      {
+        "item_id": "B0BHFF5GH8",
+        "reason": "Comfortable headset for gaming"
+      },
+      {
+        "item_id": "B06FAN4M3S",
+        "reason": "High-performance gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3717,
+    "completion_tokens": 319
+  }
+}

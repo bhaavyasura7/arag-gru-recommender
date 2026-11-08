@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B088DCPM2P",
+      "B0BVVTQ5JP",
+      "B004R1QUIO",
+      "B00KCCNMYW",
+      "B0091XHZW8",
+      "B00FEOUDUE",
+      "B00A8V4QG0",
+      "B001AI7CF2",
+      "B00006LELI",
+      "B0874G43WS",
+      "B001EYUUHY",
+      "B00ZP9XO9U",
+      "B000U90SGC",
+      "B00HX1UXD8",
+      "B013P0HW7K",
+      "B07982R9BZ",
+      "B00M91JJCB",
+      "B00KCCNMYW",
+      "B009LGO88E",
+      "B00004XOWT"
+    ],
+    "reasons": [
+      {
+        "item_id": "B088DCPM2P",
+        "reason": "Anime-themed fighting game"
+      },
+      {
+        "item_id": "B0BVVTQ5JP",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B004R1QUIO",
+        "reason": "Co-op melee combat experience"
+      },
+      {
+        "item_id": "B00KCCNMYW",
+        "reason": "Ultimate fighting game edition"
+      },
+      {
+        "item_id": "B0091XHZW8",
+        "reason": "Multiplayer online experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3784,
+    "completion_tokens": 322
+  }
+}

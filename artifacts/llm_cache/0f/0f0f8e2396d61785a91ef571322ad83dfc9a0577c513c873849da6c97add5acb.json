@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B018IL7NMU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B002IYR0KO",
+        "label": "support",
+        "score": 8,
+        "rationale": "First-person shooter matches user interests."
+      },
+      {
+        "item_id": "B00LCK8GAI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Online game credit, not directly appealing."
+      },
+      {
+        "item_id": "B00495Y2SS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "NBA Jam is less relevant to user."
+      },
+      {
+        "item_id": "B006O3Z2ZA",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "RPG themes differ from user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2410,
+    "completion_tokens": 157
+  }
+}

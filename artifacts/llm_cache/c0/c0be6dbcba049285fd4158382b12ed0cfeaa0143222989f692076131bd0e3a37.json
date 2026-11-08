@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00000K1VA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action-adventure, not horror."
+      },
+      {
+        "item_id": "B013VO5MR2",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys gaming accessories for controllers."
+      },
+      {
+        "item_id": "B0000ZUGZ4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has mixed FPS game preferences."
+      },
+      {
+        "item_id": "B000AYH89M",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User enjoys various game genres."
+      },
+      {
+        "item_id": "B005GISQQG",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likes action games with strong narratives."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2478,
+    "completion_tokens": 154
+  }
+}

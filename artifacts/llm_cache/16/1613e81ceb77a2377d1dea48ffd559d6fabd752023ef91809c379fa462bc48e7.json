@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07J34VHLT",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Retro gaming interest not demonstrated."
+      },
+      {
+        "item_id": "B004IWRNTC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Trivia game not aligned with interests."
+      },
+      {
+        "item_id": "B001EYUWOU",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "First-person shooter not previously reviewed."
+      },
+      {
+        "item_id": "B000K9OP2A",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Action game style not previously shown."
+      },
+      {
+        "item_id": "B00AY1ALVS",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Sports game not part of user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 151
+  }
+}

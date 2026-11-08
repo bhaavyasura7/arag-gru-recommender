@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00LV8IL5Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, but RPG elements present."
+      },
+      {
+        "item_id": "B00007M9SH",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar puzzle-solving and time travel themes."
+      },
+      {
+        "item_id": "B0046A8IRC",
+        "label": "support",
+        "score": 8,
+        "rationale": "Fantasy RPG aligns with user interests."
+      },
+      {
+        "item_id": "B001ELJEGU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Action-oriented, less focus on story."
+      },
+      {
+        "item_id": "B002XH972U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Stealth action, different gameplay style."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1185,
+    "completion_tokens": 155
+  }
+}

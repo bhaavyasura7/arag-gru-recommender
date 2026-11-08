@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08NX197P4",
+      "B09WDXK8YF",
+      "B14M8P5GRC",
+      "B07ZGG7GSY",
+      "B09M9JNWG6",
+      "B0006JMLN4",
+      "B0009MF6XU",
+      "B00007G33Y",
+      "B001DJ7PEQ",
+      "B0053UVDTE",
+      "B09DP6H2XT",
+      "B000UYC60S",
+      "B097B85RPL",
+      "B20JYNTYTY",
+      "B000ODVKUC",
+      "B0006JMLN4",
+      "B12M8P5GRC",
+      "B09CQ1C54Q",
+      "B003O6EE4U",
+      "B08NJTHY3G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08NX197P4",
+        "reason": "Compact dock for Nintendo Switch"
+      },
+      {
+        "item_id": "B09WDXK8YF",
+        "reason": "Nostalgic N64 controller"
+      },
+      {
+        "item_id": "B14M8P5GRC",
+        "reason": "Complete accessory bundle for Switch"
+      },
+      {
+        "item_id": "B07ZGG7GSY",
+        "reason": "Lightweight gaming mouse"
+      },
+      {
+        "item_id": "B09M9JNWG6",
+        "reason": "Protective controller cover"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3691,
+    "completion_tokens": 335
+  }
+}

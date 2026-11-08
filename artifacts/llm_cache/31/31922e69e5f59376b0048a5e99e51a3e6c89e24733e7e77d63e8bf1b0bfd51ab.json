@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000RA20VU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user’s gaming preferences."
+      },
+      {
+        "item_id": "B08VRZ4NRX",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a video game product."
+      },
+      {
+        "item_id": "B00269QLI8",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular game in user's preferred genre."
+      },
+      {
+        "item_id": "B008M2QC14",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS3 game aligns with user’s interests."
+      },
+      {
+        "item_id": "B08GR4TGXK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming accessory, not a game itself."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1169,
+    "completion_tokens": 158
+  }
+}

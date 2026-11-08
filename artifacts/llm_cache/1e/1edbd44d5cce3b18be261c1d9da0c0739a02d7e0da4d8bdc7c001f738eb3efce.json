@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming accessories",
+      "console protection",
+      "headphone organization",
+      "screen protection",
+      "gifts for gamers"
+    ],
+    "current_intent": "looking for more gaming-related accessories",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "overpriced accessories"
+    ],
+    "summary": "User is a gamer focused on high-quality accessories for their gaming setup, particularly for consoles and headphones."
+  },
+  "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 75
+  }
+}

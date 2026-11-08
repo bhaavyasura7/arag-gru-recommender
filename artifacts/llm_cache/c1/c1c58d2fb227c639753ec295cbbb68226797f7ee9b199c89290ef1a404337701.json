@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004TKC7BM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming mice, not games."
+      },
+      {
+        "item_id": "B01MECTTC6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming mice, not puzzles."
+      },
+      {
+        "item_id": "B00AUXRCPI",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming mice, not accessories."
+      },
+      {
+        "item_id": "B00PRJ7JN0",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming mice, not Adventure Time."
+      },
+      {
+        "item_id": "B0108NF6LQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming mice, not MMORPGs."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1082,
+    "completion_tokens": 169
+  }
+}

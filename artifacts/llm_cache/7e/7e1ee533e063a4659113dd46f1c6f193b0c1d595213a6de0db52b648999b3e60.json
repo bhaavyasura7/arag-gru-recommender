@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B06ZZCCDP7",
+      "B15M7BZF4G",
+      "B12TTT1M3B",
+      "B01KBNB7K2",
+      "B07TTT1M3B",
+      "B003XDJEIA",
+      "B00004WGW1",
+      "B07M7BZF4G",
+      "B09B9KJQDT",
+      "B002BZ11EG",
+      "B002LCA4K6",
+      "B001HX3KVA",
+      "B00VTROHIY",
+      "B0B785XS4Q",
+      "B071J5HWZS",
+      "B001G7POMA",
+      "B004EEUUMG",
+      "B0CHM4DQKZ",
+      "B00008NRMC",
+      "B20BYADRJU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B06ZZCCDP7",
+        "reason": "Popular FPS game choice"
+      },
+      {
+        "item_id": "B15M7BZF4G",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B12TTT1M3B",
+        "reason": "Compatible with multiple consoles"
+      },
+      {
+        "item_id": "B01KBNB7K2",
+        "reason": "Controller accessory for Xbox"
+      },
+      {
+        "item_id": "B07TTT1M3B",
+        "reason": "Stylish gaming accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3197,
+    "completion_tokens": 327
+  }
+}

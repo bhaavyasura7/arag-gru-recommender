@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0041HROGG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B07C3PV1PX",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo Switch."
+      },
+      {
+        "item_id": "B003R7JXMO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Xbox 360."
+      },
+      {
+        "item_id": "B00JA81WQE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Memory card not directly relevant."
+      },
+      {
+        "item_id": "B00C1TTF86",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own PlayStation 3."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 159
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07ZKGYWKQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Related to Nintendo Switch gaming accessories."
+      },
+      {
+        "item_id": "B003E66YAM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older Wii game, not directly relevant."
+      },
+      {
+        "item_id": "B000RE80Y2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Rugby game, not aligned with interests."
+      },
+      {
+        "item_id": "B0079M53XQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Book, not a video game."
+      },
+      {
+        "item_id": "B000922D0E",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Vietnam game, not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1067,
+    "completion_tokens": 163
+  }
+}

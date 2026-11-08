@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0079V4GK8",
+      "B0123D8UE2C",
+      "B0000A33W7",
+      "B12N955CE7",
+      "B001ISK4GI",
+      "B071G1DTH3",
+      "B003GSLGK6",
+      "B000666BWO",
+      "B0009TTHB0",
+      "B081DHKGQB",
+      "B006B7FLKA",
+      "B0753FLMVG",
+      "B09HMTK5MW",
+      "B015D8UE2C",
+      "B01N9USHKJ",
+      "B00269DXXO",
+      "B005ZWIV9A",
+      "B079C4BCPV",
+      "B008N4D926",
+      "B01N955CE7"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0079V4GK8",
+        "reason": "Strong narrative and action gameplay"
+      },
+      {
+        "item_id": "B0000A33W7",
+        "reason": "Engaging action-adventure experience"
+      },
+      {
+        "item_id": "B12N955CE7",
+        "reason": "Compatible with user’s gaming system"
+      },
+      {
+        "item_id": "B001ISK4GI",
+        "reason": "Useful for PSP gaming experience"
+      },
+      {
+        "item_id": "B071G1DTH3",
+        "reason": "Popular survival horror collection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3074,
+    "completion_tokens": 321
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00002SU3F",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "N64 game, not in user history."
+      },
+      {
+        "item_id": "B000SQ5LM8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's gaming interests."
+      },
+      {
+        "item_id": "B07WF9LCJV",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming keyboard aligns with user interests."
+      },
+      {
+        "item_id": "B00OQEIB48",
+        "label": "support",
+        "score": 7,
+        "rationale": "PC gamepad fits user's gaming setup."
+      },
+      {
+        "item_id": "B01N47ERK1",
+        "label": "support",
+        "score": 9,
+        "rationale": "Xbox 360 game matches user preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1234,
+    "completion_tokens": 157
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0009YDS0Q",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User prefers gaming peripherals, not pets."
+      },
+      {
+        "item_id": "B01MT1NE7T",
+        "label": "support",
+        "score": 7,
+        "rationale": "Cooling stand supports gaming setup."
+      },
+      {
+        "item_id": "B01MQ0BGOL",
+        "label": "support",
+        "score": 6,
+        "rationale": "Phone clip enhances gaming experience."
+      },
+      {
+        "item_id": "B07DL79BR6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR stand unrelated to user's interests."
+      },
+      {
+        "item_id": "B00TPM6JNG",
+        "label": "support",
+        "score": 5,
+        "rationale": "Charging station useful for gaming controllers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1174,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01MSHGS6Y",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B01B1X7CFA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in amiibo."
+      },
+      {
+        "item_id": "B09W29ZJHY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, mixed relevance."
+      },
+      {
+        "item_id": "B000G1O7SE",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older game, user prefers newer titles."
+      },
+      {
+        "item_id": "B08LB4HJT2",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys RPGs, matches interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 167
+  }
+}

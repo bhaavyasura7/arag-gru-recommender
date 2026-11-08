@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07XZ26VLN",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B01MS7FOJR",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre than user's preferences."
+      },
+      {
+        "item_id": "B09KM3Z765",
+        "label": "support",
+        "score": 7,
+        "rationale": "Relevant accessory for Xbox One user."
+      },
+      {
+        "item_id": "B00002CF8Q",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Older PC game, not aligned with interests."
+      },
+      {
+        "item_id": "B00004U47O",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system game, not relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1223,
+    "completion_tokens": 157
+  }
+}

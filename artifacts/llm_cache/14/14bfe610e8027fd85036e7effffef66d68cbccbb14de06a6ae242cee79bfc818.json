@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01MYZYPYH",
+      "B0B31XCWFR",
+      "B16GVE4ZXQ",
+      "B0030H8I4K",
+      "B000UC5ML0",
+      "B075MJLB5B",
+      "B00020LZBG",
+      "B00QRDQ9HM",
+      "B00006FWTW",
+      "B004MPR0ZC",
+      "B003QCIVUU",
+      "B092ND21SM",
+      "B00BHRD4BM",
+      "B00Z9TM72Q",
+      "B07YBWT3PK",
+      "B00IEZ6H4G",
+      "B0000A09EN",
+      "B07JK9DFKH",
+      "B002L8W5V6",
+      "B00GVE4ZXQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01MYZYPYH",
+        "reason": "High-quality RGB mechanical keyboard"
+      },
+      {
+        "item_id": "B0B31XCWFR",
+        "reason": "Wireless headset with noise cancellation"
+      },
+      {
+        "item_id": "B16GVE4ZXQ",
+        "reason": "Wireless controller for PS4"
+      },
+      {
+        "item_id": "B0030H8I4K",
+        "reason": "Popular game with multiplayer features"
+      },
+      {
+        "item_id": "B000UC5ML0",
+        "reason": "High-quality gaming controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3845,
+    "completion_tokens": 328
+  }
+}

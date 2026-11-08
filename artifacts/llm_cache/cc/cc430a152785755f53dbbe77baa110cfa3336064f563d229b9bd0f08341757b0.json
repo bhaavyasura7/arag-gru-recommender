@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B013VO5QL4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances Xbox One controller experience."
+      },
+      {
+        "item_id": "B00BQVXVYY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "LEGO games are generally well-received."
+      },
+      {
+        "item_id": "B001EYUO02",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B002I090AG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox, not Nintendo systems."
+      },
+      {
+        "item_id": "B00002STYX",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Cleaning kit is useful but not exciting."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1324,
+    "completion_tokens": 156
+  }
+}

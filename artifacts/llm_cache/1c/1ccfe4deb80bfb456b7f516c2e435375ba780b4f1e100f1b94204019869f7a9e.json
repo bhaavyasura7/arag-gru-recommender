@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00EDYADL0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "General accessory, not game-specific."
+      },
+      {
+        "item_id": "B07QN3HXRC",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with PlayStation systems."
+      },
+      {
+        "item_id": "B000AB0S38",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, not current interest."
+      },
+      {
+        "item_id": "B0836PSJRW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Repair part, not directly engaging."
+      },
+      {
+        "item_id": "B08CRWCC3Z",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Board game, not video game related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1452,
+    "completion_tokens": 154
+  }
+}

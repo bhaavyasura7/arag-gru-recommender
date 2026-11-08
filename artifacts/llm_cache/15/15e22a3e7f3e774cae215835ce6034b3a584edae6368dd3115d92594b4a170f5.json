@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B295DSPW",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming accessories for PC gamers."
+      },
+      {
+        "item_id": "B000093HZ0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Train simulator add-on, not preferred genre."
+      },
+      {
+        "item_id": "B002WWM2XW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller shell, not directly related."
+      },
+      {
+        "item_id": "B07WXJPXVQ",
+        "label": "support",
+        "score": 9,
+        "rationale": "Nintendo Switch controller, aligns with interests."
+      },
+      {
+        "item_id": "B009MFU9A0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Silicone cover, not a primary interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1265,
+    "completion_tokens": 157
+  }
+}

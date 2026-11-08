@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09QM5T323",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B00188070G",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B004WF32G8",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre to user's favorites."
+      },
+      {
+        "item_id": "B07N8PLF2Q",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a video game, more of a toy."
+      },
+      {
+        "item_id": "B004D1QC1I",
+        "label": "support",
+        "score": 7,
+        "rationale": "RPG genre aligns with user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1040,
+    "completion_tokens": 159
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0B7HW9358",
+      "B12D1D1D1",
+      "B075M7PP8Y",
+      "B0BDLHBZXV",
+      "B00CXPHO22",
+      "B004C4U1VI",
+      "B081PM41CF",
+      "B00OUDUG5W",
+      "B00CMCBXIW",
+      "B00N0WBMC",
+      "B07L15TGTW",
+      "B07LC8NPZ4",
+      "B19D1D1D1",
+      "B00006IKB5",
+      "B000UX062Y",
+      "B01B39XEMC",
+      "B00GGUE1KS",
+      "B00D1D1D1",
+      "B00D1D1D1",
+      "B00D1D1D1"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0B7HW9358",
+        "reason": "High-quality protective case"
+      },
+      {
+        "item_id": "B075M7PP8Y",
+        "reason": "Premium gaming headset"
+      },
+      {
+        "item_id": "B0BDLHBZXV",
+        "reason": "Fast charger for Nintendo"
+      },
+      {
+        "item_id": "B00CXPHO22",
+        "reason": "Stylish Xbox skin"
+      },
+      {
+        "item_id": "B004C4U1VI",
+        "reason": "Versatile component cable"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3589,
+    "completion_tokens": 326
+  }
+}

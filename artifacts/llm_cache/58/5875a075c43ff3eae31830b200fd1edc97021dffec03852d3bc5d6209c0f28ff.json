@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00005O629",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers RPGs and platformers."
+      },
+      {
+        "item_id": "B000AB603U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Strategy games differ from user's preferences."
+      },
+      {
+        "item_id": "B00GXHJG1I",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys RPGs like Persona and Final Fantasy."
+      },
+      {
+        "item_id": "B000VBIGJU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Brain training games are not user favorites."
+      },
+      {
+        "item_id": "B001EHD9JC",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys action-adventure games like Mega Man."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1421,
+    "completion_tokens": 158
+  }
+}

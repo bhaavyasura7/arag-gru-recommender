@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0BL3GPY9W",
+      "B00A7ALZ8O",
+      "B0009VXBAQ",
+      "B00SVVUOGU",
+      "B09DL5PMWL",
+      "B0036F0V4G",
+      "B004DGIYEG",
+      "B0083GAF9E",
+      "B001EYUS80",
+      "B00005LABK",
+      "B005GISQ9S",
+      "B003R7JXOM",
+      "B000035Y4P",
+      "B0088TN73M",
+      "B00005LABK",
+      "B0B413WD1M",
+      "B006P28VBM",
+      "B004Q8L46G",
+      "B001F8188Y",
+      "B007X56TZ16",
+      "B0036F0V4G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BL3GPY9W",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B00A7ALZ8O",
+        "reason": "Popular gaming title"
+      },
+      {
+        "item_id": "B0009VXBAQ",
+        "reason": "Classic gaming experience"
+      },
+      {
+        "item_id": "B00SVVUOGU",
+        "reason": "High-quality racing game"
+      },
+      {
+        "item_id": "B09DL5PMWL",
+        "reason": "Fun multiplayer golf game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3586,
+    "completion_tokens": 327
+  }
+}

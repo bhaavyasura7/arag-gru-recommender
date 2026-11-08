@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BTNG1QFB",
+      "B0BY247BZX",
+      "B13DE9DY8S",
+      "B00T55HUO0",
+      "B08XQM1QHW",
+      "B07TCPVHTM",
+      "B00IG3GPTS",
+      "B000NI8WEA",
+      "B0721GGGS9",
+      "B000LV9N8S",
+      "B004K6LQ9Y",
+      "B000U34SXC",
+      "B00ZQB28XK",
+      "B004I1JTEK",
+      "B19A73ZIL0",
+      "B07YBWT3PK",
+      "B00T55HUO0",
+      "B000K6LQ9Y",
+      "B000LV9N8S",
+      "B004I1JTEK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BTNG1QFB",
+        "reason": "Ergonomic controller for handheld mode"
+      },
+      {
+        "item_id": "B0BY247BZX",
+        "reason": "Essential carrying case for Switch"
+      },
+      {
+        "item_id": "B13DE9DY8S",
+        "reason": "VR experience for multiplayer gaming"
+      },
+      {
+        "item_id": "B00T55HUO0",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B08XQM1QHW",
+        "reason": "Classic Zelda game for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4104,
+    "completion_tokens": 333
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00002S655",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo games."
+      },
+      {
+        "item_id": "B00NERNNQO",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo 3DS aligns with user interests."
+      },
+      {
+        "item_id": "B07PRPHJJT",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with Nintendo Switch controllers."
+      },
+      {
+        "item_id": "B00K80NODC",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Xbox 360 not directly related to user."
+      },
+      {
+        "item_id": "B08YNL3HZV",
+        "label": "support",
+        "score": 5,
+        "rationale": "Nintendo DS game fits user preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1089,
+    "completion_tokens": 154
+  }
+}

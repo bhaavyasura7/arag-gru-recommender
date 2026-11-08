@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00YDV70NW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B000NKWO8S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's interests."
+      },
+      {
+        "item_id": "B07DCYSZ1Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different game."
+      },
+      {
+        "item_id": "B00578W1ZW",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar genre and gameplay style."
+      },
+      {
+        "item_id": "B000AM249S",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Different game type than preferred."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1020,
+    "completion_tokens": 149
+  }
+}

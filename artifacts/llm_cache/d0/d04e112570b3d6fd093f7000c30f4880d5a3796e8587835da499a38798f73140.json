@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07BGYLS1L",
+      "B00D5SZ04K",
+      "B001EYUQTQ",
+      "B014U0GRXE",
+      "B09B31DM6P",
+      "B08JGCDDKM",
+      "B00LV8IF8O",
+      "B001V7QIDY",
+      "B003IPCF02",
+      "B002JTX610",
+      "B08H8SKHNT",
+      "B002I08VDI",
+      "B0009XEC0M",
+      "B00000K2R4",
+      "B00421B36S",
+      "B07J27TFCD",
+      "B00019HNNC",
+      "B08ZXKMYRL",
+      "B07B31DM6P",
+      "B001EYUQTQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07BGYLS1L",
+        "reason": "Engaging story-driven gameplay"
+      },
+      {
+        "item_id": "B00D5SZ04K",
+        "reason": "High-quality graphics and action"
+      },
+      {
+        "item_id": "B001EYUQTQ",
+        "reason": "Immersive military experience"
+      },
+      {
+        "item_id": "B014U0GRXE",
+        "reason": "Includes high-quality adventure games"
+      },
+      {
+        "item_id": "B09B31DM6P",
+        "reason": "Unique gameplay and art style"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3956,
+    "completion_tokens": 321
+  }
+}

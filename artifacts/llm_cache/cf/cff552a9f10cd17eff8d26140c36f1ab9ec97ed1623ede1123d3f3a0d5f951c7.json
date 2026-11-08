@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The user seeks classic video games, particularly multiplayer and nostalgic titles. Relevant candidates include NHL 2004, a classic sports game, and Tekken 6, a multiplayer fighting game, aligning with the user's interests in classic gaming experiences and avoiding modern or single-player games."
+  },
+  "usage": {
+    "prompt_tokens": 1022,
+    "completion_tokens": 58
+  }
+}

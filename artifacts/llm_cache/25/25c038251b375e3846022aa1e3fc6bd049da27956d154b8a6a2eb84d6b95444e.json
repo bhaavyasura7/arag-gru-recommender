@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01AJRKKGC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B08P5THG2C",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B07DFV769C",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Mousepad is general gaming accessory."
+      },
+      {
+        "item_id": "B08QRZ1HSW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset accessory, not specific to Xbox."
+      },
+      {
+        "item_id": "B00A63GL4A",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys video games, relevant title."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 163
+  }
+}

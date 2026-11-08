@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUS7G",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Different genre than user's interests."
+      },
+      {
+        "item_id": "B079C6W7YJ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user's preferences."
+      },
+      {
+        "item_id": "B00KVQYJR8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar gameplay style, but different theme."
+      },
+      {
+        "item_id": "B07YBXFDYN",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not suitable for user's interests."
+      },
+      {
+        "item_id": "B00F676U2O",
+        "label": "support",
+        "score": 7,
+        "rationale": "Retro gaming aligns with user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1130,
+    "completion_tokens": 158
+  }
+}

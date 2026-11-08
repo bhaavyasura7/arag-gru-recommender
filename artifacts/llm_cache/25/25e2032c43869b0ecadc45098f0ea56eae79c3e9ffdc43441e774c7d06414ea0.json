@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01MXE0FKC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not directly related to games."
+      },
+      {
+        "item_id": "B00G2EVF3E",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys video games like PES."
+      },
+      {
+        "item_id": "B009VURIUA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not a strong match."
+      },
+      {
+        "item_id": "B00CMQTTZ2",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox One game aligns with user interests."
+      },
+      {
+        "item_id": "B00B7UNO4Q",
+        "label": "support",
+        "score": 6,
+        "rationale": "Xbox 360 game fits user gaming preference."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1307,
+    "completion_tokens": 159
+  }
+}

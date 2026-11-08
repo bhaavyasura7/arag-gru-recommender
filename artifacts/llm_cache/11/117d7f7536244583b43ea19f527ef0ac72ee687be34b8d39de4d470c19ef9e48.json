@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07V693FF7",
+      "B00006FWU7",
+      "B001EYUXWQ",
+      "B003Q9RGRW",
+      "B004ZCPL26",
+      "B002JTX9X0",
+      "B00DB2BI00",
+      "B007CSCWVI",
+      "B00CJ9OTNE",
+      "B003EUPCZG",
+      "B00K0NV5J2",
+      "B00DE2W5XG",
+      "B00G6F8K8G",
+      "B00G6F8K8G",
+      "B00G6F8K8G",
+      "B00G6F8K8G",
+      "B00G6F8K8G",
+      "B00G6F8K8G",
+      "B00G6F8K8G",
+      "B00G6F8K8G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07V693FF7",
+        "reason": "Retro gaming accessory for Sega"
+      },
+      {
+        "item_id": "B00006FWU7",
+        "reason": "Classic racing game for nostalgia"
+      },
+      {
+        "item_id": "B001EYUXWQ",
+        "reason": "Retro horror game experience"
+      },
+      {
+        "item_id": "B003Q9RGRW",
+        "reason": "Chatpad for Xbox 360 communication"
+      },
+      {
+        "item_id": "B004ZCPL26",
+        "reason": "Superhero game on legacy console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3770,
+    "completion_tokens": 344
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00002ST7U",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games only."
+      },
+      {
+        "item_id": "B008AGW60S",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not a game, but related to gaming."
+      },
+      {
+        "item_id": "B00BUG8BJ0",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00DOD51UY",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Charging station, not a game."
+      },
+      {
+        "item_id": "B003KT9E64",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Fitness accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1027,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "first-person shooters",
+      "platformers",
+      "Nintendo games",
+      "multiplayer experiences",
+      "gaming accessories"
+    ],
+    "current_intent": "looking for new video games to play on current consoles",
+    "avoid": [
+      "puzzle games",
+      "mobile games",
+      "low-rated titles"
+    ],
+    "summary": "The user enjoys action-packed video games, particularly shooters and platformers, and is currently seeking new gaming experiences for their consoles."
+  },
+  "usage": {
+    "prompt_tokens": 395,
+    "completion_tokens": 81
+  }
+}

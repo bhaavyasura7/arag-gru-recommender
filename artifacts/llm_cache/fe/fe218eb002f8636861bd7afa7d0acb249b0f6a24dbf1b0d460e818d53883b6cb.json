@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "1633441180",
+      "B0033764FC",
+      "B000034DC6",
+      "B019K0NV5J2",
+      "B003DNSR3S",
+      "B08MBG5CQB",
+      "B099YTDMZ3",
+      "B000N5Z2L4",
+      "B00EDU8HY4",
+      "B081W1VBKN",
+      "B014278KKI",
+      "B000SL4IIG",
+      "B0050SYXSW",
+      "B000CCXCYC",
+      "B071G61TRM",
+      "B0050SVHRC",
+      "B000SFK0T8",
+      "B00LLG5B88",
+      "B000034DC6",
+      "B000N5Z2L4",
+      "B00K0NV5J2"
+    ],
+    "reasons": [
+      {
+        "item_id": "1633441180",
+        "reason": "Star Wars strategy game expansion"
+      },
+      {
+        "item_id": "B0033764FC",
+        "reason": "Dragon Age strategy game expansion"
+      },
+      {
+        "item_id": "B000034DC6",
+        "reason": "Retro game for PlayStation"
+      },
+      {
+        "item_id": "B019K0NV5J2",
+        "reason": "Dragon Age expansion for Inquisition"
+      },
+      {
+        "item_id": "B003DNSR3S",
+        "reason": "Dragon Age expansion for Origins"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3545,
+    "completion_tokens": 325
+  }
+}

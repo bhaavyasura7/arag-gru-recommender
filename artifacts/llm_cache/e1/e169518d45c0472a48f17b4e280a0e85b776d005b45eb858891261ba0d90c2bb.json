@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00005ME6O",
+      "B001LX4BMS",
+      "B000068I2T",
+      "B001EGJTEW",
+      "B0001NM4FU",
+      "B074FYJ88V",
+      "B09GFM13FS",
+      "B00IJG6DOY",
+      "B01N9BFM31",
+      "B07HRNV5QM",
+      "B000E8D0EQ",
+      "B08SG26GDD",
+      "B000035XCO",
+      "B01HA99MOI",
+      "B07L8MVVKR",
+      "B004RS1SQQ",
+      "B07RC5P99K",
+      "B08P1N8LDQ",
+      "B01NBF05X6",
+      "B000068I2T"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00005ME6O",
+        "reason": "Classic horror game on PS2"
+      },
+      {
+        "item_id": "B001LX4BMS",
+        "reason": "Nostalgic kart racing experience"
+      },
+      {
+        "item_id": "B000068I2T",
+        "reason": "Rare Japanese import game"
+      },
+      {
+        "item_id": "B001EGJTEW",
+        "reason": "Interactive storytelling for kids"
+      },
+      {
+        "item_id": "B0001NM4FU",
+        "reason": "Fun activities based on Spiderman"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3232,
+    "completion_tokens": 321
+  }
+}

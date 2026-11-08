@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07DY1JKRH",
+      "B003JVKHEQ",
+      "B001EYUQR8",
+      "B003171CEW",
+      "B20BSDQ8KSY",
+      "B003YVK5T8",
+      "B005GTNBGK",
+      "B003RS1AIS",
+      "B002LHGOU0",
+      "B002RRLQIO",
+      "B009T3EOA6",
+      "B01FZ884E0",
+      "B01GOK34SO",
+      "B07ZJ6RY1W",
+      "B004LLHFAW",
+      "B002I0K6DG",
+      "B00VG3PUFA",
+      "B16B005YVTHT0",
+      "B002RRLQIO",
+      "B003171CEW",
+      "B003YVK5T8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07DY1JKRH",
+        "reason": "Engaging multiplayer horror experience"
+      },
+      {
+        "item_id": "B003JVKHEQ",
+        "reason": "Popular action FPS with immersive gameplay"
+      },
+      {
+        "item_id": "B001EYUQR8",
+        "reason": "Exciting hunting action gameplay"
+      },
+      {
+        "item_id": "B003171CEW",
+        "reason": "Highly rated baseball simulation"
+      },
+      {
+        "item_id": "B20BSDQ8KSY",
+        "reason": "Low-latency gaming headset for immersion"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3850,
+    "completion_tokens": 331
+  }
+}

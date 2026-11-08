@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BHT94H1N",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PC/PS4, not Switch."
+      },
+      {
+        "item_id": "B01LZV4MZB",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Xbox games, relevant content."
+      },
+      {
+        "item_id": "B01GU9NQMS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in Animal Crossing."
+      },
+      {
+        "item_id": "B00FRCX8ZK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in 3DS."
+      },
+      {
+        "item_id": "B0B8QR5895",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likes gaming accessories for PC."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1165,
+    "completion_tokens": 173
+  }
+}

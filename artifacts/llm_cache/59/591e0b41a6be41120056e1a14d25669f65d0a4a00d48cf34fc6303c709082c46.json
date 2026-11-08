@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0056YAGUE",
+      "B09GM4283G",
+      "B01N7WNV5M",
+      "B0091R8Z8G",
+      "B017QU5KLK",
+      "B004D1Z3UO",
+      "B007WPGS8O",
+      "B000CFWHQI",
+      "B003ZHXHUA",
+      "B00F27JDTU",
+      "B0089VLF2O",
+      "B00BI9ME4M",
+      "B001W0Y5VM",
+      "B006JKARZS",
+      "B00BI9ME4M",
+      "B00069NVWE",
+      "B010U57G1K",
+      "B0053BCP40",
+      "B00F27JDTU",
+      "B00BI9ME4M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0056YAGUE",
+        "reason": "Popular Xbox trivia game"
+      },
+      {
+        "item_id": "B09GM4283G",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B01N7WNV5M",
+        "reason": "Excellent sound quality headset"
+      },
+      {
+        "item_id": "B017QU5KLK",
+        "reason": "Top-rated Xbox One game"
+      },
+      {
+        "item_id": "B004D1Z3UO",
+        "reason": "Useful disc repair tool"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3543,
+    "completion_tokens": 324
+  }
+}

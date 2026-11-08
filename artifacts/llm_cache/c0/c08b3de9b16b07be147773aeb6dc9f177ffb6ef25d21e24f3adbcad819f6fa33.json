@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07H57RV43",
+      "B07FX6JXC1",
+      "B10K53BKLC",
+      "B08BNNHYP9",
+      "B07WH3VP41",
+      "B0983WH43N",
+      "B08434HXLG",
+      "B07K53BKLC",
+      "B000KHYKJA",
+      "B00GUSRZMM",
+      "B00IAVDOS6",
+      "B000034DC7",
+      "B00305HJKQ",
+      "B00HDO40JI",
+      "B00JC5Y2L2",
+      "B07FZ95SHS",
+      "B07K53BKLC",
+      "B07678GGFN",
+      "B09V2W72P8",
+      "B00GCBAF8I",
+      "B00IAVDOS6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07H57RV43",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B07FX6JXC1",
+        "reason": "Compatible with multiple platforms"
+      },
+      {
+        "item_id": "B10K53BKLC",
+        "reason": "Wired controller for Xbox One"
+      },
+      {
+        "item_id": "B08BNNHYP9",
+        "reason": "Durable Xbox controller skin"
+      },
+      {
+        "item_id": "B07WH3VP41",
+        "reason": "Portable case for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3268,
+    "completion_tokens": 324
+  }
+}

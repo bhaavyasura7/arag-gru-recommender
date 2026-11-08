@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B15LCGCJNP",
+      "B08KVKDYHV",
+      "B000VA5Y1Y",
+      "B08B4ZSZ5N",
+      "B01CRO22CK",
+      "B074F693NN",
+      "B000AAVPQS",
+      "B001EYUQKK",
+      "B07PFT19MG",
+      "B00005NIUQ",
+      "B00002SVPV",
+      "B00A63V8MU",
+      "B07LCGCJNP",
+      "B01M3QW3Q0",
+      "B004LB59A0",
+      "B075Y6RS13",
+      "B08B4ZSZ5N",
+      "B00005Y4PV",
+      "B00005NIUQ",
+      "B000AAVPQS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07LCGCJNP",
+        "reason": "Affordable Nintendo controller set"
+      },
+      {
+        "item_id": "B08KVKDYHV",
+        "reason": "Nintendo Switch game"
+      },
+      {
+        "item_id": "B000VA5Y1Y",
+        "reason": "Classic Nintendo console"
+      },
+      {
+        "item_id": "B08B4ZSZ5N",
+        "reason": "Protective controller skin"
+      },
+      {
+        "item_id": "B01CRO22CK",
+        "reason": "Affordable controller skin"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3298,
+    "completion_tokens": 314
+  }
+}

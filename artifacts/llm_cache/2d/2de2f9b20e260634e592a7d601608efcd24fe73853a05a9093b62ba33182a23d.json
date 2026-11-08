@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00OZZ21T4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers action and adventure games."
+      },
+      {
+        "item_id": "B000GPVUOY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys action-packed gameplay experiences."
+      },
+      {
+        "item_id": "B08N7VJBH6",
+        "label": "support",
+        "score": 9,
+        "rationale": "User loves Mario games and creativity."
+      },
+      {
+        "item_id": "B0001JXACA",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has a history with Mario games."
+      },
+      {
+        "item_id": "B0051D8PGM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has mixed interest in stealth games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2476,
+    "completion_tokens": 155
+  }
+}

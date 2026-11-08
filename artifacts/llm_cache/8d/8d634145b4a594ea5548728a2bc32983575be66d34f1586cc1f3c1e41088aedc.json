@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B11IY5B7MW",
+      "B09V54R25X",
+      "B07C16D9KK",
+      "B07P5XLFDD",
+      "B0784RC4RD",
+      "B17XK92BDN",
+      "B00M3WXPKK",
+      "B0765TZVMD",
+      "B14C6K3WDYH",
+      "B0054U3UWQ",
+      "B000N24EO8",
+      "B07SX9MSVD",
+      "B079S26TB7",
+      "B00007FEFT",
+      "B00NUICI5O",
+      "B01IY5B7MW",
+      "B08P5Q51GC",
+      "B0050SYZ2G",
+      "B12C6K3WDYH",
+      "B07XK92BDN"
+    ],
+    "reasons": [
+      {
+        "item_id": "B11IY5B7MW",
+        "reason": "Best Nintendo controller option"
+      },
+      {
+        "item_id": "B09V54R25X",
+        "reason": "Great for game card storage"
+      },
+      {
+        "item_id": "B07C16D9KK",
+        "reason": "Essential for Nintendo Switch games"
+      },
+      {
+        "item_id": "B07P5XLFDD",
+        "reason": "Compatible Wii U controller"
+      },
+      {
+        "item_id": "B0784RC4RD",
+        "reason": "Cute carrying case for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3434,
+    "completion_tokens": 333
+  }
+}

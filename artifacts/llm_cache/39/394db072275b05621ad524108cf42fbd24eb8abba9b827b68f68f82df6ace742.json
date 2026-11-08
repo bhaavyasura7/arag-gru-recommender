@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The user seeks Nintendo-related products, focusing on accessories and family-friendly games. Relevant candidates include Nintendo Switch accessories, game storage solutions, and controllers, emphasizing usability and compatibility with Nintendo systems, while avoiding non-Nintendo and violent games."
+  },
+  "usage": {
+    "prompt_tokens": 2919,
+    "completion_tokens": 50
+  }
+}

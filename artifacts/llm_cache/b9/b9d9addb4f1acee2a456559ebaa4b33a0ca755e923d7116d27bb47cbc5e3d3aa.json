@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "Nintendo Switch",
+      "gaming accessories",
+      "Zelda franchise",
+      "Xbox gaming"
+    ],
+    "current_intent": "looking for new gaming accessories or games for Nintendo Switch",
+    "avoid": [
+      "non-gaming products",
+      "low-quality accessories",
+      "Xbox games"
+    ],
+    "summary": "The user is a dedicated gamer with a preference for Nintendo Switch and Xbox products, seeking high-quality gaming accessories and titles."
+  },
+  "usage": {
+    "prompt_tokens": 345,
+    "completion_tokens": 96
+  }
+}

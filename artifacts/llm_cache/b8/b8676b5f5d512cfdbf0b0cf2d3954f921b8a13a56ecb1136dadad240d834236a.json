@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07D1H7CW3",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo Switch interest not established."
+      },
+      {
+        "item_id": "B0862GHVT9",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PlayStation interest but genre mismatch."
+      },
+      {
+        "item_id": "B07X56S77D",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wii U game aligns with user interests."
+      },
+      {
+        "item_id": "B000B6MLUA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox 360 controller not relevant."
+      },
+      {
+        "item_id": "B00000K10O",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Sega Dreamcast game not previously played."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 158
+  }
+}

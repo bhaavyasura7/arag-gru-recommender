@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0913J86YM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Mouse pad not directly related to games."
+      },
+      {
+        "item_id": "B091HSSYV9",
+        "label": "support",
+        "score": 7,
+        "rationale": "Keyboard enhances gaming experience."
+      },
+      {
+        "item_id": "B00Z9LUDX4",
+        "label": "support",
+        "score": 8,
+        "rationale": "PlayStation 4 game aligns with interests."
+      },
+      {
+        "item_id": "B000062YCV",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system game, less relevant."
+      },
+      {
+        "item_id": "B01CDKE9M4",
+        "label": "support",
+        "score": 6,
+        "rationale": "DLC for popular fighting game series."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 155
+  }
+}

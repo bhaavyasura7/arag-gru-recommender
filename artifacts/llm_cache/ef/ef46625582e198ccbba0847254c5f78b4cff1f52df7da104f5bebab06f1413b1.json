@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B004ZCPKDG",
+      "B19TSV6972",
+      "B0028T8Z3A",
+      "B07L2DTNNZ",
+      "B005LH6PYM",
+      "B00001LCD8",
+      "B07PGPK3BD",
+      "B0BMW75V7J",
+      "B0C3HJ7K8S",
+      "B0B3MGVG3W",
+      "B088FK3GKH",
+      "B0038KQYA4",
+      "B073S4QT54",
+      "B086YJ6L9B",
+      "B12F4FKSZI",
+      "B0QCP5L9F",
+      "B0F4FKSZI",
+      "B0C3HJ7K8S",
+      "B0BMW75V7J",
+      "B0B3MGVG3W"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004ZCPKDG",
+        "reason": "Fun and engaging multiplayer game"
+      },
+      {
+        "item_id": "B19TSV6972",
+        "reason": "Interactive PS5 controller skin"
+      },
+      {
+        "item_id": "B0028T8Z3A",
+        "reason": "Variety of engaging game modes"
+      },
+      {
+        "item_id": "B07L2DTNNZ",
+        "reason": "LED buttons for arcade gaming"
+      },
+      {
+        "item_id": "B005LH6PYM",
+        "reason": "Action-packed hack 'n slash game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3715,
+    "completion_tokens": 339
+  }
+}

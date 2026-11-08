@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08Z3J17ZY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User owns PS5, needs protection."
+      },
+      {
+        "item_id": "B004GKNKQQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not a strong match."
+      },
+      {
+        "item_id": "B001G6064C",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PS3 games, similar genre."
+      },
+      {
+        "item_id": "B0BM48ZLZT",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Switch accessories, not relevant to user."
+      },
+      {
+        "item_id": "B07WKJNQ4C",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Arcade parts, not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1448,
+    "completion_tokens": 160
+  }
+}

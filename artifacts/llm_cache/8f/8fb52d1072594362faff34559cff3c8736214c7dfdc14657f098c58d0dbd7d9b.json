@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000TGJHRW",
+      "B07G5NHRCM",
+      "B006YDPU48",
+      "B00741NABE",
+      "B092VZ4NC7",
+      "B15D9LZ73R",
+      "B01MDOFPBU",
+      "B07FJRHFQF",
+      "B08S72G3K8",
+      "B001L5U0KI",
+      "B000BBODYC",
+      "B01CTNIV7E",
+      "B07GN8YD2H",
+      "B0094096EI",
+      "B000EN81R2",
+      "B07TS2ZTXL",
+      "B01MXPTJPO",
+      "B005CG2GS6",
+      "B14FJHFQF",
+      "B000CSUL40"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000TGJHRW",
+        "reason": "Classic Nintendo game, highly nostalgic"
+      },
+      {
+        "item_id": "B07G5NHRCM",
+        "reason": "Popular action-adventure game"
+      },
+      {
+        "item_id": "B006YDPU48",
+        "reason": "Classic action RPG, highly rated"
+      },
+      {
+        "item_id": "B00741NABE",
+        "reason": "Collector's edition, bonus content"
+      },
+      {
+        "item_id": "B092VZ4NC7",
+        "reason": "Storage for Nintendo games, practical"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3112,
+    "completion_tokens": 323
+  }
+}

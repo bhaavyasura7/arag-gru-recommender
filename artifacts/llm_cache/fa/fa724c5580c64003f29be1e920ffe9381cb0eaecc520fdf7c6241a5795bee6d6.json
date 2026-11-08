@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B071G61TRM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre and gameplay style."
+      },
+      {
+        "item_id": "B00W9DHUBS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to gaming but not preferred."
+      },
+      {
+        "item_id": "B003NSLGW2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00000INR2",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Legacy system accessory, not a game."
+      },
+      {
+        "item_id": "B073ZR63P8",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar art style and gameplay challenge."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1261,
+    "completion_tokens": 152
+  }
+}

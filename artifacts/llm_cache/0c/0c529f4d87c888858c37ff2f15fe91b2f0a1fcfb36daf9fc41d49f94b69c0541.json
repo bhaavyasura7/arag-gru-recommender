@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002RS7NB2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B003QX4F7C",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PlayStation games."
+      },
+      {
+        "item_id": "B0B28CMVJV",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B01NCVU39G",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes competitive video games."
+      },
+      {
+        "item_id": "B0041RRSP8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Targeted at younger audience."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1339,
+    "completion_tokens": 151
+  }
+}

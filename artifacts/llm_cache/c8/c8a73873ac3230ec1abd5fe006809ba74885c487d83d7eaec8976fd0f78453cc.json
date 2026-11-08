@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002FQIPPO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games, not PC."
+      },
+      {
+        "item_id": "B000H29ZPM",
+        "label": "support",
+        "score": 7,
+        "rationale": "Classic Nintendo game aligns with interests."
+      },
+      {
+        "item_id": "B00861ML3Y",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PS4 accessory, not relevant to user."
+      },
+      {
+        "item_id": "B00IB02RD4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PS4 charger, user prefers Nintendo products."
+      },
+      {
+        "item_id": "B003INEU0C",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, not directly aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1110,
+    "completion_tokens": 163
+  }
+}

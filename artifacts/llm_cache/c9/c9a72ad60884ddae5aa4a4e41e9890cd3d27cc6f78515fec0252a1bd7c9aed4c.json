@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008J2RFV8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user prefers consoles."
+      },
+      {
+        "item_id": "B0012NO6H2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Adventure game, user prefers action."
+      },
+      {
+        "item_id": "B001OZJE52",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Game accessory, not a game."
+      },
+      {
+        "item_id": "B00004UD3W",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Music games not in user history."
+      },
+      {
+        "item_id": "B0006NL1HM",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Strategy game, user prefers action games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 595,
+    "completion_tokens": 157
+  }
+}

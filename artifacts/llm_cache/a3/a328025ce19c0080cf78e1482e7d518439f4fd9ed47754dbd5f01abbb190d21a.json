@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001AZFSGA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox and PlayStation games."
+      },
+      {
+        "item_id": "B0785SFKYF",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox, user owns Xbox."
+      },
+      {
+        "item_id": "B07JVQLSLY",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PlayStation 4 games."
+      },
+      {
+        "item_id": "B0050SYZ2G",
+        "label": "support",
+        "score": 6,
+        "rationale": "Xbox 360 game aligns with user interests."
+      },
+      {
+        "item_id": "B00004OCYH",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, less relevant to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1211,
+    "completion_tokens": 160
+  }
+}

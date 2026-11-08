@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07NRS4F6G",
+      "B087RS5P1K",
+      "B004TPVHB8",
+      "B10CGGNJ56",
+      "B01N418KHK",
+      "B00GCB63ZC",
+      "B00HQCSHKK",
+      "B09HQK356N",
+      "B005J2HLTC",
+      "B003JKKNLO",
+      "B002DGRUU2",
+      "B07SKGVHR4",
+      "B00JUQMV70",
+      "B00GSHYMYO",
+      "B07PQ7B1CP",
+      "B07JXV1FYY",
+      "B00006ZCD0",
+      "B007RE6542",
+      "B096DZFCR1",
+      "1945625937"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07NRS4F6G",
+        "reason": "Essential charging dock for Switch"
+      },
+      {
+        "item_id": "B087RS5P1K",
+        "reason": "Joy-Con replacement for Switch"
+      },
+      {
+        "item_id": "B004TPVHB8",
+        "reason": "Protective case for 3DS"
+      },
+      {
+        "item_id": "B10CGGNJ56",
+        "reason": "Dust cover for DS Lite"
+      },
+      {
+        "item_id": "B01N418KHK",
+        "reason": "Wired controllers for NES Classic"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2986,
+    "completion_tokens": 321
+  }
+}

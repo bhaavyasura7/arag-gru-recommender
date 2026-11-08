@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B59BNMCP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers racing games but no history."
+      },
+      {
+        "item_id": "B07BKXHNTF",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox and Nintendo systems."
+      },
+      {
+        "item_id": "B001EYUSYO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy game, not in user history."
+      },
+      {
+        "item_id": "7542614444",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy game, not in user history."
+      },
+      {
+        "item_id": "B001UAAX60",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Wii accessory, user prefers newer systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1970,
+    "completion_tokens": 153
+  }
+}

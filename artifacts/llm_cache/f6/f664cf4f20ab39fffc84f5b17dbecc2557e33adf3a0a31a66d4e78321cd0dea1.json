@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003IPCF02",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Xbox games, similar genre."
+      },
+      {
+        "item_id": "B002HJYKG2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action over farming games."
+      },
+      {
+        "item_id": "B00BGA9WK2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Console is compatible, but not a game."
+      },
+      {
+        "item_id": "B00HVBPRUO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not directly related to games."
+      },
+      {
+        "item_id": "B000W5Y49G",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers PlayStation, not Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1158,
+    "completion_tokens": 161
+  }
+}

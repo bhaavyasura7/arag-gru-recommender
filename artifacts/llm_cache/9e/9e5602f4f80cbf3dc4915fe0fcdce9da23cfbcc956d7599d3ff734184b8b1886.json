@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B086M4DQ7R",
+      "B14H3CXTVQ",
+      "B01EZAA2ZI",
+      "B005UUO9CK",
+      "B00B0SWB9Y",
+      "B00BY92RC0",
+      "B07G22JS2N",
+      "B00F3DGF76",
+      "B00BSOW69K",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0",
+      "B00BY92RC0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B086M4DQ7R",
+        "reason": "Compatible with Nintendo Switch"
+      },
+      {
+        "item_id": "B14H3CXTVQ",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B01EZAA2ZI",
+        "reason": "Family-friendly game experience"
+      },
+      {
+        "item_id": "B005UUO9CK",
+        "reason": "Fun multiplayer racing game"
+      },
+      {
+        "item_id": "B00B0SWB9Y",
+        "reason": "Soft case for Nintendo Wii U"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3134,
+    "completion_tokens": 321
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00002STOT",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming peripherals, not games."
+      },
+      {
+        "item_id": "B0CBRT4BWW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own a Nintendo Switch."
+      },
+      {
+        "item_id": "B003BS6MF0",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a Nintendo DS."
+      },
+      {
+        "item_id": "B08GJ5FX91",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no Xbox 360 interest shown."
+      },
+      {
+        "item_id": "B0018BJPHO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers peripherals over PC games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1390,
+    "completion_tokens": 164
+  }
+}

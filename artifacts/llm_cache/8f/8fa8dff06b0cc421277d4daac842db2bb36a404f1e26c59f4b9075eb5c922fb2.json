@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00WVV1P82",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Unfamiliar genre for user."
+      },
+      {
+        "item_id": "B006MQH644",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Mixed interest in collections."
+      },
+      {
+        "item_id": "B001ECQS9K",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys fighting games."
+      },
+      {
+        "item_id": "B001KW97TM",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likes boxing games."
+      },
+      {
+        "item_id": "B016L2NLL0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different gameplay style than preferred."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1321,
+    "completion_tokens": 143
+  }
+}

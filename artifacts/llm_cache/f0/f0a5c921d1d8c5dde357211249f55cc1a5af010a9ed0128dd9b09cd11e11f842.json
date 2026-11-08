@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09KWYMQ8K",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers retro gaming, not Sims."
+      },
+      {
+        "item_id": "B01N33LIXR",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Zelda games, highly relevant."
+      },
+      {
+        "item_id": "B00HN9LS48",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no Xbox-related interests."
+      },
+      {
+        "item_id": "B07KXFB1P8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User does not show Xbox interest."
+      },
+      {
+        "item_id": "B0C8RZLDCK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no Wii U gamepad history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1525,
+    "completion_tokens": 162
+  }
+}

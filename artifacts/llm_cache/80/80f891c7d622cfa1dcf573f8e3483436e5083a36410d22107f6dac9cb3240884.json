@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00005QEFD",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B006ZQ85YG",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox, user enjoys Xbox games."
+      },
+      {
+        "item_id": "B001EYUVHS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Survival horror may interest user."
+      },
+      {
+        "item_id": "B001EYUQT6",
+        "label": "support",
+        "score": 9,
+        "rationale": "Call of Duty series matches user interests."
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances online gaming experience for Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1206,
+    "completion_tokens": 155
+  }
+}

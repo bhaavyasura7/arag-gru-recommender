@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00C1TTF86",
+      "B07GRL9Y7B",
+      "B07L4S24SB",
+      "B09YVH6Y4L",
+      "B00004R9IK",
+      "B06XPBCJLC",
+      "B000069AT5",
+      "B07SRDWVT7",
+      "B003KMSL9M",
+      "B00A3J3O4M",
+      "B07YVH6Y4L",
+      "B004SZ9NVU",
+      "B078YR9HP9",
+      "B002E6XY6U",
+      "B00HNY9KIO",
+      "B010WPZ0JS",
+      "B003Z7VSD8",
+      "B07R4TZBFF",
+      "B00062W2GW",
+      "B07YVH6Y4L",
+      "B003Z7VSD8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00C1TTF86",
+        "reason": "Popular action shooter game"
+      },
+      {
+        "item_id": "B07GRL9Y7B",
+        "reason": "New PS4 action-adventure title"
+      },
+      {
+        "item_id": "B07L4S24SB",
+        "reason": "Essential Xbox controller accessory"
+      },
+      {
+        "item_id": "B00004R9IK",
+        "reason": "Classic action game for nostalgia"
+      },
+      {
+        "item_id": "B06XPBCJLC",
+        "reason": "Compatible with popular gaming console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3308,
+    "completion_tokens": 343
+  }
+}

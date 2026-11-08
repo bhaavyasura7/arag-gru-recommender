@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00B1N07QM",
+      "B006W1F1D4",
+      "B00KUYZ7I6",
+      "B00DE2W5XG",
+      "B00N73UUJI",
+      "B00KSQHX1K",
+      "B00KVOVBGM",
+      "B018JDBWQ0",
+      "B00EP2WNKY",
+      "B00N5Z2L4",
+      "B00R7JXOM",
+      "B005UUOAOM",
+      "B00B1N07QM",
+      "B00DE2W5XG",
+      "B00N73UUJI",
+      "B00N5Z2L4",
+      "B00EP2WNKY",
+      "B00R7JXOM",
+      "B005UUOAOM",
+      "B00B1N07QM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00B1N07QM",
+        "reason": "High-performance gaming keypad"
+      },
+      {
+        "item_id": "B00KUYZ7I6",
+        "reason": "Mechanical gaming keypad with RGB"
+      },
+      {
+        "item_id": "B00DE2W5XG",
+        "reason": "Popular gaming console bundle"
+      },
+      {
+        "item_id": "B00N73UUJI",
+        "reason": "Highly rated action game"
+      },
+      {
+        "item_id": "B00KSQHX1K",
+        "reason": "Complete Halo collection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3787,
+    "completion_tokens": 328
+  }
+}

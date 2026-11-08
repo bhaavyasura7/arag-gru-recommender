@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "retro video games",
+      "Nintendo consoles",
+      "PlayStation games",
+      "multiplayer experiences",
+      "classic gaming accessories"
+    ],
+    "current_intent": "looking for more retro video games or consoles",
+    "avoid": [
+      "modern gaming",
+      "mobile games",
+      "non-gaming products"
+    ],
+    "summary": "User enjoys retro video games and consoles, particularly from Nintendo and PlayStation, and seeks similar products."
+  },
+  "usage": {
+    "prompt_tokens": 348,
+    "completion_tokens": 76
+  }
+}

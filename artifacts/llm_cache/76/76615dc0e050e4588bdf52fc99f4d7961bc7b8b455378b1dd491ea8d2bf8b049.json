@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07MR22F4X",
+      "B00YXEAAWC",
+      "B0B5G6L9VM",
+      "B07RDF2HTR",
+      "B08MMSW147",
+      "B09BZZZVPV",
+      "B07DL79BR6",
+      "B00376AVEE",
+      "B003BS6MF0",
+      "B00002STOT",
+      "B0018BJPHO",
+      "B07VHLQ2VX",
+      "B09MB5N1F3",
+      "B005VR2OUG",
+      "B00FMHV5U0",
+      "B08GJ5FX91",
+      "B07DL79BR6",
+      "B0000645OV",
+      "B07MR22F4X",
+      "B00YXEAAWC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07MR22F4X",
+        "reason": "RGB keyboard and mouse combo"
+      },
+      {
+        "item_id": "B00YXEAAWC",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B0B5G6L9VM",
+        "reason": "Gaming accessory for Xbox"
+      },
+      {
+        "item_id": "B07RDF2HTR",
+        "reason": "Cooling stand for PS4"
+      },
+      {
+        "item_id": "B08MMSW147",
+        "reason": "Wireless headset for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3864,
+    "completion_tokens": 323
+  }
+}

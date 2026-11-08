@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00ZQB28XK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation 3 games."
+      },
+      {
+        "item_id": "B001EYUQTQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 3 games."
+      },
+      {
+        "item_id": "B0B76FDSCP",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not relevant to user's console."
+      },
+      {
+        "item_id": "B07624RBWB",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Nintendo Switch."
+      },
+      {
+        "item_id": "B01CUD2PJI",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC headset, not PlayStation related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1164,
+    "completion_tokens": 158
+  }
+}

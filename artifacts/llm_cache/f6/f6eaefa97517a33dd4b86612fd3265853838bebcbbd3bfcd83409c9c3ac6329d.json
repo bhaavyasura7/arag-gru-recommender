@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01HI273ZW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to Zelda games."
+      },
+      {
+        "item_id": "B00R465V0W",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Nintendo systems, not games."
+      },
+      {
+        "item_id": "B00LP35WPY",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different genre, not Zelda-related."
+      },
+      {
+        "item_id": "B01KT5JG5U",
+        "label": "support",
+        "score": 7,
+        "rationale": "Protective accessory for Nintendo Wii U."
+      },
+      {
+        "item_id": "B08YR8LFH3",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR accessory, not Zelda-related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1249,
+    "completion_tokens": 155
+  }
+}

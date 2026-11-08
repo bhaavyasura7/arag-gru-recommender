@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B10HRS5VD4",
+      "B0759BV9DJ",
+      "B00K3PNUEA",
+      "B01J4K1082",
+      "B09H5R5C1R",
+      "B00ITE71U6",
+      "B09HBMCM1B",
+      "B004UMAPQS",
+      "B09NCWP9HH",
+      "B00YDV70NW",
+      "B000NKWO8S",
+      "B00ENZRF1K",
+      "B001AW16QE",
+      "B00KZ0LS7Y",
+      "B07DCYSZ1Q",
+      "B001MG2OG11",
+      "B00HRS5VD4",
+      "B00578W1ZW",
+      "B000AM249S",
+      "B00HRS5VD4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0759BV9DJ",
+        "reason": "Action-adventure game on console"
+      },
+      {
+        "item_id": "B00K3PNUEA",
+        "reason": "Fishing game on console"
+      },
+      {
+        "item_id": "B01J4K1082",
+        "reason": "Action game on Xbox 360"
+      },
+      {
+        "item_id": "B09H5R5C1R",
+        "reason": "PSVR2 charging station for console"
+      },
+      {
+        "item_id": "B00ITE71U6",
+        "reason": "PS4 controller accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3233,
+    "completion_tokens": 329
+  }
+}

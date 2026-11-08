@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0002DOXK8",
+      "B19N1O4Z0M",
+      "B000067861",
+      "B19W51LH1Y",
+      "B000B6E4U0",
+      "B12W51LH1Y",
+      "B075MDBZSG",
+      "B006ZNGSFW",
+      "B08HV6YGK2",
+      "B08R3KWK7X",
+      "B01N29EV8R",
+      "B084X6T3HF",
+      "B12W51LH1Y",
+      "B000IBOGI8",
+      "B002FY4AOG",
+      "B00MBOXHGC",
+      "B01N1O4Z0M",
+      "B0058LLN0M",
+      "B07NY6YS39",
+      "B17W51LH1Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0002DOXK8",
+        "reason": "Compatible with retro gaming consoles"
+      },
+      {
+        "item_id": "B19N1O4Z0M",
+        "reason": "Classic game for PlayStation"
+      },
+      {
+        "item_id": "B000067861",
+        "reason": "Popular retro sports game"
+      },
+      {
+        "item_id": "B19W51LH1Y",
+        "reason": "Replacement for Nintendo GameCube"
+      },
+      {
+        "item_id": "B000B6E4U0",
+        "reason": "Classic game for Commodore 64"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3561,
+    "completion_tokens": 334
+  }
+}

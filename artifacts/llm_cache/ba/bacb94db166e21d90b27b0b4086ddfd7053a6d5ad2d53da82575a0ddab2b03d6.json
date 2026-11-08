@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000AT586C",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar genre, but different gameplay style."
+      },
+      {
+        "item_id": "B08T64C41K",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a game, just keycaps."
+      },
+      {
+        "item_id": "B089LM133R",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B07C5SMRZJ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Storage solution, not a game."
+      },
+      {
+        "item_id": "B074L312C3",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "DLC for a game, but not core."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1024,
+    "completion_tokens": 161
+  }
+}

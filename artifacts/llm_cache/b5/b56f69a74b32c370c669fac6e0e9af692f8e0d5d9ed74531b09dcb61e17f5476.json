@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08P5Q51GC",
+      "B0C6K3WDYH",
+      "B09V54R25X",
+      "B07XK92BDN",
+      "B0175XLFDD",
+      "B0765TZVMD",
+      "B07P5XLFDD",
+      "B0054U3UWQ",
+      "B000N24EO8",
+      "B0050SYZ2G",
+      "B07C16D9KK",
+      "B00007FEFT",
+      "B079S26TB7",
+      "B01IY5B7MW",
+      "B0784RC4RD",
+      "B00007FEFT",
+      "B0054U3UWQ",
+      "B00007FEFT",
+      "B079S26TB7",
+      "B01IY5B7MW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08P5Q51GC",
+        "reason": "Wireless controller for Nintendo Switch"
+      },
+      {
+        "item_id": "B0C6K3WDYH",
+        "reason": "Cute carrying case for Switch"
+      },
+      {
+        "item_id": "B09V54R25X",
+        "reason": "Game card storage for Switch"
+      },
+      {
+        "item_id": "B07XK92BDN",
+        "reason": "Family-friendly Wii game"
+      },
+      {
+        "item_id": "B0765TZVMD",
+        "reason": "Collectible Nintendo Switch kit"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3435,
+    "completion_tokens": 329
+  }
+}

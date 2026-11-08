@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00006JK40",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B01N1Q2N5I",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has PS4 games, needs accessories."
+      },
+      {
+        "item_id": "B07YF64SVV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Mobile controller, not directly relevant."
+      },
+      {
+        "item_id": "B07HHW8C4V",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys PlayStation, bundle is appealing."
+      },
+      {
+        "item_id": "0439591368",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers action games, not puzzles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 163
+  }
+}

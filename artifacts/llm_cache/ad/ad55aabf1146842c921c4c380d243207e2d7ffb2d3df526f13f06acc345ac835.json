@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DU2CHE2",
+      "B078RJ1KZ6",
+      "B19H1GJ7IQ",
+      "B002I0K3CK",
+      "B003QP30PS",
+      "B0030MEITE",
+      "B002KAS4OW",
+      "B07L5FKGQH",
+      "B011ALF4XK",
+      "B00002ST27",
+      "B00004U1R2",
+      "B004LWVHIM",
+      "B00005V4NS",
+      "B003QP30PS",
+      "B00X6KXRP6",
+      "B001E91OFQ",
+      "B00004U1R2",
+      "B003QP30PS",
+      "B003QP30PS",
+      "B003QP30PS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DU2CHE2",
+        "reason": "Great for multiplayer gaming"
+      },
+      {
+        "item_id": "B078RJ1KZ6",
+        "reason": "Compatible with multiple consoles"
+      },
+      {
+        "item_id": "B19H1GJ7IQ",
+        "reason": "Fast charging for controllers"
+      },
+      {
+        "item_id": "B002I0K3CK",
+        "reason": "Classic Mario multiplayer fun"
+      },
+      {
+        "item_id": "B0030MEITE",
+        "reason": "Transformers with co-op gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3590,
+    "completion_tokens": 315
+  }
+}

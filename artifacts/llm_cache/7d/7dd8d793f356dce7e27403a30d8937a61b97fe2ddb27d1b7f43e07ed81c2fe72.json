@@ -1,0 +1,16 @@
+{
+  "content": {
+    "keywords": [
+      "racing",
+      "game"
+    ],
+    "max_price": null,
+    "exclude_terms": [
+      "cars"
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 182,
+    "completion_tokens": 28
+  }
+}

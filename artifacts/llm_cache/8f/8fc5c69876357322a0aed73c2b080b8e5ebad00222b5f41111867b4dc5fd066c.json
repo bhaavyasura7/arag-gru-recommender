@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003AHPA46",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Playstation over Wii."
+      },
+      {
+        "item_id": "B0BPLX2X7C",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no Nintendo DS interest."
+      },
+      {
+        "item_id": "B07G4YYZ1M",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming accessories for PC."
+      },
+      {
+        "item_id": "B000067QD3",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own an Xbox."
+      },
+      {
+        "item_id": "B01NA9M7RK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User may like Sims but no history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 160
+  }
+}

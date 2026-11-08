@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00V5CFMY4",
+      "B00IJ1VWZ4",
+      "B15T3SL2HU",
+      "B0B6HQ43ST",
+      "B0018QOWEU",
+      "B01MYUCFBK",
+      "B00H3S1B5A",
+      "B001EYUX3K",
+      "B00ZM6I932",
+      "B00F27JGVA",
+      "B00Z9TM1KY",
+      "B001EYUU3I",
+      "B00CMQTVUA",
+      "B001MW91IW",
+      "B000M17AVO",
+      "B001EYUU3I",
+      "B001EYUX3K",
+      "B0BGXRNJ8D",
+      "B00T3SL2HU",
+      "B001MW91IW",
+      "B001MW91IW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00V5CFMY4",
+        "reason": "Best wireless controller for Switch"
+      },
+      {
+        "item_id": "B00IJ1VWZ4",
+        "reason": "Improves grip and precision"
+      },
+      {
+        "item_id": "B15T3SL2HU",
+        "reason": "Enhances Xbox One control"
+      },
+      {
+        "item_id": "B0B6HQ43ST",
+        "reason": "Top gaming mouse pad choice"
+      },
+      {
+        "item_id": "B0018QOWEU",
+        "reason": "Essential for Nintendo Wii"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3686,
+    "completion_tokens": 332
+  }
+}

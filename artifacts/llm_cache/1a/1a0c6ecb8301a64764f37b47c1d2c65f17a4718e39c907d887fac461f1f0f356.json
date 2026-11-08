@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000N0WBMC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo DS game, not directly relevant."
+      },
+      {
+        "item_id": "B00OUDUG5W",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B00GGUE1KS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS3 game, not in user's history."
+      },
+      {
+        "item_id": "B0B9V7QGH7",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a gaming product, unrelated."
+      },
+      {
+        "item_id": "B075M7PP8Y",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming headset aligns with gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1486,
+    "completion_tokens": 163
+  }
+}

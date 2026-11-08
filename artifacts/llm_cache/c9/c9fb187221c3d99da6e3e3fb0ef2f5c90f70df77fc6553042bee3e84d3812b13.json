@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The recommended games feature engaging narratives, high-quality graphics, and immersive gameplay, aligning with the user's interests in action RPGs and adventure genres. Titles like 'Shadow of the Tomb Raider' and 'Dante's Inferno' emphasize survival and exploration, while avoiding poorly rated or repetitive games."
+  },
+  "usage": {
+    "prompt_tokens": 2085,
+    "completion_tokens": 62
+  }
+}

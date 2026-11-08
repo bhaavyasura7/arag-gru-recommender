@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00BHRD4BM",
+      "B085LSHNQ5",
+      "B00BO0GYW8",
+      "B08VRR3XHY",
+      "B08N4LB3LB",
+      "B0014CUZ3A",
+      "B003UVDOA4",
+      "B09PFR67FB",
+      "B0B12N643H",
+      "B09325RND4",
+      "B0CB9X91BP",
+      "B07NQ3FY4K",
+      "B0924WDQTT",
+      "B00VMU99PE",
+      "B0073PQK7C",
+      "B01MS8XOYR",
+      "B0948BRTM4",
+      "B09DWF3FYB",
+      "B18VRR3XHY",
+      "B00KE9WN84"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00BHRD4BM",
+        "reason": "PS4 game expansion pack"
+      },
+      {
+        "item_id": "B085LSHNQ5",
+        "reason": "PS4 accessory bundle"
+      },
+      {
+        "item_id": "B00BO0GYW8",
+        "reason": "Popular zombie game"
+      },
+      {
+        "item_id": "B08VRR3XHY",
+        "reason": "Wii to HDMI adapter"
+      },
+      {
+        "item_id": "B08N4LB3LB",
+        "reason": "Gaming headset for PS4"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3705,
+    "completion_tokens": 326
+  }
+}

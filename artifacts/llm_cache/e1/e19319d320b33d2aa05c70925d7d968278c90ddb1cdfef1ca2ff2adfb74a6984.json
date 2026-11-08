@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B12W51LH1Y",
+      "B0002DOXK8",
+      "B000IBOGI8",
+      "B002FY4AOG",
+      "B000067861",
+      "B07NY6YS39",
+      "B075MDBZSG",
+      "B006ZNGSFW",
+      "B08HV6YGK2",
+      "B01N29EV8R",
+      "B084X6T3HF",
+      "B08R3KWK7X",
+      "B01N1O4Z0M",
+      "B0058LLN0M",
+      "B000B6E4U0",
+      "B07W51LH1Y",
+      "B0130BR8LE",
+      "B00MBOXHGC",
+      "B17NY6YS39",
+      "B01N1O4Z0M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B12W51LH1Y",
+        "reason": "Classic N64 controller for retro gaming"
+      },
+      {
+        "item_id": "B0002DOXK8",
+        "reason": "Replacement for GameCube power adapter"
+      },
+      {
+        "item_id": "B000IBOGI8",
+        "reason": "Compatible dance pad for retro consoles"
+      },
+      {
+        "item_id": "B002FY4AOG",
+        "reason": "High-quality GameCube power adapter"
+      },
+      {
+        "item_id": "B000067861",
+        "reason": "Classic PlayStation game for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3563,
+    "completion_tokens": 332
+  }
+}

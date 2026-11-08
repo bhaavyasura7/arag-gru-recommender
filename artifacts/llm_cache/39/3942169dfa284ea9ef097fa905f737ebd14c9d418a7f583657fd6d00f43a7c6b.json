@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B000V6135Y",
+      "B0B42BN96R",
+      "B01DAHAJKA",
+      "B094F5XGRD",
+      "B071LG2TNK",
+      "B002FGU070",
+      "B08S2YG42Z",
+      "B0B2P7QWQX",
+      "B002YGS5RI",
+      "B08C8KQS8C",
+      "B01LY7VGQ4",
+      "B00DUARDFC",
+      "B076H84ZHB",
+      "B07C24MS83",
+      "B091TKCXX9",
+      "B07X43LX4N",
+      "B00648XQZ8",
+      "B089QJ3NKP",
+      "B08C8KQS8C",
+      "B0B7Q1S7GY",
+      "B0B42BN96R"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01DAHAJKA",
+        "reason": "Popular PS4 game expansion"
+      },
+      {
+        "item_id": "B00DUARDFC",
+        "reason": "New Xbox game release"
+      },
+      {
+        "item_id": "B07X43LX4N",
+        "reason": "Relevant Xbox 360 game"
+      },
+      {
+        "item_id": "B071LG2TNK",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B19B7Q1S7GY",
+        "reason": "Fast external SSD for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3678,
+    "completion_tokens": 339
+  }
+}

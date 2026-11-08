@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B000G1O7DE",
+      "B000066RKC",
+      "B00K1HF3HM",
+      "B12GVE4ZXQ",
+      "B00PJKWN2Y",
+      "B086LB3ZMG",
+      "B00IB02RD4",
+      "B0B4S2K2ST",
+      "B07177727N",
+      "B07C2M38SB",
+      "B07D5G4KXJ",
+      "B001EYUNNK",
+      "B001EYUQTQ",
+      "B00CIBAZOU",
+      "B079MRDY5V",
+      "B01GVE4ZXQ",
+      "B00638TBJY",
+      "B091F2J6BZ",
+      "B07F7XWVMQ",
+      "B0BDWVBWC9",
+      "B09LTYXWYD"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000G1O7DE",
+        "reason": "Essential for PSP game storage"
+      },
+      {
+        "item_id": "B000066RKC",
+        "reason": "Classic game with retro appeal"
+      },
+      {
+        "item_id": "B00K1HF3HM",
+        "reason": "Compatible with classic gaming"
+      },
+      {
+        "item_id": "B12GVE4ZXQ",
+        "reason": "Includes classic fighting game"
+      },
+      {
+        "item_id": "B00PJKWN2Y",
+        "reason": "Comfortable headset for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3946,
+    "completion_tokens": 335
+  }
+}

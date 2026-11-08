@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B019DT4AEA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to gaming preference."
+      },
+      {
+        "item_id": "B09VSJBP1R",
+        "label": "support",
+        "score": 8,
+        "rationale": "High-performance mouse for gaming."
+      },
+      {
+        "item_id": "B0742FQHHW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Basic mouse, not specifically gaming-focused."
+      },
+      {
+        "item_id": "B086D2J81G",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Novelty design, not serious gaming gear."
+      },
+      {
+        "item_id": "B0B476B13X",
+        "label": "support",
+        "score": 7,
+        "rationale": "Affordable gaming mouse with good features."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1283,
+    "completion_tokens": 155
+  }
+}

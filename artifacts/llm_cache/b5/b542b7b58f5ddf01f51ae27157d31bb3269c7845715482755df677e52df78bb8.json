@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07D4PK616",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar brand and features as previous mouse."
+      },
+      {
+        "item_id": "B08T5J57DK",
+        "label": "support",
+        "score": 9,
+        "rationale": "High DPI and programmable buttons match interests."
+      },
+      {
+        "item_id": "B0936RXXV2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Lower DPI and fewer buttons than preferred."
+      },
+      {
+        "item_id": "B071H7XGNX",
+        "label": "support",
+        "score": 8,
+        "rationale": "High precision and weight tuning align with needs."
+      },
+      {
+        "item_id": "B08M8NRR3S",
+        "label": "support",
+        "score": 9,
+        "rationale": "Similar to previous model, high DPI and features."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1668,
+    "completion_tokens": 163
+  }
+}

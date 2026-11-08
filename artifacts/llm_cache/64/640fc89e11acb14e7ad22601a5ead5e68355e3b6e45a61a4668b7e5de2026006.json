@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00KVP76G0",
+      "B00NOD0OTW",
+      "B00W9DHUBS",
+      "B00HX1UXD8",
+      "B07GWJN5YW",
+      "B002WTC4VA",
+      "B001EYURK4",
+      "B00KQHHDZC",
+      "B00KLH0XMW",
+      "B00G9AYVTG",
+      "B001H8DUB0",
+      "B0079V4FAY",
+      "B00K32USMU",
+      "B00C3BNJFBV",
+      "B00NKNB4Y",
+      "B00KVP76G0",
+      "B00W9DHUBS",
+      "B00HX1UXD8",
+      "B001KBZZYE",
+      "B00JH4R6ZT"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KVP76G0",
+        "reason": "High-performance gaming controller"
+      },
+      {
+        "item_id": "B00NOD0OTW",
+        "reason": "Popular action RPG for PS4"
+      },
+      {
+        "item_id": "B00W9DHUBS",
+        "reason": "Wireless gaming controller option"
+      },
+      {
+        "item_id": "B00HX1UXD8",
+        "reason": "Relevant gaming subscription card"
+      },
+      {
+        "item_id": "B07GWJN5YW",
+        "reason": "Comfortable gaming headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3532,
+    "completion_tokens": 330
+  }
+}

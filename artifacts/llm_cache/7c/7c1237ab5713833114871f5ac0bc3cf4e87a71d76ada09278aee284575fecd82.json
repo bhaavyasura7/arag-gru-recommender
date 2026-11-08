@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001G60JHQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers PlayStation over Nintendo."
+      },
+      {
+        "item_id": "B0B11Z2PYX",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys action games on Xbox."
+      },
+      {
+        "item_id": "B003L77YKS",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes action-adventure games."
+      },
+      {
+        "item_id": "B000R08L7M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in retro Game Boy."
+      },
+      {
+        "item_id": "B0000A0MDV",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys racing games on PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1405,
+    "completion_tokens": 159
+  }
+}

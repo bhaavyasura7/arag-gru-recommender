@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The recommended games feature immersive storytelling, high-quality graphics, and engaging gameplay. They include action RPG elements, exploration, and survival mechanics, aligning with the user's interests in adventure and story-driven experiences while avoiding poorly rated or repetitive titles."
+  },
+  "usage": {
+    "prompt_tokens": 729,
+    "completion_tokens": 50
+  }
+}

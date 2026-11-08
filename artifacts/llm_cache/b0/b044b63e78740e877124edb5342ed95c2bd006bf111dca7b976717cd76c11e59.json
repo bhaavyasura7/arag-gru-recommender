@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B005D7G3LA",
+      "B003A0VK10",
+      "B003VWC124",
+      "B00KWIYPZG",
+      "B001EYUNXK",
+      "B006HZA8EA",
+      "B003IU01LC",
+      "B00FR7U15U",
+      "B00L2FGSBM",
+      "B0037M5W24",
+      "B08DCLV85W",
+      "B07J3P1GJM",
+      "B00NAW5R0I",
+      "B002B9XB0E",
+      "B01HHKDBRO",
+      "B0B5M66PSW",
+      "B00P27XFP7",
+      "B0000A2Q7Q",
+      "B003A0VK10",
+      "B0037M5W24"
+    ],
+    "reasons": [
+      {
+        "item_id": "B005D7G3LA",
+        "reason": "Engaging strategy simulation game"
+      },
+      {
+        "item_id": "B003A0VK10",
+        "reason": "Unique kingdom simulation experience"
+      },
+      {
+        "item_id": "B003VWC124",
+        "reason": "Classic strategy game with expansions"
+      },
+      {
+        "item_id": "B00KWIYPZG",
+        "reason": "Adventure with life-building mechanics"
+      },
+      {
+        "item_id": "B001EYUNXK",
+        "reason": "Strong narrative and immersive gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3811,
+    "completion_tokens": 325
+  }
+}

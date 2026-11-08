@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B073XKXQW4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Related to Nintendo Switch accessories."
+      },
+      {
+        "item_id": "B0C2VJ3R1C",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "General gaming headset, not specific to Nintendo."
+      },
+      {
+        "item_id": "B01NBKW254",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation controller, not Nintendo related."
+      },
+      {
+        "item_id": "B000SO4I4M",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, not aligned with Nintendo interests."
+      },
+      {
+        "item_id": "B001EAWM4W",
+        "label": "support",
+        "score": 6,
+        "rationale": "Nintendo DS game, aligns with user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 165
+  }
+}

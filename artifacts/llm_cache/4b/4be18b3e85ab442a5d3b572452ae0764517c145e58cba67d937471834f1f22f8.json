@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001ELJPUK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, not a strong match."
+      },
+      {
+        "item_id": "B00J5C3Z10",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different platform and genre entirely."
+      },
+      {
+        "item_id": "B005UUO9CK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Similar fun aspect, but different style."
+      },
+      {
+        "item_id": "B07MQPL1W2",
+        "label": "support",
+        "score": 8,
+        "rationale": "LEGO game aligns with user interests."
+      },
+      {
+        "item_id": "B01MXLEYZ8",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 156
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01M0RU6LY",
+      "B07CLKZJF4",
+      "B01H6DHITE",
+      "B0050SW1WW",
+      "B12N3ASPNV",
+      "B01MXE0FKC",
+      "B00G2EVF3E",
+      "B00CMQTTZ2",
+      "B00B7UNO4Q",
+      "B09TX17ZBQ",
+      "B004LLHFAW",
+      "B004CDUOJ8",
+      "B001EYUQ8C",
+      "B000B6MLV4",
+      "B087NN2K41",
+      "B00TEDK8FQ",
+      "B00G2EVF3E",
+      "B009VURIUA",
+      "B00CMQTTZ2",
+      "B07JN4DGC7",
+      "B00G2EVF3E"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01M0RU6LY",
+        "reason": "High-quality gaming console"
+      },
+      {
+        "item_id": "B07CLKZJF4",
+        "reason": "Premium mechanical keyboard"
+      },
+      {
+        "item_id": "B01H6DHITE",
+        "reason": "Tenkeyless mechanical keyboard"
+      },
+      {
+        "item_id": "B0050SW1WW",
+        "reason": "Gaming keyboard with RGB"
+      },
+      {
+        "item_id": "B12N3ASPNV",
+        "reason": "Popular gaming accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3956,
+    "completion_tokens": 332
+  }
+}

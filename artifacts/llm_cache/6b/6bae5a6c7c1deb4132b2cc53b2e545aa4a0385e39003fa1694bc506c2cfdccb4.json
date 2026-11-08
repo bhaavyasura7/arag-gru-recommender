@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07DPK5NPD",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo games like LEGO."
+      },
+      {
+        "item_id": "B08SMFZLB6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game, less relevant."
+      },
+      {
+        "item_id": "B000OAO188",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wii game aligns with user interests."
+      },
+      {
+        "item_id": "B08FX5QKGD",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not directly related to gameplay."
+      },
+      {
+        "item_id": "B00F4WM1XS",
+        "label": "support",
+        "score": 6,
+        "rationale": "Disney Infinity relates to user’s interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1313,
+    "completion_tokens": 158
+  }
+}

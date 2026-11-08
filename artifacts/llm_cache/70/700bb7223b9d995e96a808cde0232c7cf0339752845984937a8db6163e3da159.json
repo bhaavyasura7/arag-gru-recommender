@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003AJJTZ0",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to video gaming interests."
+      },
+      {
+        "item_id": "B01EWQQZL0",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances gaming experience with keyboard."
+      },
+      {
+        "item_id": "B00DBDPOZ4",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly supports Xbox gaming accessories."
+      },
+      {
+        "item_id": "B07WRL8MDM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Nintendo Switch accessories, not Xbox related."
+      },
+      {
+        "item_id": "B0BTSTNFHG",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Repair part for Nintendo Switch, not Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1189,
+    "completion_tokens": 158
+  }
+}

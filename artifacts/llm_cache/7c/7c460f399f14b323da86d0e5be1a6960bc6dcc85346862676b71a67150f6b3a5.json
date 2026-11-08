@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo Wii U accessories",
+      "PlayStation cables",
+      "video game hardware",
+      "gaming peripherals",
+      "retro gaming gear"
+    ],
+    "current_intent": "Looking for more gaming accessories for retro consoles.",
+    "avoid": [
+      "new generation consoles",
+      "non-gaming electronics",
+      "high-priced items"
+    ],
+    "summary": "User is focused on acquiring affordable accessories for retro gaming consoles, particularly Nintendo and PlayStation systems."
+  },
+  "usage": {
+    "prompt_tokens": 333,
+    "completion_tokens": 78
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00B1N07QM",
+      "B00KUYZ7I6",
+      "B018JDBWQ0",
+      "B00N73UUJI",
+      "B00KSQHX1K",
+      "B00DE2W5XG",
+      "B00KVOVBGM",
+      "B00EP2WNKY",
+      "B07KV43C4Q",
+      "B003R7JXOM",
+      "B005UUOAOM",
+      "B0053BCP40",
+      "B0010AYJXI",
+      "B00N5Z2L4",
+      "B08TG138F1",
+      "B013VO5QL4",
+      "B00J1F1D8A",
+      "B00B1N07QM",
+      "B00DE2W5XG",
+      "B00N73UUJI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00B1N07QM",
+        "reason": "High-performance gaming keypad"
+      },
+      {
+        "item_id": "B00KUYZ7I6",
+        "reason": "Mechanical gaming keypad with RGB"
+      },
+      {
+        "item_id": "B018JDBWQ0",
+        "reason": "Useful accessory for gaming"
+      },
+      {
+        "item_id": "B00N73UUJI",
+        "reason": "Popular game for gamers"
+      },
+      {
+        "item_id": "B00KSQHX1K",
+        "reason": "Complete Halo collection available"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3783,
+    "completion_tokens": 327
+  }
+}

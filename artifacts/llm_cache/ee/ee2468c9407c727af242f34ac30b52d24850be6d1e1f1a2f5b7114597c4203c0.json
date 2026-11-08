@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B089Y219C8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user history."
+      },
+      {
+        "item_id": "B001BH2126",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not relevant to user's interests."
+      },
+      {
+        "item_id": "B0C4F9JGTJ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's gaming systems."
+      },
+      {
+        "item_id": "B000JPG87A",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system, not directly relevant."
+      },
+      {
+        "item_id": "B08B3SLP31",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "General accessory, not game-specific."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 153
+  }
+}

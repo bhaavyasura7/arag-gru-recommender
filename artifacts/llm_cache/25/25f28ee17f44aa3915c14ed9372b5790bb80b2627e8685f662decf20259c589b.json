@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07D34NSL4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Legacy Xbox controller, not highly rated."
+      },
+      {
+        "item_id": "B098N6XSK4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox One, user interest."
+      },
+      {
+        "item_id": "B07LDXZV5Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Wireless controller, but for legacy systems."
+      },
+      {
+        "item_id": "B07N94G3JT",
+        "label": "support",
+        "score": 9,
+        "rationale": "Enhanced wired controller for Xbox One."
+      },
+      {
+        "item_id": "B07DHY6YLM",
+        "label": "support",
+        "score": 9,
+        "rationale": "Another enhanced wired controller for Xbox One."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1517,
+    "completion_tokens": 159
+  }
+}

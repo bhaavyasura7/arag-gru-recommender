@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00FAN4M3S",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming peripherals."
+      },
+      {
+        "item_id": "B0C2TWDSLR",
+        "label": "support",
+        "score": 7,
+        "rationale": "User plays PC games, needs controllers."
+      },
+      {
+        "item_id": "B07TD5YXGM",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has gaming headset, needs microphone."
+      },
+      {
+        "item_id": "B09QLXS17G",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User's interests are not in legacy systems."
+      },
+      {
+        "item_id": "B095GLBYBC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not play Sega Genesis."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1439,
+    "completion_tokens": 158
+  }
+}

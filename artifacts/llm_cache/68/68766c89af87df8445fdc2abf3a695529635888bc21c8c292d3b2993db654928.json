@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004FZ6RF8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B001EYUUF6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B09WVM75CP",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports Nintendo Switch usage."
+      },
+      {
+        "item_id": "B0B7DP5XCQ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not relevant to user's gaming preferences."
+      },
+      {
+        "item_id": "B00CJ8X23I",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on Nintendo, not PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1169,
+    "completion_tokens": 157
+  }
+}

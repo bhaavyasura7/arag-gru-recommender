@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09BJKNQ8J",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's gaming setup."
+      },
+      {
+        "item_id": "B088ZQS59N",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Bluetooth adapter, not a gaming accessory."
+      },
+      {
+        "item_id": "B08LYK1F6T",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "VR headset accessory, user prefers PC gaming."
+      },
+      {
+        "item_id": "B07TLKC6XN",
+        "label": "support",
+        "score": 7,
+        "rationale": "Mechanical keyboard switches match user interest."
+      },
+      {
+        "item_id": "B000069U4X",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy system game, not relevant to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1320,
+    "completion_tokens": 160
+  }
+}

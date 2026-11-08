@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B079MRDY5V",
+      "B08WZKMTF9",
+      "B00VILBF0Y",
+      "B07GJX6DYQ",
+      "B08TWFYSR2",
+      "B07FY95X44",
+      "B075S7L98K",
+      "B09WV9MQCK",
+      "B004CVQ0JI",
+      "B09BF2JGZK",
+      "B09QPGNV4Q",
+      "B08XTDB7W4",
+      "B002RL8K3E",
+      "B004E0G7ZY",
+      "B06XDJCGNG",
+      "B087C4QLPV",
+      "B009SS7MO2",
+      "B073QN2M8S",
+      "B0CBBMHLFD",
+      "B04CVQ0JI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B079MRDY5V",
+        "reason": "Popular fighting game title"
+      },
+      {
+        "item_id": "B08WZKMTF9",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B00VILBF0Y",
+        "reason": "Premium wireless headset"
+      },
+      {
+        "item_id": "B07GJX6DYQ",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B08TWFYSR2",
+        "reason": "Useful console accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3708,
+    "completion_tokens": 325
+  }
+}

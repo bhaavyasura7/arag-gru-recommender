@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07S1KMRHX",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B0747KRY3V",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo Switch."
+      },
+      {
+        "item_id": "B000CS3EQ2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older system, less relevance to user."
+      },
+      {
+        "item_id": "B0B827MYPK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances user's Nintendo Switch experience."
+      },
+      {
+        "item_id": "B004OQS94U",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly supports user's Nintendo 3DS."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1207,
+    "completion_tokens": 155
+  }
+}

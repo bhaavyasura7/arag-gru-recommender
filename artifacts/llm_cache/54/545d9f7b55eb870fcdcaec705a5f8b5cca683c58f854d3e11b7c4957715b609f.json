@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "1633441180",
+      "B000034DC6",
+      "B19D0N5Z2L4",
+      "B003DNSR3S",
+      "B000N5Z2L4",
+      "B081W1VBKN",
+      "B099YTDMZ3",
+      "B08MBG5CQB",
+      "B07DHY6YLM",
+      "B0050SYXSW",
+      "B014278KKI",
+      "B000CCXCYC",
+      "B0033764FC",
+      "B00LLG5B88",
+      "B00EDU8HY4",
+      "B00K0NV5J2",
+      "B000SL4IIG",
+      "B0050SVHRC",
+      "B001H0RZX2",
+      "B000SFK0T8",
+      "B00EDU8HY4"
+    ],
+    "reasons": [
+      {
+        "item_id": "1633441180",
+        "reason": "Star Wars strategy game expansion"
+      },
+      {
+        "item_id": "B000034DC6",
+        "reason": "Nostalgic retro video game"
+      },
+      {
+        "item_id": "B003DNSR3S",
+        "reason": "Popular RPG expansion"
+      },
+      {
+        "item_id": "B00K0NV5J2",
+        "reason": "Another RPG expansion"
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "reason": "Xbox Live membership for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3548,
+    "completion_tokens": 329
+  }
+}

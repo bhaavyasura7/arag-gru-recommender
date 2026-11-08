@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09VYGLZSC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming keyboard, not directly related."
+      },
+      {
+        "item_id": "B0721GGGS9",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Older console, user prefers modern systems."
+      },
+      {
+        "item_id": "B000J42FNW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Sega game, user prefers Nintendo products."
+      },
+      {
+        "item_id": "B002JAU20W",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Retro controller, user prefers modern controllers."
+      },
+      {
+        "item_id": "B0006ZJPSC",
+        "label": "support",
+        "score": 6,
+        "rationale": "Xbox game aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1089,
+    "completion_tokens": 161
+  }
+}

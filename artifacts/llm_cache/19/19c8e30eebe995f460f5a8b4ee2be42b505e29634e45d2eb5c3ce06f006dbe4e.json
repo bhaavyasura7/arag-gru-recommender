@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0009AHCQ6",
+      "B000FRV2UK",
+      "B000021Y30",
+      "B000HASW0I",
+      "B07V5CFMY4",
+      "B00W3X5E62",
+      "B000G75AXY",
+      "B001EYUU2O",
+      "B00BGA9X9W",
+      "B08D3XL1KF",
+      "B0BF5VRLHV",
+      "B000EV0CT6S",
+      "B099F24PHK",
+      "B071YVC3NJ",
+      "B00428MTNM",
+      "B0BGLVVCR1",
+      "B0009AHCQ6",
+      "B000HASW0I",
+      "B000FRV2UK",
+      "B000021Y30"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0009AHCQ6",
+        "reason": "Classic NES console experience"
+      },
+      {
+        "item_id": "B000FRV2UK",
+        "reason": "Popular Zelda game for nostalgia"
+      },
+      {
+        "item_id": "B000021Y30",
+        "reason": "Retro Nintendo 64 game"
+      },
+      {
+        "item_id": "B000HASW0I",
+        "reason": "Classic PSP game experience"
+      },
+      {
+        "item_id": "B07V5CFMY4",
+        "reason": "Retro-style Bluetooth controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3660,
+    "completion_tokens": 315
+  }
+}

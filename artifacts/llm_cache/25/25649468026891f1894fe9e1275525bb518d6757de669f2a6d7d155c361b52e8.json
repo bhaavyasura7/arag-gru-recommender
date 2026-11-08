@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0945F6THC",
+        "label": "support",
+        "score": 8,
+        "rationale": "User owns Nintendo Switch games."
+      },
+      {
+        "item_id": "B005GDED6S",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B009DKZYMW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform than user's games."
+      },
+      {
+        "item_id": "B002KQJNO6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo, not PlayStation."
+      },
+      {
+        "item_id": "B07JPZTHYT",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1243,
+    "completion_tokens": 151
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "gaming accessories",
+      "multiplayer games",
+      "action games",
+      "console gaming"
+    ],
+    "current_intent": "looking for new video games or accessories for console gaming",
+    "avoid": [
+      "mobile games",
+      "single-player games",
+      "PC gaming"
+    ],
+    "summary": "User enjoys console video games and accessories, particularly for PlayStation and Wii U, and is currently seeking new gaming options."
+  },
+  "usage": {
+    "prompt_tokens": 284,
+    "completion_tokens": 78
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003JVKHEQ",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys Xbox 360 video games."
+      },
+      {
+        "item_id": "B07CPH3DBQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a Wii."
+      },
+      {
+        "item_id": "B08PDZ9L5H",
+        "label": "support",
+        "score": 8,
+        "rationale": "Charger for Xbox controllers is relevant."
+      },
+      {
+        "item_id": "B09Q155SLZ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to Xbox 360."
+      },
+      {
+        "item_id": "B00015HWTQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Game for GameCube, not Xbox 360."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 944,
+    "completion_tokens": 163
+  }
+}

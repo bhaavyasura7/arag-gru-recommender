@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUQT6",
+      "B083TYGFZC",
+      "B07M8HN8XK",
+      "B083MN9X6W",
+      "B08FQTXV82",
+      "B006LR5KQK",
+      "B000CBCX52",
+      "B018WFSX0S",
+      "B07YPTMRHX",
+      "B000EQFVJ0",
+      "B07GSB84R8",
+      "B000068I7T",
+      "B00006409H",
+      "B00839422C",
+      "B01JM24CV4",
+      "B07TF86B47",
+      "B002KN32XW",
+      "B19HIUXFP6",
+      "B07TF86B47",
+      "B000068I7T"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUQT6",
+        "reason": "Popular first-person shooter title"
+      },
+      {
+        "item_id": "B083TYGFZC",
+        "reason": "Comfortable gaming headset for FPS"
+      },
+      {
+        "item_id": "B07M8HN8XK",
+        "reason": "Enhances PS4 controller performance"
+      },
+      {
+        "item_id": "B083MN9X6W",
+        "reason": "Versatile pedal stand for gaming"
+      },
+      {
+        "item_id": "B08FQTXV82",
+        "reason": "Improves Wii gaming accuracy"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2971,
+    "completion_tokens": 322
+  }
+}

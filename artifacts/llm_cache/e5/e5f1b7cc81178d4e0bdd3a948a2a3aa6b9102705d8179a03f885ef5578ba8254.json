@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00KWEH61U",
+      "B003UVA4KC",
+      "B00KUZ1K8Q",
+      "B00MFD9DH6",
+      "B001E27DLM",
+      "B00FKV8AK6",
+      "B00N3OELPU",
+      "B00KVP76G0",
+      "B00KQHHDZC",
+      "B07BWJWBJL",
+      "B07YBXFDYN",
+      "B00FLZEXM",
+      "B07WS6ZFTG",
+      "B00KWEH61U",
+      "B00KVP76G0",
+      "B00KQHHDZC",
+      "B00MFD9DH6",
+      "B00KVP76G0",
+      "B00KQHHDZC",
+      "B00KVP76G0",
+      "B00KQHHDZC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KWEH61U",
+        "reason": "Engaging Pokémon drawing experience"
+      },
+      {
+        "item_id": "B003UVA4KC",
+        "reason": "Creative art-focused gameplay"
+      },
+      {
+        "item_id": "B00KUZ1K8Q",
+        "reason": "Multiplayer creativity and fun"
+      },
+      {
+        "item_id": "B00MFD9DH6",
+        "reason": "Family-friendly Disney adventure"
+      },
+      {
+        "item_id": "B001E27DLM",
+        "reason": "Classic RPG with engaging story"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3480,
+    "completion_tokens": 344
+  }
+}

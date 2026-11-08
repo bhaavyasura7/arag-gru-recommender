@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "gaming accessories",
+      "Nintendo products",
+      "Xbox consoles",
+      "sports games"
+    ],
+    "current_intent": "looking for new video games or gaming accessories",
+    "avoid": [
+      "non-gaming products",
+      "low-rated items",
+      "outdated consoles"
+    ],
+    "summary": "User is a dedicated gamer focused on Xbox and Nintendo products, seeking high-quality games and accessories."
+  },
+  "usage": {
+    "prompt_tokens": 958,
+    "completion_tokens": 73
+  }
+}

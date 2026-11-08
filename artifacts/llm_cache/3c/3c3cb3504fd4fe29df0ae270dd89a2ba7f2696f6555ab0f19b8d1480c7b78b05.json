@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0086VPUHI",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox One video games."
+      },
+      {
+        "item_id": "B07DK1XZ4M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox over Nintendo Switch."
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "label": "support",
+        "score": 9,
+        "rationale": "User likely uses Xbox Live for gaming."
+      },
+      {
+        "item_id": "B01I59OFDU",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys survival horror games."
+      },
+      {
+        "item_id": "B08MLJ4M9Z",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Nintendo Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1282,
+    "completion_tokens": 159
+  }
+}

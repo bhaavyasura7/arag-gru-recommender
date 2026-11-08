@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "classic video games",
+      "retro gaming",
+      "BMX games",
+      "wrestling games",
+      "Nintendo 64 accessories"
+    ],
+    "current_intent": "looking for more retro video games or accessories",
+    "avoid": [
+      "modern games",
+      "mobile games",
+      "non-gaming products"
+    ],
+    "summary": "User enjoys classic video games, especially for Nintendo 64, and seeks similar retro titles or accessories."
+  },
+  "usage": {
+    "prompt_tokens": 325,
+    "completion_tokens": 78
+  }
+}

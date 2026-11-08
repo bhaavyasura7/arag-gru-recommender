@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08K7G1JVL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different console type."
+      },
+      {
+        "item_id": "B00D2MS762",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Visual book, not a game."
+      },
+      {
+        "item_id": "B0009IA1XO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Legacy console, not in user history."
+      },
+      {
+        "item_id": "B07DZZNJC2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different console type."
+      },
+      {
+        "item_id": "B00AWRPEJI",
+        "label": "support",
+        "score": 8,
+        "rationale": "PC game aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 154
+  }
+}

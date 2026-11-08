@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01FSGFB68",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B00005T7ZM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to PlayStation or RPGs."
+      },
+      {
+        "item_id": "B009A9J0DK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, not PlayStation related."
+      },
+      {
+        "item_id": "B08MBKGJVY",
+        "label": "support",
+        "score": 10,
+        "rationale": "Directly related to Kingdom Hearts series."
+      },
+      {
+        "item_id": "B08YYM331M",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for PS5, not directly relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 931,
+    "completion_tokens": 160
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming accessories",
+      "Nintendo Switch",
+      "PlayStation 4 games",
+      "esports gear",
+      "Sonic the Hedgehog franchise"
+    ],
+    "current_intent": "looking for more gaming accessories or games",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "overpriced accessories"
+    ],
+    "summary": "User is a gaming enthusiast focused on high-quality accessories and games, particularly for Nintendo Switch and PlayStation 4."
+  },
+  "usage": {
+    "prompt_tokens": 355,
+    "completion_tokens": 84
+  }
+}

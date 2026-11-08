@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07VHHPJBV",
+      "B16CRZXNZ1",
+      "B16M602",
+      "B0B1M6YPLY",
+      "B0BG2BQ8BV",
+      "B01BZZCFFQ",
+      "B088WQVJY4",
+      "B003XX4462",
+      "B004TKC7BM",
+      "B01MECTTC6",
+      "B00PRJ7JN0",
+      "B00AUXRCPI",
+      "B00005EBC4",
+      "B01DJFM3OI",
+      "B0BDY26LSF",
+      "B0BG2BQ8BV",
+      "B0B1M6YPLY",
+      "B091G6TPDW",
+      "B19HZC194X",
+      "B0B1M6YPLY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07VHHPJBV",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B16M602",
+        "reason": "RGB lighting and programmable buttons"
+      },
+      {
+        "item_id": "B0B1M6YPLY",
+        "reason": "Ergonomic design for comfort"
+      },
+      {
+        "item_id": "B0BG2BQ8BV",
+        "reason": "Compatible with gaming controllers"
+      },
+      {
+        "item_id": "B01BZZCFFQ",
+        "reason": "High-quality accessory for controllers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3714,
+    "completion_tokens": 322
+  }
+}

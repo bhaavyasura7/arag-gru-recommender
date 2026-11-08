@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07MKS66XM",
+      "B0BTNG1QFB",
+      "B11F6DHWH4",
+      "B000924JLA",
+      "B00005KFSF",
+      "B00004TJDK",
+      "B07KQD87TZ",
+      "B0037HPS6Y",
+      "B00EDHEWP0",
+      "B000E23W6S",
+      "B00125ON14",
+      "B00TRC3RLQ",
+      "B0BVD2GY4H",
+      "B0045U292I",
+      "B09XDPMZJ6",
+      "B00009MRF9",
+      "B00005KFSF",
+      "B00004TJDK",
+      "B0037HPS6Y",
+      "B00JQR54Q8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07MKS66XM",
+        "reason": "New Nintendo Switch game available"
+      },
+      {
+        "item_id": "B0BTNG1QFB",
+        "reason": "Ergonomic controller for Switch"
+      },
+      {
+        "item_id": "B11F6DHWH4",
+        "reason": "Compatible with multiple consoles"
+      },
+      {
+        "item_id": "B000924JLA",
+        "reason": "Classic game with multiplayer"
+      },
+      {
+        "item_id": "B00005KFSF",
+        "reason": "Massively multiplayer online game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3404,
+    "completion_tokens": 318
+  }
+}

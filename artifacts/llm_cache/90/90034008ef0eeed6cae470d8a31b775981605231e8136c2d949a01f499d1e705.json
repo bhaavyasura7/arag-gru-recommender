@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "multiplayer video games",
+      "JRPGs",
+      "premium game editions",
+      "sci-fi narratives",
+      "action-adventure games"
+    ],
+    "current_intent": "looking for engaging multiplayer or story-driven games",
+    "avoid": [
+      "low-quality games",
+      "single-player only titles",
+      "poorly rated sequels"
+    ],
+    "summary": "User enjoys multiplayer and story-rich games, particularly in the JRPG and sci-fi genres, and seeks new engaging titles."
+  },
+  "usage": {
+    "prompt_tokens": 285,
+    "completion_tokens": 88
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "content": {
+    "keywords": [
+      "jet"
+    ],
+    "max_price": null,
+    "exclude_terms": []
+  },
+  "usage": {
+    "prompt_tokens": 179,
+    "completion_tokens": 22
+  }
+}

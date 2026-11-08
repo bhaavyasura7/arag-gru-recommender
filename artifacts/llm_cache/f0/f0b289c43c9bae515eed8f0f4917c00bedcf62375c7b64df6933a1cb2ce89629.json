@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003U7WCEM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox products, not PlayStation."
+      },
+      {
+        "item_id": "B093GLPLLB",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in PlayStation games."
+      },
+      {
+        "item_id": "B00UBL0ZQC",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Farming Simulator series."
+      },
+      {
+        "item_id": "B00Z9THPWS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User may like RPGs, but prefers Xbox."
+      },
+      {
+        "item_id": "B00KUZ1K8Q",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in PlayStation games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1218,
+    "completion_tokens": 166
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01AC3ZD06",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B07D5M7SNW",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has PS4 console interest."
+      },
+      {
+        "item_id": "B0029F2FB6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show Xbox interest."
+      },
+      {
+        "item_id": "B07T4JL1BM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation over SNK."
+      },
+      {
+        "item_id": "B07MWB5YJW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on PlayStation accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2173,
+    "completion_tokens": 163
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004A16RN4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B07ZT88CVP",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers games, not accessories."
+      },
+      {
+        "item_id": "B07Z8F7LTQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances gameplay for PS4 games."
+      },
+      {
+        "item_id": "B09SP2CB1S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show Xbox interest."
+      },
+      {
+        "item_id": "B00174PLDO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, not aligned with consoles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1158,
+    "completion_tokens": 158
+  }
+}

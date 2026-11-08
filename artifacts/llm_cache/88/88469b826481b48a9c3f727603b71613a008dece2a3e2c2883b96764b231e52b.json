@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B12F1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA",
+      "B14G1T77ZA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B12F1T77ZA",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B14G1T77ZA",
+        "reason": "Performance thumb grips for controllers"
+      },
+      {
+        "item_id": "B14G1T77ZA",
+        "reason": "Wireless gaming mouse with ergonomic design"
+      },
+      {
+        "item_id": "B14G1T77ZA",
+        "reason": "Durable controller charging solution"
+      },
+      {
+        "item_id": "B14G1T77ZA",
+        "reason": "Cooling system for Xbox One"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3388,
+    "completion_tokens": 337
+  }
+}

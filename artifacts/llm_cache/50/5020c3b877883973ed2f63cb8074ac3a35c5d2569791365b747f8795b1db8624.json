@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07VHHPJBV",
+      "B0012N7BSI",
+      "B001D7JEJM",
+      "B0051D8PGM",
+      "B004WLRQ2S",
+      "B00332F3QI",
+      "B000NJBD90",
+      "B003HGGN82",
+      "B002JTX7FK",
+      "B000935256",
+      "B00CEGCN76",
+      "B00MP7SFJE",
+      "B0015HYPOO",
+      "B002I0EMBI",
+      "B000CC3IEQ",
+      "B08VFQ3XJX",
+      "B00562O8U0",
+      "B000ELJFPA",
+      "B000HGGN82",
+      "B000CC3IEQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07VHHPJBV",
+        "reason": "High DPI and programmable buttons"
+      },
+      {
+        "item_id": "B0012N7BSI",
+        "reason": "Popular gaming title for enthusiasts"
+      },
+      {
+        "item_id": "B001D7JEJM",
+        "reason": "Tactical shooter for gamers"
+      },
+      {
+        "item_id": "B0051D8PGM",
+        "reason": "Racing wheel for immersive gaming"
+      },
+      {
+        "item_id": "B004WLRQ2S",
+        "reason": "Enhances racing game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3858,
+    "completion_tokens": 318
+  }
+}

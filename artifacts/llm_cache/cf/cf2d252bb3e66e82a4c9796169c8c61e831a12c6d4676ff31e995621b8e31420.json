@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0017OT20W",
+      "B001DKDANA",
+      "B001E8WQHW",
+      "B001REMNT4",
+      "B005KGKLWG",
+      "B075VJLKL7",
+      "B08TBYJNBY",
+      "B08TC2FY16",
+      "B005QWYKOE",
+      "B18D85YY2",
+      "B07ZVFNHJ2",
+      "B06XS4XXFT",
+      "B003A5MCTY",
+      "B09QQJM97D",
+      "B01FMB973M",
+      "B00ZWWM7Q6",
+      "B000X1DT22",
+      "B016VGQ2QM",
+      "B08TC2FY16",
+      "B001DKDANA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0017OT20W",
+        "reason": "Classic Nintendo game cartridge"
+      },
+      {
+        "item_id": "B001DKDANA",
+        "reason": "Sega Genesis controller accessory"
+      },
+      {
+        "item_id": "B001E8WQHW",
+        "reason": "Classic PS2 game title"
+      },
+      {
+        "item_id": "B001REMNT4",
+        "reason": "Nintendo DS multi-game cartridge"
+      },
+      {
+        "item_id": "B005KGKLWG",
+        "reason": "Classic Xbox 360 game title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3304,
+    "completion_tokens": 311
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00Z9THPWS",
+      "B007FQ8D8G",
+      "B00H3SGII0",
+      "B00JM57VDS",
+      "B001EYUY70",
+      "B001E8WQJA",
+      "B00UBL0ZQC",
+      "B0040J1REA",
+      "B00503E8S2",
+      "B093GLPLLB",
+      "B00KUZ1K8Q",
+      "B00H3SGII0",
+      "B001EYUWAO",
+      "B00KUZ1K8Q",
+      "B001E8WQJA",
+      "B001EYUWAO",
+      "B00JM57VDS",
+      "B00UBL0ZQC",
+      "B00H3SGII0",
+      "B001E8WQJA",
+      "B00KUZ1K8Q"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00Z9THPWS",
+        "reason": "Popular Xbox 360 shooter game"
+      },
+      {
+        "item_id": "B00503E8S2",
+        "reason": "Classic Xbox 360 game"
+      },
+      {
+        "item_id": "B00H3SGII0",
+        "reason": "Engaging simulation game"
+      },
+      {
+        "item_id": "B00JM57VDS",
+        "reason": "Popular DLC for Borderlands"
+      },
+      {
+        "item_id": "B001EYUY70",
+        "reason": "Nostalgic classic game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3851,
+    "completion_tokens": 338
+  }
+}

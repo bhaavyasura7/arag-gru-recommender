@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07KCBHDLX",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances Xbox gaming experience."
+      },
+      {
+        "item_id": "B001B1W3HA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B0078J0O34",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B07BW77M9V",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Nintendo Switch game, not relevant."
+      },
+      {
+        "item_id": "B072TXNJV2",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with Xbox and PC gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1248,
+    "completion_tokens": 154
+  }
+}

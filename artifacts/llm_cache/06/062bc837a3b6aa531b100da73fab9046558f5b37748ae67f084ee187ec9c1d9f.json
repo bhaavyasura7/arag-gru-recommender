@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "anime-themed games",
+      "multiplayer experiences",
+      "RPGs",
+      "racing games"
+    ],
+    "current_intent": "looking for more engaging video games to play",
+    "avoid": [
+      "sports games",
+      "puzzle games",
+      "low-rated titles"
+    ],
+    "summary": "User enjoys high-rated action and adventure video games, particularly those with anime themes, and is currently seeking new titles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 683,
+    "completion_tokens": 86
+  }
+}

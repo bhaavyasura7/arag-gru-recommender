@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00OHJY7C2",
+      "B014D63UU52",
+      "B005TFJB2Y",
+      "B07JJLLFXJ",
+      "B01F9B019Y",
+      "B01D63UU52",
+      "B01F74F00I",
+      "B0000CE1GK",
+      "B003VUO6H4",
+      "B003R7JXOM",
+      "B001BZ8EX8",
+      "B001G6062O",
+      "B00UBL0ZQC",
+      "B00KWOSQC8",
+      "B0779JS5JC",
+      "B01F9B019Y",
+      "B001G6062O",
+      "B00KWOSQC8",
+      "B001BZ8EX8",
+      "B003VUO6H4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00OHJY7C2",
+        "reason": "Popular Pokémon game for 3DS"
+      },
+      {
+        "item_id": "B014D63UU52",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B005TFJB2Y",
+        "reason": "Useful accessory for 3DS games"
+      },
+      {
+        "item_id": "B07JJLLFXJ",
+        "reason": "New Nintendo Switch bundle"
+      },
+      {
+        "item_id": "B01F9B019Y",
+        "reason": "Compatible with PC gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3511,
+    "completion_tokens": 324
+  }
+}

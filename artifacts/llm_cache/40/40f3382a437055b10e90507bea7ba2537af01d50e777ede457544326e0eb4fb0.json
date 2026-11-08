@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B9X2Y6TT",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has PS4 gaming interests."
+      },
+      {
+        "item_id": "B07VHDT5ZB",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with PS3 and PS4 controllers."
+      },
+      {
+        "item_id": "B08DKJ19VZ",
+        "label": "support",
+        "score": 6,
+        "rationale": "Replacement parts for PS4 controller."
+      },
+      {
+        "item_id": "B06X9M9TYD",
+        "label": "support",
+        "score": 6,
+        "rationale": "Accessory kit for PS4 controllers."
+      },
+      {
+        "item_id": "B08NDHWSZ4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with multiple controller types."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2289,
+    "completion_tokens": 159
+  }
+}

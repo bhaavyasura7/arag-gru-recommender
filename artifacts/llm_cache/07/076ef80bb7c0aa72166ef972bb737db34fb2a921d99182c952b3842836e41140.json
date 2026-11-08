@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002JTX7PA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B0084A97Y8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different gaming platform, not aligned."
+      },
+      {
+        "item_id": "B000038AAW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Older game, not in user's history."
+      },
+      {
+        "item_id": "B004NS8UNO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B00IFHTNAI",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible Xbox controller, matches interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 151
+  }
+}

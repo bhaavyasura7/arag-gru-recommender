@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000VWRH80",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers different game genres."
+      },
+      {
+        "item_id": "B00JQSCIKM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not favor horror games."
+      },
+      {
+        "item_id": "B08VJ9KZ83",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Repair part, not a game."
+      },
+      {
+        "item_id": "B009KDX5AK",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Japanese import games."
+      },
+      {
+        "item_id": "B01MRROR26",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not directly related to games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1000,
+    "completion_tokens": 155
+  }
+}

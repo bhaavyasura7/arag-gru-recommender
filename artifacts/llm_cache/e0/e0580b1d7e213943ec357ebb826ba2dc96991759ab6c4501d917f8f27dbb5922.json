@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000KX0FOS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user preferences."
+      },
+      {
+        "item_id": "B00008XL01",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Post-apocalyptic theme is different."
+      },
+      {
+        "item_id": "B01FMQ3LMU",
+        "label": "support",
+        "score": 7,
+        "rationale": "Racing game aligns with user interests."
+      },
+      {
+        "item_id": "B000S44NV0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Target audience is younger children."
+      },
+      {
+        "item_id": "B008Z7XBM4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1141,
+    "completion_tokens": 152
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07F2HQXNR",
+      "B18V2L4RWN",
+      "B20BDG2VVFZ",
+      "B000MRNUBC",
+      "B08LZLJ12K",
+      "B0072V3QFQ",
+      "B001EYUY70",
+      "B0839HB9L3",
+      "B00004Z319",
+      "B000UF6YKK",
+      "B00CEX1CBM",
+      "B091BG94YR",
+      "B0BXPY3R43",
+      "B000ERVMI8",
+      "B000MRNUBC",
+      "B000MRNUBC",
+      "B000MRNUBC",
+      "B000MRNUBC",
+      "B000MRNUBC",
+      "B000MRNUBC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07F2HQXNR",
+        "reason": "Rhythm game aligns with interests"
+      },
+      {
+        "item_id": "B18V2L4RWN",
+        "reason": "Superhero theme appeals to user"
+      },
+      {
+        "item_id": "B20BDG2VVFZ",
+        "reason": "Sports game matches user preference"
+      },
+      {
+        "item_id": "B000MRNUBC",
+        "reason": "Classic Pokémon game for nostalgia"
+      },
+      {
+        "item_id": "B08LZLJ12K",
+        "reason": "Portable case for handheld gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3593,
+    "completion_tokens": 330
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08YR8LFH3",
+      "B0B5CLRGM9",
+      "B13ZK72HQL",
+      "B08SKLZNZ4",
+      "B01E073CVW",
+      "B08FC4XBY7",
+      "B07GMYXMFT",
+      "B09ZXX71C5",
+      "B09YHFQK84",
+      "B08TM9QS3J",
+      "B000GAAXT2",
+      "B08741VJ17",
+      "B01J4KEX9A",
+      "B08BG5DGSC",
+      "B08HSLXCGT",
+      "B094Z97FN1",
+      "B09ZK72HQL",
+      "B004GUSJHQ",
+      "B009PJ3AOK",
+      "B08FC4XBY7"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08YR8LFH3",
+        "reason": "Comfortable head strap for Quest2"
+      },
+      {
+        "item_id": "B0B5CLRGM9",
+        "reason": "Enhances VR gaming experience"
+      },
+      {
+        "item_id": "B13ZK72HQL",
+        "reason": "Large VR mat for Oculus Quest"
+      },
+      {
+        "item_id": "B08SKLZNZ4",
+        "reason": "Ergonomic grip for controllers"
+      },
+      {
+        "item_id": "B01E073CVW",
+        "reason": "High-quality gaming headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3696,
+    "completion_tokens": 332
+  }
+}

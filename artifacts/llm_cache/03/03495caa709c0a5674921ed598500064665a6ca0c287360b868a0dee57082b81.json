@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0B4GGGKVD",
+      "B0050FDE4E",
+      "B07GQGKZXK",
+      "B001G7PSIU",
+      "B000MJB1WU",
+      "B08GMTJYXJ",
+      "B003OAE79S",
+      "B0B9MJK753",
+      "B001QCWRZC",
+      "B13J875ZPG",
+      "B007CM0K86",
+      "B076J9TNCD",
+      "B002SCQ624",
+      "B06ZXXH1TT",
+      "B0053B7ICO",
+      "B0BGB7VPGK",
+      "B00002EPZ2",
+      "B000MJB1WU",
+      "B001QCWRZC",
+      "B0053B7ICO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0B4GGGKVD",
+        "reason": "Popular action-adventure game"
+      },
+      {
+        "item_id": "B0050FDE4E",
+        "reason": "Multiplayer experience available"
+      },
+      {
+        "item_id": "B07GQGKZXK",
+        "reason": "New console bundle with games"
+      },
+      {
+        "item_id": "B001G7PSIU",
+        "reason": "Action-packed gameplay"
+      },
+      {
+        "item_id": "B000MJB1WU",
+        "reason": "Highly rated RPG experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3868,
+    "completion_tokens": 317
+  }
+}

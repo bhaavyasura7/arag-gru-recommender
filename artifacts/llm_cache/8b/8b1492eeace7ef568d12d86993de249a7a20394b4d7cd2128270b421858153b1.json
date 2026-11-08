@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000035XCC",
+      "B08F5GG58Q",
+      "B00009QI4O",
+      "B0BLKG8YZQ",
+      "B0012EYSW4",
+      "B0002W30DK",
+      "B001EYUPY2",
+      "B001LRQ9GA",
+      "B07J6PVSRG",
+      "B0050SWNZW",
+      "B07YQQL7G5",
+      "B09ZQ3M3BS",
+      "B0B6CWTL8P",
+      "B07THJZG59",
+      "B0BLZD87H5",
+      "B00ID0VZ4E",
+      "B07KN1Z5GT",
+      "B095XCYD2M",
+      "B000NXMIYK",
+      "B07THJZG59"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000035XCC",
+        "reason": "Nostalgic classic Nintendo title"
+      },
+      {
+        "item_id": "B08F5GG58Q",
+        "reason": "Multiple classic games in one"
+      },
+      {
+        "item_id": "B00009QI4O",
+        "reason": "Family-friendly adventure game"
+      },
+      {
+        "item_id": "B0BLKG8YZQ",
+        "reason": "Enhances Mario Kart experience"
+      },
+      {
+        "item_id": "B0012EYSW4",
+        "reason": "Classic adventure game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3717,
+    "completion_tokens": 328
+  }
+}

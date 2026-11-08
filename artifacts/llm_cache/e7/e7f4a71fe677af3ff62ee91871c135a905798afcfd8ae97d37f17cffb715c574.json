@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "simulation games",
+      "family-friendly titles",
+      "Pokemon series",
+      "LEGO games"
+    ],
+    "current_intent": "looking for more engaging video games",
+    "avoid": [
+      "violent games",
+      "complex strategy games",
+      "adult-themed content"
+    ],
+    "summary": "User enjoys family-friendly and action-adventure video games, particularly those featuring popular franchises like Pokemon and LEGO."
+  },
+  "usage": {
+    "prompt_tokens": 473,
+    "completion_tokens": 75
+  }
+}

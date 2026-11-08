@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0029E3SZE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B082VX16VJ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances PlayStation gaming experience."
+      },
+      {
+        "item_id": "B00844S8F8",
+        "label": "support",
+        "score": 7,
+        "rationale": "PlayStation Vita game aligns with interests."
+      },
+      {
+        "item_id": "B09F18W91G",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Retro accessory, not directly relevant."
+      },
+      {
+        "item_id": "B086LLM5WG",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Nintendo game, user prefers PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1075,
+    "completion_tokens": 160
+  }
+}

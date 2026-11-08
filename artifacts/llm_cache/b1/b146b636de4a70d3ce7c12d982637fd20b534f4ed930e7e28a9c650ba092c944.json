@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0036CESCK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Casual games not in user history."
+      },
+      {
+        "item_id": "B09L3TYBBC",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has PS4 accessories in history."
+      },
+      {
+        "item_id": "B07RZTX6VR",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS2 adapter not relevant to user."
+      },
+      {
+        "item_id": "B07L5TX5TH",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Xbox stand not aligned with interests."
+      },
+      {
+        "item_id": "B01AX9COKQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo item not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1514,
+    "completion_tokens": 157
+  }
+}

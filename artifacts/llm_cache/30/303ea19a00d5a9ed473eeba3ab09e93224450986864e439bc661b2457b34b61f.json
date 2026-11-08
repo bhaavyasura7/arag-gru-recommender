@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09LMBRTWY",
+      "B11NY115LY",
+      "B000UZXOQW",
+      "B20BKK1LVZ",
+      "B0013VC5G2",
+      "B0002VZX86",
+      "B004HZXEES",
+      "B001EYUQ1Y",
+      "B076MKHK83",
+      "B09Q93T261",
+      "B07KVHH7H4",
+      "B06XG1VYPR",
+      "B00LYYN4MM",
+      "B004HD55VK",
+      "B07NY115LY",
+      "B093KHDF9Y",
+      "B0002VZX86",
+      "B000EJL1IZW",
+      "B0013VC5G2",
+      "B0002VZX86"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09LMBRTWY",
+        "reason": "Large collection of retro games"
+      },
+      {
+        "item_id": "B11NY115LY",
+        "reason": "Classic games console appeal"
+      },
+      {
+        "item_id": "B000UZXOQW",
+        "reason": "Nostalgic classic game"
+      },
+      {
+        "item_id": "B20BKK1LVZ",
+        "reason": "Engaging platformer gameplay"
+      },
+      {
+        "item_id": "B0013VC5G2",
+        "reason": "Cute family-friendly accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3479,
+    "completion_tokens": 318
+  }
+}

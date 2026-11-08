@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000069T08",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user preferences."
+      },
+      {
+        "item_id": "B00005BWH5",
+        "label": "support",
+        "score": 7,
+        "rationale": "PlayStation 2 game aligns with interests."
+      },
+      {
+        "item_id": "B07Z37NRV1",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B07RK2FTHX",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "N64 controller, user prefers PlayStation."
+      },
+      {
+        "item_id": "B015UVJGNU",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Amiibo card, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1059,
+    "completion_tokens": 156
+  }
+}

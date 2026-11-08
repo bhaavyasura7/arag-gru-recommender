@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "story-driven experiences",
+      "multiplayer shooters",
+      "high-quality graphics",
+      "collectors editions"
+    ],
+    "current_intent": "looking for highly-rated action games",
+    "avoid": [
+      "low-rated games",
+      "sports games",
+      "puzzle games"
+    ],
+    "summary": "User enjoys action and story-driven video games, prefers high ratings, and is currently seeking new titles to play."
+  },
+  "usage": {
+    "prompt_tokens": 853,
+    "completion_tokens": 78
+  }
+}

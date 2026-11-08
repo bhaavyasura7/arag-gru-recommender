@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EHD9JC",
+      "B12MYVF61Y",
+      "B00F2Y1CH4",
+      "B07HKX4ZV9",
+      "B00E8CF268",
+      "B07MYVF61Y",
+      "B00ZKZYKMO",
+      "B07HJ7FZM4",
+      "B009LQMDTU",
+      "B00UG63VDG",
+      "B07MV17D3X",
+      "B07YBXJ5FK",
+      "B00RSXRLUE",
+      "B07MRJ12HX",
+      "B00E8CF268",
+      "B07K3ZY6BR",
+      "B0088I6JEW",
+      "B07624RBWB",
+      "B00ZKZYKMO",
+      "B001EHD9JC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EHD9JC",
+        "reason": "Superhero action game"
+      },
+      {
+        "item_id": "B12MYVF61Y",
+        "reason": "Classic action game"
+      },
+      {
+        "item_id": "B00F2Y1CH4",
+        "reason": "Useful gaming accessory"
+      },
+      {
+        "item_id": "B07HKX4ZV9",
+        "reason": "Popular multiplayer game"
+      },
+      {
+        "item_id": "B00E8CF268",
+        "reason": "High-quality gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3794,
+    "completion_tokens": 318
+  }
+}

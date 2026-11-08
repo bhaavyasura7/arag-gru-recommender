@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00O9GW8TC",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Wii U, Nintendo fan favorite."
+      },
+      {
+        "item_id": "B01CINIAKS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation exclusive, user prefers Nintendo."
+      },
+      {
+        "item_id": "B00XZDQ6O8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B0013HE5UU",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wii game, aligns with Nintendo interests."
+      },
+      {
+        "item_id": "B07X1HF3V6",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PlayStation 3 game, user prefers Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 170
+  }
+}

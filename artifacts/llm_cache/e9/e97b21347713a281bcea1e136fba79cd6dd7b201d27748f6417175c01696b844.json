@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09WR3DBT3",
+      "B0BN942894",
+      "B19ZBZYAA",
+      "B12D5G4KXJ",
+      "B00HRW8PRO",
+      "B0000AHOYR",
+      "B000099T1Y",
+      "B00DBLBMBQ",
+      "B00004S99X",
+      "B00005LZNI",
+      "B000K1GZIU",
+      "B00009ECGG",
+      "B0000AHOYR",
+      "B003DSAT0C",
+      "B07D5G4KXJ",
+      "B000099T1Y",
+      "B0000AHOYR",
+      "B00O15486W",
+      "B00005LZNI",
+      "B00004S99X"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09WR3DBT3",
+        "reason": "PS5 cooling and charging station"
+      },
+      {
+        "item_id": "B0BN942894",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B19ZBZYAA",
+        "reason": "Custom PS5 controller buttons"
+      },
+      {
+        "item_id": "B12D5G4KXJ",
+        "reason": "Performance thumb grips"
+      },
+      {
+        "item_id": "B00HRW8PRO",
+        "reason": "Classic arcade game collection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3925,
+    "completion_tokens": 318
+  }
+}

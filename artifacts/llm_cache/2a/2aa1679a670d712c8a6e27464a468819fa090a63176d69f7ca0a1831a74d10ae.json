@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08LT6PT1X",
+      "B003R7JXO2",
+      "B0042GW7CC",
+      "B09YXR2MQR",
+      "B0017ZIIK6",
+      "B08C7F68XH",
+      "B19IAC2OE",
+      "B07RB1PM3J",
+      "B00X3EDHZU",
+      "B004JN0U8Q",
+      "B09Y8F819V",
+      "B001TOQ8UW",
+      "B078KJ5VMV",
+      "B0C6BV5XQZ",
+      "B002I0J4NE",
+      "B0017ZIIK6",
+      "B07DNDZZ38",
+      "B0BN2FNKLM",
+      "B0042GW7CC",
+      "B00004SVZ0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08LT6PT1X",
+        "reason": "High customization and ergonomic design"
+      },
+      {
+        "item_id": "B003R7JXO2",
+        "reason": "Multiplayer action in Harry Potter"
+      },
+      {
+        "item_id": "B0042GW7CC",
+        "reason": "Classic multiplayer arcade games"
+      },
+      {
+        "item_id": "B09YXR2MQR",
+        "reason": "Limited edition Xbox controller"
+      },
+      {
+        "item_id": "B0017ZIIK6",
+        "reason": "Multiplayer fighting game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3756,
+    "completion_tokens": 332
+  }
+}

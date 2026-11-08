@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DHJLL0Y",
+      "B071S7Z6L5",
+      "B20NVBMXZ3",
+      "B00SWH7QDC",
+      "B004E0K732",
+      "B08CXBMRG4",
+      "B08LPY3BPK",
+      "B000B6N2MG",
+      "B077J1SF2Q",
+      "B08GYRTGNQ",
+      "B3000 Games in 1 Arcade Game Console",
+      "B08NVBMXZ3",
+      "B0009TSG3U",
+      "B001UG4XSS",
+      "B07DLPYT8Y",
+      "B07VTW16G7",
+      "B079HR59PP",
+      "B000RP216O",
+      "B002M99VF2",
+      "B08B1T61CC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DHJLL0Y",
+        "reason": "Popular fighting game release"
+      },
+      {
+        "item_id": "B071S7Z6L5",
+        "reason": "Essential PS4 controller accessory"
+      },
+      {
+        "item_id": "B08NVBMXZ3",
+        "reason": "Versatile PS5 cooling and charging"
+      },
+      {
+        "item_id": "B00SWH7QDC",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B004E0K732",
+        "reason": "Cooling fan for Xbox 360"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3395,
+    "completion_tokens": 334
+  }
+}

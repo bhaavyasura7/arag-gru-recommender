@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000BPLCDI",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Xbox 360 games."
+      },
+      {
+        "item_id": "B01GVN10VM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Generic controller, no specific user interest."
+      },
+      {
+        "item_id": "B0BZCF1D75",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Compatible with Xbox One, less relevant."
+      },
+      {
+        "item_id": "B000YJMHVM",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly supports Xbox 360, high relevance."
+      },
+      {
+        "item_id": "B08JW5DR79",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Modern controller, but not Xbox 360 specific."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 961,
+    "completion_tokens": 160
+  }
+}

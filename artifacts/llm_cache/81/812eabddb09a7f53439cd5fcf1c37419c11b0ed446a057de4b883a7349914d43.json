@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004HD55VK",
+        "label": "support",
+        "score": 8,
+        "rationale": "Action-adventure aligns with user interests."
+      },
+      {
+        "item_id": "B07QRRLCKD",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "DIY kit not directly related to gaming."
+      },
+      {
+        "item_id": "B00269DXXO",
+        "label": "support",
+        "score": 7,
+        "rationale": "Survival horror matches user gaming preferences."
+      },
+      {
+        "item_id": "B007W8S2MG",
+        "label": "support",
+        "score": 9,
+        "rationale": "RPG elements align with user interests."
+      },
+      {
+        "item_id": "B078GHDJW4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Keyboard accessory not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1063,
+    "completion_tokens": 153
+  }
+}

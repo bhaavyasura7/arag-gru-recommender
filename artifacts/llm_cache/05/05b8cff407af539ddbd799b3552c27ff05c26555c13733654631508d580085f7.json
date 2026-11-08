@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000W495PA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B00ER8HHFW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Focus on kids' dance games."
+      },
+      {
+        "item_id": "B09QQH1KF5",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Targeted at younger audience."
+      },
+      {
+        "item_id": "B003VWC124",
+        "label": "support",
+        "score": 6,
+        "rationale": "Similar strategy game genre."
+      },
+      {
+        "item_id": "B0BMXG6T3Q",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1261,
+    "completion_tokens": 151
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B087SN6TC5",
+      "B01E3NIVRS",
+      "B071XXRQ7L",
+      "B006XR5TW2B",
+      "B008B9IJF0",
+      "B19MKF6N7V",
+      "B0038JVJ9G",
+      "B003C1PVCQ",
+      "B002C741S6",
+      "B0026ZQBGO",
+      "B0035FYXSC",
+      "B08DDLL1NB",
+      "B01EFVAOF0",
+      "B0852NP6B9",
+      "B0725W7Q58",
+      "B008Y9FMHA",
+      "B12N6SW518",
+      "B003C1PVCQ",
+      "B0038JVJ9G",
+      "B08GPGL3ZP"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087SN6TC5",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B01E3NIVRS",
+        "reason": "Highly rated PS4 game"
+      },
+      {
+        "item_id": "B071XXRQ7L",
+        "reason": "Essential Switch accessory"
+      },
+      {
+        "item_id": "B008B9IJF0",
+        "reason": "Quality gaming headset part"
+      },
+      {
+        "item_id": "B006XR5TW2B",
+        "reason": "Useful for arcade gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3649,
+    "completion_tokens": 320
+  }
+}

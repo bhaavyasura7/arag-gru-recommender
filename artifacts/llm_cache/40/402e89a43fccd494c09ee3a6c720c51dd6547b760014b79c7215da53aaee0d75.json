@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09YTV96R7",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches Nintendo Switch accessory interest."
+      },
+      {
+        "item_id": "B08GP26H23",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo, not PlayStation."
+      },
+      {
+        "item_id": "B07XG45X73",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly related to Nintendo Switch customization."
+      },
+      {
+        "item_id": "B00BSKXT2C",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC games, not aligned with console preference."
+      },
+      {
+        "item_id": "B09NPJQ4RB",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Focus on PlayStation, not Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1208,
+    "completion_tokens": 161
+  }
+}

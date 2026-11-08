@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "JRPGs",
+      "Action-adventure games",
+      "Cheat systems",
+      "Survival horror",
+      "Anime-inspired games"
+    ],
+    "current_intent": "Looking for engaging RPGs or action-adventure games.",
+    "avoid": [
+      "Low-quality games",
+      "Non-RPG genres",
+      "Overly complex mechanics"
+    ],
+    "summary": "User enjoys RPGs and action-adventure games, particularly those with engaging stories and gameplay, while avoiding low-quality or overly complex titles."
+  },
+  "usage": {
+    "prompt_tokens": 299,
+    "completion_tokens": 90
+  }
+}

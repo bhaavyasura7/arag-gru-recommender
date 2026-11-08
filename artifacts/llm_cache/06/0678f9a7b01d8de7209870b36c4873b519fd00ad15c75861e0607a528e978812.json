@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001VMATDE",
+      "B008J2RFV8",
+      "B00004T009",
+      "B00017K08O",
+      "B00006LISK",
+      "B0009F79BE",
+      "B00004YUI8",
+      "B00002S671",
+      "B001BYPXRE",
+      "B002S62BGA",
+      "B0009MUK2C",
+      "B00004UD3W",
+      "B001OZJE52",
+      "B0007N3KIO",
+      "B0012NO6H2",
+      "B002JCS5J0",
+      "B0009F79BE",
+      "B00004YUI8",
+      "B0006NL1HM",
+      "B083HRJJ8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001VMATDE",
+        "reason": "Engaging cooperative gameplay"
+      },
+      {
+        "item_id": "B008J2RFV8",
+        "reason": "Narrative-driven experience"
+      },
+      {
+        "item_id": "B00004T009",
+        "reason": "Classic story-rich game"
+      },
+      {
+        "item_id": "B00017K08O",
+        "reason": "Variety of card games"
+      },
+      {
+        "item_id": "B00006LISK",
+        "reason": "Simulation game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1267,
+    "completion_tokens": 305
+  }
+}

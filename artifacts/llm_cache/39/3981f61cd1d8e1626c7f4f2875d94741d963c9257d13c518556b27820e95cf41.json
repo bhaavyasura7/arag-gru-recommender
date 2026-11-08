@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00LV416KC",
+      "B085G42RXJ",
+      "B08H9CVSS9",
+      "B01K1CC4R8",
+      "B07L3SV188",
+      "B07D122T41",
+      "B07467QH6M",
+      "B08DMWF4MX",
+      "B0BHZ58XMH",
+      "B00M1RSYUI",
+      "B000N45SO6",
+      "B00005AG2L",
+      "B000PKU2N0",
+      "B006ZN64CY",
+      "B000RO39AW",
+      "B0B5NP8MVZ",
+      "B08C2MT145",
+      "B094Q6C3L9",
+      "B07HGT7JC8",
+      "B00005AG2L"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00LV416KC",
+        "reason": "Engaging co-op multiplayer experience"
+      },
+      {
+        "item_id": "B085G42RXJ",
+        "reason": "Action-packed gameplay with exploration"
+      },
+      {
+        "item_id": "B08H9CVSS9",
+        "reason": "Multiplayer options with unique characters"
+      },
+      {
+        "item_id": "B01K1CC4R8",
+        "reason": "Enhanced accuracy for competitive play"
+      },
+      {
+        "item_id": "B07L3SV188",
+        "reason": "Protective case for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3330,
+    "completion_tokens": 326
+  }
+}

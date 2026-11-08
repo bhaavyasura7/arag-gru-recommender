@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B8T8B2WK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset, not a game."
+      },
+      {
+        "item_id": "B00005KG5U",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Targeted at children, not user."
+      },
+      {
+        "item_id": "B07P9K1KVW",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular shooter, aligns with interests."
+      },
+      {
+        "item_id": "B07TSZV2VS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset, not a game."
+      },
+      {
+        "item_id": "B000069T96",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy game, less relevant now."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1130,
+    "completion_tokens": 158
+  }
+}

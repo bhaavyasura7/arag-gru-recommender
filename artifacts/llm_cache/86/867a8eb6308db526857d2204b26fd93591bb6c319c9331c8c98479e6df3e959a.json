@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "PlayStation 2 games",
+      "Kingdom Hearts series",
+      "gaming accessories",
+      "retro gaming",
+      "video game nostalgia"
+    ],
+    "current_intent": "Looking for more PlayStation 2 games or accessories.",
+    "avoid": [
+      "modern gaming consoles",
+      "mobile games",
+      "non-gaming products"
+    ],
+    "summary": "User is a retro gaming enthusiast focused on PlayStation 2, particularly enjoying the Kingdom Hearts series and related accessories."
+  },
+  "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 84
+  }
+}

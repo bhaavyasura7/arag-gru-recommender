@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07Y7C43P6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's gaming preferences."
+      },
+      {
+        "item_id": "B07MJJL3FH",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game or headset."
+      },
+      {
+        "item_id": "B00US76VKS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox One game aligns with interests."
+      },
+      {
+        "item_id": "B00U7DREDG",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Older game, less relevant to user."
+      },
+      {
+        "item_id": "B01JJFG1XG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Replacement part, not a gaming product."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 160
+  }
+}

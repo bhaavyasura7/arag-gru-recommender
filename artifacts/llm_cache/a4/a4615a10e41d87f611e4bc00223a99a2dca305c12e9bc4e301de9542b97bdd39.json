@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0009VXBAQ",
+      "B018CYKIHU",
+      "B000038A6U",
+      "B0002XL3BA",
+      "B001EYUY8Y",
+      "B001EYUQ8M",
+      "B001EYUWRC",
+      "B002SUTB28",
+      "B07TC8J6HK",
+      "B00HVBPRUO",
+      "B00264H2W2",
+      "B0191J0RXA",
+      "B00DDIRERI",
+      "B0988533WP",
+      "B001EYUY8Y",
+      "B01B2RWVHY",
+      "B06XPX5XLY",
+      "B07YBXP45M",
+      "B00BHJ6KY8",
+      "B00DDIRERI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0009VXBAQ",
+        "reason": "Classic multiplayer platformer experience"
+      },
+      {
+        "item_id": "B018CYKIHU",
+        "reason": "Fun racing game with multiplayer"
+      },
+      {
+        "item_id": "B000038A6U",
+        "reason": "Classic arcade games for nostalgia"
+      },
+      {
+        "item_id": "B0002XL3BA",
+        "reason": "Nintendo console for multiplayer fun"
+      },
+      {
+        "item_id": "B001EYUY8Y",
+        "reason": "Multiplayer options in a classic game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3835,
+    "completion_tokens": 317
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00KVP76G0",
+      "B00W9DHUBS",
+      "B00KQHHDZC",
+      "B00HX1UXD8",
+      "B07GWJN5YW",
+      "B00NOD0OTW",
+      "B001EYURK4",
+      "B00KLH0XMW",
+      "B007YZCE94",
+      "B001H8DUB0",
+      "B00G9AYVTG",
+      "B002WTC4VA",
+      "B00K32USMU",
+      "B00KVP76G0",
+      "B00D3F8D8A",
+      "B00NKNB4Y",
+      "B0079V4FAY",
+      "B00KQHHDZC",
+      "B005IU8A5O",
+      "B00D3F8D8A",
+      "B001KBZZYE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KVP76G0",
+        "reason": "High precision and control"
+      },
+      {
+        "item_id": "B00W9DHUBS",
+        "reason": "Wireless and ergonomic design"
+      },
+      {
+        "item_id": "B00KQHHDZC",
+        "reason": "Popular gaming title"
+      },
+      {
+        "item_id": "B00HX1UXD8",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B07GWJN5YW",
+        "reason": "Comfortable for long sessions"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3589,
+    "completion_tokens": 340
+  }
+}

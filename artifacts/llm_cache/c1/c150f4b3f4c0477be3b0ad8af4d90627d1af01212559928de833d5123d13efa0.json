@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01MRHHC0T",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B0BSC2BCB4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B07WP2ZYNR",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user's recent purchases."
+      },
+      {
+        "item_id": "B0B25BHKNX",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly related to Nintendo Switch accessories."
+      },
+      {
+        "item_id": "B07HMWJLYP",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not relevant to user's gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1282,
+    "completion_tokens": 154
+  }
+}

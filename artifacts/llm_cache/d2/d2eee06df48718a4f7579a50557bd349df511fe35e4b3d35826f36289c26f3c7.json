@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09K6FVY86",
+      "B076C7M7ZR",
+      "B0B8DG8YRM",
+      "B0009WAEK0",
+      "B00005RKXL",
+      "B019PLMS72",
+      "B07T9MNFD3",
+      "B06WW7B61X",
+      "B000RO0RO8",
+      "B07Q3THC6R",
+      "B00008GKFZ",
+      "B001E3VKFG",
+      "B0B5LX9RQV",
+      "B08H2CJFSS",
+      "B0714FFZD8",
+      "B00006RHLF",
+      "B0009WAEK0",
+      "B00005RKXL",
+      "B18D3D8D3",
+      "B00006RHLF"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09K6FVY86",
+        "reason": "Engaging multiplayer experience"
+      },
+      {
+        "item_id": "B076C7M7ZR",
+        "reason": "High-quality gaming accessory"
+      },
+      {
+        "item_id": "B0B8DG8YRM",
+        "reason": "Enhances PS5 multiplayer setup"
+      },
+      {
+        "item_id": "B0009WAEK0",
+        "reason": "Classic multiplayer game"
+      },
+      {
+        "item_id": "B00005RKXL",
+        "reason": "Compatible with legacy systems"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2871,
+    "completion_tokens": 324
+  }
+}

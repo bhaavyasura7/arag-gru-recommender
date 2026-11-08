@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08DV4ZFVQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Basic mouse, not gaming-focused."
+      },
+      {
+        "item_id": "B0BY8X7VVB",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not relevant to user's gaming setup."
+      },
+      {
+        "item_id": "B07ZQ7S28B",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Skin for console, not a gaming accessory."
+      },
+      {
+        "item_id": "B07JH4R6ZT",
+        "label": "support",
+        "score": 8,
+        "rationale": "High-quality gaming headset, matches interests."
+      },
+      {
+        "item_id": "B09V5428B3",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR stand, not directly related to gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1340,
+    "completion_tokens": 165
+  }
+}

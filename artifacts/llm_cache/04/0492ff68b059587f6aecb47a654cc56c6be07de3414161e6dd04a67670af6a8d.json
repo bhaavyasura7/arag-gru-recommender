@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYU1VY",
+      "B0B8P2XR2L",
+      "B000PQ2FE8",
+      "B00002ST83",
+      "B018D6CW7Y",
+      "B000N6TYOE",
+      "B004ELB2US",
+      "B08NPD7B4R",
+      "B00HJEQKPE",
+      "B08LG1K19L",
+      "B00R1Y4U9K",
+      "B071R36CNX",
+      "B01N962MQG",
+      "B0002VKC3W",
+      "B0BKSV6G3S",
+      "B000ANYFVM",
+      "B08PFXF32N",
+      "B001D6CW7Y",
+      "B0002VKC3W",
+      "B000N6TYOE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYU1VY",
+        "reason": "Ideal joystick for flight games"
+      },
+      {
+        "item_id": "B0B8P2XR2L",
+        "reason": "Compatible with gaming controllers"
+      },
+      {
+        "item_id": "B000PQ2FE8",
+        "reason": "Classic game for Sega systems"
+      },
+      {
+        "item_id": "B00002ST83",
+        "reason": "Legacy game for Sega Genesis"
+      },
+      {
+        "item_id": "B004ELB2US",
+        "reason": "Popular action game on PS3"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3036,
+    "completion_tokens": 331
+  }
+}

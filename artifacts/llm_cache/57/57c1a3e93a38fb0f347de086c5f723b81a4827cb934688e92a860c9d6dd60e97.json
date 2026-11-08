@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0C34DJS6C",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys gaming accessories and keyboards."
+      },
+      {
+        "item_id": "B01H482N6E",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to gaming but not preferred genre."
+      },
+      {
+        "item_id": "B00B7200M8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation games."
+      },
+      {
+        "item_id": "B002EQFXZA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for legacy system, less relevant."
+      },
+      {
+        "item_id": "B001EYUSJ4",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers Xbox, not PlayStation games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1305,
+    "completion_tokens": 163
+  }
+}

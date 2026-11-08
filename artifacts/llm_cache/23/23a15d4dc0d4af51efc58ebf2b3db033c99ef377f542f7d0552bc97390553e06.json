@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "PlayStation accessories",
+      "Wireless controllers",
+      "Gaming peripherals",
+      "Motion gaming",
+      "Video game accessories"
+    ],
+    "current_intent": "Looking for more PlayStation 3 accessories.",
+    "avoid": [
+      "Non-gaming products",
+      "Wired controllers",
+      "Outdated gaming systems"
+    ],
+    "summary": "User is focused on enhancing their PlayStation 3 gaming experience with accessories, particularly wireless options."
+  },
+  "usage": {
+    "prompt_tokens": 299,
+    "completion_tokens": 76
+  }
+}

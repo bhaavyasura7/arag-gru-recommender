@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00XCRT0GS",
+      "B00FLLFGO8",
+      "B00U33Q940",
+      "B01FXS3NGQ",
+      "B000N5Z2L4",
+      "B08YBXFDYN",
+      "B017RZ3PWU",
+      "B00B9775W4",
+      "B00HAZ6D2M",
+      "B0053B66KE",
+      "B0BRR1CHDL",
+      "B00002SVFM",
+      "B0009VXBAQ",
+      "B00IEZ6H4G",
+      "B07PVJ5VCC",
+      "B087SHFL9B",
+      "B0771R1X9L",
+      "B000N5Z2L4",
+      "B01M5GG9I7",
+      "B0009VXBAQ",
+      "B00B9775W4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00XCRT0GS",
+        "reason": "Popular Xbox controller with adapter"
+      },
+      {
+        "item_id": "B00FLLFGO8",
+        "reason": "Useful for streaming PS4 games"
+      },
+      {
+        "item_id": "B00U33Q940",
+        "reason": "Great for gaming and streaming"
+      },
+      {
+        "item_id": "B01FXS3NGQ",
+        "reason": "Quality PS4 headset for gaming"
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "reason": "Essential Xbox Live membership"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3724,
+    "completion_tokens": 344
+  }
+}

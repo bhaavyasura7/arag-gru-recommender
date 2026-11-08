@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00BI9MDSO",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User prefers Xbox products, not PlayStation."
+      },
+      {
+        "item_id": "B00HRH79H6",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User has no interest in PlayStation games."
+      },
+      {
+        "item_id": "B01GH9MVWW",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User does not engage with PlayStation titles."
+      },
+      {
+        "item_id": "B00GWWLGK8",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User focuses on Xbox, not PlayStation accessories."
+      },
+      {
+        "item_id": "B00DBDPOZ4",
+        "label": "support",
+        "score": 10,
+        "rationale": "Directly supports user's Xbox One interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1320,
+    "completion_tokens": 172
+  }
+}

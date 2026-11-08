@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08F5GG58Q",
+      "B000035XCC",
+      "B07YQQL7G5",
+      "B0BLKG8YZQ",
+      "B001LRQ9GA",
+      "B0002W30DK",
+      "B00009QI4O",
+      "B0012EYSW4",
+      "B09ZQ3M3BS",
+      "B0050SWNZW",
+      "B07J6PVSRG",
+      "B0B6CWTL8P",
+      "B001EYUPY2",
+      "B000NXMIYK",
+      "B07THJZG59",
+      "B0BLZD87H5",
+      "B00ID0VZ4E",
+      "B001EYUPY2",
+      "B0002W30DK",
+      "B07YQQL7G5"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08F5GG58Q",
+        "reason": "Classic multi-game cartridge for SNES"
+      },
+      {
+        "item_id": "B000035XCC",
+        "reason": "Nostalgic Tom & Jerry adventure"
+      },
+      {
+        "item_id": "B07YQQL7G5",
+        "reason": "Personalized controller light bar decals"
+      },
+      {
+        "item_id": "B0BLKG8YZQ",
+        "reason": "Racing wheel for Mario Kart fun"
+      },
+      {
+        "item_id": "B001LRQ9GA",
+        "reason": "Classic Street Fighter nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3702,
+    "completion_tokens": 336
+  }
+}

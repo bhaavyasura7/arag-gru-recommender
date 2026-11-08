@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000FVVSZA",
+      "B0C3KYVDWT",
+      "B000K8ZXK4",
+      "B004X8D8A0",
+      "B001EYUQTQ",
+      "B001QD4THU",
+      "B001EYUQKK",
+      "B001DKDANA",
+      "B0053B7ICO",
+      "B000CES8EFY",
+      "B001EYUQKK",
+      "B001EYUQTQ",
+      "B00CJ9OTNE",
+      "B00ZC3I5WK",
+      "B07QPKSVTD",
+      "B08VMZBVJF",
+      "B01GHFJB4W",
+      "B002SSUL5G",
+      "B00K308KF4",
+      "B00CES8EFY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000FVVSZA",
+        "reason": "Nintendo 64 game compilation"
+      },
+      {
+        "item_id": "B0C3KYVDWT",
+        "reason": "Nintendo Switch compatible accessory"
+      },
+      {
+        "item_id": "B000K8ZXK4",
+        "reason": "PSP accessory for classic games"
+      },
+      {
+        "item_id": "B004X8D8A0",
+        "reason": "Compatible with retro gaming systems"
+      },
+      {
+        "item_id": "B001QD4THU",
+        "reason": "Classic controller for Xbox 360"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3849,
+    "completion_tokens": 321
+  }
+}

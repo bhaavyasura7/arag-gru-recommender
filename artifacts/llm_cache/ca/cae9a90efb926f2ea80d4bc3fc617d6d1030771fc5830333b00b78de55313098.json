@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00SLBGQX0",
+      "B01JT80134",
+      "B09Y21MG98",
+      "B07P5LZZNN",
+      "B00005B8G8",
+      "B00005V95P",
+      "B08D9J9G1D",
+      "B00134YRQU",
+      "B09RNK4H6Z",
+      "B08HJKYBG9",
+      "B003TL4T9U",
+      "B01DVF2TI6",
+      "B000BPEL40",
+      "B00161IYDC",
+      "B00GXHJ14A",
+      "B00G4PEN4Y",
+      "B08D9J9G1D",
+      "B00B3YNOSW",
+      "B007OWQCE0",
+      "B00GXHJ14A",
+      "B09QVJDVHN"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00SLBGQX0",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B01JT80134",
+        "reason": "Nostalgic multiplayer game"
+      },
+      {
+        "item_id": "B09Y21MG98",
+        "reason": "Useful VR accessory"
+      },
+      {
+        "item_id": "B07P5LZZNN",
+        "reason": "Reliable gaming mouse"
+      },
+      {
+        "item_id": "B00005B8G8",
+        "reason": "Classic retro game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3650,
+    "completion_tokens": 331
+  }
+}

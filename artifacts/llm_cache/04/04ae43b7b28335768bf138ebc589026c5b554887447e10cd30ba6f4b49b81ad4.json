@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00HRS5VD4",
+        "label": "support",
+        "score": 8,
+        "rationale": "PS4 accessory matches user interest."
+      },
+      {
+        "item_id": "B00ITE71U6",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS4 controller skin aligns with gaming."
+      },
+      {
+        "item_id": "B00ENZRF1K",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, but still a game."
+      },
+      {
+        "item_id": "B00KZ0LS7Y",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Old Nintendo accessory, not relevant."
+      },
+      {
+        "item_id": "B01J4K1082",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Xbox 360 game, user prefers PS4."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 783,
+    "completion_tokens": 164
+  }
+}

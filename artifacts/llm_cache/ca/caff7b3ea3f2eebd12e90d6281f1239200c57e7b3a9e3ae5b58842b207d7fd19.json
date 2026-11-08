@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B014U0GRXE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, but same platform."
+      },
+      {
+        "item_id": "B0009XEC0M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different platform and genre."
+      },
+      {
+        "item_id": "B00D5SZ04K",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Different genre, not RPG."
+      },
+      {
+        "item_id": "B001EYUQTQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre, not RPG."
+      },
+      {
+        "item_id": "B00000K2R4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Different platform, outdated system."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1232,
+    "completion_tokens": 156
+  }
+}

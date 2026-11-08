@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0080CAOYM",
+      "B0055Q175G",
+      "B004LLHFAW",
+      "B00DTWEOZ8",
+      "B06ZZCCDP7",
+      "B004BH5R9W",
+      "B0050SX4CI",
+      "B095WDDH4N",
+      "B01DCYWI96",
+      "B0000296ZD",
+      "B007P6MD9B7",
+      "B003O6EE4U",
+      "B0141736OO",
+      "B008MXPKP2",
+      "B01GRY9VIY",
+      "B00083G5BM",
+      "B009KNGU6G",
+      "B01DCYWI96",
+      "B07QVTXDMF",
+      "B00083G5BM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0080CAOYM",
+        "reason": "Popular first-person shooter title"
+      },
+      {
+        "item_id": "B0055Q175G",
+        "reason": "Engaging multiplayer experience"
+      },
+      {
+        "item_id": "B004LLHFAW",
+        "reason": "Classic action-adventure gameplay"
+      },
+      {
+        "item_id": "B00DTWEOZ8",
+        "reason": "Highly rated FPS with zombies"
+      },
+      {
+        "item_id": "B06ZZCCDP7",
+        "reason": "Star Wars FPS with rich story"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3380,
+    "completion_tokens": 319
+  }
+}

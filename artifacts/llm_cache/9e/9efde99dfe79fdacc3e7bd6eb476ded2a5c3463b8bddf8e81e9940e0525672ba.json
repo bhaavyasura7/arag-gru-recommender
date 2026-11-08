@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09SYYPWY8",
+      "B4C37TBM5Z",
+      "B000IFLEPW",
+      "B07V3G1HNP",
+      "B0B19SPF5K",
+      "B099X165QB",
+      "B01MG8P418",
+      "B0BZRV417M",
+      "B00002ST3D",
+      "B00001NFV4",
+      "B00LXZOPR0",
+      "B01N7AH5QA",
+      "B00TQY1ZKK",
+      "B07KHNMRHL",
+      "B0091P25X0",
+      "B07484YY4L",
+      "B004W75JJ4",
+      "B00KQXKULK",
+      "B00LXZOPR0",
+      "B0001HAIA4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09SYYPWY8",
+        "reason": "Ergonomic RGB gaming mouse"
+      },
+      {
+        "item_id": "B4C37TBM5Z",
+        "reason": "RGB mouse pad enhances gaming"
+      },
+      {
+        "item_id": "B000IFLEPW",
+        "reason": "Fun action-adventure game"
+      },
+      {
+        "item_id": "B07V3G1HNP",
+        "reason": "Protective case for Switch Lite"
+      },
+      {
+        "item_id": "B0B19SPF5K",
+        "reason": "VR accessories enhance experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3496,
+    "completion_tokens": 332
+  }
+}

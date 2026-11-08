@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action RPGs",
+      "anime games",
+      "gaming peripherals",
+      "Nintendo Switch accessories",
+      "high-quality gaming gear"
+    ],
+    "current_intent": "Looking for new gaming experiences or accessories.",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "overpriced accessories"
+    ],
+    "summary": "The user enjoys action RPGs and anime games, values quality gaming gear, and is currently interested in new gaming experiences or accessories for their consoles."
+  },
+  "usage": {
+    "prompt_tokens": 430,
+    "completion_tokens": 102
+  }
+}

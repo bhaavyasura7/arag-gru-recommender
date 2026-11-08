@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B005D3JZB4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action and adventure games."
+      },
+      {
+        "item_id": "B00XAPEWYM",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys action sports games."
+      },
+      {
+        "item_id": "B07213YKCX",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no prior Pokémon interest."
+      },
+      {
+        "item_id": "B00HRXJ55E",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not a video game."
+      },
+      {
+        "item_id": "B082KHYG9K",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1151,
+    "completion_tokens": 153
+  }
+}

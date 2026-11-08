@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0027FFREA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user's preferences."
+      },
+      {
+        "item_id": "B0085QG4JM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre than user's interests."
+      },
+      {
+        "item_id": "B0002LWVSQ",
+        "label": "support",
+        "score": 6,
+        "rationale": "Includes popular franchises user enjoys."
+      },
+      {
+        "item_id": "B0000DBK2H",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Less popular, not user-focused."
+      },
+      {
+        "item_id": "B000AOAI3K",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Chess game not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2444,
+    "completion_tokens": 150
+  }
+}

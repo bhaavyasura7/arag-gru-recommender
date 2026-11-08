@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo Switch games",
+      "Xbox One games",
+      "multiplayer gaming",
+      "controller accessories",
+      "family-friendly titles"
+    ],
+    "current_intent": "Looking for new video games or gaming accessories.",
+    "avoid": [
+      "single-player games",
+      "highly competitive titles",
+      "complex gameplay"
+    ],
+    "summary": "The user enjoys family-friendly video games, particularly on Nintendo Switch and Xbox, and is currently seeking new games or accessories to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 379,
+    "completion_tokens": 86
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BVWPMMCT",
+      "B04B6N790",
+      "B0004A4ZLY",
+      "B0001PWCPU",
+      "B001G7PRP4",
+      "B000NKRIZM",
+      "B09STBH8C8",
+      "B001EYUPLK",
+      "B00002SVEA",
+      "B00005MDZ0",
+      "B000AODB7A",
+      "B00002SVMJ",
+      "B0009UC6AI",
+      "B000EYUT5C",
+      "B0001PWCPU",
+      "B00002SVMJ",
+      "B0001PWCPU",
+      "B0001PWCPU",
+      "B0001PWCPU",
+      "B0001PWCPU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BVWPMMCT",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B04B6N790",
+        "reason": "Popular gaming title"
+      },
+      {
+        "item_id": "B0004A4ZLY",
+        "reason": "DIY arcade kit for gamers"
+      },
+      {
+        "item_id": "B0001PWCPU",
+        "reason": "Essential gaming accessory"
+      },
+      {
+        "item_id": "B001G7PRP4",
+        "reason": "Compatible gaming controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3100,
+    "completion_tokens": 304
+  }
+}

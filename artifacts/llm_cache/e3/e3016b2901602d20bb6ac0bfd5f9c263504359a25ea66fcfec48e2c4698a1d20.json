@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00KVP76G0",
+      "B071SDK84Z",
+      "B13YBXJ5FK",
+      "B0050SVOXE",
+      "B09Z6PRJT6",
+      "B01HCD4G2U",
+      "B006ZZM2BTR",
+      "B00020LZAW",
+      "B00005NZ1K",
+      "B0000664JE",
+      "B007X5103Q",
+      "B009VUHVPM",
+      "B08QR5PTRP",
+      "B087NNPYP3",
+      "B000UW21A0",
+      "B001EYUWWC",
+      "B00020LZAW",
+      "B08KXGWG5X",
+      "B07MG5YV55",
+      "B00005NZ1K",
+      "B0000664JE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KVP76G0",
+        "reason": "High-quality PlayStation controller"
+      },
+      {
+        "item_id": "B071SDK84Z",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B13YBXJ5FK",
+        "reason": "Versatile charging solution"
+      },
+      {
+        "item_id": "B0050SVOXE",
+        "reason": "Classic Nintendo game"
+      },
+      {
+        "item_id": "B09Z6PRJT6",
+        "reason": "Rechargeable battery packs for controllers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3656,
+    "completion_tokens": 325
+  }
+}

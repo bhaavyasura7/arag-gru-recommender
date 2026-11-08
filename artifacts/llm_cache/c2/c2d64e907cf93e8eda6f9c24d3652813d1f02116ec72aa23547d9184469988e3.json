@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0044XU27A",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Older game, not in user's history."
+      },
+      {
+        "item_id": "B006NRMBF6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for older console, less relevant."
+      },
+      {
+        "item_id": "B003S9WQAM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation game, user prefers Xbox."
+      },
+      {
+        "item_id": "B001E8WQKY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Older game, not in user's history."
+      },
+      {
+        "item_id": "B0007PLL06",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Older game, not in user's history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1618,
+    "completion_tokens": 159
+  }
+}

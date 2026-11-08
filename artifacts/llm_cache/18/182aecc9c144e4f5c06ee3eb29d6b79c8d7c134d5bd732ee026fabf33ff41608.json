@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07MVKQNXF",
+      "B000FRV2UK",
+      "B0053B66KE",
+      "B14HNXGKT6",
+      "B000AXRIU2",
+      "B003QP30PS",
+      "B00002R28C",
+      "B00C1TTF86",
+      "B004XDCJ4A",
+      "B08L74DB2M",
+      "B019WRM1IA",
+      "B00000K2R8",
+      "B003DZ165W",
+      "B001EYUOA2",
+      "B0095C0I4W",
+      "B000FRV2UK",
+      "B00002R28C",
+      "B0050SXVK8",
+      "B00000K2R8",
+      "B003DZ165W"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07MVKQNXF",
+        "reason": "Compatible with Nintendo Switch"
+      },
+      {
+        "item_id": "B000FRV2UK",
+        "reason": "Zelda franchise game"
+      },
+      {
+        "item_id": "B0053B66KE",
+        "reason": "Popular Pokémon title"
+      },
+      {
+        "item_id": "B14HNXGKT6",
+        "reason": "Wireless controller for Switch"
+      },
+      {
+        "item_id": "B000AXRIU2",
+        "reason": "Classic Nintendo game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3615,
+    "completion_tokens": 313
+  }
+}

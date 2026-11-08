@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00002SW33",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B000EDVRTQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B07193MHHV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Nintendo, user may consider."
+      },
+      {
+        "item_id": "B089LGB7JP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming keyboard, not directly related."
+      },
+      {
+        "item_id": "B08L8SYXTL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming chair, not directly related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1324,
+    "completion_tokens": 157
+  }
+}

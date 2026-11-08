@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B004ZCPKDG",
+      "B19TSV6972",
+      "B0038KQYA4",
+      "B15MGVG3W",
+      "B0028T8Z3A",
+      "B07TZYK2Z3",
+      "B0BMW75V7J",
+      "B0C3HJ7K8S",
+      "B07PGPK3BD",
+      "B0B3MGVG3W",
+      "B00005MNRX",
+      "B086YJ6L9B",
+      "B00F4FKSZI",
+      "B0B3MGVG3W",
+      "B07L2DTNNZ",
+      "B08QCP5L9F",
+      "B00UURTXY2",
+      "B0C3HJ7K8S",
+      "B00001LCD8",
+      "B073S4QT54",
+      "B09TSV6972"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004ZCPKDG",
+        "reason": "Highly interactive and fun game"
+      },
+      {
+        "item_id": "B19TSV6972",
+        "reason": "Enhances gameplay experience"
+      },
+      {
+        "item_id": "B0038KQYA4",
+        "reason": "Useful accessory for Wii"
+      },
+      {
+        "item_id": "B15MGVG3W",
+        "reason": "Engaging action game"
+      },
+      {
+        "item_id": "B0028T8Z3A",
+        "reason": "Fun and interactive game modes"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3775,
+    "completion_tokens": 342
+  }
+}

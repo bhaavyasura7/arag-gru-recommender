@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003IPCF02",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation games."
+      },
+      {
+        "item_id": "B00421B36S",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not user’s main interest."
+      },
+      {
+        "item_id": "B07J27TFCD",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming accessory, not a game."
+      },
+      {
+        "item_id": "B002I08VDI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo system, user prefers PlayStation."
+      },
+      {
+        "item_id": "B00019HNNC",
+        "label": "support",
+        "score": 6,
+        "rationale": "Classic game collection, aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1260,
+    "completion_tokens": 155
+  }
+}

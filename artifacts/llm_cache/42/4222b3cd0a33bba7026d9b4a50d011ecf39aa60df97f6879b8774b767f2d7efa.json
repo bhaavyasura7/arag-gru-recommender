@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09YRFLM1Z",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B01KTJWF5Y",
+        "label": "support",
+        "score": 7,
+        "rationale": "Useful accessory for PS4 gaming."
+      },
+      {
+        "item_id": "B08GTGW93M",
+        "label": "support",
+        "score": 6,
+        "rationale": "Relevant game for Nintendo Switch."
+      },
+      {
+        "item_id": "B004U1658Q",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to gaming consoles."
+      },
+      {
+        "item_id": "B09Z8Z9DHW",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible controller for Nintendo Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1329,
+    "completion_tokens": 153
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0B38RR7NB",
+      "B07VFYBMTS",
+      "B01M6CV5IF",
+      "B00SZ1DQFM",
+      "B10DS3MPHM",
+      "B10GZ1H07Y",
+      "B00IFHTNAI",
+      "B00GZ1H07Y",
+      "B00M6CV5IF",
+      "B00DS3MPHM",
+      "B00FUC6T0S",
+      "B00EV4O86I",
+      "B000088KH9",
+      "B0007U2CX6",
+      "B001ELJDXE",
+      "B001EYUQVE",
+      "B006QRNKOO",
+      "B002JTX7PA",
+      "B0084A97Y8",
+      "B00DS3MPHM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0B38RR7NB",
+        "reason": "Perfect for Nintendo Switch OLED"
+      },
+      {
+        "item_id": "B07VFYBMTS",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B01M6CV5IF",
+        "reason": "Popular controller for gaming"
+      },
+      {
+        "item_id": "B00SZ1DQFM",
+        "reason": "Durable gaming keyboard"
+      },
+      {
+        "item_id": "B00IFHTNAI",
+        "reason": "Compatible Xbox controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3619,
+    "completion_tokens": 319
+  }
+}

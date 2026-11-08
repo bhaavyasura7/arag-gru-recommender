@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00U6AGCO2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User rated similar headset poorly."
+      },
+      {
+        "item_id": "B01JJCBWH4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User rated similar headset poorly."
+      },
+      {
+        "item_id": "B078LSKTHT",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User rated similar headset poorly."
+      },
+      {
+        "item_id": "B07CJXBFFG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User rated similar headset poorly."
+      },
+      {
+        "item_id": "B07TKWH7J9",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys PS4 gaming headsets."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1006,
+    "completion_tokens": 156
+  }
+}

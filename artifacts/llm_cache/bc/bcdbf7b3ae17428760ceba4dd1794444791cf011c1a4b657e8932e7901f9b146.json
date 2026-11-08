@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08F97Q8HS",
+      "B07HC3FMXC",
+      "B00IEZ6H4G",
+      "B07HDYY8WK",
+      "B001EYUQ8M",
+      "B00KSQHX1K",
+      "B07WMPTF7V",
+      "B07YBX8RNF",
+      "B08XQLJRZG",
+      "B075MYT126",
+      "B07HYW4XMP",
+      "B004OL4980",
+      "B0054OX7HA",
+      "B01CEFEMFW",
+      "B01LD7MR2C",
+      "B008U4QPJI",
+      "B07WMPTF7V",
+      "B00BGA9WK2",
+      "B07YBX8RNF",
+      "B08XQLJRZG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08F97Q8HS",
+        "reason": "Family-friendly multiplayer gameplay"
+      },
+      {
+        "item_id": "B07HC3FMXC",
+        "reason": "Custom faceplate for Xbox One controller"
+      },
+      {
+        "item_id": "B00IEZ6H4G",
+        "reason": "Stereo headset adapter for Xbox One"
+      },
+      {
+        "item_id": "B07HDYY8WK",
+        "reason": "Comfortable gaming headset for Xbox One"
+      },
+      {
+        "item_id": "B001EYUQ8M",
+        "reason": "Multiplayer options in BioShock 2"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3856,
+    "completion_tokens": 332
+  }
+}

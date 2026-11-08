@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07S38KQHS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Storage accessory, not a game."
+      },
+      {
+        "item_id": "B0083ZYFPA",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre, Nintendo platform."
+      },
+      {
+        "item_id": "B07NPZZSRC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different platform, not Nintendo."
+      },
+      {
+        "item_id": "B0B3N8S98K",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Nintendo Switch."
+      },
+      {
+        "item_id": "B01I3E7XAO",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Not compatible with Nintendo systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1146,
+    "completion_tokens": 154
+  }
+}

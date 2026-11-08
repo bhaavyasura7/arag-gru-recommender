@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002GDYO8I",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, user prefers action games."
+      },
+      {
+        "item_id": "B00H8Z3SRM",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming mouse aligns with user's interests."
+      },
+      {
+        "item_id": "B00S6ZYRRS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Fighting game accessory, not user’s focus."
+      },
+      {
+        "item_id": "B001EYUV3M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Older console, user prefers modern systems."
+      },
+      {
+        "item_id": "B00G637CP6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Music product, unrelated to gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1257,
+    "completion_tokens": 163
+  }
+}

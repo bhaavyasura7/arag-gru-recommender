@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000MED9FM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B082R1HG51",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming accessories for consoles."
+      },
+      {
+        "item_id": "B00YP7FNUG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a PS3."
+      },
+      {
+        "item_id": "B001NGS6DI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers realistic simulation games."
+      },
+      {
+        "item_id": "1589970705",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not directly related to gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1324,
+    "completion_tokens": 151
+  }
+}

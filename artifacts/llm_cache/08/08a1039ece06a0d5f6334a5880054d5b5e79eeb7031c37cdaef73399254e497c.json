@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BNKQ861F",
+      "B0B2RYGCGJ",
+      "B08VJ6F73T",
+      "B09BMGYCG8",
+      "B07YBKW93N",
+      "B18DQD1JBG",
+      "B00QZFBSFU",
+      "B000Q34YVM",
+      "B0BJF2L9J2",
+      "B00AIF7O8S",
+      "B006FRCUUU",
+      "B000197Z2G",
+      "B002G9DHGW",
+      "B08PSJW7FC",
+      "B00004SVWE",
+      "B0002MCH5M",
+      "B014JNM8GM",
+      "B00QZFBSFU",
+      "B07NV9RR9D",
+      "B08TY2H7RW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BNKQ861F",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B0B2RYGCGJ",
+        "reason": "Compatible Xbox controller"
+      },
+      {
+        "item_id": "B08VJ6F73T",
+        "reason": "VR headset comfort upgrade"
+      },
+      {
+        "item_id": "B09BMGYCG8",
+        "reason": "Quality mic for gaming headsets"
+      },
+      {
+        "item_id": "B07YBKW93N",
+        "reason": "Classic gaming console renewal"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3611,
+    "completion_tokens": 330
+  }
+}

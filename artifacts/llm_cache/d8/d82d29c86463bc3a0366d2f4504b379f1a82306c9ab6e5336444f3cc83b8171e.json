@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07DKTTMJ3",
+      "B07DK1P7R5",
+      "B08CDLZNZM",
+      "B017G3ZBV6",
+      "B08X4WMK3X",
+      "B0C4J8C2QJ",
+      "B0BN3YRNNV",
+      "B6KQHHDZC",
+      "B0BY2C5KLQ",
+      "B07WTBZNTN",
+      "B001E27KTM",
+      "B005FPDFF2",
+      "B07Y45483X",
+      "B08CDLZNZM",
+      "B07P9Z1829",
+      "B088FBQX49",
+      "B0CC2B8L8H",
+      "B07X3LPJJW",
+      "B0C4J8C2QJ",
+      "B08X4WMK3X",
+      "B00001WQIS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07DKTTMJ3",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B07DK1P7R5",
+        "reason": "Multiplayer action-adventure game"
+      },
+      {
+        "item_id": "B08CDLZNZM",
+        "reason": "Gaming mouse for enhanced play"
+      },
+      {
+        "item_id": "B017G3ZBV6",
+        "reason": "Custom skin for PS4 controller"
+      },
+      {
+        "item_id": "B08X4WMK3X",
+        "reason": "Backpack for gaming accessories"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3802,
+    "completion_tokens": 353
+  }
+}

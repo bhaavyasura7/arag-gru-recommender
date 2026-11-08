@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08PBHV5KG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox and PlayStation products."
+      },
+      {
+        "item_id": "B00004U8GK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in PC games."
+      },
+      {
+        "item_id": "B016P6KIFY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox and PlayStation consoles."
+      },
+      {
+        "item_id": "B0BZNKW237",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no VR gaming history."
+      },
+      {
+        "item_id": "B0009F9X3G",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in pinball games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1275,
+    "completion_tokens": 165
+  }
+}

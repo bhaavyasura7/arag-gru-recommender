@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0BMWQLF3V",
+      "B19T62NYDD",
+      "B09TQJS8QH",
+      "B005S7YG0K",
+      "B07D7PQJRP",
+      "B08RDZGDYG",
+      "B006NZ4ALQ",
+      "B0C4PNVCT2",
+      "B0B25G8XWQ",
+      "B0C4PNVCT2",
+      "B07T62NYDD",
+      "B001EYUNYY",
+      "B09CKBCBWD",
+      "B00EE1H2UC",
+      "B07D7PQJRP",
+      "B06XPYNGLP",
+      "B00VF5J6IG",
+      "B08RDZGDYG",
+      "B0919N3H4X",
+      "B008QRVPQW",
+      "B000ZPPPKU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BMWQLF3V",
+        "reason": "High-quality gaming headphones"
+      },
+      {
+        "item_id": "B07D62NYDD",
+        "reason": "PS4 controller grip improves play"
+      },
+      {
+        "item_id": "B09TQJS8QH",
+        "reason": "Adapter for keyboard and mouse"
+      },
+      {
+        "item_id": "B005S7YG0K",
+        "reason": "Popular game for Xbox"
+      },
+      {
+        "item_id": "B07D7PQJRP",
+        "reason": "Replacement parts for Xbox controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3538,
+    "completion_tokens": 341
+  }
+}

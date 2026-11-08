@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09ZQ3M3BS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers games, not accessories."
+      },
+      {
+        "item_id": "B000NXMIYK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys video games, but not this genre."
+      },
+      {
+        "item_id": "B0BC59V6HL",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes Nintendo games, relevant accessory."
+      },
+      {
+        "item_id": "B07J6PVSRG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers games, not cooling fans."
+      },
+      {
+        "item_id": "B07YQQL7G5",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers games, not controller skins."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1172,
+    "completion_tokens": 167
+  }
+}

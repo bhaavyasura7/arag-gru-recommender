@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07BGYLS1L",
+      "B014U0GRXE",
+      "B001EYUQTQ",
+      "B00D5SZ04K",
+      "B0183T9KC2",
+      "B001V7QIDY",
+      "B08H8SKHNT",
+      "B00LV8IF8O",
+      "B002JTX610",
+      "B003IPCF02",
+      "B0009XEC0M",
+      "B00421B36S",
+      "B002I08VDI",
+      "B08JGCDDKM",
+      "B07J27TFCD",
+      "B00000K2R4",
+      "B00GN67PJ4",
+      "B08ZXKMYRL",
+      "B00019HNNC",
+      "B07B31DM6P"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07BGYLS1L",
+        "reason": "High-quality graphics and storytelling"
+      },
+      {
+        "item_id": "B014U0GRXE",
+        "reason": "Includes popular adventure games"
+      },
+      {
+        "item_id": "B001EYUQTQ",
+        "reason": "Immersive action gameplay"
+      },
+      {
+        "item_id": "B00D5SZ04K",
+        "reason": "Engaging multiplayer racing experience"
+      },
+      {
+        "item_id": "B0183T9KC2",
+        "reason": "Unique combat styles and stealth"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3963,
+    "completion_tokens": 320
+  }
+}

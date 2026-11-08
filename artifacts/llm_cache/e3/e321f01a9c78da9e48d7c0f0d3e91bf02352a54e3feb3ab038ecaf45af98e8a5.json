@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08P44VYCK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS5 accessory, user prefers PS4 games."
+      },
+      {
+        "item_id": "B00006B5T8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": ".hack is not a PS4 game."
+      },
+      {
+        "item_id": "B0123PBHHE",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers action RPGs, not rugby."
+      },
+      {
+        "item_id": "B00062VOSE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B087BV4FDP",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Game Boy accessory, not a primary interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1274,
+    "completion_tokens": 167
+  }
+}

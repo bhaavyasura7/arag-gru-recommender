@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00YM7AKLG",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys FIFA series games."
+      },
+      {
+        "item_id": "B07WZ1S5YP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B0079V4GK8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older game, user prefers newer titles."
+      },
+      {
+        "item_id": "B0771ZXXV6",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Nintendo Switch games."
+      },
+      {
+        "item_id": "B001EHD96U",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, user prefers current consoles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2556,
+    "completion_tokens": 155
+  }
+}

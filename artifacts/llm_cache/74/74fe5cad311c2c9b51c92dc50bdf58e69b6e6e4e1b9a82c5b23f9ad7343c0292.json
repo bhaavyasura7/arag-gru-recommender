@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BRC6K7K1",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR accessory, not directly related."
+      },
+      {
+        "item_id": "B09HBMCM1B",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "USB extension, not a game."
+      },
+      {
+        "item_id": "B077TS43RJ",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not related to video games."
+      },
+      {
+        "item_id": "B001AW16QE",
+        "label": "support",
+        "score": 6,
+        "rationale": "Nintendo DS game, aligns with interests."
+      },
+      {
+        "item_id": "B0759BV9DJ",
+        "label": "support",
+        "score": 7,
+        "rationale": "PlayStation 4 game, matches user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1271,
+    "completion_tokens": 157
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B014R4KYMS",
+      "B003E1UNSG",
+      "B20B7UHWB2",
+      "B008B3QCJQ",
+      "B003TQM4DS",
+      "B007CM0K86",
+      "B019WRM1IA",
+      "B00BU3ZLJQ",
+      "B00RJNE3TK",
+      "B0050SZ7IC",
+      "B00005V3F1",
+      "B00006GSNZ",
+      "B000P7V35O",
+      "B01LYNI9Y5",
+      "B0771ZXXV6",
+      "B087SLFYPJ",
+      "B00B7UHWB2",
+      "B00BU3ZLJQ",
+      "B0086VPUHI",
+      "B012R4KYMS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B014R4KYMS",
+        "reason": "Engaging story and action"
+      },
+      {
+        "item_id": "B003E1UNSG",
+        "reason": "Strong narrative and RPG elements"
+      },
+      {
+        "item_id": "B007CM0K86",
+        "reason": "Character-driven survival action"
+      },
+      {
+        "item_id": "B008B3QCJQ",
+        "reason": "Open world RPG gameplay"
+      },
+      {
+        "item_id": "B003TQM4DS",
+        "reason": "Unique gameplay mechanics"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3688,
+    "completion_tokens": 319
+  }
+}

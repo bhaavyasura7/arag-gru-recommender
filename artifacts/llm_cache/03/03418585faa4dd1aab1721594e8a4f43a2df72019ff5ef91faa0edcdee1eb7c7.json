@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0771ZXXV6",
+      "B09YCS59MW",
+      "B08BF8C4SK",
+      "B17NT4VC71",
+      "B09X1KKVM9",
+      "B0BS5KQ4QH",
+      "B00007BGQT",
+      "B09NT4VC71",
+      "B0015QBY2G",
+      "B006OCM0JC",
+      "B08ZCKRLYK",
+      "B07X7FYZ4Z",
+      "B0002IQCL6",
+      "B00GUST0B6",
+      "B07HMBG1MQ",
+      "B096P6D385",
+      "B01AILTT1G",
+      "B079KJZMLN",
+      "B0B27QGWZ8",
+      "B08ZCKRLYK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0771ZXXV6",
+        "reason": "Essential Nintendo Switch controller"
+      },
+      {
+        "item_id": "B09YCS59MW",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B08BF8C4SK",
+        "reason": "Compatible with multiple devices"
+      },
+      {
+        "item_id": "B09X1KKVM9",
+        "reason": "Advanced PS4 controller features"
+      },
+      {
+        "item_id": "B17NT4VC71",
+        "reason": "Fast charging for Joy-Con"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3553,
+    "completion_tokens": 327
+  }
+}

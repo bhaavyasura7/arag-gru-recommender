@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B20BVFHFP37",
+      "B09N9GGR51",
+      "B13F3Y79BA",
+      "B07R7LC8LY",
+      "B07GQ6NN9M",
+      "B0BS5GV9VV",
+      "B20PKJ3C7S",
+      "B072F43DLR",
+      "B07FL8NYQH",
+      "B07M9Q5TLJ",
+      "B08961BCXD",
+      "B06XKM5LSX",
+      "B00AE6OPEC",
+      "B000ENMSXU",
+      "B00BHV29Y6",
+      "B07G7GPS32",
+      "B089CJNG33",
+      "B07VBFLNV2",
+      "B089CJNG33",
+      "B07G7GPS32"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BVFHFP37",
+        "reason": "Wireless RGB keyboard and mouse combo"
+      },
+      {
+        "item_id": "B09N9GGR51",
+        "reason": "Hot-swappable mechanical keyboard"
+      },
+      {
+        "item_id": "B13F3Y79BA",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B07R7LC8LY",
+        "reason": "Surround sound gaming headset"
+      },
+      {
+        "item_id": "B07GQ6NN9M",
+        "reason": "Wireless controller for PS4"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3034,
+    "completion_tokens": 327
+  }
+}

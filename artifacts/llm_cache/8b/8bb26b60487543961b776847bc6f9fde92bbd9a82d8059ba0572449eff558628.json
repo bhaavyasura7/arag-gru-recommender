@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08H8SKHNT",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not directly related to games."
+      },
+      {
+        "item_id": "B00LV8IF8O",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar genre, nostalgic for user."
+      },
+      {
+        "item_id": "B07B31DM6P",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B0193T9KC2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different platform, not user’s interest."
+      },
+      {
+        "item_id": "B07BGYLS1L",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre, user enjoyed Tomb Raider."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1297,
+    "completion_tokens": 159
+  }
+}

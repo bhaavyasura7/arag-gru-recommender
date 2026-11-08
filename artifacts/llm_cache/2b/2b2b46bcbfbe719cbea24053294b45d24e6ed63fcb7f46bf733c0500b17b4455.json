@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001VE431Q",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PC games, not Wii."
+      },
+      {
+        "item_id": "183906434X",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to video games, but not PC."
+      },
+      {
+        "item_id": "B00000IXFW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, not PC gaming."
+      },
+      {
+        "item_id": "B00005UOI3",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Japanese import, not relevant to user."
+      },
+      {
+        "item_id": "B07CQBN7GD",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular PC game, matches user interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1013,
+    "completion_tokens": 157
+  }
+}

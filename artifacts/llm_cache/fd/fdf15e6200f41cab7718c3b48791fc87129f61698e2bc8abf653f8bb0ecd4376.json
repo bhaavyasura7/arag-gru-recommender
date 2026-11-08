@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07DKTTMJ3",
+      "B07DK1P7R5",
+      "B08CDLZNZM",
+      "B017G3ZBV6",
+      "B0BY2C5KLQ",
+      "B08X4WMK3X",
+      "B0C4J8C2QJ",
+      "B0BN3YRNNV",
+      "B07Y45483X",
+      "B0CC2B8L8H",
+      "B005FPDFF2",
+      "B001E27KTM",
+      "B07WTBZNTN",
+      "B08FBQX49",
+      "B07X3LPJJW",
+      "B0BY2C5KLQ",
+      "B08X4WMK3X",
+      "B0C4J8C2QJ",
+      "B07P9Z1829",
+      "B00001WQIS",
+      "B00895ALH0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07DKTTMJ3",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B07DK1P7R5",
+        "reason": "Multiplayer action RPG"
+      },
+      {
+        "item_id": "B08CDLZNZM",
+        "reason": "Gaming mouse for enhanced play"
+      },
+      {
+        "item_id": "B017G3ZBV6",
+        "reason": "Cool console skin for PS4"
+      },
+      {
+        "item_id": "B0BY2C5KLQ",
+        "reason": "Rechargeable battery pack for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3742,
+    "completion_tokens": 352
+  }
+}

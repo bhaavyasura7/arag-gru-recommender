@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BL3GPY9W",
+      "B00ZD99YXC",
+      "B20A7ALZ8O",
+      "B005GISQ9S",
+      "B00A7ALZ8O",
+      "B0009VXBAQ",
+      "B0036F0V4G",
+      "B00005LABK",
+      "B003R7JXOM",
+      "B004DGIYEG",
+      "B004Q8L46G",
+      "B006P28VBM",
+      "B00SVVUOGU",
+      "B09DL5PMWL",
+      "B001EYUS80",
+      "B001F8188Y",
+      "B0083GAF9E",
+      "B0088TN73M",
+      "B000035Y4P",
+      "B003R7JXOM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BL3GPY9W",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B00ZD99YXC",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B20A7ALZ8O",
+        "reason": "Popular gaming title"
+      },
+      {
+        "item_id": "B005GISQ9S",
+        "reason": "Classic game collection"
+      },
+      {
+        "item_id": "B00A7ALZ8O",
+        "reason": "Engaging gameplay experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3572,
+    "completion_tokens": 321
+  }
+}

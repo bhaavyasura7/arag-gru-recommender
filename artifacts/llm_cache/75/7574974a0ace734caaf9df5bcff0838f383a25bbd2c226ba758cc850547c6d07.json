@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B006BIOY9S",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not related to Xbox or gaming."
+      },
+      {
+        "item_id": "B074QNPC6P",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "For Nintendo Switch, not Xbox."
+      },
+      {
+        "item_id": "B076CPCLZV",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible Xbox One controller accessory."
+      },
+      {
+        "item_id": "B07SWT2FV4",
+        "label": "support",
+        "score": 9,
+        "rationale": "Xbox One game aligns with interests."
+      },
+      {
+        "item_id": "B08B8DH74Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR headset accessory, not directly relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 156
+  }
+}

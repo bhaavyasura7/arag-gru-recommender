@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000V6135Y",
+      "B0B42BN96R",
+      "B01DAHAJKA",
+      "B094F5XGRD",
+      "B071LG2TNK",
+      "B002FGU070",
+      "B08C8KQS8C",
+      "B12DAHAJKA",
+      "B08S2YG42Z",
+      "B0B2P7QWQX",
+      "B008XY3XPE",
+      "B07C24MS83",
+      "B091TKCXX9",
+      "B07X43LX4N",
+      "B0B7Q1S7GY",
+      "B00648XQZ8",
+      "B002YGS5RI",
+      "B076H84ZHB",
+      "B089QJ3NKP",
+      "B08C8KQS8C"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01DAHAJKA",
+        "reason": "Popular PS4 game expansion"
+      },
+      {
+        "item_id": "B07X43LX4N",
+        "reason": "New Xbox 360 game"
+      },
+      {
+        "item_id": "B0B7Q1S7GY",
+        "reason": "High-speed game drive"
+      },
+      {
+        "item_id": "B08C8KQS8C",
+        "reason": "PS4 controller skin"
+      },
+      {
+        "item_id": "B071LG2TNK",
+        "reason": "Quality gaming headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3680,
+    "completion_tokens": 330
+  }
+}

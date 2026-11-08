@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00F32V9DM",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar to previously liked headset."
+      },
+      {
+        "item_id": "B08GY1R4DN",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with PS4, user has PS4 headset."
+      },
+      {
+        "item_id": "B08GX5ZMNV",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar features, compatible with PS4."
+      },
+      {
+        "item_id": "B08GY1F43S",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with PS4, appealing design."
+      },
+      {
+        "item_id": "B00JC5Y9LK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Upgrade kit, not a direct headset."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1473,
+    "completion_tokens": 160
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00006RHLX",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern games, not legacy."
+      },
+      {
+        "item_id": "B00WPKRA7E",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has PS4 accessories interest."
+      },
+      {
+        "item_id": "B000G1O7SE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User plays PC games, but not Half-Life."
+      },
+      {
+        "item_id": "B004HAEFBE",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User's interests lean towards action RPGs."
+      },
+      {
+        "item_id": "B000EYF88G",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has Xbox interest, but not accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1233,
+    "completion_tokens": 163
+  }
+}

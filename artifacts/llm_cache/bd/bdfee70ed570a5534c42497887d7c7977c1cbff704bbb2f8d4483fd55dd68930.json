@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B076ZPW7R2",
+      "B08BGPTPS2",
+      "B006MBZZSI",
+      "B007JW5HRN7",
+      "B00006LJHF",
+      "B08MVSK2Y4",
+      "B001262U54",
+      "B00YXOYHVM",
+      "B004EDIO98",
+      "B002JTX9XU",
+      "B08DKXRH9D",
+      "B0051VE6SU",
+      "B08BRM3N53",
+      "B07FLJCNTX",
+      "B07JW5HRN7",
+      "B08L8MF26C",
+      "B078NYPPM9",
+      "B006AKVX1E",
+      "B001KWE2WE",
+      "B14D2Z3BVC2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B076ZPW7R2",
+        "reason": "High-quality PS4 action game"
+      },
+      {
+        "item_id": "B08BGPTPS2",
+        "reason": "Popular PS4 kart racing game"
+      },
+      {
+        "item_id": "B006MBZZSI",
+        "reason": "Action RPG on PlayStation 3"
+      },
+      {
+        "item_id": "B007JW5HRN7",
+        "reason": "Portable monitor for gaming"
+      },
+      {
+        "item_id": "B00006LJHF",
+        "reason": "Limited edition PlayStation game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3517,
+    "completion_tokens": 325
+  }
+}

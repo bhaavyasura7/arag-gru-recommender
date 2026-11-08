@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00DU2CHE2",
+      "B078RJ1KZ6",
+      "B19B00DU2CHE2",
+      "B00X6KXRP6",
+      "B0030MEITE",
+      "B002KAS4OW",
+      "B05L5FKGQH",
+      "B011ALF4XK",
+      "B003QP30PS",
+      "B00002ST27",
+      "B00005V4NS",
+      "B00004U1R2",
+      "B003QP30PS",
+      "B004LWVHIM",
+      "B007BK7J2Y",
+      "B002I0K3CK",
+      "B00004U1R2",
+      "B00005V4NS",
+      "B003QP30PS",
+      "B001E91OFQ",
+      "B003QP30PS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DU2CHE2",
+        "reason": "Great for multiplayer gaming"
+      },
+      {
+        "item_id": "B078RJ1KZ6",
+        "reason": "Compatible with multiple consoles"
+      },
+      {
+        "item_id": "B05L5FKGQH",
+        "reason": "Engaging open-world gameplay"
+      },
+      {
+        "item_id": "B0030MEITE",
+        "reason": "Action-adventure with multiplayer"
+      },
+      {
+        "item_id": "B002KAS4OW",
+        "reason": "RPG with multiplayer features"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3602,
+    "completion_tokens": 326
+  }
+}

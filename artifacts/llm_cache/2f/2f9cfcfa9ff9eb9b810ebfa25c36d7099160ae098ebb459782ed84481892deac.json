@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000H3OBFU",
+      "B002DO87NS",
+      "B00554EXG8",
+      "B01LZ8BG4F",
+      "B013J1QRHG",
+      "B000621X5S",
+      "B00080Q7KY",
+      "B00064X50M",
+      "B002L8W5V6",
+      "B07DFD6HDK",
+      "B0B49HTMHG",
+      "B08R9PDQHN",
+      "B000035XI5",
+      "B006Y5T4V3M",
+      "B00X70X7HS",
+      "B000H3OBFU",
+      "B0038MMAH8",
+      "B00064X50M",
+      "B07YD1TM37",
+      "B000621X5S"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000H3OBFU",
+        "reason": "Popular retro Nintendo game"
+      },
+      {
+        "item_id": "B002DO87NS",
+        "reason": "Fun multiplayer Nintendo game"
+      },
+      {
+        "item_id": "B00554EXG8",
+        "reason": "Classic Nintendo fighting game"
+      },
+      {
+        "item_id": "B01LZ8BG4F",
+        "reason": "Useful accessory for Nintendo consoles"
+      },
+      {
+        "item_id": "B013J1QRHG",
+        "reason": "Retro-themed PS3 game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3345,
+    "completion_tokens": 320
+  }
+}

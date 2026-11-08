@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07V3G6C1F",
+      "B00CH923NE",
+      "B0919NSCXL",
+      "B0063W8D8G",
+      "B0086VPUHI",
+      "B008B2ZKK4",
+      "B00CMQTUCE",
+      "B003O6EE4U",
+      "B01N3ASPNV",
+      "B00GY35HKE",
+      "B07CMKDB2K",
+      "B008MO6BMW",
+      "B00004YROX",
+      "B00KSQHX1K",
+      "B000F1WDHW",
+      "B0929JM6ZS",
+      "B0086VPUHI",
+      "B01GY3601E",
+      "B07GG9D5D",
+      "B00CH923NE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07V3G6C1F",
+        "reason": "Popular Nintendo handheld console"
+      },
+      {
+        "item_id": "B00CH923NE",
+        "reason": "High-quality Nintendo accessory"
+      },
+      {
+        "item_id": "B0919NSCXL",
+        "reason": "Excellent gaming headset for Xbox"
+      },
+      {
+        "item_id": "B0063W8D8G",
+        "reason": "Highly rated Nintendo game"
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "reason": "Classic game with strong appeal"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3845,
+    "completion_tokens": 320
+  }
+}

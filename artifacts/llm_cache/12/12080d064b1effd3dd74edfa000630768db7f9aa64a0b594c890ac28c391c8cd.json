@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0006TNDAY",
+      "B001EYUS3K",
+      "B000SLMH02",
+      "B087SHFL9B",
+      "B00CEKMYK8",
+      "B08JXPPFWM",
+      "B07J35GDD9",
+      "B07Y1VZP3K",
+      "B07JZ4DG95",
+      "B08RCZ532X",
+      "B072BD8MXJ",
+      "B003L77R9Q",
+      "B08T4W5WG2",
+      "B07YSHZPTN",
+      "B07RRYG7KP",
+      "B07ZLZ1N6M",
+      "B08RCZ532X",
+      "B07Y1VZP3K",
+      "B07J35GDD9",
+      "B08JXPPFWM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0006TNDAY",
+        "reason": "Classic retro game nostalgia"
+      },
+      {
+        "item_id": "B001EYUS3K",
+        "reason": "Beloved GBA classic title"
+      },
+      {
+        "item_id": "B000SLMH02",
+        "reason": "Nostalgic NES game experience"
+      },
+      {
+        "item_id": "B087SHFL9B",
+        "reason": "Popular franchise with multiplayer"
+      },
+      {
+        "item_id": "B00CEKMYK8",
+        "reason": "Classic expansion for a favorite game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3353,
+    "completion_tokens": 333
+  }
+}

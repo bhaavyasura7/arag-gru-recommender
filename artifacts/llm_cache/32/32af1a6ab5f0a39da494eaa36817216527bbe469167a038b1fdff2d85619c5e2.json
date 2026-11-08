@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0061PAZUS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user's game preferences."
+      },
+      {
+        "item_id": "B08P1NS2X1",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys diverse gaming experiences."
+      },
+      {
+        "item_id": "B006W41W82",
+        "label": "support",
+        "score": 8,
+        "rationale": "User frequently purchases gaming accessories."
+      },
+      {
+        "item_id": "B004JHJHCC",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys RPGs and immersive gameplay."
+      },
+      {
+        "item_id": "B002K8O600",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory not directly related to gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2525,
+    "completion_tokens": 151
+  }
+}

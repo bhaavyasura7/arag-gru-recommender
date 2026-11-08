@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01MS6WG9S",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to VR or accessories."
+      },
+      {
+        "item_id": "B08P1C7F1Q",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS5 accessory, not VR related."
+      },
+      {
+        "item_id": "B0055202HE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PlayStation game, not VR related."
+      },
+      {
+        "item_id": "B009C9DPUW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Controller accessory, not VR related."
+      },
+      {
+        "item_id": "B01KX8ETK0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Xbox game, not VR related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1382,
+    "completion_tokens": 158
+  }
+}

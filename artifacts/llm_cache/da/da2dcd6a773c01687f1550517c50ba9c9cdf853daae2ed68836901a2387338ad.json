@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0765B12P6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar brand, lower DPI than preferred."
+      },
+      {
+        "item_id": "B07MNTRX1R",
+        "label": "support",
+        "score": 9,
+        "rationale": "Same model, higher DPI, positive history."
+      },
+      {
+        "item_id": "B07WR43KNR",
+        "label": "neutral",
+        "score": 6,
+        "rationale": "Similar features, lower DPI than preferred."
+      },
+      {
+        "item_id": "B07JVT5J4V",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar brand, higher DPI, positive features."
+      },
+      {
+        "item_id": "B0767N3Y2Q",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Wireless, lower DPI, different preference."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1754,
+    "completion_tokens": 163
+  }
+}

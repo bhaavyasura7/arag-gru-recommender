@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DBDPOZ4",
+      "B00U1WN17G",
+      "B08G4FDHT7",
+      "B01N3ASPNV",
+      "B00W9DHUBS",
+      "B00BI9MDSO",
+      "B00HRH79H6",
+      "B01GH9MVWW",
+      "B00GWWLGK8",
+      "B08RMSFBKM",
+      "B00LV416KC",
+      "B000U34SYQ",
+      "B00E4QOE30",
+      "B08HQMDH97",
+      "B07QWWCC4L",
+      "B001EYUY3Y",
+      "B00MG8P418",
+      "B00U1WN17G",
+      "B00DBDPOZ4",
+      "B00BI9MDSO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DBDPOZ4",
+        "reason": "Essential Xbox charging accessory"
+      },
+      {
+        "item_id": "B00U1WN17G",
+        "reason": "Renewed Xbox console option"
+      },
+      {
+        "item_id": "B08G4FDHT7",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B01N3ASPNV",
+        "reason": "Popular gaming keyboard"
+      },
+      {
+        "item_id": "B00W9DHUBS",
+        "reason": "Star Wars DLC for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4114,
+    "completion_tokens": 325
+  }
+}

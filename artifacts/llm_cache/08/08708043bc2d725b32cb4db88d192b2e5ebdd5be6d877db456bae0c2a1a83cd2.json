@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07YBX4VQN",
+      "B00MUTATZK",
+      "B00LV416KC",
+      "B19IAC2OE",
+      "B000099T2H",
+      "B07YQQL7G5",
+      "B005YR1VP2",
+      "B00005Q8LY",
+      "B002BSH3KE",
+      "B00002EPYE",
+      "B000FII14O",
+      "B003ATG8PO",
+      "B000GQ1FVQ",
+      "B016PWS77E",
+      "B00008I804",
+      "B002I08VDI",
+      "B0BBBWG3ZR",
+      "B00000I8D1",
+      "B07YQQL7G5",
+      "B000FII14O"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07YBX4VQN",
+        "reason": "Engaging multiplayer RPG experience"
+      },
+      {
+        "item_id": "B00MUTATZK",
+        "reason": "Enhances multiplayer gaming experience"
+      },
+      {
+        "item_id": "B00LV416KC",
+        "reason": "Action-packed co-op gameplay"
+      },
+      {
+        "item_id": "B19IAC2OE",
+        "reason": "Open-world exploration and battles"
+      },
+      {
+        "item_id": "B000099T2H",
+        "reason": "Classic multiplayer combat action"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3687,
+    "completion_tokens": 318
+  }
+}

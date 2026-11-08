@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "sports video games",
+      "gaming accessories",
+      "controller grips",
+      "PlayStation and Xbox titles"
+    ],
+    "current_intent": "looking for new video games or gaming accessories",
+    "avoid": [
+      "casual games",
+      "mobile games",
+      "non-gaming products"
+    ],
+    "summary": "User enjoys action and sports video games, recently purchased gaming accessories, and seeks new titles for PlayStation and Xbox."
+  },
+  "usage": {
+    "prompt_tokens": 384,
+    "completion_tokens": 82
+  }
+}

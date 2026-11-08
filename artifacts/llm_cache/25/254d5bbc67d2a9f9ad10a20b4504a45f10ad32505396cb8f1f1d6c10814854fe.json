@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action video games",
+      "open-world adventures",
+      "superhero games",
+      "gaming accessories",
+      "multiplayer experiences"
+    ],
+    "current_intent": "Looking for new action-packed video games.",
+    "avoid": [
+      "puzzle games",
+      "sports games",
+      "low-rated titles"
+    ],
+    "summary": "The user enjoys action and adventure video games, particularly those with strong narratives and multiplayer options, and is currently seeking new titles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 307,
+    "completion_tokens": 101
+  }
+}

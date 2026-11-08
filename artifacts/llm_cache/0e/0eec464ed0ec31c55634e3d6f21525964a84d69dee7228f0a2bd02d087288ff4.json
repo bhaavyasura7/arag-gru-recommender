@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07NRHR43N",
+      "B0945F6THC",
+      "B13QJCBLHS",
+      "B009DKZYMW",
+      "B00T5458IG",
+      "B08GC7JNKB",
+      "B11JPZTHYT",
+      "B002KQJNO6",
+      "B0000631V3",
+      "B000DZLMTA",
+      "B003ALEWKU",
+      "B08S7HN8PT",
+      "B0010KTLLS",
+      "B005GDED6S",
+      "B0744H7B2M",
+      "B000KJW71Q",
+      "B0087YYY3K",
+      "B009DKZYMW",
+      "B0000C7FPT",
+      "B07JPZTHYT"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07NRHR43N",
+        "reason": "Engaging RPG gameplay experience"
+      },
+      {
+        "item_id": "B0945F6THC",
+        "reason": "Enhances Nintendo Switch experience"
+      },
+      {
+        "item_id": "B13QJCBLHS",
+        "reason": "Classic Nintendo title"
+      },
+      {
+        "item_id": "B009DKZYMW",
+        "reason": "DLC for an engaging action-adventure"
+      },
+      {
+        "item_id": "B00T5458IG",
+        "reason": "Unique solitaire gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3690,
+    "completion_tokens": 315
+  }
+}

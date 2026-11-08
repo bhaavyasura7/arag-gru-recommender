@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08NYQYMS5",
+      "B00KVQYJR8",
+      "B0B5SXDD61",
+      "B17JM7N96K",
+      "B00DDLJI9W",
+      "B00KZLHTAI",
+      "B005FO0V2I",
+      "B01GOK1HB0",
+      "B083PTPWDR",
+      "B00005B70T",
+      "B000059OQF",
+      "B00002STKI",
+      "B0000A2MAQ",
+      "B000B6HWF4",
+      "B004OH7ODG",
+      "B075G5SMHT",
+      "B14B45V8T4J",
+      "B0000A2MAQ",
+      "B00005B70T",
+      "B000059OQF"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08NYQYMS5",
+        "reason": "Dual controller charging dock"
+      },
+      {
+        "item_id": "B00KVQYJR8",
+        "reason": "Popular game for PS4"
+      },
+      {
+        "item_id": "B0B5SXDD61",
+        "reason": "Nintendo Switch double pack"
+      },
+      {
+        "item_id": "B17JM7N96K",
+        "reason": "Lego game for Nintendo Switch"
+      },
+      {
+        "item_id": "B00DDLJI9W",
+        "reason": "High-quality gaming keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3515,
+    "completion_tokens": 325
+  }
+}

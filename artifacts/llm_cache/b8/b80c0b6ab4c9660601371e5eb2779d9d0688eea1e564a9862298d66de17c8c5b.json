@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B000NDFFFE",
+      "B00EIN266Q",
+      "B07WCV1J99",
+      "B003V8Q7BE",
+      "B0056JGBVC",
+      "B001QCWSB0",
+      "B07DQQX9HH",
+      "B007YLUCME",
+      "B01ELF5PRC",
+      "B08L3FQ5SD",
+      "B0001ILKEG",
+      "B002PK0L4I",
+      "B09FQFKGLV",
+      "B0145Y8ME2",
+      "B08CN85Y8Z",
+      "B000AO9YQM",
+      "B06XG5FQ8D",
+      "B01CCTQME4",
+      "B07Q2TP1X1",
+      "B0001ILKEG",
+      "B09FQFKGLV"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000NDFFFE",
+        "reason": "Nostalgic fighting game experience"
+      },
+      {
+        "item_id": "B00EIN266Q",
+        "reason": "Retro SEGA game collection"
+      },
+      {
+        "item_id": "B07WCV1J99",
+        "reason": "Essential Switch Lite accessory"
+      },
+      {
+        "item_id": "B003V8Q7BE",
+        "reason": "Charges multiple Wii controllers"
+      },
+      {
+        "item_id": "B0056JGBVC",
+        "reason": "Engaging puzzle game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3582,
+    "completion_tokens": 337
+  }
+}

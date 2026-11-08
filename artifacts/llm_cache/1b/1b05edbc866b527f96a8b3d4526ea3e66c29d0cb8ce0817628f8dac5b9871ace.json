@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07GHXQSNS",
+      "B00PJDF12A",
+      "B07KRZSZDD",
+      "B15NHFW92Z",
+      "B003FVMQWQ",
+      "B001B0BB4M",
+      "B002LE7164",
+      "B001EYUUII",
+      "B0007QGUU6",
+      "B07QC4GD1K",
+      "B07Y2PG4MT",
+      "B07NHNPV12",
+      "B09NHFW92Z",
+      "B005FPD0O8",
+      "B000056BSY",
+      "B00006IKBG",
+      "B001B0BB4M",
+      "B000RO5HES",
+      "B0051MRW3U",
+      "B001B0BB4M",
+      "B001B0BB4M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07GHXQSNS",
+        "reason": "Popular multiplayer action-adventure game"
+      },
+      {
+        "item_id": "B00PJDF12A",
+        "reason": "Includes multiplayer sports games"
+      },
+      {
+        "item_id": "B07KRZSZDD",
+        "reason": "Engaging multiplayer hockey experience"
+      },
+      {
+        "item_id": "B15NHFW92Z",
+        "reason": "Includes multiplayer action game"
+      },
+      {
+        "item_id": "B003FVMQWQ",
+        "reason": "Fun multiplayer hockey gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2943,
+    "completion_tokens": 327
+  }
+}

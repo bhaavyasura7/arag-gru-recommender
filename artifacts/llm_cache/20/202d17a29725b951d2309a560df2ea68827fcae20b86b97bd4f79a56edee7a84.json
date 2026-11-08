@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DBDPOZ4",
+      "B00CMQTUSS",
+      "B10K5I323O",
+      "B01GKFPFZS",
+      "B07HYCZ68N",
+      "B00U33Q940",
+      "B00BHRD4BM",
+      "B07J27TFCD",
+      "B07VHHPJBV",
+      "B09KNG2LHC",
+      "B06XSCN9BX",
+      "B0009Z3MGA",
+      "B00K5I323O",
+      "B00DB2BI00",
+      "B00S7O6R9O",
+      "B001F8188Y",
+      "B0815VFZRL",
+      "B00DBDPOZ4",
+      "B00BHRD4BM",
+      "B00DBDPOZ4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DBDPOZ4",
+        "reason": "Essential for Xbox gaming"
+      },
+      {
+        "item_id": "B00CMQTUSS",
+        "reason": "Popular Xbox controller upgrade"
+      },
+      {
+        "item_id": "B01GKFPFZS",
+        "reason": "High-quality gaming controller"
+      },
+      {
+        "item_id": "B07HYCZ68N",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B00BHRD4BM",
+        "reason": "Multiplayer-focused game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3635,
+    "completion_tokens": 322
+  }
+}

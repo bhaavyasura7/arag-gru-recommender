@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "sports video games",
+      "handheld gaming",
+      "PlayStation titles",
+      "highly rated games",
+      "multiplayer experiences"
+    ],
+    "current_intent": "Looking for more sports video games for handheld consoles.",
+    "avoid": [
+      "low-rated games",
+      "non-sports genres",
+      "older console titles"
+    ],
+    "summary": "The user enjoys sports video games, particularly on handheld devices, and prefers highly rated titles while avoiding low-quality games."
+  },
+  "usage": {
+    "prompt_tokens": 325,
+    "completion_tokens": 100
+  }
+}

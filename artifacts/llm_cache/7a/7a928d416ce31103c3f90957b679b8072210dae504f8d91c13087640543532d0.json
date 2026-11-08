@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00007M9SH",
+      "B018YXCI18",
+      "B08T5LC9FJ",
+      "B0831KLMFG",
+      "B004YVF8Z8",
+      "B00D424FSE",
+      "B016MN5J0O",
+      "B094VSX6LJ",
+      "B00JC5Y9LK",
+      "B08TBXXCZW",
+      "B08T9KZQZ6",
+      "B0787KRJGB",
+      "B07JN57NG4",
+      "B000078JT3",
+      "B07CVC9CSQ",
+      "B004Y2VAVS",
+      "B00H900YLE",
+      "B08L4PGFXT",
+      "B08T5LC9FJ",
+      "B06ZXX67PC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00007M9SH",
+        "reason": "Engaging time-travel puzzles"
+      },
+      {
+        "item_id": "B018YXCI18",
+        "reason": "Challenging hidden object gameplay"
+      },
+      {
+        "item_id": "B08T5LC9FJ",
+        "reason": "Compatible with PC gaming"
+      },
+      {
+        "item_id": "B0831KLMFG",
+        "reason": "Useful for strategy gaming"
+      },
+      {
+        "item_id": "B004YVF8Z8",
+        "reason": "Accessory for classic gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3423,
+    "completion_tokens": 324
+  }
+}

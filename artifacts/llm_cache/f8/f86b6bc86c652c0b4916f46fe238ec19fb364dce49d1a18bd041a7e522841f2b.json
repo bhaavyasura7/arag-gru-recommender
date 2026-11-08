@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09RNK4H6Z",
+      "B01DVF2TI6",
+      "B09Y21MG98",
+      "B07P5LZZNN",
+      "B08D9J9G1D",
+      "B01JT80134",
+      "B00005B8G8",
+      "B003TL4T9U",
+      "B00GXHJ14A",
+      "B00SLBGQX0",
+      "B00134YRQU",
+      "B00005V95P",
+      "B08HJKYBG9",
+      "B00161IYDC",
+      "B00B3YNOSW",
+      "B00G4PEN4Y",
+      "B007OWQCE0",
+      "B00B3YNOSW",
+      "B00134YRQU",
+      "B00GXHJ14A",
+      "B00161IYDC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09RNK4H6Z",
+        "reason": "High-quality gaming accessory"
+      },
+      {
+        "item_id": "B01DVF2TI6",
+        "reason": "Comfortable and portable headset"
+      },
+      {
+        "item_id": "B09Y21MG98",
+        "reason": "Useful for VR gaming setup"
+      },
+      {
+        "item_id": "B07P5LZZNN",
+        "reason": "Reliable wireless mouse option"
+      },
+      {
+        "item_id": "B08D9J9G1D",
+        "reason": "Enhances Just Dance experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3653,
+    "completion_tokens": 338
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001FRTK4O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, not a strong match."
+      },
+      {
+        "item_id": "B00F4WM1XS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related to user's Disney Infinity interest."
+      },
+      {
+        "item_id": "B014PHZOWM",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00EQNP8F4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Subscription service, not a game."
+      },
+      {
+        "item_id": "B01LCTLKX8",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Gaming mouse, not directly related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1524,
+    "completion_tokens": 154
+  }
+}

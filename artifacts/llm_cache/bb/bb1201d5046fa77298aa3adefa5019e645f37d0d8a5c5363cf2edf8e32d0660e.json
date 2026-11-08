@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00IA7V81A",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PC games."
+      },
+      {
+        "item_id": "B0000488VP",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in Sega Dreamcast."
+      },
+      {
+        "item_id": "B07N1XKY1L",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox games, Lego theme."
+      },
+      {
+        "item_id": "B00005B70U",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in PlayStation 2."
+      },
+      {
+        "item_id": "B00C1TTF86",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in PlayStation 3."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1178,
+    "completion_tokens": 171
+  }
+}

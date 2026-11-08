@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B06XJKARN0",
+      "B0BRSZ7VL8",
+      "B00C1TTF86",
+      "B12HQJ5Z9B",
+      "B005OGL766",
+      "B0050SZ7IC",
+      "B008TOZXJM",
+      "B000X2DP8O",
+      "B006JKARN0",
+      "B000BCDELO",
+      "B003BLUA64",
+      "B0032C9V7G",
+      "B000F6W8AE",
+      "B01B1H2TYA",
+      "B01CJJHAMU",
+      "B09P9LT8NV",
+      "B15C1TTF86",
+      "B00BGA9WK2",
+      "B00000JRSB",
+      "B002ACOJTY",
+      "B000X2DP8O"
+    ],
+    "reasons": [
+      {
+        "item_id": "B06XJKARN0",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B0BRSZ7VL8",
+        "reason": "Premium gaming headset"
+      },
+      {
+        "item_id": "B00C1TTF86",
+        "reason": "Popular PS3 game"
+      },
+      {
+        "item_id": "B12HQJ5Z9B",
+        "reason": "Versatile gaming accessories"
+      },
+      {
+        "item_id": "B005OGL766",
+        "reason": "Engaging Harry Potter game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3738,
+    "completion_tokens": 329
+  }
+}

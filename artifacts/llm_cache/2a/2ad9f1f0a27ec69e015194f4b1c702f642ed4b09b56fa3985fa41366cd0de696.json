@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The user seeks sports video games, particularly in multiplayer formats. However, the candidates primarily feature non-sports genres like action-adventure and role-playing games, which do not align with the user's interests. The focus on single-player experiences and low relevance to sports gaming makes these candidates less suitable for the user's current intent."
+  },
+  "usage": {
+    "prompt_tokens": 2210,
+    "completion_tokens": 67
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B017V7DMI6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B01B6WTL1O",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a video game genre user enjoys."
+      },
+      {
+        "item_id": "B002MUB0UU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Casual game, not a strong interest."
+      },
+      {
+        "item_id": "B06XH297M5",
+        "label": "support",
+        "score": 6,
+        "rationale": "Adventure game aligns with gaming interests."
+      },
+      {
+        "item_id": "B000FZXGEM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Roleplaying not reflected in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2315,
+    "completion_tokens": 164
+  }
+}

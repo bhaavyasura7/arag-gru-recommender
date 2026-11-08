@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09R4K5ZTZ",
+      "B00YJJ0P1C",
+      "B12IC2A28C",
+      "B07CRX5X9T",
+      "B07624RBWB",
+      "B07SSZGYNR",
+      "B003RJXVU2",
+      "B003O680ZY",
+      "B00XZQ58AI",
+      "B0187UFI1U",
+      "B001UW9Z6M",
+      "B00006LEM0",
+      "B07YBXFF44",
+      "B00DC7G2W8",
+      "B0BLXJC8MZ",
+      "B076HHZ41Z",
+      "B001TOQ8UW",
+      "B00KSQHX1K",
+      "B00XZQ58AI",
+      "B003RJXVU2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09R4K5ZTZ",
+        "reason": "Popular Nintendo Switch title"
+      },
+      {
+        "item_id": "B00YJJ0P1C",
+        "reason": "Essential Xbox controller accessory"
+      },
+      {
+        "item_id": "B12IC2A28C",
+        "reason": "Highly rated Pokémon bundle"
+      },
+      {
+        "item_id": "B07CRX5X9T",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B07624RBWB",
+        "reason": "Pro controller for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3893,
+    "completion_tokens": 325
+  }
+}

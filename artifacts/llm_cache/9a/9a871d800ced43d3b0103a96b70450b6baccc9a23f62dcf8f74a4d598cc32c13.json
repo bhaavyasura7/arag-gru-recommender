@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09XQH22CF",
+        "label": "support",
+        "score": 10,
+        "rationale": "Matches Xbox One controller needs."
+      },
+      {
+        "item_id": "B01BDZXT0S",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with Xbox One controllers."
+      },
+      {
+        "item_id": "B01MCWSQGB",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B08P83HKQT",
+        "label": "neutral",
+        "score": 6,
+        "rationale": "Nintendo Switch related, but not essential."
+      },
+      {
+        "item_id": "B001LQICFC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Focus on Wii, not user preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1976,
+    "completion_tokens": 154
+  }
+}

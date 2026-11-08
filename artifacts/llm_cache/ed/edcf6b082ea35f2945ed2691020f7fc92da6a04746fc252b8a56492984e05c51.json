@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "horror video games",
+      "retro gaming",
+      "family-friendly games",
+      "fitness games",
+      "platformers"
+    ],
+    "current_intent": "looking for more engaging video games",
+    "avoid": [
+      "first-person shooters",
+      "complex strategy games",
+      "realistic simulations"
+    ],
+    "summary": "User enjoys a mix of retro and family-friendly video games, with a preference for engaging gameplay and fitness elements."
+  },
+  "usage": {
+    "prompt_tokens": 357,
+    "completion_tokens": 76
+  }
+}

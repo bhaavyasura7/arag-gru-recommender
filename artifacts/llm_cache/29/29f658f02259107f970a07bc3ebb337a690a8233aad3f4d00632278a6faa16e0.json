@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0008G2OWS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no PSP interest shown."
+      },
+      {
+        "item_id": "B0777JG5YS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User's history lacks headset interest."
+      },
+      {
+        "item_id": "B00DDILSBG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User dislikes RPGs, not interested."
+      },
+      {
+        "item_id": "B00B2VG52I",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Nintendo systems."
+      },
+      {
+        "item_id": "B001G7PSTY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no basketball game interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1130,
+    "completion_tokens": 154
+  }
+}

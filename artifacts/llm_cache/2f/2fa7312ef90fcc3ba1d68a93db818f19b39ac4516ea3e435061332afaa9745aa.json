@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002I0J51U",
+      "B001EYUQTQ",
+      "B00ZQB28XK",
+      "B20P26L5GD",
+      "B06WRRWHDJ",
+      "B004G5YI3U",
+      "B003INEQ0G",
+      "B00MAM0ALA",
+      "B07VQ9Q7X3",
+      "B09C4DLF4P",
+      "B087NNPYP3",
+      "B001EYUR54",
+      "B0053BCO00",
+      "B06ZZCCDP7",
+      "B00DTY9B0O",
+      "B07624RBWB",
+      "B09P9SNP51",
+      "B00004SVSZ",
+      "B04G5YI3U",
+      "B18CUD2PJI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002I0J51U",
+        "reason": "Perfect for motion gaming"
+      },
+      {
+        "item_id": "B001EYUQTQ",
+        "reason": "Popular PS3 game"
+      },
+      {
+        "item_id": "B00ZQB28XK",
+        "reason": "Classic PS3 title"
+      },
+      {
+        "item_id": "B20P26L5GD",
+        "reason": "Latest PS4 fighting game"
+      },
+      {
+        "item_id": "B06WRRWHDJ",
+        "reason": "Zelda expansion for Wii U"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3541,
+    "completion_tokens": 326
+  }
+}

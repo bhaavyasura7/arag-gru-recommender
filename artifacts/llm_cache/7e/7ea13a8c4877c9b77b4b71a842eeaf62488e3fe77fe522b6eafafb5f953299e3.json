@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B06WVCWY41",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B01M6C7YE8",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular action-adventure game, strong interest."
+      },
+      {
+        "item_id": "B07X5X5KF9",
+        "label": "support",
+        "score": 7,
+        "rationale": "Action game aligns with user preferences."
+      },
+      {
+        "item_id": "B014R4KYMS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Adventure game fits user gaming history."
+      },
+      {
+        "item_id": "B0018RWMSM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system game, not aligned."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1250,
+    "completion_tokens": 157
+  }
+}

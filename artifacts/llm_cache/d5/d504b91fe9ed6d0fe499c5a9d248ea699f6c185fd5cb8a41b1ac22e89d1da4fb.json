@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0868Y6HDJ",
+      "B000H29ZPM",
+      "B00002ST7U",
+      "B15D0FCH0Y",
+      "B003KT9E64",
+      "B07TG73YLY",
+      "B00002SUFX",
+      "B003INEU0C",
+      "B00DOD51UY",
+      "B002FQIPPO",
+      "B07N4QC69R",
+      "B08PGGRGPC",
+      "B00IB02RD4",
+      "B00009VRFL",
+      "B00861ML3Y",
+      "B075R4FMC2",
+      "B00002ST7U",
+      "B00BUG8BJ0",
+      "B19D0FCH0Y",
+      "B08HPK581L"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0868Y6HDJ",
+        "reason": "Popular Pokémon title"
+      },
+      {
+        "item_id": "B000H29ZPM",
+        "reason": "Classic Nintendo game"
+      },
+      {
+        "item_id": "B00002ST7U",
+        "reason": "Familiar franchise"
+      },
+      {
+        "item_id": "B15D0FCH0Y",
+        "reason": "Mario-themed product"
+      },
+      {
+        "item_id": "B003KT9E64",
+        "reason": "Nintendo fitness accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3416,
+    "completion_tokens": 310
+  }
+}

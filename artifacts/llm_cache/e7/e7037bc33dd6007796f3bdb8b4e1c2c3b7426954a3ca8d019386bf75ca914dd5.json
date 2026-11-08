@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07624RBWB",
+      "B07BKXHNTF",
+      "B001KC03RC",
+      "B001EYUSYO",
+      "B0007QQUV0",
+      "B001UAAX60",
+      "B08S6YSDQ7",
+      "B0B59BNMCP",
+      "B00578W1ZW",
+      "B0786PT8ZW",
+      "B07MK439RR",
+      "B081VY2ZPN",
+      "B08JHB9V72",
+      "B004Y3BT0E",
+      "B19MK439RR",
+      "B000GJ0J38",
+      "B001KC03RC",
+      "B0BLVVPMWC",
+      "B00IR8D374",
+      "B18MK439RR"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07624RBWB",
+        "reason": "Essential for Nintendo gaming"
+      },
+      {
+        "item_id": "B07BKXHNTF",
+        "reason": "Compatible with multiple consoles"
+      },
+      {
+        "item_id": "B001KC03RC",
+        "reason": "Appeals to pet lovers"
+      },
+      {
+        "item_id": "B001EYUSYO",
+        "reason": "Classic Nintendo game"
+      },
+      {
+        "item_id": "B0007QQUV0",
+        "reason": "Nostalgic Xbox title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3525,
+    "completion_tokens": 309
+  }
+}

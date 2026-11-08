@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BLVBG2N1",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B09726K2LC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own PS3."
+      },
+      {
+        "item_id": "B08L8TQ7J8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own PS4."
+      },
+      {
+        "item_id": "B0001ZXA7Y",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own PS2."
+      },
+      {
+        "item_id": "B008O4FREI",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own PSP."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1404,
+    "completion_tokens": 164
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01M6C7YE8",
+      "B06WVCWY41",
+      "B017D4K8F8",
+      "B001G605V6",
+      "B01EBC2E7O",
+      "B0086VPUHI",
+      "B07WXKQWTV",
+      "B001EHD8YI",
+      "B003MZ23LY",
+      "B001EYUPEC",
+      "B00320JAX8",
+      "B00NEU02JW",
+      "B0018RWMSM",
+      "B007VTVRFA",
+      "B004K6LQ9E",
+      "B00O9GW8VK",
+      "B0018RWMSM",
+      "B07X5X5KF9",
+      "B001G605V6",
+      "B001EHD8YI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01M6C7YE8",
+        "reason": "Highly rated action-adventure game"
+      },
+      {
+        "item_id": "B06WVCWY41",
+        "reason": "Retro console with classic games"
+      },
+      {
+        "item_id": "B017D4K8F8",
+        "reason": "Popular racing game expansion"
+      },
+      {
+        "item_id": "B001G605V6",
+        "reason": "Unique action-adventure gameplay"
+      },
+      {
+        "item_id": "B01EBC2E7O",
+        "reason": "Includes multiple acclaimed titles"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 330
+  }
+}

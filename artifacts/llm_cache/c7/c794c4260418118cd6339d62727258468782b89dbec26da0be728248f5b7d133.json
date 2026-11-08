@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07YWHC9L4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Mobile gaming not previously indicated."
+      },
+      {
+        "item_id": "B09FT35L2H",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes mechanical keyboards."
+      },
+      {
+        "item_id": "B01LX4I8H8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Guitar Hero not in user history."
+      },
+      {
+        "item_id": "B08R7QCNBY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Power supply not directly relevant."
+      },
+      {
+        "item_id": "B07C2H3RD8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Switch not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1535,
+    "completion_tokens": 157
+  }
+}

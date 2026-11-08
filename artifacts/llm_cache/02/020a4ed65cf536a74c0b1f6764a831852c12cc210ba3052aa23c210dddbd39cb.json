@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07BGYLS1L",
+      "B07HL5LWF1",
+      "B08T64C41K",
+      "B006QXO0GK",
+      "B08T64C41K",
+      "B07C5SMRZJ",
+      "B00ZP7UAM6",
+      "B00006LELK",
+      "B07F29Z4R9",
+      "B07TJWQV9H",
+      "B07DC49XZ1",
+      "B07KQ558JJ",
+      "B09156Z2H3",
+      "B07X3BFSTZ",
+      "B00BLZM2ZE",
+      "B07N6P3985",
+      "B07C5SMRZJ",
+      "B07DC49XZ1",
+      "B07F29Z4R9",
+      "B07HL5LWF1"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07BGYLS1L",
+        "reason": "High-quality graphics and adventure"
+      },
+      {
+        "item_id": "B07HL5LWF1",
+        "reason": "Engaging action RPG experience"
+      },
+      {
+        "item_id": "B08T64C41K",
+        "reason": "Immersive storytelling elements"
+      },
+      {
+        "item_id": "B006QXO0GK",
+        "reason": "Creepy atmosphere and puzzles"
+      },
+      {
+        "item_id": "B00ZP7UAM6",
+        "reason": "Artistic gameplay with Pokémon theme"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3396,
+    "completion_tokens": 337
+  }
+}

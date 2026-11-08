@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000095ZH6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action, not horror games."
+      },
+      {
+        "item_id": "B00BGAA3S2",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances PS4 gaming experience."
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PS4 military shooters."
+      },
+      {
+        "item_id": "B002824SNS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Retro controller, not directly relevant."
+      },
+      {
+        "item_id": "B002U02AEC",
+        "label": "support",
+        "score": 6,
+        "rationale": "Useful accessory for PS3 console."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1299,
+    "completion_tokens": 151
+  }
+}

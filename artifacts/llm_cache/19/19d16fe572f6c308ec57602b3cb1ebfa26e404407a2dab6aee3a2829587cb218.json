@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00005AC5L",
+      "B07KXW7BYY",
+      "B089Y7VHSS",
+      "B0038X3ZVM",
+      "B0036DD2JE",
+      "B07YBXP45M",
+      "B09325LCPJ",
+      "B01MY9JB2U",
+      "B0BC8Q1MG8",
+      "B075N7PDK1",
+      "B093NXQ952",
+      "B002WWVB3Y",
+      "B07RQR3HRG",
+      "B072LVNKG7",
+      "B08P2PXGLY",
+      "B01A9Z7UIK",
+      "B0BWXW6YF9",
+      "B0000AI1KG",
+      "B06XG5F5Z5",
+      "B16D3F5D5D"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00005AC5L",
+        "reason": "Classic Nintendo console"
+      },
+      {
+        "item_id": "B07KXW7BYY",
+        "reason": "Compatible with Nintendo Switch"
+      },
+      {
+        "item_id": "B089Y7VHSS",
+        "reason": "Protects Nintendo Switch"
+      },
+      {
+        "item_id": "B0038X3ZVM",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B0036DD2JE",
+        "reason": "Classic racing game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3249,
+    "completion_tokens": 328
+  }
+}

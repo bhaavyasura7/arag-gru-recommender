@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07D3JSZ8F",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different console, user prefers PlayStation."
+      },
+      {
+        "item_id": "B000090W86",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system, not directly relevant."
+      },
+      {
+        "item_id": "B07DK1H3H5",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different genre, user prefers action RPGs."
+      },
+      {
+        "item_id": "B006PP3ZK6",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports PlayStation Vita usage."
+      },
+      {
+        "item_id": "B001BKLE58",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different console, user prefers PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1194,
+    "completion_tokens": 158
+  }
+}

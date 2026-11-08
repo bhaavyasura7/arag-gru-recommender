@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003QCIVUU",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming peripherals, not games."
+      },
+      {
+        "item_id": "B0B31XCWFR",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has interest in gaming headsets."
+      },
+      {
+        "item_id": "B075MJLB5B",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User's history shows no interest in consoles."
+      },
+      {
+        "item_id": "B002L8W5V6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers peripherals over controllers."
+      },
+      {
+        "item_id": "B0030H8I4K",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User focuses on hardware, not games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1452,
+    "completion_tokens": 166
+  }
+}

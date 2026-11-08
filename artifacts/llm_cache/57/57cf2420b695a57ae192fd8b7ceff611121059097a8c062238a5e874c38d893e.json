@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07YBXFF99",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar genre, but different gameplay style."
+      },
+      {
+        "item_id": "B0754LGLFP",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming accessory, not a game."
+      },
+      {
+        "item_id": "B001EYUQUU",
+        "label": "support",
+        "score": 8,
+        "rationale": "Same franchise, user enjoys Call of Duty."
+      },
+      {
+        "item_id": "B01GKFPFZS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different game, but user likes action games."
+      },
+      {
+        "item_id": "B0BRQ8G28W",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "VR accessory, user hasn't shown interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1411,
+    "completion_tokens": 158
+  }
+}

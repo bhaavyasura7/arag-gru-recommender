@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B075R4FMC2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B06XY932R8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own PSP."
+      },
+      {
+        "item_id": "B0868Y6HDJ",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo games."
+      },
+      {
+        "item_id": "B07TG73YLY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has mixed interest in PlayStation."
+      },
+      {
+        "item_id": "B0160FCH0Y",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likes Mario-related products."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 152
+  }
+}

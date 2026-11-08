@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00U1WN17G",
+      "B00DBDPOZ4",
+      "B08G4FDHT7",
+      "B01MG8P418",
+      "B00GWWLGK8",
+      "B00BI9MDSO",
+      "B00HRH79H6",
+      "B01N3ASPNV",
+      "B00W9DHUBS",
+      "B00LV416KC",
+      "B08RMSFBKM",
+      "B00E4QOE30",
+      "B00GWWLGK8",
+      "B00U34SYQ",
+      "B00000I1BE",
+      "B07QWWCC4L",
+      "B01GH9MVWW",
+      "B0C2CYCX75",
+      "B08HQMDH97",
+      "B000U34SYQ",
+      "B001EYUY3Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00U1WN17G",
+        "reason": "Renewed Xbox One console available"
+      },
+      {
+        "item_id": "B00DBDPOZ4",
+        "reason": "Essential charging kit for Xbox"
+      },
+      {
+        "item_id": "B08G4FDHT7",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B01MG8P418",
+        "reason": "Versatile Steam controller option"
+      },
+      {
+        "item_id": "B00GWWLGK8",
+        "reason": "Custom skin for Xbox controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4127,
+    "completion_tokens": 337
+  }
+}

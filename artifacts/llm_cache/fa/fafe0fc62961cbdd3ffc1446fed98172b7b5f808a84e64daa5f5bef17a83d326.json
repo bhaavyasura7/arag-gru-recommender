@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B010S32LBE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PlayStation Vita not in user history."
+      },
+      {
+        "item_id": "B07L9X4825",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo Switch accessories align with interests."
+      },
+      {
+        "item_id": "B07HJ3YRBC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Xbox One accessory, not a strong match."
+      },
+      {
+        "item_id": "B005WPG9QC",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Card case for PlayStation Vita, not relevant."
+      },
+      {
+        "item_id": "B0BF9TDLHT",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Mechanical keyboard disliked in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1738,
+    "completion_tokens": 160
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09W9CZY4Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not directly related."
+      },
+      {
+        "item_id": "B07YSNQSWF",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not directly related."
+      },
+      {
+        "item_id": "B08S7FZJZ4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not directly related."
+      },
+      {
+        "item_id": "B09PQJ9TWY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not directly related."
+      },
+      {
+        "item_id": "B09T9QLF39",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not directly related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1517,
+    "completion_tokens": 158
+  }
+}

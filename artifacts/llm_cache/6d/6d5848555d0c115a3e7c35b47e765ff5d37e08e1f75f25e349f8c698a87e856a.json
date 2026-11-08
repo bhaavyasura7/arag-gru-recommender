@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09SYYPWY8",
+      "B0C37TBM5Z",
+      "B04W75JJ4",
+      "B01MG8P418",
+      "B07KHNMRHL",
+      "B07V3G1HNP",
+      "B0B19SPF5K",
+      "B099X165QB",
+      "B0BZRV417M",
+      "B000IFLEPW",
+      "B00002ST3D",
+      "B0001HAIA4",
+      "B00LXZOPR0",
+      "B01N7AH5QA",
+      "B00TQY1ZKK",
+      "B00KQXKULK",
+      "B07484YY4L",
+      "B0181P25X0",
+      "B00001NFV4",
+      "B07R1V63Y9",
+      "B0001HAIA4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09SYYPWY8",
+        "reason": "RGB gaming mouse enhances gameplay"
+      },
+      {
+        "item_id": "B0C37TBM5Z",
+        "reason": "Large RGB mouse pad for gamers"
+      },
+      {
+        "item_id": "B04W75JJ4",
+        "reason": "Action game aligns with interests"
+      },
+      {
+        "item_id": "B01MG8P418",
+        "reason": "Customizable controller for PC games"
+      },
+      {
+        "item_id": "B07KHNMRHL",
+        "reason": "New RPG experience for PS4"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3500,
+    "completion_tokens": 341
+  }
+}

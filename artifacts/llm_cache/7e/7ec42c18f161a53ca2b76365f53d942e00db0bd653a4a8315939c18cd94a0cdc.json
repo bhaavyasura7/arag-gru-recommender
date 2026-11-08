@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00DU2CHE2",
+      "B078RJ1KZ6",
+      "B19H1GJ7IQ",
+      "B00WHHEFO6",
+      "B19H1GJ7IQ",
+      "B002KAS4OW",
+      "B003QP30PS",
+      "B0030MEITE",
+      "B07L5FKGQH",
+      "B011ALF4XK",
+      "B00002ST27",
+      "B00005V4NS",
+      "B00004U1R2",
+      "B004LWVHIM",
+      "B004H7VYYI",
+      "B00X6KXRP6",
+      "B002I0K3CK",
+      "B00005V4NS",
+      "B003QP30PS",
+      "B001E91OFQ",
+      "B003QP30PS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DU2CHE2",
+        "reason": "High compatibility for gaming"
+      },
+      {
+        "item_id": "B078RJ1KZ6",
+        "reason": "Great for multiplayer experiences"
+      },
+      {
+        "item_id": "B002KAS4OW",
+        "reason": "Action RPG with multiplayer features"
+      },
+      {
+        "item_id": "B07L5FKGQH",
+        "reason": "Co-op gameplay in post-apocalyptic setting"
+      },
+      {
+        "item_id": "B0030MEITE",
+        "reason": "Team-based online co-op gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3537,
+    "completion_tokens": 332
+  }
+}

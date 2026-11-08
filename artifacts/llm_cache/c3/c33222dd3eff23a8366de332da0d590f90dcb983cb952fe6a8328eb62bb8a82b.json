@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00001QHYA",
+      "B072JMHVM4",
+      "B00CP1QA1U",
+      "B000FM38RK",
+      "B00MORXI4C",
+      "B07NYDS9SY",
+      "B000066RKC",
+      "B07SJ4LV23",
+      "B0037JT3K4",
+      "B074Z7B59J",
+      "B08HSQDH45",
+      "B0194X7X7Q",
+      "B093LB7W5F",
+      "B093X5KNHZ",
+      "B00AWD18QK",
+      "B00MA089GA",
+      "B0055SZAB6",
+      "B07ZJ6YDJT",
+      "B075YBBQMM",
+      "B06X2L4BV7"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00001QHYA",
+        "reason": "Classic arcade game nostalgia"
+      },
+      {
+        "item_id": "B072JMHVM4",
+        "reason": "Unique typing gameplay experience"
+      },
+      {
+        "item_id": "B00CP1QA1U",
+        "reason": "Humorous and engaging storyline"
+      },
+      {
+        "item_id": "B000FM38RK",
+        "reason": "Classic bowling game fun"
+      },
+      {
+        "item_id": "B00MORXI4C",
+        "reason": "Retro RPG adventure experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3546,
+    "completion_tokens": 318
+  }
+}

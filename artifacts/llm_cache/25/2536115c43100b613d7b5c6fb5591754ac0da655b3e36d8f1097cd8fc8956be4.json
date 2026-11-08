@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming mice",
+      "wireless controllers",
+      "gaming accessories",
+      "screen protectors",
+      "high DPI sensors"
+    ],
+    "current_intent": "looking for a new gaming mouse or controller",
+    "avoid": [
+      "low-quality products",
+      "wired controllers",
+      "overly complex setups"
+    ],
+    "summary": "User is a gamer focused on high-performance peripherals, particularly gaming mice and controllers, seeking reliable and ergonomic options."
+  },
+  "usage": {
+    "prompt_tokens": 433,
+    "completion_tokens": 78
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07DJ6D4ZY",
+        "label": "support",
+        "score": 9,
+        "rationale": "Matches Xbox One controller preference."
+      },
+      {
+        "item_id": "B08J7Q2J83",
+        "label": "support",
+        "score": 9,
+        "rationale": "Matches Xbox One controller preference."
+      },
+      {
+        "item_id": "B088NLT5WL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC controller, not Xbox specific."
+      },
+      {
+        "item_id": "B08K7G4TJ1",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Generic PC controller, less relevant."
+      },
+      {
+        "item_id": "B07HHWB23K",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox One, user interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1473,
+    "completion_tokens": 154
+  }
+}

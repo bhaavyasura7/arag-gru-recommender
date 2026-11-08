@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000ES0HTM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action over puzzle games."
+      },
+      {
+        "item_id": "B00006FXDL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Mixed genre, may appeal to user."
+      },
+      {
+        "item_id": "B00GM5UUQG",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys action RPGs like SOCOM."
+      },
+      {
+        "item_id": "B08QTTFGRN",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not directly related to games."
+      },
+      {
+        "item_id": "B09LM9CWX1",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Keyboard may interest gamer, not essential."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 896,
+    "completion_tokens": 159
+  }
+}

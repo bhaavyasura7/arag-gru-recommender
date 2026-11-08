@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B072C3VM5F",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B00YQ74LVM",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly related to Nintendo gaming."
+      },
+      {
+        "item_id": "B00DQNF3PU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no Xbox interest."
+      },
+      {
+        "item_id": "B00DBDPOZ4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo accessories."
+      },
+      {
+        "item_id": "B004HKIMG8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a PSP."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1270,
+    "completion_tokens": 155
+  }
+}

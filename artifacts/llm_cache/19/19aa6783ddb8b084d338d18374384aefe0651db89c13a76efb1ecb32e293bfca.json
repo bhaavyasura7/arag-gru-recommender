@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00BHRD4BM",
+      "B12N643H",
+      "B085LSHNQ5",
+      "B00VMU99PE",
+      "B08VRR3XHY",
+      "B00BO0GYW8",
+      "B003UVDOA4",
+      "B09PFR67FB",
+      "B0CB9X91BP",
+      "B09325RND4",
+      "B01MS8XOYR",
+      "B0073PQK7C",
+      "B08N4LB3LB",
+      "B0948BRTM4",
+      "B09DWF3FYB",
+      "B0B12N643H",
+      "B00KE9WN84",
+      "B0924WDQTT",
+      "B0CB9X91BP",
+      "B08VRR3XHY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00BHRD4BM",
+        "reason": "Popular PS4 expansion content"
+      },
+      {
+        "item_id": "B12N643H",
+        "reason": "Highly rated PS4 game"
+      },
+      {
+        "item_id": "B085LSHNQ5",
+        "reason": "PS3 game, still relevant"
+      },
+      {
+        "item_id": "B00VMU99PE",
+        "reason": "Classic gaming accessory"
+      },
+      {
+        "item_id": "B08VRR3XHY",
+        "reason": "Useful gaming adapter"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3712,
+    "completion_tokens": 320
+  }
+}

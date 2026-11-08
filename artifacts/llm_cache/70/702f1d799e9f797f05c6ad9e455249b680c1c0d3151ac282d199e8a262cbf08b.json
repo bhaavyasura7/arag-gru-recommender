@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0767N3Y2Q",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar brand and ergonomic design."
+      },
+      {
+        "item_id": "B07D4PK616",
+        "label": "support",
+        "score": 8,
+        "rationale": "High DPI and programmable buttons."
+      },
+      {
+        "item_id": "B07VFYBMTS",
+        "label": "support",
+        "score": 9,
+        "rationale": "Wireless, high DPI, and programmable features."
+      },
+      {
+        "item_id": "B07BZJ97ZG",
+        "label": "support",
+        "score": 7,
+        "rationale": "Ambidextrous design and high DPI."
+      },
+      {
+        "item_id": "B00MTDTU9I",
+        "label": "support",
+        "score": 8,
+        "rationale": "High DPI and multiple programmable buttons."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1858,
+    "completion_tokens": 155
+  }
+}

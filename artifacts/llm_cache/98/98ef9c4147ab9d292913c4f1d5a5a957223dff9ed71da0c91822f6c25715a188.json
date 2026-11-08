@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0725KSRJ8",
+      "B0011E4J7O",
+      "B09ZJF8VR1",
+      "B16ZHZBYCJ",
+      "B001EYUQBO",
+      "B01KWLKKQU",
+      "B00CMQTVUA",
+      "B07L9Z33MH",
+      "B0140Z6SZQ",
+      "B075S5BLY2",
+      "B001EYUPOC",
+      "B000NKPE4E",
+      "B00H727K20",
+      "B005GISPMQ",
+      "B002BRZ8BQ",
+      "B06ZZ6FGGL",
+      "B09QVJDVHN",
+      "B087SLTR2B",
+      "B0011E4J7O",
+      "B00CMQTVUA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0725KSRJ8",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B0011E4J7O",
+        "reason": "Essential Xbox accessory"
+      },
+      {
+        "item_id": "B09ZJF8VR1",
+        "reason": "Lightweight gaming mouse"
+      },
+      {
+        "item_id": "B16ZHZBYCJ",
+        "reason": "Versatile gaming keypad"
+      },
+      {
+        "item_id": "B001EYUQBO",
+        "reason": "Classic WWII game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3676,
+    "completion_tokens": 318
+  }
+}

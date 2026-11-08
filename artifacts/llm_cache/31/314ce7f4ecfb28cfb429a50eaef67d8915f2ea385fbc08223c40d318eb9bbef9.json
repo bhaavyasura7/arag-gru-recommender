@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00UCP1IYA",
+      "B09VP9LKJ2",
+      "B07TD17MTK",
+      "B0BK3KGRTS",
+      "B00030CKFU",
+      "B01KGFQKUW",
+      "B07BLWZR3G",
+      "B09M6YFK7Y",
+      "B0048QXD9C",
+      "B01DVAX66A",
+      "B0B6GM69MS",
+      "B07DHS8SGT",
+      "B0BJTP1NHC",
+      "B00004NS11",
+      "B09572TDFW",
+      "B0BB79GLD4",
+      "B016MC8C68",
+      "B00BSVTVZ0",
+      "B0NDT3FXD",
+      "B0BK3KGRTS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00UCP1IYA",
+        "reason": "Essential charging cable for Nintendo"
+      },
+      {
+        "item_id": "B09VP9LKJ2",
+        "reason": "Screen protector for Nintendo Switch"
+      },
+      {
+        "item_id": "B07TD17MTK",
+        "reason": "Wireless controller for gaming"
+      },
+      {
+        "item_id": "B0BK3KGRTS",
+        "reason": "Compatible controller for multiple systems"
+      },
+      {
+        "item_id": "B00030CKFU",
+        "reason": "PC game for nostalgic gamers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3274,
+    "completion_tokens": 326
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07Q7PTGHM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar category, but not a mouse."
+      },
+      {
+        "item_id": "B07Q7QGDR1",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar category, but not a mouse."
+      },
+      {
+        "item_id": "B07QWZXN83",
+        "label": "support",
+        "score": 8,
+        "rationale": "Same brand as previously liked mouse."
+      },
+      {
+        "item_id": "B0BZYJPYMF",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different brand, but gaming keyboard."
+      },
+      {
+        "item_id": "B08RHJCGJJ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different brand, but gaming keyboard."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1347,
+    "completion_tokens": 156
+  }
+}

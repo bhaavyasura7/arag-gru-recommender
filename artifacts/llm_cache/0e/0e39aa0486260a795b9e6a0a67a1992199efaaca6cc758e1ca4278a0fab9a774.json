@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07DNDF1D6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different console, user prefers Nintendo games."
+      },
+      {
+        "item_id": "B00BLTMUYS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for Xbox, not Nintendo."
+      },
+      {
+        "item_id": "B0756YV3MK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Nintendo systems, user interest."
+      },
+      {
+        "item_id": "B01M9J5MHK",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Not related to user's gaming interests."
+      },
+      {
+        "item_id": "B01HPCHQ3O",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Unrelated product, not gaming accessory."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1024,
+    "completion_tokens": 160
+  }
+}

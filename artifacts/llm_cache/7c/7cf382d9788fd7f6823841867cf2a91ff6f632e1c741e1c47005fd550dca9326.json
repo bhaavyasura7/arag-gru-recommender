@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01DAHAJKA",
+      "B13DAHAJKA",
+      "B00DUARDFC",
+      "B071LG2TNK",
+      "B094F5XGRD",
+      "B18C8KQS8C",
+      "B0B7Q1S7GY",
+      "B18C8KQS8C",
+      "B0B42BN96R",
+      "B002FGU070",
+      "B002YGS5RI",
+      "B08S2YG42Z",
+      "B0B2P7QWQX",
+      "B08C8KQS8C",
+      "B0B42BN96R",
+      "B0B2P7QWQX",
+      "B0B42BN96R",
+      "B0B2P7QWQX",
+      "B0B42BN96R",
+      "B0B2P7QWQX"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01DAHAJKA",
+        "reason": "Popular PS4 digital content"
+      },
+      {
+        "item_id": "B00DUARDFC",
+        "reason": "New Xbox game release"
+      },
+      {
+        "item_id": "B071LG2TNK",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B094F5XGRD",
+        "reason": "Engaging VR game content"
+      },
+      {
+        "item_id": "B0B7Q1S7GY",
+        "reason": "Compatible with Xbox 360"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3668,
+    "completion_tokens": 342
+  }
+}

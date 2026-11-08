@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo 3DS accessories",
+      "Super Smash Bros. games",
+      "gaming headsets",
+      "Pokémon games",
+      "video game collectibles"
+    ],
+    "current_intent": "looking for new gaming accessories or games",
+    "avoid": [
+      "non-gaming products",
+      "low-rated items",
+      "generic brands"
+    ],
+    "summary": "User is a dedicated gamer focused on Nintendo 3DS and related accessories, seeking high-quality gaming experiences."
+  },
+  "usage": {
+    "prompt_tokens": 324,
+    "completion_tokens": 82
+  }
+}

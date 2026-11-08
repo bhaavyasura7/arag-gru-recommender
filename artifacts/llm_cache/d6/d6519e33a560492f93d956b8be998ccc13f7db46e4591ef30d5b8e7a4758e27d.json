@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B003JKK60C",
+      "B0080Z5D8A",
+      "B005Z9GNSE",
+      "B00457X0YM",
+      "B00HCRMWN2",
+      "B007B64TCQ",
+      "B0038K69UO",
+      "B0178D8D8A",
+      "B00Y3P2BHS",
+      "B07NY2YJSH",
+      "B0BTHS5YRW",
+      "B00CQ35C1Q",
+      "B09NDCX7GK",
+      "B07Z427CPZ",
+      "B0B9GZ58RB",
+      "B08HK5MSB7",
+      "B09F2MS59L",
+      "B0BTHS5YRW",
+      "B0038K69UO",
+      "B001MBP678",
+      "B07NY2YJSH"
+    ],
+    "reasons": [
+      {
+        "item_id": "B003JKK60C",
+        "reason": "Retro wireless controller for PS3"
+      },
+      {
+        "item_id": "B005Z9GNSE",
+        "reason": "Compatible retro gaming title"
+      },
+      {
+        "item_id": "B00457X0YM",
+        "reason": "Legacy gaming mouse for PC"
+      },
+      {
+        "item_id": "B00HCRMWN2",
+        "reason": "Popular retro game for PS3"
+      },
+      {
+        "item_id": "B007B64TCQ",
+        "reason": "Protective case for PS Vita"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3562,
+    "completion_tokens": 344
+  }
+}

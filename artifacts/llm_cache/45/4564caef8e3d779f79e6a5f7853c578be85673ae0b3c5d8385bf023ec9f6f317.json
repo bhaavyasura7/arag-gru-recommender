@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00004WFVZ",
+      "B00001LDBV",
+      "B000AY0S3U",
+      "B000S0C2UI",
+      "B00005JHDP",
+      "B002BU0DPE",
+      "B074ZZ933M",
+      "B095WLSXHG",
+      "B093V61T2N",
+      "B001EQD0CO",
+      "B000ARW4RU",
+      "B01953YZ0S",
+      "B00000K57P",
+      "B089MV3BYN",
+      "B004IPPET0",
+      "B081LJHQF1",
+      "B07DTLDMXD",
+      "B00005JHDP",
+      "B00004WFVZ",
+      "B000ARW4RU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00004WFVZ",
+        "reason": "WWII air combat simulation game"
+      },
+      {
+        "item_id": "B00001LDBV",
+        "reason": "Classic racing game with combat elements"
+      },
+      {
+        "item_id": "B000AY0S3U",
+        "reason": "Historical military strategy game"
+      },
+      {
+        "item_id": "B000S0C2UI",
+        "reason": "Compatible with military-themed games"
+      },
+      {
+        "item_id": "B00005JHDP",
+        "reason": "Classic game with military themes"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3111,
+    "completion_tokens": 317
+  }
+}

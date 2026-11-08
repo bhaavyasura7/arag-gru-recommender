@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B19TKK8GH6",
+      "B00IAVDOS6",
+      "B00DB2BI8M",
+      "B19SBX48TY",
+      "B00Z9TL6KA",
+      "B00CSIB3PS",
+      "B00KVP76G0",
+      "B005OGL766",
+      "B07RVCXS61",
+      "B07WS5R5DP",
+      "B003TQM4DI",
+      "B00025ETC8",
+      "B004HD55VK",
+      "B00M0UDCN5",
+      "B00IAVDOS6",
+      "B00DB2BI8M",
+      "B07SBX48TY",
+      "B00Z9TL6KA",
+      "B00CSIB3PS",
+      "B00KVP76G0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B19TKK8GH6",
+        "reason": "Popular action game with multiplayer"
+      },
+      {
+        "item_id": "B00IAVDOS6",
+        "reason": "Essential for Xbox gaming experience"
+      },
+      {
+        "item_id": "B00DB2BI8M",
+        "reason": "Highly rated action game"
+      },
+      {
+        "item_id": "B19SBX48TY",
+        "reason": "Enhanced controller for better gameplay"
+      },
+      {
+        "item_id": "B00Z9TL6KA",
+        "reason": "Popular sports game with multiplayer"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3686,
+    "completion_tokens": 321
+  }
+}

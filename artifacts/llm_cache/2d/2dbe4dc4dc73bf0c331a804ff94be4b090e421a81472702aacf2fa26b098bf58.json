@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "LEGO video games",
+      "action-adventure games",
+      "movie tie-in games",
+      "multiplayer experiences",
+      "story-driven gameplay"
+    ],
+    "current_intent": "Looking for engaging action-adventure games with strong narratives.",
+    "avoid": [
+      "poorly rated games",
+      "games with complex mechanics",
+      "non-action genres"
+    ],
+    "summary": "User enjoys action-adventure and LEGO-themed games, seeking new titles that offer engaging stories and gameplay."
+  },
+  "usage": {
+    "prompt_tokens": 364,
+    "completion_tokens": 85
+  }
+}

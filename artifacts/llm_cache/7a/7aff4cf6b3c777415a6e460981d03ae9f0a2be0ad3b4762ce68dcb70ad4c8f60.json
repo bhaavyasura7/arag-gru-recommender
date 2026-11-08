@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01BF9X6LO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "LEGO games are generally well-received."
+      },
+      {
+        "item_id": "B00CJ9OTNE",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no history with FPS games."
+      },
+      {
+        "item_id": "B087NM8BB6",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Nintendo games like Mario."
+      },
+      {
+        "item_id": "B0093G9VOI",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Limited interest in classic arcade games."
+      },
+      {
+        "item_id": "B005C7JOH6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Music games are not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1311,
+    "completion_tokens": 157
+  }
+}

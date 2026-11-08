@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B074T8GDTV",
+      "B00GWT8U9Q",
+      "B00N73UUJI",
+      "B17K3TCCWZ",
+      "B000CIUAH8",
+      "B0006HB6H8",
+      "B008BLF5ZU",
+      "B07XY9ZL67",
+      "B000VWRH80",
+      "B00004UFM2",
+      "B07K3TCCWZ",
+      "B00JQSCIKM",
+      "B00S2TC8PG",
+      "B01MRROR26",
+      "B00H3YS4YU",
+      "B009KDX5AK",
+      "B07X56VM5R",
+      "B00DSSX47Q",
+      "B00H3YS4YU",
+      "B00S2TC8PG",
+      "B00JQSCIKM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B074T8GDTV",
+        "reason": "Nostalgic Nintendo classic game"
+      },
+      {
+        "item_id": "B00GWT8U9Q",
+        "reason": "Includes classic game bundle"
+      },
+      {
+        "item_id": "B00N73UUJI",
+        "reason": "Nintendo Switch game"
+      },
+      {
+        "item_id": "B07K3TCCWZ",
+        "reason": "Nintendo DS game"
+      },
+      {
+        "item_id": "B000CIUAH8",
+        "reason": "Mystery game with classic appeal"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2594,
+    "completion_tokens": 338
+  }
+}

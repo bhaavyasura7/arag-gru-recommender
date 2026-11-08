@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0C8BLQZFD",
+      "B0081FKLLE",
+      "B00ZDNNRB8",
+      "B007HYY6HNW",
+      "B20C8MPWZ1H",
+      "B00005O0I8",
+      "B000B69E9G",
+      "B00PQ1OQ4Y",
+      "B000SEU92W",
+      "B008U4QPJI",
+      "B0032C9V7G",
+      "B00BQVXUOA",
+      "B003B2BJWW",
+      "B004AE6GPK",
+      "B004TM8LJC",
+      "B0009OGJ02",
+      "B001QCWSDI",
+      "B00MLJ4M9Z",
+      "B0087ACBAW",
+      "B0068D8G8G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0C8BLQZFD",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B0081FKLLE",
+        "reason": "Protective case for PS Vita"
+      },
+      {
+        "item_id": "B00ZDNNRB8",
+        "reason": "Popular Xbox controller"
+      },
+      {
+        "item_id": "B007HYY6HNW",
+        "reason": "Advanced gaming mouse"
+      },
+      {
+        "item_id": "B20C8MPWZ1H",
+        "reason": "Custom controller for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3721,
+    "completion_tokens": 330
+  }
+}

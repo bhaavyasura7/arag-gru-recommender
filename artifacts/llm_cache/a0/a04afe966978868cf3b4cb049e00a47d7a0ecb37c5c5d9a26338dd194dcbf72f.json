@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B083TYGFZC",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming headset for PC and consoles."
+      },
+      {
+        "item_id": "B07M8HN8XK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller case, not directly related."
+      },
+      {
+        "item_id": "B01JM24CV4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, user prefers modern games."
+      },
+      {
+        "item_id": "B00839422C",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Legacy game, user prefers newer titles."
+      },
+      {
+        "item_id": "B08JGD74NB",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy accessory, not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1147,
+    "completion_tokens": 160
+  }
+}

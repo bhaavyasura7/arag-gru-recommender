@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B014R4KYMS",
+      "B003E1UNSG",
+      "B20B7UHWB2",
+      "B20B7UHWB2",
+      "B008B3QCJQ",
+      "B003TQM4DS",
+      "B00RJNE3TK",
+      "B00BU3ZLJQ",
+      "B0050SZ7IC",
+      "B00006GSNZ",
+      "B00005V3F1",
+      "B000P7V35O",
+      "B019WRM1IA",
+      "B01LYNI9Y5",
+      "B0771ZXXV6",
+      "B087SLFYPJ",
+      "B00B7UHWB2",
+      "B007CM0K86",
+      "B0086VPUHI",
+      "B006E1UNSG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B014R4KYMS",
+        "reason": "Engaging story and gameplay"
+      },
+      {
+        "item_id": "B003E1UNSG",
+        "reason": "Strong RPG elements"
+      },
+      {
+        "item_id": "B20B7UHWB2",
+        "reason": "Survival horror elements"
+      },
+      {
+        "item_id": "B20B7UHWB2",
+        "reason": "High-quality action-adventure"
+      },
+      {
+        "item_id": "B008B3QCJQ",
+        "reason": "Open world RPG gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3686,
+    "completion_tokens": 320
+  }
+}

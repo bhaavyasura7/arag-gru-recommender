@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07YKV1MKC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B013TSNDJO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse, not console specific."
+      },
+      {
+        "item_id": "B09J4MQ7HT",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "N64 accessory, user prefers DS games."
+      },
+      {
+        "item_id": "B01DPVP3ZM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Wii U accessory, not user preferred."
+      },
+      {
+        "item_id": "B003BYQ79U",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Space simulation, user dislikes complex games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 158
+  }
+}

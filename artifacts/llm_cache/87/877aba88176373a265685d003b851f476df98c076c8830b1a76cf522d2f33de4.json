@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07QZTNYTB",
+      "B18QH6VVA",
+      "B005DUEPQ2",
+      "B005IMVP0O",
+      "B14HD55VK",
+      "B00O65I2VY",
+      "B0056BDZXM",
+      "B0029MAXVS",
+      "B08NW7QQH8",
+      "B00CW9QZ88",
+      "B001G7PTAC",
+      "B07G3Y68KR",
+      "B003VUO6LU",
+      "B001EYUTKW",
+      "B0722GG88M",
+      "B000096KDT",
+      "B001G7PRPO",
+      "B005DUEPQ2",
+      "B0056BDZXM",
+      "B001G7PTAC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07QZTNYTB",
+        "reason": "Engaging RPG with crafting elements"
+      },
+      {
+        "item_id": "B18QH6VVA",
+        "reason": "Nostalgic Halo-themed controller"
+      },
+      {
+        "item_id": "B005DUEPQ2",
+        "reason": "Skylanders case for Nintendo"
+      },
+      {
+        "item_id": "B005IMVP0O",
+        "reason": "Classic RPG with multiple endings"
+      },
+      {
+        "item_id": "B14HD55VK",
+        "reason": "Action-adventure with strong narrative"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3834,
+    "completion_tokens": 318
+  }
+}

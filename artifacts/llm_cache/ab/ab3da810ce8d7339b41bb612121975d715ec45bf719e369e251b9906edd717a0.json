@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00PY6MSTQ",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys Nintendo 3DS games."
+      },
+      {
+        "item_id": "B07D6TWCJF",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Switch game, not in user history."
+      },
+      {
+        "item_id": "B00002ST9A",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Sega game, user prefers PC/Nintendo."
+      },
+      {
+        "item_id": "B01IDM55OM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, but not user’s interest."
+      },
+      {
+        "item_id": "B07SC1CDZ8",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 161
+  }
+}

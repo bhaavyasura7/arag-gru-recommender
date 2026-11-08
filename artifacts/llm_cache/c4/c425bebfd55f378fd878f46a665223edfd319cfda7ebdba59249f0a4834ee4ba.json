@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00F27JGVA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B00DDILSBG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B07R9PBHP2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B00YXO5X4M",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B002RRLQIO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1253,
+    "completion_tokens": 153
+  }
+}

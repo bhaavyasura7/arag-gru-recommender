@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09VFYBMTS",
+      "B07VHHPJBV",
+      "B07MNTRX1R",
+      "B07WR43KNR",
+      "B07JVT5J4V",
+      "B00MTDTU9I",
+      "B08CG48XJ9",
+      "B07D4PK616",
+      "B07D4R6QC3",
+      "B07F532TCN",
+      "B071H7XGNX",
+      "B071XTSK94",
+      "B08M8NRR3S",
+      "B07BZJ97ZG",
+      "B07D4PK616",
+      "B0765B12P6",
+      "B07MNTRX1R",
+      "B07VFYBMTS",
+      "B07D4R6QC3",
+      "B07WR43KNR",
+      "B0767N3Y2Q"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09VFYBMTS",
+        "reason": "16000 DPI and wireless"
+      },
+      {
+        "item_id": "B07VHHPJBV",
+        "reason": "7200 DPI and RGB"
+      },
+      {
+        "item_id": "B07MNTRX1R",
+        "reason": "7200 DPI and programmable"
+      },
+      {
+        "item_id": "B07WR43KNR",
+        "reason": "3200 DPI and ergonomic"
+      },
+      {
+        "item_id": "B07JVT5J4V",
+        "reason": "7200 DPI and RGB modes"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5188,
+    "completion_tokens": 341
+  }
+}

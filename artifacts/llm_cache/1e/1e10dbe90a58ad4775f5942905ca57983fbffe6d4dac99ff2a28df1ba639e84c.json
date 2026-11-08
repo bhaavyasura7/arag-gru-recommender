@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002I0J8KS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not a preferred genre for user."
+      },
+      {
+        "item_id": "B0011E4J2Y",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's Nintendo systems."
+      },
+      {
+        "item_id": "B01M0ROFJ1",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers legacy systems, not VR."
+      },
+      {
+        "item_id": "B006VR663G",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo Wii U game aligns with interests."
+      },
+      {
+        "item_id": "B07WZS4CTC",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Xbox One game not in user's history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1290,
+    "completion_tokens": 161
+  }
+}

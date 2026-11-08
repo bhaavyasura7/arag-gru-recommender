@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08291PZ1M",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has PS4 controller interests."
+      },
+      {
+        "item_id": "B0BJJ2W8Q6",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with PS4, user prefers controllers."
+      },
+      {
+        "item_id": "B07K7C2YQN",
+        "label": "support",
+        "score": 8,
+        "rationale": "Supports PS4, aligns with user preferences."
+      },
+      {
+        "item_id": "B0C1421KR1",
+        "label": "support",
+        "score": 8,
+        "rationale": "Features match user’s PS4 controller needs."
+      },
+      {
+        "item_id": "B07HJX278G",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a direct controller."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2135,
+    "completion_tokens": 163
+  }
+}

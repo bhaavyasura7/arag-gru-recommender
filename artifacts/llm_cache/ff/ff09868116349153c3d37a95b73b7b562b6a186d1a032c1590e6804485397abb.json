@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01N9K8K5G",
+      "B07ZKW2285",
+      "B018EKX1UI",
+      "B13VMUMHY",
+      "B07Y8JQ453",
+      "B000GABTW2",
+      "B003QWYX8E",
+      "B07424Y38Y",
+      "B07SPGWL9M",
+      "B005M2U08S",
+      "B0011W61HW",
+      "B09L156YBX",
+      "B07TSGW6T1",
+      "B000GABTW2",
+      "B076HFWFDY",
+      "B01ERBYZI0",
+      "B000GABTW2",
+      "B00Z94K5R0",
+      "B09V6R36BD",
+      "B013VMUMHY",
+      "B00IGCK71G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01N9K8K5G",
+        "reason": "High-quality VR action game"
+      },
+      {
+        "item_id": "B07ZKW2285",
+        "reason": "Immersive gaming headset"
+      },
+      {
+        "item_id": "B018EKX1UI",
+        "reason": "Quality gaming headset option"
+      },
+      {
+        "item_id": "B07Y8JQ453",
+        "reason": "Popular fighting game"
+      },
+      {
+        "item_id": "B000GABTW2",
+        "reason": "Essential PS4 controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3439,
+    "completion_tokens": 330
+  }
+}

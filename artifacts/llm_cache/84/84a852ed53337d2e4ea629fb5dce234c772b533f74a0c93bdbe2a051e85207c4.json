@@ -1,0 +1,54 @@
+{
+  "content": {
+    "ranking": [
+      "B001VMATDE",
+      "B002JCS5J0",
+      "B00004YUI8",
+      "B0007N3KIO",
+      "B001BYPXRE",
+      "B00006LISK",
+      "B00017K08O",
+      "B00002S671",
+      "B00004UD3W",
+      "B0009F79BE",
+      "B00004T009",
+      "B0009MUK2C",
+      "B083HRJJ8K",
+      "B08KG2V9LJ",
+      "B001OZJE52",
+      "B0012NO6H2",
+      "B0006NL1HM",
+      "B001BYPXRE",
+      "B002S62BGA",
+      "B0012NO6H2",
+      "B008J2RFV8",
+      "B0009F79BE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001VMATDE",
+        "reason": "Popular game with high ratings"
+      },
+      {
+        "item_id": "B002JCS5J0",
+        "reason": "Flight simulator game"
+      },
+      {
+        "item_id": "B00004YUI8",
+        "reason": "Diverse game collection"
+      },
+      {
+        "item_id": "B0007N3KIO",
+        "reason": "Engaging Magic game"
+      },
+      {
+        "item_id": "B001BYPXRE",
+        "reason": "Fun puzzle game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1244,
+    "completion_tokens": 329
+  }
+}

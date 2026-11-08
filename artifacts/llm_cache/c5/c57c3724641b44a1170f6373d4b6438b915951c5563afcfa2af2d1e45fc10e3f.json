@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08JLHDXWY",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys racing games."
+      },
+      {
+        "item_id": "B001EYUVEQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B001VMQD8O",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Unrelated to gaming interests."
+      },
+      {
+        "item_id": "B01FALMGOG",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not a primary interest for user."
+      },
+      {
+        "item_id": "B0B927VQFK",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox, user enjoys Xbox games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 152
+  }
+}

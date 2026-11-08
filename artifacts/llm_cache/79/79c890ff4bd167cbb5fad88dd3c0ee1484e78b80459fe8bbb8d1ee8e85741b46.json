@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B079MRDY5V",
+      "B08WZKMTF9",
+      "B00VILBF0Y",
+      "B08TWFYSR2",
+      "B075S7L98K",
+      "B07FY95X44",
+      "B09WV9MQCK",
+      "B004CVQ0JI",
+      "B06XDJCGNG",
+      "B09QPGNV4Q",
+      "B002RL8K3E",
+      "B08XTDB7W4",
+      "B07GJX6DYQ",
+      "B004E0G7ZY",
+      "B09BF2JGZK",
+      "B07GJX6DYQ",
+      "B009SS7MO2",
+      "B073QN2M8S",
+      "B0CBBMHLFD",
+      "B09WV9MQCK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B079MRDY5V",
+        "reason": "Popular fighting game title"
+      },
+      {
+        "item_id": "B08WZKMTF9",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B00VILBF0Y",
+        "reason": "Premium wireless headset"
+      },
+      {
+        "item_id": "B08TWFYSR2",
+        "reason": "Useful for PS5 gaming"
+      },
+      {
+        "item_id": "B075S7L98K",
+        "reason": "Protective case for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3700,
+    "completion_tokens": 329
+  }
+}

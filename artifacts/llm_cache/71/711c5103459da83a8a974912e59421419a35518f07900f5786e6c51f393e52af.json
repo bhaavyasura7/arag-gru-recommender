@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00006IQT6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern consoles."
+      },
+      {
+        "item_id": "B0001RBPM4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B09MN9CCR3",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Switch games."
+      },
+      {
+        "item_id": "B00F2OMRS2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to video games."
+      },
+      {
+        "item_id": "B000R6VOUC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Software, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 875,
+    "completion_tokens": 151
+  }
+}

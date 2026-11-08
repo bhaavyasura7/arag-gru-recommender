@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00HVBPRUO",
+      "B00BGAA3S2",
+      "B00Z9TM72Q",
+      "B00BGA9X9W",
+      "B01GY35UK6",
+      "B00RN7QTF8",
+      "B00B11Z2PYX",
+      "B00Z9TM72Q",
+      "B00HVBPRUO",
+      "B0086VPUHI",
+      "B003L77YKS",
+      "B000095ZH6",
+      "B0BLFYF8K2",
+      "B002U02AEC",
+      "B002824SNS",
+      "B0000A0MDV",
+      "B000R08L7M",
+      "B0BVVTQ5JP",
+      "B09XM8MMYD",
+      "B0072A4JVW",
+      "B0B11Z2PYX"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00HVBPRUO",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B00BGAA3S2",
+        "reason": "Enhances PS4 navigation"
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Popular action game edition"
+      },
+      {
+        "item_id": "B00BGA9X9W",
+        "reason": "Essential PS4 controller"
+      },
+      {
+        "item_id": "B01GY35UK6",
+        "reason": "High-performance gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3701,
+    "completion_tokens": 336
+  }
+}

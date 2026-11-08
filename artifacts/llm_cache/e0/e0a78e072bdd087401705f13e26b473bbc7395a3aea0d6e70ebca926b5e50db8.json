@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003ZDOFF0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Pokémon games."
+      },
+      {
+        "item_id": "B0088TN5FM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Pokémon games."
+      },
+      {
+        "item_id": "B0093G9VOI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Limited edition, not Pokémon related."
+      },
+      {
+        "item_id": "B00C9DL1HC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not Pokémon related."
+      },
+      {
+        "item_id": "B00L4SD1F8",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers Pokémon games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1219,
+    "completion_tokens": 154
+  }
+}

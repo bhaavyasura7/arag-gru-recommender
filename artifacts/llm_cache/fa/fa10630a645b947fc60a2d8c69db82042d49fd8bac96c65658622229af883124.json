@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUTFM",
+      "B14VPX499V",
+      "B0019FEZ1K",
+      "B000J0NV16",
+      "B20MEW4HEM",
+      "B003QPIDW8",
+      "B001EYUTJ8",
+      "B07WSHFS8P",
+      "B00LSR51IA",
+      "B08NXLLGFB",
+      "B07TB5W9YP",
+      "B00092A71Q",
+      "B002CZP84Y",
+      "B0BMT86P17",
+      "B099ZCQTJ7",
+      "B09H7L4WJY",
+      "B07VPX499V",
+      "B09YH6F1PY",
+      "B006HPLI7Q",
+      "B0BXKSB527"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUTFM",
+        "reason": "Popular sports game for Xbox 360"
+      },
+      {
+        "item_id": "B14VPX499V",
+        "reason": "Collector's edition of Gears of War"
+      },
+      {
+        "item_id": "B0019FEZ1K",
+        "reason": "Classic RPG on PlayStation 2"
+      },
+      {
+        "item_id": "B000J0NV16",
+        "reason": "Fun desktop accessory for gamers"
+      },
+      {
+        "item_id": "B20MEW4HEM",
+        "reason": "Custom controller shell for Xbox One"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3352,
+    "completion_tokens": 331
+  }
+}

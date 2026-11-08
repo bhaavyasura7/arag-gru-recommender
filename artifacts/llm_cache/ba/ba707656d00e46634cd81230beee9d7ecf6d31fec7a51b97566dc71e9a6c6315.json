@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action video games",
+      "gaming headsets",
+      "PlayStation titles",
+      "Xbox 360 games",
+      "immersive gaming experiences"
+    ],
+    "current_intent": "looking for a quality gaming headset",
+    "avoid": [
+      "low-quality audio",
+      "overpriced items",
+      "non-gaming products"
+    ],
+    "summary": "User enjoys action video games and is currently seeking a reliable gaming headset for an enhanced experience."
+  },
+  "usage": {
+    "prompt_tokens": 387,
+    "completion_tokens": 77
+  }
+}

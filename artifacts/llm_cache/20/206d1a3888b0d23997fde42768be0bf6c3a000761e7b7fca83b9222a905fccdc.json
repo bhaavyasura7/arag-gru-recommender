@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01NAFZ77D",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys gaming accessories."
+      },
+      {
+        "item_id": "B075VK2Z7C",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has Xbox interest but no controller skins."
+      },
+      {
+        "item_id": "B08HJVDXYB",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Nintendo Switch interest."
+      },
+      {
+        "item_id": "B00CA5FJPE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games over solitaire."
+      },
+      {
+        "item_id": "B082G2T6HM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has Nintendo interest but no N64."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 157
+  }
+}

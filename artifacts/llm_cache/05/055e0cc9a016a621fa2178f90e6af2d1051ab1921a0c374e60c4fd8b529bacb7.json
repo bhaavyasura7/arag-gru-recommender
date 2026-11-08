@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUW2M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox products only."
+      },
+      {
+        "item_id": "B09DRY9T7Z",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox, enhances gaming experience."
+      },
+      {
+        "item_id": "B000FJEV06",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo game, user prefers Xbox."
+      },
+      {
+        "item_id": "B0848GXDR8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation headset, user prefers Xbox."
+      },
+      {
+        "item_id": "B007PX6MFM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo accessory, user prefers Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1364,
+    "completion_tokens": 161
+  }
+}

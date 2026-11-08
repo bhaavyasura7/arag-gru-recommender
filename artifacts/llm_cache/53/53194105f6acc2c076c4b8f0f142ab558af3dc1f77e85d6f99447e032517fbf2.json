@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B005JAT4LC",
+      "B000FII14Y",
+      "B00009ZVI2",
+      "B001EYUWWC",
+      "B000HB7USC",
+      "B019BFAHXY",
+      "B07GJNSC2P",
+      "B077RLSQYH",
+      "B081GPTC17",
+      "B001237ZWK",
+      "B005GISQX4",
+      "B0083VTBTY",
+      "B07CW48RYQ",
+      "B0BBR5T6YG",
+      "B0795QV2BH",
+      "B0123F4D4C",
+      "B01ARRXJJE",
+      "B001EYUWWC",
+      "B07QPVTW6R",
+      "B0153F4D4C",
+      "B07CW48RYQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B005JAT4LC",
+        "reason": "Classic Zelda action-adventure title"
+      },
+      {
+        "item_id": "B000FII14Y",
+        "reason": "Nostalgic Avatar gaming experience"
+      },
+      {
+        "item_id": "B00009ZVI2",
+        "reason": "Classic Prince of Persia adventure"
+      },
+      {
+        "item_id": "B001EYUWWC",
+        "reason": "Classic Unreal Tournament gameplay"
+      },
+      {
+        "item_id": "B000HB7USC",
+        "reason": "Sims 2 nostalgia with pets"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3263,
+    "completion_tokens": 333
+  }
+}

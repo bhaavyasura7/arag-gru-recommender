@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B003Z815RG",
+      "B003YMMMFM",
+      "B07YPCJWF2",
+      "B00006JBSB",
+      "B000035XK5",
+      "B01C3GSH6W",
+      "B01N3N6MX8",
+      "B09JCNG557",
+      "B002MB0BUO",
+      "B01J4JWNG6",
+      "B00BPL60QQ",
+      "B07MLHGGGL",
+      "B07YDZJ4GP",
+      "B07YPCJWF2",
+      "B0867C7KKJ",
+      "B08WKCZVML",
+      "B0041JIQRK",
+      "B0002D6A4K",
+      "B07MLHGGGL",
+      "B01N3N6MX8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B003YMMMFM",
+        "reason": "Highly rated classic shooter"
+      },
+      {
+        "item_id": "B07YPCJWF2",
+        "reason": "Remastered classic shooter"
+      },
+      {
+        "item_id": "B00006JBSB",
+        "reason": "Classic action-adventure game"
+      },
+      {
+        "item_id": "B000035XK5",
+        "reason": "Nostalgic classic game"
+      },
+      {
+        "item_id": "B003Z815RG",
+        "reason": "Classic game with multiplayer"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3154,
+    "completion_tokens": 319
+  }
+}

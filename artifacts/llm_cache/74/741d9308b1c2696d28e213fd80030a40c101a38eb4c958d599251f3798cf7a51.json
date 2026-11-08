@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B087SHFL9B",
+      "B04N332TG8",
+      "B0929JM6ZS",
+      "B071WQ28YV",
+      "B07V5LZMTH",
+      "B0B9BKTP1D",
+      "B001QCWRZC",
+      "B001HV9WE0Q",
+      "B00C2PJTKS",
+      "B087S7PRWB",
+      "B00YXO5X4M",
+      "B00DDILSBG",
+      "B0154P0BT0",
+      "B004RMK5QG",
+      "B00F27JGVA",
+      "B00C2PJTKS",
+      "B07D3MY2VZ",
+      "B00C2PJTKS",
+      "B00C2PJTKS",
+      "B00C2PJTKS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087SHFL9B",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B04N332TG8",
+        "reason": "Highly rated Nintendo game"
+      },
+      {
+        "item_id": "B0929JM6ZS",
+        "reason": "Quality gaming controller"
+      },
+      {
+        "item_id": "B071WQ28YV",
+        "reason": "Useful gameplay accessory"
+      },
+      {
+        "item_id": "B07V5LZMTH",
+        "reason": "Protective screen for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3900,
+    "completion_tokens": 324
+  }
+}

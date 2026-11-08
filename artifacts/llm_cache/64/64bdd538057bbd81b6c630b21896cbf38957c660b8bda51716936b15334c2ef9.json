@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07M7V5GWW",
+      "B07PPMLFM3",
+      "B08DKJ19VZ",
+      "B0B5T3NVTF",
+      "B09TST935L",
+      "B06XQPYQN6",
+      "B06XQXQQF4",
+      "B08P6QNNBQ",
+      "B0BJJ2W8Q6",
+      "B07G1ZPDZN",
+      "B07VHDT5ZB",
+      "B0C1421KR1",
+      "B07K7C2YQN",
+      "B06X9M9TYD",
+      "B08NDHWSZ4",
+      "B0B9X2Y6TT",
+      "B09B71DR67",
+      "B07HJX278G",
+      "B12XQPYQN6",
+      "B07JL5X9LF",
+      "B06XQXQQF4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07M7V5GWW",
+        "reason": "Best cooling solution available"
+      },
+      {
+        "item_id": "B07PPMLFM3",
+        "reason": "Essential charging station for controllers"
+      },
+      {
+        "item_id": "B08DKJ19VZ",
+        "reason": "Replacement parts for PS4 controllers"
+      },
+      {
+        "item_id": "B0B5T3NVTF",
+        "reason": "High-quality replacement controller"
+      },
+      {
+        "item_id": "B09TST935L",
+        "reason": "Compatible with all PS4 models"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3854,
+    "completion_tokens": 353
+  }
+}

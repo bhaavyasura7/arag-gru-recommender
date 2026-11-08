@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00KVP76G0",
+      "B071SDK84Z",
+      "B13YBXJ5FK",
+      "B0050SVOXE",
+      "B11YBXJ5Z3",
+      "B09TY683ZS",
+      "B00020LZAW",
+      "B001EYUWWC",
+      "B00005NZ1K",
+      "B0000664JE",
+      "B007X5103Q",
+      "B09Z6PRJT6",
+      "B08QR5PTRP",
+      "B000UW21A0",
+      "B087NNPYP3",
+      "B06ZZM2BTR",
+      "B009VUHVPM",
+      "B00020LZAW",
+      "B08KXGWG5X",
+      "B07MG5YV55",
+      "B0000664JE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KVP76G0",
+        "reason": "High-quality PlayStation controller"
+      },
+      {
+        "item_id": "B071SDK84Z",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B13YBXJ5FK",
+        "reason": "Versatile charging solution"
+      },
+      {
+        "item_id": "B0050SVOXE",
+        "reason": "Engaging Nintendo game"
+      },
+      {
+        "item_id": "B09TY683ZS",
+        "reason": "Essential power cord replacement"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3704,
+    "completion_tokens": 321
+  }
+}

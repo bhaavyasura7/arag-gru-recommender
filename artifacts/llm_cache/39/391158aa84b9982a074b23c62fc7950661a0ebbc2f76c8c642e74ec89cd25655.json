@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "gaming accessories",
+      "Nintendo products",
+      "high-performance mice",
+      "online multiplayer games"
+    ],
+    "current_intent": "looking for new gaming gear or accessories",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "overpriced accessories"
+    ],
+    "summary": "User is a gaming enthusiast focused on high-quality gear, particularly for Nintendo and PC gaming."
+  },
+  "usage": {
+    "prompt_tokens": 345,
+    "completion_tokens": 73
+  }
+}

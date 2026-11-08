@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00JOPRW9E",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys RPGs but not creation tools."
+      },
+      {
+        "item_id": "B07SPKJRWX",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys RPGs and story-driven games."
+      },
+      {
+        "item_id": "B07J6S5RJ9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys RPGs but not creation tools."
+      },
+      {
+        "item_id": "B00005NP3Y",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers RPGs over RTS games."
+      },
+      {
+        "item_id": "B079RZGLQQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys action RPGs and customization."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2314,
+    "completion_tokens": 162
+  }
+}

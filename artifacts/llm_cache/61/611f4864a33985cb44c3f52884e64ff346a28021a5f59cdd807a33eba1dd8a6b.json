@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000QTD05W",
+      "B002BRWU8U",
+      "B001G7PSLC",
+      "B0721GGGS9",
+      "B001EYUO5M",
+      "B001EYUWN6",
+      "B0CDPNFHPK",
+      "B0BW3SYR17",
+      "B002I092YK",
+      "B072V478NR",
+      "B07MYVF61Y",
+      "B004RMK5QG",
+      "B095WDDH4N",
+      "B00DQ5RGOY",
+      "B00P7Y4618",
+      "B08SF1S7WG",
+      "B17V8YSBFG",
+      "B0CDPNFHPK",
+      "B0721GGGS9",
+      "B0BW3SYR17"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000QTD05W",
+        "reason": "Mega Man collectible game"
+      },
+      {
+        "item_id": "B002BRWU8U",
+        "reason": "Classic JRPG on Nintendo DS"
+      },
+      {
+        "item_id": "B001G7PSLC",
+        "reason": "Nostalgic Nintendo DS game"
+      },
+      {
+        "item_id": "B0721GGGS9",
+        "reason": "Classic console with 21 games"
+      },
+      {
+        "item_id": "B001EYUO5M",
+        "reason": "Limited edition bowling game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3690,
+    "completion_tokens": 324
+  }
+}

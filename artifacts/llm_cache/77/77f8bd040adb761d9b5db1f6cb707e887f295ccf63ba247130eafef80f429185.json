@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B20BDG2VVFZ",
+      "B07VWNJR3L",
+      "B09V2L4RWN",
+      "B08LZLJ12K",
+      "B17F2HQXNR",
+      "B18B0839HB9L3",
+      "B001EYUY70",
+      "B00004Z319",
+      "B000MRNUBC",
+      "B0072V3QFQ",
+      "B000UF6YKK",
+      "B0BXPY3R43",
+      "B000ERVMI8",
+      "B000CEX1CBM",
+      "B000MRNUBC",
+      "B00KAIYRE2",
+      "B0BDG2VVFZ",
+      "B00BO0GYW8",
+      "B000MRNUBC",
+      "B000MRNUBC",
+      "B000MRNUBC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B20BDG2VVFZ",
+        "reason": "Popular sports game experience"
+      },
+      {
+        "item_id": "B07VWNJR3L",
+        "reason": "Classic Pokémon game nostalgia"
+      },
+      {
+        "item_id": "B09V2L4RWN",
+        "reason": "Fun rhythm game with characters"
+      },
+      {
+        "item_id": "B08LZLJ12K",
+        "reason": "Essential Switch carrying case"
+      },
+      {
+        "item_id": "B17F2HQXNR",
+        "reason": "Engaging superhero game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3541,
+    "completion_tokens": 343
+  }
+}

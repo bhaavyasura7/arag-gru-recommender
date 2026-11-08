@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00542XG96",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers different game genres."
+      },
+      {
+        "item_id": "B00E4MQODC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User focuses on video games, not accessories."
+      },
+      {
+        "item_id": "B0007D4MVI",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Pokémon games, strong match."
+      },
+      {
+        "item_id": "B06ZXYT5KJ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not need replacement parts."
+      },
+      {
+        "item_id": "B0154OZU4M",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Xbox One."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1427,
+    "completion_tokens": 163
+  }
+}

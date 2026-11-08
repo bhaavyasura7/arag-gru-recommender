@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004WLRQ2S",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming mice, not accessories."
+      },
+      {
+        "item_id": "B000CC3IEQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User's history shows no interest in GameCube."
+      },
+      {
+        "item_id": "B002I0EMBI",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PC gaming, not handheld."
+      },
+      {
+        "item_id": "B000935256",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User focuses on mice, not fighting games."
+      },
+      {
+        "item_id": "B000NJBD90",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Adapter may interest user for compatibility."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1308,
+    "completion_tokens": 163
+  }
+}

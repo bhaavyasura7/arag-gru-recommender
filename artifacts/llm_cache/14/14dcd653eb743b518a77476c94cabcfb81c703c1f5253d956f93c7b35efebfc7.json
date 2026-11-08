@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "gaming consoles",
+      "game accessories",
+      "story-driven games",
+      "simulation games"
+    ],
+    "current_intent": "looking for a new gaming console or accessories",
+    "avoid": [
+      "discontinued products",
+      "low-rated games",
+      "non-gaming items"
+    ],
+    "summary": "User is a gaming enthusiast interested in video games and consoles, seeking current options for gaming hardware or accessories."
+  },
+  "usage": {
+    "prompt_tokens": 306,
+    "completion_tokens": 76
+  }
+}

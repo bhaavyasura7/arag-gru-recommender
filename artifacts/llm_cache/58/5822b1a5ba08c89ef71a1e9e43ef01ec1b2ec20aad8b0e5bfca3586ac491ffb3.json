@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00006B8EI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to gaming experience."
+      },
+      {
+        "item_id": "B00BHRD4BM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User hasn't shown interest in Destiny."
+      },
+      {
+        "item_id": "B00KXAI6MQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PlayStation games."
+      },
+      {
+        "item_id": "B00OAYHIRA",
+        "label": "support",
+        "score": 8,
+        "rationale": "User plays PC and PS3 games."
+      },
+      {
+        "item_id": "B0BLFYF8K2",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likely needs gaming accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1185,
+    "completion_tokens": 155
+  }
+}

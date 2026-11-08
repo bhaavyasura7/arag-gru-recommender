@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00J5C3Z10",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar action-adventure genre interests."
+      },
+      {
+        "item_id": "B01KXBJJ16",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not relevant to user's gaming preferences."
+      },
+      {
+        "item_id": "B018XG4BJ8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Hidden object game not aligned with interests."
+      },
+      {
+        "item_id": "B07CPKMTSK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, but Xbox related."
+      },
+      {
+        "item_id": "B0B9V65WXV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Charger for Xbox, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 165
+  }
+}

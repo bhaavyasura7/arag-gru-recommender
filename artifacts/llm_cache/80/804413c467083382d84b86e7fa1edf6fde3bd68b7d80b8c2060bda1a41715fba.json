@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0009HJCGC",
+      "B000035XNW",
+      "B0006GSF7S",
+      "B018D6J6JI",
+      "B09ZDGD6VS",
+      "B07X3HFSC2",
+      "B0012Z84KK",
+      "B001QCWQGW",
+      "B003VR5PPY",
+      "B08NT6NMZ3",
+      "B0BMXG6T3Q",
+      "B09LBH3FVP",
+      "B07582T4S3",
+      "B0BTM4SLHL",
+      "B14MKVBZNQ",
+      "B07KPFR2TT",
+      "B12CIBAZOU",
+      "B08MKVBZNQ",
+      "B0BLC7Z3KX",
+      "B0012Z84KK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0009HJCGC",
+        "reason": "Classic Atari game collection"
+      },
+      {
+        "item_id": "B000035XNW",
+        "reason": "Classic Sega Genesis game"
+      },
+      {
+        "item_id": "B0006GSF7S",
+        "reason": "Nostalgic Sega game"
+      },
+      {
+        "item_id": "B018D6J6JI",
+        "reason": "Amiibo for classic games"
+      },
+      {
+        "item_id": "B09ZDGD6VS",
+        "reason": "Cooling fan for Xbox Series X"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3648,
+    "completion_tokens": 326
+  }
+}

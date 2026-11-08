@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00140R0XK",
+      "B00Z9TM72Q",
+      "B08F5T3F9Y",
+      "B00IEZ6H4G",
+      "B11VRMM3VM",
+      "B073SQ58BC",
+      "B00AASG8RG",
+      "B00G25RICU",
+      "B08XD54VJY",
+      "B019EWMXWC",
+      "B00SVVUOGU",
+      "B00BIXYIU6",
+      "B00020BV1A",
+      "B005H3CZBW",
+      "B001EYUSJO",
+      "B00000K3X9",
+      "B0038IZIBC",
+      "B07VRMM3VM",
+      "B07J3P1GJM",
+      "B00AASG8RG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00140R0XK",
+        "reason": "High-quality racing wheel for PS3"
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Popular PS4 game with multiplayer"
+      },
+      {
+        "item_id": "B08F5T3F9Y",
+        "reason": "Bluetooth adapter for wireless audio"
+      },
+      {
+        "item_id": "B00IEZ6H4G",
+        "reason": "Horror game for immersive experience"
+      },
+      {
+        "item_id": "B11VRMM3VM",
+        "reason": "Fun multiplayer racing game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3916,
+    "completion_tokens": 333
+  }
+}

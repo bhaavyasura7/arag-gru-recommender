@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07YD1TM37",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different Nintendo console."
+      },
+      {
+        "item_id": "B00X70X7HS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox 360, user enjoys Xbox games."
+      },
+      {
+        "item_id": "B00554EXG8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Japan import, may not suit user."
+      },
+      {
+        "item_id": "B0BJWZZ9T1",
+        "label": "support",
+        "score": 9,
+        "rationale": "New Nintendo console, aligns with interests."
+      },
+      {
+        "item_id": "B000621X5S",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wireless headset for Xbox, enhances gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1274,
+    "completion_tokens": 160
+  }
+}

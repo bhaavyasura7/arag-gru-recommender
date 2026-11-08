@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09BRN2HJK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action and adventure games."
+      },
+      {
+        "item_id": "B0030GWIGA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Educational game not aligned with interests."
+      },
+      {
+        "item_id": "B07C9KFCYQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "User values quality gaming accessories."
+      },
+      {
+        "item_id": "B09HY7L5Q4",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Truck simulator not aligned with interests."
+      },
+      {
+        "item_id": "B000035XGN",
+        "label": "support",
+        "score": 7,
+        "rationale": "Action game fits user’s gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2451,
+    "completion_tokens": 159
+  }
+}

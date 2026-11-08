@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00002STIB",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user preferences."
+      },
+      {
+        "item_id": "B00DC7G0GG",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Nintendo games."
+      },
+      {
+        "item_id": "B001EYUNYY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes PlayStation games."
+      },
+      {
+        "item_id": "B0BFRZ1HR4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B07C3PV1PX",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Charger, not directly related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1342,
+    "completion_tokens": 147
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07LDXZV5Q",
+      "B0BYJ774BM",
+      "B078N2LX9L",
+      "B07HZ6N69N",
+      "B07CGNL58S",
+      "B00KM671KY",
+      "B07D34NSL4",
+      "B098N6XSK4",
+      "B07N94G3JT",
+      "B07DHY6YLM",
+      "B07DJ6D4ZY",
+      "B08J7Q2J83",
+      "B088NLT5WL",
+      "B08K7G4TJ1",
+      "B07HHWB23K",
+      "B00VEDAYE4",
+      "B08HQPP6TV",
+      "B00003CWH8",
+      "B000I7GI8I",
+      "B07FJ9K8Z5"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07LDXZV5Q",
+        "reason": "high-quality wireless controller"
+      },
+      {
+        "item_id": "B0BYJ774BM",
+        "reason": "wireless with advanced features"
+      },
+      {
+        "item_id": "B078N2LX9L",
+        "reason": "popular gaming controller"
+      },
+      {
+        "item_id": "B07HZ6N69N",
+        "reason": "good brand reputation"
+      },
+      {
+        "item_id": "B07CGNL58S",
+        "reason": "compatible with Xbox systems"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1807,
+    "completion_tokens": 324
+  }
+}

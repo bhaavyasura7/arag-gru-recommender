@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08GX5ZMNV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Compatible with multiple platforms, not specific."
+      },
+      {
+        "item_id": "B00KVP3OY8",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar to previously liked Gold headset."
+      },
+      {
+        "item_id": "B01JS3F79I",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with PS4 and PS3, high quality."
+      },
+      {
+        "item_id": "B0030EFUIK",
+        "label": "support",
+        "score": 6,
+        "rationale": "Related to previously purchased Gioteck headset."
+      },
+      {
+        "item_id": "B00M1RTMS6",
+        "label": "support",
+        "score": 7,
+        "rationale": "Works with PS3 and multiple platforms."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1321,
+    "completion_tokens": 161
+  }
+}

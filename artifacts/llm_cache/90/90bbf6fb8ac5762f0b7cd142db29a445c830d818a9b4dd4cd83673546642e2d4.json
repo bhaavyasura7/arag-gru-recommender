@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07NZCS5J3",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys action-packed video games."
+      },
+      {
+        "item_id": "B003DNSR56",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action over mystery games."
+      },
+      {
+        "item_id": "B08BXL7TLQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, mixed relevance."
+      },
+      {
+        "item_id": "B004DSKVB8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for a legacy system, less relevant."
+      },
+      {
+        "item_id": "B084B8FXPY",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming headset fits user gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1049,
+    "completion_tokens": 157
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002XVUT3M",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Wii controller, not in user history."
+      },
+      {
+        "item_id": "B00HVBPRUO",
+        "label": "support",
+        "score": 7,
+        "rationale": "PlayStation 4 headset, matches user interest."
+      },
+      {
+        "item_id": "B018QH6VVA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox controller, user prefers PlayStation."
+      },
+      {
+        "item_id": "B094CN9YLY",
+        "label": "support",
+        "score": 6,
+        "rationale": "Bluetooth adapter for Nintendo Switch, relevant."
+      },
+      {
+        "item_id": "B093XLM8YX",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Mouse grip tape, not related to user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1300,
+    "completion_tokens": 164
+  }
+}

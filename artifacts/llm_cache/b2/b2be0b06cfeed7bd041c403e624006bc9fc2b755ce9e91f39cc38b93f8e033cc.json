@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B15DNPP22Q",
+      "B06XH15HD9",
+      "B00GT3PSZ4",
+      "B08PZ56VDZ",
+      "B17S5VYZ61",
+      "B088GTTVFJ",
+      "B009W6T6XU",
+      "B001ELJF96",
+      "B076J6GL6B",
+      "B004BD5TR6",
+      "B00V6QCI1Q",
+      "B000031VUJ",
+      "B07S5VYZ61",
+      "B0BHQJNZSG",
+      "B0006UTYVA",
+      "B01B1XP5W2",
+      "B08J7Y23L6",
+      "B14DNPP22Q",
+      "B0000DC1TB",
+      "B000FJ9I9U"
+    ],
+    "reasons": [
+      {
+        "item_id": "B15DNPP22Q",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B06XH15HD9",
+        "reason": "Top-tier gaming mouse"
+      },
+      {
+        "item_id": "B00GT3PSZ4",
+        "reason": "Popular game with music"
+      },
+      {
+        "item_id": "B08PZ56VDZ",
+        "reason": "Fast charging for PS5"
+      },
+      {
+        "item_id": "B17S5VYZ61",
+        "reason": "Comfortable wired headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3833,
+    "completion_tokens": 327
+  }
+}

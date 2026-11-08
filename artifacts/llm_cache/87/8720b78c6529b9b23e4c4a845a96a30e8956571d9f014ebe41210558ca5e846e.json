@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002JTX9US",
+      "B014F20ZY6",
+      "B07HPF7PRT",
+      "B017QU5G1O",
+      "B00DC7G2W8",
+      "B073K6WMJ9",
+      "B0013G0XZC",
+      "B001O1OBFY",
+      "B00KQHHDZC",
+      "B0C7PZB135",
+      "B0B31PJLCN",
+      "B00001LDCD",
+      "B012F20ZY6",
+      "B00ZOMOJRE",
+      "B0013G0XZC",
+      "B082R172N3",
+      "B003RRTXLA",
+      "B00DC7G2W8",
+      "B0013G0XZC",
+      "B00KQHHDZC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002JTX9US",
+        "reason": "Multiplayer action-adventure game"
+      },
+      {
+        "item_id": "B014F20ZY6",
+        "reason": "Compatible gaming accessory"
+      },
+      {
+        "item_id": "B07HPF7PRT",
+        "reason": "Essential gaming accessory"
+      },
+      {
+        "item_id": "B017QU5G1O",
+        "reason": "Useful for multiplayer gaming"
+      },
+      {
+        "item_id": "B00DC7G2W8",
+        "reason": "Popular sports game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3813,
+    "completion_tokens": 325
+  }
+}

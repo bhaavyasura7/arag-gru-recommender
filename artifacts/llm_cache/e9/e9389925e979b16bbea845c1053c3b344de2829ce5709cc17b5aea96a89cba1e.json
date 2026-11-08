@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07X1PZG74",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Xbox One, user prefers games."
+      },
+      {
+        "item_id": "B07MVJKJGF",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Skin for Xbox One, not a game."
+      },
+      {
+        "item_id": "B07S6944B9",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Privacy screen, not related to gaming."
+      },
+      {
+        "item_id": "B00KWFCSB2",
+        "label": "support",
+        "score": 8,
+        "rationale": "Wii U game, aligns with user interests."
+      },
+      {
+        "item_id": "B07KD98P1T",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PS4 skin, user prefers Xbox and Wii."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1809,
+    "completion_tokens": 167
+  }
+}

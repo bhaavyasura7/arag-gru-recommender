@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07XG6S5ZJ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches user's interest in Switch controllers."
+      },
+      {
+        "item_id": "B09B9WQ4DL",
+        "label": "support",
+        "score": 9,
+        "rationale": "Pro controller aligns with user's preferences."
+      },
+      {
+        "item_id": "B0B29GM5RV",
+        "label": "support",
+        "score": 7,
+        "rationale": "Ergonomic design appeals to user's gaming style."
+      },
+      {
+        "item_id": "B09Q39R5FR",
+        "label": "support",
+        "score": 8,
+        "rationale": "Dual compatibility suits user's Switch usage."
+      },
+      {
+        "item_id": "B082PTYMN9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Arcade controller is less relevant to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2761,
+    "completion_tokens": 161
+  }
+}

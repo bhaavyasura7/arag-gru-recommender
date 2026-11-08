@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B072FJQ82Y",
+      "B002EE5SAC",
+      "B016P4OEHY",
+      "B000NDFFFE",
+      "B0000ABFVA",
+      "B073GY1PRY",
+      "B000F3AADE",
+      "B000X2BAOK",
+      "B098KX2GTR",
+      "B007CM0K86",
+      "B00004TFLJ",
+      "B003BFTXWW",
+      "B0039W7NKG",
+      "B001EYUR1S",
+      "B003VUO6H4",
+      "B00006966U",
+      "B000BZS9JV2",
+      "B000F3AADE",
+      "B000NDFFFE",
+      "B07HJ3YRBC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B072FJQ82Y",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B002EE5SAC",
+        "reason": "Popular Nintendo fighting game"
+      },
+      {
+        "item_id": "B016P4OEHY",
+        "reason": "Essential Wii U accessory"
+      },
+      {
+        "item_id": "B000NDFFFE",
+        "reason": "Classic Nintendo fighting game"
+      },
+      {
+        "item_id": "B0000ABFVA",
+        "reason": "Quality GameCube controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3452,
+    "completion_tokens": 309
+  }
+}

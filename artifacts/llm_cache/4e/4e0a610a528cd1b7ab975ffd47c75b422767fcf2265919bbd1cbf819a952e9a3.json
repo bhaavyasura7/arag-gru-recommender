@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000A6U5ZE",
+      "B0039BUDHW",
+      "B000HASW0I",
+      "B08CZH1MPR",
+      "B0062DXI3A",
+      "B07PF86WNG",
+      "B12F08N4GY",
+      "B07CZZYYQW",
+      "B07WVR6S61",
+      "B07MYYNX6T",
+      "B0BV64SB7D",
+      "B000HA18HC",
+      "B001MT4EXM",
+      "B000HA18HC",
+      "B07FK3HN18",
+      "B09H3HDY94",
+      "B07FGCW4YS",
+      "B0062DXI3A",
+      "B07CZZYYQW",
+      "B07WVR6S61"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000A6U5ZE",
+        "reason": "Game Boy Advance accessories"
+      },
+      {
+        "item_id": "B0039BUDHW",
+        "reason": "DSi XL customization skins"
+      },
+      {
+        "item_id": "B000HASW0I",
+        "reason": "PlayStation handheld controller"
+      },
+      {
+        "item_id": "B08CZH1MPR",
+        "reason": "Switch dock protective cover"
+      },
+      {
+        "item_id": "B0062DXI3A",
+        "reason": "Yu-Gi-Oh! trading card game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3212,
+    "completion_tokens": 326
+  }
+}

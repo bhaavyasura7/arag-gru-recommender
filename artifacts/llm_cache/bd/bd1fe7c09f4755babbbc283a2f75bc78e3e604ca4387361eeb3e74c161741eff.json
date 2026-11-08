@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001E8WQLI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers air combat games."
+      },
+      {
+        "item_id": "B0BDWVBWC9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00K0NV5J2",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Different genre than user's interests."
+      },
+      {
+        "item_id": "B09R21G9DL",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Controller for different gaming system."
+      },
+      {
+        "item_id": "B0891H37KK",
+        "label": "support",
+        "score": 6,
+        "rationale": "PC gaming accessory aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1223,
+    "completion_tokens": 155
+  }
+}

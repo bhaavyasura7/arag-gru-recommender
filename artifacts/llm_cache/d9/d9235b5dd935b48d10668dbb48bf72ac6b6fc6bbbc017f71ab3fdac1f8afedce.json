@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07GQ6NN9M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PC gaming accessories."
+      },
+      {
+        "item_id": "B07JK9DFKH",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B01MYZYPYH",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes gaming keyboards and accessories."
+      },
+      {
+        "item_id": "B0000A09EN",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in GameCube."
+      },
+      {
+        "item_id": "B07YBWT3PK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on PC, not Xbox games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1564,
+    "completion_tokens": 163
+  }
+}

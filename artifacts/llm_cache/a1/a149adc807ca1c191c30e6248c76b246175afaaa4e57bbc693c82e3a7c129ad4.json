@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "retro video games",
+      "action-adventure games",
+      "racing games",
+      "platformers",
+      "sports games"
+    ],
+    "current_intent": "looking for new video game recommendations",
+    "avoid": [
+      "first-person shooters",
+      "horror games",
+      "mobile games"
+    ],
+    "summary": "User enjoys a variety of video games, particularly retro and action-adventure titles, and is currently seeking new game suggestions."
+  },
+  "usage": {
+    "prompt_tokens": 321,
+    "completion_tokens": 78
+  }
+}

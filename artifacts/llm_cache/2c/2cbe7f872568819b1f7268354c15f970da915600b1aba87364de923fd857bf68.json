@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09H431BSX",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Star Wars games."
+      },
+      {
+        "item_id": "B00BQVXVYY",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes LEGO games."
+      },
+      {
+        "item_id": "B007FQUFC0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no mouse preferences."
+      },
+      {
+        "item_id": "B0BVVTQ5JP",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User focuses on video games."
+      },
+      {
+        "item_id": "B001EYUWRC",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys tactical shooter games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1810,
+    "completion_tokens": 144
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001G7PSLC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user interests."
+      },
+      {
+        "item_id": "B00DQ5RGOY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming accessory, not a game."
+      },
+      {
+        "item_id": "B09JY72CNG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming accessory, not a game."
+      },
+      {
+        "item_id": "B000QTD05W",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly related to Mega Man series."
+      },
+      {
+        "item_id": "B004RMK5QG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Subscription service, not a specific game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1307,
+    "completion_tokens": 156
+  }
+}

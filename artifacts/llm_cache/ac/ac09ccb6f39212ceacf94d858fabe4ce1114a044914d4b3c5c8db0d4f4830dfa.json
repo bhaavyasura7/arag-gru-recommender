@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0007IQG2Q",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to Nintendo Switch."
+      },
+      {
+        "item_id": "B08X6X4M1S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "For PC racing games, not Switch."
+      },
+      {
+        "item_id": "B09LVJB9L9",
+        "label": "support",
+        "score": 8,
+        "rationale": "Protective accessory for Nintendo Switch."
+      },
+      {
+        "item_id": "B0BXKSB527",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "For PS5, not Nintendo Switch."
+      },
+      {
+        "item_id": "B000K0L752",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy game, not for Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1158,
+    "completion_tokens": 164
+  }
+}

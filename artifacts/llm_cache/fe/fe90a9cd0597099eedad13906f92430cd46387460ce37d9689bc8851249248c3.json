@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004HD55VK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo Switch games."
+      },
+      {
+        "item_id": "B01GW8VG7O",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Xbox consoles."
+      },
+      {
+        "item_id": "B00VRSTQ72",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not use Xbox accessories."
+      },
+      {
+        "item_id": "B0716CXJ1R",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo Switch games."
+      },
+      {
+        "item_id": "B01HV9WE0Q",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not use Xbox accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1373,
+    "completion_tokens": 160
+  }
+}

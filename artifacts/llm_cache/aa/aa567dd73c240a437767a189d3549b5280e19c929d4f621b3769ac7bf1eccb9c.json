@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07NRHR43N",
+      "B0945F6THC",
+      "B13QJCBLHS",
+      "B005GDED6S",
+      "B0087YYY3K",
+      "B11JPZTHYT",
+      "B0000631V3",
+      "B000KJW71Q",
+      "B009DKZYMW",
+      "B000DZLMTA",
+      "B002KQJNO6",
+      "B0744H7B2M",
+      "B08GC7JNKB",
+      "B19XH3GB1S",
+      "B003ALEWKU",
+      "B0087YYY3K",
+      "B0000C7FPT",
+      "B12JPZTHYT",
+      "B19XH3GB1S",
+      "B000DZLMTA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07NRHR43N",
+        "reason": "Engaging RPG with crafting elements"
+      },
+      {
+        "item_id": "B0945F6THC",
+        "reason": "Essential accessories for Nintendo Switch"
+      },
+      {
+        "item_id": "B13QJCBLHS",
+        "reason": "Nostalgic Game Boy title"
+      },
+      {
+        "item_id": "B005GDED6S",
+        "reason": "Brain games for mental exercise"
+      },
+      {
+        "item_id": "B0087YYY3K",
+        "reason": "Portable charging solution for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3697,
+    "completion_tokens": 323
+  }
+}

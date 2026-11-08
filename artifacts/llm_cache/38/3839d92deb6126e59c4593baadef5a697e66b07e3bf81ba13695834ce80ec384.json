@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000G79YNQ",
+      "B002MWSY3O",
+      "B010G79YNQ",
+      "B0046A8IRC",
+      "B003JVCA9Q",
+      "B07CB12726",
+      "B004LLHFAW",
+      "B00C1TTF86",
+      "B0061PAZUS",
+      "B07VYHB37P",
+      "B08QFPS48J",
+      "B015NGZFWS",
+      "B004LLHFAW",
+      "B00069GD0Q",
+      "B07DLNHQZX",
+      "B0061PAZUS",
+      "B00EP2WNKY",
+      "B004LLHFAW",
+      "B004LLHFAW",
+      "B004LLHFAW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000G79YNQ",
+        "reason": "Classic PS2 racing game"
+      },
+      {
+        "item_id": "B002MWSY3O",
+        "reason": "Scooby-Doo game for nostalgia"
+      },
+      {
+        "item_id": "B0046A8IRC",
+        "reason": "Popular PS2 title"
+      },
+      {
+        "item_id": "B003JVCA9Q",
+        "reason": "Classic Call of Duty game"
+      },
+      {
+        "item_id": "B07CB12726",
+        "reason": "Vita game not preferred"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3866,
+    "completion_tokens": 314
+  }
+}

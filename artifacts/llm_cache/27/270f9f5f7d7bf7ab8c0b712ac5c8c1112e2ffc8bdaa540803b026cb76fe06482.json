@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002DT159Q",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers action games, not yoga."
+      },
+      {
+        "item_id": "B014EU6118",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys gaming accessories for PC."
+      },
+      {
+        "item_id": "B07H9NDGNL",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likely needs a gaming mouse."
+      },
+      {
+        "item_id": "B00DB2BI8M",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys music games like Rock Band."
+      },
+      {
+        "item_id": "B00004U5VF",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes fighting games like Tekken."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1362,
+    "completion_tokens": 155
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "1775070735",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not related to user's gaming interests."
+      },
+      {
+        "item_id": "B001REMNT4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo DS game aligns with interests."
+      },
+      {
+        "item_id": "B005QWYKOE",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wii console with popular game included."
+      },
+      {
+        "item_id": "B005KGKLWG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Harry Potter game may interest some."
+      },
+      {
+        "item_id": "B081D85YY2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Figure not related to gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1051,
+    "completion_tokens": 150
+  }
+}

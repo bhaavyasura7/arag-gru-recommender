@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0CB9X91BP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers PS4, not PS5."
+      },
+      {
+        "item_id": "B08VRR3XHY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in Wii."
+      },
+      {
+        "item_id": "B09DWF3FYB",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User focuses on consoles, not keyboards."
+      },
+      {
+        "item_id": "B0948BRTM4",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User's interest is in gaming consoles."
+      },
+      {
+        "item_id": "B07NQ3FY4K",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation games, not Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1501,
+    "completion_tokens": 166
+  }
+}

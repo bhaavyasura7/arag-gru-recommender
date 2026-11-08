@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B005O65QBS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox accessories, not PS3."
+      },
+      {
+        "item_id": "B0BRCPMHK1",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR gaming not indicated in user history."
+      },
+      {
+        "item_id": "B07WMYH7TY",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Mouse feet not directly relevant to user."
+      },
+      {
+        "item_id": "B017JGLFMY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "DLC for PS4, user prefers Xbox."
+      },
+      {
+        "item_id": "B08L7ZNPTT",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox, matches user preference."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1423,
+    "completion_tokens": 165
+  }
+}

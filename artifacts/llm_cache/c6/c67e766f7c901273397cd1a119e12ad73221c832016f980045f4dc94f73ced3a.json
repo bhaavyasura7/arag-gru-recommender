@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo Switch games",
+      "Xbox controllers",
+      "fitness gaming",
+      "multiplayer games",
+      "PC gaming"
+    ],
+    "current_intent": "Looking for new video games or gaming accessories.",
+    "avoid": [
+      "mobile games",
+      "single-player only games",
+      "non-gaming products"
+    ],
+    "summary": "User enjoys gaming across multiple platforms, particularly Nintendo and Xbox, and is interested in both fitness and multiplayer experiences."
+  },
+  "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 78
+  }
+}

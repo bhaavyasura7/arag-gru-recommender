@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0002MIE0O",
+      "B001MS4JCE",
+      "B078JK6B2T",
+      "B10BW131CKM",
+      "B07TZ6QV3L",
+      "B08L74DB2M",
+      "B08F6R3RLC",
+      "B00004NHFM",
+      "B00452V21K",
+      "B07BF3KC6Y",
+      "B08Y17BR4J",
+      "B015ZWKLWO",
+      "B07FNF24S2",
+      "B08QW3Y3D6",
+      "B07TZ6QV3L",
+      "B07FNF24S2",
+      "B08Y17BR4J",
+      "B08F6R3RLC",
+      "B07BF3KC6Y",
+      "B00004NHFM",
+      "B00452V21K"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0002MIE0O",
+        "reason": "Popular Mario game for Switch"
+      },
+      {
+        "item_id": "B001MS4JCE",
+        "reason": "Classic Nintendo Game Boy title"
+      },
+      {
+        "item_id": "B078JK6B2T",
+        "reason": "Zelda-themed Switch accessory"
+      },
+      {
+        "item_id": "B10BW131CKM",
+        "reason": "Retro Nintendo console with games"
+      },
+      {
+        "item_id": "B07TZ6QV3L",
+        "reason": "Metroid game for Nintendo systems"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3172,
+    "completion_tokens": 340
+  }
+}

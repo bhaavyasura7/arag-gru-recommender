@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B097D3Q1KZ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo Switch accessory, user prefers games."
+      },
+      {
+        "item_id": "B001DIC85I",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not mysteries."
+      },
+      {
+        "item_id": "B00B1N6YVE",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Collector's edition, user prefers playable games."
+      },
+      {
+        "item_id": "B00005OUIW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Motocross game, user prefers different genres."
+      },
+      {
+        "item_id": "B07PT9NNLQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Power bank for Switch, user prefers games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1627,
+    "completion_tokens": 168
+  }
+}

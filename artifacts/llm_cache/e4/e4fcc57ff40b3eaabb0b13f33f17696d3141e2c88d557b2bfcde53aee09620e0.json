@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00V5CFMY4",
+      "B00IJ1VWZ4",
+      "B00T3SL2HU",
+      "B00CMQTVUA",
+      "B0B6HQ43ST",
+      "B01MYUCFBK",
+      "B00H3S1B5A",
+      "B001EYUU3I",
+      "B0018QOWEU",
+      "B001EYUX3K",
+      "B00F27JGVA",
+      "B00ZM6I932",
+      "B00Z9TM1KY",
+      "B00M17AVO",
+      "B001MW91IW",
+      "B001EYUX3K",
+      "B07BNT7CYV",
+      "B0BGXRNJ8D",
+      "B010N0XTTU",
+      "B0018QOWEU",
+      "B001EYUU3I"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00V5CFMY4",
+        "reason": "Best wireless controller for Switch"
+      },
+      {
+        "item_id": "B00IJ1VWZ4",
+        "reason": "Thumb grips enhance control"
+      },
+      {
+        "item_id": "B00T3SL2HU",
+        "reason": "Improves Xbox One control"
+      },
+      {
+        "item_id": "B00CMQTVUA",
+        "reason": "Kinect enhances Xbox experience"
+      },
+      {
+        "item_id": "B0B6HQ43ST",
+        "reason": "Large RGB mouse pad for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3686,
+    "completion_tokens": 336
+  }
+}

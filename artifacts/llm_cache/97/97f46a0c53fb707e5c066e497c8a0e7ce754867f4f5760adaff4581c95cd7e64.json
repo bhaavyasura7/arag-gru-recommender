@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUQR8",
+      "B07DY1JKRH",
+      "B003JVKHEQ",
+      "B003YVK5T8",
+      "B20BSDQ8KSY",
+      "B005GTNBGK",
+      "B003171CEW",
+      "B002LHGOU0",
+      "B002RRLQIO",
+      "B009T3EOA6",
+      "B003RS1AIS",
+      "B01FZ884E0",
+      "B01GOK34SO",
+      "B07ZJ6RY1W",
+      "B004LLHFAW",
+      "B002I0K6DG",
+      "B005YVTHT0",
+      "B00VG3PUFA",
+      "B003171CEW",
+      "B003YVK5T8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUQR8",
+        "reason": "Engaging hunting gameplay"
+      },
+      {
+        "item_id": "B07DY1JKRH",
+        "reason": "Immersive horror experience"
+      },
+      {
+        "item_id": "B003JVKHEQ",
+        "reason": "Popular action FPS title"
+      },
+      {
+        "item_id": "B003YVK5T8",
+        "reason": "Strategic RPG with choices"
+      },
+      {
+        "item_id": "B20BSDQ8KSY",
+        "reason": "High-quality gaming headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3855,
+    "completion_tokens": 316
+  }
+}

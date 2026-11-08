@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001UQ704C",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PC games, not PS3."
+      },
+      {
+        "item_id": "B003R7JXOM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PC games, not Wii."
+      },
+      {
+        "item_id": "B00002SVFV",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PC games, not SNES."
+      },
+      {
+        "item_id": "B08TG138F1",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller for Nintendo, not PC."
+      },
+      {
+        "item_id": "B00EP2WNKY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PC games, matches interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1248,
+    "completion_tokens": 162
+  }
+}

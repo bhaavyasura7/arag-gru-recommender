@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08616DR2R",
+      "B00W9DHUBS",
+      "B01LD7MR2C",
+      "B11SK575G9",
+      "B001EYUPX8",
+      "B001QLC2YY",
+      "B07BFWLXLS",
+      "B001EYUNYY",
+      "B00005R5PO",
+      "B07STR3G1D",
+      "B00KTORA0K",
+      "B002BZ11EG",
+      "B005G4CXPK",
+      "B07C3PV1PX",
+      "B00DC7G0GG",
+      "B07CHRQC25",
+      "B00002STIB",
+      "B07BFWLXLS",
+      "B00EADTVL2",
+      "B07BFWLXLS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08616DR2R",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B00W9DHUBS",
+        "reason": "Popular Xbox game expansion"
+      },
+      {
+        "item_id": "B01LD7MR2C",
+        "reason": "Immersive PS4 motion controllers"
+      },
+      {
+        "item_id": "B07SK575G9",
+        "reason": "Versatile wireless gaming controller"
+      },
+      {
+        "item_id": "B001EYUPX8",
+        "reason": "Classic Xbox fighting game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3844,
+    "completion_tokens": 315
+  }
+}

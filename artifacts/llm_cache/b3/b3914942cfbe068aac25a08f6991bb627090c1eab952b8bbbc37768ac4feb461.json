@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B071KCKX1Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers gaming consoles over PC."
+      },
+      {
+        "item_id": "B000WE5248",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for PC gaming, not console."
+      },
+      {
+        "item_id": "B01I1N6MIG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Mechanical keyboard, but user prefers consoles."
+      },
+      {
+        "item_id": "B01N0MKQXI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC gaming keyboard, user prefers consoles."
+      },
+      {
+        "item_id": "B01N47QKKP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Mechanical keyboard, not console-focused."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 896,
+    "completion_tokens": 157
+  }
+}

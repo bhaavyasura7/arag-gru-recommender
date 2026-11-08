@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B087RK4KHR",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers games, not repair parts."
+      },
+      {
+        "item_id": "B01KZKWS7W",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has PS4 games, likes accessories."
+      },
+      {
+        "item_id": "B00YFQK0RI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has Nintendo games, but not 3DS."
+      },
+      {
+        "item_id": "B00WNAPHGM",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has PS4 games, likes controller skins."
+      },
+      {
+        "item_id": "B000CQCK5U",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not flight sims."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1307,
+    "completion_tokens": 168
+  }
+}

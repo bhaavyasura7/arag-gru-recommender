@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "1633441180",
+      "B01M2YE3HW",
+      "B000067DPF",
+      "B003EGULF6",
+      "B09Q34494V",
+      "B08P2VSYM9",
+      "B004HITS36",
+      "B01AXFST36",
+      "B007Z0OCDY",
+      "B00LSIR2H2",
+      "B07HR9JV99",
+      "B09CTMDQG9",
+      "B0BMZWKJPC",
+      "B088FTF1XK",
+      "B07XDQHCWL",
+      "B018BKB7SO",
+      "B003K1VL3Q",
+      "B07MC81S26",
+      "B0899K851H",
+      "B01M2YE3HW"
+    ],
+    "reasons": [
+      {
+        "item_id": "1633441180",
+        "reason": "Perfect for strategy game expansion"
+      },
+      {
+        "item_id": "B01M2YE3HW",
+        "reason": "Retro game for nostalgic play"
+      },
+      {
+        "item_id": "B000067DPF",
+        "reason": "Classic retro game experience"
+      },
+      {
+        "item_id": "B003EGULF6",
+        "reason": "Includes retro gaming console"
+      },
+      {
+        "item_id": "B09Q34494V",
+        "reason": "Compatible with modern gaming systems"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3311,
+    "completion_tokens": 313
+  }
+}

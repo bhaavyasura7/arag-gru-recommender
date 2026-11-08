@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00EJL1IZW",
+        "label": "support",
+        "score": 7,
+        "rationale": "Relevant accessory for Xbox 360 games."
+      },
+      {
+        "item_id": "B093KHDF9Y",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC gaming mouse, not Xbox related."
+      },
+      {
+        "item_id": "B004HD55VK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, but similar genre."
+      },
+      {
+        "item_id": "B075QW2Y3H",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PlayStation 4 content, not Xbox."
+      },
+      {
+        "item_id": "B001EYUQ1Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic game, but different platform."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 161
+  }
+}

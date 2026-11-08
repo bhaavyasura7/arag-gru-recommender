@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B004ZCPQ4O",
+      "B08X24L4XC",
+      "B07W9HLY4C",
+      "B07WTSNBXD",
+      "B07BFXYTSL",
+      "B002VLSA8K",
+      "B00LK2U6RO",
+      "B01DK0M30G",
+      "B000Y8BRR8",
+      "B00005YXC8",
+      "B002LVU0II",
+      "B00CBL29RS",
+      "B007IQYI4S",
+      "B000FDKYU8",
+      "B007Q3PFHC",
+      "B00Q5464U0",
+      "B09GLV9XL9",
+      "B09GXWH33W",
+      "B017M9IEUY",
+      "B0019C6KCK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004ZCPQ4O",
+        "reason": "Popular strategy game for PC"
+      },
+      {
+        "item_id": "B08X24L4XC",
+        "reason": "VR accessory for shooting games"
+      },
+      {
+        "item_id": "B07W9HLY4C",
+        "reason": "Warhammer themed collectible"
+      },
+      {
+        "item_id": "B07WTSNBXD",
+        "reason": "Enhances controller for better gameplay"
+      },
+      {
+        "item_id": "B07BFXYTSL",
+        "reason": "Warhammer themed collectible pack"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3203,
+    "completion_tokens": 330
+  }
+}

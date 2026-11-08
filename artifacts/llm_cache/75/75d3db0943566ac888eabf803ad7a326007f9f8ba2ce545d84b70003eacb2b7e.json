@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0771ZXXV6",
+      "B09YCS59MW",
+      "B17X7FYZ4Z",
+      "B09X1KKVM9",
+      "B08BF8C4SK",
+      "B17VGBLL2J",
+      "B0B27QGWZ8",
+      "B0015QBY2G",
+      "B00GUST0B6",
+      "B0BS5KQ4QH",
+      "B00007BGQT",
+      "B006OCM0JC",
+      "B08ZCKRLYK",
+      "B07HMBG1MQ",
+      "B096P6D385",
+      "B079KJZMLN",
+      "B12AFVN128",
+      "B00AFVN128",
+      "B08ZCKRLYK",
+      "B07VGBLL2J"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0771ZXXV6",
+        "reason": "Essential Nintendo Switch controller"
+      },
+      {
+        "item_id": "B09YCS59MW",
+        "reason": "Wireless PS4 controller option"
+      },
+      {
+        "item_id": "B07X7FYZ4Z",
+        "reason": "Charging dock for Joy-Con controllers"
+      },
+      {
+        "item_id": "B09X1KKVM9",
+        "reason": "Advanced PS4 controller features"
+      },
+      {
+        "item_id": "B08BF8C4SK",
+        "reason": "Gaming headset for immersive experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3551,
+    "completion_tokens": 332
+  }
+}

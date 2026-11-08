@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07TM4DWXJ",
+      "B06ZXY893M",
+      "B00N4OBCRY",
+      "B09JSKBZKX",
+      "B082WZBNXD",
+      "B07NNT23Q3",
+      "B07Q7PTGHM",
+      "B07Q7QGDR1",
+      "B0722XDQVG",
+      "B0C27DZY6H",
+      "B085VN6HGW",
+      "B08RHJCGJJ",
+      "B08QF4SVWP",
+      "B07MF1YFX6",
+      "B07NWK4GXX",
+      "B07Q7PTGHM",
+      "B07RWDRGH4",
+      "B07RWWWF59",
+      "B0BZYJPYMF",
+      "B07Q7QGDR1",
+      "B07Q7PTGHM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07TM4DWXJ",
+        "reason": "Includes gaming mouse and keyboard"
+      },
+      {
+        "item_id": "B06ZXY893M",
+        "reason": "High-quality brown switches"
+      },
+      {
+        "item_id": "B00N4OBCRY",
+        "reason": "Durable with customizable macros"
+      },
+      {
+        "item_id": "B09JSKBZKX",
+        "reason": "Programmable and ergonomic design"
+      },
+      {
+        "item_id": "B082WZBNXD",
+        "reason": "Reliable wired gaming keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3938,
+    "completion_tokens": 338
+  }
+}

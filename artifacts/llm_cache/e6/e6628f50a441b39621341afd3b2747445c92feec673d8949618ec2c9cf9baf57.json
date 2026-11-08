@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B017QU5G1O",
+      "B0B9MJK753",
+      "B003L77YKS",
+      "B072KHSYDD",
+      "B00CD3V9CU",
+      "B00004WI4D",
+      "B00008URUA",
+      "B00004WMVL",
+      "B0017O5PWG",
+      "B00BGA9WK2",
+      "B00A1AQJAO",
+      "B0B36HX334",
+      "B07X56VM5R",
+      "B00005BJ9F",
+      "B0031TKFUM",
+      "B0050SYEYK",
+      "B00M7ZIZGC",
+      "B00002ST27",
+      "B00004WMVL",
+      "B00J1ZSOTE",
+      "B0031TKFUM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B017QU5G1O",
+        "reason": "Useful for Xbox controller charging"
+      },
+      {
+        "item_id": "B0B9MJK753",
+        "reason": "Enhances controller compatibility"
+      },
+      {
+        "item_id": "B003L77YKS",
+        "reason": "Popular action-adventure game"
+      },
+      {
+        "item_id": "B072KHSYDD",
+        "reason": "Comfortable grip for gaming"
+      },
+      {
+        "item_id": "B00CD3V9CU",
+        "reason": "Fun co-op game for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3693,
+    "completion_tokens": 328
+  }
+}

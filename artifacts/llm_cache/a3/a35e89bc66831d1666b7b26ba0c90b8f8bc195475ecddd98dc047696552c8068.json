@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00JVIPSZ4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Playstation over Xbox products."
+      },
+      {
+        "item_id": "B00E67D096",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no interest in Xbox games."
+      },
+      {
+        "item_id": "B09WPXBF43",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys gaming but prefers Playstation."
+      },
+      {
+        "item_id": "B00005Q5Q5",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Unrelated to user's preferred gaming platform."
+      },
+      {
+        "item_id": "B09GPF775B",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not use Xbox controllers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1002,
+    "completion_tokens": 159
+  }
+}

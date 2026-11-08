@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001FEO74U",
+      "B00YOGZFCO",
+      "B019GXXRRO",
+      "B001EYUWL8",
+      "B001FRTK4O",
+      "B06ZXXHMS7",
+      "B00EQNP8F4",
+      "B00I9TNNE4",
+      "B00MWK17I0",
+      "B001EYUY7K",
+      "B009VUHW60",
+      "B00F4WM1XS",
+      "B014PHZOWM",
+      "B075MV4VF4",
+      "B08JHX17ZZ",
+      "B001ELJEH4",
+      "B000VBIGK4",
+      "B07YYZY2SW",
+      "B12",
+      "B001FEO74U"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001FEO74U",
+        "reason": "Engaging multiplayer party game"
+      },
+      {
+        "item_id": "B00YOGZFCO",
+        "reason": "High-rated racing adventure"
+      },
+      {
+        "item_id": "B001FRTK4O",
+        "reason": "Realistic racing experience"
+      },
+      {
+        "item_id": "B06ZXXHMS7",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B00EQNP8F4",
+        "reason": "Enhances multiplayer gaming experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3700,
+    "completion_tokens": 314
+  }
+}

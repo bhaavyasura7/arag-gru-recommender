@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "classic video games",
+      "nostalgic gaming experiences",
+      "multiplayer action games",
+      "flight simulation",
+      "sports video games"
+    ],
+    "current_intent": "looking for more classic video games to enjoy",
+    "avoid": [
+      "modern games",
+      "mobile games",
+      "single-player only games"
+    ],
+    "summary": "User enjoys classic and multiplayer video games, particularly from the early 2000s, and seeks similar titles to relive nostalgic gaming experiences."
+  },
+  "usage": {
+    "prompt_tokens": 307,
+    "completion_tokens": 87
+  }
+}

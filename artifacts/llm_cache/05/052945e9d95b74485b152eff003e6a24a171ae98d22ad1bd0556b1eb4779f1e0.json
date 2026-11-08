@@ -1,0 +1,37 @@
+{
+  "content": {
+    "ranking": [
+      "B003",
+      "B001",
+      "B002",
+      "B004",
+      "B000"
+    ],
+    "reasons": [
+      {
+        "item_id": "B003",
+        "reason": "popular action game"
+      },
+      {
+        "item_id": "B001",
+        "reason": "action-packed gameplay"
+      },
+      {
+        "item_id": "B002",
+        "reason": "highly rated action title"
+      },
+      {
+        "item_id": "B004",
+        "reason": "action elements present"
+      },
+      {
+        "item_id": "B000",
+        "reason": "not an action game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 399,
+    "completion_tokens": 122
+  }
+}

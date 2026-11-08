@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00M52EP02",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not directly related."
+      },
+      {
+        "item_id": "B08CXRGZGN",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS4 accessory, user prefers PS2."
+      },
+      {
+        "item_id": "B08JDWQDFZ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Switch game, user prefers PlayStation."
+      },
+      {
+        "item_id": "B004R9Q1IA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS3 headset, user prefers PS2."
+      },
+      {
+        "item_id": "B08QVDPB7S",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PS5 charger, user has PS2 games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 166
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B001G7PSOE",
+      "B001EYUSC6",
+      "B00YOGZFCO",
+      "B001AZFSGA",
+      "B082B4HBZ8",
+      "B07NYFBLTS",
+      "B0033PSLY6",
+      "B0050SYZ2G",
+      "B0785SFKYF",
+      "B0028Y4PUW",
+      "B07JVQLSLY",
+      "B0192QR94M",
+      "B07P9VKCF6",
+      "B08GS7MG3W",
+      "B08JHP4Q82",
+      "B07MLPDRJ",
+      "B00004OCYH",
+      "B087NNPYP3",
+      "B01M26YUKO",
+      "B00ZHQ39F0",
+      "B06XG3FQ3D"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001G7PSOE",
+        "reason": "Popular retro PlayStation game"
+      },
+      {
+        "item_id": "B001EYUSC6",
+        "reason": "Classic soccer game for PSP"
+      },
+      {
+        "item_id": "B00YOGZFCO",
+        "reason": "Fun racing game for Wii"
+      },
+      {
+        "item_id": "B001AZFSGA",
+        "reason": "Nerf game with Wii peripheral"
+      },
+      {
+        "item_id": "B082B4HBZ8",
+        "reason": "Comfortable case for Switch Lite"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 337
+  }
+}

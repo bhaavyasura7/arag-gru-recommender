@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07BGYLS1L",
+      "B07HL5LWF1",
+      "B08T64C41K",
+      "B00006LELK",
+      "B08T64C41K",
+      "B07X3BFSTZ",
+      "B00ZP7UAM6",
+      "B006QXO0GK",
+      "B07C5SMRZJ",
+      "B07TJWQV9H",
+      "B07F29Z4R9",
+      "B07KQ558JJ",
+      "B09156Z2H3",
+      "B07DC49XZ1",
+      "B00BLZM2ZE",
+      "B07N6P3985",
+      "B07C5SMRZJ",
+      "B07F29Z4R9",
+      "B000AT586C",
+      "B074L312C3"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07BGYLS1L",
+        "reason": "High-quality graphics and adventure"
+      },
+      {
+        "item_id": "B07HL5LWF1",
+        "reason": "Engaging action RPG experience"
+      },
+      {
+        "item_id": "B08T64C41K",
+        "reason": "Immersive storytelling and graphics"
+      },
+      {
+        "item_id": "B00006LELK",
+        "reason": "Classic game with nostalgic value"
+      },
+      {
+        "item_id": "B07X3BFSTZ",
+        "reason": "Enhances controller experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3397,
+    "completion_tokens": 331
+  }
+}

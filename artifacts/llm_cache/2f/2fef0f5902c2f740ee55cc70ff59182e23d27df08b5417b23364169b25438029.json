@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01EJ9DMQQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B005TFJB2Y",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo 3DS."
+      },
+      {
+        "item_id": "B01F9B019Y",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Xbox product, not aligned with interests."
+      },
+      {
+        "item_id": "B0779JS5JC",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PS4 accessory, not relevant to user."
+      },
+      {
+        "item_id": "B07JJLLFXJ",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly related to Nintendo gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1110,
+    "completion_tokens": 155
+  }
+}

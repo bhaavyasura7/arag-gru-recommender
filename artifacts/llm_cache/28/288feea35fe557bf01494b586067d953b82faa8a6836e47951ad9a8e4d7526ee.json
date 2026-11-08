@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07YBWT3PK",
+      "B13D7B2DZ",
+      "B001T0HVGQ",
+      "B00IA7V81A",
+      "B17Q1S7GY",
+      "B005D7G3LA",
+      "B00C1TTF86",
+      "B00Z9TM72Q",
+      "B007VYW5K6",
+      "B00006IKB6",
+      "B0000488VP",
+      "B00005B70U",
+      "B01LW6SOV9",
+      "B000UW21A0",
+      "B07JXV1FYY",
+      "B01MT1DCIV",
+      "B00006IKB6",
+      "B00L59D9HG",
+      "B082N7B2DZ",
+      "B098815CMR"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07YBWT3PK",
+        "reason": "High-quality gaming experience"
+      },
+      {
+        "item_id": "B13D7B2DZ",
+        "reason": "Fast storage for games"
+      },
+      {
+        "item_id": "B001T0HVGQ",
+        "reason": "Essential Xbox accessory"
+      },
+      {
+        "item_id": "B00IA7V81A",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B17Q1S7GY",
+        "reason": "Improves controller grip"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3880,
+    "completion_tokens": 322
+  }
+}

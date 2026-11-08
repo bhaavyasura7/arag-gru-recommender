@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09Q93T261",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Nintendo Switch, not a game."
+      },
+      {
+        "item_id": "B00LYYN4MM",
+        "label": "support",
+        "score": 7,
+        "rationale": "Racing game aligns with gaming interest."
+      },
+      {
+        "item_id": "B09LMBRTWY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Retro games match user's gaming preference."
+      },
+      {
+        "item_id": "B0013VC5G2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for DS, not a game."
+      },
+      {
+        "item_id": "B0002VZX86",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Atari game likely not of interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1056,
+    "completion_tokens": 158
+  }
+}

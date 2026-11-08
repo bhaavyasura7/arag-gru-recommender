@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "platform video games",
+      "gaming controllers",
+      "Nintendo titles",
+      "Sonic games",
+      "PlayStation accessories"
+    ],
+    "current_intent": "looking for new video games or gaming accessories",
+    "avoid": [
+      "mobile games",
+      "non-gaming products",
+      "low-rated games"
+    ],
+    "summary": "User enjoys platform video games and gaming accessories, particularly for Nintendo and PlayStation, and seeks new gaming experiences."
+  },
+  "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 78
+  }
+}

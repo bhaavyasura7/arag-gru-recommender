@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00BFOEY4I",
+      "B08N6HY1FF",
+      "B01DUHQIL4",
+      "B00HVBPRUO",
+      "B15G4YYZ1M",
+      "B000WQ3838",
+      "B00154J9HK",
+      "B00020LZAM",
+      "B01N3ASPNV",
+      "B001EYUPL0",
+      "B00WL8WBE2",
+      "B001SIDQRM",
+      "B00GM5TPSA",
+      "B094J36QYZ",
+      "B00BGA9WK2",
+      "B01LX4I8H8",
+      "B00004U47O",
+      "B00NYALSNQ",
+      "B00020LZAM",
+      "B07HYY6HNW",
+      "B00BGA9WK2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00BFOEY4I",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B08N6HY1FF",
+        "reason": "Popular racing game"
+      },
+      {
+        "item_id": "B01DUHQIL4",
+        "reason": "Universal gaming headset"
+      },
+      {
+        "item_id": "B00HVBPRUO",
+        "reason": "Comfortable wireless headset"
+      },
+      {
+        "item_id": "B15G4YYZ1M",
+        "reason": "Ergonomic gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3906,
+    "completion_tokens": 331
+  }
+}

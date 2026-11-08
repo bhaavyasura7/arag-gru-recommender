@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0B4GGGKVD",
+      "B07SLHS2BC",
+      "B08HZ9PH6J",
+      "B06JH69YY",
+      "B07YBX7L4K",
+      "B0B6GM69MS",
+      "B01MQWTO7E",
+      "B002FUI4NI",
+      "B00DTT4M76",
+      "B08FYCFZMB",
+      "B0000E6ECP",
+      "B00006LJLV",
+      "B0000E6ECP",
+      "B07YCM34PZ",
+      "B009ENRWIM",
+      "B07538PLHL",
+      "B19DKVHFXH",
+      "B0010SDDVY",
+      "B0000E6ECP",
+      "B006JH69YY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0B4GGGKVD",
+        "reason": "High-quality controller for Xbox"
+      },
+      {
+        "item_id": "B07SLHS2BC",
+        "reason": "Essential repair part for Joy-Con"
+      },
+      {
+        "item_id": "B08HZ9PH6J",
+        "reason": "Enhanced controller with features"
+      },
+      {
+        "item_id": "B07YBX7L4K",
+        "reason": "Popular action-adventure game"
+      },
+      {
+        "item_id": "B06JH69YY",
+        "reason": "Improves racing experience on Wii"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2908,
+    "completion_tokens": 326
+  }
+}

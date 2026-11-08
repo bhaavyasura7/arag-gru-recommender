@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08DKXRH9D",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming accessory, not a game."
+      },
+      {
+        "item_id": "B006MBZZSI",
+        "label": "support",
+        "score": 7,
+        "rationale": "PlayStation 3 game, RPG genre."
+      },
+      {
+        "item_id": "B076ZPW7R2",
+        "label": "support",
+        "score": 6,
+        "rationale": "PlayStation 4 game, action genre."
+      },
+      {
+        "item_id": "B006AKVX1E",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Wii game, not relevant to user."
+      },
+      {
+        "item_id": "B08MVSK2Y4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Switch accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1134,
+    "completion_tokens": 160
+  }
+}

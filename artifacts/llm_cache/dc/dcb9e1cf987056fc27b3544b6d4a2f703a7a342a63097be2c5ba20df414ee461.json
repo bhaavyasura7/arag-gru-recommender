@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B088FH9BXD",
+      "B0B67JB82Z",
+      "B14D3DFKYG",
+      "B07982R9BZ",
+      "B098S7NZSH",
+      "B08LL8GL1Y",
+      "B08F9M2PJ9",
+      "B083FXG17V",
+      "B00006IZKN",
+      "B00005OVGD",
+      "B099HQ1HKC",
+      "B072XB87XJ",
+      "B006CXMTWQ",
+      "B01G36K1OY",
+      "B0883DFKYG",
+      "B09LV95L1B",
+      "B003WFLGQM",
+      "B079Z17FVH",
+      "B00GM5VNXK",
+      "B088FH9BXD"
+    ],
+    "reasons": [
+      {
+        "item_id": "B088FH9BXD",
+        "reason": "Perfect protective case for Switch"
+      },
+      {
+        "item_id": "B0B67JB82Z",
+        "reason": "Customizable thumb stick grips"
+      },
+      {
+        "item_id": "B14D3DFKYG",
+        "reason": "Cute design for Joy-Con controllers"
+      },
+      {
+        "item_id": "B07982R9BZ",
+        "reason": "Improves control for Switch Pro"
+      },
+      {
+        "item_id": "B098S7NZSH",
+        "reason": "Organizes game collection efficiently"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3622,
+    "completion_tokens": 322
+  }
+}

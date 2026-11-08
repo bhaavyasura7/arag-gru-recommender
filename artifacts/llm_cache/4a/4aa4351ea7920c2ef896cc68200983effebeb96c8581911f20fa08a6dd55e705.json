@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09K77F43Z",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "N64 controller, not PS2 or PSP."
+      },
+      {
+        "item_id": "B09SHJY9SD",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Switch case, user prefers older systems."
+      },
+      {
+        "item_id": "B001KC03UO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, not aligned with user history."
+      },
+      {
+        "item_id": "B01AUDYZHA",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Xbox 360 game, user prefers PS2/PSP."
+      },
+      {
+        "item_id": "B0030GBU32",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Xbox 360 game, not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1153,
+    "completion_tokens": 172
+  }
+}

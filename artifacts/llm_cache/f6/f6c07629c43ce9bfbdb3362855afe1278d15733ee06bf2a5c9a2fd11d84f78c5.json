@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00EQNP8F4",
+      "B079MRDY5V",
+      "B00YQ74LVM",
+      "B001E91OLK",
+      "B00N2KKSNO",
+      "B007IPZFDW",
+      "B001ELJFGE",
+      "B004LLHFAW",
+      "B003VH5Z2C",
+      "B0073ESZ58",
+      "B00DU2CHE2",
+      "B06XHVJY3T",
+      "B004I1JTEK",
+      "B0029F2FB6",
+      "B00005C9F6",
+      "B00Z9TM1KY",
+      "B003QCJLQI",
+      "B001E91OLK",
+      "B00MXJF056",
+      "B0073ESZ58"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00EQNP8F4",
+        "reason": "Essential for online gaming experience"
+      },
+      {
+        "item_id": "B079MRDY5V",
+        "reason": "Popular fighting game title"
+      },
+      {
+        "item_id": "B00YQ74LVM",
+        "reason": "New Nintendo console for classic games"
+      },
+      {
+        "item_id": "B001E91OLK",
+        "reason": "Action-packed cooperative gameplay"
+      },
+      {
+        "item_id": "B00N2KKSNO",
+        "reason": "Engaging action-adventure experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3756,
+    "completion_tokens": 322
+  }
+}

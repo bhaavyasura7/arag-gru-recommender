@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0019C6KCK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action strategy games."
+      },
+      {
+        "item_id": "B007Q3PFHC",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B000FDKYU8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Targeted at a different audience."
+      },
+      {
+        "item_id": "B00Q5464U0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not directly related."
+      },
+      {
+        "item_id": "B09GLV9XL9",
+        "label": "support",
+        "score": 6,
+        "rationale": "Enhances gaming experience for PC."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1151,
+    "completion_tokens": 154
+  }
+}

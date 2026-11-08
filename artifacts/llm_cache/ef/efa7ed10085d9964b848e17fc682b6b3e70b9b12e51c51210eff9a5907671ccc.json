@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08QF4SVWP",
+        "label": "support",
+        "score": 7,
+        "rationale": "User prefers RGB gaming accessories."
+      },
+      {
+        "item_id": "B07RWWWF59",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compact design aligns with user preferences."
+      },
+      {
+        "item_id": "B07RWDRGH4",
+        "label": "support",
+        "score": 6,
+        "rationale": "Similar to previous compact keyboard interests."
+      },
+      {
+        "item_id": "B07MF1YFX6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "General gaming keyboard, not specific."
+      },
+      {
+        "item_id": "B07NWK4GXX",
+        "label": "support",
+        "score": 7,
+        "rationale": "Mechanical keyboard matches user gaming style."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1369,
+    "completion_tokens": 152
+  }
+}

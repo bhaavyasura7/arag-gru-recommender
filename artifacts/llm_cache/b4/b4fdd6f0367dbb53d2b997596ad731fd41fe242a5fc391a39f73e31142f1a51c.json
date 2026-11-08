@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B004HILZUA",
+      "B07PYH623G",
+      "B08VHJX37Y",
+      "B00I9CPD12",
+      "B00K80NODC",
+      "B07VJRZ62R",
+      "B00NERNNQO",
+      "B00XPRG26Q",
+      "B01KBDV0D6",
+      "B00P08NTVE",
+      "B08YNL3HZV",
+      "B00BIPLANW",
+      "B003FSSMZY",
+      "B00002S655",
+      "B00004W4WO",
+      "B000TXZD6O",
+      "B007TE4RAE",
+      "B01N07OX04",
+      "B00004W4WO",
+      "B000TXZD6O"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004HILZUA",
+        "reason": "Crash Bandicoot game is a favorite"
+      },
+      {
+        "item_id": "B07PYH623G",
+        "reason": "Nintendo Switch enhances gaming experience"
+      },
+      {
+        "item_id": "B08VHJX37Y",
+        "reason": "Controller grip improves gameplay comfort"
+      },
+      {
+        "item_id": "B00I9CPD12",
+        "reason": "Classic console appeals to nostalgia"
+      },
+      {
+        "item_id": "B00K80NODC",
+        "reason": "Battery pack for Xbox is practical"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3143,
+    "completion_tokens": 326
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08SKLZNZ4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches VR interest and accessories."
+      },
+      {
+        "item_id": "B000GAAXT2",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not related to VR or accessories."
+      },
+      {
+        "item_id": "B08741VJ17",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not related to VR or accessories."
+      },
+      {
+        "item_id": "B08BG5DGSC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Power cord, not directly VR related."
+      },
+      {
+        "item_id": "B01J4KEX9A",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to VR or gaming accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1101,
+    "completion_tokens": 156
+  }
+}

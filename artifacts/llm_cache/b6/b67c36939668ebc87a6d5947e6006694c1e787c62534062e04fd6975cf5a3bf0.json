@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000R3SP34",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "not aligned with user preferences"
+      },
+      {
+        "item_id": "B0013EF17O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "not a preferred genre for user"
+      },
+      {
+        "item_id": "B0002ATZ7M",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "user prefers action RPGs, not racing"
+      },
+      {
+        "item_id": "B00006N5SQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "racing game, user prefers different genres"
+      },
+      {
+        "item_id": "B000067GAW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "not aligned with user's gaming interests"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2237,
+    "completion_tokens": 148
+  }
+}

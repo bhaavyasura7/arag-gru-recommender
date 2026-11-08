@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B079MRDY5V",
+      "B00YQ74LVM",
+      "B00EQNP8F4",
+      "B001ELJFGE",
+      "B00N2KKSNO",
+      "B004I1JTEK",
+      "B001E91OLK",
+      "B0133D1D8A",
+      "B007IPZFDW",
+      "B003VH5Z2C",
+      "B00DU2CHE2",
+      "B004LLHFAW",
+      "B0073ESZ58",
+      "B06XHVJY3T",
+      "B003QCJLQI",
+      "B00005C9F6",
+      "B0029F2FB6",
+      "B00Z9TM1KY",
+      "B001E91OLK",
+      "B0073ESZ58",
+      "B00YQ74LVM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B079MRDY5V",
+        "reason": "Popular fighting game franchise"
+      },
+      {
+        "item_id": "B00YQ74LVM",
+        "reason": "New Nintendo console experience"
+      },
+      {
+        "item_id": "B00EQNP8F4",
+        "reason": "Essential online gaming subscription"
+      },
+      {
+        "item_id": "B001ELJFGE",
+        "reason": "Co-op gameplay with tactical elements"
+      },
+      {
+        "item_id": "B00N2KKSNO",
+        "reason": "Action-packed undercover cop game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3751,
+    "completion_tokens": 332
+  }
+}

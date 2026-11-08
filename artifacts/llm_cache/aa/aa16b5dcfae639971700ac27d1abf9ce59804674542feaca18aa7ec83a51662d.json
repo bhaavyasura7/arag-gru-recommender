@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B073X3GHHX",
+      "B19ZL8YP8D",
+      "B001C4VU5C",
+      "B12D8H09LQ",
+      "B17J6Y2T42",
+      "B000A15K0Y",
+      "B0041SGD44",
+      "B00VULDPCI",
+      "B009SPZ11Q",
+      "B00BHRD4BM",
+      "B0079V4GK8",
+      "B00Z9TIM3Y",
+      "B00KGW52DM",
+      "B001D8Q5MA",
+      "B008CP6MA2",
+      "B00004U5VF",
+      "B01N7WNV5M",
+      "B076K27L1P",
+      "B096MMH5KG",
+      "B15D8H09LQ",
+      "B0BB6YVNBK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B073X3GHHX",
+        "reason": "Nintendo Switch controller faceplates"
+      },
+      {
+        "item_id": "B096MMH5KG",
+        "reason": "New Nintendo Switch game"
+      },
+      {
+        "item_id": "B000A15K0Y",
+        "reason": "Nintendo memory card accessory"
+      },
+      {
+        "item_id": "B12D8H09LQ",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B17J6Y2T42",
+        "reason": "Premium gaming headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3664,
+    "completion_tokens": 341
+  }
+}

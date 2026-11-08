@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07YBX5FVF",
+      "B003DOSRSW",
+      "B16PWS77E",
+      "B089F9SCS1",
+      "B00LPSS2LK",
+      "B01N6S068R",
+      "B00005NCCW",
+      "B001ELJF8M",
+      "B003R7LBQK",
+      "B000VBIGK4",
+      "B00C5M4I54",
+      "B00QV3ZC44",
+      "B0BYPDQN2W",
+      "B01FMQ3LMU",
+      "B00CF7KVMI",
+      "B006VB2W3A",
+      "B000IOFM0G",
+      "B00D5G4KXJ",
+      "B00005NCCW",
+      "B00LPSS2LK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07YBX5FVF",
+        "reason": "Highly rated RPG experience"
+      },
+      {
+        "item_id": "B003DOSRSW",
+        "reason": "Action RPG with customization"
+      },
+      {
+        "item_id": "B089F9SCS1",
+        "reason": "Immersive space combat game"
+      },
+      {
+        "item_id": "B00LPSS2LK",
+        "reason": "Exploration-focused RPG"
+      },
+      {
+        "item_id": "B01N6S068R",
+        "reason": "Classic RPG with deep gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3861,
+    "completion_tokens": 325
+  }
+}

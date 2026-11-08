@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07BGYLS1L",
+      "B014U0GRXE",
+      "B001EYUQTQ",
+      "B00D5SZ04K",
+      "B001V7QIDY",
+      "B08H8SKHNT",
+      "B00LV8IF8O",
+      "B002JTX610",
+      "B0193T9KC2",
+      "B003IPCF02",
+      "B08ZXKMYRL",
+      "B0009XEC0M",
+      "B00421B36S",
+      "B00000K2R4",
+      "B002I08VDI",
+      "B07J27TFCD",
+      "B08JGCDDKM",
+      "B00019HNNC",
+      "B00000K2R4",
+      "B07B31DM6P"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07BGYLS1L",
+        "reason": "High-quality graphics and storytelling"
+      },
+      {
+        "item_id": "B014U0GRXE",
+        "reason": "Includes Uncharted collection bundle"
+      },
+      {
+        "item_id": "B001EYUQTQ",
+        "reason": "Engaging action and graphics"
+      },
+      {
+        "item_id": "B00D5SZ04K",
+        "reason": "High-stakes racing gameplay"
+      },
+      {
+        "item_id": "B001V7QIDY",
+        "reason": "Useful for game add-ons and purchases"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3966,
+    "completion_tokens": 324
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000QSVMRG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform, genre not aligned."
+      },
+      {
+        "item_id": "B0009RG88M",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a traditional video game experience."
+      },
+      {
+        "item_id": "B07YBX5FVF",
+        "label": "support",
+        "score": 8,
+        "rationale": "Same platform, RPG genre matches interests."
+      },
+      {
+        "item_id": "B00LV5XHIK",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B000GHLBUA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different platform, genre not preferred."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 155
+  }
+}

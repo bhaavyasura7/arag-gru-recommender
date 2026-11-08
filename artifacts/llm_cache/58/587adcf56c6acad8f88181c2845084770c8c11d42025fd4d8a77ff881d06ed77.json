@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07D43RHG7",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys action RPGs like Final Fantasy."
+      },
+      {
+        "item_id": "B07H8MM4X6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not directly related to gaming."
+      },
+      {
+        "item_id": "B00001QECH",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older game, less relevant to user."
+      },
+      {
+        "item_id": "B09DG9J3FP",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory for Nintendo, user prefers PlayStation."
+      },
+      {
+        "item_id": "B016BGLVOK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Headset enhances gaming experience on PS4."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2327,
+    "completion_tokens": 160
+  }
+}

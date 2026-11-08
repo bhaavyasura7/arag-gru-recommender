@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09RNK4H6Z",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B002W8D0EQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Supports PlayStation gaming experience."
+      },
+      {
+        "item_id": "B07YBX6T95",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no Xbox gaming history."
+      },
+      {
+        "item_id": "B08VFQJHYB",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PlayStation 4 game, but unknown interest."
+      },
+      {
+        "item_id": "B004DI5H26",
+        "label": "support",
+        "score": 7,
+        "rationale": "Supports PlayStation gaming experience."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1264,
+    "completion_tokens": 159
+  }
+}

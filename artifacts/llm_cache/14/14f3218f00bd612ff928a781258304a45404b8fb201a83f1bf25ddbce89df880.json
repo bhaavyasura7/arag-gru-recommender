@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B014R4KYMS",
+      "B003E1UNSG",
+      "B20B7UHWB2",
+      "B00RJNE3TK",
+      "B007CM0K86",
+      "B0050SZ7IC",
+      "B019WRM1IA",
+      "B008B3QCJQ",
+      "B00BU3ZLJQ",
+      "B00005V3F1",
+      "B00006GSNZ",
+      "B000P7V35O",
+      "B01LYNI9Y5",
+      "B087SLFYPJ",
+      "B0771ZXXV6",
+      "B003TQM4DS",
+      "B0086VPUHI",
+      "B00B7UHWB2",
+      "B00005V3F1",
+      "B00006GSNZ",
+      "B019WRM1IA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B014R4KYMS",
+        "reason": "Engaging RPG with strong narrative"
+      },
+      {
+        "item_id": "B003E1UNSG",
+        "reason": "Action-adventure with immersive story"
+      },
+      {
+        "item_id": "B007CM0K86",
+        "reason": "Survival horror with deep gameplay"
+      },
+      {
+        "item_id": "B00RJNE3TK",
+        "reason": "RPG elements with co-op gameplay"
+      },
+      {
+        "item_id": "B0050SZ7IC",
+        "reason": "Open world RPG with crafting"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3691,
+    "completion_tokens": 334
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00000DMB3",
+      "B00163ROMW",
+      "B0189MJK753",
+      "B000ZK9QCS",
+      "B000BOJPRE",
+      "B00267S2A0",
+      "B001EYUPHO",
+      "B0000AHRPM",
+      "B01LPZM7VI",
+      "B006JKAS6G",
+      "B01GOK34SO",
+      "B000DB2BI8M",
+      "B07PFT19MG",
+      "B0044DE88O",
+      "B001ELJPMS",
+      "B00BRQN2EM",
+      "B00KO4ULZ6",
+      "B0032C9V7G",
+      "B01GRY9VIY",
+      "B000BOJPRE",
+      "B006JKAS6G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00000DMB3",
+        "reason": "Classic Nintendo game"
+      },
+      {
+        "item_id": "B00163ROMW",
+        "reason": "Nintendo DS RPG"
+      },
+      {
+        "item_id": "B0189MJK753",
+        "reason": "Versatile wireless adapter"
+      },
+      {
+        "item_id": "B000ZK9QCS",
+        "reason": "Popular PS3 title"
+      },
+      {
+        "item_id": "B000BOJPRE",
+        "reason": "Fun retro game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3793,
+    "completion_tokens": 314
+  }
+}

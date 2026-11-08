@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The recommended products align with the user's interests in cooperative multiplayer and narrative-driven games. They include classic titles like 'The Legend of Zelda' and 'Call of Duty', emphasizing engaging gameplay and immersive experiences, while avoiding sports and puzzle genres."
+  },
+  "usage": {
+    "prompt_tokens": 1451,
+    "completion_tokens": 51
+  }
+}

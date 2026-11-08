@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00Z9TM72Q",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PlayStation games."
+      },
+      {
+        "item_id": "B00BIXYIU6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, but similar gameplay style."
+      },
+      {
+        "item_id": "B001EYUSJO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Older system, not aligned with interests."
+      },
+      {
+        "item_id": "B00000K3X9",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different platform, not current interest."
+      },
+      {
+        "item_id": "B0038IZIBC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, but casual gaming appeal."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1217,
+    "completion_tokens": 157
+  }
+}

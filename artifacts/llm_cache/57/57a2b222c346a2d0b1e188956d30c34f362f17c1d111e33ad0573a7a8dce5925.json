@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B005GISQ9S",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, but same platform."
+      },
+      {
+        "item_id": "B08MKVBZNQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B0B199HWB5",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform, but party game."
+      },
+      {
+        "item_id": "B07X1TFSQ4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Accessory bundle, not a game."
+      },
+      {
+        "item_id": "B00DYJGDYQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Same platform and genre."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1256,
+    "completion_tokens": 155
+  }
+}

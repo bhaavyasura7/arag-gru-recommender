@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002I0J51U",
+      "B001EYUQTQ",
+      "B00ZQB28XK",
+      "B20B76FDSCP",
+      "B07P26L5GD",
+      "B06ZZCCDP7",
+      "B003INEQ0G",
+      "B004G5YI3U",
+      "B00MAM0ALA",
+      "B087NNPYP3",
+      "B09C4DLF4P",
+      "B07624RBWB",
+      "B01CUD2PJI",
+      "B0053BCO00",
+      "B00004SVSZ",
+      "B06WRRWHDJ",
+      "B09P9SNP51",
+      "B07VQ9Q7X3",
+      "B001EYUR54",
+      "B10DTY9B0O"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002I0J51U",
+        "reason": "Best for motion gaming experience"
+      },
+      {
+        "item_id": "B001EYUQTQ",
+        "reason": "Popular PS3 game with multiplayer"
+      },
+      {
+        "item_id": "B00ZQB28XK",
+        "reason": "Classic PS3 game with high ratings"
+      },
+      {
+        "item_id": "B20B76FDSCP",
+        "reason": "Latest PS4 game in a popular series"
+      },
+      {
+        "item_id": "B07P26L5GD",
+        "reason": "Fighting game with strong community"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3592,
+    "completion_tokens": 335
+  }
+}

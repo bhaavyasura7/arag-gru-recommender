@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002XUKTTM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user prefers consoles."
+      },
+      {
+        "item_id": "B007NDJG98",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Japanese import, may not appeal."
+      },
+      {
+        "item_id": "B07XBKJZ38",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo Switch."
+      },
+      {
+        "item_id": "B013PZEZFM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "DLC for PS3, user prefers newer games."
+      },
+      {
+        "item_id": "B01M66ZVW0",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory for PS Vita, less relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 990,
+    "completion_tokens": 155
+  }
+}

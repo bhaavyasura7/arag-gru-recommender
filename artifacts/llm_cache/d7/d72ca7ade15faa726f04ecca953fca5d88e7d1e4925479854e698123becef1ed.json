@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008RYSO8G",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, not a strong match."
+      },
+      {
+        "item_id": "B001IK9AZM",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B0058TGQKG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to gaming."
+      },
+      {
+        "item_id": "B08DB4D832",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular game, aligns with interests."
+      },
+      {
+        "item_id": "B00DE2W5XG",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS4 bundle, matches gaming interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1331,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07VFYBMTS",
+      "B07WR43KNR",
+      "B07MNTRX1R",
+      "B07JVT5J4V",
+      "B0767N3Y2Q",
+      "B07VHHPJBV",
+      "B08T5J57DK",
+      "B08CG48XJ9",
+      "B07F532TCN",
+      "B071H7XGNX",
+      "B071H7XCPV",
+      "B07D4PK616",
+      "B07D4R6QC3",
+      "B09347NK3Y",
+      "B0936RXXV2",
+      "B08M8NRR3S",
+      "B0765B12P6",
+      "B07D4PK616",
+      "B08L7YS844",
+      "B07BZJ97ZG",
+      "B07D4R6QC3"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07VFYBMTS",
+        "reason": "High DPI and wireless option"
+      },
+      {
+        "item_id": "B07WR43KNR",
+        "reason": "Ergonomic design and 3200 DPI"
+      },
+      {
+        "item_id": "B07MNTRX1R",
+        "reason": "Programmable buttons and RGB"
+      },
+      {
+        "item_id": "B07JVT5J4V",
+        "reason": "High DPI and ergonomic features"
+      },
+      {
+        "item_id": "B0767N3Y2Q",
+        "reason": "Wireless with ergonomic design"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5115,
+    "completion_tokens": 346
+  }
+}

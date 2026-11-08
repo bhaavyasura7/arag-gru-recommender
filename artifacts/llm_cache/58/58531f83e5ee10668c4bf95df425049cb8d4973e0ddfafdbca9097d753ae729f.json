@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B084JCSMCY",
+      "B07QQ8N7LL",
+      "B07NZCS5J3",
+      "B08HV9DD71",
+      "B091BGZCVF",
+      "B0BRGSGPXR",
+      "B003DNSR56",
+      "B004DSKVB8",
+      "B08BXL7TLQ",
+      "B08FXLY3F5",
+      "B09MR2QDLS",
+      "B001VEI34O",
+      "B0713XFXNK",
+      "B09FT8CDKX",
+      "B077XFJZKY",
+      "B0BMLPN46D",
+      "B009H7QZS8",
+      "B08BXL7TLQ",
+      "B08FXLY3F5",
+      "B018D8D8D8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B084JCSMCY",
+        "reason": "Popular action-adventure game"
+      },
+      {
+        "item_id": "B07QQ8N7LL",
+        "reason": "Star Wars action-adventure"
+      },
+      {
+        "item_id": "B07NZCS5J3",
+        "reason": "Fighting game with multiplayer"
+      },
+      {
+        "item_id": "B08HV9DD71",
+        "reason": "Protective case for Switch"
+      },
+      {
+        "item_id": "B091BGZCVF",
+        "reason": "Cute design for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3628,
+    "completion_tokens": 325
+  }
+}

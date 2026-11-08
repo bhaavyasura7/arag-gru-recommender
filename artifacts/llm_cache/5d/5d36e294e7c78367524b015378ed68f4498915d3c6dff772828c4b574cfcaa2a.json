@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0009VXBAQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not Wii."
+      },
+      {
+        "item_id": "B00HAZ6D2M",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, not directly related."
+      },
+      {
+        "item_id": "B0053B66KE",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no Nintendo interest."
+      },
+      {
+        "item_id": "B0BRR1CHDL",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming mouse aligns with user interests."
+      },
+      {
+        "item_id": "B00FLLFGO8",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with PS4, user has PS4."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1495,
+    "completion_tokens": 160
+  }
+}

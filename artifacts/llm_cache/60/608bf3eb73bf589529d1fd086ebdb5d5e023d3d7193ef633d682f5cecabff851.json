@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00Q0279ZG",
+      "B12F2522ZY",
+      "B00YSAXP0U",
+      "B08KZ66KV5",
+      "B001QTWAG6",
+      "B011I73MQW",
+      "B0CJ59RVDH",
+      "B0BKZYTYNJ",
+      "B00001ZWPB",
+      "B00009YEJY",
+      "B08VRZ4NRX",
+      "B0033AH2LE",
+      "B00D5WDI3G",
+      "B00GGVTI3W",
+      "B00FKOH4N2",
+      "B00NJ52G6Y",
+      "B01718KG2U",
+      "B08F2522ZY",
+      "B0BKZYTYNJ",
+      "B00YSAXP0U"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00Q0279ZG",
+        "reason": "Enhances Wii racing experience"
+      },
+      {
+        "item_id": "B00YSAXP0U",
+        "reason": "Protects amiibo collection"
+      },
+      {
+        "item_id": "B08F2522ZY",
+        "reason": "Compatible with Nintendo Switch Lite"
+      },
+      {
+        "item_id": "B001QTWAG6",
+        "reason": "Amiibo for Nintendo 3DS"
+      },
+      {
+        "item_id": "B08KZ66KV5",
+        "reason": "Popular Nintendo game title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3156,
+    "completion_tokens": 328
+  }
+}

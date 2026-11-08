@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B36HX334",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no PS4 interest shown."
+      },
+      {
+        "item_id": "B001EYUW6I",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers newer gaming systems."
+      },
+      {
+        "item_id": "B00O9GW8TC",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Nintendo gaming interest."
+      },
+      {
+        "item_id": "B0BW8N6X48",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User hasn't shown interest in adapters."
+      },
+      {
+        "item_id": "B08WQ75YMZ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User hasn't shown interest in PS5 games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1178,
+    "completion_tokens": 157
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0041G5EU0",
+      "B002FG9MWE",
+      "B00009WAUF",
+      "B07HKX4ZV9",
+      "B081SL51F6",
+      "B07D21456Y",
+      "B003NSLGW2",
+      "B00000INR2",
+      "B07BDHQTT6",
+      "B07VHHPJBV",
+      "B06XPX5XLY",
+      "B003N18O5Q",
+      "B071G61TRM",
+      "B00FR7U15U",
+      "B07HPSFK9V",
+      "B07D21456Y",
+      "B00002STPS",
+      "B08392WSFZ",
+      "B00009WAUF",
+      "B0050SWNZW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0041G5EU0",
+        "reason": "Classic Nintendo RPG experience"
+      },
+      {
+        "item_id": "B002FG9MWE",
+        "reason": "Nostalgic platforming adventure"
+      },
+      {
+        "item_id": "B00009WAUF",
+        "reason": "Classic Pokémon RPG gameplay"
+      },
+      {
+        "item_id": "B07HKX4ZV9",
+        "reason": "Family-friendly carnival fun"
+      },
+      {
+        "item_id": "B081SL51F6",
+        "reason": "Gaming accessory for Nintendo"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4117,
+    "completion_tokens": 316
+  }
+}

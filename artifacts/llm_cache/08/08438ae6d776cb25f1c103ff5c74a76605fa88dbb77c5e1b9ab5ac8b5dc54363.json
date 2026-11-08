@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07624RBWB",
+      "B001EYUSJ4",
+      "B005OGL9WS",
+      "B001E8WQUY",
+      "B18DMC3M42",
+      "B003QWYX8E",
+      "B001EYUNV2",
+      "B00269QLI8",
+      "B0049P1ZYW",
+      "B0069EB9CY",
+      "B094YHB1QK",
+      "B003JD5U2I",
+      "B003O6JKLC",
+      "B00ANZR6M2",
+      "B07DMC3M42",
+      "B001EYUSJ4",
+      "B003JD5U2I",
+      "B001E8WQUY",
+      "B001EYUNV2",
+      "B003O6JKLC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07624RBWB",
+        "reason": "High-quality gaming controller"
+      },
+      {
+        "item_id": "B001EYUSJ4",
+        "reason": "Epic action RPG experience"
+      },
+      {
+        "item_id": "B005OGL9WS",
+        "reason": "Fun multiplayer gameplay"
+      },
+      {
+        "item_id": "B001E8WQUY",
+        "reason": "Engaging music game experience"
+      },
+      {
+        "item_id": "B18DMC3M42",
+        "reason": "Popular sports game on-the-go"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3814,
+    "completion_tokens": 319
+  }
+}

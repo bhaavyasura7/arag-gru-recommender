@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUNS0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern consoles, not PS2."
+      },
+      {
+        "item_id": "B071JDWSBL",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no PS4 games in history."
+      },
+      {
+        "item_id": "B0045EPEAI",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers action-adventure, not puzzle games."
+      },
+      {
+        "item_id": "B077W2Z2SF",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox One games like Fortnite."
+      },
+      {
+        "item_id": "B01ITXFF8Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User likes RPGs, but no PS4 history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1291,
+    "completion_tokens": 169
+  }
+}

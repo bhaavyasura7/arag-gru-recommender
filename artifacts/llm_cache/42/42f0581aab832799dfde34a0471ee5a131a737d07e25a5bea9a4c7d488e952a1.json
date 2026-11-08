@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00WL8WBE2",
+      "B08N6HY1FF",
+      "B00HVBPRUO",
+      "B15G4YYZ1M",
+      "B00BFOEY4I",
+      "B01DUHQIL4",
+      "B000WQ3838",
+      "B00154J9HK",
+      "B00020LZAM",
+      "B00GM5TPSA",
+      "B001EYUPL0",
+      "B001SIDQRM",
+      "B01N3ASPNV",
+      "B094J36QYZ",
+      "B00BGA9WK2",
+      "B001ELJDU2",
+      "B00NYALSNQ",
+      "B01LX4I8H8",
+      "B07HYY6HNW",
+      "B00004U47O",
+      "B00154J9HK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00WL8WBE2",
+        "reason": "Popular PS4 game experience"
+      },
+      {
+        "item_id": "B08N6HY1FF",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B00HVBPRUO",
+        "reason": "Comfortable wireless headset"
+      },
+      {
+        "item_id": "B15G4YYZ1M",
+        "reason": "Ergonomic gaming mouse"
+      },
+      {
+        "item_id": "B00BFOEY4I",
+        "reason": "Quality stereo gaming headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3912,
+    "completion_tokens": 334
+  }
+}

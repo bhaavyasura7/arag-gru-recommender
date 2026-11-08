@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09WR3DBT3",
+      "B00DBLBMBQ",
+      "B0BN942894",
+      "B19ZBZYAA",
+      "B098815CMR",
+      "B0050JN8E6",
+      "B000099T1Y",
+      "B00O15486W",
+      "B00004S99X",
+      "B0000AHOYR",
+      "B00HRW8PRO",
+      "B00005LZNI",
+      "B000K1GZIU",
+      "B003DSAT0C",
+      "B07D5G4KXJ",
+      "B00009ECGG",
+      "B0000AHOYR",
+      "B07SNN8GV5",
+      "B0000AHOYR",
+      "B0000AHOYR"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09WR3DBT3",
+        "reason": "PS5 cooling and charging station"
+      },
+      {
+        "item_id": "B00DBLBMBQ",
+        "reason": "High-quality PS4 game"
+      },
+      {
+        "item_id": "B0BN942894",
+        "reason": "Gaming headset for PS4"
+      },
+      {
+        "item_id": "B19ZBZYAA",
+        "reason": "Custom PS5 controller buttons"
+      },
+      {
+        "item_id": "B098815CMR",
+        "reason": "Classic Mario Party game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3881,
+    "completion_tokens": 315
+  }
+}

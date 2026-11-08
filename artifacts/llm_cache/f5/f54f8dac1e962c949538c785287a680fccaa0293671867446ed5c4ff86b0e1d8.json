@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00006IKB5",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user's consoles."
+      },
+      {
+        "item_id": "B000UX062Y",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Japanese import, not user-friendly."
+      },
+      {
+        "item_id": "B01B39XEMC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS3 content, user prefers Xbox/Nintendo."
+      },
+      {
+        "item_id": "B00CXPHO22",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox, aligns with interests."
+      },
+      {
+        "item_id": "B004C4U1VI",
+        "label": "support",
+        "score": 8,
+        "rationale": "Multi-console cable, useful for user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1454,
+    "completion_tokens": 158
+  }
+}

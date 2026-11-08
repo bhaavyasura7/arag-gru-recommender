@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00IJ1VWZ4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox One controllers."
+      },
+      {
+        "item_id": "B01MYUCFBK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox games, not PS4."
+      },
+      {
+        "item_id": "B00H3S1B5A",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a PS4."
+      },
+      {
+        "item_id": "B07BNT7CYV",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in PSP games."
+      },
+      {
+        "item_id": "B07V5CFMY4",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with Nintendo Switch and PC."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1226,
+    "completion_tokens": 165
+  }
+}

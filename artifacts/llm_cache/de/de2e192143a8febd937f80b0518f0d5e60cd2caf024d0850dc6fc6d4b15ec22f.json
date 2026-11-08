@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B10TKWH7J9",
+      "B09P88WHN4",
+      "B08GY1R4DN",
+      "B08GX5ZMNV",
+      "B08H1312NX",
+      "B08H14C6TP",
+      "B00F32V9DM",
+      "B07CJXBFFG",
+      "B07JBMX8QS",
+      "B06XDB13HZ",
+      "B015WJ8QV8",
+      "B07PN8GY68",
+      "B016MN5J0O",
+      "B00U6AGCO2",
+      "B01JJCBWH4",
+      "B078LSKTHT",
+      "B08GY1F43S",
+      "B08JY5GTCQ",
+      "B18H14C6TP",
+      "B08H14C6TP"
+    ],
+    "reasons": [
+      {
+        "item_id": "B10TKWH7J9",
+        "reason": "Noise cancelling and bass surround"
+      },
+      {
+        "item_id": "B09P88WHN4",
+        "reason": "Multi-platform compatibility"
+      },
+      {
+        "item_id": "B08GY1R4DN",
+        "reason": "Deep bass and noise isolation"
+      },
+      {
+        "item_id": "B08GX5ZMNV",
+        "reason": "High power 40mm drivers"
+      },
+      {
+        "item_id": "B08H1312NX",
+        "reason": "Immersive 3D sound quality"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3565,
+    "completion_tokens": 329
+  }
+}

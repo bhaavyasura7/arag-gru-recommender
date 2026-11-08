@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00005AC5L",
+      "B089Y7VHSS",
+      "B01MY9JB2U",
+      "B07YBXP45M",
+      "B0038X3ZVM",
+      "B0036DD2JE",
+      "B072LVNKG7",
+      "B0000AI1KG",
+      "B093NXQ952",
+      "B075N7PDK1",
+      "B0BC8Q1MG8",
+      "B08P2PXGLY",
+      "B01A9Z7UIK",
+      "B09325LCPJ",
+      "B002WWVB3Y",
+      "B07RQR3HRG",
+      "B06X5ZA200",
+      "B07KXW7BYY",
+      "B0BWXW6YF9",
+      "B07KXW7BYY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00005AC5L",
+        "reason": "Classic Nintendo console for multiplayer"
+      },
+      {
+        "item_id": "B089Y7VHSS",
+        "reason": "Portable case for Nintendo Switch"
+      },
+      {
+        "item_id": "B01MY9JB2U",
+        "reason": "Travel case for Nintendo games"
+      },
+      {
+        "item_id": "B07YBXP45M",
+        "reason": "Compatible controllers for Nintendo"
+      },
+      {
+        "item_id": "B0038X3ZVM",
+        "reason": "Gaming keyboard for multiplayer gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3272,
+    "completion_tokens": 330
+  }
+}

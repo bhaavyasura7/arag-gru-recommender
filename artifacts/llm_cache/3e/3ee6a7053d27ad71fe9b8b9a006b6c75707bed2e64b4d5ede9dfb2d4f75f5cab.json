@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00005MP14",
+      "B00006IQT6",
+      "B00006JC3V",
+      "B0001RBPM4",
+      "B00004SVUC",
+      "B07DJX3V24",
+      "B07DK19C7N",
+      "B07DJWBYJN",
+      "B08PYLLR21",
+      "B00AJG1JLE",
+      "B00AXEHQIC",
+      "B0923KC2MD",
+      "B07TB5W9YP",
+      "B0014N6RAY",
+      "B000KMSLSG",
+      "B074RZL9L9",
+      "B07NW3SB8N",
+      "B00F2OMRS2",
+      "B09MN9CCR3",
+      "B000R6VOUC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00005MP14",
+        "reason": "Multiplayer modes available"
+      },
+      {
+        "item_id": "B00006IQT6",
+        "reason": "Multiplayer options included"
+      },
+      {
+        "item_id": "B00006JC3V",
+        "reason": "Multiplayer modes available"
+      },
+      {
+        "item_id": "B0001RBPM4",
+        "reason": "Supports multiplayer gameplay"
+      },
+      {
+        "item_id": "B00004SVUC",
+        "reason": "Classic game with multiplayer potential"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2701,
+    "completion_tokens": 313
+  }
+}

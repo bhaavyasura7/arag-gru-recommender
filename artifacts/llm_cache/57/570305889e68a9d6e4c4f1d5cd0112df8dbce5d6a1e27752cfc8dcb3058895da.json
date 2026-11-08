@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B088DCPM2P",
+      "B0BVVTQ5JP",
+      "B00004XOWT",
+      "B001AI7CF2",
+      "B00006LELI",
+      "B00KCCNMYW",
+      "B00FEOUDUE",
+      "B00ZP9XO9U",
+      "B07M91JJCB",
+      "B001EYUUHY",
+      "B0091XHZW8",
+      "B00A8V4QG0",
+      "B000U90SGC",
+      "B004R1QUIO",
+      "B00HX1UXD8",
+      "B013P0HW7K",
+      "B0874G43WS",
+      "B00KCCNMYW",
+      "B009LGO88E",
+      "B07982R9BZ",
+      "B00FEOUDUE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B088DCPM2P",
+        "reason": "Anime-themed fighting game"
+      },
+      {
+        "item_id": "B0BVVTQ5JP",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B00004XOWT",
+        "reason": "Classic PlayStation fighting games"
+      },
+      {
+        "item_id": "B001AI7CF2",
+        "reason": "Controller extension for multiplayer"
+      },
+      {
+        "item_id": "B00006LELI",
+        "reason": "Multiplayer action with characters"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3772,
+    "completion_tokens": 329
+  }
+}

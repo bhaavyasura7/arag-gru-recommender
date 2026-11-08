@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B009S4JTTC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B0009YDS0Q",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user's interests."
+      },
+      {
+        "item_id": "B001EYUY3Y",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not a preferred gaming platform."
+      },
+      {
+        "item_id": "B00E290JRE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming accessory, not a game."
+      },
+      {
+        "item_id": "B001EYUSHQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but popular title."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 152
+  }
+}

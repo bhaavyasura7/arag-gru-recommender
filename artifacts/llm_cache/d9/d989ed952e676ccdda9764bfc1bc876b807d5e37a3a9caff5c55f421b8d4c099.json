@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0C47NXVG2",
+        "label": "support",
+        "score": 9,
+        "rationale": "High-quality headset for gaming."
+      },
+      {
+        "item_id": "B01K53ONWW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not relevant to user interests."
+      },
+      {
+        "item_id": "B000GPVUOY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Action game aligns with user preferences."
+      },
+      {
+        "item_id": "B0BHN77JGY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Keyboard is useful but not specific."
+      },
+      {
+        "item_id": "B09C3JYGZH",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible controller for Nintendo Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2624,
+    "completion_tokens": 151
+  }
+}

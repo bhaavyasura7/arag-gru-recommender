@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUPLK",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys classic video games."
+      },
+      {
+        "item_id": "B000AODB7A",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Horse racing sim not aligned with interests."
+      },
+      {
+        "item_id": "B08ZXH4JLM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Vacuum filter unrelated to gaming."
+      },
+      {
+        "item_id": "B07WY4CVRP",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes DIY gaming accessories."
+      },
+      {
+        "item_id": "B01MQW7TSS",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has PS4 and enjoys customization."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2578,
+    "completion_tokens": 155
+  }
+}

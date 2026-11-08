@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00020LZBG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's gaming preferences."
+      },
+      {
+        "item_id": "B00IEZ6H4G",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Survival horror not in user history."
+      },
+      {
+        "item_id": "B00BHRD4BM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Expansion pack, not core gaming interest."
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre than user's preferences."
+      },
+      {
+        "item_id": "B000UC5ML0",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar franchise to user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1330,
+    "completion_tokens": 154
+  }
+}

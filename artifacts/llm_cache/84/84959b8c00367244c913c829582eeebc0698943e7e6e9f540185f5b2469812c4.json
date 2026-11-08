@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07GMYXMFT",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers VR accessories, not controllers."
+      },
+      {
+        "item_id": "B009PJ3AOK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to VR or user interests."
+      },
+      {
+        "item_id": "B08YR8LFH3",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly enhances Oculus Quest 2 experience."
+      },
+      {
+        "item_id": "B0B5CLRGM9",
+        "label": "support",
+        "score": 7,
+        "rationale": "Improves VR gameplay for Oculus Quest 2."
+      },
+      {
+        "item_id": "B01E073CVW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming headset, not VR focused."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1290,
+    "completion_tokens": 161
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B001AW156U",
+      "B00E9TBRK",
+      "B00AK4QB22",
+      "B00DDILSBG",
+      "B07P2GPJJ9",
+      "B0BMGHMP23",
+      "B07WS5R5DP",
+      "B002IT33S2",
+      "B004ZCPKDG",
+      "B0B7HD8865",
+      "B001Q54VVC",
+      "B098KX2GTR",
+      "B00YQM1PNY",
+      "B013HMN66M",
+      "B07K3KHFSY",
+      "B0025QWPYQ",
+      "B00A39IEN8",
+      "B07YBXNWXL",
+      "B00884S5N4",
+      "B0B7HD8865",
+      "B00DDILSBG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001AW156U",
+        "reason": "Fun interactive sports game"
+      },
+      {
+        "item_id": "B00E9TBRK",
+        "reason": "Engaging multiplayer experience"
+      },
+      {
+        "item_id": "B00AK4QB22",
+        "reason": "Challenging and immersive gameplay"
+      },
+      {
+        "item_id": "B00DDILSBG",
+        "reason": "Co-op play enhances fun"
+      },
+      {
+        "item_id": "B07P2GPJJ9",
+        "reason": "Popular amiibo for Nintendo games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3614,
+    "completion_tokens": 332
+  }
+}

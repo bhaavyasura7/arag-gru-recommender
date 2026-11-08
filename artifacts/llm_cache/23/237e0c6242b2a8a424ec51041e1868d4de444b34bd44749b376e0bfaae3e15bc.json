@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B06WGQ63R7",
+      "B00B8QDNNG",
+      "B014GEE31C",
+      "B07WTP7WFT",
+      "B06WRRWHDJ",
+      "B00161B7E0",
+      "B003E1QDQ2",
+      "B000SFK0LG",
+      "B00F3T4KR2",
+      "B014JNMRNQ",
+      "B01D3K7SIK",
+      "B01LXTOGDJ",
+      "B000096REZ",
+      "B06XJMT1KC",
+      "B01LWIS1VV",
+      "B005FCZHZQ",
+      "B07WRKDXCS",
+      "B20GFWJGUC",
+      "B01J4K6PY6",
+      "B003T9MWNC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B06WGQ63R7",
+        "reason": "Top-rated open-world adventure game"
+      },
+      {
+        "item_id": "B00B8QDNNG",
+        "reason": "Classic Zelda game with adventure"
+      },
+      {
+        "item_id": "B014GEE31C",
+        "reason": "Engaging multiplayer Zelda experience"
+      },
+      {
+        "item_id": "B07WTP7WFT",
+        "reason": "Bundle with popular Zelda game"
+      },
+      {
+        "item_id": "B06WRRWHDJ",
+        "reason": "Expansion for a favorite game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1685,
+    "completion_tokens": 327
+  }
+}

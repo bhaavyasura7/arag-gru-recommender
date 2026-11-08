@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008O3C96I",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers games, not repair parts."
+      },
+      {
+        "item_id": "B0021L8S1O",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Japanese game, user may not prefer."
+      },
+      {
+        "item_id": "B004SQ6GQY",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game, less interest."
+      },
+      {
+        "item_id": "B0050SXI6K",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PS3 games, relevant collection."
+      },
+      {
+        "item_id": "B004SQ6GQY",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Stickers not directly related to gameplay."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1158,
+    "completion_tokens": 165
+  }
+}

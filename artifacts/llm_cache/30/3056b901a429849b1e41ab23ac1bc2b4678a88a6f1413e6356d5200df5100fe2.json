@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001VEI34O",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action-oriented games."
+      },
+      {
+        "item_id": "B0713XFXNK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset is useful for gaming."
+      },
+      {
+        "item_id": "B09FT8CDKX",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Charger is relevant for gaming accessories."
+      },
+      {
+        "item_id": "B009H7QZS8",
+        "label": "support",
+        "score": 7,
+        "rationale": "Action shooter aligns with user interests."
+      },
+      {
+        "item_id": "B00DZJN514",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy headset may be less relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1053,
+    "completion_tokens": 153
+  }
+}

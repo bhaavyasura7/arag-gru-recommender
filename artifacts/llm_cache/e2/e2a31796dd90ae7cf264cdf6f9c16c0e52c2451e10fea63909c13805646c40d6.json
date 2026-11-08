@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00CSIB3PS",
+      "B07CZN97BH",
+      "B11Z25LT2D",
+      "B09Z25LT2D",
+      "B00V0RAW0A",
+      "B004COHWLA",
+      "B00V5D3OHC",
+      "B01IBJ46J2",
+      "B12Z25LT2D",
+      "B002YD95I4",
+      "B002G1TU7U",
+      "B07DNZCSBT",
+      "B079H7N61M",
+      "B096DPZ8PL",
+      "B00005LIP5",
+      "B071YR1V9D",
+      "B005SWVR2A",
+      "B12Z25LT2D",
+      "B00026UZ1Q",
+      "B01J4ZTKQG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00CSIB3PS",
+        "reason": "High-quality Xbox 360 bundle"
+      },
+      {
+        "item_id": "B07CZN97BH",
+        "reason": "Compatible gaming headset"
+      },
+      {
+        "item_id": "B09Z25LT2D",
+        "reason": "Portable carrying case for Xbox"
+      },
+      {
+        "item_id": "B00V0RAW0A",
+        "reason": "Popular Wii game title"
+      },
+      {
+        "item_id": "B07DNZCSBT",
+        "reason": "New Nintendo Switch game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3796,
+    "completion_tokens": 323
+  }
+}

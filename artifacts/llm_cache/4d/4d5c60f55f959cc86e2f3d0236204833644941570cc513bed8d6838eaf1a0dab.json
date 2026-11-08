@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00UG63VDG",
+        "label": "support",
+        "score": 7,
+        "rationale": "User owns Nintendo 3DS games."
+      },
+      {
+        "item_id": "B07624RBWB",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no Nintendo Switch games."
+      },
+      {
+        "item_id": "B00ZKZYKMO",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox One games."
+      },
+      {
+        "item_id": "B07HKX4ZV9",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no Nintendo Switch games."
+      },
+      {
+        "item_id": "B00E8CF268",
+        "label": "support",
+        "score": 6,
+        "rationale": "User plays PC games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 150
+  }
+}

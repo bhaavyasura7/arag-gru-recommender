@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B087NN6GRF",
+      "B01MR63I6F",
+      "B0053B66KE",
+      "B0080J8D8G",
+      "B0044XU27A",
+      "B001E8WQKY",
+      "B001E58B1K",
+      "B003S9WQAM",
+      "B0007PLL06",
+      "B0013OM528",
+      "B002I08VDI",
+      "B004LQN77M",
+      "B006NRMBF6",
+      "B00K5I323O",
+      "B003O680ZY",
+      "B009VUHVY8",
+      "B00GGURCU4",
+      "B001F8188Y",
+      "B000S1MMI4",
+      "B0044XU27A"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087NN6GRF",
+        "reason": "Popular Pokémon game for Switch"
+      },
+      {
+        "item_id": "B01MR63I6F",
+        "reason": "Sturdy carrying case for Switch"
+      },
+      {
+        "item_id": "B0053B66KE",
+        "reason": "Highly rated Pokémon game"
+      },
+      {
+        "item_id": "B0080J8D8G",
+        "reason": "Engaging gameplay and strategy"
+      },
+      {
+        "item_id": "B0044XU27A",
+        "reason": "Immersive RPG experience on Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3702,
+    "completion_tokens": 325
+  }
+}

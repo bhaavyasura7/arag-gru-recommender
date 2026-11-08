@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00TPJU3BI",
+      "B01J4JWNG6",
+      "B000BQP2RY",
+      "B00IS5Q8C8",
+      "B09W29ZJHY",
+      "B00NHDSINS",
+      "B01B1X7CFA",
+      "B000G1O7SE",
+      "B08LB4HJT2",
+      "B00002STUG",
+      "B00126Y1W4",
+      "B000NA6PUG",
+      "B098TBY135",
+      "B00I9RAW8G",
+      "B0BHKX5FHX",
+      "B009O8OC3K",
+      "B00IS5Q8C8",
+      "B000BQP2RY",
+      "B01MSHGS6Y",
+      "B000G1O7SE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00TPJU3BI",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B01J4JWNG6",
+        "reason": "Challenging gameplay experience"
+      },
+      {
+        "item_id": "B000BQP2RY",
+        "reason": "Accessory for PlayStation"
+      },
+      {
+        "item_id": "B00IS5Q8C8",
+        "reason": "Classic game with puzzles"
+      },
+      {
+        "item_id": "B09W29ZJHY",
+        "reason": "Protective case for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3088,
+    "completion_tokens": 329
+  }
+}

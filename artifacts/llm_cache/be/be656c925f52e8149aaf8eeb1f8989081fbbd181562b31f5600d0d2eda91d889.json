@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00Z9TM72Q",
+      "B00HVBPRUO",
+      "B00BGA9X9W",
+      "B01GY35UK6",
+      "B0086VPUHI",
+      "B00BGAA3S2",
+      "B00RN7QTF8",
+      "B00BGAA3S2",
+      "B00HVBPRUO",
+      "B0B11Z2PYX",
+      "B003L77YKS",
+      "B000095ZH6",
+      "B002824SNS",
+      "B002U02AEC",
+      "B0BLFYF8K2",
+      "B0BVVTQ5JP",
+      "B0000A0MDV",
+      "B000R08L7M",
+      "B0072A4JVW",
+      "B0B11Z2PYX",
+      "B0B11Z2PYX"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Popular action-adventure game"
+      },
+      {
+        "item_id": "B00HVBPRUO",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B00BGA9X9W",
+        "reason": "Essential controller for PS4"
+      },
+      {
+        "item_id": "B01GY35UK6",
+        "reason": "Advanced gaming mouse features"
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "reason": "Highly rated action game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3713,
+    "completion_tokens": 338
+  }
+}

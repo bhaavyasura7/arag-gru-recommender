@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "first-person shooters",
+      "multiplayer games",
+      "gaming accessories",
+      "action-adventure games",
+      "Ubisoft titles"
+    ],
+    "current_intent": "Looking for more first-person shooter games and accessories.",
+    "avoid": [
+      "puzzle games",
+      "sports games",
+      "single-player only titles"
+    ],
+    "summary": "The user enjoys action-packed multiplayer games, particularly first-person shooters, and is currently interested in expanding their collection with similar titles and gaming accessories."
+  },
+  "usage": {
+    "prompt_tokens": 419,
+    "completion_tokens": 103
+  }
+}

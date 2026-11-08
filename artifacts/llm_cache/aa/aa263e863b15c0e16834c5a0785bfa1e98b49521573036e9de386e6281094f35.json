@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01EKW0Z6M",
+      "B08P5THG2C",
+      "B003JVKHEQ",
+      "B18B0B82PNYJ2",
+      "B07DFV769C",
+      "B08QRZ1HSW",
+      "B00015HWTQ",
+      "B10B2ROJVG",
+      "B01MT1K6KS",
+      "B01AJRKKGC",
+      "B06WGRCQMW",
+      "B08BYQVK3X",
+      "B07CPH3DBQ",
+      "B09Q155SLZ",
+      "B08PDZ9L5H",
+      "B01IJAQS9Y",
+      "B01MT1K6KS",
+      "B0B82PNYJ2",
+      "B12B15HWTQ",
+      "B01EKW0Z6M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01EKW0Z6M",
+        "reason": "Custom Xbox 360 controller buttons"
+      },
+      {
+        "item_id": "B08P5THG2C",
+        "reason": "Charger for Xbox controllers"
+      },
+      {
+        "item_id": "B003JVKHEQ",
+        "reason": "Popular Xbox 360 game"
+      },
+      {
+        "item_id": "B18B0B82PNYJ2",
+        "reason": "Compact gaming keyboard for Xbox"
+      },
+      {
+        "item_id": "B07DFV769C",
+        "reason": "Large gaming mousepad for comfort"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3163,
+    "completion_tokens": 344
+  }
+}

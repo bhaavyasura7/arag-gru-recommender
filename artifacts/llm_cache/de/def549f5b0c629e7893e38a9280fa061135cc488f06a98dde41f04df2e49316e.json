@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0000A0O28",
+      "B08L6CZ6N3",
+      "B08BF4JBB9",
+      "B01AVQT95Y",
+      "B0043VDC9S",
+      "B07BFV8GYY",
+      "B09FYY8KY9",
+      "B07WCQDG7S",
+      "B01M7XSWTF",
+      "B07GMXHGZT",
+      "B08RCQDWDM",
+      "B07H54S914",
+      "B000NIBB5W",
+      "B00433468C",
+      "B07M8QTLVV",
+      "B01MZ9LKJE",
+      "B0BG43T6YB",
+      "B07Q4F7FGX",
+      "B08BF4JBB9",
+      "B07Q4F7FGX",
+      "B07BFV8GYY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0000A0O28",
+        "reason": "Nostalgic multiplayer fun"
+      },
+      {
+        "item_id": "B08L6CZ6N3",
+        "reason": "Accessory for engaging gameplay"
+      },
+      {
+        "item_id": "B08BF4JBB9",
+        "reason": "Competitive multiplayer racing"
+      },
+      {
+        "item_id": "B01AVQT95Y",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B0043VDC9S",
+        "reason": "Classic game for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3112,
+    "completion_tokens": 341
+  }
+}

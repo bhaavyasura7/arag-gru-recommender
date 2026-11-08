@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BVD2GY4H",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Compatible with multiple consoles, not preferred."
+      },
+      {
+        "item_id": "B0045U292I",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not relevant to user's gaming preferences."
+      },
+      {
+        "item_id": "B01F6DHWH4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's gaming interests."
+      },
+      {
+        "item_id": "B09JDJXP65",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Xbox exclusive, user prefers Nintendo."
+      },
+      {
+        "item_id": "B00009MRF9",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers console games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1665,
+    "completion_tokens": 163
+  }
+}

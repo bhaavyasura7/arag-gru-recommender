@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0050SXI6K",
+      "B00000K3X9",
+      "B004QEWVLC",
+      "B004QEV0MI",
+      "B17NQDVZP7",
+      "B003L20IPQ",
+      "B06XXLZFWX",
+      "B08B1WJHVD",
+      "B09MGJXGBF",
+      "B001ELJEH4",
+      "B0028Y4PUW",
+      "B07NVYR56H",
+      "B09K3ZY6BR",
+      "B06XCNKQ1T",
+      "B07NQDVZP7",
+      "B085C35DFV",
+      "B0094X221O",
+      "B14QEWVLC",
+      "B0BRM3S4Z6",
+      "B08B1WJHVD",
+      "B06XXLZFWX"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0050SXI6K",
+        "reason": "Classic action RPG remaster"
+      },
+      {
+        "item_id": "B00000K3X9",
+        "reason": "Classic game with fantasy elements"
+      },
+      {
+        "item_id": "B004QEWVLC",
+        "reason": "PlayStation action game"
+      },
+      {
+        "item_id": "B004QEV0MI",
+        "reason": "Engaging narrative and gameplay"
+      },
+      {
+        "item_id": "B17NQDVZP7",
+        "reason": "Expansion for popular RPG"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3953,
+    "completion_tokens": 343
+  }
+}

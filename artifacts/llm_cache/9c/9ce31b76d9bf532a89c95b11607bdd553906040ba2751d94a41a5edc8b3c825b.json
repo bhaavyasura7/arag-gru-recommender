@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B001DLVIFQ",
+      "B00002SVFR",
+      "B19Q5BYB82",
+      "B19HTJV7NG",
+      "B00J48C36S",
+      "B002ZS6Y64",
+      "B08PCJJW9V",
+      "B0CB8LZT7K",
+      "B001G78TRW",
+      "B001EYUPEC",
+      "B004HD55V0",
+      "B07JFTWDY9",
+      "B01DX8B0OU",
+      "B079C7QGLQ",
+      "B00NMUYBZA",
+      "B007X5103Q",
+      "B0794W1LWG",
+      "B00KR2C0RC",
+      "B00PCJJW9V",
+      "B01DX8B0OU",
+      "B00KR2BTVU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001DLVIFQ",
+        "reason": "Classic Nintendo title"
+      },
+      {
+        "item_id": "B00002SVFR",
+        "reason": "Retro gaming accessory"
+      },
+      {
+        "item_id": "B19Q5BYB82",
+        "reason": "Customizable Switch accessory"
+      },
+      {
+        "item_id": "B19HTJV7NG",
+        "reason": "Cooling fan for Switch"
+      },
+      {
+        "item_id": "B00J48C36S",
+        "reason": "Multiplayer retro experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3771,
+    "completion_tokens": 326
+  }
+}

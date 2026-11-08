@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0069A949S",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation games."
+      },
+      {
+        "item_id": "B001BJ6904",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Targeted at young children, not user."
+      },
+      {
+        "item_id": "B0033ZX7DQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo DS game, user prefers PlayStation."
+      },
+      {
+        "item_id": "B07MZNLL2G",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not directly related to interests."
+      },
+      {
+        "item_id": "B01A1V6164",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gamepad for iOS, not user’s platform."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1194,
+    "completion_tokens": 165
+  }
+}

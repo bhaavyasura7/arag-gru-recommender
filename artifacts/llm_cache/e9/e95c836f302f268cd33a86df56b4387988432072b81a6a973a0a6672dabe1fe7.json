@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09QLFHL1D",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user history."
+      },
+      {
+        "item_id": "B09QKZCGXL",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with multiple gaming consoles."
+      },
+      {
+        "item_id": "B07GCWJM78",
+        "label": "support",
+        "score": 7,
+        "rationale": "Controller for Xbox One matches interests."
+      },
+      {
+        "item_id": "B08MY26TSX",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older console game, less relevant."
+      },
+      {
+        "item_id": "B00002SVBV",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers console games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 976,
+    "completion_tokens": 153
+  }
+}

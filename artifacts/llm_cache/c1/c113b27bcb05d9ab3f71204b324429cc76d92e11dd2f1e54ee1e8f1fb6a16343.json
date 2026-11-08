@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004G5YI3U",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys action RPGs on PC."
+      },
+      {
+        "item_id": "B0B3JCL874",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a gaming product for user."
+      },
+      {
+        "item_id": "B01CVOMWXU",
+        "label": "support",
+        "score": 7,
+        "rationale": "User plays PC games, needs keyboard."
+      },
+      {
+        "item_id": "B00W9DHUBS",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has Xbox One, enjoys expansions."
+      },
+      {
+        "item_id": "B0009P75HM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User may like guides, but not essential."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1150,
+    "completion_tokens": 161
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01NAGTKX3",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox over PlayStation games."
+      },
+      {
+        "item_id": "B00007KE6D",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox game aligns with user interests."
+      },
+      {
+        "item_id": "B0BKQ3MC5Y",
+        "label": "support",
+        "score": 9,
+        "rationale": "Accessory for Xbox One is highly relevant."
+      },
+      {
+        "item_id": "B0091F8H64",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Family Guy game is unrelated to preferences."
+      },
+      {
+        "item_id": "B000A11EOK",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PC game does not match console interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1039,
+    "completion_tokens": 160
+  }
+}

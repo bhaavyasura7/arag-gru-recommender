@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B087NNPYP3",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B07VQ9Q7X3",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B00004SVSZ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B06WRRWHDJ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B004G5YI3U",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys action RPGs like Mass Effect."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1079,
+    "completion_tokens": 160
+  }
+}

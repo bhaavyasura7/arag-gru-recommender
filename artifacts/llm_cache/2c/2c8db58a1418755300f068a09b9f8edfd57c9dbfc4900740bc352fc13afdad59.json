@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "console gaming",
+      "action-adventure games",
+      "strategy games",
+      "multiplayer experiences"
+    ],
+    "current_intent": "looking for new video games or gaming accessories",
+    "avoid": [
+      "low-quality games",
+      "discontinued consoles",
+      "poorly rated products"
+    ],
+    "summary": "User enjoys video games, particularly for consoles, and seeks new titles or accessories, avoiding low-rated or outdated options."
+  },
+  "usage": {
+    "prompt_tokens": 470,
+    "completion_tokens": 80
+  }
+}

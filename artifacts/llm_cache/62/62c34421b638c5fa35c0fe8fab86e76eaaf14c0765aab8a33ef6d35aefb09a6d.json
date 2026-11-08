@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B006JH6ADY",
+        "label": "support",
+        "score": 7,
+        "rationale": "Supports Nintendo DS accessories interest."
+      },
+      {
+        "item_id": "B07DFNKHFG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Pokémon, not DC games."
+      },
+      {
+        "item_id": "B003YDXER6",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different genre, not related to Pokémon."
+      },
+      {
+        "item_id": "B0034ZOAO0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "SNES controller, not directly Pokémon related."
+      },
+      {
+        "item_id": "B09TXR8F3C",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no PS4 gaming history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 161
+  }
+}

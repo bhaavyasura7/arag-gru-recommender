@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0891DDRYN",
+      "B00GKL905O",
+      "B09WS2QZXT",
+      "B004HO6CQG",
+      "B003JVCA9Q",
+      "B00Y8CQCXA",
+      "B0028Y4PV6",
+      "B00005LVWM",
+      "B0002ILS1K",
+      "B000KRXAGE",
+      "B000A0EFHY",
+      "B07CB12726",
+      "B0BDF9WZQQ",
+      "B001DIY25M",
+      "B07PZ8NZSZ",
+      "B000B6MLV4",
+      "B00005LVWM",
+      "B0002ILS1K",
+      "B0771ZXXV6",
+      "B00005LVWM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0891DDRYN",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B00GKL905O",
+        "reason": "Retro gaming link cable"
+      },
+      {
+        "item_id": "B09WS2QZXT",
+        "reason": "Popular tactical shooter game"
+      },
+      {
+        "item_id": "B004HO6CQG",
+        "reason": "Engaging PS3 game experience"
+      },
+      {
+        "item_id": "B003JVCA9Q",
+        "reason": "Classic Call of Duty title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3727,
+    "completion_tokens": 313
+  }
+}

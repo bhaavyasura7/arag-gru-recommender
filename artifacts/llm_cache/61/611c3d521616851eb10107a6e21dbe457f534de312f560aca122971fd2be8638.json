@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BLGBFMWK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's gaming preferences."
+      },
+      {
+        "item_id": "B00KVOVBGM",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has interest in PlayStation games."
+      },
+      {
+        "item_id": "B013VO5QL4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers PC gaming accessories."
+      },
+      {
+        "item_id": "B087NN2K41",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User has no Nintendo Switch interest."
+      },
+      {
+        "item_id": "B00N73UUJI",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PlayStation video games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 151
+  }
+}

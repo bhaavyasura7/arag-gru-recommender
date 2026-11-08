@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08VN8WBLQ",
+      "B012K122XU",
+      "B001EHD9JC",
+      "B0050SZ7IC",
+      "B001EYUQIC",
+      "B0078J0O34",
+      "B0055464UQ",
+      "B004HKJCRQ",
+      "B001ELJE8I",
+      "B0050SY8UK",
+      "B079ZGRDZH",
+      "B003JVKHEQ",
+      "B005110Q0C",
+      "B08F4D36D9",
+      "B002JTX9GM",
+      "B07YBXNPSZ",
+      "B016K122XU",
+      "B0050SY8UK",
+      "B001EYUQIC",
+      "B0055464UQ",
+      "B001ELJE8I"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08VN8WBLQ",
+        "reason": "High-quality charging station"
+      },
+      {
+        "item_id": "B012K122XU",
+        "reason": "Premium wireless headset"
+      },
+      {
+        "item_id": "B001EHD9JC",
+        "reason": "Popular LEGO game"
+      },
+      {
+        "item_id": "B0050SZ7IC",
+        "reason": "Compatible Xbox controller"
+      },
+      {
+        "item_id": "B001EYUQIC",
+        "reason": "Classic tactical shooter"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3576,
+    "completion_tokens": 318
+  }
+}

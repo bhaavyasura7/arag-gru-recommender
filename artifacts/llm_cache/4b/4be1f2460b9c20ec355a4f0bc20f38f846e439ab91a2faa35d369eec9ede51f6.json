@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B06XGZDKJ1",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox One, gaming headset."
+      },
+      {
+        "item_id": "B0925PH1CB",
+        "label": "support",
+        "score": 9,
+        "rationale": "Designed for Xbox One, noise canceling."
+      },
+      {
+        "item_id": "B01E8KSI60",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "General gaming headset, less specific."
+      },
+      {
+        "item_id": "B07P171J2L",
+        "label": "support",
+        "score": 8,
+        "rationale": "Multi-platform, includes Xbox One compatibility."
+      },
+      {
+        "item_id": "B071ZVNM8G",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox One, gaming focus."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1260,
+    "completion_tokens": 160
+  }
+}

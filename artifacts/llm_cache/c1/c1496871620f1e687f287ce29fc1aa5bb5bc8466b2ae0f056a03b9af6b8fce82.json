@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09WVM75CP",
+      "B11S91X6W5",
+      "B0BGHVSYF3",
+      "B17NR7VZKN",
+      "B0C1KSD9Q8",
+      "B004FZ6RF8",
+      "B001EYUUF6",
+      "B0002CHIWO",
+      "B01GW3PFSA",
+      "B08HRVWV1X",
+      "B001C0L7PO",
+      "B00006AVAY",
+      "B00001SHM5",
+      "B001EYUUF6",
+      "B0B7DP5XCQ",
+      "B00002SUFX",
+      "B01N33OBYK",
+      "B0002CHIWO",
+      "B00006AVAY",
+      "B001C0L7PO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09WVM75CP",
+        "reason": "High-quality Switch carrying case"
+      },
+      {
+        "item_id": "B11S91X6W5",
+        "reason": "Mechanical gaming keyboard"
+      },
+      {
+        "item_id": "B0BGHVSYF3",
+        "reason": "Cooling fan for VR headset"
+      },
+      {
+        "item_id": "B17NR7VZKN",
+        "reason": "New Nintendo Switch game"
+      },
+      {
+        "item_id": "B0C1KSD9Q8",
+        "reason": "RGB gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3503,
+    "completion_tokens": 324
+  }
+}

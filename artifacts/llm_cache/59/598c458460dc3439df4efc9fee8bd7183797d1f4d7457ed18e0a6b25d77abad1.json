@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001LRQ9GA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre, not RPG or adventure."
+      },
+      {
+        "item_id": "B07THJZG59",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game itself."
+      },
+      {
+        "item_id": "B0BLKG8YZQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related to Mario Kart, user interest."
+      },
+      {
+        "item_id": "B095XCYD2M",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Headphones, not directly related to games."
+      },
+      {
+        "item_id": "B0BLZD87H5",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Card binder, not a game or console."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1405,
+    "completion_tokens": 161
+  }
+}

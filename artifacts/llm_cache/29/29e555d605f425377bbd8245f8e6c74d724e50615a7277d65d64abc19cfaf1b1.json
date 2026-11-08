@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09MMVNMZL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B09SPVN9PW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "For a different Nintendo system."
+      },
+      {
+        "item_id": "B088TLSVV2",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances Nintendo Switch gaming experience."
+      },
+      {
+        "item_id": "B00R10WZHS",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Different console, not Nintendo Switch."
+      },
+      {
+        "item_id": "B00AMRL74E",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not related to user's gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1311,
+    "completion_tokens": 156
+  }
+}

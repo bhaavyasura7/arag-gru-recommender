@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00657AVMO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Strategy game, not user’s preference."
+      },
+      {
+        "item_id": "B001E53N36",
+        "label": "support",
+        "score": 7,
+        "rationale": "Adventure platformer aligns with interests."
+      },
+      {
+        "item_id": "B017QU5KLK",
+        "label": "support",
+        "score": 6,
+        "rationale": "Team-based shooter, popular genre."
+      },
+      {
+        "item_id": "B0118GJKIW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Console bundle, user prefers PC games."
+      },
+      {
+        "item_id": "B0041T4MTG",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Casual puzzle game, less engaging."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1246,
+    "completion_tokens": 153
+  }
+}

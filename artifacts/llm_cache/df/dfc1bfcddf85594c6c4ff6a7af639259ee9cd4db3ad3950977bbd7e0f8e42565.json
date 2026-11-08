@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B094Q6C3L9",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox, user owns Xbox."
+      },
+      {
+        "item_id": "B0BHZ58XMH",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own PS5."
+      },
+      {
+        "item_id": "B00M1RSYUI",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with Xbox, enhances gaming experience."
+      },
+      {
+        "item_id": "B00D9ILIYW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different genre, not directly related."
+      },
+      {
+        "item_id": "B08DMWF4MX",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Wii."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1359,
+    "completion_tokens": 159
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming headsets",
+      "Xbox accessories",
+      "Nintendo Switch games",
+      "game storage solutions",
+      "Xbox Live memberships"
+    ],
+    "current_intent": "looking for new Nintendo Switch games or accessories",
+    "avoid": [
+      "non-gaming products",
+      "low-quality accessories",
+      "overpriced items"
+    ],
+    "summary": "User is a gaming enthusiast focused on Xbox and Nintendo Switch, seeking quality games and accessories."
+  },
+  "usage": {
+    "prompt_tokens": 671,
+    "completion_tokens": 76
+  }
+}

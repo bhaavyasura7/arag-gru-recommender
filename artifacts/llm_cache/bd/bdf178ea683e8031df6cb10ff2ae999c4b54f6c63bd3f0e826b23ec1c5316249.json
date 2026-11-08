@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09WR3DBT3",
+      "B0C9DNXQ3S",
+      "B089YPBP4B",
+      "B10PH295QR",
+      "B12N2Z9VZX",
+      "B07RMHQK6M",
+      "B07F9R1YT5",
+      "B08FC58KJX",
+      "B12W4M41XN",
+      "B07W4M41XN",
+      "B003SEXRF0",
+      "B0042X9RX2",
+      "B002EWD02M",
+      "B08P5Z1BHL",
+      "B01FN2M0NY",
+      "B07N2Z9VZX",
+      "B09BH3L2KC",
+      "B007Z0O7S4",
+      "B08JTVYKQK",
+      "B12W4M41XN",
+      "B00KPWZ7LA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09WR3DBT3",
+        "reason": "PS5 cooling and charging station"
+      },
+      {
+        "item_id": "B0C9DNXQ3S",
+        "reason": "High-quality wireless gaming mouse"
+      },
+      {
+        "item_id": "B089YPBP4B",
+        "reason": "Mechanical keyboard for gaming"
+      },
+      {
+        "item_id": "B09PH295QR",
+        "reason": "RGB mouse pad enhances gaming"
+      },
+      {
+        "item_id": "B07RMHQK6M",
+        "reason": "Popular game for dedicated gamers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3882,
+    "completion_tokens": 347
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00005C9F6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic game, not a fighting game."
+      },
+      {
+        "item_id": "B001ELJFGE",
+        "label": "support",
+        "score": 7,
+        "rationale": "Co-op gameplay aligns with user interests."
+      },
+      {
+        "item_id": "B079MRDY5V",
+        "label": "support",
+        "score": 9,
+        "rationale": "Fighting game matches user preferences."
+      },
+      {
+        "item_id": "B0073ESZ58",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B004I1JTEK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre, not user’s interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 155
+  }
+}

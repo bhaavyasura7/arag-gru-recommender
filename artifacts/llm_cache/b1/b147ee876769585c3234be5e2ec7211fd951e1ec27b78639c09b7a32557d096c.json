@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B006YDPU48",
+      "B07G5NHRCM",
+      "B00741NABE",
+      "B092VZ4NC7",
+      "B000EN81R2",
+      "B000TGJHRW",
+      "B01MDOFPBU",
+      "B08S72G3K8",
+      "B001L5U0KI",
+      "B07FJRHFQF",
+      "B07D9LZ73R",
+      "B01CTNIV7E",
+      "B005CG2GS6",
+      "B07GN8YD2H",
+      "B0094096EI",
+      "B000BBODYC",
+      "B01MXPTJPO",
+      "B07TS2ZTXL",
+      "B083FFY4S4",
+      "B14D9LZ73R"
+    ],
+    "reasons": [
+      {
+        "item_id": "B006YDPU48",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B07G5NHRCM",
+        "reason": "Classic Nintendo game"
+      },
+      {
+        "item_id": "B00741NABE",
+        "reason": "Collector's edition game"
+      },
+      {
+        "item_id": "B092VZ4NC7",
+        "reason": "Storage for Nintendo games"
+      },
+      {
+        "item_id": "B000EN81R2",
+        "reason": "Golf game, not preferred genre"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3119,
+    "completion_tokens": 319
+  }
+}

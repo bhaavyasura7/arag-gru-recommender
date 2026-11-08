@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00TV0XUUC",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User rated Diablo III poorly."
+      },
+      {
+        "item_id": "B00KLXU8TO",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User rated Diablo III poorly."
+      },
+      {
+        "item_id": "B07DX32MSP",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User rated Diablo III poorly."
+      },
+      {
+        "item_id": "B0011FI52S",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Gears of War series."
+      },
+      {
+        "item_id": "B07NLFDZ39",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Gears of War series."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1926,
+    "completion_tokens": 157
+  }
+}

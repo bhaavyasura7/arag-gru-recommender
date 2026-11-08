@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07MR22F4X",
+      "B14RDF2HTR",
+      "B08MMSW147",
+      "B09BZZZVPV",
+      "B07DL79BR6",
+      "B0B5G6L9VM",
+      "B00376AVEE",
+      "B0000645OV",
+      "B003BS6MF0",
+      "B00YXEAAWC",
+      "B07VHLQ2VX",
+      "B005VR2OUG",
+      "B00FMHV5U0",
+      "B09MB5N1F3",
+      "B00002STOT",
+      "B08GJ5FX91",
+      "B00793RTHI",
+      "B0CBRT4BWW",
+      "B00376AVEE",
+      "B07DL79BR6",
+      "B00FMHV5U0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07MR22F4X",
+        "reason": "RGB keyboard and mouse combo"
+      },
+      {
+        "item_id": "B08MMSW147",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B09BZZZVPV",
+        "reason": "Performance thumbsticks for PS4/PS5"
+      },
+      {
+        "item_id": "B07DL79BR6",
+        "reason": "VR stand for gaming headsets"
+      },
+      {
+        "item_id": "B14RDF2HTR",
+        "reason": "Cooling stand for PS4"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3817,
+    "completion_tokens": 337
+  }
+}

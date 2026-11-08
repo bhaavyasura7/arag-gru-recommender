@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00B2N0M70",
+      "B00001YVBM",
+      "B07KZ52TF6",
+      "B001DIC85I",
+      "B00GXX6FES",
+      "B07JXK44W1",
+      "B000XXC0CK",
+      "B07MVJKJGF",
+      "B07X1PZG74",
+      "B00005OUIW",
+      "B07NZ9KM4F",
+      "B07PT9NNLQ",
+      "B004DGIYEG",
+      "B00B1N6YVE",
+      "B07KD98P1T",
+      "B07S6944B9",
+      "B097D3Q1KZ",
+      "B01N4JYY1H",
+      "B00001OX3X",
+      "B00KWFCSB2",
+      "B00001YVBM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00B2N0M70",
+        "reason": "DLC for popular action game"
+      },
+      {
+        "item_id": "B00001YVBM",
+        "reason": "Collector's edition of a classic"
+      },
+      {
+        "item_id": "B07KZ52TF6",
+        "reason": "Not aligned with user interests"
+      },
+      {
+        "item_id": "B001DIC85I",
+        "reason": "Action game with strong narrative"
+      },
+      {
+        "item_id": "B00GXX6FES",
+        "reason": "Gaming headset for multiplayer"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3328,
+    "completion_tokens": 344
+  }
+}

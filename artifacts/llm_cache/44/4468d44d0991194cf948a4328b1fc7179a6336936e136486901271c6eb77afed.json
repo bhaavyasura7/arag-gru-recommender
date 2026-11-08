@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00004XOWT",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic console, not recent interest."
+      },
+      {
+        "item_id": "B088DCPM2P",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers established franchises."
+      },
+      {
+        "item_id": "B00ZP9XO9U",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Xbox One games."
+      },
+      {
+        "item_id": "B00HX1UXD8",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Time card, not a game."
+      },
+      {
+        "item_id": "B07982R9BZ",
+        "label": "support",
+        "score": 6,
+        "rationale": "Accessory for supported consoles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1286,
+    "completion_tokens": 151
+  }
+}

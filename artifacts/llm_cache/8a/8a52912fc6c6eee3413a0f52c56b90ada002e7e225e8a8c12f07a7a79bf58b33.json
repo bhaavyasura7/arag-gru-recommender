@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "pirate-themed games",
+      "historical strategy games",
+      "simulation games",
+      "trade and economy games",
+      "adventure games"
+    ],
+    "current_intent": "looking for engaging strategy or simulation games",
+    "avoid": [
+      "low-quality games",
+      "non-pirate themes",
+      "action-heavy games"
+    ],
+    "summary": "User enjoys strategy and simulation games, particularly with pirate or historical themes, and seeks new engaging titles in these genres."
+  },
+  "usage": {
+    "prompt_tokens": 456,
+    "completion_tokens": 84
+  }
+}

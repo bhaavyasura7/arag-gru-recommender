@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B9GMZ248",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS5 accessory, user prefers PS4/PS3."
+      },
+      {
+        "item_id": "B09QKJGS56",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR headset, not directly related."
+      },
+      {
+        "item_id": "B00U0QAIGK",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Gaming mouse, not console specific."
+      },
+      {
+        "item_id": "B008TTPTOQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B07Z5R87H2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PC download, user prefers console games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2063,
+    "completion_tokens": 166
+  }
+}

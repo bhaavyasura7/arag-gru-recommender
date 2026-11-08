@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00F32V9DM",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar to previously rated headset."
+      },
+      {
+        "item_id": "B00JC5Y9LK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Upgrade kit, not a direct match."
+      },
+      {
+        "item_id": "B08JY5GTCQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS4 headset, user prefers PS3."
+      },
+      {
+        "item_id": "B08GY1F43S",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS4 headset, user prefers PS3."
+      },
+      {
+        "item_id": "B08GY1R4DN",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS4 headset, user prefers PS3."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 162
+  }
+}

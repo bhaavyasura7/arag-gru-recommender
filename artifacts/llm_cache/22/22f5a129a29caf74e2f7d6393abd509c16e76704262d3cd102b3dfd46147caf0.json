@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000HGMSXY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic game, not Zelda-related."
+      },
+      {
+        "item_id": "B000TOMGIG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre, not Zelda-like."
+      },
+      {
+        "item_id": "B01AX9A6UQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Related to Nintendo, collectible card."
+      },
+      {
+        "item_id": "B0047Y06MW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00019AZAU",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Baseball game, unrelated to Zelda."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 990,
+    "completion_tokens": 153
+  }
+}

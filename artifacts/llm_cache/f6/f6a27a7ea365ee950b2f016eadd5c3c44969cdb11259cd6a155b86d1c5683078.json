@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0050SXI6K",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre than user's favorites."
+      },
+      {
+        "item_id": "B00X67FWNY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not aligned with user's past games."
+      },
+      {
+        "item_id": "B01BEUL5T4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not a game, but an accessory."
+      },
+      {
+        "item_id": "B0BJ92CHSC",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not directly related to games."
+      },
+      {
+        "item_id": "B017LKMR5W",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game experience."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1330,
+    "completion_tokens": 155
+  }
+}

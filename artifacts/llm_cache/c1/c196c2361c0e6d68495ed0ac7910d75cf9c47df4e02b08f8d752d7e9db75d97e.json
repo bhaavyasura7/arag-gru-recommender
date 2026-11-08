@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0001Q5SL4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B00002SU96",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Atari game not relevant to user."
+      },
+      {
+        "item_id": "B002NBBC8S",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Super Nintendo not in user history."
+      },
+      {
+        "item_id": "B07T7YCHFJ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Dock sleeve may interest user."
+      },
+      {
+        "item_id": "B003VC8TUM",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wii game aligns with Nintendo interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 902,
+    "completion_tokens": 156
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00GM5WGNQ",
+      "B0001DLLZE",
+      "B07QYV9HF2",
+      "B000Y8YYCI",
+      "B004GBJJ1U",
+      "B07PN5XSLV",
+      "B00079MUXE",
+      "B0006MXSQ0",
+      "B00002STY4",
+      "B07BGVK9W6",
+      "B07J5VZT5W",
+      "B000I20TBU",
+      "B07582RP7X",
+      "B00077W0H",
+      "B097MG9M1V",
+      "B0006MXSQ0",
+      "B000GBJJ1U",
+      "B00079MUXE",
+      "B00002STY4",
+      "B097RD75K6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00GM5WGNQ",
+        "reason": "Action-packed cyber shooter"
+      },
+      {
+        "item_id": "B0001DLLZE",
+        "reason": "Intense multiplayer air combat"
+      },
+      {
+        "item_id": "B07QYV9HF2",
+        "reason": "Mobile controller for shooters"
+      },
+      {
+        "item_id": "B000Y8YYCI",
+        "reason": "Action-oriented powerboating game"
+      },
+      {
+        "item_id": "B004GBJJ1U",
+        "reason": "Engaging mystery adventure game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3300,
+    "completion_tokens": 320
+  }
+}

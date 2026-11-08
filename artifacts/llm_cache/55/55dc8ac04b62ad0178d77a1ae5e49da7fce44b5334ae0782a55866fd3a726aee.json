@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01LZ8BG4F",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Game Boy Advance SP."
+      },
+      {
+        "item_id": "B000H3OBFU",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo DS game aligns with interests."
+      },
+      {
+        "item_id": "B0B49HTMHG",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not related to video games played."
+      },
+      {
+        "item_id": "B002DO87NS",
+        "label": "support",
+        "score": 6,
+        "rationale": "Nintendo DS game fits user preferences."
+      },
+      {
+        "item_id": "B013J1QRHG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS3 game, not a primary interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1238,
+    "completion_tokens": 154
+  }
+}

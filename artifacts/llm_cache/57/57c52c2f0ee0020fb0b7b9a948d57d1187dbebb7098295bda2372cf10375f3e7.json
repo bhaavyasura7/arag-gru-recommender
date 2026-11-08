@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B096DPZ8PL",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches Xbox interest and accessories."
+      },
+      {
+        "item_id": "B09Z25LT2D",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances Xbox Series X gaming experience."
+      },
+      {
+        "item_id": "B00005LIP5",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation 2 game, not Xbox related."
+      },
+      {
+        "item_id": "B071YR1V9D",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation 4 game, not Xbox related."
+      },
+      {
+        "item_id": "B005SWVR2A",
+        "label": "neutral",
+        "score": 1,
+        "rationale": "Unrelated product, no gaming relevance."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1379,
+    "completion_tokens": 163
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08149Z4JV",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox and PC games."
+      },
+      {
+        "item_id": "B00SQTFPMK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Hidden object games not in user history."
+      },
+      {
+        "item_id": "B07WXGWPDX",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's Oculus headset."
+      },
+      {
+        "item_id": "B01N11GQB4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS4 accessory, not directly relevant."
+      },
+      {
+        "item_id": "B0BVBJGMHM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 160
+  }
+}

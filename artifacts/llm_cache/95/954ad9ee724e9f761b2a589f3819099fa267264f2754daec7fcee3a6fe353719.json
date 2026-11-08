@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08HPK581L",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B07N4QC69R",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B08PGGRGPC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PlayStation Vita not in user history."
+      },
+      {
+        "item_id": "B00002SUFX",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Sega Genesis not aligned with interests."
+      },
+      {
+        "item_id": "B00009VRFL",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game not related to user preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1284,
+    "completion_tokens": 156
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B087SHFL9B",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys Mario games highly rated."
+      },
+      {
+        "item_id": "B08JXPPFWM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no racing game preferences."
+      },
+      {
+        "item_id": "B00CEKMYK8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User dislikes military shooters."
+      },
+      {
+        "item_id": "B01CJNUJQK",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User hasn't shown interest in accessories."
+      },
+      {
+        "item_id": "B001EYUS3K",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers modern games over retro."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1404,
+    "completion_tokens": 153
+  }
+}

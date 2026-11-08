@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09NPJQ4RB",
+      "B09YTV96R7",
+      "B08GP26H23",
+      "B07XG45X73",
+      "B08H87324H",
+      "B09MFFTCX8",
+      "B19HCTJC91",
+      "B0B11Z2PYX",
+      "B07TMF3LMY",
+      "B01DQJYC46",
+      "B004WLRR4K",
+      "B00BSKXT2C",
+      "B001L5TJ1O",
+      "B07JVT8VTW",
+      "B07NV51P8S",
+      "B07HCTJC91",
+      "B007HKIV7K",
+      "B00MF3SD2C",
+      "B013989D34",
+      "B00002SUM0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09NPJQ4RB",
+        "reason": "Customizable Nintendo Switch controller"
+      },
+      {
+        "item_id": "B09YTV96R7",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B08GP26H23",
+        "reason": "Replacement part for gaming controller"
+      },
+      {
+        "item_id": "B07XG45X73",
+        "reason": "Joy-Con housing for customization"
+      },
+      {
+        "item_id": "B08H87324H",
+        "reason": "Wired controller for Xbox compatibility"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3091,
+    "completion_tokens": 326
+  }
+}

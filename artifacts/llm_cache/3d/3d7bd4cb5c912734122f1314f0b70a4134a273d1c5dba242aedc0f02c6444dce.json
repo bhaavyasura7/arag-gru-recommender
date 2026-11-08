@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00CQ35C1Q",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming headset matches video game interest."
+      },
+      {
+        "item_id": "B095RQGSFK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Switch case aligns with Nintendo interest."
+      },
+      {
+        "item_id": "B003JKK60C",
+        "label": "support",
+        "score": 9,
+        "rationale": "PS3 controller fits gaming preferences."
+      },
+      {
+        "item_id": "B00Y3P2BHS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Vinyl skin is less relevant to gaming."
+      },
+      {
+        "item_id": "B01MU57Z02",
+        "label": "support",
+        "score": 8,
+        "rationale": "Game title aligns with video game interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 155
+  }
+}

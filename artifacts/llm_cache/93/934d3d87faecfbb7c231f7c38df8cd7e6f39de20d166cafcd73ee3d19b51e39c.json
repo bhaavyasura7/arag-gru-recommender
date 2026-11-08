@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00DJRLAZ0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers sports games, not racing."
+      },
+      {
+        "item_id": "B01MT1N4L0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, mixed relevance."
+      },
+      {
+        "item_id": "B00000DMAQ",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Different genre, user prefers sports games."
+      },
+      {
+        "item_id": "B008HPAXZ2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for a different console, less relevant."
+      },
+      {
+        "item_id": "B00L3KU0S8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for PS4, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1403,
+    "completion_tokens": 166
+  }
+}

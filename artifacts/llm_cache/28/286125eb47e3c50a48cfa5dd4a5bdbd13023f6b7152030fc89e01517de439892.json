@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07FMCGLVX",
+      "B07C75CLCD",
+      "B005FPDF02",
+      "B00KVQYJR8",
+      "B07HC4ZD3B",
+      "B01E10MWDW",
+      "B00004TEYR",
+      "B072V478NR",
+      "B000FQ9QVI",
+      "B00005QX48",
+      "B00PGLF7G0",
+      "B0BDLHBZXV",
+      "B00EN9Q8G4",
+      "B00GKU3EU2",
+      "B000C0L7Q8",
+      "B000OZAIKMQ",
+      "B00OZAIKMQ",
+      "B00GKU3EU2",
+      "B000FQ9QVI",
+      "B00005QX48"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07FMCGLVX",
+        "reason": "Fast charger for Nintendo Switch"
+      },
+      {
+        "item_id": "B07C75CLCD",
+        "reason": "Retro games collection for Switch"
+      },
+      {
+        "item_id": "B005FPDF02",
+        "reason": "Charger for Xbox controllers"
+      },
+      {
+        "item_id": "B00KVQYJR8",
+        "reason": "Popular game for PS4"
+      },
+      {
+        "item_id": "B07HC4ZD3B",
+        "reason": "Official Pokémon charging stand"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3688,
+    "completion_tokens": 324
+  }
+}

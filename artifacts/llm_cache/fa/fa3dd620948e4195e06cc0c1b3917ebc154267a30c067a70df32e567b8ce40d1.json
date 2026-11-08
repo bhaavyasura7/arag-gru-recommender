@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "WWII air combat games",
+      "historical military strategy",
+      "flight simulation",
+      "action video games",
+      "multiplayer combat experiences"
+    ],
+    "current_intent": "Looking for more WWII air combat games.",
+    "avoid": [
+      "non-military games",
+      "modern warfare titles",
+      "single-player only games"
+    ],
+    "summary": "User enjoys WWII air combat video games and seeks similar titles, preferring multiplayer and strategic gameplay."
+  },
+  "usage": {
+    "prompt_tokens": 302,
+    "completion_tokens": 81
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B088DCPM2P",
+      "B0BVVTQ5JP",
+      "B00004XOWT",
+      "B001AI7CF2",
+      "B00006LELI",
+      "B00KCCNMYW",
+      "B00FEOUDUE",
+      "B00ZP9XO9U",
+      "B07M91JJCB",
+      "B001EYUUHY",
+      "B0091XHZW8",
+      "B00A8V4QG0",
+      "B0874G43WS",
+      "B004R1QUIO",
+      "B00HX1UXD8",
+      "B000U90SGC",
+      "B013P0HW7K",
+      "B07982R9BZ",
+      "B009LGO88E",
+      "B00FEOUDUE",
+      "B00006LELI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B088DCPM2P",
+        "reason": "anime-themed fighting game"
+      },
+      {
+        "item_id": "B0BVVTQ5JP",
+        "reason": "high-performance gaming mouse"
+      },
+      {
+        "item_id": "B00004XOWT",
+        "reason": "classic PlayStation console"
+      },
+      {
+        "item_id": "B001AI7CF2",
+        "reason": "controller extension for multiplayer"
+      },
+      {
+        "item_id": "B00006LELI",
+        "reason": "multiplayer horror experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3785,
+    "completion_tokens": 325
+  }
+}

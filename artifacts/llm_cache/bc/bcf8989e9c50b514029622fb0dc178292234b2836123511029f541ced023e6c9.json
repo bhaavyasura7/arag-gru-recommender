@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B093GVW6WD",
+        "label": "support",
+        "score": 8,
+        "rationale": "Supports Nintendo Switch accessories interest."
+      },
+      {
+        "item_id": "B07VQ6YNQZ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC headset, not directly related."
+      },
+      {
+        "item_id": "B07T8JGPTT",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Unrelated wall sign product."
+      },
+      {
+        "item_id": "B0057ETTZG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Golf accessory, not a primary interest."
+      },
+      {
+        "item_id": "B07YF64SVV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Mobile controller, not Nintendo Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1242,
+    "completion_tokens": 155
+  }
+}

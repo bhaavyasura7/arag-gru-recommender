@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DBDPOZ4",
+      "B00002AH2T",
+      "B000UHNHQW",
+      "B08DXS6DVC",
+      "B07HH3B953",
+      "B003AJJTZ0",
+      "B00N8KT35W",
+      "B00B0YGTWI",
+      "B07WRL8MDM",
+      "B01MSHGS6Y",
+      "B07GVPHYBG",
+      "B08DS8YC6L",
+      "B07NVHGY8P",
+      "B000U1OOB0",
+      "B0BTSTNFHG",
+      "B01EWQQZL0",
+      "B002A96H4M",
+      "B09QR6MX9V",
+      "B00008NRM3",
+      "B000UHNHQW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DBDPOZ4",
+        "reason": "Essential Xbox accessory for gaming"
+      },
+      {
+        "item_id": "B00002AH2T",
+        "reason": "Not relevant to Xbox gaming"
+      },
+      {
+        "item_id": "B000UHNHQW",
+        "reason": "Not relevant to Xbox gaming"
+      },
+      {
+        "item_id": "B08DXS6DVC",
+        "reason": "Not relevant to Xbox gaming"
+      },
+      {
+        "item_id": "B07HH3B953",
+        "reason": "Not relevant to Xbox gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3567,
+    "completion_tokens": 325
+  }
+}

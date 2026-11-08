@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01ELF5PRC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset interest, but not specific games."
+      },
+      {
+        "item_id": "B00EIN266Q",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys online games, SEGA nostalgia."
+      },
+      {
+        "item_id": "B000AO9YQM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User rated Call of Duty poorly."
+      },
+      {
+        "item_id": "B07DQQX9HH",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset interest, but no specific preference."
+      },
+      {
+        "item_id": "B003V8Q7BE",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Wii, appreciates related accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 162
+  }
+}

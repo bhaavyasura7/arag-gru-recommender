@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BF8H4WNC",
+      "B08PDW1Z2G",
+      "B00196DP9M",
+      "B07KB9MDC2",
+      "B09ZJ6RY1W",
+      "B07ZNQNDN5",
+      "B08YDM92NR",
+      "B00EZAWU4K",
+      "B00HFXSVDI",
+      "B00NQMKTI2",
+      "B00LF7HAXM",
+      "B0CF82DZ4P",
+      "B009CXLEEW",
+      "B08LP8JWJ7",
+      "B074Y4G1TT",
+      "B08J6GVCT9",
+      "B00E9T8FU",
+      "B00EZAWU4K",
+      "B00HFXSVDI",
+      "B08PDW1Z2G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BF8H4WNC",
+        "reason": "Engaging action RPG experience"
+      },
+      {
+        "item_id": "B08PDW1Z2G",
+        "reason": "Includes popular Mario titles"
+      },
+      {
+        "item_id": "B00196DP9M",
+        "reason": "Classic action-adventure gameplay"
+      },
+      {
+        "item_id": "B07KB9MDC2",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B09ZJ6RY1W",
+        "reason": "Gift card for new games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3785,
+    "completion_tokens": 337
+  }
+}

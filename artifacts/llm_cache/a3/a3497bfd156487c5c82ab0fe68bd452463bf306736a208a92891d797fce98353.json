@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B05C7P7",
+      "B01MZ4VLXE",
+      "B08KB1WW74",
+      "B084Z4Q9NK",
+      "B07F8QZYP1",
+      "B08N439W9B",
+      "B00004U47O",
+      "B00002CF8Q",
+      "B00005C7P7",
+      "B00004U9KA",
+      "B07XZ26VLN",
+      "B09KM3Z765",
+      "B00328I0BS",
+      "B08JQ68766",
+      "B0000CCZSU",
+      "B06XKQ6X48",
+      "B097MXJ1BW",
+      "B08N439W9B",
+      "B07XZ26VLN",
+      "B0BBH7MY24"
+    ],
+    "reasons": [
+      {
+        "item_id": "B05C7P7",
+        "reason": "Cooling fan for Xbox One S"
+      },
+      {
+        "item_id": "B01MZ4VLXE",
+        "reason": "2TB storage for Xbox games"
+      },
+      {
+        "item_id": "B08KB1WW74",
+        "reason": "Family-friendly game for PS5"
+      },
+      {
+        "item_id": "B084Z4Q9NK",
+        "reason": "Comfortable gaming headset"
+      },
+      {
+        "item_id": "B07F8QZYP1",
+        "reason": "Fun multiplayer card game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3697,
+    "completion_tokens": 327
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUWDG",
+      "B07HHW8C4V",
+      "B0015Z1I4G",
+      "B00R0ZS9YW",
+      "B087SHFL9B",
+      "B07TN89FGQ",
+      "B00F27JGVA",
+      "B07X1HF3V6",
+      "B001EYUO52",
+      "B001EYUWDG",
+      "B07KZ6QJTX",
+      "B0043B5SKE",
+      "B000G75AXY",
+      "B07V56JYJ9",
+      "B004RMK4BC",
+      "B00DTY9B0O",
+      "B078GLDBZX",
+      "B01M6C7YE8",
+      "B07X1HF3V6",
+      "B0015Z1I4G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUWDG",
+        "reason": "Popular sports-themed game"
+      },
+      {
+        "item_id": "B07HHW8C4V",
+        "reason": "Includes sports game bundle"
+      },
+      {
+        "item_id": "B0015Z1I4G",
+        "reason": "Highly rated LEGO game"
+      },
+      {
+        "item_id": "B00R0ZS9YW",
+        "reason": "Remastered classic RPG"
+      },
+      {
+        "item_id": "B087SHFL9B",
+        "reason": "Multiplayer on handheld console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3602,
+    "completion_tokens": 332
+  }
+}

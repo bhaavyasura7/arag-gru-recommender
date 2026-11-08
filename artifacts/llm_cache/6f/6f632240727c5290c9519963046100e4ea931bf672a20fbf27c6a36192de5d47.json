@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01GY35HKE",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox games, similar genre."
+      },
+      {
+        "item_id": "B001EYUO4S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B072M6WZSY",
+        "label": "support",
+        "score": 7,
+        "rationale": "Accessory for Xbox enhances gaming experience."
+      },
+      {
+        "item_id": "B071JPNC4C",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User does not own Nintendo Switch."
+      },
+      {
+        "item_id": "B07KXXB8JR",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with user's Xbox 360 system."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1193,
+    "completion_tokens": 161
+  }
+}

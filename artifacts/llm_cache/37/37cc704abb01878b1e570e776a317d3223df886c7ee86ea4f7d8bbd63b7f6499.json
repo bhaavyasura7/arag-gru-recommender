@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002EE5SAC",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Nintendo video games."
+      },
+      {
+        "item_id": "B07HJ3YRBC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B016P4OEHY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Nintendo systems."
+      },
+      {
+        "item_id": "B000F3AADE",
+        "label": "neutral",
+        "score": 6,
+        "rationale": "Legacy game, user prefers newer titles."
+      },
+      {
+        "item_id": "B073GY1PRY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys immersive video games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1682,
+    "completion_tokens": 146
+  }
+}

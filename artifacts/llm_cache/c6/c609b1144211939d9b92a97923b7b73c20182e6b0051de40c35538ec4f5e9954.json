@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09PB2X3TG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B01M1UPITT",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Specific to a game, not user history."
+      },
+      {
+        "item_id": "B09CKBCBWD",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Legacy system, user prefers modern consoles."
+      },
+      {
+        "item_id": "B0B25G8XWQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Cute design, but not user’s preference."
+      },
+      {
+        "item_id": "B0C4PNVCT2",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with Nintendo Switch Lite."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1241,
+    "completion_tokens": 160
+  }
+}

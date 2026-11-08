@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B13GW3H3U8",
+      "B07KF4PPGP",
+      "B07WSX9PCJ",
+      "B18G84D29",
+      "B07TV7P3GP",
+      "B07CHXF76P",
+      "B000ASBIEO",
+      "B08NTML8NR",
+      "B09DPHZGSZ",
+      "B08QXBCP8F",
+      "B07VC1MKNZ",
+      "B000BYQDLU",
+      "B0007KTBDK",
+      "B0876TD8RT",
+      "B0851PXXD2",
+      "B12G84D29",
+      "B07WGJ72KT",
+      "B000ASBIEO",
+      "B07TV7P3GP",
+      "B09X9ZGH8X"
+    ],
+    "reasons": [
+      {
+        "item_id": "B13GW3H3U8",
+        "reason": "Popular Xbox controller for gaming"
+      },
+      {
+        "item_id": "B07KF4PPGP",
+        "reason": "Classic game for Nintendo systems"
+      },
+      {
+        "item_id": "B07WSX9PCJ",
+        "reason": "Compatible with Xbox systems"
+      },
+      {
+        "item_id": "B18G84D29",
+        "reason": "Wii remote for multiplayer gaming"
+      },
+      {
+        "item_id": "B07TV7P3GP",
+        "reason": "Useful for gaming keyboard testing"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3437,
+    "completion_tokens": 327
+  }
+}

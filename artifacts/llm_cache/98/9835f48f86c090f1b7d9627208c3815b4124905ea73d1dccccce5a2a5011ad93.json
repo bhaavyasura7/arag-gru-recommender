@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08LC4JYDS",
+      "B000K5UY2E",
+      "B000FQBF1M",
+      "B0BW99BHSX",
+      "B08RN4CSSW",
+      "B0BC7HHK71",
+      "B08DCHZY6T",
+      "B07Q6S4XKH",
+      "B00006B0NR",
+      "B00002ST5J",
+      "B00MKYQE3G",
+      "B0050SWP96",
+      "B000EM0M4I",
+      "B000HCU7CC",
+      "B0030T1U2A",
+      "B0BW99BHSX",
+      "B0BC7HHK71",
+      "B08H1ZNKW9",
+      "B00006B0NR",
+      "B00002ST5J",
+      "B08DCHZY6T"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08LC4JYDS",
+        "reason": "PlayStation controller accessory"
+      },
+      {
+        "item_id": "B000K5UY2E",
+        "reason": "Popular PS3 game title"
+      },
+      {
+        "item_id": "B000FQBF1M",
+        "reason": "First-person shooter game"
+      },
+      {
+        "item_id": "B0BW99BHSX",
+        "reason": "Customizable console skin"
+      },
+      {
+        "item_id": "B08RN4CSSW",
+        "reason": "High-quality gaming keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3498,
+    "completion_tokens": 337
+  }
+}

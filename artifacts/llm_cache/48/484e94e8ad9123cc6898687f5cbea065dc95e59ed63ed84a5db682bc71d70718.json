@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07V3G6C1F",
+      "B0086VPUHI",
+      "B00CMQTUCE",
+      "B00CH923NE",
+      "B13N3ASPNV",
+      "B008B2ZKK4",
+      "B008MO6BMW",
+      "B003O6EE4U",
+      "B0929JM6ZS",
+      "B000F1WDHW",
+      "B01GY35HKE",
+      "B0919NSCXL",
+      "B07CMKDB2K",
+      "B00004YROX",
+      "B0086VPUHI",
+      "B01GY3601E",
+      "B00004YROX",
+      "B07CMKDB2K",
+      "B008B2ZKK4",
+      "B00KSQHX1K",
+      "B00CH923NE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07V3G6C1F",
+        "reason": "Nintendo product, user interest"
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "reason": "Popular game for Xbox"
+      },
+      {
+        "item_id": "B00CMQTUCE",
+        "reason": "Kinect game, interactive experience"
+      },
+      {
+        "item_id": "B00CH923NE",
+        "reason": "Accessory for Nintendo Switch"
+      },
+      {
+        "item_id": "B13N3ASPNV",
+        "reason": "Screen protector for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3789,
+    "completion_tokens": 328
+  }
+}

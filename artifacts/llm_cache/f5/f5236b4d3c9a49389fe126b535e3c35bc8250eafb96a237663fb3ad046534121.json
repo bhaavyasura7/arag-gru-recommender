@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B012K122XU",
+      "B008U2XILI",
+      "B001EHD9JC",
+      "B001ELJE8I",
+      "B001EYUQIC",
+      "B0050SY8UK",
+      "B0055464UQ",
+      "B0078J0O34",
+      "B004HKJCRQ",
+      "B0050SZ7IC",
+      "B08VN8WBLQ",
+      "B07YBXNPSZ",
+      "B003JVKHEQ",
+      "B079ZGRDZH",
+      "B001EYUQIC",
+      "B005110Q0C",
+      "B0050SY8UK",
+      "B001EHD9JC",
+      "B001ELJE8I",
+      "B0050SZ7IC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B012K122XU",
+        "reason": "Premium wireless gaming headset"
+      },
+      {
+        "item_id": "B008U2XILI",
+        "reason": "Xbox controller for enhanced gameplay"
+      },
+      {
+        "item_id": "B001EHD9JC",
+        "reason": "LEGO Batman for fun gameplay"
+      },
+      {
+        "item_id": "B001ELJE8I",
+        "reason": "Halo: Combat Evolved is iconic"
+      },
+      {
+        "item_id": "B001EYUQIC",
+        "reason": "Brothers in Arms offers tactical gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 319
+  }
+}

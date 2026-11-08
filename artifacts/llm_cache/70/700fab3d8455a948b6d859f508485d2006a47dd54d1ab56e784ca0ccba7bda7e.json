@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09RNK4H6Z",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers SNES, not Xbox."
+      },
+      {
+        "item_id": "B08D9J9G1D",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no Switch interest."
+      },
+      {
+        "item_id": "B00GXHJ14A",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not specific to user preferences."
+      },
+      {
+        "item_id": "B01DVF2TI6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "General gaming headset, not specific."
+      },
+      {
+        "item_id": "B00005V95P",
+        "label": "support",
+        "score": 7,
+        "rationale": "Baseball game aligns with gaming interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1289,
+    "completion_tokens": 162
+  }
+}

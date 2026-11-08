@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07LFY75F9",
+        "label": "support",
+        "score": 7,
+        "rationale": "Supports Nintendo Switch gaming accessories."
+      },
+      {
+        "item_id": "B01NASUGOS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches interest in PlayStation 4 controllers."
+      },
+      {
+        "item_id": "B000HKN3ES",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo DS game, not a strong match."
+      },
+      {
+        "item_id": "B075PVMFY6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Racing game, not aligned with interests."
+      },
+      {
+        "item_id": "B01F9G0L94",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Unrelated to gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1054,
+    "completion_tokens": 158
+  }
+}

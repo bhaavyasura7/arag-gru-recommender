@@ -1,0 +1,51 @@
+{
+  "content": {
+    "ranking": [
+      "B09NNB18PS",
+      "B08V4PMGHZ",
+      "B07CK1VR2N",
+      "B08RHGW9QZ",
+      "B081GZ4X5B",
+      "B01N6CL2WY",
+      "B07D76HG8X",
+      "B08Q7Y55K5",
+      "B0C1YZDJHT",
+      "B071KCKX1Q",
+      "B000WE5248",
+      "B01I1N6MIG",
+      "B01N0MKQXI",
+      "B01N47QKKP",
+      "B07PZT3Z25",
+      "B08TW9246G",
+      "B089NN11K2",
+      "B08GLC8LWC",
+      "B08TZD2FX4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09NNB18PS",
+        "reason": "Compact design for gaming"
+      },
+      {
+        "item_id": "B08V4PMGHZ",
+        "reason": "Colorful backlighting"
+      },
+      {
+        "item_id": "B07CK1VR2N",
+        "reason": "Limited edition appeal"
+      },
+      {
+        "item_id": "B08RHGW9QZ",
+        "reason": "RGB and ergonomic design"
+      },
+      {
+        "item_id": "B081GZ4X5B",
+        "reason": "Programmable keys for gamers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3018,
+    "completion_tokens": 322
+  }
+}

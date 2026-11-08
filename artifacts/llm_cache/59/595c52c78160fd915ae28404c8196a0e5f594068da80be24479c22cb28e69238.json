@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B085G42RXJ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre than user's interests."
+      },
+      {
+        "item_id": "B01K1CC4R8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not a game, just an accessory."
+      },
+      {
+        "item_id": "B07HGT7JC8",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox RPGs and remasters."
+      },
+      {
+        "item_id": "B08H9CVSS9",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Strategy game, less action-oriented."
+      },
+      {
+        "item_id": "B000N45SO6",
+        "label": "support",
+        "score": 6,
+        "rationale": "Legacy system game aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 158
+  }
+}

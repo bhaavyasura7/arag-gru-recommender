@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002DLOM6C",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B008CP6MA2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers Xbox and Wii games."
+      },
+      {
+        "item_id": "B000LSJKAM",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Wii game interest."
+      },
+      {
+        "item_id": "B001JKTC9A",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User prefers Xbox over PlayStation."
+      },
+      {
+        "item_id": "B007W5PG5U",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "User focuses on console games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1338,
+    "completion_tokens": 148
+  }
+}

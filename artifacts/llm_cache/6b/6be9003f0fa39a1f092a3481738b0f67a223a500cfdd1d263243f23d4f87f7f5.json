@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B003JVKHEQ",
+      "B001EYUQR8",
+      "B003171CEW",
+      "B15FZ884E0",
+      "B07DY1JKRH",
+      "B003YVK5T8",
+      "B002LHGOU0",
+      "B005GTNBGK",
+      "B002RRLQIO",
+      "B003RS1AIS",
+      "B003YVK5T8",
+      "B004LLHFAW",
+      "B002I0K6DG",
+      "B009T3EOA6",
+      "B01GOK34SO",
+      "B07ZJ6RY1W",
+      "B07TJNGTWV",
+      "B0BSDQ8KSY",
+      "B01FZ884E0",
+      "B003171CEW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B003JVKHEQ",
+        "reason": "Popular action game with engaging gameplay"
+      },
+      {
+        "item_id": "B001EYUQR8",
+        "reason": "Action-packed hunting game experience"
+      },
+      {
+        "item_id": "B003171CEW",
+        "reason": "Immersive baseball simulation experience"
+      },
+      {
+        "item_id": "B15FZ884E0",
+        "reason": "Highly rated multiplayer shooter"
+      },
+      {
+        "item_id": "B07DY1JKRH",
+        "reason": "Unique horror survival gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3846,
+    "completion_tokens": 318
+  }
+}

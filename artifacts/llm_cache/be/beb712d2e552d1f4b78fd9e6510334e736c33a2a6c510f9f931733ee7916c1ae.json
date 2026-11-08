@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00GFWJGUC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar brand, different game type."
+      },
+      {
+        "item_id": "B014GEE31C",
+        "label": "support",
+        "score": 10,
+        "rationale": "Same franchise, highly rated game."
+      },
+      {
+        "item_id": "B000SFK0LG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Related brand, different game experience."
+      },
+      {
+        "item_id": "B00F3T4KR2",
+        "label": "support",
+        "score": 8,
+        "rationale": "Same title, different platform."
+      },
+      {
+        "item_id": "B06WRRWHDJ",
+        "label": "support",
+        "score": 9,
+        "rationale": "Expansion for favorite game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 714,
+    "completion_tokens": 149
+  }
+}

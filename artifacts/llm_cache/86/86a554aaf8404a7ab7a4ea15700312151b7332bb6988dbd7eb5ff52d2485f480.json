@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01BW4BRO0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, same game series."
+      },
+      {
+        "item_id": "B07QC4GD1K",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox One, includes The Division 2."
+      },
+      {
+        "item_id": "B000RO5HES",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Older NHL game, not preferred."
+      },
+      {
+        "item_id": "B0051MRW3U",
+        "label": "support",
+        "score": 7,
+        "rationale": "NHL game, recent interest."
+      },
+      {
+        "item_id": "B07GJ8P44X",
+        "label": "support",
+        "score": 9,
+        "rationale": "Same series, newer edition."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 809,
+    "completion_tokens": 157
+  }
+}

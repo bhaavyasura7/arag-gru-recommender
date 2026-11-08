@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B016PWS77E",
+      "B003DOSRSW",
+      "B00LPSS2LK",
+      "B18D5G4KXJ",
+      "B00005NCCW",
+      "B001K7HUR8",
+      "B00C5M4I54",
+      "B001ELJF8M",
+      "B07YBX5FVF",
+      "B003R7LBQK",
+      "B00QV3ZC44",
+      "B0BYPDQN2W",
+      "B01FMQ3LMU",
+      "B00CF7KVMI",
+      "B000VBIGK4",
+      "B000IOFM0G",
+      "B089F9SCS1",
+      "B006VB2W3A",
+      "B00D5G4KXJ",
+      "B00LPSS2LK",
+      "B00C5M4I54"
+    ],
+    "reasons": [
+      {
+        "item_id": "B016PWS77E",
+        "reason": "Immersive RPG experience"
+      },
+      {
+        "item_id": "B003DOSRSW",
+        "reason": "Action RPG with customization"
+      },
+      {
+        "item_id": "B00LPSS2LK",
+        "reason": "Open-world exploration"
+      },
+      {
+        "item_id": "B18D5G4KXJ",
+        "reason": "Engaging narrative"
+      },
+      {
+        "item_id": "B00005NCCW",
+        "reason": "Action-adventure gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3839,
+    "completion_tokens": 335
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09WBRSD1J",
+      "B017C27MT0",
+      "B071DVVFVZ",
+      "B12S5YN1H9",
+      "B0010B675K",
+      "B005QT3VJW",
+      "B00009VRFV",
+      "B00005QX4K",
+      "B000MED9FM",
+      "B000YP7FNUG",
+      "B001NGS6DI",
+      "B06Y65LZMX",
+      "B00DAP835G",
+      "B01LDWMGNC",
+      "B07QKLZYX9",
+      "B00KE6DCIM",
+      "B000000000",
+      "B000000000",
+      "B000000000",
+      "B000000000"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09WBRSD1J",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B017C27MT0",
+        "reason": "Compatible with multiple consoles"
+      },
+      {
+        "item_id": "B071DVVFVZ",
+        "reason": "Durable controller skin"
+      },
+      {
+        "item_id": "B12S5YN1H9",
+        "reason": "Refurbished Xbox 360 console"
+      },
+      {
+        "item_id": "B0010B675K",
+        "reason": "Combat simulation game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3143,
+    "completion_tokens": 307
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001ELJPJQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers PC games, not PSP."
+      },
+      {
+        "item_id": "B00004SVOO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User's history lacks NES games."
+      },
+      {
+        "item_id": "B092PR7W4G",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has shown interest in gaming accessories."
+      },
+      {
+        "item_id": "B00B1N07QM",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys gaming peripherals for PC."
+      },
+      {
+        "item_id": "B004W4BOSW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers PC games over Game Boy."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 156
+  }
+}

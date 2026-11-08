@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000GLHQJG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to Nintendo but not core interest."
+      },
+      {
+        "item_id": "B00BHRD4BM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's gaming preferences."
+      },
+      {
+        "item_id": "B00004U5VU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Older PlayStation game, not aligned."
+      },
+      {
+        "item_id": "B002I0JZIS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PlayStation Vita, not in user history."
+      },
+      {
+        "item_id": "B00004SVYE",
+        "label": "support",
+        "score": 8,
+        "rationale": "Classic Nintendo game, aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 161
+  }
+}

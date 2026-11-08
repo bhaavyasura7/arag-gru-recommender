@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BTBGDSFB",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for console, not a game."
+      },
+      {
+        "item_id": "B0BVVTQ5JP",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming mouse enhances PC gaming experience."
+      },
+      {
+        "item_id": "B0BMFL3RWT",
+        "label": "support",
+        "score": 8,
+        "rationale": "Wireless headset improves gaming audio experience."
+      },
+      {
+        "item_id": "B01MEG91OJ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Faceplate accessory, not directly related."
+      },
+      {
+        "item_id": "B00GGIEQY6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Yoga mat unrelated to gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1261,
+    "completion_tokens": 157
+  }
+}

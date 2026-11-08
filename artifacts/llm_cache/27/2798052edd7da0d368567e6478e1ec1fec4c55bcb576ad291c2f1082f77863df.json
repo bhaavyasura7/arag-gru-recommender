@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00KGQ7Q28",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Fighting games not heavily reviewed."
+      },
+      {
+        "item_id": "B000CO3IBW",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys action shooters like Far Cry."
+      },
+      {
+        "item_id": "B00TV0XUUC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "No prior interest in Diablo series."
+      },
+      {
+        "item_id": "B01J4JYIVO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "No prior interest in Diablo series."
+      },
+      {
+        "item_id": "B01A13062W",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "No prior interest in Diablo series."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1843,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00002SUFX",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B01L1Y0RZQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has Nintendo Switch focus."
+      },
+      {
+        "item_id": "B01N33OBYK",
+        "label": "support",
+        "score": 8,
+        "rationale": "Amiibo enhances Nintendo Switch experience."
+      },
+      {
+        "item_id": "B08R1BSYDD",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR headset not in user history."
+      },
+      {
+        "item_id": "B00006AVAY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not engage with PS2 games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1405,
+    "completion_tokens": 157
+  }
+}

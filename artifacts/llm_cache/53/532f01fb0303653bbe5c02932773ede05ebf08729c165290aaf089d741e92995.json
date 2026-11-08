@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008CP6MA2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B00MQ691WE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not relevant to user's interests."
+      },
+      {
+        "item_id": "B000F1TG0E",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show Xbox interest."
+      },
+      {
+        "item_id": "B004G5YI3U",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on Nintendo Switch."
+      },
+      {
+        "item_id": "B07WNV98X5",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly supports Nintendo Switch usage."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1267,
+    "completion_tokens": 157
+  }
+}

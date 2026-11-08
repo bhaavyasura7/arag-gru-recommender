@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01N0OGLXN",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B001L5TJ1O",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, not aligned with consoles."
+      },
+      {
+        "item_id": "B07JVT8VTW",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Custom controller for PlayStation, not Xbox."
+      },
+      {
+        "item_id": "B00002SUM0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy PlayStation game, user prefers Xbox."
+      },
+      {
+        "item_id": "B07TMF3LMY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox 360, user interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 932,
+    "completion_tokens": 167
+  }
+}

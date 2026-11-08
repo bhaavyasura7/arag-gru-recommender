@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "family-friendly video games",
+      "Nintendo 3DS titles",
+      "interactive and creative gameplay",
+      "games with strong female characters",
+      "fun multiplayer experiences"
+    ],
+    "current_intent": "looking for more engaging Nintendo 3DS games",
+    "avoid": [
+      "violent games",
+      "complex strategy games",
+      "adult-themed content"
+    ],
+    "summary": "User enjoys fun, family-friendly games on Nintendo 3DS, particularly those featuring creativity and strong characters, and seeks similar titles."
+  },
+  "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 90
+  }
+}

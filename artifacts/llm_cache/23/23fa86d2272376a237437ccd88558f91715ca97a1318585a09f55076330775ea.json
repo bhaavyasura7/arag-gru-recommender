@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002GHHJQI",
+      "B00005KG5U",
+      "B0030ADHZW",
+      "B093QCGVPH",
+      "B000UQSRRM",
+      "B000PO2Y3C",
+      "B000068HLW",
+      "B0017DE4HY",
+      "B00776UHG2",
+      "B082NBJZ2L",
+      "B094VF2SC6",
+      "B00E31J7TM",
+      "B01FUSW4Z0",
+      "B01I148T54",
+      "B01JOLIVRY",
+      "B005HERMD2",
+      "B077G4LVNC",
+      "B08XZ93J1Y",
+      "B00EDSI8GS",
+      "B00009YXBT"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002GHHJQI",
+        "reason": "Engaging family-friendly gameplay"
+      },
+      {
+        "item_id": "B00005KG5U",
+        "reason": "Interactive pet care activities"
+      },
+      {
+        "item_id": "B0030ADHZW",
+        "reason": "Fun trivia for family gatherings"
+      },
+      {
+        "item_id": "B093QCGVPH",
+        "reason": "Compatible with Nintendo Switch"
+      },
+      {
+        "item_id": "B000UQSRRM",
+        "reason": "Fun arcade-style action"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3201,
+    "completion_tokens": 312
+  }
+}

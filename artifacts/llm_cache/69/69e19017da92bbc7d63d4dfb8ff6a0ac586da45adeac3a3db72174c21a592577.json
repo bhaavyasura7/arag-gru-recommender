@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09FT35L2H",
+      "B078KJHNNL",
+      "B08R7QCNBY",
+      "B001KC014W",
+      "B096XMZYGD",
+      "B07CNZJH97",
+      "B07H44FVB2",
+      "B07YWHC9L4",
+      "B17L5TX5TH",
+      "B17L5TX5TH",
+      "B01AX9COKQ",
+      "B07C2H3RD8",
+      "B00423JHCS",
+      "B0036CESCK",
+      "B09L3TYBBC",
+      "B07RZTX6VR",
+      "B07L5TX5TH",
+      "B07CNZJH97",
+      "B01LX4I8H8",
+      "B00005QZVC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09FT35L2H",
+        "reason": "High-quality mechanical keyboard"
+      },
+      {
+        "item_id": "B078KJHNNL",
+        "reason": "Premium gaming headset features"
+      },
+      {
+        "item_id": "B08R7QCNBY",
+        "reason": "Realistic racing wheel experience"
+      },
+      {
+        "item_id": "B001KC014W",
+        "reason": "Engaging mini-golf game"
+      },
+      {
+        "item_id": "B096XMZYGD",
+        "reason": "Rechargeable battery pack convenience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3545,
+    "completion_tokens": 326
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0050SY300",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers fishing games, not Star Wars."
+      },
+      {
+        "item_id": "B002BSA388",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User enjoys casual games, not platformers."
+      },
+      {
+        "item_id": "B002JTX9VC",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes Nintendo DS games, similar style."
+      },
+      {
+        "item_id": "B0056WJA6M",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User prefers lighter games, not action RPGs."
+      },
+      {
+        "item_id": "B0050SYY5E",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no Xbox 360 history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1244,
+    "completion_tokens": 160
+  }
+}

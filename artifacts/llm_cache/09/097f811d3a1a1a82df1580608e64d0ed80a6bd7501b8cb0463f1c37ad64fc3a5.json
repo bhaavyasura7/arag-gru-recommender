@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B001V7QIDO",
+      "B0032GPY96",
+      "B00420K18K",
+      "B007WS5R5DP",
+      "B003JVKHEQ",
+      "B00470LIEQ",
+      "B00IEZ6H4G",
+      "B001EYUY8Y",
+      "B00ZM5OXD8",
+      "B00DYJGDYQ",
+      "B00L4SD1F8",
+      "B08N6PFRPD",
+      "B00009MGVE",
+      "B01KX8ETK0",
+      "B0032GPY96",
+      "B000S6AG9G",
+      "B07BW77M9V",
+      "B00000K2R6",
+      "B007G3U7NE",
+      "B00ZM5OXD8",
+      "B00IEZ6H4G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001V7QIDO",
+        "reason": "Essential for Xbox LIVE purchases"
+      },
+      {
+        "item_id": "B0032GPY96",
+        "reason": "Improves Xbox Live communication"
+      },
+      {
+        "item_id": "B00420K18K",
+        "reason": "Relevant Xbox 360 game title"
+      },
+      {
+        "item_id": "B007WS5R5DP",
+        "reason": "Popular Xbox 360 game"
+      },
+      {
+        "item_id": "B003JVKHEQ",
+        "reason": "Classic Xbox 360 shooter game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3625,
+    "completion_tokens": 340
+  }
+}

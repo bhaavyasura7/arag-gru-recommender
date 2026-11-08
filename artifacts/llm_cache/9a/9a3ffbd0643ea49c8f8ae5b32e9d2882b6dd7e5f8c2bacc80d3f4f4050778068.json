@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08R5PR6SG",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches interest in gaming headsets."
+      },
+      {
+        "item_id": "B07VVNP9TB",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not relevant to user's gaming interests."
+      },
+      {
+        "item_id": "B0778W12LD",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to gaming but not preferred genre."
+      },
+      {
+        "item_id": "B089NCV442",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Switch accessories not relevant."
+      },
+      {
+        "item_id": "B00001XDTT",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older PC game, less relevant now."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1371,
+    "completion_tokens": 154
+  }
+}

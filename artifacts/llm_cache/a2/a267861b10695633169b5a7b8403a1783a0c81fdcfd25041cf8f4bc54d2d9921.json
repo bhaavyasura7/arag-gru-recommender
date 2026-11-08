@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DDIRERI",
+      "B0BXB1NKWF",
+      "B01NAGTKX3",
+      "B00Y4S5KPY",
+      "B0050SYYTK",
+      "B00IZXXF92",
+      "B20HM1XPN4",
+      "B0016Q00FC",
+      "B14F87WGA",
+      "B006QRMR4S",
+      "B004VNHVF4",
+      "B001EHD8YS",
+      "B0016Q00FC",
+      "B00498XT1G",
+      "B0050SVOXE",
+      "B073GYFP2M",
+      "B006VE40JQ",
+      "B002F87WGA",
+      "B07P2J6HSR",
+      "B004VNHVF4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DDIRERI",
+        "reason": "Popular PS4 title for gamers"
+      },
+      {
+        "item_id": "B0BXB1NKWF",
+        "reason": "Custom PS5 controller accessory"
+      },
+      {
+        "item_id": "B01NAGTKX3",
+        "reason": "Classic PS4 game collection"
+      },
+      {
+        "item_id": "B00Y4S5KPY",
+        "reason": "RGB mouse pad for gaming"
+      },
+      {
+        "item_id": "B0050SYYTK",
+        "reason": "Fun Kinect game for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3755,
+    "completion_tokens": 322
+  }
+}

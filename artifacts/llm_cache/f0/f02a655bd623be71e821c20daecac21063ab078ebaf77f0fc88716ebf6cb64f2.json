@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002BU0DPE",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox 360, user interest."
+      },
+      {
+        "item_id": "B072C3VM5F",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox 360, not Xbox One."
+      },
+      {
+        "item_id": "B071X7C1B4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in Nintendo Switch."
+      },
+      {
+        "item_id": "B001DLUESI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Legacy system, not directly relevant."
+      },
+      {
+        "item_id": "B00000K57S",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, user prefers console games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 163
+  }
+}

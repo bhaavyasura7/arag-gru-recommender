@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07NDCL3XB",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 4 products."
+      },
+      {
+        "item_id": "B001EHD8YI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in Wii games."
+      },
+      {
+        "item_id": "B07SGH1C49",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has a PlayStation Vita, not PSP."
+      },
+      {
+        "item_id": "B0728H6KPV",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a Nintendo Switch."
+      },
+      {
+        "item_id": "B09DDWRDWM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no Xbox One interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1322,
+    "completion_tokens": 165
+  }
+}

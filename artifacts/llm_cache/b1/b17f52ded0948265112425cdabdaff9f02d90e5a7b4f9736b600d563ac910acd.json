@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0009HJCGC",
+      "B000035XNW",
+      "B018D6J6JI",
+      "B0006GSF7S",
+      "B0006GSF7S",
+      "B0009HJCGC",
+      "B000035XNW",
+      "B0012Z84KK",
+      "B001QCWQGW",
+      "B0012Z84KK",
+      "B001QCWQGW",
+      "B08NT6NMZ3",
+      "B09ZDGD6VS",
+      "B0BMXG6T3Q",
+      "B09LBH3FVP",
+      "B07KPFR2TT",
+      "B07X3HFSC2",
+      "B08MKVBZNQ",
+      "B0BTM4SLHL",
+      "B003VR5PPY",
+      "B12D6J6JI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0009HJCGC",
+        "reason": "Classic Atari game collection"
+      },
+      {
+        "item_id": "B000035XNW",
+        "reason": "Classic Sega Genesis game"
+      },
+      {
+        "item_id": "B018D6J6JI",
+        "reason": "Amiibo for enhanced gameplay"
+      },
+      {
+        "item_id": "B0006GSF7S",
+        "reason": "Nostalgic Sega game"
+      },
+      {
+        "item_id": "B0012Z84KK",
+        "reason": "Popular Dragon Ball Z game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3704,
+    "completion_tokens": 331
+  }
+}

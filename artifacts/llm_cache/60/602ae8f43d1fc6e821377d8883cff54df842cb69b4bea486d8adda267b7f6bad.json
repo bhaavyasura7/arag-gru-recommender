@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "retro video games",
+      "PC gaming",
+      "multiplayer online games",
+      "game collections",
+      "gaming accessories"
+    ],
+    "current_intent": "looking for quality gaming accessories or classic games",
+    "avoid": [
+      "low-quality products",
+      "overpriced items",
+      "poor customer service"
+    ],
+    "summary": "User enjoys retro and PC games, seeks reliable gaming accessories, and has had mixed experiences with game collections."
+  },
+  "usage": {
+    "prompt_tokens": 293,
+    "completion_tokens": 77
+  }
+}

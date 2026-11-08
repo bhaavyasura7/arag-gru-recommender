@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08JY5GTCQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with PS4, user has PS4 headset."
+      },
+      {
+        "item_id": "B09P88WHN4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Multi-platform, user enjoys PS4 gaming."
+      },
+      {
+        "item_id": "B0883R3CF2",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with PS3 and PS4, user has both."
+      },
+      {
+        "item_id": "B08H1312NX",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Compatible with PS4, but not PS3."
+      },
+      {
+        "item_id": "B08H14C6TP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar to previous, lacks PS3 support."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1553,
+    "completion_tokens": 171
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001P5HPNY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "not aligned with gaming preferences"
+      },
+      {
+        "item_id": "B007VX0AW2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "not aligned with gaming preferences"
+      },
+      {
+        "item_id": "B074T7MTFS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "not aligned with gaming preferences"
+      },
+      {
+        "item_id": "B06ZY6VL7B",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "not aligned with gaming preferences"
+      },
+      {
+        "item_id": "B00AB9UDAW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "not aligned with gaming preferences"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2212,
+    "completion_tokens": 151
+  }
+}

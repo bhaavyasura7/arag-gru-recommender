@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07P5XLFDD",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Wii U console."
+      },
+      {
+        "item_id": "B0765TZVMD",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to Nintendo, but for Switch."
+      },
+      {
+        "item_id": "B0054U3UWQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Wii game, but not in user's history."
+      },
+      {
+        "item_id": "B00M3WXPKK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "For PS4, not relevant to user."
+      },
+      {
+        "item_id": "B000N24EO8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, not aligned with user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1137,
+    "completion_tokens": 165
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0007VEW7O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B00AMKTR48",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Strategy games not in user history."
+      },
+      {
+        "item_id": "B000099SI2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Chess game differs from user's interests."
+      },
+      {
+        "item_id": "B00005YTY7",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Flight combat not in user history."
+      },
+      {
+        "item_id": "B00005ME2J",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Survival genre not reflected in history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2197,
+    "completion_tokens": 151
+  }
+}

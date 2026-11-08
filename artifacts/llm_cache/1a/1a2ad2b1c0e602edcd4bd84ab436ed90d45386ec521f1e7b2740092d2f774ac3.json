@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B007BUA0AM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Real-time strategy not in user history."
+      },
+      {
+        "item_id": "B01MYUCFBK",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PS4 games and collectibles."
+      },
+      {
+        "item_id": "B00005QIQM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "No similar games in user history."
+      },
+      {
+        "item_id": "B001G6062O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic game, but not user preference."
+      },
+      {
+        "item_id": "B00HM1XPN4",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes action-adventure games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1353,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B014EU6118",
+      "B07H9NDGNL",
+      "B00DB2BI8M",
+      "B000067K2D",
+      "B001G56I86",
+      "B0002WYU98",
+      "B01N7VUOPH",
+      "B00004U5VF",
+      "B008KGNCSI",
+      "B00ZM5OXD8",
+      "B001EYUPHO",
+      "B000021XYX",
+      "B00D7B9M0I",
+      "B00ZDNNRB8",
+      "B00DB2BI8M",
+      "B000ODVKUC",
+      "B01FU86LU4",
+      "B0088MVPFQ",
+      "B00D7B9M0I",
+      "B0002WYU98",
+      "B002DT159Q"
+    ],
+    "reasons": [
+      {
+        "item_id": "B014EU6118",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B07H9NDGNL",
+        "reason": "Ergonomic gaming mouse"
+      },
+      {
+        "item_id": "B00DB2BI8M",
+        "reason": "Learn guitar with fun"
+      },
+      {
+        "item_id": "B000067K2D",
+        "reason": "Star Wars action game"
+      },
+      {
+        "item_id": "B001G56I86",
+        "reason": "Enhances Rock Band experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3862,
+    "completion_tokens": 325
+  }
+}

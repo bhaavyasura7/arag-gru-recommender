@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07WSHTJ48",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's gaming preferences."
+      },
+      {
+        "item_id": "B001EYUQ5A",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre than user's interests."
+      },
+      {
+        "item_id": "B0001AU6KS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not a console game like user's history."
+      },
+      {
+        "item_id": "B074MMGR8F",
+        "label": "support",
+        "score": 7,
+        "rationale": "PlayStation game aligns with user's interests."
+      },
+      {
+        "item_id": "B072289M2R",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox game, user prefers Nintendo products."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1284,
+    "completion_tokens": 155
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming mice",
+      "high DPI sensors",
+      "RGB lighting",
+      "programmable buttons",
+      "ergonomic designs"
+    ],
+    "current_intent": "looking for a high-performance gaming mouse",
+    "avoid": [
+      "heavy mice",
+      "non-wireless options",
+      "poor build quality"
+    ],
+    "summary": "User is a gaming enthusiast seeking advanced, customizable gaming mice with high precision and ergonomic features."
+  },
+  "usage": {
+    "prompt_tokens": 392,
+    "completion_tokens": 73
+  }
+}

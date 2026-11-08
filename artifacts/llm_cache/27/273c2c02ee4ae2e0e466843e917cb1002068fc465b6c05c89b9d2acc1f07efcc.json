@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00ZC3I5WK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, but PlayStation platform."
+      },
+      {
+        "item_id": "B0053B7ICO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, but PlayStation platform."
+      },
+      {
+        "item_id": "B006PP4136",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B001QD4THU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox accessory, not relevant."
+      },
+      {
+        "item_id": "B01953YZ0S",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Baseball game, different from user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1248,
+    "completion_tokens": 155
+  }
+}

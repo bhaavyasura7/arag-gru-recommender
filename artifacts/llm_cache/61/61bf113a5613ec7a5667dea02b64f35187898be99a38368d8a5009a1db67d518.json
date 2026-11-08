@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01BF9X6LO",
+      "B087NM8BB6",
+      "B004APAEL6",
+      "B005C7JOH6",
+      "B0073J8BYS",
+      "B0093G9VOI",
+      "B008ATWGDM",
+      "B004HD55VK",
+      "B00CJ9OTNE",
+      "B003R7JXMO",
+      "B00YXO5UXG",
+      "B005G4CXPK",
+      "B00DTY9B0O",
+      "B001QVH18Q",
+      "B0C2GKZ4KY",
+      "B0BN942894",
+      "B004APAEL6",
+      "B001G7PRPO",
+      "B00CJ9OTNE",
+      "B004APAEL6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01BF9X6LO",
+        "reason": "Engaging family-friendly gameplay"
+      },
+      {
+        "item_id": "B087NM8BB6",
+        "reason": "Fun puzzles and ghost-catching"
+      },
+      {
+        "item_id": "B004APAEL6",
+        "reason": "Classic retro gaming experience"
+      },
+      {
+        "item_id": "B005C7JOH6",
+        "reason": "Interactive music gameplay"
+      },
+      {
+        "item_id": "B0073J8BYS",
+        "reason": "Family-friendly racing adventure"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3888,
+    "completion_tokens": 314
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "survival horror",
+      "racing games",
+      "multiplayer experiences",
+      "immersive storytelling"
+    ],
+    "current_intent": "looking for new action or racing games to play",
+    "avoid": [
+      "puzzle games",
+      "sports simulations",
+      "slow-paced games"
+    ],
+    "summary": "User enjoys high-energy action and racing games, particularly on Xbox and PlayStation, and seeks similar titles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 298,
+    "completion_tokens": 85
+  }
+}

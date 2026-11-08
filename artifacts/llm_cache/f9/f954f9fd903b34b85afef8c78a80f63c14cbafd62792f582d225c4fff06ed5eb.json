@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B004MPRFF2",
+      "B002IYR0KO",
+      "B0050S8Z8G",
+      "B004D8QAAO",
+      "B0050S8Z8G",
+      "B000FDDWSY",
+      "B000V08CUO",
+      "B00002S7Z2",
+      "B0006JF6IQ",
+      "B0007ZDKTQ",
+      "B000G0F8Z2",
+      "B0007ZDKTQ",
+      "B000FDDWSY",
+      "B004USOOAK",
+      "B008GW5V9E",
+      "B0714KY9NQ",
+      "B0716W5LL4",
+      "B018IL7NMU",
+      "B00NB5R2E8",
+      "B0036S4Q6C"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004MPRFF2",
+        "reason": "Innovative gameplay mechanics"
+      },
+      {
+        "item_id": "B002IYR0KO",
+        "reason": "Co-op survival horror experience"
+      },
+      {
+        "item_id": "B004D8QAAO",
+        "reason": "High-quality shooter collection"
+      },
+      {
+        "item_id": "B000FDDWSY",
+        "reason": "Engaging shooting gallery game"
+      },
+      {
+        "item_id": "B000V08CUO",
+        "reason": "Unique shooting gallery experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2211,
+    "completion_tokens": 326
+  }
+}

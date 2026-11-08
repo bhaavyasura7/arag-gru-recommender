@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0080CAOYM",
+        "label": "support",
+        "score": 9,
+        "rationale": "Similar franchise and gameplay style."
+      },
+      {
+        "item_id": "B06ZZCCDP7",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different franchise, but similar genre."
+      },
+      {
+        "item_id": "B009KNGU6G",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a video game."
+      },
+      {
+        "item_id": "B00083G5BM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre and outdated."
+      },
+      {
+        "item_id": "B07P6MD9B7",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different style, but still a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1050,
+    "completion_tokens": 153
+  }
+}

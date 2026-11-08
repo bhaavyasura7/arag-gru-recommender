@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00VR33XVC",
+      "B00000DMAG",
+      "B085751BTH",
+      "B001EYUOAW",
+      "B11YF64SVV",
+      "B093GVW6WD",
+      "B11YF64SVV",
+      "B000F1UIPG",
+      "B0000DJX7H",
+      "B0057ETTZG",
+      "B07JFTWDY9",
+      "B07XZS4NB9",
+      "B07T8JGPTT",
+      "B07VQ6YNQZ",
+      "B006VE454Q",
+      "B00BIIE3B0",
+      "B09BJL9B8C",
+      "B08M3BS9ZT",
+      "B07YF64SVV",
+      "B00000DMAG",
+      "B07T8JGPTT"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00VR33XVC",
+        "reason": "Includes classic Zelda game"
+      },
+      {
+        "item_id": "B00000DMAG",
+        "reason": "Classic RPG experience"
+      },
+      {
+        "item_id": "B085751BTH",
+        "reason": "Retro gaming console with games"
+      },
+      {
+        "item_id": "B001EYUOAW",
+        "reason": "Nostalgic amusement park simulation"
+      },
+      {
+        "item_id": "B11YF64SVV",
+        "reason": "Compatible with Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3585,
+    "completion_tokens": 329
+  }
+}

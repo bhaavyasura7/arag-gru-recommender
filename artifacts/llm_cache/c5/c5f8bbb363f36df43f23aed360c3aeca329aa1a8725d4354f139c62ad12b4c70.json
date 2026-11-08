@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08MBKGJVY",
+      "B001EHD9N8",
+      "B001ELJE8I",
+      "B19F6CY625",
+      "B07WS18ZS3",
+      "B07624RBWB",
+      "B009GWKP76",
+      "B0053B7ICO",
+      "B00W9DHUBS",
+      "B01NASEX0C",
+      "B018JDBWQ0",
+      "B086M4DQ7R",
+      "B00000JRSB",
+      "B0056L328K",
+      "B001EYUNYY",
+      "B12K1OO5PU",
+      "B00I7NA43U",
+      "B08NRVRF3J",
+      "B00W9DHUBS",
+      "B001EHD9N8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08MBKGJVY",
+        "reason": "Favorite game series on PS2"
+      },
+      {
+        "item_id": "B001EHD9N8",
+        "reason": "Classic RPG from PS1 era"
+      },
+      {
+        "item_id": "B001ELJE8I",
+        "reason": "Highly nostalgic PS2 title"
+      },
+      {
+        "item_id": "B19F6CY625",
+        "reason": "Not relevant to PS2 interests"
+      },
+      {
+        "item_id": "B07WS18ZS3",
+        "reason": "Modern game, not retro"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3921,
+    "completion_tokens": 323
+  }
+}

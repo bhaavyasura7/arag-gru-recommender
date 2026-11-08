@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08CH4ZNKD",
+        "label": "support",
+        "score": 8,
+        "rationale": "7.1 surround sound matches gaming interest."
+      },
+      {
+        "item_id": "B0B1GVQFRH",
+        "label": "support",
+        "score": 8,
+        "rationale": "Comfortable and immersive gaming experience."
+      },
+      {
+        "item_id": "B0BZDWM91S",
+        "label": "support",
+        "score": 8,
+        "rationale": "7.1 surround sound for gaming performance."
+      },
+      {
+        "item_id": "B09XHKHMPM",
+        "label": "support",
+        "score": 7,
+        "rationale": "Ergonomic design for long gaming sessions."
+      },
+      {
+        "item_id": "B0947C585P",
+        "label": "support",
+        "score": 7,
+        "rationale": "Comfortable design for extended gaming use."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3024,
+    "completion_tokens": 161
+  }
+}

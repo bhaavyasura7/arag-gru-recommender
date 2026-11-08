@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00005ME6O",
+      "B001LX4BMS",
+      "B000068I2T",
+      "B0001NM4FU",
+      "B001EGJTEW",
+      "B074FYJ88V",
+      "B09GFM13FS",
+      "B00IJG6DOY",
+      "B07HRNV5QM",
+      "B01N9BFM31",
+      "B01HA99MOI",
+      "B000E8D0EQ",
+      "B08SG26GDD",
+      "B000035XCO",
+      "B07L8MVVKR",
+      "B004RS1SQQ",
+      "B07RC5P99K",
+      "B000068I2T",
+      "B00005ME6O",
+      "B0001NM4FU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00005ME6O",
+        "reason": "Classic horror game experience"
+      },
+      {
+        "item_id": "B001LX4BMS",
+        "reason": "Nostalgic kart racing fun"
+      },
+      {
+        "item_id": "B000068I2T",
+        "reason": "Rare Japanese import game"
+      },
+      {
+        "item_id": "B0001NM4FU",
+        "reason": "Spider-Man themed activities"
+      },
+      {
+        "item_id": "B001EGJTEW",
+        "reason": "Interactive fairy tales for kids"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3279,
+    "completion_tokens": 315
+  }
+}

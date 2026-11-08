@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B014EU6118",
+      "B07H9NDGNL",
+      "B00DB2BI8M",
+      "B01N7VUOPH",
+      "B000067K2D",
+      "B0002WYU98",
+      "B00004U5VF",
+      "B001G56I86",
+      "B008KGNCSI",
+      "B00ZM5OXD8",
+      "B000021XYX",
+      "B00D7B9M0I",
+      "B00ZDNNRB8",
+      "B00DB2BI8M",
+      "B000ODVKUC",
+      "B01FU86LU4",
+      "B0088MVPFQ",
+      "B00D7B9M0I",
+      "B0002WYU98",
+      "B00ZM5OXD8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B014EU6118",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B07H9NDGNL",
+        "reason": "Ergonomic gaming mouse"
+      },
+      {
+        "item_id": "B00DB2BI8M",
+        "reason": "Learn guitar with fun"
+      },
+      {
+        "item_id": "B01N7VUOPH",
+        "reason": "Engaging RPG experience"
+      },
+      {
+        "item_id": "B000067K2D",
+        "reason": "Star Wars action game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3859,
+    "completion_tokens": 319
+  }
+}

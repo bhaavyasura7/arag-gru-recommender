@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09YLXLVBN",
+      "B08PSV5GQL",
+      "B09Y32ZF5B",
+      "B09PH9V12H",
+      "B08ZD2CKTX",
+      "B07W6H9H6H",
+      "B016QB0VOG",
+      "B01MCWSQGB",
+      "B001DL4RF4",
+      "B001LQICFC",
+      "B00BQ08W6C",
+      "B07Y6735TB",
+      "B12PH9V12H",
+      "B096XMZYGD",
+      "B01BDZXT0S",
+      "B005GL9DMO",
+      "B002QXLZVC",
+      "B07H9N2VVD",
+      "B001DL4RF4",
+      "B001DL4RF4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09YLXLVBN",
+        "reason": "High-capacity Xbox battery pack"
+      },
+      {
+        "item_id": "B08PSV5GQL",
+        "reason": "Newest Nintendo Switch bundle"
+      },
+      {
+        "item_id": "B09Y32ZF5B",
+        "reason": "High capacity Xbox battery pack"
+      },
+      {
+        "item_id": "B09PH9V12H",
+        "reason": "Includes multiple rechargeable batteries"
+      },
+      {
+        "item_id": "B08ZD2CKTX",
+        "reason": "Portable battery charger for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4020,
+    "completion_tokens": 324
+  }
+}

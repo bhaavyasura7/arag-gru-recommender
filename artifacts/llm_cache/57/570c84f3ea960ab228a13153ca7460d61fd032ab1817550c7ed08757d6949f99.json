@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B009O8HH3M",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC gaming headset, not Nintendo related."
+      },
+      {
+        "item_id": "B085ZNBWF1",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "VR gaming, user prefers Nintendo products."
+      },
+      {
+        "item_id": "B0C4L1MRRN",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PSVR2 accessory, not relevant to user."
+      },
+      {
+        "item_id": "B08DJ9L8FZ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Nintendo Wii, user interests."
+      },
+      {
+        "item_id": "B08H8CPSQJ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wii controller, aligns with user preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1330,
+    "completion_tokens": 169
+  }
+}

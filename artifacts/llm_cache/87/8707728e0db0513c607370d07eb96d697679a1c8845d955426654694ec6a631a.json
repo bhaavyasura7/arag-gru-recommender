@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B081SHD773",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo Switch products."
+      },
+      {
+        "item_id": "B0000296O5",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Not related to Nintendo Switch."
+      },
+      {
+        "item_id": "B004RMK5QG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in PlayStation."
+      },
+      {
+        "item_id": "B087S7PRWB",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly related to Nintendo Switch games."
+      },
+      {
+        "item_id": "B001QCWRZC",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Not a Nintendo Switch game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1308,
+    "completion_tokens": 158
+  }
+}

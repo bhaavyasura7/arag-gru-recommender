@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07KS74Q2X",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for racing games, not core interest."
+      },
+      {
+        "item_id": "B00005YKL1",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Skateboarding game, not aligned with interests."
+      },
+      {
+        "item_id": "B00DTY9B0O",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but collectible aspect may appeal."
+      },
+      {
+        "item_id": "B08CW2M37L",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Far Cry series not in user history."
+      },
+      {
+        "item_id": "B09H815D9D",
+        "label": "support",
+        "score": 7,
+        "rationale": "Charging dock for Nintendo Switch, relevant accessory."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1236,
+    "completion_tokens": 169
+  }
+}

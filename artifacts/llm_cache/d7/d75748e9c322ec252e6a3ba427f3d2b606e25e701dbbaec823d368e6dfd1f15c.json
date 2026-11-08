@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08R8CJZC6",
+      "B017D8AUCQ",
+      "B00BGAA3S2",
+      "B07WKJNQ4C",
+      "B06XC5JQ8V",
+      "B001G6064C",
+      "B08Z3J17ZY",
+      "B004GKNKQQ",
+      "B003EZ1KGQ",
+      "B00F4OZMHS",
+      "B07TD17MTK",
+      "B008B2OSQQ",
+      "B0BM48ZLZT",
+      "B00002SVBL",
+      "B000FN99KO",
+      "B20I6BOQDW",
+      "B0136BEH1W",
+      "B0009ZGK4Q",
+      "B12N9TWCCB",
+      "B08SBP4FLD"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08R8CJZC6",
+        "reason": "Popular PS5 game title"
+      },
+      {
+        "item_id": "B017D8AUCQ",
+        "reason": "Complete Destiny collection"
+      },
+      {
+        "item_id": "B00BGAA3S2",
+        "reason": "Essential PS4 accessory"
+      },
+      {
+        "item_id": "B07WKJNQ4C",
+        "reason": "Versatile controller accessory"
+      },
+      {
+        "item_id": "B06XC5JQ8V",
+        "reason": "Protective PS5 console cover"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3499,
+    "completion_tokens": 329
+  }
+}

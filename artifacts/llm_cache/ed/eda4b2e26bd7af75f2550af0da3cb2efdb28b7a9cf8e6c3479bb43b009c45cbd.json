@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000XPKXJA",
+      "B001FB56KM",
+      "B00CJ8X25G",
+      "B005FDUSTA",
+      "B00644IK30",
+      "B005FPD0O8",
+      "B00KAPFOJ2",
+      "B01A13062W",
+      "B01FCLK7CC",
+      "B00TV0XUUC",
+      "B00NU9TQLM",
+      "B000OM8W86",
+      "B00006L7A1",
+      "B00HZI3TGC",
+      "B000OL6S9C",
+      "B00KOOUVN8",
+      "B01J4JYIVO",
+      "B00KLXU8TO",
+      "B00W1SXH6S",
+      "B01FCLK7CC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000XPKXJA",
+        "reason": "Classic RPG with strong narrative"
+      },
+      {
+        "item_id": "B001FB56KM",
+        "reason": "Enhanced edition of a classic RPG"
+      },
+      {
+        "item_id": "B00CJ8X25G",
+        "reason": "Highly rated RPG in fantasy setting"
+      },
+      {
+        "item_id": "B005FDUSTA",
+        "reason": "Includes expansions for deeper gameplay"
+      },
+      {
+        "item_id": "B00644IK30",
+        "reason": "Contains Final Fantasy titles"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1940,
+    "completion_tokens": 320
+  }
+}

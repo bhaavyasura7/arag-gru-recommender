@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07WP2ZYNR",
+      "B07N2Z9VZX",
+      "B07CRX5X9T",
+      "B07MRJ12HX",
+      "B19ZHZBYCJ",
+      "B0050SZ7IC",
+      "B00020V4PI",
+      "B00004S653",
+      "B00009XS6G",
+      "B087NNPYP3",
+      "B000051WA3",
+      "B003NHRDPW",
+      "B00009XS6G",
+      "B00020V4PI",
+      "B00WH0WRES",
+      "B004LLHFAW",
+      "B071W7FSKN",
+      "B00020V4PI",
+      "B00020V4PI",
+      "B00020V4PI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07WP2ZYNR",
+        "reason": "High-quality wireless controller"
+      },
+      {
+        "item_id": "B07N2Z9VZX",
+        "reason": "Popular game for Nintendo Switch"
+      },
+      {
+        "item_id": "B07CRX5X9T",
+        "reason": "Ergonomic gaming mouse"
+      },
+      {
+        "item_id": "B07MRJ12HX",
+        "reason": "Essential repair kit for Joy-Con"
+      },
+      {
+        "item_id": "B19ZHZBYCJ",
+        "reason": "Customizable gaming keypad"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3852,
+    "completion_tokens": 317
+  }
+}

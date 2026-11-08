@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09SYYPWY8",
+      "B4C37TBM5Z",
+      "B01MG8P418",
+      "B0B19SPF5K",
+      "B099X165QB",
+      "B07KHNMRHL",
+      "B000IFLEPW",
+      "B07V3G1HNP",
+      "B0BZRV417M",
+      "B00002ST3D",
+      "B00LXZOPR0",
+      "B0001HAIA4",
+      "B004W75JJ4",
+      "B00KQXKULK",
+      "B01N7AH5QA",
+      "B00TQY1ZKK",
+      "B07R1V63Y9",
+      "B00001NFV4",
+      "B00LXZOPR0",
+      "B07484YY4L",
+      "B0091P25X0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09SYYPWY8",
+        "reason": "RGB gaming mouse with ergonomic design"
+      },
+      {
+        "item_id": "B4C37TBM5Z",
+        "reason": "Extended RGB mouse pad for gamers"
+      },
+      {
+        "item_id": "B01MG8P418",
+        "reason": "Customizable Steam controller for PC"
+      },
+      {
+        "item_id": "B0B19SPF5K",
+        "reason": "VR accessories enhance gaming experience"
+      },
+      {
+        "item_id": "B099X165QB",
+        "reason": "Infrared light for VR tracking improvement"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3490,
+    "completion_tokens": 345
+  }
+}

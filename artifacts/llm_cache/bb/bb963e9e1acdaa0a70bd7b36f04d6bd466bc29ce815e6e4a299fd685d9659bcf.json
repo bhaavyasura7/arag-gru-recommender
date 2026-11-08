@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09DC7CSRZ",
+      "B07M8JP8BZ",
+      "B04H7QH9U",
+      "B08FRMRKXL",
+      "B08FMVKF7D",
+      "B071DWLXND",
+      "B003O68TG4",
+      "B06XBZLXQW",
+      "B08HT1X9JM",
+      "B088392982",
+      "B00004RBOM",
+      "B00005QBBE",
+      "B017V6YVDC",
+      "B00B0O8DVI",
+      "B079DR8CY6",
+      "B000070MQM",
+      "B12DL897C1",
+      "B00005QBBE",
+      "B00004RBOM",
+      "B00005QBBE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09DC7CSRZ",
+        "reason": "Cute design for family gaming"
+      },
+      {
+        "item_id": "B07M8JP8BZ",
+        "reason": "Useful charging stand for Switch"
+      },
+      {
+        "item_id": "B04H7QH9U",
+        "reason": "Educational game for kids"
+      },
+      {
+        "item_id": "B08FRMRKXL",
+        "reason": "Portable charging dock for Switch Lite"
+      },
+      {
+        "item_id": "B08FMVKF7D",
+        "reason": "Stylish skin for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3833,
+    "completion_tokens": 321
+  }
+}

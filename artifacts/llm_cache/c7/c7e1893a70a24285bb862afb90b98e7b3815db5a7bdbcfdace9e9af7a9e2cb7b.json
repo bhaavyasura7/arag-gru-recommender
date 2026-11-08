@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BN1HXJBB",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers retro gaming products."
+      },
+      {
+        "item_id": "B004NS8UNO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, not aligned with consoles."
+      },
+      {
+        "item_id": "B001EHD9GA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B017Y97NHM",
+        "label": "support",
+        "score": 7,
+        "rationale": "PlayStation 4 game aligns with interests."
+      },
+      {
+        "item_id": "B016S5DC3M",
+        "label": "support",
+        "score": 8,
+        "rationale": "Amiibo enhances gaming experience, relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1411,
+    "completion_tokens": 158
+  }
+}

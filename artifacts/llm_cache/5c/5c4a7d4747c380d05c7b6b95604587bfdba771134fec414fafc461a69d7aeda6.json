@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00103HXI8",
+      "B09M8GXRDY",
+      "B0100SMCT8",
+      "B00N6HDQ14",
+      "B091V1HKFM",
+      "B00H3YS4YU",
+      "B000E7623I",
+      "B0006RH9XI",
+      "B000I6SILY",
+      "B00XUYIOX8",
+      "B07G21RPY4",
+      "B00O7O0R6C",
+      "B002TJZUAU",
+      "B096MBBFJS",
+      "B00NZA1RY0",
+      "B08KNN9VH2",
+      "B20BL3JPS1F",
+      "B000HX1P5E",
+      "B0006RH9XI",
+      "B00EP17RGK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00103HXI8",
+        "reason": "Classic Nintendo NES game"
+      },
+      {
+        "item_id": "B09M8GXRDY",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B0100SMCT8",
+        "reason": "Cute skin for Nintendo 2DS"
+      },
+      {
+        "item_id": "B00N6HDQ14",
+        "reason": "Skin for Nintendo Wii console"
+      },
+      {
+        "item_id": "B091V1HKFM",
+        "reason": "Replacement part for PS4"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3662,
+    "completion_tokens": 329
+  }
+}

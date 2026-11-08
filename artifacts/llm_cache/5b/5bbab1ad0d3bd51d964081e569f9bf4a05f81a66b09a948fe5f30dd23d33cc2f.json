@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B083V32QTC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR is not in user history."
+      },
+      {
+        "item_id": "B0772MQ43V",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox over Nintendo."
+      },
+      {
+        "item_id": "B004H7VNPS",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Sega is not in user history."
+      },
+      {
+        "item_id": "B0088I6JDI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo DS games not relevant."
+      },
+      {
+        "item_id": "B001T0HVGQ",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has Xbox 360 interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1088,
+    "completion_tokens": 157
+  }
+}

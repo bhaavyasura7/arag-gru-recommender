@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00GZ1H07Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Pinball game, not user’s preference."
+      },
+      {
+        "item_id": "B001EYUQVE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, user prefers newer consoles."
+      },
+      {
+        "item_id": "B07XV4NHHN",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo Switch games."
+      },
+      {
+        "item_id": "B001ELJDXE",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Legacy system, user prefers newer consoles."
+      },
+      {
+        "item_id": "B09B1L53CB",
+        "label": "support",
+        "score": 7,
+        "rationale": "Accessory for Nintendo Switch OLED model."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1328,
+    "completion_tokens": 161
+  }
+}

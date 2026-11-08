@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B5G6L9VM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PC gaming accessories."
+      },
+      {
+        "item_id": "B07RDF2HTR",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own a PS4."
+      },
+      {
+        "item_id": "B07MR22F4X",
+        "label": "support",
+        "score": 9,
+        "rationale": "Matches user's preference for gaming keyboards."
+      },
+      {
+        "item_id": "B07VHLQ2VX",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a Switch Lite."
+      },
+      {
+        "item_id": "B005VR2OUG",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not directly related to user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1256,
+    "completion_tokens": 163
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "content": {
+    "long_term_interests": [
+      "retro video games",
+      "classic consoles",
+      "sports games",
+      "boxing games"
+    ],
+    "current_intent": "The user is likely seeking retro video games or classic console accessories to expand their collection.",
+    "avoid": [
+      "modern gaming consoles"
+    ],
+    "summary": "A retro gaming enthusiast with a focus on classic consoles and sports/boxing games, likely interested in expanding their collection of vintage titles and hardware. Prefers older systems like NES, SNES, and Genesis, and may avoid newer consoles."
+  },
+  "usage": {
+    "prompt_tokens": 332,
+    "completion_tokens": 371
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B011I73MQW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B00Q0279ZG",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Nintendo Wii system."
+      },
+      {
+        "item_id": "B0CJ59RVDH",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to Nintendo gaming."
+      },
+      {
+        "item_id": "B0BKZYTYNJ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Focus on VR, not Nintendo."
+      },
+      {
+        "item_id": "B08VRZ4NRX",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not directly related to gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 154
+  }
+}

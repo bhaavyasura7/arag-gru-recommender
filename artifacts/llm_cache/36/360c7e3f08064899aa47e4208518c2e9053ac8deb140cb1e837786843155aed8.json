@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B074FD2WQJ",
+      "B00DBDPOZ4",
+      "B16N7RYYKK",
+      "B0BR9RGRW8",
+      "B0087LXZRE",
+      "B004ZX75AQ",
+      "B019QU5KLK",
+      "B00CISMP8M",
+      "B01EZUCHOC",
+      "B00CIO5ILW",
+      "B00VILBF0Y",
+      "B01GDKXMPA",
+      "B000K8ZXK4",
+      "B003VUO6H4",
+      "B01LPNKGGI",
+      "B0BLFYF8K2",
+      "B01N7RYYKK",
+      "B00DC7G3Q8",
+      "B0144K8KQW",
+      "B00CIO5ILW",
+      "B00DBDPOZ4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B074FD2WQJ",
+        "reason": "Popular Xbox controller model"
+      },
+      {
+        "item_id": "B00DBDPOZ4",
+        "reason": "Essential charging kit for Xbox"
+      },
+      {
+        "item_id": "B01N7RYYKK",
+        "reason": "Compatible Xbox controller option"
+      },
+      {
+        "item_id": "B0BR9RGRW8",
+        "reason": "Not relevant to Xbox gaming"
+      },
+      {
+        "item_id": "B0087LXZRE",
+        "reason": "Compatible with Xbox gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3801,
+    "completion_tokens": 342
+  }
+}

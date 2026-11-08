@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00KVQYJR8",
+        "label": "support",
+        "score": 10,
+        "rationale": "User enjoys Minecraft games."
+      },
+      {
+        "item_id": "B0B45V8T4J",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has gaming accessories."
+      },
+      {
+        "item_id": "B00002STKI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern games."
+      },
+      {
+        "item_id": "B0050SX9I2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has PS3 but no remote reviews."
+      },
+      {
+        "item_id": "164078232X",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers video games over tabletop."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1970,
+    "completion_tokens": 152
+  }
+}

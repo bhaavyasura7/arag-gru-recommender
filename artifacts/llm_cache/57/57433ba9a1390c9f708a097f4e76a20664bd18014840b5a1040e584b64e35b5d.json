@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07SPKJRWX",
+      "B084H5J2TP",
+      "B01M07V5OS",
+      "B000WKUNIW",
+      "B008XN0F3S",
+      "B000RWHR5W",
+      "B000ENW5W4",
+      "B07BYSDLPS",
+      "B00005NP3Y",
+      "B07VPXDHXL",
+      "B0009FZQYQ",
+      "B0BDWH279M",
+      "B00008Z4FZ",
+      "B0009FZQYQ",
+      "B078YF9KW1",
+      "B08ZTZ7YLH",
+      "B000RWHR5W",
+      "B07J6S5RJ9",
+      "B00005NP3Y",
+      "B079RZGLQQ",
+      "B00008Z4FZ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07SPKJRWX",
+        "reason": "Single-player story-driven RPG"
+      },
+      {
+        "item_id": "B084H5J2TP",
+        "reason": "Immersive sci-fi RPG experience"
+      },
+      {
+        "item_id": "B01M07V5OS",
+        "reason": "Rich narrative in Warhammer universe"
+      },
+      {
+        "item_id": "B000WKUNIW",
+        "reason": "Cult classic RPG with deep lore"
+      },
+      {
+        "item_id": "B008XN0F3S",
+        "reason": "Award-winning open world RPG"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3117,
+    "completion_tokens": 343
+  }
+}

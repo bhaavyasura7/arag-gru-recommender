@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08GFY1HV8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Xbox 360, not a game."
+      },
+      {
+        "item_id": "B09MFDJT61",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Joystick for various systems, not Xbox 360."
+      },
+      {
+        "item_id": "B074WGWRHR",
+        "label": "support",
+        "score": 7,
+        "rationale": "Comfortable headset for Xbox gaming."
+      },
+      {
+        "item_id": "B01GY35W22",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation 4 game, user prefers Xbox."
+      },
+      {
+        "item_id": "B0058DQEYK",
+        "label": "support",
+        "score": 6,
+        "rationale": "Gears of War 3 accessory for Xbox 360."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1250,
+    "completion_tokens": 166
+  }
+}

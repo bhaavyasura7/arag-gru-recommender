@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B06XFYYQ4Q",
+      "B08Q7Z1DYV",
+      "B12G241785",
+      "B001D7AGIU",
+      "B00K3T531O",
+      "B015QM2S60",
+      "B000MWYEE4",
+      "B001EYUTU2",
+      "B001EYUP60",
+      "B09GRG448X",
+      "B07VYK5L87",
+      "B002MUB104",
+      "B08RYF78ZV",
+      "B00005UEOP",
+      "B000GA6YF4",
+      "B0018XFQHK",
+      "B008GW57JS",
+      "B008N04RR6",
+      "B00005UEOP",
+      "B00005UEOP"
+    ],
+    "reasons": [
+      {
+        "item_id": "B06XFYYQ4Q",
+        "reason": "High-quality screen protector for Switch"
+      },
+      {
+        "item_id": "B08Q7Z1DYV",
+        "reason": "PS5 controller grip enhances gameplay"
+      },
+      {
+        "item_id": "B12G241785",
+        "reason": "PS4 controller skin for personalization"
+      },
+      {
+        "item_id": "B001D7AGIU",
+        "reason": "Comprehensive PSP accessory pack"
+      },
+      {
+        "item_id": "B00K3T531O",
+        "reason": "High-quality PS4 controller skin"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3241,
+    "completion_tokens": 319
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B081DHKGQB",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B01N9USHKJ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Xbox controller, user prefers different games."
+      },
+      {
+        "item_id": "B0009TTHB0",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Hello Kitty not aligned with user's interests."
+      },
+      {
+        "item_id": "B071G1DTH3",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's PSP games."
+      },
+      {
+        "item_id": "B000666BWO",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "NCAA Football not in user's history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1051,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08N7PX4WX",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B001EYUQEQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's interests."
+      },
+      {
+        "item_id": "B000OCXK6A",
+        "label": "support",
+        "score": 8,
+        "rationale": "First-person shooter matches preferences."
+      },
+      {
+        "item_id": "B01MG6DORB",
+        "label": "support",
+        "score": 7,
+        "rationale": "Sports game aligns with gaming interests."
+      },
+      {
+        "item_id": "B0031SWWPO",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Not a popular genre for user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1274,
+    "completion_tokens": 153
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00X8X55I8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different franchise, but similar gameplay style."
+      },
+      {
+        "item_id": "B094YHB1QK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00005O0I2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but popular title."
+      },
+      {
+        "item_id": "B00Y8CQCXA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B09TV7294P",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo Switch game, similar style."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1146,
+    "completion_tokens": 158
+  }
+}

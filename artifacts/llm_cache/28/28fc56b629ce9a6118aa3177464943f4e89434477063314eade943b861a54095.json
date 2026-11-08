@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B087NN6GRF",
+      "B14CNGFVG9",
+      "B07XW748TW",
+      "B14C97R648",
+      "B07VB7GK9H",
+      "B000K12ZE8",
+      "B00004ZBOG",
+      "B000035XO4",
+      "B000035XPD",
+      "B00C3DF930",
+      "B00GLB0ZFW",
+      "B07C97R648",
+      "B000U8DTGY",
+      "B08GC34ZB6",
+      "B000035XPD",
+      "B00004ZBOG",
+      "B07DNVF8FR",
+      "B08CNGFVG9",
+      "B001EYUXA8",
+      "B00ARSHY68",
+      "B07K2FNLWG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087NN6GRF",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B14CNGFVG9",
+        "reason": "Essential Switch accessory"
+      },
+      {
+        "item_id": "B07XW748TW",
+        "reason": "Useful Bluetooth adapter"
+      },
+      {
+        "item_id": "B14C97R648",
+        "reason": "Protective case for Switch"
+      },
+      {
+        "item_id": "B07VB7GK9H",
+        "reason": "High-quality protective shell"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3563,
+    "completion_tokens": 320
+  }
+}

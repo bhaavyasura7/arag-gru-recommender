@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00IXMF5CU",
+      "B07YBXNWXL",
+      "B14MGMKCS8",
+      "B013VO5QL4",
+      "B000UODATY",
+      "B00BQVXVYY",
+      "B00HVBPRUO",
+      "B0051PLQ8E",
+      "B002I090AG",
+      "B00BGA9WK2",
+      "B00Z9TKRH8",
+      "B001EYUO02",
+      "B00BZS9JV2",
+      "B00RSXRLUE",
+      "B08R8TMGN1",
+      "B0B1TMZB5S",
+      "B002XVUT3M",
+      "B00002STYX",
+      "B00HVBPRUO",
+      "B07MGMKCS8",
+      "B00BQVXVYY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00IXMF5CU",
+        "reason": "Popular action game on Xbox 360"
+      },
+      {
+        "item_id": "B07YBXNWXL",
+        "reason": "Cooperative gameplay experience"
+      },
+      {
+        "item_id": "B14MGMKCS8",
+        "reason": "High-quality controller accessory"
+      },
+      {
+        "item_id": "B013VO5QL4",
+        "reason": "Enhances controller grip and style"
+      },
+      {
+        "item_id": "B000UODATY",
+        "reason": "Essential HDMI cable for Xbox 360"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3667,
+    "completion_tokens": 335
+  }
+}

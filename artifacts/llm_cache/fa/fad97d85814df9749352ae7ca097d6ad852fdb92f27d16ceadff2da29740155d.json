@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B20Z8Z9DHW",
+      "B12BF7QNXMK",
+      "B07VT3FNTN",
+      "B12B0BXSHJPTB",
+      "B12B0B38RR7NB",
+      "B12B0B004KEMI66",
+      "B12B0B07CGPPVPM",
+      "B12B0B07L72BFH1",
+      "B12B0B09YRFLM1Z",
+      "B12B0B01KTJWF5Y",
+      "B12B0B0029ZMIEK",
+      "B12B0B00F4N0GXO",
+      "B12B0B00OMBGAF2",
+      "B12B0B00F5N2CTPO",
+      "B12B0B00F9BBHDMM",
+      "B12B0B00F8GTGW93M",
+      "B12B0B00F9Z8Z9DHW",
+      "B12B0B00F9Z8Z9DHW",
+      "B12B0B00F9Z8Z9DHW",
+      "B12B0B00F9Z8Z9DHW",
+      "B12B0B00F9Z8Z9DHW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09Z8Z9DHW",
+        "reason": "High compatibility with Nintendo Switch"
+      },
+      {
+        "item_id": "B07VT3FNTN",
+        "reason": "Quality headset for gaming"
+      },
+      {
+        "item_id": "B0B38RR7NB",
+        "reason": "Wireless mouse for gaming"
+      },
+      {
+        "item_id": "B0BF7QNXMK",
+        "reason": "Popular game for Xbox"
+      },
+      {
+        "item_id": "B12B0B004KEMI66",
+        "reason": "Tool for Xbox 360 maintenance"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3686,
+    "completion_tokens": 432
+  }
+}

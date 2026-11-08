@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0017ZIIK6",
+      "B019H5II8Y",
+      "B06ZXXH1TT",
+      "B00QXJFDZO",
+      "B082VX16VJ",
+      "B001ULNO6A",
+      "B001EHD9BK",
+      "B09DL5PMWL",
+      "B002BSA388",
+      "B005669IE2",
+      "B003JVKHEQ",
+      "B00EK5TWFA",
+      "B014U5LD3S",
+      "B00N3OELPU",
+      "B00CWV550U",
+      "B00M3OELPU",
+      "B009M72E5Q",
+      "B000I10PY2",
+      "B001TEYMRI",
+      "B11DL5PMWL",
+      "B00NLHN52M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0017ZIIK6",
+        "reason": "Popular PlayStation fighting game"
+      },
+      {
+        "item_id": "B019H5II8Y",
+        "reason": "Compatible with multiple platforms"
+      },
+      {
+        "item_id": "B06ZXXH1TT",
+        "reason": "Enhances PlayStation gaming experience"
+      },
+      {
+        "item_id": "B00QXJFDZO",
+        "reason": "Action-packed PlayStation game"
+      },
+      {
+        "item_id": "B082VX16VJ",
+        "reason": "Improves controller functionality"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3673,
+    "completion_tokens": 329
+  }
+}

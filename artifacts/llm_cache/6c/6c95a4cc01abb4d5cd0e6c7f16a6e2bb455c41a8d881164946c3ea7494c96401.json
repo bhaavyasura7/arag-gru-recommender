@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01J4K4TSU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with past preferences."
+      },
+      {
+        "item_id": "B07K9BTSLB",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre than preferred games."
+      },
+      {
+        "item_id": "B099JP9NQZ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not similar to user's interests."
+      },
+      {
+        "item_id": "B009VURSEG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Adventure genre, but not RPG."
+      },
+      {
+        "item_id": "B0822DFC26",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys sports games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2177,
+    "completion_tokens": 147
+  }
+}

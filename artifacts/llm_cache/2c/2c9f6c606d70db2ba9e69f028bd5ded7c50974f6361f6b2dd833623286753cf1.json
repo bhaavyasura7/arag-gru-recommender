@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08N7VJBH6",
+      "B19N4V7SNP",
+      "B0001JXACA",
+      "B000AYH89M",
+      "B000GPVUOY",
+      "B005GISQQG",
+      "B000062SSO",
+      "B013VO5MR2",
+      "B0000K1VA",
+      "B0000ZUGZ4",
+      "B0000ZUGZ4",
+      "B000AYH89M",
+      "B0051D8PGM",
+      "B072C3VM5F",
+      "B001EYUPVA",
+      "B001EYUQIM",
+      "B0000K1VA",
+      "B000AYH89M",
+      "B0000ZUGZ4",
+      "B0000K1VA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08N7VJBH6",
+        "reason": "New Mario game for Switch"
+      },
+      {
+        "item_id": "B19N4V7SNP",
+        "reason": "Joy-Con grips for comfort"
+      },
+      {
+        "item_id": "B0001JXACA",
+        "reason": "Classic Mario gameplay"
+      },
+      {
+        "item_id": "B000AYH89M",
+        "reason": "Retro space adventure collection"
+      },
+      {
+        "item_id": "B000GPVUOY",
+        "reason": "Action-packed gameplay experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3747,
+    "completion_tokens": 316
+  }
+}

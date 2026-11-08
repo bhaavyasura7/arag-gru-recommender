@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002EWD02M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B07W4M41XN",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with PlayStation controllers."
+      },
+      {
+        "item_id": "B003SEXRF0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B0042X9RX2",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Naval combat not aligned with user's games."
+      },
+      {
+        "item_id": "B009R11GXS",
+        "label": "support",
+        "score": 6,
+        "rationale": "Repair kit for PlayStation 3."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1541,
+    "completion_tokens": 154
+  }
+}

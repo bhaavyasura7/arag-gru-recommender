@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002IYR0KO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, but not a favorite genre."
+      },
+      {
+        "item_id": "B00E8R6RR6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Online co-op, but not highly rated."
+      },
+      {
+        "item_id": "B09TBKPHFH",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Co-op play, but different style."
+      },
+      {
+        "item_id": "B0000AJMPK",
+        "label": "support",
+        "score": 8,
+        "rationale": "First-person shooter, aligns with interests."
+      },
+      {
+        "item_id": "B00007KQC8",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "First-person shooter, but less popular."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1851,
+    "completion_tokens": 159
+  }
+}

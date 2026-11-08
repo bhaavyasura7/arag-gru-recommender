@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B06XFYYQ4Q",
+      "B08RYF78ZV",
+      "B00K3T531O",
+      "B12GRG448X",
+      "B001D7AGIU",
+      "B001EYUTU2",
+      "B001EYUP60",
+      "B07G241785",
+      "B08Q7Z1DYV",
+      "B09GRG448X",
+      "B09JS2H1NH",
+      "B015QM2S60",
+      "B00V5B8VYU",
+      "B00005UEOP",
+      "B0018XFQHK",
+      "B002MUB104",
+      "B008N04RR6",
+      "B008GW57JS",
+      "B07VYK5L87",
+      "B000MWYEE4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B06XFYYQ4Q",
+        "reason": "High-quality screen protector for Switch"
+      },
+      {
+        "item_id": "B08RYF78ZV",
+        "reason": "Charging stand for PS5 controllers"
+      },
+      {
+        "item_id": "B00K3T531O",
+        "reason": "Durable skin for PS4 controller"
+      },
+      {
+        "item_id": "B12GRG448X",
+        "reason": "RGB headphone stand for gamers"
+      },
+      {
+        "item_id": "B001D7AGIU",
+        "reason": "Comprehensive PSP accessory pack"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3250,
+    "completion_tokens": 323
+  }
+}

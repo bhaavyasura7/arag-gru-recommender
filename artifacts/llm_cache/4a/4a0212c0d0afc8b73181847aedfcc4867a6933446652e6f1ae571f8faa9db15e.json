@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001G7PSOE",
+      "B00YOGZFCO",
+      "B001EYUSC6",
+      "B082B4HBZ8",
+      "B07NYFBLTS",
+      "B0033PSLY6",
+      "B0028Y4PUW",
+      "B07P9VKCF6",
+      "B0192QR94M",
+      "B0785SFKYF",
+      "B07JVQLSLY",
+      "B0050SYZ2G",
+      "B08GS7MG3W",
+      "B01M26YUKO",
+      "B00004OCYH",
+      "B087NNPYP3",
+      "B12M26YUKO",
+      "B08JHP4Q82",
+      "B07ZHQ39F0",
+      "B07P9VKCF6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001G7PSOE",
+        "reason": "Classic PlayStation game"
+      },
+      {
+        "item_id": "B00YOGZFCO",
+        "reason": "Retro Nintendo game"
+      },
+      {
+        "item_id": "B001EYUSC6",
+        "reason": "Popular PSP soccer game"
+      },
+      {
+        "item_id": "B082B4HBZ8",
+        "reason": "Accessory for Nintendo Switch"
+      },
+      {
+        "item_id": "B07NYFBLTS",
+        "reason": "Amiibo for retro gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3543,
+    "completion_tokens": 320
+  }
+}

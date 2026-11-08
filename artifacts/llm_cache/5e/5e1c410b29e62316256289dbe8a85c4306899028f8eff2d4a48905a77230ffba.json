@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08LT6PT1X",
+      "B17V3683F1",
+      "B11P5XW7G9",
+      "B01J4K51L4",
+      "B15A0PVN5A",
+      "B09MRT69Q4",
+      "B0B24YKZTF",
+      "B072L2ZSC7",
+      "B0BLVBG2N1",
+      "B09726K2LC",
+      "B08L8TQ7J8",
+      "B09MTDCF5M",
+      "B0001ZXA7Y",
+      "B008O4FREI",
+      "B00002ST5C",
+      "B000035Y6M",
+      "B0000C85ZX",
+      "B005HYI8R6",
+      "B20B24YKZTF",
+      "B20B24YKZTF"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08LT6PT1X",
+        "reason": "High customization for Xbox controller"
+      },
+      {
+        "item_id": "B17V3683F1",
+        "reason": "Compatible with Nintendo Switch"
+      },
+      {
+        "item_id": "B11P5XW7G9",
+        "reason": "Wireless controller for Wii"
+      },
+      {
+        "item_id": "B01J4K51L4",
+        "reason": "Popular multiplayer game"
+      },
+      {
+        "item_id": "B15A0PVN5A",
+        "reason": "Headset for online multiplayer"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3337,
+    "completion_tokens": 339
+  }
+}

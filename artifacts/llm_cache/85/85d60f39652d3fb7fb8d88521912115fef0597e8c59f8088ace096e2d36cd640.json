@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B084H5J2TP",
+      "B00IOIHBX4",
+      "B07SPKJRWX",
+      "B01M07V5OS",
+      "B000RWHR5W",
+      "B000WKUNIW",
+      "B000ENW5W4",
+      "B078YF9KW1",
+      "B07VPXDHXL",
+      "B07BYSDLPS",
+      "B00008Z4FZ",
+      "B0009FZQYQ",
+      "B00005NP3Y",
+      "B07J6S5RJ9",
+      "B0BDWH279M",
+      "B000WKUNIW",
+      "B000RWHR5W",
+      "B08ZTZ7YLH",
+      "B07SPKJRWX",
+      "B079RZGLQQ",
+      "B0009FZQYQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B084H5J2TP",
+        "reason": "Strong narrative-driven RPG"
+      },
+      {
+        "item_id": "B00IOIHBX4",
+        "reason": "Deep strategy and RPG elements"
+      },
+      {
+        "item_id": "B07SPKJRWX",
+        "reason": "Player-driven story RPG"
+      },
+      {
+        "item_id": "B01M07V5OS",
+        "reason": "Immersive action-RPG experience"
+      },
+      {
+        "item_id": "B000RWHR5W",
+        "reason": "Variety of RPGs in one package"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3129,
+    "completion_tokens": 343
+  }
+}

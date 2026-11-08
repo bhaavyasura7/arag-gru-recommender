@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08RZ3PWU",
+      "B00XCRT0GS",
+      "B00FLLFGO8",
+      "B01FXS3NGQ",
+      "B000N5Z2L4",
+      "B017RZ3PWU",
+      "B00U33Q940",
+      "B00HAZ6D2M",
+      "B0053B66KE",
+      "B00B9775W4",
+      "B00IEZ6H4G",
+      "B07YBXFDYN",
+      "B00002SVFM",
+      "B0BRR1CHDL",
+      "B0009VXBAQ",
+      "B0771R1X9L",
+      "B087SHFL9B",
+      "B07PVJ5VCC",
+      "B00002SVFM",
+      "B00B9775W4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08RZ3PWU",
+        "reason": "Xbox console with game bundle"
+      },
+      {
+        "item_id": "B00XCRT0GS",
+        "reason": "Xbox controller with wireless adapter"
+      },
+      {
+        "item_id": "B00FLLFGO8",
+        "reason": "Smart clip for PS4 controller"
+      },
+      {
+        "item_id": "B01FXS3NGQ",
+        "reason": "PS4 headset for immersive gaming"
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "reason": "Xbox Live Gold membership benefits"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3769,
+    "completion_tokens": 333
+  }
+}

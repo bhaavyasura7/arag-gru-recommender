@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07RCVWLTM",
+      "B09D2ZDSY6",
+      "B09CYKGCJQ",
+      "B004J6HK18",
+      "B08R59FN7S",
+      "B0B3DGSCGD",
+      "B004NZ4EC8",
+      "B002L1AMWC",
+      "B0B3DHJG1L",
+      "B09317L5LT",
+      "B002VREA24",
+      "B071RMLJKQ",
+      "B08DFJQVRC",
+      "B07CG4943S",
+      "B09F2PCKBG",
+      "B08P5SVPPG",
+      "B0BS9WR9YP",
+      "B0B3DHJG1L",
+      "B09XP4NPCB",
+      "B07X7XJBBW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07RCVWLTM",
+        "reason": "Best internal cooling for PS4"
+      },
+      {
+        "item_id": "B09D2ZDSY6",
+        "reason": "Silent external fan option"
+      },
+      {
+        "item_id": "B09CYKGCJQ",
+        "reason": "Similar to top-rated fan"
+      },
+      {
+        "item_id": "B004J6HK18",
+        "reason": "Compatible with PS3, trusted brand"
+      },
+      {
+        "item_id": "B08R59FN7S",
+        "reason": "External cooling for PS5, versatile"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2599,
+    "completion_tokens": 332
+  }
+}

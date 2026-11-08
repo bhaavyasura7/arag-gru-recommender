@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUTKW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers adventure games, not sports."
+      },
+      {
+        "item_id": "B01LZN7MLE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Keyboard is useful but not game-specific."
+      },
+      {
+        "item_id": "B07QZTNYTB",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for gaming headset, not a game."
+      },
+      {
+        "item_id": "B004HD55VK",
+        "label": "support",
+        "score": 8,
+        "rationale": "Adventure game aligns with user interests."
+      },
+      {
+        "item_id": "B07NRHR43N",
+        "label": "support",
+        "score": 7,
+        "rationale": "RPG and crafting match user preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1333,
+    "completion_tokens": 155
+  }
+}

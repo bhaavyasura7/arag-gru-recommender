@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09MHWTC7M",
+      "B08PBDJ6CJ",
+      "B07S9LY4PB",
+      "B094CY44XW",
+      "B12B0BFRZ1HR4",
+      "B07WTL6ZHH",
+      "B08CRJGXH9",
+      "B07GLNQV9J",
+      "B000059WIZ",
+      "B000HUB8TU",
+      "B07SGZSRRM",
+      "B0B14S3PQ2",
+      "B075YP1CTH",
+      "B0BZ276NG5",
+      "B008F6MMO8",
+      "B20B0BFRZ1HR4",
+      "B07PBBX4C5",
+      "B07WTL6ZHH",
+      "B09ZY72MQ1",
+      "B07GLNQV9J"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09MHWTC7M",
+        "reason": "Ergonomic grip for Nintendo Switch"
+      },
+      {
+        "item_id": "B08PBDJ6CJ",
+        "reason": "High-quality wired gaming mouse"
+      },
+      {
+        "item_id": "B07S9LY4PB",
+        "reason": "Premium wireless gaming headset"
+      },
+      {
+        "item_id": "B094CY44XW",
+        "reason": "Portable game card storage case"
+      },
+      {
+        "item_id": "B0BFRZ1HR4",
+        "reason": "High-speed micro SD card"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3737,
+    "completion_tokens": 338
+  }
+}

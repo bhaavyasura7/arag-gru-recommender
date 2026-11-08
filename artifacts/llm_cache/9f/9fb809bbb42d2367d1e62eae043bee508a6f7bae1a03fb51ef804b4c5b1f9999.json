@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B17MRJ12HX",
+      "B001EHD9N8",
+      "B09NKTTRQD",
+      "B09S6HGYT2",
+      "B07FSZQ1W1",
+      "B000FQBF1M",
+      "B0001DI6FM",
+      "B0030MEITE",
+      "B071Y79VNL",
+      "B0029LJIFG",
+      "B06XCP3C7H",
+      "B00K0NV5J2",
+      "B00SZ1DQFM",
+      "B0000657SO",
+      "B0001DI6FM",
+      "B09MFFTCX8",
+      "B00B8SAB8O",
+      "B01K1CC4R8",
+      "B00NOD0OTW",
+      "B00NW6T6CC",
+      "B00FQBF1M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B17MRJ12HX",
+        "reason": "Collector's edition for PlayStation 4"
+      },
+      {
+        "item_id": "B001EHD9N8",
+        "reason": "Popular first-person shooter game"
+      },
+      {
+        "item_id": "B09NKTTRQD",
+        "reason": "High-performance gaming controller"
+      },
+      {
+        "item_id": "B09S6HGYT2",
+        "reason": "PS5 console accessory"
+      },
+      {
+        "item_id": "B07FSZQ1W1",
+        "reason": "Comfortable gaming headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3970,
+    "completion_tokens": 343
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B11TXDLL7D",
+      "B09JYT9CBM",
+      "B18Z3JW77T",
+      "B07FYKM74X",
+      "B18GXTZ9ZT",
+      "B00QI2WPJ8",
+      "B07H1SW5T3",
+      "B07N7HPG82",
+      "B00SS12V8W",
+      "B0BLSF9HD6",
+      "B005ZHS8HK",
+      "B07TXDLL7D",
+      "B08LSTKX53",
+      "B000HWZYF2",
+      "B00002STS4",
+      "B091BXWB7Q",
+      "B0BTDD6Z24",
+      "B000YSYDOC",
+      "B08Z3JW77T",
+      "B000HWZYF2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B11TXDLL7D",
+        "reason": "Essential Nintendo Switch controller"
+      },
+      {
+        "item_id": "B09JYT9CBM",
+        "reason": "Compatible with Nintendo Switch"
+      },
+      {
+        "item_id": "B18Z3JW77T",
+        "reason": "Thumb grips for better control"
+      },
+      {
+        "item_id": "B07FYKM74X",
+        "reason": "Portable charging dock for Switch"
+      },
+      {
+        "item_id": "B18GXTZ9ZT",
+        "reason": "Classic Pokémon games nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3636,
+    "completion_tokens": 323
+  }
+}

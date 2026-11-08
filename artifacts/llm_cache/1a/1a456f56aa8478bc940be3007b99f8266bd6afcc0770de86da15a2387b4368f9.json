@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0069VWDCM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Fighting games not rated highly."
+      },
+      {
+        "item_id": "B00KOOUVN8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has low interest in Mortal Kombat."
+      },
+      {
+        "item_id": "B00MFUW0YC",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys Call of Duty series."
+      },
+      {
+        "item_id": "B00CTKHXFO",
+        "label": "support",
+        "score": 8,
+        "rationale": "User rated Metal Gear highly."
+      },
+      {
+        "item_id": "B00MFUVZH0",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys Call of Duty series."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1942,
+    "completion_tokens": 153
+  }
+}

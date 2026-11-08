@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00NCA8R32",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not figures."
+      },
+      {
+        "item_id": "B00FM5IY0Q",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox One action games."
+      },
+      {
+        "item_id": "B000RWWWJ8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not directly related to interests."
+      },
+      {
+        "item_id": "B01FWI2VZQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming keyboard, not a game."
+      },
+      {
+        "item_id": "B00HM1XPN4",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes Xbox One action-adventure games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 162
+  }
+}

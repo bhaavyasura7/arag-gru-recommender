@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DHJLL0Y",
+      "B071S7Z6L5",
+      "B20NVBMXZ3",
+      "B00SWH7QDC",
+      "B004E0K732",
+      "B08GYRTGNQ",
+      "B08CXBMRG4",
+      "B08LPY3BPK",
+      "B12DLPYT8Y",
+      "B000B6N2MG",
+      "B077J1SF2Q",
+      "B0009TSG3U",
+      "B08NVBMXZ3",
+      "B07N68YGPL",
+      "B08B1T61CC",
+      "B079HR59PP",
+      "B002M99VF2",
+      "B000RP216O",
+      "B08GYRTGNQ",
+      "B15VTW16G7"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DHJLL0Y",
+        "reason": "Popular fighting game release"
+      },
+      {
+        "item_id": "B071S7Z6L5",
+        "reason": "Essential PS4 accessory"
+      },
+      {
+        "item_id": "B08NVBMXZ3",
+        "reason": "Versatile PS5 cooling dock"
+      },
+      {
+        "item_id": "B00SWH7QDC",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B004E0K732",
+        "reason": "Cooling fan for Xbox 360"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3349,
+    "completion_tokens": 328
+  }
+}

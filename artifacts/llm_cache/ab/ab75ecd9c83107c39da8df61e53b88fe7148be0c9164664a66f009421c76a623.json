@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07VTHT18S",
+      "B0069A949S",
+      "B003JZT1OY",
+      "B001BJ6904",
+      "B0033ZX7DQ",
+      "B00K1L8B40",
+      "B002DPUJCE",
+      "B07MZNLL2G",
+      "B000089G5U",
+      "B07NSTTMVB",
+      "B00DCUO3SK",
+      "B01A1V6164",
+      "B09Y1611MW",
+      "B09W2H3JMV",
+      "B003L1ADZW",
+      "B003VH5Z2C",
+      "B01J4JSI0G",
+      "B077C47BGP",
+      "B00K1L8B40",
+      "B07MZNLL2G",
+      "B096VSJLC9"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07VTHT18S",
+        "reason": "Engaging action-adventure gameplay"
+      },
+      {
+        "item_id": "B0069A949S",
+        "reason": "Immersive storytelling experience"
+      },
+      {
+        "item_id": "B003JZT1OY",
+        "reason": "Intense single-player missions"
+      },
+      {
+        "item_id": "B001BJ6904",
+        "reason": "Creative mini-games for kids"
+      },
+      {
+        "item_id": "B0033ZX7DQ",
+        "reason": "Unique insect battles and exploration"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3837,
+    "completion_tokens": 332
+  }
+}

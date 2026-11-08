@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07TN89FGQ",
+      "B01N3ASPNV",
+      "B0088TN7BO",
+      "B10C1ZBFTW",
+      "B002I0J4VQ",
+      "B000035Y5A",
+      "B07DPK5NPD",
+      "B002SR1G4C",
+      "B001EYUQVE",
+      "B000VTQ3LU",
+      "B06XT99YW5",
+      "B00GB7HVGW",
+      "B0017HW5LM",
+      "B00CMQTUSS",
+      "B00CJ9OTNE",
+      "B0CBRHZSJ5",
+      "B01KSVR9ZY",
+      "B078SM4YJ9",
+      "B002I0J4VQ",
+      "B0006B7DXA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07TN89FGQ",
+        "reason": "Essential Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B01N3ASPNV",
+        "reason": "Screen protector for Nintendo Switch"
+      },
+      {
+        "item_id": "B0088TN7BO",
+        "reason": "LEGO game with family-friendly content"
+      },
+      {
+        "item_id": "B10C1ZBFTW",
+        "reason": "Popular Nintendo 3DS RPG"
+      },
+      {
+        "item_id": "B002I0J4VQ",
+        "reason": "Compatible with amiibo figures"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3768,
+    "completion_tokens": 332
+  }
+}

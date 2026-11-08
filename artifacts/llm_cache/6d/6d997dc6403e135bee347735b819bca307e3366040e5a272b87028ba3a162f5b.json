@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00025ETC8",
+      "B19TKK8GH6",
+      "B00KVP76G0",
+      "B00CSIB3PS",
+      "B19RVCXS61",
+      "B00DB2BI8M",
+      "B005OGL766",
+      "B07SBX48TY",
+      "B00Z9TL6KA",
+      "B003TQM4DI",
+      "B00IAVDOS6",
+      "B07RVCXS61",
+      "B00M0UDCN5",
+      "B00DB2BI8M",
+      "B00IAVDOS6",
+      "B00Z9TL6KA",
+      "B004HD55VK",
+      "B00DB2BI8M",
+      "B00IAVDOS6",
+      "B00Z9TL6KA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00025ETC8",
+        "reason": "Intense tactical combat experience"
+      },
+      {
+        "item_id": "B19TKK8GH6",
+        "reason": "Popular action game franchise"
+      },
+      {
+        "item_id": "B00KVP76G0",
+        "reason": "Enhanced control for shooters"
+      },
+      {
+        "item_id": "B00CSIB3PS",
+        "reason": "Includes multiplayer features"
+      },
+      {
+        "item_id": "B19RVCXS61",
+        "reason": "Highly rated action game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3683,
+    "completion_tokens": 316
+  }
+}

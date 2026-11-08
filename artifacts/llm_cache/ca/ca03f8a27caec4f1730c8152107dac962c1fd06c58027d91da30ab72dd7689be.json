@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BVTTXYK4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR accessory, not directly related."
+      },
+      {
+        "item_id": "B00273JKXQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "DSi stylus unrelated to PC gaming."
+      },
+      {
+        "item_id": "B0799JJ6ST",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming keyboard matches user interests."
+      },
+      {
+        "item_id": "B00005O62C",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy Xbox game not relevant."
+      },
+      {
+        "item_id": "B09TGGSXW8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Wii charger unrelated to PC gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1219,
+    "completion_tokens": 159
+  }
+}

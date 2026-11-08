@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0028Y4PV6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to music games, not preferred."
+      },
+      {
+        "item_id": "B00KUYZ7I6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B003JVCA9Q",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PS3 games, matches well."
+      },
+      {
+        "item_id": "B07PZ8NZSZ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PS3, not PS4."
+      },
+      {
+        "item_id": "B001DIY25M",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, not aligned with PS3 preference."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1281,
+    "completion_tokens": 162
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B009CCQ7GS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox and PlayStation."
+      },
+      {
+        "item_id": "B0767JXPY6",
+        "label": "support",
+        "score": 8,
+        "rationale": "User owns PlayStation 4 accessories."
+      },
+      {
+        "item_id": "B08GYJ5LQS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Nintendo Switch."
+      },
+      {
+        "item_id": "B000R2YWEQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers newer consoles."
+      },
+      {
+        "item_id": "B07MNK2X4D",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Unclear product details."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 158
+  }
+}

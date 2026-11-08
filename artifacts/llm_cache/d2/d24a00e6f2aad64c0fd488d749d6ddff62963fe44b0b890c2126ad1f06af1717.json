@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "open-world RPGs",
+      "action-adventure games",
+      "music rhythm games",
+      "VR gaming",
+      "multiplayer experiences"
+    ],
+    "current_intent": "looking for new video games to play",
+    "avoid": [
+      "boring single-player games",
+      "low-quality graphics",
+      "games without multiplayer options"
+    ],
+    "summary": "The user enjoys immersive and engaging video games, particularly in the RPG and action-adventure genres, and is currently seeking new titles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 334,
+    "completion_tokens": 92
+  }
+}

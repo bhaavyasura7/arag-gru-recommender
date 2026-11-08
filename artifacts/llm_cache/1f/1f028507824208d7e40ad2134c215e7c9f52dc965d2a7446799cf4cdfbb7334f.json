@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000QTD05W",
+      "B001G60KZ2",
+      "B00025LDKO",
+      "B00HFTORNA",
+      "B00006HYNQ",
+      "B004NPXTVU",
+      "B00NHUWIG4",
+      "B008MI7MX0",
+      "B07K4HTGSZ",
+      "B07VQF5DZC",
+      "B01HCXD0W2",
+      "B07G79T78L",
+      "B0BVDXVVB3",
+      "B000AOTI1I",
+      "B000HCUCGI",
+      "B01N6KUFZ6",
+      "B07YYZY2SW",
+      "B07K2BC2BF",
+      "B001ELJFO6",
+      "B19BVMKX11"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000QTD05W",
+        "reason": "User loves Mega Man series"
+      },
+      {
+        "item_id": "B001G60KZ2",
+        "reason": "Classic PS2 game experience"
+      },
+      {
+        "item_id": "B00025LDKO",
+        "reason": "Engaging turn-based strategy"
+      },
+      {
+        "item_id": "B00HFTORNA",
+        "reason": "LEGO game appeals to nostalgia"
+      },
+      {
+        "item_id": "B00006HYNQ",
+        "reason": "Strategic combat aligns with interests"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3318,
+    "completion_tokens": 325
+  }
+}

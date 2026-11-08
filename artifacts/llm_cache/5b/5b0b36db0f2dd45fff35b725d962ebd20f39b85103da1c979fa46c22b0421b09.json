@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B006QRNKOO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern Nintendo systems."
+      },
+      {
+        "item_id": "B00FUC6T0S",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has PS4 interest but no RPGs."
+      },
+      {
+        "item_id": "B000088KH9",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy system not aligned with user."
+      },
+      {
+        "item_id": "B00EV4O86I",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on Switch, not 3DS."
+      },
+      {
+        "item_id": "B0B38RR7NB",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly matches user's Switch accessory needs."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1297,
+    "completion_tokens": 164
+  }
+}

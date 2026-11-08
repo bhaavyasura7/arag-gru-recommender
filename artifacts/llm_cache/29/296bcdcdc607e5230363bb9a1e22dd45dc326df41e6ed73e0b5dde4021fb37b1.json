@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00KSQHX1K",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox games, likes Halo series."
+      },
+      {
+        "item_id": "B00CMQTUCE",
+        "label": "support",
+        "score": 7,
+        "rationale": "User plays Xbox games, Kinect is popular."
+      },
+      {
+        "item_id": "B00004YROX",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers newer systems, not PS2."
+      },
+      {
+        "item_id": "B01GY35HKE",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys Xbox games, Mass Effect series."
+      },
+      {
+        "item_id": "B08B7Z5GZ1",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has Nintendo, but no game interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1300,
+    "completion_tokens": 165
+  }
+}

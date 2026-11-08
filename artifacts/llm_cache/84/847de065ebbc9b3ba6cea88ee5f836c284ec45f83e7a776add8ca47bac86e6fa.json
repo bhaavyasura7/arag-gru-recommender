@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00IPTUJ8G",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar RPG elements and gameplay style."
+      },
+      {
+        "item_id": "B000NDFFFE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, but popular franchise."
+      },
+      {
+        "item_id": "B0000D12XI",
+        "label": "neutral",
+        "score": 6,
+        "rationale": "Action game, but not RPG-focused."
+      },
+      {
+        "item_id": "B00917DBUE",
+        "label": "support",
+        "score": 9,
+        "rationale": "Challenging RPG, aligns with user interests."
+      },
+      {
+        "item_id": "B005FDUSTA",
+        "label": "support",
+        "score": 10,
+        "rationale": "Highly rated RPG, matches user preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 153
+  }
+}

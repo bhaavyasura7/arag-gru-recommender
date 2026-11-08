@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000068HLW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic game, not in user history."
+      },
+      {
+        "item_id": "B077G4LVNC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00009YXBT",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar genre, nostalgic appeal."
+      },
+      {
+        "item_id": "B01I148T54",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Japanese version, less relevant."
+      },
+      {
+        "item_id": "B01JOLIVRY",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Flash cart, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1002,
+    "completion_tokens": 148
+  }
+}

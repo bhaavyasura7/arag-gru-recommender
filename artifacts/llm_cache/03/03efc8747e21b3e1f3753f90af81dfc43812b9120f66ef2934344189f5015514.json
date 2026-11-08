@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0013HE5UU",
+      "B00DBDPOZ4",
+      "B002FY4AOG",
+      "B00YQ74LVM",
+      "B0168D8D8",
+      "B00O9GW8TC",
+      "B004HKIMG8",
+      "B00DQNF3PU",
+      "B00Z9TMH1W",
+      "B00XZDQ6O8",
+      "B07WSHTJ48",
+      "B072C3VM5F",
+      "B00YQ74LVM",
+      "B00DBDPOZ4",
+      "B0088TN7NW",
+      "B07YBXFDYN",
+      "B072289M2R",
+      "B074MMGR8F",
+      "B01CINIAKS",
+      "B07X1HF3V6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0013HE5UU",
+        "reason": "Popular retro gaming mini-games"
+      },
+      {
+        "item_id": "B00DBDPOZ4",
+        "reason": "Essential Xbox One accessory"
+      },
+      {
+        "item_id": "B002FY4AOG",
+        "reason": "Replacement for GameCube power"
+      },
+      {
+        "item_id": "B00YQ74LVM",
+        "reason": "Legacy Nintendo console"
+      },
+      {
+        "item_id": "B00O9GW8TC",
+        "reason": "Official GameCube controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3716,
+    "completion_tokens": 323
+  }
+}

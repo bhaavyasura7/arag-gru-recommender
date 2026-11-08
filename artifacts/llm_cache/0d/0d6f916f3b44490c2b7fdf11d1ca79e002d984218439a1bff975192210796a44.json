@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001G78TRW",
+      "B00002SVFR",
+      "B19Q5BYB82",
+      "B0CB8LZT7K",
+      "B001DLVIFQ",
+      "B001EYUPEC",
+      "B08PCJJW9V",
+      "B002ZS6Y64",
+      "B19HTJV7NG",
+      "B004HD55V0",
+      "B0794W1LWG",
+      "B073XKXQW4",
+      "B09Q5BYB82",
+      "B007X5103Q",
+      "B01DX8B0OU",
+      "B00J48C36S",
+      "B079C7QGLQ",
+      "B00KR2BTVU",
+      "B00NMUYBZA",
+      "B09HTJV7NG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001G78TRW",
+        "reason": "Classic Nintendo game experience"
+      },
+      {
+        "item_id": "B00002SVFR",
+        "reason": "Nostalgic racing game"
+      },
+      {
+        "item_id": "B0CB8LZT7K",
+        "reason": "Accessory for Nintendo Switch"
+      },
+      {
+        "item_id": "B001DLVIFQ",
+        "reason": "Star Wars retro gaming"
+      },
+      {
+        "item_id": "B001EYUPEC",
+        "reason": "Multiplayer retro game collection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3765,
+    "completion_tokens": 320
+  }
+}

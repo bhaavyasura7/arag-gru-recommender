@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming headsets",
+      "mechanical keyboards",
+      "surround sound",
+      "RGB lighting",
+      "wireless options"
+    ],
+    "current_intent": "Looking for a high-quality gaming headset.",
+    "avoid": [
+      "low-quality audio",
+      "wired headsets",
+      "non-gaming products"
+    ],
+    "summary": "User is a gamer focused on audio quality and performance, seeking a new headset with advanced features."
+  },
+  "usage": {
+    "prompt_tokens": 372,
+    "completion_tokens": 92
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0764M7JTY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User prefers gaming headsets."
+      },
+      {
+        "item_id": "B07Y2MBBT9",
+        "label": "support",
+        "score": 9,
+        "rationale": "Supports wireless gaming, user interest."
+      },
+      {
+        "item_id": "B07QVB415H",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with multiple gaming platforms."
+      },
+      {
+        "item_id": "B07F39NFG7",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Renewed product, less appealing."
+      },
+      {
+        "item_id": "B09WM9P52P",
+        "label": "support",
+        "score": 9,
+        "rationale": "High-quality sound, matches user preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2880,
+    "completion_tokens": 154
+  }
+}

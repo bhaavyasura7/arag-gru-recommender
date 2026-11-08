@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUNHG",
+      "B07X1TFSQ4",
+      "B0B199HWB5",
+      "B005DUEPQ2",
+      "B00CJ9OTNE",
+      "B00DYJGDYQ",
+      "B16MKVBZNQ",
+      "B001H4NMNA",
+      "B001EYUNHG",
+      "B07BF2422D",
+      "B01GW3H3U8",
+      "B08MKVBZNQ",
+      "B005GISQ9S",
+      "B00MAM0ALA",
+      "B07RQP5S8C",
+      "B01ARMHSJG",
+      "B00NW6T6CC",
+      "B01G6LXS0A",
+      "B07K3KHFSY",
+      "B12DUEPQ2",
+      "B00CJ9OTNE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUNHG",
+        "reason": "Popular fighting game franchise"
+      },
+      {
+        "item_id": "B07X1TFSQ4",
+        "reason": "Essential accessories for Switch Lite"
+      },
+      {
+        "item_id": "B0B199HWB5",
+        "reason": "Fun multiplayer party game"
+      },
+      {
+        "item_id": "B005DUEPQ2",
+        "reason": "Skylanders carrying case"
+      },
+      {
+        "item_id": "B00CJ9OTNE",
+        "reason": "Multiplayer-focused Call of Duty"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3895,
+    "completion_tokens": 330
+  }
+}

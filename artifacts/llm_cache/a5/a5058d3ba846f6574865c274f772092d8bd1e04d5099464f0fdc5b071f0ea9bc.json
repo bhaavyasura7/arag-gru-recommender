@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001DI6O6C",
+      "B001CLG6T0",
+      "B19L7WGCFM",
+      "B004L9BR8K",
+      "B07F8RHBQX",
+      "B0B59QM13V",
+      "B10GZ8PH9Y",
+      "B001HUHB54",
+      "B00699GHN0",
+      "B00XEG51EW",
+      "B00NQ4N19Y",
+      "B002GDFCKW",
+      "B07CJLG89B",
+      "B08R74DHMT",
+      "B001CLG6T0",
+      "B00Q3XLL2E",
+      "B00NQ4N19Y",
+      "B07CJLG89B",
+      "B001DI6O6C",
+      "B001CLG6T0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001DI6O6C",
+        "reason": "Engaging family-friendly gameplay"
+      },
+      {
+        "item_id": "B001CLG6T0",
+        "reason": "Fun puzzle-solving adventure"
+      },
+      {
+        "item_id": "B19L7WGCFM",
+        "reason": "Magical and engaging simulation"
+      },
+      {
+        "item_id": "B004L9BR8K",
+        "reason": "Family-friendly sports game"
+      },
+      {
+        "item_id": "B07F8RHBQX",
+        "reason": "Useful gaming accessory for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3757,
+    "completion_tokens": 333
+  }
+}

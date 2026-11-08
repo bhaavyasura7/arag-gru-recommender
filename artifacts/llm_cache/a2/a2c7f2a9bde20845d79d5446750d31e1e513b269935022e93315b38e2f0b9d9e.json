@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0050SW1WW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, genre not preferred."
+      },
+      {
+        "item_id": "B00009WAW7",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Hockey game, user prefers action RPGs."
+      },
+      {
+        "item_id": "B005B8DRVU",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre, strong narrative focus."
+      },
+      {
+        "item_id": "B002I0J4VQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Console upgrade, not a game."
+      },
+      {
+        "item_id": "B006VR663G",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, action-adventure genre."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1224,
+    "completion_tokens": 155
+  }
+}

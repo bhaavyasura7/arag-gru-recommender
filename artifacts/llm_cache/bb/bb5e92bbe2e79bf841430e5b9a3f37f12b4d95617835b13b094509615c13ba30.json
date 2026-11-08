@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000ZKJPXS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B0B2MN7H4S",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre than user's preferences."
+      },
+      {
+        "item_id": "B006JKARU8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, not PS4 or Switch."
+      },
+      {
+        "item_id": "B00009X3VG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, not PS4 or Switch."
+      },
+      {
+        "item_id": "B07V38PT55",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1251,
+    "completion_tokens": 159
+  }
+}

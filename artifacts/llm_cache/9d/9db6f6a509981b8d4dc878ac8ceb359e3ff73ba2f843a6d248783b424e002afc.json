@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUY70",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform, not user favorites."
+      },
+      {
+        "item_id": "B01M6C7YE8",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular game, aligns with action interests."
+      },
+      {
+        "item_id": "B00IAVDQCK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Useful accessory for Xbox gaming."
+      },
+      {
+        "item_id": "B002JTX5SO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, but action genre."
+      },
+      {
+        "item_id": "B007U87E8Q",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not relevant to user's gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1241,
+    "completion_tokens": 154
+  }
+}

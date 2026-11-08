@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09WVM75CP",
+      "B11S91X6W5",
+      "B0C1KSD9Q8",
+      "B0B7DP5XCQ",
+      "B08R1BSYDD",
+      "B004FZ6RF8",
+      "B001EYUUF6",
+      "B00006AVAY",
+      "B01GW3PFSA",
+      "B07NR7VZKN",
+      "B0002CHIWO",
+      "B001C0L7PO",
+      "B00001SHM5",
+      "B00002SUFX",
+      "B01N33OBYK",
+      "B01L1Y0RZQ",
+      "B07S91X6W5",
+      "B0002CHIWO",
+      "B001C0L7PO",
+      "B00001SHM5"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09WVM75CP",
+        "reason": "High-quality Switch carrying case"
+      },
+      {
+        "item_id": "B11S91X6W5",
+        "reason": "Compact mechanical gaming keyboard"
+      },
+      {
+        "item_id": "B0C1KSD9Q8",
+        "reason": "Ergonomic RGB gaming mouse"
+      },
+      {
+        "item_id": "B0B7DP5XCQ",
+        "reason": "Cooling fan for VR headset"
+      },
+      {
+        "item_id": "B08R1BSYDD",
+        "reason": "Protective case for Oculus Quest 2"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3516,
+    "completion_tokens": 336
+  }
+}

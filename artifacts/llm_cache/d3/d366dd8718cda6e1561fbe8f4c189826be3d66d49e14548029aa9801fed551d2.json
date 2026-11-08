@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00000IM2T",
+      "B000E7ORP8",
+      "B000SJ61BK",
+      "B00002SVER",
+      "B000QSE7FK",
+      "B007VTVRFA",
+      "B019T4J5HQ",
+      "B00N34CK5I",
+      "B00RBVFA92",
+      "B00VULDPCI",
+      "B00JZ4DG95",
+      "B00QO4NAOO",
+      "B006HZA8EA",
+      "B00N34CK5I",
+      "B00N34CK5I",
+      "B00N34CK5I",
+      "B00N34CK5I",
+      "B00N34CK5I",
+      "B00N34CK5I",
+      "B00N34CK5I"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00000IM2T",
+        "reason": "Classic JRPG experience"
+      },
+      {
+        "item_id": "B000E7ORP8",
+        "reason": "Replacement for nostalgic PSP"
+      },
+      {
+        "item_id": "B000SJ61BK",
+        "reason": "Classic action-adventure gameplay"
+      },
+      {
+        "item_id": "B00002SVER",
+        "reason": "Retro gaming accessory"
+      },
+      {
+        "item_id": "B000QSE7FK",
+        "reason": "Nostalgic gaming title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3843,
+    "completion_tokens": 317
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Mario games",
+      "Batman games",
+      "multiplayer experiences",
+      "action-adventure titles",
+      "Nintendo classics"
+    ],
+    "current_intent": "Looking for more engaging video games.",
+    "avoid": [
+      "boring single-player games",
+      "poorly rated titles",
+      "non-Nintendo games"
+    ],
+    "summary": "The user enjoys high-rated action-adventure and multiplayer games, particularly from Nintendo and the Batman franchise, and seeks new engaging titles."
+  },
+  "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 100
+  }
+}

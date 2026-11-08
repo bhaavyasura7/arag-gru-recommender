@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07S1Q55MB",
+      "B001G7PSRQ",
+      "B001EYUSFS",
+      "B007BK7J2Y",
+      "B00LV8HZH6",
+      "B00FA1CLEW",
+      "B00N2KKSNO",
+      "B00M3D8AQ8",
+      "B19T7CBPZ9",
+      "B00Z9TL6KA",
+      "B001EYUQIM",
+      "B00BALK9CM",
+      "B00IPTUJ8G",
+      "B001GGS6VW",
+      "B00N2KKSNO",
+      "B00FA1CLEW",
+      "B00LV8HZH6",
+      "B00M3D8AQ8",
+      "B00Z9TL6KA",
+      "B001G7PSRQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07S1Q55MB",
+        "reason": "Nintendo console aligns with interests"
+      },
+      {
+        "item_id": "B001G7PSRQ",
+        "reason": "Wii game fits gaming preference"
+      },
+      {
+        "item_id": "B001EYUSFS",
+        "reason": "PlayStation game matches user intent"
+      },
+      {
+        "item_id": "B007BK7J2Y",
+        "reason": "Accessory for PlayStation Vita"
+      },
+      {
+        "item_id": "B00LV8HZH6",
+        "reason": "Popular PlayStation 3 title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3739,
+    "completion_tokens": 331
+  }
+}

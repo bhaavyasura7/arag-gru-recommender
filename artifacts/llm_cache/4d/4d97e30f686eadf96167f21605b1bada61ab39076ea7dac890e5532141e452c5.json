@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B18C9W9FK4",
+      "B09FH27KTW",
+      "B08JLYSH4B",
+      "B15C2X6SZS",
+      "B086QVLSWY",
+      "B01GVJURHO",
+      "B08BLDRTG1",
+      "B00XDSJSGS",
+      "B084Z4Q9NK",
+      "B0127JVZE6",
+      "B00375MX5U",
+      "B00C710794",
+      "B0B4VPT4PJ",
+      "B00005Y3ZU",
+      "B01CSG15AM",
+      "B08SC8C16X",
+      "B00005BIG7",
+      "B01ARD1YYK",
+      "B07C9W9FK4",
+      "B082W1M8H1"
+    ],
+    "reasons": [
+      {
+        "item_id": "B18C9W9FK4",
+        "reason": "New strategy game for Xbox"
+      },
+      {
+        "item_id": "B09FH27KTW",
+        "reason": "Gaming headset with USB charger"
+      },
+      {
+        "item_id": "B08JLYSH4B",
+        "reason": "VR grips for rhythm games"
+      },
+      {
+        "item_id": "B15C2X6SZS",
+        "reason": "Narrative-driven game experience"
+      },
+      {
+        "item_id": "B086QVLSWY",
+        "reason": "Stylus controller for creativity"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3266,
+    "completion_tokens": 327
+  }
+}

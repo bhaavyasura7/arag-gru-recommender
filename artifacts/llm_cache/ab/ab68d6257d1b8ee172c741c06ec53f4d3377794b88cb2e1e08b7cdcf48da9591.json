@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09STBH8C8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Cooling accessory for Xbox Series S."
+      },
+      {
+        "item_id": "B000NKRIZM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B001G7PRP4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Rock Band game, not a strong interest."
+      },
+      {
+        "item_id": "B0B3X4L6YZ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming headset matches user's interests."
+      },
+      {
+        "item_id": "B002LT24CK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Xbox 360 controller, legacy system."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2778,
+    "completion_tokens": 158
+  }
+}

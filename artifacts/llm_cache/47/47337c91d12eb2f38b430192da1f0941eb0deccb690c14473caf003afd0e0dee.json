@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09FQF1WQT",
+      "B10GYN7T42",
+      "B08VS1F8BG",
+      "B001QCWSJ2",
+      "B071GCLQZP",
+      "B00068OLAG",
+      "B00009WKCM",
+      "B00L4KZMDA",
+      "B004GKMXPK",
+      "B06WVCWY41",
+      "B06XXLZFWX",
+      "B000063RRM",
+      "B00ATJIRO8",
+      "B0007KTBFS",
+      "B003E3NK2A",
+      "B0007KTBFS",
+      "B00LB3A302",
+      "B00406ZRCG",
+      "B00009WKCM",
+      "B01B5S9KEM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09FQF1WQT",
+        "reason": "High-DPI gaming mouse"
+      },
+      {
+        "item_id": "B10GYN7T42",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B08VS1F8BG",
+        "reason": "Comfortable VR headset strap"
+      },
+      {
+        "item_id": "B001QCWSJ2",
+        "reason": "Popular Xbox game"
+      },
+      {
+        "item_id": "B071GCLQZP",
+        "reason": "Engaging narrative game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3409,
+    "completion_tokens": 318
+  }
+}

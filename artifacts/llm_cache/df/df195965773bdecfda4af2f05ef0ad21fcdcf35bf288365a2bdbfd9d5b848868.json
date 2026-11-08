@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07NQDVZP7",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers action games, not strategy."
+      },
+      {
+        "item_id": "B08MBMV3VG",
+        "label": "support",
+        "score": 7,
+        "rationale": "User owns Nintendo systems, needs accessories."
+      },
+      {
+        "item_id": "B07MHNTVBL",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys LEGO games and superheroes."
+      },
+      {
+        "item_id": "B000IFLEQQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User dislikes casino-style games."
+      },
+      {
+        "item_id": "B0037Z0HEE",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys action games like Resident Evil."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1851,
+    "completion_tokens": 156
+  }
+}

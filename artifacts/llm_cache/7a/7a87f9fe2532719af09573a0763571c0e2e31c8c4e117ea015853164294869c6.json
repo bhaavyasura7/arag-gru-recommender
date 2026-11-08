@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07WNV98X5",
+      "B04G5YI3U",
+      "B07YBX6T95",
+      "B10C1KSD9Q8",
+      "B07RFZFNQT",
+      "B000F1TG0E",
+      "B00MQ691WE",
+      "B0008G1NEI",
+      "B008CP6MA2",
+      "B00BGA9WK2",
+      "B00KIWEMIG",
+      "B006VB2V54",
+      "B07TJ141Q9",
+      "B001EYUT70",
+      "B07NKN4VR4",
+      "B073ZNVN2G",
+      "B00GOZSR96",
+      "B00WU99A96",
+      "B00BGA9WK2",
+      "B00GOZSR96"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07WNV98X5",
+        "reason": "High-quality Nintendo Switch case"
+      },
+      {
+        "item_id": "B004G5YI3U",
+        "reason": "Popular gaming mouse with features"
+      },
+      {
+        "item_id": "B07YBX6T95",
+        "reason": "Expansive RPG for Xbox 360"
+      },
+      {
+        "item_id": "B10C1KSD9Q8",
+        "reason": "Ergonomic gaming mouse design"
+      },
+      {
+        "item_id": "B07RFZFNQT",
+        "reason": "Complete Dark Souls III experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3683,
+    "completion_tokens": 334
+  }
+}

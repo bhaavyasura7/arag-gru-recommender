@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B002I0K3CK",
+      "B08MBQ51KG",
+      "B00Z9TL1PU",
+      "B003S9VNWE",
+      "B08LT6PT1X",
+      "B003JBHG7C",
+      "B07YBX6T95",
+      "B06ZXXH1TT",
+      "B001QCWSHO",
+      "B07S38KQHS",
+      "B019WRM1IA",
+      "B00C1TTF86",
+      "B003JBHG7C",
+      "B08MBG5254",
+      "B00HVBPRUO",
+      "B07BGQ7Q8F",
+      "B07NPZZSRC",
+      "B0083ZYFPA",
+      "B14MBG5254",
+      "B07BGQ7Q8F",
+      "B003JBHG7C"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002I0K3CK",
+        "reason": "Classic Mario game experience"
+      },
+      {
+        "item_id": "B08MBQ51KG",
+        "reason": "Includes multiplayer mode"
+      },
+      {
+        "item_id": "B00Z9TL1PU",
+        "reason": "Fun co-op gameplay"
+      },
+      {
+        "item_id": "B003S9VNWE",
+        "reason": "Engaging action-adventure title"
+      },
+      {
+        "item_id": "B08LT6PT1X",
+        "reason": "High customization for gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3796,
+    "completion_tokens": 330
+  }
+}

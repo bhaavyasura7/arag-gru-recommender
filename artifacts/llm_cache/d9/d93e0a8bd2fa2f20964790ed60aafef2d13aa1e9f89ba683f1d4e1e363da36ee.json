@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Action RPGs",
+      "Limited edition video games",
+      "Nintendo Switch accessories",
+      "PlayStation controllers",
+      "Classic video game remasters"
+    ],
+    "current_intent": "Looking for new video games or accessories for Nintendo Switch or PlayStation.",
+    "avoid": [
+      "Casual games",
+      "Mobile games",
+      "Non-gaming electronics"
+    ],
+    "summary": "User is a dedicated gamer focused on high-quality action RPGs and gaming accessories, particularly for Nintendo and PlayStation consoles."
+  },
+  "usage": {
+    "prompt_tokens": 1627,
+    "completion_tokens": 90
+  }
+}

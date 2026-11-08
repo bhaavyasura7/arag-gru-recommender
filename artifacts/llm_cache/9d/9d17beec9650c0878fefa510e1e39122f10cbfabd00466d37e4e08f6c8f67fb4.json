@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0983WH43N",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers Nintendo Wii, not Switch."
+      },
+      {
+        "item_id": "B08434HXLG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on video games, not books."
+      },
+      {
+        "item_id": "B07WH3VP41",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers Wii, not Switch Lite."
+      },
+      {
+        "item_id": "B07K53BKLC",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox One games and accessories."
+      },
+      {
+        "item_id": "B08BNNHYP9",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers newer games, not N64."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 160
+  }
+}

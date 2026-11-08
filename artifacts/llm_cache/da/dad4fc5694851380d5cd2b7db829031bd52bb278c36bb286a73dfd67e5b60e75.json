@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video game consoles",
+      "gaming accessories",
+      "family-friendly games",
+      "Xbox and PlayStation",
+      "game performance enhancements"
+    ],
+    "current_intent": "looking for new gaming accessories or games",
+    "avoid": [
+      "highly competitive games",
+      "adult-themed content",
+      "non-gaming products"
+    ],
+    "summary": "The user enjoys gaming, particularly on Xbox and PlayStation, and prefers family-friendly titles and performance-enhancing accessories."
+  },
+  "usage": {
+    "prompt_tokens": 306,
+    "completion_tokens": 98
+  }
+}

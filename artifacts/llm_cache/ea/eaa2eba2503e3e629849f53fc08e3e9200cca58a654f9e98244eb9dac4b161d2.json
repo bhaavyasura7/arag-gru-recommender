@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The recommended products align with the user's interests in video games, particularly in action, racing, and superhero genres. They offer engaging gameplay experiences, multiplayer options, and nostalgic titles, catering to the user's intent for new gaming adventures while avoiding low-rated or non-gaming products."
+  },
+  "usage": {
+    "prompt_tokens": 1990,
+    "completion_tokens": 58
+  }
+}

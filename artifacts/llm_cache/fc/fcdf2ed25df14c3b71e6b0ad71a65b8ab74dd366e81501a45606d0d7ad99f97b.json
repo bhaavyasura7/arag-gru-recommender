@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01MS8XOYR",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B00BHRD4BM",
+        "label": "support",
+        "score": 9,
+        "rationale": "User owns a PS4 and enjoys expansions."
+      },
+      {
+        "item_id": "B00BO0GYW8",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Not directly related to gaming."
+      },
+      {
+        "item_id": "B0924WDQTT",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not a gaming product."
+      },
+      {
+        "item_id": "B00KE9WN84",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PC game, not PS4 related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1068,
+    "completion_tokens": 155
+  }
+}

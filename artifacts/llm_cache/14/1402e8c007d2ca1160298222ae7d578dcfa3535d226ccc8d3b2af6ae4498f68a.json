@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002IGTPK0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo Switch products."
+      },
+      {
+        "item_id": "B0882TR2WY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Nintendo Switch games."
+      },
+      {
+        "item_id": "B0BCHWZX95",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo Switch controller, user likes Nintendo."
+      },
+      {
+        "item_id": "B0B3H89N8B",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo Switch controller, Cuphead is popular."
+      },
+      {
+        "item_id": "B095WGNZ4Y",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wireless controller for Nintendo Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1665,
+    "completion_tokens": 157
+  }
+}

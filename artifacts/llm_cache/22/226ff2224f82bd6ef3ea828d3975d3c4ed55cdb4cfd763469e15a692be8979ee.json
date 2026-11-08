@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07NYDS9SY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to gaming mice."
+      },
+      {
+        "item_id": "B00MP7SFJE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Expansion for a popular MMORPG."
+      },
+      {
+        "item_id": "B00DR8V74A",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming headset complements gaming setup."
+      },
+      {
+        "item_id": "B0012N7BSI",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Sports game, not directly related."
+      },
+      {
+        "item_id": "B001D7JEJM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "First-person shooter, not a mouse."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1345,
+    "completion_tokens": 152
+  }
+}

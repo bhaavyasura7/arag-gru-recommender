@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00014B0GS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different gaming system, not Xbox."
+      },
+      {
+        "item_id": "B09YDRBZQS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Designed for Xbox, enhances gaming experience."
+      },
+      {
+        "item_id": "B00EDEA2Z2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B002TK6R60",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox 360, useful accessory."
+      },
+      {
+        "item_id": "B01M07LUG6",
+        "label": "support",
+        "score": 6,
+        "rationale": "Battery cover for Xbox 360 controller."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 917,
+    "completion_tokens": 156
+  }
+}

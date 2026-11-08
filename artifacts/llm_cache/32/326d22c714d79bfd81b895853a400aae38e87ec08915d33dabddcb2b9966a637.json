@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07MV17D3X",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers games, not accessories."
+      },
+      {
+        "item_id": "B00RSXRLUE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no GameCube interest shown."
+      },
+      {
+        "item_id": "B09K3ZY6BR",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User's history lacks mouse gaming."
+      },
+      {
+        "item_id": "B01I59OFDU",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox One games."
+      },
+      {
+        "item_id": "B07MRJ12HX",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers games over repair kits."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1356,
+    "completion_tokens": 152
+  }
+}

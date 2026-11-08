@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003ZDOFF0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, user prefers sports games."
+      },
+      {
+        "item_id": "B00001XDUB",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Horror genre, user prefers sports games."
+      },
+      {
+        "item_id": "B00P1OYN0S",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game, user prefers games."
+      },
+      {
+        "item_id": "B00006JC46",
+        "label": "support",
+        "score": 7,
+        "rationale": "Racing game, aligns with user interests."
+      },
+      {
+        "item_id": "B006VR689I",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Humor RPG, user prefers sports games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1264,
+    "completion_tokens": 159
+  }
+}

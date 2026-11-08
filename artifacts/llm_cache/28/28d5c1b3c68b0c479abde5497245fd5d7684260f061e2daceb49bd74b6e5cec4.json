@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00EADTVL2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox products, not PS4."
+      },
+      {
+        "item_id": "B01LD7MR2C",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox products, not PS4."
+      },
+      {
+        "item_id": "B00005R5PO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys video games, but not specific."
+      },
+      {
+        "item_id": "B07STR3G1D",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox products, not Nintendo."
+      },
+      {
+        "item_id": "B07CHRQC25",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox products, not Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1224,
+    "completion_tokens": 168
+  }
+}

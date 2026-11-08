@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00002DHEV",
+      "B00009WAW7",
+      "B005B8DRVU",
+      "B003UT9XI8",
+      "B001ELJFFU",
+      "B0050SZ7D2",
+      "B00AMA4L4E",
+      "B0050SW1WW",
+      "B00DBKSN8M",
+      "B006VR663G",
+      "B072FRJWQH",
+      "B00BHRD4BM",
+      "B00GGUVI5Y",
+      "B01GY35UK6",
+      "B00Z5T2SFW",
+      "B00DBKSN8M",
+      "B00AMA4L4E",
+      "B00BHRD4BM",
+      "B00GGUVI5Y",
+      "B00Z5T2SFW",
+      "B00AMA4L4E"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00002DHEV",
+        "reason": "Classic console for nostalgic games"
+      },
+      {
+        "item_id": "B00009WAW7",
+        "reason": "Classic sports game experience"
+      },
+      {
+        "item_id": "B005B8DRVU",
+        "reason": "Classic fighting game nostalgia"
+      },
+      {
+        "item_id": "B003UT9XI8",
+        "reason": "Multiplayer racing game"
+      },
+      {
+        "item_id": "B001ELJFFU",
+        "reason": "Classic shooter with multiplayer options"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3371,
+    "completion_tokens": 331
+  }
+}

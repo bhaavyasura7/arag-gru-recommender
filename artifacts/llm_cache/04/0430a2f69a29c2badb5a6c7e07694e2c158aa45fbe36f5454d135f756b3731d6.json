@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00406ZRCG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "not related to gaming interests"
+      },
+      {
+        "item_id": "B06XXLZFWX",
+        "label": "support",
+        "score": 9,
+        "rationale": "popular game, aligns with gaming interests"
+      },
+      {
+        "item_id": "B003E3NK2A",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "different console, less relevant"
+      },
+      {
+        "item_id": "B000063RRM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "older game, not a strong match"
+      },
+      {
+        "item_id": "B00LB3A302",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "accessory, not a game itself"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1093,
+    "completion_tokens": 147
+  }
+}

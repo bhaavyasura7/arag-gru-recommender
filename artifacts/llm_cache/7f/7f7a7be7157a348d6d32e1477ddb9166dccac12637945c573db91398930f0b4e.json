@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07HC3FMXC",
+      "B00KSQHX1K",
+      "B12YBX8RNF",
+      "B08F97Q8HS",
+      "B07WMPTF7V",
+      "B07HDYY8WK",
+      "B07YBX8RNF",
+      "B001EYUQ8M",
+      "B00IEZ6H4G",
+      "B08XQLJRZG",
+      "B0054OX7HA",
+      "B07HYW4XMP",
+      "B00BGA9WK2",
+      "B004OL4980",
+      "B01CEFEMFW",
+      "B01LD7MR2C",
+      "B00IAVDOS6",
+      "B07YBX8RNF",
+      "B008U4QPJI",
+      "B07WMPTF7V"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07HC3FMXC",
+        "reason": "Compatible with Xbox One"
+      },
+      {
+        "item_id": "B00KSQHX1K",
+        "reason": "Family-friendly Halo collection"
+      },
+      {
+        "item_id": "B12YBX8RNF",
+        "reason": "Custom faceplate for Xbox One"
+      },
+      {
+        "item_id": "B08F97Q8HS",
+        "reason": "Fun multiplayer platformer"
+      },
+      {
+        "item_id": "B07WMPTF7V",
+        "reason": "Bluetooth adapter for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3801,
+    "completion_tokens": 324
+  }
+}

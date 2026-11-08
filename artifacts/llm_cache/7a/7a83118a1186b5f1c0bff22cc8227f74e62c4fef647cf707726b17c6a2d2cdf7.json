@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BR9RGRW8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox products, not Nintendo."
+      },
+      {
+        "item_id": "B01GDKXMPA",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Not compatible with Xbox systems."
+      },
+      {
+        "item_id": "B000K8ZXK4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Relates to PSP, not Xbox or PS3."
+      },
+      {
+        "item_id": "B00CIO5ILW",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has interest in PS3 games."
+      },
+      {
+        "item_id": "B01EZUCHOC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Board game, not directly related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1266,
+    "completion_tokens": 165
+  }
+}

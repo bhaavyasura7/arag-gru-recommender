@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0056YAGUE",
+      "B01N7WNV5M",
+      "B0089VLF2O",
+      "B017QU5KLK",
+      "B19YBX6T95",
+      "B003ZHXHUA",
+      "B000CFWHQI",
+      "B006JKARZS",
+      "B01GJBUNTG",
+      "B007WPGS8O",
+      "B004D1Z3UO",
+      "B00F27JDTU",
+      "B00BI9ME4M",
+      "B00GM4283G",
+      "B001W0Y5VM",
+      "B00BI9ME4M",
+      "B00F27JDTU",
+      "B001W0Y5VM",
+      "B00069NVWE",
+      "B010U57G1K"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0056YAGUE",
+        "reason": "Popular Xbox game for multiplayer"
+      },
+      {
+        "item_id": "B01N7WNV5M",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B0089VLF2O",
+        "reason": "Accessory for Xbox controller"
+      },
+      {
+        "item_id": "B017QU5KLK",
+        "reason": "Top-rated Xbox One game"
+      },
+      {
+        "item_id": "B19YBX6T95",
+        "reason": "Expansive RPG experience on Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3497,
+    "completion_tokens": 327
+  }
+}

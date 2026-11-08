@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00005NOFM",
+      "B000FII14Y",
+      "B001237ZWK",
+      "B000HB7USC",
+      "B001EYUWWC",
+      "B07GJNSC2P",
+      "B00009ZVI2",
+      "B20MSOIUX0",
+      "B07CW48RYQ",
+      "B019BFAHXY",
+      "B077RLSQYH",
+      "B081GPTC17",
+      "B005GISQX4",
+      "B0083VTBTY",
+      "B07QPVTW6R",
+      "B001EYUWWC",
+      "B0795QV2BH",
+      "B0BBR5T6YG",
+      "B001237ZWK",
+      "B005JAT4LC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00005NOFM",
+        "reason": "Classic skateboarding nostalgia"
+      },
+      {
+        "item_id": "B000FII14Y",
+        "reason": "Action-adventure from a beloved series"
+      },
+      {
+        "item_id": "B001237ZWK",
+        "reason": "Enhances classic music game experience"
+      },
+      {
+        "item_id": "B000HB7USC",
+        "reason": "Classic life simulation game"
+      },
+      {
+        "item_id": "B001EYUWWC",
+        "reason": "Legacy title with multiplayer options"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3273,
+    "completion_tokens": 313
+  }
+}

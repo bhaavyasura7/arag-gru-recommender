@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08C7F68XH",
+      "B08LT6PT1X",
+      "B09YXR2MQR",
+      "B003R7JXO2",
+      "B0042GW7CC",
+      "B19Y8F819V",
+      "B07DNDZZ38",
+      "B00X3EDHZU",
+      "B004JN0U8Q",
+      "B0017ZIIK6",
+      "B001TOQ8UW",
+      "B0017ZIIK6",
+      "B07RB1PM3J",
+      "B0C6BV5XQZ",
+      "B0017ZIIK6",
+      "B0017ZIIK6",
+      "B0017ZIIK6",
+      "B0017ZIIK6",
+      "B0017ZIIK6",
+      "B0017ZIIK6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08C7F68XH",
+        "reason": "Wireless controller for Nintendo Switch"
+      },
+      {
+        "item_id": "B08LT6PT1X",
+        "reason": "Elite controller with customization options"
+      },
+      {
+        "item_id": "B09YXR2MQR",
+        "reason": "Limited edition Xbox controller"
+      },
+      {
+        "item_id": "B003R7JXO2",
+        "reason": "Multiplayer Harry Potter game"
+      },
+      {
+        "item_id": "B0042GW7CC",
+        "reason": "Classic multiplayer arcade games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3753,
+    "completion_tokens": 335
+  }
+}

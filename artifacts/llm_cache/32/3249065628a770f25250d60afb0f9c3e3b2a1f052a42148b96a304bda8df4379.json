@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00KWOSQC8",
+      "B00ANZR7X0",
+      "B00BWBTJ4Y",
+      "B00CISMP8M",
+      "B00DTY9B0O",
+      "B00DC7G2W8",
+      "B07YBWT3PK",
+      "B0BN2FNKLM",
+      "B0B99ZJCNC",
+      "B0BG1FQWS3",
+      "B004D4YDPC",
+      "B07GNDK3MQ",
+      "B08CW2M37L",
+      "B00BHRD4BM",
+      "B0BN2FNKLM",
+      "B07KS74Q2X",
+      "B00009YEJV",
+      "B00ANZR7X0",
+      "B0B99ZJCNC",
+      "B07KS74Q2X"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KWOSQC8",
+        "reason": "Highly engaging Pokémon title"
+      },
+      {
+        "item_id": "B00ANZR7X0",
+        "reason": "Classic Hitman games remastered"
+      },
+      {
+        "item_id": "B00BWBTJ4Y",
+        "reason": "Useful accessory for Nintendo Switch"
+      },
+      {
+        "item_id": "B00CISMP8M",
+        "reason": "Popular sports game on legacy system"
+      },
+      {
+        "item_id": "B00DTY9B0O",
+        "reason": "Collector's edition with unique items"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3525,
+    "completion_tokens": 338
+  }
+}

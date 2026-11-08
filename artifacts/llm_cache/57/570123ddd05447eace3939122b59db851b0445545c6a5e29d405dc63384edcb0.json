@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "gaming accessories",
+      "sports games",
+      "Nintendo Switch",
+      "Xbox gaming"
+    ],
+    "current_intent": "looking for new gaming experiences or accessories",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "overpriced accessories"
+    ],
+    "summary": "User is a gaming enthusiast focused on high-quality video games and accessories, particularly for Xbox and Nintendo Switch."
+  },
+  "usage": {
+    "prompt_tokens": 325,
+    "completion_tokens": 74
+  }
+}

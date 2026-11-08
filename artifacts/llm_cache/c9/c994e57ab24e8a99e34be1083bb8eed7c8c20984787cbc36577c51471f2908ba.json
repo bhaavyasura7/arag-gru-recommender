@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BZNL6P27",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR gaming not in user history."
+      },
+      {
+        "item_id": "B001BKMT16",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not casual."
+      },
+      {
+        "item_id": "B074HBNNH6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Retro gaming not explicitly shown."
+      },
+      {
+        "item_id": "B0087ACBAW",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys platform games like Dark Souls."
+      },
+      {
+        "item_id": "B0028Y4PUW",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likes music games, similar to action."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1458,
+    "completion_tokens": 156
+  }
+}

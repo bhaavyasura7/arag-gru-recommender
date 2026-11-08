@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B076ZPW7R2",
+      "B08BGPTPS2",
+      "B006MBZZSI",
+      "B007FLJCNTX",
+      "B08MVSK2Y4",
+      "B001262U54",
+      "B00006LJHF",
+      "B08DKXRH9D",
+      "B12FLJCNTX",
+      "B078NYPPM9",
+      "B00YXOYHVM",
+      "B006AKVX1E",
+      "B004EDIO98",
+      "B002JTX9XU",
+      "B08L8MF26C",
+      "B0051VE6SU",
+      "B07JW5HRN7",
+      "B07FLJCNTX",
+      "B08BRM3N53",
+      "B20G9FQUB8",
+      "B08MVSK2Y4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B076ZPW7R2",
+        "reason": "High-quality PlayStation game"
+      },
+      {
+        "item_id": "B08BGPTPS2",
+        "reason": "Popular franchise on PlayStation"
+      },
+      {
+        "item_id": "B006MBZZSI",
+        "reason": "Action RPG for PlayStation"
+      },
+      {
+        "item_id": "B007FLJCNTX",
+        "reason": "Portable gaming monitor for PS4"
+      },
+      {
+        "item_id": "B08MVSK2Y4",
+        "reason": "Gaming accessory for PlayStation"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3531,
+    "completion_tokens": 331
+  }
+}

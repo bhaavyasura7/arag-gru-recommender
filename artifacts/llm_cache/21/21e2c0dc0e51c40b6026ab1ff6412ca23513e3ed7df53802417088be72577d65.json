@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07CHXF76P",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user history."
+      },
+      {
+        "item_id": "B000ASBIEO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, user prefers newer consoles."
+      },
+      {
+        "item_id": "B08NTML8NR",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Retro console, not aligned with user interests."
+      },
+      {
+        "item_id": "B07WSX9PCJ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game or console."
+      },
+      {
+        "item_id": "B08QXBCP8F",
+        "label": "support",
+        "score": 7,
+        "rationale": "VR gaming aligns with user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 159
+  }
+}

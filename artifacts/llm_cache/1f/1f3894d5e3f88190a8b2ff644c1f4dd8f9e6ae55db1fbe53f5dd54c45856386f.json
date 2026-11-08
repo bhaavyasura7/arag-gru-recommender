@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DMZDRS2",
+      "B006XWV3ZA",
+      "B000YJMHVM",
+      "B09W4ZWZFG",
+      "B14B4KCJGLD",
+      "B000R2XILE",
+      "B000YQQ1IK",
+      "B0007ZIYCE",
+      "B000IMUYRY",
+      "B00PE7WUP2",
+      "B001EPTCAY",
+      "B000IK412A",
+      "B00GRN0YQ4",
+      "B004DBPSY0",
+      "B00DGYJ634",
+      "B0932RBTTV",
+      "B0CFQ8G288",
+      "B077DTWYV8",
+      "B00XX574DQ",
+      "B00DMZDRS2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DMZDRS2",
+        "reason": "New multiplayer strategy game"
+      },
+      {
+        "item_id": "B006XWV3ZA",
+        "reason": "Fun multiplayer racing game"
+      },
+      {
+        "item_id": "B000YJMHVM",
+        "reason": "Popular gaming accessory"
+      },
+      {
+        "item_id": "B09W4ZWZFG",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B14B4KCJGLD",
+        "reason": "Mechanical keyboard for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3249,
+    "completion_tokens": 315
+  }
+}

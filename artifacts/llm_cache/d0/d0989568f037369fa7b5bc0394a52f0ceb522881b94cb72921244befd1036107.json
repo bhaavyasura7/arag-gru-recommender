@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00US76K2M",
+      "B0C7PPFR3Y",
+      "B12GUSUBQO",
+      "B07MJGDP1T",
+      "B001158LE0",
+      "B09B1NYMN6",
+      "B075LFQGBV",
+      "B01N4N3WIA",
+      "B00000K1VE",
+      "B002I08VXI",
+      "B07X2LNHGB",
+      "B08NH9JLYX",
+      "B0B845WSVX",
+      "B004NDTRJA",
+      "B01AXZNUKI",
+      "B07N8KZJ82",
+      "B000QKXNLM",
+      "B16GUSUBQO",
+      "B0836BR7MP",
+      "B001158LE0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00US76K2M",
+        "reason": "Popular fighting game for Xbox"
+      },
+      {
+        "item_id": "B0C7PPFR3Y",
+        "reason": "Compatible gaming headset for Xbox"
+      },
+      {
+        "item_id": "B12GUSUBQO",
+        "reason": "Unique Xbox controller skin"
+      },
+      {
+        "item_id": "B07MJGDP1T",
+        "reason": "Collectible Hatsune Miku figure"
+      },
+      {
+        "item_id": "B001158LE0",
+        "reason": "Classic action-adventure game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3799,
+    "completion_tokens": 325
+  }
+}

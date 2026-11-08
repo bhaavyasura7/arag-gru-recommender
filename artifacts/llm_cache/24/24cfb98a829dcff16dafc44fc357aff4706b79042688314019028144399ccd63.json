@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000R0SR9E",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Horror FPS not in user history."
+      },
+      {
+        "item_id": "B00BAWXD7E",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation Vita not aligned with interests."
+      },
+      {
+        "item_id": "B001ELJFHI",
+        "label": "support",
+        "score": 7,
+        "rationale": "PlayStation 2 game aligns with user preferences."
+      },
+      {
+        "item_id": "B000035Y78",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Nintendo game not in user history."
+      },
+      {
+        "item_id": "B00W9DHUBS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Xbox One content not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1695,
+    "completion_tokens": 161
+  }
+}

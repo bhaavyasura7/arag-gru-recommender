@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08NYQYMS5",
+      "B00KVQYJR8",
+      "B0B5SXDD61",
+      "B01GOK1HB0",
+      "B00KZLHTAI",
+      "B07G5SMHT",
+      "B00DDLJI9W",
+      "B0B45V8T4J",
+      "B005FO0V2I",
+      "B0916MVHCM",
+      "B083PTPWDR",
+      "B00005B70T",
+      "B00002STKI",
+      "B000059OQF",
+      "B004OH7ODG",
+      "B000B6HWF4",
+      "B0000A2MAQ",
+      "B0000A2MAQ",
+      "B00DDLJI9W",
+      "B00KZLHTAI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08NYQYMS5",
+        "reason": "Dual controller charging dock"
+      },
+      {
+        "item_id": "B00KVQYJR8",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B0B5SXDD61",
+        "reason": "Popular Nintendo Switch bundle"
+      },
+      {
+        "item_id": "B01GOK1HB0",
+        "reason": "Custom controller skin set"
+      },
+      {
+        "item_id": "B00KZLHTAI",
+        "reason": "Protector for Nintendo Wii U"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3467,
+    "completion_tokens": 325
+  }
+}

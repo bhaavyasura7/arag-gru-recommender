@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BMPMTNFP",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers handheld consoles, not VR."
+      },
+      {
+        "item_id": "B01KSCWHBO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has Xbox interest, but no direct match."
+      },
+      {
+        "item_id": "B006ZO7TJU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has Xbox interest, but no direct match."
+      },
+      {
+        "item_id": "B089SDDFR5",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has Xbox 360 interest, relevant accessory."
+      },
+      {
+        "item_id": "B01EBDB28U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys video games, but no direct match."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1343,
+    "completion_tokens": 165
+  }
+}

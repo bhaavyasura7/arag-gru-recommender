@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B006VO0QUI",
+      "B0CBRT4BWW",
+      "B00NAW5R0I",
+      "B001EYUPHO",
+      "B00ZGG13EA",
+      "B00KVP78FE",
+      "B0B28CMVJV",
+      "B008AJETV4",
+      "B00L59D9HG",
+      "B074MMGR8F",
+      "B003LDKJEA",
+      "B0041RRSP8",
+      "B003QX4F7C",
+      "B00KVP78FE",
+      "B0BJF8CYTM",
+      "B002RS7NB2",
+      "B00ZGG13EA",
+      "B00NAW5R0I",
+      "B00KVP78FE",
+      "B0BLW27Z5W"
+    ],
+    "reasons": [
+      {
+        "item_id": "B006VO0QUI",
+        "reason": "Essential charger for Nintendo Switch"
+      },
+      {
+        "item_id": "B0CBRT4BWW",
+        "reason": "High-performance gaming controller paddles"
+      },
+      {
+        "item_id": "B00NAW5R0I",
+        "reason": "AC adapter for Nintendo 3DS systems"
+      },
+      {
+        "item_id": "B001EYUPHO",
+        "reason": "Popular PC game for action lovers"
+      },
+      {
+        "item_id": "B00ZGG13EA",
+        "reason": "Charger for Nintendo Switch Lite"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3913,
+    "completion_tokens": 329
+  }
+}

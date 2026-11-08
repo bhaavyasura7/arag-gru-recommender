@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09K6FVY86",
+      "B076C7M7ZR",
+      "B0B8DG8YRM",
+      "B04K6FVY86",
+      "B00005RKXL",
+      "B0009WAEK0",
+      "B00008GKFZ",
+      "B00006RHLF",
+      "B019PLMS72",
+      "B07T9MNFD3",
+      "B06WW7B61X",
+      "B08H2CJFSS",
+      "B005V0VI8M",
+      "B07Q3THC6R",
+      "B000RO0RO8",
+      "B00005RKXL",
+      "B0009WAEK0",
+      "B00008GKFZ",
+      "B00006RHLF",
+      "B01DXA34NI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09K6FVY86",
+        "reason": "Engaging multiplayer action-adventure"
+      },
+      {
+        "item_id": "B076C7M7ZR",
+        "reason": "High-quality gaming accessory"
+      },
+      {
+        "item_id": "B0B8DG8YRM",
+        "reason": "Useful for PS5 multiplayer"
+      },
+      {
+        "item_id": "B00005RKXL",
+        "reason": "Classic multiplayer experience"
+      },
+      {
+        "item_id": "B0009WAEK0",
+        "reason": "Nostalgic multiplayer game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2866,
+    "completion_tokens": 325
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01J4K51L4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games only."
+      },
+      {
+        "item_id": "B08LT6PT1X",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox controllers."
+      },
+      {
+        "item_id": "B0000C85ZX",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B000035Y6M",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy system game, not relevant."
+      },
+      {
+        "item_id": "B08ZS7BMTJ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Accessory for PS4, user prefers Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1090,
+    "completion_tokens": 161
+  }
+}

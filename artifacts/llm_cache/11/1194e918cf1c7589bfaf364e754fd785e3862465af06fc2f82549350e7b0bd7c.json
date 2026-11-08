@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001ELJFGO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers modern gaming experiences."
+      },
+      {
+        "item_id": "B073K6WMJ9",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in Nintendo."
+      },
+      {
+        "item_id": "B003URSUSE",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for legacy system, not preferred."
+      },
+      {
+        "item_id": "B00000I1BF",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User focuses on modern gaming systems."
+      },
+      {
+        "item_id": "B0050SVPCO",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Carrying case, not directly related to interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1461,
+    "completion_tokens": 156
+  }
+}

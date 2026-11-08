@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08P5Z1BHL",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Nintendo Switch interests."
+      },
+      {
+        "item_id": "B00KPWZ7LA",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not related to gaming accessories."
+      },
+      {
+        "item_id": "B007Z0O7S4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Nintendo Wii, gaming accessory."
+      },
+      {
+        "item_id": "B07RMHQK6M",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, but related to gaming."
+      },
+      {
+        "item_id": "B09BH3L2KC",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not relevant to user's gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1673,
+    "completion_tokens": 161
+  }
+}

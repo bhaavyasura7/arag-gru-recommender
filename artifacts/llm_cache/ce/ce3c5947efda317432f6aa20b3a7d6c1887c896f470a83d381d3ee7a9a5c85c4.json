@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07W6H9H6H",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches Nintendo Switch accessories interest."
+      },
+      {
+        "item_id": "B003AYH7OK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers newer consoles, not Wii."
+      },
+      {
+        "item_id": "B07Y6735TB",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with Xbox One, user has Xbox."
+      },
+      {
+        "item_id": "B08ZD2CKTX",
+        "label": "support",
+        "score": 9,
+        "rationale": "Supports Xbox Series X/S, user has Xbox."
+      },
+      {
+        "item_id": "B09Y32ZF5B",
+        "label": "support",
+        "score": 9,
+        "rationale": "High capacity for Xbox controllers, user has Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1782,
+    "completion_tokens": 164
+  }
+}

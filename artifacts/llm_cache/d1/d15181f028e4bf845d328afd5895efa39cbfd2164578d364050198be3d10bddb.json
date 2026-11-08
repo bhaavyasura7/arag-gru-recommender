@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09WR3DBT3",
+      "B10PH295QR",
+      "B0C9DNXQ3S",
+      "B07RMHQK6M",
+      "B12F9R1YT5",
+      "B08FC58KJX",
+      "B089YPBP4B",
+      "B07N2Z9VZX",
+      "B12W4M41XN",
+      "B07F9R1YT5",
+      "B003SEXRF0",
+      "B0042X9RX2",
+      "B09BH3L2KC",
+      "B08P5Z1BHL",
+      "B007Z0O7S4",
+      "B01FN2M0NY",
+      "B08JTVYKQK",
+      "B002EWD02M",
+      "B0B9KCG1ZR",
+      "B12W4M41XN"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09WR3DBT3",
+        "reason": "PS5 stand with cooling features"
+      },
+      {
+        "item_id": "B0C9DNXQ3S",
+        "reason": "Wireless mouse for gaming"
+      },
+      {
+        "item_id": "B08FC58KJX",
+        "reason": "VR adapter for immersive gaming"
+      },
+      {
+        "item_id": "B07RMHQK6M",
+        "reason": "Popular military shooter game"
+      },
+      {
+        "item_id": "B12F9R1YT5",
+        "reason": "High-quality mechanical keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3936,
+    "completion_tokens": 340
+  }
+}

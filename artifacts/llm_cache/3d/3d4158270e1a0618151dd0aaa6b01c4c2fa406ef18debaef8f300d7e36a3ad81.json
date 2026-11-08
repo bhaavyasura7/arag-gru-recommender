@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BFQFW9RS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to Nintendo products."
+      },
+      {
+        "item_id": "B001ELJE2E",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox 360 game, not Nintendo."
+      },
+      {
+        "item_id": "B01DU1SX8G",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related to amiibo and Nintendo Wii U."
+      },
+      {
+        "item_id": "B00B19IALK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox 360 controller, not Nintendo."
+      },
+      {
+        "item_id": "B01K2O2RSG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PlayStation 4 game, not Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 166
+  }
+}

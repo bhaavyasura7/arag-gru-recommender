@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B094YHB1QK",
+      "B008U4QPJI",
+      "B01GY35HKE",
+      "B000PWZKXK",
+      "B00L3KU0S8",
+      "B001QCWSDI",
+      "B0123QU5G1O",
+      "B001EYUX3K",
+      "B00008H2IS",
+      "B003ZHMMEM",
+      "B00DTY9B0O",
+      "B000065SQJ",
+      "B00B8SAB8O",
+      "B00ZJBSBD8",
+      "B00EP2WNKY",
+      "B00BBUCCKO",
+      "B006ZQ85YG",
+      "B017QU5G1O",
+      "B00DTY9B0O",
+      "B00L3KU0S8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B094YHB1QK",
+        "reason": "Latest PlayStation controller model"
+      },
+      {
+        "item_id": "B008U4QPJI",
+        "reason": "Dual charging for Xbox controllers"
+      },
+      {
+        "item_id": "B01GY35HKE",
+        "reason": "Popular action RPG title"
+      },
+      {
+        "item_id": "B000PWZKXK",
+        "reason": "Protective cover for consoles"
+      },
+      {
+        "item_id": "B00L3KU0S8",
+        "reason": "Dust cover for PS4 protection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3519,
+    "completion_tokens": 330
+  }
+}

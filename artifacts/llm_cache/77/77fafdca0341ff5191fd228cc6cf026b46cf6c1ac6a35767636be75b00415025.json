@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01ARAGJJS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not related to user's game preferences."
+      },
+      {
+        "item_id": "B007736908",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Nintendo systems."
+      },
+      {
+        "item_id": "B08CZHH6RJ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not relevant to user's game history."
+      },
+      {
+        "item_id": "B09NDJXKQ8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B000FIS7ZC",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likes PlayStation 2 games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1265,
+    "completion_tokens": 153
+  }
+}

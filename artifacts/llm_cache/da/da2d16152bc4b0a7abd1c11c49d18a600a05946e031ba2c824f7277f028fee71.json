@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07YBX7Y3P",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers PS2 and VR games."
+      },
+      {
+        "item_id": "B089SW1D9G",
+        "label": "support",
+        "score": 8,
+        "rationale": "User owns Oculus Rift, needs accessories."
+      },
+      {
+        "item_id": "B08743XS7S",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has Xbox One but prefers PS2."
+      },
+      {
+        "item_id": "B01E5XNBXA",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User has Xbox One, but no interest shown."
+      },
+      {
+        "item_id": "B00OH5VDWI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User plays PC games, headset is useful."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1332,
+    "completion_tokens": 163
+  }
+}

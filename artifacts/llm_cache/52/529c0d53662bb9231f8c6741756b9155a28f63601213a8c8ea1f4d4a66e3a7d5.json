@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002GDFCKW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B07CJLG89B",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B01F775RHQ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "N64 adapter, not relevant to user."
+      },
+      {
+        "item_id": "B0BF5FHM3Q",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Xbox controller, user prefers PlayStation."
+      },
+      {
+        "item_id": "B001DI6O6C",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers console games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1352,
+    "completion_tokens": 158
+  }
+}

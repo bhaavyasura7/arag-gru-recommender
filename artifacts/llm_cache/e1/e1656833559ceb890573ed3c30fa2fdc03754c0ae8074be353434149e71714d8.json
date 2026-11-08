@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01GHBJM72",
+      "B19B6CCNKD5",
+      "B19B00I5LAGM8",
+      "B00CES8EFY",
+      "B00L59D9HG",
+      "B00J5C3Z10",
+      "B00ZSDTIGG",
+      "B00N2ROO2S",
+      "B002JTX7LY",
+      "B00I5LAGM8",
+      "B00QGBNLUS",
+      "B0079V4FAY",
+      "B0C8WZJM66",
+      "B08MBG5254",
+      "B004IK89G0",
+      "B00L4VYOIS",
+      "B08PBQ83ZR",
+      "B00L59D9HG",
+      "B00CES8EFY",
+      "B0B6CCNKD5"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01GHBJM72",
+        "reason": "Popular action-adventure fighting game"
+      },
+      {
+        "item_id": "B00J5C3Z10",
+        "reason": "Co-op gameplay in a historical setting"
+      },
+      {
+        "item_id": "B00I5LAGM8",
+        "reason": "Open world stealth gameplay"
+      },
+      {
+        "item_id": "B00CES8EFY",
+        "reason": "Multiplayer racing experience"
+      },
+      {
+        "item_id": "B00L59D9HG",
+        "reason": "Compatible with popular gaming systems"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4130,
+    "completion_tokens": 339
+  }
+}

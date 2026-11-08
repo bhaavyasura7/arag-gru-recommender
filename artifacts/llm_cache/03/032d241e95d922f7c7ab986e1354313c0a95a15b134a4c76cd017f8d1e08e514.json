@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming keyboards",
+      "Xbox accessories",
+      "Pro Evolution Soccer",
+      "RGB lighting",
+      "gaming peripherals"
+    ],
+    "current_intent": "looking for a high-quality gaming keyboard",
+    "avoid": [
+      "low-quality products",
+      "non-gaming keyboards",
+      "wired controllers"
+    ],
+    "summary": "User is a gaming enthusiast focused on high-performance peripherals, particularly keyboards, and is currently seeking a premium gaming keyboard."
+  },
+  "usage": {
+    "prompt_tokens": 399,
+    "completion_tokens": 76
+  }
+}

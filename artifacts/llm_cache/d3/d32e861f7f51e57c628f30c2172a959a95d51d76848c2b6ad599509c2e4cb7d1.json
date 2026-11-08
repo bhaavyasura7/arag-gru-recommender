@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00GN67PJ4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, not a strong match."
+      },
+      {
+        "item_id": "B08ZXKMYRL",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a video game, unrelated accessory."
+      },
+      {
+        "item_id": "B002JTX610",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar action-adventure genre, strong match."
+      },
+      {
+        "item_id": "B001V7QIDY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Related to gaming, but not a game."
+      },
+      {
+        "item_id": "B08JGCDDKM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Gaming mouse, not a game itself."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1252,
+    "completion_tokens": 161
+  }
+}

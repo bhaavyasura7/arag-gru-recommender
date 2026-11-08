@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0038MVFYC",
+      "B08KHFBP4S",
+      "B08JJ14GQZ",
+      "B001EYUU2O",
+      "B07WS18ZS3",
+      "B01C48EA1A",
+      "B001A4MTGS",
+      "B001EYUNYY",
+      "B001EYUQT6",
+      "B09C4DPKGF",
+      "B09XV52WDK",
+      "B007VYW5Y2",
+      "B071JPNC4C",
+      "B09JYH4F31",
+      "B09N7PZK77",
+      "B076FCM9B5",
+      "B12D3D4F5",
+      "B08N7PZK77",
+      "B001EYUU2O",
+      "B001A4MTGS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0038MVFYC",
+        "reason": "Popular family-friendly Pokemon game"
+      },
+      {
+        "item_id": "B08KHFBP4S",
+        "reason": "Ergonomic grip for Nintendo Switch"
+      },
+      {
+        "item_id": "B08JJ14GQZ",
+        "reason": "Cute design for Nintendo Switch"
+      },
+      {
+        "item_id": "B001EYUU2O",
+        "reason": "Classic game for Nintendo DS"
+      },
+      {
+        "item_id": "B07WS18ZS3",
+        "reason": "Engaging superhero action game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3950,
+    "completion_tokens": 330
+  }
+}

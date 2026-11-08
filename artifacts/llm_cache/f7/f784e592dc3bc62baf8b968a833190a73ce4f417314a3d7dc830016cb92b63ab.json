@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B071WBRCYJ",
+      "B05FAN4M3S",
+      "B088FTCCVB",
+      "B0BHFF5GH8",
+      "B0C2TWDSLR",
+      "B0BF4SVFWL",
+      "B08LLB291G",
+      "B004LNJ1FC",
+      "B000F4MEKU",
+      "B004393I0I",
+      "B07TD5YXGM",
+      "B095GLBYBC",
+      "B0768GM4V4",
+      "B08TVHZLPL",
+      "B07BZLS6D7",
+      "B000SDFFP4",
+      "B01CQRJAUA",
+      "B07QWWCC4L",
+      "B09QLXS17G",
+      "B00FAN4M3S"
+    ],
+    "reasons": [
+      {
+        "item_id": "B071WBRCYJ",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B05FAN4M3S",
+        "reason": "Ergonomic gaming mouse"
+      },
+      {
+        "item_id": "B088FTCCVB",
+        "reason": "Wireless keyboard and mouse combo"
+      },
+      {
+        "item_id": "B0BHFF5GH8",
+        "reason": "PS5 wall mount for convenience"
+      },
+      {
+        "item_id": "B0C2TWDSLR",
+        "reason": "Versatile wired controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3736,
+    "completion_tokens": 322
+  }
+}

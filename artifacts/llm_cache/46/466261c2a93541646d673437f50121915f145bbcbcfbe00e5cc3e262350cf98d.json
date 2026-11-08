@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07DPK5NPD",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers VR, not Wii U games."
+      },
+      {
+        "item_id": "B00FXOP1JI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User shows no interest in 3DS games."
+      },
+      {
+        "item_id": "B07WWK48DV",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on VR, not Xbox games."
+      },
+      {
+        "item_id": "B015P8T2FU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Kinect is an accessory, not VR specific."
+      },
+      {
+        "item_id": "B08YR8LFH3",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly enhances Oculus Quest 2 experience."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1301,
+    "completion_tokens": 171
+  }
+}

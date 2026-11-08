@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07VFYBMTS",
+      "B07WR43KNR",
+      "B07MNTRX1R",
+      "B07JVT5J4V",
+      "B0765B12P6",
+      "B07VHHPJBV",
+      "B07D4PK616",
+      "B08CG48XJ9",
+      "B07F532TCN",
+      "B071H7XGNX",
+      "B08T5J57DK",
+      "B0767N3Y2Q",
+      "B07D4R6QC3",
+      "B07M8NRR3S",
+      "B071H7XCPV",
+      "B09347NK3Y",
+      "B08L7YS844",
+      "B07D4R6QC3",
+      "B071H7XGNX",
+      "B0936RXXV2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07VFYBMTS",
+        "reason": "High DPI and wireless option"
+      },
+      {
+        "item_id": "B07WR43KNR",
+        "reason": "Ergonomic design and programmable"
+      },
+      {
+        "item_id": "B07MNTRX1R",
+        "reason": "High DPI and RGB features"
+      },
+      {
+        "item_id": "B07JVT5J4V",
+        "reason": "Ergonomic with multiple DPI settings"
+      },
+      {
+        "item_id": "B0765B12P6",
+        "reason": "Affordable wired option with good features"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5114,
+    "completion_tokens": 338
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00004SVXW",
+      "B001FRTK4O",
+      "B003NHRDPW",
+      "B09JDLC31H",
+      "B000GHK3TA",
+      "B001EYUQ8M",
+      "B000N24EO8",
+      "B003O6EATE",
+      "B001EYUQ8M",
+      "B07WS71SBW",
+      "B00NOD0OTW",
+      "B08DKWPSWN",
+      "B07V8YSBFG",
+      "B00IORDD7S",
+      "B00LEB790S",
+      "B07RP8X56D",
+      "B0BFB85XGC",
+      "B07WWJDWY3",
+      "B003NHRDPW",
+      "B00NOD0OTW",
+      "B07V8YSBFG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00004SVXW",
+        "reason": "Classic Zelda game experience"
+      },
+      {
+        "item_id": "B001FRTK4O",
+        "reason": "Exploration and creativity"
+      },
+      {
+        "item_id": "B003NHRDPW",
+        "reason": "Similar adventure RPG elements"
+      },
+      {
+        "item_id": "B09JDLC31H",
+        "reason": "Nostalgic game collection"
+      },
+      {
+        "item_id": "B000GHK3TA",
+        "reason": "Fun and engaging gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3743,
+    "completion_tokens": 329
+  }
+}

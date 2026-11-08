@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0006TNCVE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern gaming products."
+      },
+      {
+        "item_id": "B06XRQC3KV",
+        "label": "support",
+        "score": 7,
+        "rationale": "User owns PS5, likes console accessories."
+      },
+      {
+        "item_id": "B01MRIEP69",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with PS5, enhances gameplay experience."
+      },
+      {
+        "item_id": "B09P32M29Y",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR headset case, not directly relevant."
+      },
+      {
+        "item_id": "B084TH4J6D",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Mouse grip, less relevant to user's history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1342,
+    "completion_tokens": 160
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The recommended products primarily feature action-adventure and open-world exploration games, particularly from the Legend of Zelda series, which align with the user's interests. Additionally, there are racing games that cater to the user's preference for engaging multiplayer experiences, while avoiding horror, puzzle, and sports genres."
+  },
+  "usage": {
+    "prompt_tokens": 1044,
+    "completion_tokens": 60
+  }
+}

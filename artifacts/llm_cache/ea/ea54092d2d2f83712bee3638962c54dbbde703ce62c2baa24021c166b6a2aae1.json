@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B05CJ9OTNE",
+      "B01GY35W22",
+      "B07YBXFF5C",
+      "B15Z9TL6KA",
+      "B07F1HTGV1",
+      "B06FWN9DOS",
+      "B01E10MWDW",
+      "B00GWX80XS",
+      "B001NTFATI",
+      "B00A8E0L4S",
+      "B001ELJEHE",
+      "B00CJ9OTNE",
+      "B00Z9TL6KA",
+      "B07NY76QQL",
+      "B00XR3YBM0",
+      "B000TLU67W",
+      "B074NDG5MN",
+      "B00CJ9OTNE",
+      "B00GWX80XS",
+      "B000006RGR"
+    ],
+    "reasons": [
+      {
+        "item_id": "B05CJ9OTNE",
+        "reason": "Popular multiplayer shooter experience"
+      },
+      {
+        "item_id": "B01GY35W22",
+        "reason": "Action-adventure with multiplayer elements"
+      },
+      {
+        "item_id": "B07YBXFF5C",
+        "reason": "Supports multiplayer gaming sessions"
+      },
+      {
+        "item_id": "B15Z9TL6KA",
+        "reason": "Popular sports game franchise"
+      },
+      {
+        "item_id": "B07F1HTGV1",
+        "reason": "Enhances multiplayer gaming experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3593,
+    "completion_tokens": 318
+  }
+}

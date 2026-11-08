@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08F97Q8HS",
+      "B06ZYYC5KK",
+      "B07NVZK5TK",
+      "B00H4G8J9C",
+      "B01N7H7RWC",
+      "B07YLB1C6V",
+      "B15DHS4DST",
+      "B00005JTVK",
+      "B001KC02EG",
+      "B017V7S4TI",
+      "B15DHS4DST",
+      "B000K9DMLU",
+      "B002LE714Q",
+      "B01N0QZV5K",
+      "B00PJDF12A",
+      "B00P9Y7QTU",
+      "B19TDYJBCL",
+      "B11N0QZV5K",
+      "B00A80AAZW",
+      "B01163CH8W"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08F97Q8HS",
+        "reason": "High-quality Switch carrying case"
+      },
+      {
+        "item_id": "B06ZYYC5KK",
+        "reason": "Protective storage for Switch"
+      },
+      {
+        "item_id": "B07NVZK5TK",
+        "reason": "Controller grips for Switch"
+      },
+      {
+        "item_id": "B00H4G8J9C",
+        "reason": "Game card case for 3DS"
+      },
+      {
+        "item_id": "B01N7H7RWC",
+        "reason": "Amiibo card for Nintendo"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3102,
+    "completion_tokens": 340
+  }
+}

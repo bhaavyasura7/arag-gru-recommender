@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo DS games",
+      "LEGO video games",
+      "Wii games",
+      "gaming bundles",
+      "family-friendly games"
+    ],
+    "current_intent": "Looking for more family-friendly video games.",
+    "avoid": [
+      "adult-themed games",
+      "complex strategy games",
+      "single-player only games"
+    ],
+    "summary": "User enjoys family-friendly video games, particularly for Nintendo consoles, and is seeking new titles to play."
+  },
+  "usage": {
+    "prompt_tokens": 271,
+    "completion_tokens": 78
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00TEDK8FQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's gaming preferences."
+      },
+      {
+        "item_id": "B004CDUOJ8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers different game genres."
+      },
+      {
+        "item_id": "B001EYUQ8C",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no interest in this game."
+      },
+      {
+        "item_id": "B0C7BLC2YQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not relevant to user's current consoles."
+      },
+      {
+        "item_id": "B000B6MLV4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's Xbox 360."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1413,
+    "completion_tokens": 160
+  }
+}

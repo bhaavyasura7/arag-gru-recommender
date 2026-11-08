@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00007MA56",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user’s interests."
+      },
+      {
+        "item_id": "B00BMJYLTO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Xbox 360, user has Xbox."
+      },
+      {
+        "item_id": "B07L9HPCTM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Storage bag, not directly related."
+      },
+      {
+        "item_id": "B09P5Y55RR",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Animal Crossing not in user history."
+      },
+      {
+        "item_id": "B0000631V8",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different genre, but still a video game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1288,
+    "completion_tokens": 160
+  }
+}

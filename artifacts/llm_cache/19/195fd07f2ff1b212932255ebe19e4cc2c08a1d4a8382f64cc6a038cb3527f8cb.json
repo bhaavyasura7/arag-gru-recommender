@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01N7WNV5M",
+      "B09GM4283G",
+      "B0089VLF2O",
+      "B017QU5KLK",
+      "B004D1Z3UO",
+      "B003ZHXHUA",
+      "B0056YAGUE",
+      "B000CFWHQI",
+      "B007WPGS8O",
+      "B19YBX6T95",
+      "B001W0Y5VM",
+      "B00F27JDTU",
+      "B006JKARZS",
+      "B00BI9ME4M",
+      "B00D1Z3UO",
+      "B00069NVWE",
+      "B010U57G1K",
+      "B0053BCP40",
+      "B00F27JDTU",
+      "B00BI9ME4M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01N7WNV5M",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B09GM4283G",
+        "reason": "Compatible with gaming systems"
+      },
+      {
+        "item_id": "B0089VLF2O",
+        "reason": "Protects Xbox controller"
+      },
+      {
+        "item_id": "B017QU5KLK",
+        "reason": "Popular Xbox One game"
+      },
+      {
+        "item_id": "B004D1Z3UO",
+        "reason": "Repairs Xbox discs effectively"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3550,
+    "completion_tokens": 325
+  }
+}

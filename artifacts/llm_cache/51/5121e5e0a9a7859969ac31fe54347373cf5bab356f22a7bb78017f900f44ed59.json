@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002I0IIPY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern consoles, not Wii."
+      },
+      {
+        "item_id": "B00008H2IS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern consoles, not GameCube."
+      },
+      {
+        "item_id": "B003ZHMMEM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern consoles, not Wii."
+      },
+      {
+        "item_id": "B000PWZKXK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not directly related to gaming."
+      },
+      {
+        "item_id": "B094YHB1QK",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches interest in PlayStation accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1265,
+    "completion_tokens": 163
+  }
+}

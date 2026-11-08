@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B019M0J6X90",
+      "B00069F92Y",
+      "B006C5M5R8",
+      "B00658TXAY",
+      "B085X4GYSM",
+      "B085WPKVD5",
+      "B085X4LSM4",
+      "B000BNGI5W",
+      "B009SSJATW",
+      "B000AQADLU",
+      "B005C9V7YW",
+      "B000FZXGEM",
+      "B000BY5XAW",
+      "B001KC03D6",
+      "B000O39U3Q",
+      "B018XH297M5",
+      "B002MUB0UU",
+      "B017V7DMI6",
+      "B000BNGI5W",
+      "B000AQADLU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B019M0J6X90",
+        "reason": "Popular Minecraft adventure game"
+      },
+      {
+        "item_id": "B00069F92Y",
+        "reason": "Engaging atmospheric adventure"
+      },
+      {
+        "item_id": "B006C5M5R8",
+        "reason": "Mystery adventure bundle download"
+      },
+      {
+        "item_id": "B00658TXAY",
+        "reason": "Variety of adventure games"
+      },
+      {
+        "item_id": "B085X4GYSM",
+        "reason": "Nintendo Switch game card case"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2042,
+    "completion_tokens": 319
+  }
+}

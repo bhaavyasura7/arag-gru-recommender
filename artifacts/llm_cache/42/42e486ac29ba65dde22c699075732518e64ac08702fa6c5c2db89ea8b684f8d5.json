@@ -1,0 +1,16 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08HHRH6QL",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Nintendo DS games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 682,
+    "completion_tokens": 34
+  }
+}

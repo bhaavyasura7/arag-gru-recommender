@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action video games",
+      "multiplayer experiences",
+      "sci-fi themes",
+      "expansion packs",
+      "competitive gameplay"
+    ],
+    "current_intent": "looking for new action video games to play",
+    "avoid": [
+      "low-rated games",
+      "single-player only",
+      "non-sci-fi genres"
+    ],
+    "summary": "The user enjoys action-packed multiplayer video games, particularly in sci-fi settings, and is currently seeking new titles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 286,
+    "completion_tokens": 87
+  }
+}

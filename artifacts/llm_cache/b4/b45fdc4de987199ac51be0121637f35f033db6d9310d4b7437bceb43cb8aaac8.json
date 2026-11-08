@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00MOQWBQ4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user history."
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers family-friendly games."
+      },
+      {
+        "item_id": "B07RFZFNQT",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers less challenging games."
+      },
+      {
+        "item_id": "B07JXV1FYY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo 3DS."
+      },
+      {
+        "item_id": "B0754SLBQB",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but on PlayStation 4."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1445,
+    "completion_tokens": 157
+  }
+}

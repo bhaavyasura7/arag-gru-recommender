@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00420K18K",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B07VLCRZ21",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox 360 game matches user interests."
+      },
+      {
+        "item_id": "B001EYUY8Y",
+        "label": "support",
+        "score": 9,
+        "rationale": "Accessory enhances Xbox 360 gaming experience."
+      },
+      {
+        "item_id": "B0032GPY96",
+        "label": "support",
+        "score": 10,
+        "rationale": "Directly supports Xbox 360 gaming."
+      },
+      {
+        "item_id": "B00ZM5OXD8",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "PlayStation 4 game, not Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1184,
+    "completion_tokens": 161
+  }
+}

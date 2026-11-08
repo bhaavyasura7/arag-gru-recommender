@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000IFLEPW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not billiards."
+      },
+      {
+        "item_id": "B07V3G1HNP",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for a different gaming console."
+      },
+      {
+        "item_id": "B00002ST3D",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers action RPGs, not casino games."
+      },
+      {
+        "item_id": "B09SYYPWY8",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming mouse aligns with user's interests."
+      },
+      {
+        "item_id": "B0B19SPF5K",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "VR accessories not directly related to history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1449,
+    "completion_tokens": 164
+  }
+}

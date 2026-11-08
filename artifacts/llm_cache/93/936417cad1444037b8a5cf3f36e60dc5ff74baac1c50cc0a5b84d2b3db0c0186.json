@@ -1,0 +1,15 @@
+{
+  "content": {
+    "keywords": [
+      "wireless",
+      "gaming",
+      "mouse"
+    ],
+    "max_price": null,
+    "exclude_terms": []
+  },
+  "usage": {
+    "prompt_tokens": 181,
+    "completion_tokens": 29
+  }
+}

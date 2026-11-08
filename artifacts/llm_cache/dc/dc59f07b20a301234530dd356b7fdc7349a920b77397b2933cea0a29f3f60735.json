@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08R5PR6SG",
+      "B09LRQDMHN",
+      "B077TB64KB",
+      "B07FFQN7BY",
+      "B00009WAVL",
+      "B00004SVXW",
+      "B001C6GVI6",
+      "B000TLU67W",
+      "B001EYUNYE",
+      "B000N5Z2L4",
+      "B000BLM5PG",
+      "B07YBX4VQN",
+      "B008UAGZL0",
+      "B005N4I24Y",
+      "B07MM94FXQ",
+      "B001SEQWXQ",
+      "B000EHPQLC",
+      "B07P5WJ7BC",
+      "B000TLU67W",
+      "B00009WAVL"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08R5PR6SG",
+        "reason": "High-quality wireless gaming headset"
+      },
+      {
+        "item_id": "B09LRQDMHN",
+        "reason": "Gaming accessory for PS5"
+      },
+      {
+        "item_id": "B077TB64KB",
+        "reason": "Expansion pass for a popular game"
+      },
+      {
+        "item_id": "B07FFQN7BY",
+        "reason": "Accessories for Nintendo Switch"
+      },
+      {
+        "item_id": "B00009WAVL",
+        "reason": "Classic sports video game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3919,
+    "completion_tokens": 314
+  }
+}

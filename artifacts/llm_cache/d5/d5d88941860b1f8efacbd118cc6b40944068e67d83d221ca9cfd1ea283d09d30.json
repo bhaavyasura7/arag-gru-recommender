@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00YXEAAWC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers hardware, not games."
+      },
+      {
+        "item_id": "B07DL79BR6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not directly related to gaming."
+      },
+      {
+        "item_id": "B0000645OV",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy game, not user’s interest."
+      },
+      {
+        "item_id": "B09MB5N1F3",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo Switch game, user prefers PC."
+      },
+      {
+        "item_id": "B00FMHV5U0",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PS3 cheat system, not relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1335,
+    "completion_tokens": 164
+  }
+}

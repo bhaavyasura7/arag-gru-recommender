@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004YVF8Z8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to gaming."
+      },
+      {
+        "item_id": "B08T5LC9FJ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly compatible with user's gaming."
+      },
+      {
+        "item_id": "B0831KLMFG",
+        "label": "support",
+        "score": 7,
+        "rationale": "Useful for PC gaming experience."
+      },
+      {
+        "item_id": "B016MN5J0O",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances gaming experience on PC."
+      },
+      {
+        "item_id": "B07JZ1MD89",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for older Nintendo system."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1079,
+    "completion_tokens": 152
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07R4C1G6Z",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers Nintendo games primarily."
+      },
+      {
+        "item_id": "B003BLUA64",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Nintendo Wii, user interest."
+      },
+      {
+        "item_id": "B002JTX7KA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B000K9OP2A",
+        "label": "support",
+        "score": 6,
+        "rationale": "PlayStation 3 game, aligns with user history."
+      },
+      {
+        "item_id": "B000CFKXYQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Older system, user prefers newer consoles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1463,
+    "completion_tokens": 161
+  }
+}

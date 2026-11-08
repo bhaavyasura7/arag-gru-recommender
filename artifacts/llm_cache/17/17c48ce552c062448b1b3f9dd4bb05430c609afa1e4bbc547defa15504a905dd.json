@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00IZXXF92",
+      "B0BXB1NKWF",
+      "B00Y4S5KPY",
+      "B0050SYYTK",
+      "B00HM1XPN4",
+      "B0016Q00FC",
+      "B01NAGTKX3",
+      "B00DDIRERI",
+      "B004VNHVF4",
+      "B006QRMR4S",
+      "B00498XT1G",
+      "B073GYFP2M",
+      "B001EHD8YS",
+      "B006VE40JQ",
+      "B002F87WGA",
+      "B0016Q00FC",
+      "B0B1GSSN3G",
+      "B004VNHVF4",
+      "B0050SVOXE",
+      "B07P2J6HSR"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00IZXXF92",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B0BXB1NKWF",
+        "reason": "Custom PS5 controller shell"
+      },
+      {
+        "item_id": "B00Y4S5KPY",
+        "reason": "RGB mouse pad for gamers"
+      },
+      {
+        "item_id": "B0050SYYTK",
+        "reason": "Fun Kinect game for Xbox"
+      },
+      {
+        "item_id": "B00HM1XPN4",
+        "reason": "Popular Tomb Raider game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3750,
+    "completion_tokens": 323
+  }
+}

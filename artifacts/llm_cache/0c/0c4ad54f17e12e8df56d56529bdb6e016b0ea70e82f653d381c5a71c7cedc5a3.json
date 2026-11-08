@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08LBD2S9S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B000R9PF1I",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in Nintendo DS."
+      },
+      {
+        "item_id": "B07C1XCWJM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B09BKZ7H97",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has PlayStation Vita interest."
+      },
+      {
+        "item_id": "B08TBVNW6Z",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation products."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 162
+  }
+}

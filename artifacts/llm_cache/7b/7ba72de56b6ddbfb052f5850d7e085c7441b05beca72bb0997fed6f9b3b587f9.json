@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B06ZZLNC88",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox and PlayStation games."
+      },
+      {
+        "item_id": "B0791JHH78",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Storage case not directly related to interests."
+      },
+      {
+        "item_id": "B081D2VMF8",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Thumb cover not specific to user preferences."
+      },
+      {
+        "item_id": "B00K0NV5J2",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys RPGs, matches interests well."
+      },
+      {
+        "item_id": "B085C6QF3G",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not play Nintendo 64 games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 949,
+    "completion_tokens": 166
+  }
+}

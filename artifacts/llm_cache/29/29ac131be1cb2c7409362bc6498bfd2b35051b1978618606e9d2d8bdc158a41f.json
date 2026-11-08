@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0CB7JB1V6",
+      "B07DLJL3N4",
+      "B19JXV1FYY",
+      "B0117Y1LBY",
+      "B0002XL3BA",
+      "B000K9OP2A",
+      "B001E8WQKY",
+      "B001EYUW72",
+      "B07RFZFNQT",
+      "B07J34VHLT",
+      "B004IWRNTC",
+      "B001EYUWOU",
+      "B0754SLBQB",
+      "B00005NN5G",
+      "B001EYUW72",
+      "B0086VPUHI",
+      "B07JXV1FYY",
+      "B000K9OP2A",
+      "B001E8WQKY",
+      "B001EYUW72"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0CB7JB1V6",
+        "reason": "High-performance wireless controller"
+      },
+      {
+        "item_id": "B07DLJL3N4",
+        "reason": "Wall mount for organization"
+      },
+      {
+        "item_id": "B19JXV1FYY",
+        "reason": "Classic game for Nintendo 3DS"
+      },
+      {
+        "item_id": "B0117Y1LBY",
+        "reason": "Gaming-themed collectible fridge"
+      },
+      {
+        "item_id": "B0002XL3BA",
+        "reason": "Popular action-adventure game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3687,
+    "completion_tokens": 323
+  }
+}

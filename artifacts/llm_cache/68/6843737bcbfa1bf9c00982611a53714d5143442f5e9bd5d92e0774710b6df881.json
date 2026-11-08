@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0036F0V4G",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's headset interests."
+      },
+      {
+        "item_id": "B0009VXBAQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers other gaming systems."
+      },
+      {
+        "item_id": "B0088TN73M",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no interest in fighting games."
+      },
+      {
+        "item_id": "B001F8188Y",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B004DGIYEG",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User's interests are not in this genre."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 157
+  }
+}

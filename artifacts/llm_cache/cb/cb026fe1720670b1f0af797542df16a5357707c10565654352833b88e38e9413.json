@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001URRGZY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not puzzles."
+      },
+      {
+        "item_id": "B08PV21Y12",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, mixed relevance."
+      },
+      {
+        "item_id": "B099Y3DF78",
+        "label": "support",
+        "score": 8,
+        "rationale": "Zombie action aligns with user interests."
+      },
+      {
+        "item_id": "B005GM1Y98",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not a strong match for user preferences."
+      },
+      {
+        "item_id": "B000AMMRG8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic game, but not action-focused."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 981,
+    "completion_tokens": 156
+  }
+}

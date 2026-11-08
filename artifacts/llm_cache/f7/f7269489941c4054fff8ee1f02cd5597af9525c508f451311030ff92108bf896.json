@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00MTDTU9I",
+        "label": "support",
+        "score": 8,
+        "rationale": "High DPI and programmable buttons match interests."
+      },
+      {
+        "item_id": "B0767N3Y2Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Wireless but lower DPI than preferred."
+      },
+      {
+        "item_id": "B00TDGST0U",
+        "label": "neutral",
+        "score": 6,
+        "rationale": "Moderate DPI, fewer buttons than preferred."
+      },
+      {
+        "item_id": "B07VFYBMTS",
+        "label": "support",
+        "score": 9,
+        "rationale": "High DPI and programmable features align well."
+      },
+      {
+        "item_id": "B07D4R6QC3",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Lower DPI and fewer buttons than desired."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1739,
+    "completion_tokens": 162
+  }
+}

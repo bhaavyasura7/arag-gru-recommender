@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0002IQCLG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers RPGs, not sports games."
+      },
+      {
+        "item_id": "B00N1V12D4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, mixed relevance."
+      },
+      {
+        "item_id": "B001COVME6",
+        "label": "support",
+        "score": 7,
+        "rationale": "RPG elements align with user interests."
+      },
+      {
+        "item_id": "B0061PAZUS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Fitness game, not aligned with RPGs."
+      },
+      {
+        "item_id": "B002I0K3M0",
+        "label": "support",
+        "score": 6,
+        "rationale": "Party game, appeals to social gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1208,
+    "completion_tokens": 164
+  }
+}

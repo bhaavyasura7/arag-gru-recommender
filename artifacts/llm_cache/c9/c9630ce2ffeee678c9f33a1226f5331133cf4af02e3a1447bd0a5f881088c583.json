@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "1633441180",
+        "label": "support",
+        "score": 9,
+        "rationale": "Related to user's Star Wars interests."
+      },
+      {
+        "item_id": "B014278KKI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Amiibo not directly related to games played."
+      },
+      {
+        "item_id": "B000CCXCYC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Remote not a game, but related to gaming."
+      },
+      {
+        "item_id": "B081W1VBKN",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different genre, not aligned with interests."
+      },
+      {
+        "item_id": "B001H0RZX2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Fitness game unrelated to user's history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 156
+  }
+}

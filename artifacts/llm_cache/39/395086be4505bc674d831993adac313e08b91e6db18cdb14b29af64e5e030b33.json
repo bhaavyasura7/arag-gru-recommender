@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07Q4F7FGX",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers older consoles, not PS3."
+      },
+      {
+        "item_id": "B01M7XSWTF",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in PC accessories."
+      },
+      {
+        "item_id": "B07WCQDG7S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B00OWTZ0ZU",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys music games, likes controllers."
+      },
+      {
+        "item_id": "B08RCQDWDM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in mouse pads."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 167
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00OHJY7C2",
+      "B014G8F1A0",
+      "B005TFJB2Y",
+      "B14D8F1A0",
+      "B01D63UU52",
+      "B01F74F00I",
+      "B07JJLLFXJ",
+      "B001BZ8EX8",
+      "B01F9B019Y",
+      "B003VUO6H4",
+      "B001G6062O",
+      "B00UBL0ZQC",
+      "B003R7JXOM",
+      "B00KWOSQC8",
+      "B001BZ8EX8",
+      "B07YBXFDYN",
+      "B01F9B019Y",
+      "B001G6062O",
+      "B003VUO6H4",
+      "B00UBL0ZQC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00OHJY7C2",
+        "reason": "Popular Pokémon game for 3DS"
+      },
+      {
+        "item_id": "B005TFJB2Y",
+        "reason": "Accessory for Nintendo DS systems"
+      },
+      {
+        "item_id": "B01D63UU52",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B01F74F00I",
+        "reason": "Compact mechanical keyboard"
+      },
+      {
+        "item_id": "B07JJLLFXJ",
+        "reason": "Nintendo Switch with Mario Kart"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3505,
+    "completion_tokens": 326
+  }
+}

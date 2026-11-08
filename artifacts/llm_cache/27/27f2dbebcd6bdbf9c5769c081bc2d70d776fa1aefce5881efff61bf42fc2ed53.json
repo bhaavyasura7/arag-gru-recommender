@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07F2HQXNR",
+      "B0088TN73M",
+      "B20BDG2VVFZ",
+      "B20BDG2VVFZ",
+      "B09V2L4RWN",
+      "B000MRNUBC",
+      "B07VWNJR3L",
+      "B001EYUY70",
+      "B00004Z319",
+      "B000UF6YKK",
+      "B0839HB9L3",
+      "B0BXPY3R43",
+      "B000ERVMI8",
+      "B000MRNUBC",
+      "B000MRNUBC",
+      "B000MRNUBC",
+      "B000MRNUBC",
+      "B000MRNUBC",
+      "B000MRNUBC",
+      "B000MRNUBC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07F2HQXNR",
+        "reason": "User loves music games"
+      },
+      {
+        "item_id": "B0088TN73M",
+        "reason": "Superhero game aligns with interests"
+      },
+      {
+        "item_id": "B20BDG2VVFZ",
+        "reason": "Sports game matches user preference"
+      },
+      {
+        "item_id": "B000MRNUBC",
+        "reason": "Classic Pokémon game is engaging"
+      },
+      {
+        "item_id": "B09V2L4RWN",
+        "reason": "Animal Crossing is popular and fun"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3603,
+    "completion_tokens": 326
+  }
+}

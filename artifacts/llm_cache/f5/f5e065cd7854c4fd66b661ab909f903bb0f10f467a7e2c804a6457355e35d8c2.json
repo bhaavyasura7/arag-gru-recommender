@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B006JH69YY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers other gaming systems."
+      },
+      {
+        "item_id": "B07YBX7L4K",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 4 games."
+      },
+      {
+        "item_id": "630146561X",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User focuses on video games, not movies."
+      },
+      {
+        "item_id": "B07DKVHFXH",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no interest in organizers."
+      },
+      {
+        "item_id": "B07538PLHL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers other controllers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 151
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "content": {
+    "ranking": [
+      "B004PBPAWS",
+      "B007DKUB5O",
+      "B001R5CS0W",
+      "B017D3KOJS",
+      "B00U2GEVPC",
+      "B00ABTAZV4",
+      "B08DB8H8M5",
+      "B017C2U8A0",
+      "B00005OBQ9",
+      "B00G94RXCE",
+      "B07D122T41",
+      "B004DNWPO4",
+      "B00005NCBA",
+      "B003TEGSXM",
+      "B07HYW4XMP",
+      "B007IQI8XU",
+      "B004LLC4B2",
+      "B12",
+      "B19",
+      "B20"
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3241,
+    "completion_tokens": 139
+  }
+}

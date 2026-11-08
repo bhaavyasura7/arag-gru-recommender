@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00269QLI8",
+      "B00002SWCJ",
+      "B008M2QC14",
+      "B00005BUAF",
+      "B000RA20VU",
+      "B08X6X4M1S",
+      "B00DLD2LLY",
+      "B07YZVLLKH",
+      "B00002ST1N",
+      "B000H58URS",
+      "B00480O9F0",
+      "B08VRZ4NRX",
+      "B0041SPG24",
+      "B0C4KZCKCP",
+      "B0B3S6NVT6",
+      "B00EPWPH8Y",
+      "B01MRGWQI7",
+      "B09S5LX9FL",
+      "B008GR4TGXK",
+      "B00002SWCJ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00269QLI8",
+        "reason": "Popular action-adventure shooter"
+      },
+      {
+        "item_id": "B00002SWCJ",
+        "reason": "Classic RPG with engaging story"
+      },
+      {
+        "item_id": "B008M2QC14",
+        "reason": "Dynamic combat and narrative choices"
+      },
+      {
+        "item_id": "B00005BUAF",
+        "reason": "Nostalgic classic RPG experience"
+      },
+      {
+        "item_id": "B000RA20VU",
+        "reason": "Familiar game show format"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3409,
+    "completion_tokens": 320
+  }
+}

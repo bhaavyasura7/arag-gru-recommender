@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B019WRM1IA",
+      "B07ZL9G9HJ",
+      "B14J2FZMMK",
+      "B00HRW5MGG",
+      "B0B9ZGCZ7D",
+      "B00IAVDPSA",
+      "B00I9TNNE4",
+      "B01NBP57V1",
+      "B005GISQX4",
+      "B00BHRD4BM",
+      "B0001OU19K",
+      "B001EYUXIK",
+      "B0BX41XJDW",
+      "B00NAW5DT8",
+      "B004MPR0ZC",
+      "B09WYGMY5T",
+      "B00J7N6C26",
+      "B18ZGCZ7D",
+      "B00HRW5MGG",
+      "B07J2FZMMK",
+      "B0BLFYF8K2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B019WRM1IA",
+        "reason": "Wired controller for Xbox 360"
+      },
+      {
+        "item_id": "B07ZL9G9HJ",
+        "reason": "Customizable mod pack for Xbox"
+      },
+      {
+        "item_id": "B14J2FZMMK",
+        "reason": "Comfortable non-slip controller grips"
+      },
+      {
+        "item_id": "B00HRW5MGG",
+        "reason": "Media remote for Xbox One"
+      },
+      {
+        "item_id": "B0B9ZGCZ7D",
+        "reason": "Survival horror game on Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3798,
+    "completion_tokens": 357
+  }
+}

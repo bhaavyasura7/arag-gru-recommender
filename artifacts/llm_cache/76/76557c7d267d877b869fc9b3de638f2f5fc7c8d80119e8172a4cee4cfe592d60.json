@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B007NNLHWW",
+      "B000CBZF8Y",
+      "B0001BDON8",
+      "B001EYUSG2",
+      "B000E6DYY4",
+      "B001KW97TM",
+      "B00026I0EK",
+      "B006MQH644",
+      "B000S0LLG4",
+      "B00009YXDA",
+      "B00065QTT0",
+      "B000EYUP06",
+      "B001ECQS9K",
+      "B018RKQXEQ",
+      "B0001BDON8",
+      "B00LNFK4SY",
+      "B01MZ7P4QC",
+      "B000E6DYY4",
+      "B09T5WW1YD",
+      "B016L2NLL0",
+      "B000CBZF8Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B007NNLHWW",
+        "reason": "Popular UFC game for Xbox 360"
+      },
+      {
+        "item_id": "B000CBZF8Y",
+        "reason": "Classic boxing game on PS2"
+      },
+      {
+        "item_id": "B0001BDON8",
+        "reason": "Legacy sports title from PS2"
+      },
+      {
+        "item_id": "B001EYUSG2",
+        "reason": "Latest boxing game for PS3"
+      },
+      {
+        "item_id": "B000E6DYY4",
+        "reason": "Fight Night series on PS3"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2260,
+    "completion_tokens": 329
+  }
+}

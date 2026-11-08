@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00Z9THPWS",
+      "B007FQ8D8A",
+      "B00UBL0ZQC",
+      "B003U7WCEM",
+      "B00H3SGII0",
+      "B00KUZ1K8Q",
+      "B00JM57VDS",
+      "B00H3SGII0",
+      "B0040J1REA",
+      "B001EYUY70",
+      "B001E8WQJA",
+      "B001EYUWAO",
+      "B00BDF9WZQQ",
+      "B093GLPLLB",
+      "B00CDW965",
+      "B00KUZ1K8Q",
+      "B00Z9THPWS",
+      "B00JM57VDS",
+      "B00H3SGII0",
+      "B00BDF9WZQQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00Z9THPWS",
+        "reason": "Popular Xbox 360 game title"
+      },
+      {
+        "item_id": "B007FQ8D8A",
+        "reason": "Essential Xbox 360 accessory"
+      },
+      {
+        "item_id": "B00UBL0ZQC",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B003U7WCEM",
+        "reason": "Compatible with Xbox 360"
+      },
+      {
+        "item_id": "B00H3SGII0",
+        "reason": "Classic game for Xbox 360"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3860,
+    "completion_tokens": 330
+  }
+}

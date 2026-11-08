@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00BI9ME4M",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has PS3 accessories interest."
+      },
+      {
+        "item_id": "B000CFWHQI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own PSP."
+      },
+      {
+        "item_id": "B0089VLF2O",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers Xbox One accessories."
+      },
+      {
+        "item_id": "B017QU5KLK",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has Xbox One game interest."
+      },
+      {
+        "item_id": "B01GJBUNTG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Wii U."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1033,
+    "completion_tokens": 155
+  }
+}

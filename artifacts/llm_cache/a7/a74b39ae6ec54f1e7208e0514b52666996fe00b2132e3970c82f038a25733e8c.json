@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09F6CY625",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS5 accessory, user prefers PS2."
+      },
+      {
+        "item_id": "B07WS18ZS3",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS4 game, user prefers PS2 games."
+      },
+      {
+        "item_id": "B07624RBWB",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Switch, user prefers PlayStation."
+      },
+      {
+        "item_id": "B01NASEX0C",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Switch game, user prefers PS2."
+      },
+      {
+        "item_id": "B009GWKP76",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Xbox 360 game, user prefers PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 166
+  }
+}

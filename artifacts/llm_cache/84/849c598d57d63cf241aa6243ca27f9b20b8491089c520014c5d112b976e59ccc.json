@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B009G7XXI4",
+      "B004NBZBM4",
+      "B00E8CF268",
+      "B08CXXJFQL",
+      "B000OYITQO",
+      "B00005LZY2",
+      "B01E5CSZJ6",
+      "B07FB27V8Q",
+      "B07RBNNJS3",
+      "B004WSJEVM",
+      "B00HNFMEC2",
+      "B00GTASGW4",
+      "B08GZY2XBD",
+      "B00004SVW2",
+      "B00PA4NXQ4",
+      "B00H9M4KSA",
+      "B00002ST53",
+      "B07FK3HN18",
+      "B09VT2GP6Z",
+      "B004OBYTH6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B009G7XXI4",
+        "reason": "Popular action game title"
+      },
+      {
+        "item_id": "B004NBZBM4",
+        "reason": "Highly rated strategy game"
+      },
+      {
+        "item_id": "B00E8CF268",
+        "reason": "Ergonomic gaming mouse"
+      },
+      {
+        "item_id": "B08CXXJFQL",
+        "reason": "RGB gaming mouse with features"
+      },
+      {
+        "item_id": "B000OYITQO",
+        "reason": "Wireless controller for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3240,
+    "completion_tokens": 318
+  }
+}

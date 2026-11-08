@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B06XX4D2KY",
+      "B0037Z0HEE",
+      "B15BQVXSSS",
+      "B00BQVXVYY",
+      "B001EYUWRC",
+      "B00E8CF268",
+      "B19H431BSX",
+      "B004DGIYEG",
+      "B00BQVXSSS",
+      "B001TOQ8NO",
+      "B001EYUQVE",
+      "B07MHNTVBL",
+      "B001ELJE74",
+      "B00O1CKQW0",
+      "B08MBMV3VG",
+      "B000IFLEQQ",
+      "B07NQDVZP7",
+      "B0B9KXTNJY",
+      "B007FQUFC0",
+      "B001EYUWRC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B06XX4D2KY",
+        "reason": "Highly-rated action game"
+      },
+      {
+        "item_id": "B0037Z0HEE",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B15BQVXSSS",
+        "reason": "Engaging multiplayer experience"
+      },
+      {
+        "item_id": "B00BQVXVYY",
+        "reason": "Action-packed LEGO game"
+      },
+      {
+        "item_id": "B001EYUWRC",
+        "reason": "Story-driven military shooter"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3899,
+    "completion_tokens": 316
+  }
+}

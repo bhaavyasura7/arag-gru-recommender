@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09NQWKKMJ",
+      "B00TDMBUMI",
+      "B20C2Y9QX1H",
+      "B003FMTZSI",
+      "B00CISMP8M",
+      "B00BGAA3S2",
+      "B001EYUTZ2",
+      "B001BQVXP8",
+      "B001EYUOFM",
+      "B0079V4GK8",
+      "B0728CJKZS",
+      "B00YDV70NW",
+      "B003HKS156",
+      "B00RN7QTF8",
+      "B00Z9TJZAI",
+      "B014GWNTCI",
+      "B001ELJDUC",
+      "B00CISMP8M",
+      "B003FMTZSI",
+      "B00BGAA3S2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09NQWKKMJ",
+        "reason": "High-quality gaming accessory"
+      },
+      {
+        "item_id": "B00TDMBUMI",
+        "reason": "Classic game console with nostalgia"
+      },
+      {
+        "item_id": "B20C2Y9QX1H",
+        "reason": "Fast charging for gaming accessories"
+      },
+      {
+        "item_id": "B003FMTZSI",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B00CISMP8M",
+        "reason": "Popular sports game for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3551,
+    "completion_tokens": 323
+  }
+}

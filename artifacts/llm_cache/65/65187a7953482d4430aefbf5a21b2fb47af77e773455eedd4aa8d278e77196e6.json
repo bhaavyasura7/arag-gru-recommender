@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0000AI1KK",
+      "B0002A6CQ4",
+      "B00I9RAW8G",
+      "B008EMXQQG",
+      "B01L0CV6OK",
+      "B07QJ5L4L4",
+      "B0741C75T3",
+      "B00JY7GMS4",
+      "B08MBMZKVH",
+      "B003BYQ79U",
+      "B07YKV1MKC",
+      "B09J4MQ7HT",
+      "B00IN6PETA",
+      "B01DPVP3ZM",
+      "B00KRSXHT6",
+      "B0BQQH4MPT",
+      "B002HJQSQW",
+      "B0001B6QBU",
+      "B20BQQH4MPT",
+      "B07YKV1MKC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0000AI1KK",
+        "reason": "Strong narrative horror experience"
+      },
+      {
+        "item_id": "B0002A6CQ4",
+        "reason": "Classic horror with engaging story"
+      },
+      {
+        "item_id": "B00I9RAW8G",
+        "reason": "Customization for PS4 console"
+      },
+      {
+        "item_id": "B008EMXQQG",
+        "reason": "Diverse storylines in one collection"
+      },
+      {
+        "item_id": "B01L0CV6OK",
+        "reason": "Fun quiz game for social play"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3394,
+    "completion_tokens": 336
+  }
+}

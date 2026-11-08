@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0BF8H4WNC",
+      "B08PDW1Z2G",
+      "B0BZ7WZ32S",
+      "B00196DP9M",
+      "B07KB9MDC2",
+      "B07ZNQNDN5",
+      "B08YDM92NR",
+      "B00EZAWU4K",
+      "B00HFXSVDI",
+      "B00NQMKTI2",
+      "B009CXLEEW",
+      "B07ZJ6RY1W",
+      "B074Y4G1TT",
+      "B01N5RJE7E",
+      "B08J6GVCT9",
+      "B0CF82DZ4P",
+      "B00LF7HAXM",
+      "B08LP8JWJ7",
+      "B00E9T8FU",
+      "B08PDW1Z2G",
+      "B0CF82DZ4P"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BF8H4WNC",
+        "reason": "Action RPG with immersive storyline"
+      },
+      {
+        "item_id": "B08PDW1Z2G",
+        "reason": "Fun LEGO game experience"
+      },
+      {
+        "item_id": "B0BZ7WZ32S",
+        "reason": "Convenient storage for Switch games"
+      },
+      {
+        "item_id": "B00196DP9M",
+        "reason": "Classic action RPG with great graphics"
+      },
+      {
+        "item_id": "B07KB9MDC2",
+        "reason": "Protective case for gaming accessories"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3792,
+    "completion_tokens": 353
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00KRSXHT6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User dislikes shooter games."
+      },
+      {
+        "item_id": "B07QJ5L4L4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00I9RAW8G",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Skin for a console, not a game."
+      },
+      {
+        "item_id": "B01L0CV6OK",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Trivia game, not user’s preference."
+      },
+      {
+        "item_id": "B0000AI1KK",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys horror games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1178,
+    "completion_tokens": 156
+  }
+}

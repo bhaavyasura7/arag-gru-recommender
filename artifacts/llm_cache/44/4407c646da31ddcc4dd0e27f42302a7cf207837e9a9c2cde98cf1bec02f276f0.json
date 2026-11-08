@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00006IR62",
+      "B00006LELD",
+      "B0002A6CQ4",
+      "B00BGA9WK2",
+      "B15B96D3GG8",
+      "B00097CZ5W",
+      "B07FMMZTXY",
+      "B004GX4864",
+      "B003VUO6H4",
+      "B00DDILSBG",
+      "B077GG9D5D",
+      "B0008G2OWS",
+      "B004Q4PECU",
+      "B005669IE2",
+      "B07LDGV7ZL",
+      "B001G7PSTY",
+      "B0777JG5YS",
+      "B0002A6CQ4",
+      "B00B2VG52I",
+      "B004GX4864"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00006IR62",
+        "reason": "Strong narrative and gameplay"
+      },
+      {
+        "item_id": "B00006LELD",
+        "reason": "Engaging horror experience"
+      },
+      {
+        "item_id": "B0002A6CQ4",
+        "reason": "Deep customization and music"
+      },
+      {
+        "item_id": "B00BGA9WK2",
+        "reason": "Epic fantasy adventure"
+      },
+      {
+        "item_id": "B15B96D3GG8",
+        "reason": "Award-winning narrative RPG"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3678,
+    "completion_tokens": 314
+  }
+}

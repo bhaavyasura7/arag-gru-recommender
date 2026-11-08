@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001ET07O0",
+      "B002IGTPK0",
+      "B0721GGGS9",
+      "B001PO2BJI",
+      "B001QCWSHO",
+      "B001EYUPBU",
+      "B00F6YD26Y",
+      "B002QXSF9M",
+      "B00BN5T30E",
+      "B00KQXKUFQ",
+      "B00MAPYKPO",
+      "B00Z9TL6KA",
+      "B001EYUNOO",
+      "B002I0GKA4",
+      "B07R21FJD8",
+      "B01N7XUY14",
+      "B00F6YD26Y",
+      "B001EYUNOO",
+      "B00BN5T30E",
+      "B00KQXKUFQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001ET07O0",
+        "reason": "Popular Wii shooter game"
+      },
+      {
+        "item_id": "B002IGTPK0",
+        "reason": "Nintendo DSi bundle with games"
+      },
+      {
+        "item_id": "B0721GGGS9",
+        "reason": "Classic Nintendo console with games"
+      },
+      {
+        "item_id": "B001PO2BJI",
+        "reason": "Mario Kart racing wheel for Wii"
+      },
+      {
+        "item_id": "B001QCWSHO",
+        "reason": "Fun multiplayer fishing game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3886,
+    "completion_tokens": 319
+  }
+}

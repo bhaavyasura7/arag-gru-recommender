@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The user seeks new video game recommendations, particularly in retro and action-adventure genres. Relevant candidates include classic consoles and games, emphasizing nostalgia and engaging gameplay, while avoiding first-person shooters and horror titles. The focus is on enhancing the gaming experience with familiar, beloved titles and accessories."
+  },
+  "usage": {
+    "prompt_tokens": 2042,
+    "completion_tokens": 60
+  }
+}

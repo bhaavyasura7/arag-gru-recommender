@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video game accessories",
+      "PlayStation games",
+      "Wii gaming",
+      "charging solutions",
+      "gaming hardware"
+    ],
+    "current_intent": "looking for reliable gaming accessories",
+    "avoid": [
+      "low-quality products",
+      "overpriced items",
+      "non-gaming related products"
+    ],
+    "summary": "The user enjoys gaming and seeks quality accessories for their consoles, particularly PlayStation and Wii, while avoiding low-quality or overpriced options."
+  },
+  "usage": {
+    "prompt_tokens": 314,
+    "completion_tokens": 81
+  }
+}

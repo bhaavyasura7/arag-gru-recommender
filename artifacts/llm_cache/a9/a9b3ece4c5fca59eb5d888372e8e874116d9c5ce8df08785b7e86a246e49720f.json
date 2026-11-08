@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09X14QMM8",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys modern gaming consoles."
+      },
+      {
+        "item_id": "B07VYWG25L",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has interest in Nintendo Switch accessories."
+      },
+      {
+        "item_id": "B00004TBA7",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games over PC."
+      },
+      {
+        "item_id": "B01DVKAMDK",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User does not show interest in Wii U."
+      },
+      {
+        "item_id": "B07CGCL449",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likely uses Nintendo Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 156
+  }
+}

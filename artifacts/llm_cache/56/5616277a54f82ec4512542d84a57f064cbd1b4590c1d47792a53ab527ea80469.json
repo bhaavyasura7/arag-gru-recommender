@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008ATPG2A",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not aligned with user preferences."
+      },
+      {
+        "item_id": "B00H0B4BRA",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has Xbox controllers."
+      },
+      {
+        "item_id": "B001KC02M8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not casual."
+      },
+      {
+        "item_id": "B08D71M21L",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Xbox games, sports genre."
+      },
+      {
+        "item_id": "B000MNGI9C",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Vintage game not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1287,
+    "completion_tokens": 156
+  }
+}

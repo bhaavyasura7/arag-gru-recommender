@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B000NDFFFE",
+      "B0056JGBVC",
+      "B12FQFKGLV",
+      "B001QCWSB0",
+      "B07DQQX9HH",
+      "B07WCV1J99",
+      "B003V8Q7BE",
+      "B07Q2TP1X1",
+      "B008CN85Y8Z",
+      "B0001ILKEG",
+      "B002PK0L4I",
+      "B01CCTQME4",
+      "B14FQFKGLV",
+      "B00EIN266Q",
+      "B000AO9YQM",
+      "B07DQQX9HH",
+      "B01ELF5PRC",
+      "B08L3FQ5SD",
+      "B007YLUCME",
+      "B09FQFKGLV",
+      "B0BZ7DNP2Q"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000NDFFFE",
+        "reason": "Nostalgic fighting game experience"
+      },
+      {
+        "item_id": "B0056JGBVC",
+        "reason": "Engaging puzzle gameplay"
+      },
+      {
+        "item_id": "B12FQFKGLV",
+        "reason": "Classic SEGA game collection"
+      },
+      {
+        "item_id": "B001QCWSB0",
+        "reason": "Fantasy puzzle RPG with customization"
+      },
+      {
+        "item_id": "B07DQQX9HH",
+        "reason": "Quality gaming headset for immersion"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3570,
+    "completion_tokens": 338
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00V0RAW0A",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox games, not PS4."
+      },
+      {
+        "item_id": "B002YD95I4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nostalgic games, but not user favorites."
+      },
+      {
+        "item_id": "B00V5D3OHC",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User hasn't shown interest in MMORPGs."
+      },
+      {
+        "item_id": "B004COHWLA",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wii game aligns with user preferences."
+      },
+      {
+        "item_id": "B01J4ZTKQG",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming headset fits user gaming setup."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1197,
+    "completion_tokens": 166
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00LNE64XY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers action/adventure games."
+      },
+      {
+        "item_id": "B08JM2R8HZ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has gaming accessories."
+      },
+      {
+        "item_id": "B08JWMJSB6",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Xbox gaming accessories."
+      },
+      {
+        "item_id": "B07MDM62W6",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User may not use arcade joysticks."
+      },
+      {
+        "item_id": "B08QRCW6SN",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "User's interests don't include flight simulation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2645,
+    "completion_tokens": 154
+  }
+}

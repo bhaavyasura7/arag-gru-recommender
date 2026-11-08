@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00Z9TM72Q",
+      "B002JTX7KA",
+      "B001BWRB9O",
+      "B009AFLXJS",
+      "B00C1TTF86",
+      "B13H13GWRH",
+      "B001EYUQ5A",
+      "B00317C69C",
+      "B0764BLMJL",
+      "B002USENAS",
+      "B006JKAS16",
+      "B01DBTBYC4",
+      "B00ZKZYKMO",
+      "B004QEAXKS",
+      "B000ZK9QCS",
+      "B005UUOAOM",
+      "B07MLYV9W4",
+      "B009NRO1J2",
+      "B00M882BMM",
+      "B002JTX7KA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Popular shooter game on PS4"
+      },
+      {
+        "item_id": "B002JTX7KA",
+        "reason": "Action-adventure classic on PC"
+      },
+      {
+        "item_id": "B001BWRB9O",
+        "reason": "Extra controller for multiplayer fun"
+      },
+      {
+        "item_id": "B009AFLXJS",
+        "reason": "Comfortable controller for extended play"
+      },
+      {
+        "item_id": "B00C1TTF86",
+        "reason": "Intense multiplayer shooter experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3731,
+    "completion_tokens": 325
+  }
+}

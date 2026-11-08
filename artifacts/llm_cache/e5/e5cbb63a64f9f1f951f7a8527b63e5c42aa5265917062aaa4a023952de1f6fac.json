@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00002SU2P",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older game, different platform."
+      },
+      {
+        "item_id": "B001EYUPNI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Boxing game, not user’s interest."
+      },
+      {
+        "item_id": "B01AJZPJ10",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B092CZMCLW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00005JHKD",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Target audience is younger children."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1159,
+    "completion_tokens": 151
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00DBDPOZ4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Xbox controller."
+      },
+      {
+        "item_id": "B00DRPPC8A",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B07FN3G4Q1",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Overwatch figure, not directly related."
+      },
+      {
+        "item_id": "B00297KTMG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Wii game, user prefers Xbox games."
+      },
+      {
+        "item_id": "B0006BH5CO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PlayStation 2 game, user prefers Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 166
+  }
+}

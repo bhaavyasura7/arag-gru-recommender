@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00009WAW7",
+      "B002GMQ75W",
+      "B000035XII",
+      "B07Q3DHPC2",
+      "B08X2RRS88",
+      "B07Z4D3W81",
+      "B08N1C8SD8",
+      "B07ZHW123N",
+      "B07Y1G7GJY",
+      "B07FSJDRMT",
+      "B004X0TDB0",
+      "B000066JRA",
+      "B077P86XVV",
+      "B002WARC7A",
+      "B07VXKQ8W6",
+      "B07SN3B5J4",
+      "B08BY7Z916",
+      "B08X2RRS88",
+      "B07TK5QQM7",
+      "B077VBYHG7",
+      "B07ZHW123N"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00009WAW7",
+        "reason": "Classic sports game from PS2"
+      },
+      {
+        "item_id": "B002GMQ75W",
+        "reason": "Classic fighting game on PSP"
+      },
+      {
+        "item_id": "B000035XII",
+        "reason": "Nostalgic platformer on Sega Genesis"
+      },
+      {
+        "item_id": "B07Q3DHPC2",
+        "reason": "Adapter for Wii to HDMI"
+      },
+      {
+        "item_id": "B08X2RRS88",
+        "reason": "Power supply for legacy systems"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3501,
+    "completion_tokens": 341
+  }
+}

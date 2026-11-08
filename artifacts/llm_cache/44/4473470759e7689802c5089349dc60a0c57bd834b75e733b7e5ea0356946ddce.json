@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "fishing video games",
+      "family-friendly games",
+      "gaming accessories",
+      "educational games for kids",
+      "console gaming"
+    ],
+    "current_intent": "looking for new gaming experiences for family and kids",
+    "avoid": [
+      "violent games",
+      "complex strategy games",
+      "adult-themed content"
+    ],
+    "summary": "User enjoys family-friendly and educational video games, particularly in the fishing genre, and seeks new gaming options suitable for children."
+  },
+  "usage": {
+    "prompt_tokens": 364,
+    "completion_tokens": 83
+  }
+}

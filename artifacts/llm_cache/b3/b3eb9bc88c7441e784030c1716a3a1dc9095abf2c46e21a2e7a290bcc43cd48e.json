@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008J2RFV8",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre to user's interests."
+      },
+      {
+        "item_id": "B0012NO6H2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic game, not directly related."
+      },
+      {
+        "item_id": "B001OZJE52",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00004UD3W",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Music games differ from user's preferences."
+      },
+      {
+        "item_id": "B0006NL1HM",
+        "label": "support",
+        "score": 7,
+        "rationale": "Strategy game aligns with user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 519,
+    "completion_tokens": 150
+  }
+}

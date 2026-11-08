@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00000K4ML",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not a preferred genre for user."
+      },
+      {
+        "item_id": "B00004NHKN",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Strategy games not in user history."
+      },
+      {
+        "item_id": "B008R7O12G",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre than user's interests."
+      },
+      {
+        "item_id": "B00002S6GV",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Real-time strategy not favored by user."
+      },
+      {
+        "item_id": "B0007SN2OQ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Unrelated to user's gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2478,
+    "completion_tokens": 151
+  }
+}

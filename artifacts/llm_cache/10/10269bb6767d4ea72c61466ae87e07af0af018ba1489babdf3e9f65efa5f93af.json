@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BLW27Z5W",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming keyboard matches gaming interest."
+      },
+      {
+        "item_id": "B00IYDED4O",
+        "label": "support",
+        "score": 7,
+        "rationale": "Headset complements gaming experience."
+      },
+      {
+        "item_id": "B01K7X4UW8",
+        "label": "support",
+        "score": 8,
+        "rationale": "Mechanical keyboard aligns with gaming needs."
+      },
+      {
+        "item_id": "B07VL48YM6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR case not directly related to interests."
+      },
+      {
+        "item_id": "B08J96GBC5",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Singing game is unrelated to gaming history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 157
+  }
+}

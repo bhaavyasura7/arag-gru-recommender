@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Pokemon video games",
+      "Nintendo consoles",
+      "collectible gaming items",
+      "limited edition merchandise",
+      "mobile gaming accessories"
+    ],
+    "current_intent": "looking for new Pokemon games or collectibles",
+    "avoid": [
+      "low-quality gaming accessories",
+      "non-Pokemon related items",
+      "overpriced merchandise"
+    ],
+    "summary": "User is a Pokemon fan seeking new games or collectibles, with a preference for high-quality and limited edition items."
+  },
+  "usage": {
+    "prompt_tokens": 275,
+    "completion_tokens": 82
+  }
+}

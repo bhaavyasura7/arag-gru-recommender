@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B19GY369GA",
+      "B08D3XL1KF",
+      "B0032C9V7G",
+      "B000066RKC",
+      "B0000D12XI",
+      "B0007MZWQS",
+      "B0017ZIIK6",
+      "B007X5103Q",
+      "B00LMHT560",
+      "B005FDUSTA",
+      "B00DE2W4PK",
+      "B00IPTUJ8G",
+      "B00917DBUE",
+      "B07624RBWB",
+      "B00HVPZP1Q",
+      "B00LMHT560",
+      "B00IPTUJ8G",
+      "B007X5103Q",
+      "B0032C9V7G",
+      "B00DE2W4PK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B19GY369GA",
+        "reason": "Includes immersive storytelling games"
+      },
+      {
+        "item_id": "B08D3XL1KF",
+        "reason": "Features Dragon Quest character"
+      },
+      {
+        "item_id": "B0032C9V7G",
+        "reason": "Classic RPG with expansive world"
+      },
+      {
+        "item_id": "B000066RKC",
+        "reason": "Action-adventure with horror elements"
+      },
+      {
+        "item_id": "B0000D12XI",
+        "reason": "Narrative-driven action gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3505,
+    "completion_tokens": 317
+  }
+}

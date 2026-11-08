@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00JDP1AWU",
+      "B001EYUQTQ",
+      "B00BRQN2EM",
+      "B13GVE4YB4",
+      "B00L2FGSBM",
+      "B001COVME6",
+      "B000NI8WEA",
+      "B0002IQCLG",
+      "B002DPUJCE",
+      "B07RMZ31Z2",
+      "B00ZKZYKMO",
+      "B00ZQYZTP6",
+      "B01I6RD5I2",
+      "B0061PAZUS",
+      "B00FZ45GLT",
+      "B087NN2K41",
+      "B00N1V12D4",
+      "B00BRQN2EM",
+      "B002I0K3M0",
+      "B00ZKZYKMO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00JDP1AWU",
+        "reason": "Engaging story-driven gameplay"
+      },
+      {
+        "item_id": "B001EYUQTQ",
+        "reason": "High-quality graphics and narrative"
+      },
+      {
+        "item_id": "B00BRQN2EM",
+        "reason": "Immersive action-adventure experience"
+      },
+      {
+        "item_id": "B13GVE4YB4",
+        "reason": "Unique RPG elements and graphics"
+      },
+      {
+        "item_id": "B00L2FGSBM",
+        "reason": "Supports immersive media experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3693,
+    "completion_tokens": 332
+  }
+}

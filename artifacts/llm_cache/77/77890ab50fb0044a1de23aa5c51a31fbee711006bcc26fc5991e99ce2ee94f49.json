@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00L3LQ1FI",
+      "B00452VGYS",
+      "B001T0HVGQ",
+      "B0050SVNSU",
+      "B00DBLBMBQ",
+      "B00690LYJ6",
+      "B00ECWJEA4",
+      "B09W56JJX2",
+      "B08GGLKHQ",
+      "B001EYUPAG",
+      "B00BN5T30E",
+      "B07G11VW1Z",
+      "B09PR8NBZZ",
+      "B00884S6YW",
+      "B00OZD77OK",
+      "B00OYPWRHQ",
+      "B01CGZ4YLW",
+      "B09PR8NBZZ",
+      "B00ECWJEA4",
+      "B00OZD77OK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00L3LQ1FI",
+        "reason": "Family-friendly multiplayer game"
+      },
+      {
+        "item_id": "B00452VGYS",
+        "reason": "Popular simulation game"
+      },
+      {
+        "item_id": "B001T0HVGQ",
+        "reason": "Xbox console upgrade"
+      },
+      {
+        "item_id": "B0050SVNSU",
+        "reason": "Fun dance game for Xbox"
+      },
+      {
+        "item_id": "B00DBLBMBQ",
+        "reason": "Engaging story-driven game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3621,
+    "completion_tokens": 316
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B009GE437W",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Wii accessory, not a game."
+      },
+      {
+        "item_id": "B001EYUQNM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games."
+      },
+      {
+        "item_id": "B003YDH4PO",
+        "label": "support",
+        "score": 7,
+        "rationale": "Supports classic Nintendo gaming."
+      },
+      {
+        "item_id": "B00IG3GPTS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming keyboard, not directly related."
+      },
+      {
+        "item_id": "B00N73UUJI",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Different genre than user prefers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1022,
+    "completion_tokens": 149
+  }
+}

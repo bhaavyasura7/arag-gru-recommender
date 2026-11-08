@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00140R0XK",
+      "B00IEZ6H4G",
+      "B08F5T3F9Y",
+      "B11VRMM3VM",
+      "B00Z9TM72Q",
+      "B00AASG8RG",
+      "B00SVVUOGU",
+      "B07J3P1GJM",
+      "B08NBDF4S5",
+      "B00G25RICU",
+      "B00BIXYIU6",
+      "B00020BV1A",
+      "B0038IZIBC",
+      "B019EWMXWC",
+      "B00IEZ6H4G",
+      "B00AASG8RG",
+      "B08XD54VJY",
+      "B00000K3X9",
+      "B005H3CZBW",
+      "B07VRMM3VM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00140R0XK",
+        "reason": "High-quality racing wheel for PS3"
+      },
+      {
+        "item_id": "B00IEZ6H4G",
+        "reason": "Popular horror game on PlayStation"
+      },
+      {
+        "item_id": "B08F5T3F9Y",
+        "reason": "Bluetooth adapter for wireless audio"
+      },
+      {
+        "item_id": "B07VRMM3VM",
+        "reason": "Bluetooth adapter for gaming headsets"
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Popular Call of Duty game for PS4"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3918,
+    "completion_tokens": 342
+  }
+}

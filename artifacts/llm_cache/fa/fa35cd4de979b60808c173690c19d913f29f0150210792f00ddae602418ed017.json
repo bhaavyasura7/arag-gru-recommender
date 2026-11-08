@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Xbox gaming",
+      "PlayStation gaming",
+      "video game accessories",
+      "gaming consoles",
+      "multiplayer games"
+    ],
+    "current_intent": "looking for new gaming accessories or consoles",
+    "avoid": [
+      "mobile games",
+      "PC gaming",
+      "non-gaming products"
+    ],
+    "summary": "The user is a dedicated gamer interested in Xbox and PlayStation products, seeking new accessories or consoles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 364,
+    "completion_tokens": 95
+  }
+}

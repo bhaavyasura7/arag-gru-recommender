@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B096XMZYGD",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with user's Xbox controllers."
+      },
+      {
+        "item_id": "B005GL9DMO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory kit for Nintendo, not Xbox."
+      },
+      {
+        "item_id": "B09PH9V12H",
+        "label": "support",
+        "score": 10,
+        "rationale": "High capacity for Xbox controllers."
+      },
+      {
+        "item_id": "B002QXLZVC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory kit for Nintendo DSi."
+      },
+      {
+        "item_id": "B07H9N2VVD",
+        "label": "support",
+        "score": 8,
+        "rationale": "Charger for Xbox One controllers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2028,
+    "completion_tokens": 151
+  }
+}

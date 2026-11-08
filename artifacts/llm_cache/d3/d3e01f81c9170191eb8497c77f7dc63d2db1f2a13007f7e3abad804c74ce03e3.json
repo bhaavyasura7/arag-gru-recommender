@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08QR5PTRP",
+      "B096ZNFR43",
+      "B07XFDH4HT",
+      "B12LXK5ZDG",
+      "B08JM76KN1",
+      "B001N5CQH6",
+      "B00GCPB0OM",
+      "B001DZF36M",
+      "B08ZJ43C6T",
+      "B06WLLSYR7",
+      "B00005NCER",
+      "B00002SV46",
+      "B001EYUUZ6",
+      "B000VIDSUK",
+      "B07D9KX2WV",
+      "B000034DEB",
+      "B001N5CQH6",
+      "B00CWTXONM",
+      "B00005NCER",
+      "B000VIDSUK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08QR5PTRP",
+        "reason": "3-in-1 Switch charger adapter"
+      },
+      {
+        "item_id": "B096ZNFR43",
+        "reason": "Golf grip for Nintendo Switch"
+      },
+      {
+        "item_id": "B07XFDH4HT",
+        "reason": "Popular racing game for Switch"
+      },
+      {
+        "item_id": "B12LXK5ZDG",
+        "reason": "Remastered BioShock collection"
+      },
+      {
+        "item_id": "B08JM76KN1",
+        "reason": "Lightweight gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3465,
+    "completion_tokens": 318
+  }
+}

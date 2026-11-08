@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B072LWBYDV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to Nintendo, but not games."
+      },
+      {
+        "item_id": "B0009AHCQ6",
+        "label": "support",
+        "score": 8,
+        "rationale": "Classic Nintendo console aligns with interests."
+      },
+      {
+        "item_id": "B000HASW0I",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation game, not Nintendo-related."
+      },
+      {
+        "item_id": "B07V5CFMY4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible controller for Nintendo Switch."
+      },
+      {
+        "item_id": "B00W3X5E62",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Charger for Nintendo systems, not games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 157
+  }
+}

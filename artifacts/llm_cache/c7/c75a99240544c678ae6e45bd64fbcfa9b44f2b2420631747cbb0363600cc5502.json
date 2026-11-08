@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BJTP1NHC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B01KGFQKUW",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no PS4 interest."
+      },
+      {
+        "item_id": "B01DVAX66A",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User may like music games."
+      },
+      {
+        "item_id": "B00BSVTVZ0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has mixed interest in games."
+      },
+      {
+        "item_id": "B00196WC4G",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Wii games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 988,
+    "completion_tokens": 152
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0053B66KE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different franchise, but similar gaming style."
+      },
+      {
+        "item_id": "B00000K2R8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B0050SXVK8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different console and genre preference."
+      },
+      {
+        "item_id": "B003DZ165W",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not a video game or gaming accessory."
+      },
+      {
+        "item_id": "B001EYUOA2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Different platform and genre."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1498,
+    "completion_tokens": 156
+  }
+}

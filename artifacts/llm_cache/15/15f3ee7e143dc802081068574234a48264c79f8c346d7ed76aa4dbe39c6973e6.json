@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01NBMMP9L",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related to PlayStation 4 interests."
+      },
+      {
+        "item_id": "B08F86ZDRV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo Switch game, not directly relevant."
+      },
+      {
+        "item_id": "B01MQTSDWG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC keyboard, not a console accessory."
+      },
+      {
+        "item_id": "B08N13QYXF",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Switch accessory, not related to Xbox or PS."
+      },
+      {
+        "item_id": "B078JW2MRX",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox One, user interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1248,
+    "completion_tokens": 159
+  }
+}

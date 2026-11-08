@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B20Z8Z9DHW",
+      "B0B38RR7NB",
+      "B07VT3FNTN",
+      "B12K5LN6P",
+      "B07L72BFH1",
+      "B004KEMI66",
+      "B09YRFLM1Z",
+      "B01KTJWF5Y",
+      "B0029ZMIEK",
+      "B07CGPPVPM",
+      "B0BF7QNXMK",
+      "B079BBHDMM",
+      "B08GTGW93M",
+      "B00F4N0GXO",
+      "B005N2CTPO",
+      "B0BXSHJPTB",
+      "B096XNVT3S",
+      "B004U1658Q",
+      "B00OMBGAF2",
+      "B07CGPPVPM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09Z8Z9DHW",
+        "reason": "High compatibility with Nintendo Switch"
+      },
+      {
+        "item_id": "B0B38RR7NB",
+        "reason": "Wireless gaming mouse for PC"
+      },
+      {
+        "item_id": "B07VT3FNTN",
+        "reason": "Quality headset for gaming"
+      },
+      {
+        "item_id": "B12K5LN6P",
+        "reason": "VR game for immersive experience"
+      },
+      {
+        "item_id": "B07L72BFH1",
+        "reason": "Popular racing game for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3634,
+    "completion_tokens": 328
+  }
+}

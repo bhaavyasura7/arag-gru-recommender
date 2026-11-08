@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00CJ9OTNE",
+      "B15WPGS8O",
+      "B00ZQB28XK",
+      "B00ZM6I932",
+      "B00I7NA43U",
+      "B00DB2BI8M",
+      "B001EHD92Y",
+      "B077DTWYV8",
+      "B00503E8S2",
+      "B000YDIYFG",
+      "B00008KU9Z",
+      "B00000JIUG",
+      "B007WPGS8O",
+      "B000GPW2QO",
+      "B0B7125T7V",
+      "B0BVKYMWLQ",
+      "B0041G5EU0",
+      "B00008KU9Z",
+      "B00GM5WGNQ",
+      "B000YDIYFG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00CJ9OTNE",
+        "reason": "Popular action multiplayer shooter"
+      },
+      {
+        "item_id": "B007WPGS8O",
+        "reason": "Intense action RPG experience"
+      },
+      {
+        "item_id": "B00ZQB28XK",
+        "reason": "Open world exploration and combat"
+      },
+      {
+        "item_id": "B00ZM6I932",
+        "reason": "Action-packed RPG with sci-fi elements"
+      },
+      {
+        "item_id": "B00I7NA43U",
+        "reason": "Beloved RPG remaster with action"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3800,
+    "completion_tokens": 328
+  }
+}

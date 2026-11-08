@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00269QLI8",
+      "B008M2QC14",
+      "B00002SWCJ",
+      "B00005BUAF",
+      "B000RA20VU",
+      "B09S5LX9FL",
+      "B08VRZ4NRX",
+      "B0041SPG24",
+      "B00DLD2LLY",
+      "B08X6X4M1S",
+      "B00480O9F0",
+      "B00N8O8NT0",
+      "B00002ST1N",
+      "B0C4KZCKCP",
+      "B000H58URS",
+      "B07YZVLLKH",
+      "B0B3S6NVT6",
+      "B00EPWPH8Y",
+      "B00480O9F0",
+      "B008M2QC14"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00269QLI8",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B008M2QC14",
+        "reason": "Engaging narrative-driven gameplay"
+      },
+      {
+        "item_id": "B00002SWCJ",
+        "reason": "Classic RPG with immersive story"
+      },
+      {
+        "item_id": "B00005BUAF",
+        "reason": "Nostalgic classic for PlayStation"
+      },
+      {
+        "item_id": "B000RA20VU",
+        "reason": "Familiar game show format"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3420,
+    "completion_tokens": 324
+  }
+}

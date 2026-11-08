@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B088FTF1XK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS4 accessory, not directly relevant."
+      },
+      {
+        "item_id": "B09B9P5KZY",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming keyboard aligns with gaming interests."
+      },
+      {
+        "item_id": "B018BKB7SO",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox bundle appeals to gaming preferences."
+      },
+      {
+        "item_id": "B003K1VL3Q",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Wii accessory, less relevant to user."
+      },
+      {
+        "item_id": "B07MC81S26",
+        "label": "support",
+        "score": 6,
+        "rationale": "Gaming mouse pad fits gaming setup."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1372,
+    "completion_tokens": 157
+  }
+}

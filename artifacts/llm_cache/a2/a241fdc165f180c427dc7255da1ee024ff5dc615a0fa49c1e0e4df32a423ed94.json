@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00C1TTF86",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers PS2 and PS3 games."
+      },
+      {
+        "item_id": "B06XRZ4K1D",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in Nintendo products."
+      },
+      {
+        "item_id": "B00BGA9WK2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has not shown interest in PS4."
+      },
+      {
+        "item_id": "B087NNPYP3",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in Nintendo Switch."
+      },
+      {
+        "item_id": "B002JTX87C",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Scooby-Doo games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1454,
+    "completion_tokens": 167
+  }
+}

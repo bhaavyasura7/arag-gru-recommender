@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01F3Y7EPG",
+      "B04HD62IU",
+      "B15IX3X3E",
+      "B0C5DHFC6N",
+      "B08B7VZB4Z",
+      "B086BN4W3V",
+      "B0B1MBC572",
+      "B09N8QJ5X5",
+      "B07L3YGJMY",
+      "B0035N6KQ2",
+      "B07ZKYXMP7",
+      "B00EVWYF0E",
+      "B00388YQX8",
+      "B08MBMBVJX",
+      "B00004SVNM",
+      "B09JKLMWFH",
+      "B15IX3X3E",
+      "B004HD62IU",
+      "B0C5DHFC6N",
+      "B0899NBQVV"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01F3Y7EPG",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B04HD62IU",
+        "reason": "Essential Xbox controller accessory"
+      },
+      {
+        "item_id": "B15IX3X3E",
+        "reason": "Popular gaming keyboard"
+      },
+      {
+        "item_id": "B0C5DHFC6N",
+        "reason": "Versatile wireless gaming headset"
+      },
+      {
+        "item_id": "B08B7VZB4Z",
+        "reason": "Complete gaming keyboard set"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3679,
+    "completion_tokens": 333
+  }
+}

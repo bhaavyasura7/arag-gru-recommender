@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00004SVSO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B00001KN0C",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User shows no interest in casual games."
+      },
+      {
+        "item_id": "B00R6X2VTC",
+        "label": "support",
+        "score": 8,
+        "rationale": "User owns a PS4, relevant accessory."
+      },
+      {
+        "item_id": "B08F1VV9LZ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming keyboard matches user interests."
+      },
+      {
+        "item_id": "B003QA9YNA",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User does not own Xbox 360."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1047,
+    "completion_tokens": 161
+  }
+}

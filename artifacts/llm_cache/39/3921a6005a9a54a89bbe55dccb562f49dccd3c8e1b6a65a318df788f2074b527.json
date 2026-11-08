@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00004WFVZ",
+      "B00H2008JO",
+      "B00D7B9M0I",
+      "B07Y85JBDV",
+      "B00RH6R7C4",
+      "B000FQ2D5E",
+      "B06X9XC8SK",
+      "B09DSSK3RD",
+      "B001E8WQLI",
+      "B0BDWVBWC9",
+      "B00K0NV5J2",
+      "B09R21G9DL",
+      "B0891H37KK",
+      "B07YBX7Y3P",
+      "B00498SCKY",
+      "B0BF62G2C6",
+      "B072KHSYDD",
+      "B09QTCLJ9T",
+      "B087NNZZM8",
+      "B19DSSK3RD"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00004WFVZ",
+        "reason": "Top WWII air combat game"
+      },
+      {
+        "item_id": "B00H2008JO",
+        "reason": "Multiplayer DLC for action game"
+      },
+      {
+        "item_id": "B00D7B9M0I",
+        "reason": "Family-friendly multiplayer game"
+      },
+      {
+        "item_id": "B07Y85JBDV",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B00RH6R7C4",
+        "reason": "Programmable gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3892,
+    "completion_tokens": 337
+  }
+}

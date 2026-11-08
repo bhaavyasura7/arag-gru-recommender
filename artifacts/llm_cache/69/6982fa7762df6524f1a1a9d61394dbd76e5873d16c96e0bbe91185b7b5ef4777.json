@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09N98KJ62",
+      "B09918MSTF",
+      "B00PY6MSTQ",
+      "B07D2D4T1P",
+      "B00005RCPJ",
+      "B000083JXC",
+      "B00002ST9A",
+      "B01IDM55OM",
+      "B07D6TWCJF",
+      "B000HAS44M",
+      "B000GSKUY2",
+      "B0B844ZBS9",
+      "B004MNDF80",
+      "B0BD3DV3SJ",
+      "B01DAL16WG",
+      "B07SC1CDZ8",
+      "B00VAZV1KC",
+      "B01KU77AE6",
+      "B018D1D8D8",
+      "B018D1D8D8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09N98KJ62",
+        "reason": "Educational farming simulation game"
+      },
+      {
+        "item_id": "B09918MSTF",
+        "reason": "Family-friendly farming game"
+      },
+      {
+        "item_id": "B00PY6MSTQ",
+        "reason": "Popular family-friendly console"
+      },
+      {
+        "item_id": "B07D2D4T1P",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B00005RCPJ",
+        "reason": "Fun skiing game for kids"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3334,
+    "completion_tokens": 325
+  }
+}

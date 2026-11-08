@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0030ADHZW",
+      "B002GHHJQI",
+      "B000PO2Y3C",
+      "B093QCGVPH",
+      "B00776UHG2",
+      "B00005KG5U",
+      "B0017DE4HY",
+      "B000UQSRRM",
+      "B094VF2SC6",
+      "B082NBJZ2L",
+      "B00E31J7TM",
+      "B01FUSW4Z0",
+      "B000068HLW",
+      "B077G4LVNC",
+      "B01I148T54",
+      "B01JOLIVRY",
+      "B005HERMD2",
+      "B08XZ93J1Y",
+      "B00009YXBT",
+      "B000EDSI8GS",
+      "B01FUSW4Z0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0030ADHZW",
+        "reason": "Engaging trivia game for family"
+      },
+      {
+        "item_id": "B002GHHJQI",
+        "reason": "Adventure game with engaging story"
+      },
+      {
+        "item_id": "B000PO2Y3C",
+        "reason": "Classic RPG for nostalgic players"
+      },
+      {
+        "item_id": "B093QCGVPH",
+        "reason": "Compatible controller for Switch"
+      },
+      {
+        "item_id": "B00776UHG2",
+        "reason": "Skylanders case for organization"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3198,
+    "completion_tokens": 327
+  }
+}

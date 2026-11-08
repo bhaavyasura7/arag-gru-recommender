@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00O9GW8TC",
+      "B002FY4AOG",
+      "B004HKIMG8",
+      "B05YQ74LVM",
+      "B005HKIMG8",
+      "B00YQ74LVM",
+      "B00DBDPOZ4",
+      "B00DQNF3PU",
+      "B00Z9TMH1W",
+      "B072C3VM5F",
+      "B00DBDPOZ4",
+      "B00YQ74LVM",
+      "B00DBDPOZ4",
+      "B00YQ74LVM",
+      "B00DBDPOZ4",
+      "B00YQ74LVM",
+      "B00DBDPOZ4",
+      "B00YQ74LVM",
+      "B00DBDPOZ4",
+      "B00YQ74LVM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00O9GW8TC",
+        "reason": "Official Nintendo GameCube controller"
+      },
+      {
+        "item_id": "B002FY4AOG",
+        "reason": "Replacement for GameCube power adapter"
+      },
+      {
+        "item_id": "B004HKIMG8",
+        "reason": "Affordable Xbox One accessory"
+      },
+      {
+        "item_id": "B00YQ74LVM",
+        "reason": "Legacy Nintendo 3DS system"
+      },
+      {
+        "item_id": "B005HKIMG8",
+        "reason": "Retro gaming PSP title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3716,
+    "completion_tokens": 327
+  }
+}

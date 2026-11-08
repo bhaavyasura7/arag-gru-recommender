@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08B3SLP31",
+      "B078RJ1KZ6",
+      "B0C4F9JGTJ",
+      "B00501IEHK",
+      "B0012IWRC8",
+      "B000060NQ4",
+      "B017BB905Q",
+      "B003IQ15YI",
+      "B00001N2MT",
+      "B001BH2126",
+      "B003N46URC",
+      "B08X6XSC98",
+      "B005U9KHJA",
+      "B000COFGZI",
+      "B0BK2CJD9T",
+      "B0012IWRC8",
+      "B000JPG87A",
+      "B0012IWRC8",
+      "B000060NQ4",
+      "B00001N2MT",
+      "B005U9KHJA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08B3SLP31",
+        "reason": "High compatibility with gaming systems"
+      },
+      {
+        "item_id": "B078RJ1KZ6",
+        "reason": "Great for multiplayer gaming"
+      },
+      {
+        "item_id": "B0C4F9JGTJ",
+        "reason": "Low latency for competitive gaming"
+      },
+      {
+        "item_id": "B00501IEHK",
+        "reason": "Engaging narrative gameplay"
+      },
+      {
+        "item_id": "B0012IWRC8",
+        "reason": "Classic action-adventure experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3685,
+    "completion_tokens": 327
+  }
+}

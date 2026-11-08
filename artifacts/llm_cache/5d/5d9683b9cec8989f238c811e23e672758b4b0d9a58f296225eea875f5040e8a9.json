@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Xbox consoles",
+      "gaming bundles",
+      "performance accessories",
+      "Madden NFL series",
+      "Minecraft"
+    ],
+    "current_intent": "looking for a new gaming console or bundle",
+    "avoid": [
+      "discontinued products",
+      "low storage options",
+      "non-gaming accessories"
+    ],
+    "summary": "User is a gamer interested in Xbox consoles and accessories, seeking a new gaming bundle or console to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 338,
+    "completion_tokens": 79
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00GBCLG0E",
+      "B0077LRPSA",
+      "B004HGFZYO",
+      "B19KXFB1P8",
+      "B00K0NV5J2",
+      "B001EYUNMG",
+      "B006QRNKOO",
+      "B006PP404Q",
+      "B00005NN5G",
+      "B000FQ9QVI",
+      "B000VJRU44",
+      "B006MQH644",
+      "B0001AO01Y",
+      "B08JHZHWZ3",
+      "B075MK6THW",
+      "B001EYUNMG",
+      "B00005NN5G",
+      "B000FQ9QVI",
+      "B006MQH644",
+      "B0001AO01Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00GBCLG0E",
+        "reason": "Highly rated zombie narrative game"
+      },
+      {
+        "item_id": "B0077LRPSA",
+        "reason": "Action-adventure with strong narrative"
+      },
+      {
+        "item_id": "B004HGFZYO",
+        "reason": "Engaging action gameplay"
+      },
+      {
+        "item_id": "B19KXFB1P8",
+        "reason": "Expansive open-world experience"
+      },
+      {
+        "item_id": "B00K0NV5J2",
+        "reason": "Story-driven expansion for RPG"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3823,
+    "completion_tokens": 320
+  }
+}

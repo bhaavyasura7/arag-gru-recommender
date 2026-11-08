@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BTJ7J9D9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B09QZZPVCY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Battery pack, not a game."
+      },
+      {
+        "item_id": "B09MR28SYG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different platform, not preferred."
+      },
+      {
+        "item_id": "B0B75WFDS3",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre, Xbox game."
+      },
+      {
+        "item_id": "B00KLH0XMW",
+        "label": "support",
+        "score": 7,
+        "rationale": "Familiar franchise, shooter genre."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1330,
+    "completion_tokens": 154
+  }
+}

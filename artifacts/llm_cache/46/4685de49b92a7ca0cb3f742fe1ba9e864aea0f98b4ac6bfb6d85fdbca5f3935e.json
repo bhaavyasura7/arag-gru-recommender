@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08D67XHWH",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Wii, not a game."
+      },
+      {
+        "item_id": "B016P6KIFY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo, not PlayStation."
+      },
+      {
+        "item_id": "B0088TN73M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo, not PlayStation."
+      },
+      {
+        "item_id": "B00009ZVI2",
+        "label": "support",
+        "score": 8,
+        "rationale": "Classic game aligns with user interests."
+      },
+      {
+        "item_id": "B001G7PTAC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo, not PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1491,
+    "completion_tokens": 161
+  }
+}

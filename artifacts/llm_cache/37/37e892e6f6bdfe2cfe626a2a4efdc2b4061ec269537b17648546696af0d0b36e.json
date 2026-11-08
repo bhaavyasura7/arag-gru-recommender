@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B20BKS1LJVL",
+      "B08J7Y23L6",
+      "B13B1XP5W2",
+      "B076J6GL6B",
+      "B00V6QCI1Q",
+      "B004BD5TR6",
+      "B001ELJF96",
+      "B009W6T6XU",
+      "B000031VUJ",
+      "B07S5VYZ61",
+      "B0006UTYVA",
+      "B08PZ56VDZ",
+      "B000FJ9I9U",
+      "B0BHQJNZSG",
+      "B088GTTVFJ",
+      "B01FVLA2CS",
+      "B06XH15HD9",
+      "B00GT3PSZ4",
+      "B0000DC1TB",
+      "B08J7Y23L6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B20BKS1LJVL",
+        "reason": "High-quality racing wheel for Xbox"
+      },
+      {
+        "item_id": "B08J7Y23L6",
+        "reason": "Ergonomic gaming mouse with high DPI"
+      },
+      {
+        "item_id": "B13B1XP5W2",
+        "reason": "Premium gaming headset with noise-canceling"
+      },
+      {
+        "item_id": "B076J6GL6B",
+        "reason": "Customizable PS4 controller buttons"
+      },
+      {
+        "item_id": "B00V6QCI1Q",
+        "reason": "Online game code for Tropico 5"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3893,
+    "completion_tokens": 350
+  }
+}

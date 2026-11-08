@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B004WIOH4G",
+      "B00004U62O",
+      "B00002SVO9",
+      "B007CM0K86",
+      "B00YJJ0OQS",
+      "B00AQF345C",
+      "B004IZL5FM",
+      "B00NM9R6GW",
+      "B0BHVPZH7R",
+      "B0046ZQ022",
+      "B00DWG1454",
+      "B005K1SI8A",
+      "B00W9DHUBS",
+      "B01LXC1QL0",
+      "B00R5CFSVN",
+      "B0088TN73M",
+      "B0050SX89W",
+      "B07N1XKY1L",
+      "B0B3RKNSM6",
+      "B00YJJ0OQS",
+      "B00AQF345C"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004WIOH4G",
+        "reason": "Classic PS2 title, highly relevant"
+      },
+      {
+        "item_id": "B00004U62O",
+        "reason": "Another classic PS2 game"
+      },
+      {
+        "item_id": "B00002SVO9",
+        "reason": "Retro Sega game, nostalgic appeal"
+      },
+      {
+        "item_id": "B007CM0K86",
+        "reason": "Popular PS3 title, action-adventure"
+      },
+      {
+        "item_id": "B00YJJ0OQS",
+        "reason": "Gaming accessory for Xbox, useful"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3717,
+    "completion_tokens": 343
+  }
+}

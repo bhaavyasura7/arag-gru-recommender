@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09WRHBGW6",
+      "B07MW9Y588",
+      "B094YHB1QK",
+      "B12WPKRA7E",
+      "B07TX9QKGG",
+      "B08KXHTQHV",
+      "B074GG1RQQ",
+      "B001B5IVHC",
+      "B00006RHLX",
+      "B000G1O7SE",
+      "B004HAEFBE",
+      "B000EYF88G",
+      "B001ELJFAK",
+      "B000AB0S38",
+      "B0836PSJRW",
+      "B08CRWCC3Z",
+      "B07HZ6N69N",
+      "B009N1IUFE",
+      "B00006RHLX",
+      "B001B5IVHC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09WRHBGW6",
+        "reason": "High-quality gaming accessory"
+      },
+      {
+        "item_id": "B07MW9Y588",
+        "reason": "Rechargeable battery for Xbox"
+      },
+      {
+        "item_id": "B094YHB1QK",
+        "reason": "New PlayStation controller"
+      },
+      {
+        "item_id": "B12WPKRA7E",
+        "reason": "Custom PS4 controller shell"
+      },
+      {
+        "item_id": "B07TX9QKGG",
+        "reason": "Mechanical gaming keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3390,
+    "completion_tokens": 319
+  }
+}

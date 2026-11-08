@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B019PLMS72",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers newer consoles."
+      },
+      {
+        "item_id": "B00005RKXL",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no GameCube interest."
+      },
+      {
+        "item_id": "B06WW7B61X",
+        "label": "support",
+        "score": 8,
+        "rationale": "User owns PS4, likes accessories."
+      },
+      {
+        "item_id": "B000RO0RO8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not play Wii games."
+      },
+      {
+        "item_id": "B07T9MNFD3",
+        "label": "support",
+        "score": 7,
+        "rationale": "User owns PS4, likes customization."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 933,
+    "completion_tokens": 156
+  }
+}

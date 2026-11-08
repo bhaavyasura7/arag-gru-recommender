@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01IY5B7MW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B07XK92BDN",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo Wii games."
+      },
+      {
+        "item_id": "B09V54R25X",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Nintendo Switch interest."
+      },
+      {
+        "item_id": "B07C16D9KK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy systems not explicitly mentioned."
+      },
+      {
+        "item_id": "B0050SYZ2G",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User focuses on Nintendo, not Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1053,
+    "completion_tokens": 156
+  }
+}

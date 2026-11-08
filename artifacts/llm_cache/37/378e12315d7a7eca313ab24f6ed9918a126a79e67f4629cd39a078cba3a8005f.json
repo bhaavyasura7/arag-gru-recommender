@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01H6DHITE",
+      "B07CLKZJF4",
+      "B01MXE0FKC",
+      "B12N3ASPNV",
+      "B00G2EVF3E",
+      "B00CMQTTZ2",
+      "B00B7UNO4Q",
+      "B004CDUOJ8",
+      "B004LLHFAW",
+      "B00TEDK8FQ",
+      "B09TX17ZBQ",
+      "B001EYUQ8C",
+      "B00QO4NAOO",
+      "B0050SW1WW",
+      "B087NN2K41",
+      "B00G2EVF3E",
+      "B00B7UNO4Q",
+      "B004CDUOJ8",
+      "B001EYUQ8C",
+      "B0C7BLC2YQ",
+      "B000B6MLV4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01H6DHITE",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B07CLKZJF4",
+        "reason": "RGB lighting features"
+      },
+      {
+        "item_id": "B01MXE0FKC",
+        "reason": "Gaming headset for immersive experience"
+      },
+      {
+        "item_id": "B12N3ASPNV",
+        "reason": "Compatible with Xbox accessories"
+      },
+      {
+        "item_id": "B00G2EVF3E",
+        "reason": "Popular gaming title for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3950,
+    "completion_tokens": 338
+  }
+}

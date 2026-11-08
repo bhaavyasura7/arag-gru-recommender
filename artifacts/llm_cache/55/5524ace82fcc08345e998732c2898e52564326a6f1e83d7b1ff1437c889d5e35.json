@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0000034TMYC",
+      "B00LYPLAMW",
+      "B0000631V8",
+      "B00BMJYLTO",
+      "B09P5Y55RR",
+      "B00007MA56",
+      "B00KQOW0XU",
+      "B00ER8HHFW",
+      "B0BV799V2Q",
+      "B08TVPBH3Y",
+      "B00004TMYC",
+      "B00V4Y2CQQ",
+      "B000040OEI",
+      "B00BMJYLTO",
+      "B00LYPLAMW",
+      "B0BFWPF3NZ",
+      "B094VFSHGK",
+      "B003VWC124",
+      "B0BMXG6T3Q",
+      "B000W495PA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0000034TMYC",
+        "reason": "Engaging kingdom management gameplay"
+      },
+      {
+        "item_id": "B00LYPLAMW",
+        "reason": "Unique historical strategy elements"
+      },
+      {
+        "item_id": "B0000631V8",
+        "reason": "Adventure with historical context"
+      },
+      {
+        "item_id": "B00BMJYLTO",
+        "reason": "Useful accessory for gaming"
+      },
+      {
+        "item_id": "B09P5Y55RR",
+        "reason": "Fun multiplayer experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3417,
+    "completion_tokens": 314
+  }
+}

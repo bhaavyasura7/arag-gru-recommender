@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "open-world RPGs",
+      "multiplayer racing games",
+      "VR gaming",
+      "digital game codes"
+    ],
+    "current_intent": "looking for new action-adventure or RPG games to play",
+    "avoid": [
+      "sports games",
+      "puzzle games",
+      "mobile games"
+    ],
+    "summary": "User enjoys immersive action-adventure and RPG video games, particularly on consoles, and is currently seeking new titles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 348,
+    "completion_tokens": 88
+  }
+}

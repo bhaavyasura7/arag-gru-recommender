@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01ASZ676M",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B007W5P8TE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre, not sports-related."
+      },
+      {
+        "item_id": "B0009F3QSE",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Not a sports game, different style."
+      },
+      {
+        "item_id": "B005Z3DYPK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00005V5N0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, but still a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1208,
+    "completion_tokens": 158
+  }
+}

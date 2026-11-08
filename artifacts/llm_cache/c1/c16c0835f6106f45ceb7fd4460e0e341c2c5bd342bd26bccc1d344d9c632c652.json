@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07ST7LY8F",
+      "B15M8VNBZ1",
+      "B00IYFNWOY",
+      "B13BZP2Q1W",
+      "B01KZKWS7W",
+      "B01CEY4CT4",
+      "B00YFQK0RI",
+      "B000067QEZ",
+      "B003QCJLQI",
+      "B072W4QMCV",
+      "B08BZP2Q1W",
+      "B00XV2D37G",
+      "B00004UE0G",
+      "B004I8EEMU",
+      "B00006IKBV",
+      "B07739NG1Q",
+      "B01N3L0ADB",
+      "B000CQCK5U",
+      "B00004UE0G",
+      "B087RK4KHR"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07ST7LY8F",
+        "reason": "Popular Nintendo Switch RPG"
+      },
+      {
+        "item_id": "B15M8VNBZ1",
+        "reason": "Action RPG for PlayStation"
+      },
+      {
+        "item_id": "B00IYFNWOY",
+        "reason": "Useful accessory for PS4"
+      },
+      {
+        "item_id": "B13BZP2Q1W",
+        "reason": "Cute Switch carrying case"
+      },
+      {
+        "item_id": "B01KZKWS7W",
+        "reason": "Custom PS4 controller parts"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2999,
+    "completion_tokens": 330
+  }
+}

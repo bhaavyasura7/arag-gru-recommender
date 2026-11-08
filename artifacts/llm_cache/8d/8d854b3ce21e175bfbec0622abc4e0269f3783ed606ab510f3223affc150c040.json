@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08F43Q6GQ",
+        "label": "support",
+        "score": 9,
+        "rationale": "User prefers Xbox controllers."
+      },
+      {
+        "item_id": "B098N6XSK4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox, user likes controllers."
+      },
+      {
+        "item_id": "B00BSE90T4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Legacy system, less relevant to user."
+      },
+      {
+        "item_id": "B08K7G4TJ1",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC controller, user prefers console accessories."
+      },
+      {
+        "item_id": "B08XKC8YQC",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys Xbox controllers, Cuphead theme."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1667,
+    "completion_tokens": 160
+  }
+}

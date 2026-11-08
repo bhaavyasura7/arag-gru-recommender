@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00CSIB3PS",
+      "B00503E8S2",
+      "B0080X8D8A",
+      "B0714FFZD8",
+      "B004LLHFAW",
+      "B007CM0K86",
+      "B001EHD9GA",
+      "B001YV3K2Y",
+      "B09LYGV4RT",
+      "B004FEJ8ZA",
+      "B007VYW5K6",
+      "B0032C9V7G",
+      "B00004SVYF",
+      "B084QDTVC6",
+      "B01MTAVRDY",
+      "B01N3ASPNV",
+      "B00001LC25",
+      "B00HS7L4XU",
+      "B001EHD9GA",
+      "B003RRXW0I",
+      "B08F4C6HCD"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00CSIB3PS",
+        "reason": "Includes Xbox Live for multiplayer"
+      },
+      {
+        "item_id": "B00503E8S2",
+        "reason": "Popular multiplayer FPS game"
+      },
+      {
+        "item_id": "B0714FFZD8",
+        "reason": "Fun multiplayer party game"
+      },
+      {
+        "item_id": "B004LLHFAW",
+        "reason": "Engaging multiplayer warfare experience"
+      },
+      {
+        "item_id": "B007CM0K86",
+        "reason": "Story-driven action-adventure game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3781,
+    "completion_tokens": 334
+  }
+}

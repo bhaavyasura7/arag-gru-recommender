@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08P2PXGLY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming accessory, not a game."
+      },
+      {
+        "item_id": "B00005AC5L",
+        "label": "support",
+        "score": 9,
+        "rationale": "Classic console aligns with user interests."
+      },
+      {
+        "item_id": "B01A9Z7UIK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse, not directly related."
+      },
+      {
+        "item_id": "B09325LCPJ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "VR stand, not relevant to user history."
+      },
+      {
+        "item_id": "B002WWVB3Y",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Controller shell, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1062,
+    "completion_tokens": 155
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08PCRVN8X",
+      "B15LCGCJNP",
+      "B000VA5Y1Y",
+      "B07PFT19MG",
+      "B01CRO22CK",
+      "B000AAVPQS",
+      "B08B4ZSZ5N",
+      "B001EYUQKK",
+      "B00A63V8MU",
+      "B074F693NN",
+      "B00005NIUQ",
+      "B01M3QW3Q0",
+      "B004LB59A0",
+      "B075Y6RS13",
+      "B00J4C56HC",
+      "B08KVKDYHV",
+      "B00002SVPV",
+      "B00005Y4PV",
+      "B000AAVPQS",
+      "B00005NIUQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08PCRVN8X",
+        "reason": "Newest Nintendo console available"
+      },
+      {
+        "item_id": "B15LCGCJNP",
+        "reason": "Affordable Wii controllers"
+      },
+      {
+        "item_id": "B000VA5Y1Y",
+        "reason": "Classic Nintendo console"
+      },
+      {
+        "item_id": "B07PFT19MG",
+        "reason": "Mini Sega console with games"
+      },
+      {
+        "item_id": "B01CRO22CK",
+        "reason": "Controller skin for protection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3305,
+    "completion_tokens": 313
+  }
+}

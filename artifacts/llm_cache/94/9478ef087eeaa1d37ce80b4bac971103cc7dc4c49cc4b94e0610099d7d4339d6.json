@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09H41CRHK",
+      "B07DY2XHGM",
+      "B0BBQQWFPB",
+      "B09CTMDQG9",
+      "B0C6J34WY4",
+      "B0865SV2BK",
+      "B09TDYJBCL",
+      "B09KY5T9V4",
+      "B09B1MQV35",
+      "B002GHHJRW",
+      "B0BB9TFBRJ",
+      "B073ZB314P",
+      "B00306MN7E",
+      "B00006FWU1",
+      "B00004TH8D",
+      "B0035V3H38",
+      "B078SKMKF5",
+      "B008GW5V9E",
+      "B0B93Y6MMP",
+      "B0C6J34WY4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09H41CRHK",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B07DY2XHGM",
+        "reason": "Durable controller skin"
+      },
+      {
+        "item_id": "B0BBQQWFPB",
+        "reason": "Unique N64 game cartridge"
+      },
+      {
+        "item_id": "B09CTMDQG9",
+        "reason": "Premium gaming headset"
+      },
+      {
+        "item_id": "B0C6J34WY4",
+        "reason": "Exclusive vinyl for collectors"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3257,
+    "completion_tokens": 327
+  }
+}

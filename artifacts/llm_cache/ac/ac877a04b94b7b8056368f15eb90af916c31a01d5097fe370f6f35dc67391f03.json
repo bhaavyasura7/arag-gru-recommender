@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00XV2D37G",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers action games, not puzzles."
+      },
+      {
+        "item_id": "B01N3L0ADB",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, mixed relevance."
+      },
+      {
+        "item_id": "B07ST7LY8F",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys Nintendo Switch games."
+      },
+      {
+        "item_id": "B072W4QMCV",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Controller for older system, less relevant."
+      },
+      {
+        "item_id": "B01CEY4CT4",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes Nintendo characters and collectibles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1291,
+    "completion_tokens": 160
+  }
+}

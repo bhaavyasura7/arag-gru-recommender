@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B18BLDRTG1",
+      "B086QVLSWY",
+      "B15C9W9FK4",
+      "B09FH27KTW",
+      "B18JLYSH4B",
+      "B01ARD1YYK",
+      "B00375MX5U",
+      "B01CSG15AM",
+      "B0B4VPT4PJ",
+      "B00XDSJSGS",
+      "B084Z4Q9NK",
+      "B08SC8C16X",
+      "B12GVJURHO",
+      "B00C710794",
+      "B00005Y3ZU",
+      "B00005BIG7",
+      "B0127JVZE6",
+      "B08JLYSH4B",
+      "B01ARD1YYK",
+      "B00K3SX07E"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08BLDRTG1",
+        "reason": "Popular for rhythm games"
+      },
+      {
+        "item_id": "B086QVLSWY",
+        "reason": "Stylus for creative gaming"
+      },
+      {
+        "item_id": "B15C9W9FK4",
+        "reason": "Essential Xbox One accessory"
+      },
+      {
+        "item_id": "B09FH27KTW",
+        "reason": "Gaming headset with USB charging"
+      },
+      {
+        "item_id": "B18JLYSH4B",
+        "reason": "New PS5 game release"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3219,
+    "completion_tokens": 319
+  }
+}

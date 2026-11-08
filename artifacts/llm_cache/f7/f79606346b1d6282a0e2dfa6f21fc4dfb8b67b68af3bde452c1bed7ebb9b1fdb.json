@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BSNCLMNM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR accessories not in user history."
+      },
+      {
+        "item_id": "B0C2J2N9XN",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with multiple gaming consoles."
+      },
+      {
+        "item_id": "B07R95WYYD",
+        "label": "support",
+        "score": 6,
+        "rationale": "Enhances Nintendo Switch gaming experience."
+      },
+      {
+        "item_id": "B018VAEXD0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Specific to older Nintendo models."
+      },
+      {
+        "item_id": "B07P14FQ58",
+        "label": "support",
+        "score": 7,
+        "rationale": "Improves PS4 controller usability."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1383,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09FQF1WQT",
+      "B00ATJIRO8",
+      "B10GYN7T42",
+      "B08VS1F8BG",
+      "B001QCWSJ2",
+      "B00068OLAG",
+      "B00009WKCM",
+      "B004GKMXPK",
+      "B06WVCWY41",
+      "B000063RRM",
+      "B0007KTBFS",
+      "B06XXLZFWX",
+      "B003E3NK2A",
+      "B00L4KZMDA",
+      "B071GCLQZP",
+      "B00406ZRCG",
+      "B00009WKCM",
+      "B00LB3A302",
+      "B0007KTBFS",
+      "B01B5S9KEM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09FQF1WQT",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B00ATJIRO8",
+        "reason": "Compatible with gaming systems"
+      },
+      {
+        "item_id": "B10GYN7T42",
+        "reason": "High-DPI and customizable features"
+      },
+      {
+        "item_id": "B08VS1F8BG",
+        "reason": "Comfortable VR headset strap"
+      },
+      {
+        "item_id": "B001QCWSJ2",
+        "reason": "Relevant gaming accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3415,
+    "completion_tokens": 318
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09SYYPWY8",
+      "B4C37TBM5Z",
+      "B01MG8P418",
+      "B0B19SPF5K",
+      "B099X165QB",
+      "B07KHNMRHL",
+      "B07V3G1HNP",
+      "B0BZRV417M",
+      "B000IFLEPW",
+      "B00002ST3D",
+      "B0001HAIA4",
+      "B004W75JJ4",
+      "B00LXZOPR0",
+      "B01N7AH5QA",
+      "B00TQY1ZKK",
+      "B00KQXKULK",
+      "B07484YY4L",
+      "B0181P25X0",
+      "B00001NFV4",
+      "B07R1V63Y9",
+      "B0001HAIA4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09SYYPWY8",
+        "reason": "Ergonomic RGB gaming mouse"
+      },
+      {
+        "item_id": "B4C37TBM5Z",
+        "reason": "Large RGB mouse pad"
+      },
+      {
+        "item_id": "B01MG8P418",
+        "reason": "Customizable Steam controller"
+      },
+      {
+        "item_id": "B0B19SPF5K",
+        "reason": "VR accessories enhance experience"
+      },
+      {
+        "item_id": "B099X165QB",
+        "reason": "Improves VR tracking sensitivity"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3496,
+    "completion_tokens": 337
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B009SSJATW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Unfamiliar genre, mixed interest in adventure."
+      },
+      {
+        "item_id": "B000BY5XAW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with video game preferences."
+      },
+      {
+        "item_id": "B01M0J6X90",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly related to Minecraft interest."
+      },
+      {
+        "item_id": "B005C9V7YW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Casual gaming, less aligned with history."
+      },
+      {
+        "item_id": "B000AQADLU",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Puzzle games less favored in history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1603,
+    "completion_tokens": 159
+  }
+}

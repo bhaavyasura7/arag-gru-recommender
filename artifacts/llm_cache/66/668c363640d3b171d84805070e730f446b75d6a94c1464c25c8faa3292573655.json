@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00DLD2LLY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B000H58URS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy system game, not Xbox or PS."
+      },
+      {
+        "item_id": "B0041SPG24",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Gaming accessory, not a game."
+      },
+      {
+        "item_id": "B00480O9F0",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B07YZVLLKH",
+        "label": "support",
+        "score": 8,
+        "rationale": "PlayStation 2 game, matches user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1076,
+    "completion_tokens": 164
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000ERVMI8",
+      "B00BAQXJMO",
+      "B074NJWFXH",
+      "B00DOD51UY",
+      "B0015MMN6G",
+      "B000094OT8",
+      "B003INEQ2O",
+      "B0C23C5YP5",
+      "B0086VPUHI",
+      "B00008RUYZ",
+      "B00JS9XVNM",
+      "B004S5MB1O",
+      "B07FB23CTG",
+      "B0001B15RA",
+      "B004LLHFAW",
+      "B001G60LBK",
+      "B007H5NGZQ8",
+      "B00BN5T30E",
+      "B000094OT8",
+      "B0001B15RA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000ERVMI8",
+        "reason": "Popular Mario platformer title"
+      },
+      {
+        "item_id": "B00BAQXJMO",
+        "reason": "High-quality sports game"
+      },
+      {
+        "item_id": "B074NJWFXH",
+        "reason": "Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B00DOD51UY",
+        "reason": "Useful for Nintendo Wii users"
+      },
+      {
+        "item_id": "B0015MMN6G",
+        "reason": "Memory card for PlayStation"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3648,
+    "completion_tokens": 314
+  }
+}

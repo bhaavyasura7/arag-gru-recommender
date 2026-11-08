@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00LV416KC",
+      "B085G42RXJ",
+      "B01K1CC4R8",
+      "B07D122T41",
+      "B07467QH6M",
+      "B08C2MT145",
+      "B08DMWF4MX",
+      "B08H9CVSS9",
+      "B000N45SO6",
+      "B00005AG2L",
+      "B07L3SV188",
+      "B0BHZ58XMH",
+      "B006ZN64CY",
+      "B000PKU2N0",
+      "B000RO39AW",
+      "B07HGT7JC8",
+      "B0B5NP8MVZ",
+      "B094Q6C3L9",
+      "B00M1RSYUI",
+      "B00000J1A1",
+      "B00000J1A2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00LV416KC",
+        "reason": "Engaging co-op multiplayer experience"
+      },
+      {
+        "item_id": "B085G42RXJ",
+        "reason": "Action-packed gameplay with exploration"
+      },
+      {
+        "item_id": "B01K1CC4R8",
+        "reason": "Enhances gaming experience with accessories"
+      },
+      {
+        "item_id": "B07D122T41",
+        "reason": "Multiplayer options with unique characters"
+      },
+      {
+        "item_id": "B07467QH6M",
+        "reason": "Action RPG with online multiplayer"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3323,
+    "completion_tokens": 337
+  }
+}

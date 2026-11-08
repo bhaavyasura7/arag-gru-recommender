@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09M8P5GRC",
+      "B08NX197P4",
+      "B09WDXK8YF",
+      "B07ZGG7GSY",
+      "B11M9JNWG6",
+      "B0006JMLN4",
+      "B0009MF6XU",
+      "B000UYC60S",
+      "B00007G33Y",
+      "B003O6EE4U",
+      "B09DP6H2XT",
+      "B09BCT8SXP",
+      "B097B85RPL",
+      "B000ODVKUC",
+      "B001DJ7PEQ",
+      "B0053UVDTE",
+      "B08NJTHY3G",
+      "B07JYNTYTY",
+      "B19CQ1C54Q",
+      "B08NJTHY3G",
+      "B0006JMLN4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09M8P5GRC",
+        "reason": "Perfect for Nintendo Switch users"
+      },
+      {
+        "item_id": "B08NX197P4",
+        "reason": "Compact dock for Nintendo Switch"
+      },
+      {
+        "item_id": "B09WDXK8YF",
+        "reason": "Nostalgic N64 controller"
+      },
+      {
+        "item_id": "B07ZGG7GSY",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B11M9JNWG6",
+        "reason": "Protects controllers from damage"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3739,
+    "completion_tokens": 345
+  }
+}

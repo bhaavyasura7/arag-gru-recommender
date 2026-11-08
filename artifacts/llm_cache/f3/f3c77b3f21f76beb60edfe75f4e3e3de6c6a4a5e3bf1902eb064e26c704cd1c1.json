@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B071KNNF9S",
+      "B002YGS5IM",
+      "B00AWRPEJI",
+      "B07DZZNJC2",
+      "B0009IA1XO",
+      "B005ADFSLS",
+      "B08K7G1JVL",
+      "B00064B0JU",
+      "B07DTL22BC",
+      "B0855HRVJ1",
+      "B20HRXJ55E",
+      "B0BMLPN46D",
+      "B07JX4PP8G",
+      "B07213YKCX",
+      "B20D2MS762",
+      "B16CZGZ7VI",
+      "B005D3JZB4",
+      "B0008DHNP",
+      "B07DZZNJC2",
+      "B082KHYG9K",
+      "B06HRXJ55E"
+    ],
+    "reasons": [
+      {
+        "item_id": "B071KNNF9S",
+        "reason": "Engaging multiplayer RPG experience"
+      },
+      {
+        "item_id": "B002YGS5IM",
+        "reason": "Classic multiplayer fun"
+      },
+      {
+        "item_id": "B00AWRPEJI",
+        "reason": "Action-adventure racing game"
+      },
+      {
+        "item_id": "B07DZZNJC2",
+        "reason": "Popular narrative-driven game"
+      },
+      {
+        "item_id": "B0009IA1XO",
+        "reason": "Classic console nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3285,
+    "completion_tokens": 330
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00000K1VE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers family-friendly games."
+      },
+      {
+        "item_id": "B00GUSUBQO",
+        "label": "support",
+        "score": 7,
+        "rationale": "User owns Xbox One accessories."
+      },
+      {
+        "item_id": "B07N8KZJ82",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no Nintendo Switch history."
+      },
+      {
+        "item_id": "B01AXZNUKI",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likely needs gaming headset."
+      },
+      {
+        "item_id": "B000QKXNLM",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User prefers action over strategy games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1233,
+    "completion_tokens": 152
+  }
+}

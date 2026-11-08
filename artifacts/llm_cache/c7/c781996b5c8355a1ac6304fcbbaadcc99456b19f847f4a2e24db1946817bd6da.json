@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01FALMGOG",
+      "B09NDJXKQ8",
+      "B01ARAGJJS",
+      "B16KXXJQJS",
+      "B08TQQ6Y1R",
+      "B00005BYKH",
+      "B000035XIH",
+      "B0002VKR78",
+      "B007736908",
+      "B08CZHH6RJ",
+      "B00005NODC",
+      "B01N0T0NM7",
+      "B000FIS7ZC",
+      "B001G56I86",
+      "B001EYUVEQ",
+      "B002U0KBT8",
+      "B08JLHDXWY",
+      "B000A8OGS04",
+      "B09KXXJQJS",
+      "B001VMQD8O",
+      "B001G56I86"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01FALMGOG",
+        "reason": "Perfect for enhancing gaming experience"
+      },
+      {
+        "item_id": "B09NDJXKQ8",
+        "reason": "Great for PSVR on PS5"
+      },
+      {
+        "item_id": "B01ARAGJJS",
+        "reason": "Enhances Rock Band gameplay"
+      },
+      {
+        "item_id": "B08TQQ6Y1R",
+        "reason": "Compatible with Wii for better control"
+      },
+      {
+        "item_id": "B00005BYKH",
+        "reason": "Racing game aligns with interests"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3345,
+    "completion_tokens": 335
+  }
+}

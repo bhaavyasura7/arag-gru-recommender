@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07NV7BG67",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers action games, not figures."
+      },
+      {
+        "item_id": "B00005BWH5",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game, limited relevance."
+      },
+      {
+        "item_id": "B00005QDPU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "BMX game, not aligned with user interests."
+      },
+      {
+        "item_id": "B002NNNL1W",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory for Wii, not a game."
+      },
+      {
+        "item_id": "B003L20IQU",
+        "label": "support",
+        "score": 6,
+        "rationale": "Soccer game aligns with action interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1111,
+    "completion_tokens": 161
+  }
+}

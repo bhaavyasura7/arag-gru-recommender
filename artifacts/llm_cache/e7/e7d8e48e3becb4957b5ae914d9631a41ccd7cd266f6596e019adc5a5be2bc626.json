@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B091H1VVZ3",
+      "B0BZNKW237",
+      "B0C65MJ84W",
+      "B08DD3RZFS",
+      "B19JSKBZKX",
+      "B016P6KIFY",
+      "B0009F9X3G",
+      "B00004U8GK",
+      "B0000E1RBK",
+      "B00005ME8T",
+      "B0000E1RBK",
+      "B0009F9X3G",
+      "B002GCFI2K",
+      "B08PBHV5KG",
+      "B0000E1RBK",
+      "B0000E1RBK",
+      "B0000E1RBK",
+      "B0000E1RBK",
+      "B0000E1RBK",
+      "B0000E1RBK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B091H1VVZ3",
+        "reason": "Popular PS5 game title"
+      },
+      {
+        "item_id": "B0BZNKW237",
+        "reason": "Compatible VR accessory"
+      },
+      {
+        "item_id": "B0C65MJ84W",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B08DD3RZFS",
+        "reason": "Switch Lite accessories"
+      },
+      {
+        "item_id": "B19JSKBZKX",
+        "reason": "RGB mechanical keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3368,
+    "completion_tokens": 326
+  }
+}

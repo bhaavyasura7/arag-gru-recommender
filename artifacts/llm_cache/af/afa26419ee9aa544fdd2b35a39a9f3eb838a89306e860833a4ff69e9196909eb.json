@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004UPBXR0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre and platform preference."
+      },
+      {
+        "item_id": "B00328P0GG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Skating game, not a strong interest."
+      },
+      {
+        "item_id": "B07X649B77",
+        "label": "support",
+        "score": 7,
+        "rationale": "Post-apocalyptic theme aligns with interests."
+      },
+      {
+        "item_id": "B000HKKQ3Y",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Board games, not video games."
+      },
+      {
+        "item_id": "B0010YOQJ6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Anime-based, less relevant to history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1221,
+    "completion_tokens": 159
+  }
+}

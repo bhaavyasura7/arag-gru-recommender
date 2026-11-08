@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00EQNP8F4",
+      "B08ZMRDY5V",
+      "B001ELJFGE",
+      "B00YQ74LVM",
+      "B00N2KKSNO",
+      "B007IPZFDW",
+      "B001E91OLK",
+      "B004I1JTEK",
+      "B003VH5Z2C",
+      "B00005C9F6",
+      "B0073ESZ58",
+      "B001E91OLK",
+      "B004LLHFAW",
+      "B06XHVJY3T",
+      "B0029F2FB6",
+      "B00DU2CHE2",
+      "B079MRDY5V",
+      "B003QCJLQI",
+      "B00Z9TM1KY",
+      "B00YQ74LVM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00EQNP8F4",
+        "reason": "Access to online gaming community"
+      },
+      {
+        "item_id": "B08ZMRDY5V",
+        "reason": "Popular fighting game title"
+      },
+      {
+        "item_id": "B001ELJFGE",
+        "reason": "Co-op gameplay experience"
+      },
+      {
+        "item_id": "B00YQ74LVM",
+        "reason": "Action-adventure gameplay"
+      },
+      {
+        "item_id": "B00N2KKSNO",
+        "reason": "Engaging open-world action"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3745,
+    "completion_tokens": 322
+  }
+}

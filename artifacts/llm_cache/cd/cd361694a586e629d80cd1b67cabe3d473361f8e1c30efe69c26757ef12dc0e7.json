@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003JVKHEQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation, not Xbox."
+      },
+      {
+        "item_id": "B005669IE2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation, not Xbox."
+      },
+      {
+        "item_id": "B019H5II8Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller compatible with multiple platforms."
+      },
+      {
+        "item_id": "B06ZXXH1TT",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B0017ZIIK6",
+        "label": "support",
+        "score": 8,
+        "rationale": "PlayStation game aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1313,
+    "completion_tokens": 161
+  }
+}

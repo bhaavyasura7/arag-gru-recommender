@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B14BWH4GWB",
+      "B000KF0GSQ",
+      "B07J1Z5W3B",
+      "B08RZC5JXY",
+      "B07P54T1JF",
+      "B00HQNYMQ2",
+      "B08V8Z9Y7S",
+      "B00R55JR4S",
+      "B07R33CZ92",
+      "B00005Y1NE",
+      "B00JEYPJGS",
+      "B0006ZB0ZS",
+      "B003V1WHOM",
+      "B00GD8PO68",
+      "B08PC9DKXY",
+      "B076G1YC6F",
+      "B00EUT0BQU",
+      "B00KWOSQC8",
+      "B08B1T61CC",
+      "B00HQNYMQ2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B14BWH4GWB",
+        "reason": "Popular Pokémon game for 3DS"
+      },
+      {
+        "item_id": "B000KF0GSQ",
+        "reason": "Classic game for nostalgic gamers"
+      },
+      {
+        "item_id": "B07J1Z5W3B",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B08RZC5JXY",
+        "reason": "Stylish game card storage solution"
+      },
+      {
+        "item_id": "B07P54T1JF",
+        "reason": "Essential accessory for 3DS games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3371,
+    "completion_tokens": 338
+  }
+}

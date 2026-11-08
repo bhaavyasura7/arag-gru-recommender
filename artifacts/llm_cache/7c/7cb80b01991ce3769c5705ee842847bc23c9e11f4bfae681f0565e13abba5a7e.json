@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07H4MPJ5X",
+      "B07Z4YKVR8",
+      "B00H8Z3SRM",
+      "B07XQ2BG8K",
+      "B08SVZ2D2Y",
+      "B00S6ZYRRS",
+      "B07RP898HP",
+      "B08FHZ945D",
+      "B073VSRM16",
+      "B00006RZ7N",
+      "B002GDYO8I",
+      "B000P57T8Q",
+      "B077RQP3Y7",
+      "B00G637CP6",
+      "B00LGFD3UM",
+      "B00008G943",
+      "B00006RZ7N",
+      "B00RG7OH7W",
+      "B07QMPPLTQ",
+      "B08562JHVL"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07H4MPJ5X",
+        "reason": "Customizable controller for Xbox One"
+      },
+      {
+        "item_id": "B07Z4YKVR8",
+        "reason": "High-quality gaming headset with surround sound"
+      },
+      {
+        "item_id": "B00H8Z3SRM",
+        "reason": "Ergonomic gaming mouse with programmable buttons"
+      },
+      {
+        "item_id": "B07XQ2BG8K",
+        "reason": "Durable replacement parts for Xbox controllers"
+      },
+      {
+        "item_id": "B08SVZ2D2Y",
+        "reason": "High-performance gaming mouse with precision"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3348,
+    "completion_tokens": 344
+  }
+}

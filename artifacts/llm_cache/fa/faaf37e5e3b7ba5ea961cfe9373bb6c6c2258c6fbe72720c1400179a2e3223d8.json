@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000NA6PUG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user preferences."
+      },
+      {
+        "item_id": "B098TBY135",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Generic accessory, no specific interest."
+      },
+      {
+        "item_id": "B01KAQ701K",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Not a game, unrelated to interests."
+      },
+      {
+        "item_id": "B00126Y1W4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Old game, not aligned with interests."
+      },
+      {
+        "item_id": "B00002STUG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy system game, not preferred."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 686,
+    "completion_tokens": 156
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUXHG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to gaming but not preferred."
+      },
+      {
+        "item_id": "B09H41CRHK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming accessory, not directly relevant."
+      },
+      {
+        "item_id": "B00076EY9U",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Xbox controller, user prefers PlayStation."
+      },
+      {
+        "item_id": "B07HYCZ68N",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports PlayStation 2 gaming."
+      },
+      {
+        "item_id": "B07MGC3XWK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PSP adapter, not directly related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1261,
+    "completion_tokens": 155
+  }
+}

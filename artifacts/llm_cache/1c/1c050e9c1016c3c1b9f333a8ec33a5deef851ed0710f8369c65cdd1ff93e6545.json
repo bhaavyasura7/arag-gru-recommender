@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0050SYYEK",
+      "B00DBLBMBQ",
+      "B001T0HVGQ",
+      "B00452VGYS",
+      "B00L3LQ1FI",
+      "B00690LYJ6",
+      "B089GGLKHQ",
+      "B00ECWJEA4",
+      "B00884S6YW",
+      "B09W56JJX2",
+      "B00OZD77OK",
+      "B00BN5T30E",
+      "B01CGZ4YLW",
+      "B07G11VW1Z",
+      "B09PR8NBZZ",
+      "B000JVM256",
+      "B074NDG5MN",
+      "B019GGLKHQ",
+      "B00OYPWRHQ",
+      "B00884S6YW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0050SYYEK",
+        "reason": "Family-friendly multiplayer experience"
+      },
+      {
+        "item_id": "B00DBLBMBQ",
+        "reason": "Engaging story and gameplay"
+      },
+      {
+        "item_id": "B001T0HVGQ",
+        "reason": "Classic console for Xbox fans"
+      },
+      {
+        "item_id": "B00452VGYS",
+        "reason": "Creative gameplay and customization"
+      },
+      {
+        "item_id": "B00L3LQ1FI",
+        "reason": "Fun multiplayer with friends"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3665,
+    "completion_tokens": 317
+  }
+}

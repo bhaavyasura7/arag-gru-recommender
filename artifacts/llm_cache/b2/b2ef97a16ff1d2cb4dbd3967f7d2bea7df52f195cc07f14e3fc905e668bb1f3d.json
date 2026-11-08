@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "story-driven games",
+      "action-adventure titles",
+      "gaming accessories",
+      "high-quality graphics",
+      "immersive experiences"
+    ],
+    "current_intent": "looking for new gaming experiences or accessories",
+    "avoid": [
+      "low-quality games",
+      "poor sound equipment",
+      "unreliable brands"
+    ],
+    "summary": "User enjoys narrative-rich video games and values quality gaming accessories, seeking new titles or gear to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 468,
+    "completion_tokens": 81
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00E31J7TM",
+        "label": "support",
+        "score": 8,
+        "rationale": "Classic adventure game aligns with interests."
+      },
+      {
+        "item_id": "B01FUSW4Z0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, but similar gameplay style."
+      },
+      {
+        "item_id": "B005HERMD2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a video game, unrelated to interests."
+      },
+      {
+        "item_id": "B08XZ93J1Y",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not directly related to gaming."
+      },
+      {
+        "item_id": "B00EDSI8GS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Subscription card, relevant but indirect."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 159
+  }
+}

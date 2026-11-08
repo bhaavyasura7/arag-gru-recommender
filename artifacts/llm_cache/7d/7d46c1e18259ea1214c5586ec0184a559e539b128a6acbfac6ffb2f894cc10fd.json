@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B092PR7W4G",
+      "B00B1N07QM",
+      "B10H1GZQXT",
+      "B0799JJ6ST",
+      "B003EV6YKW",
+      "B00069EVOG",
+      "B00004SVOO",
+      "B001ELJPJQ",
+      "B004W4BOSW",
+      "B00F9RGFAI",
+      "B00005UOI3",
+      "B00005O62C",
+      "B00000IXFW",
+      "B07CQBN7GD",
+      "B0BVTTXYK4",
+      "B001VE431Q",
+      "183906434X",
+      "B00273JKXQ",
+      "B06F9RGFAI",
+      "B003EV6YKW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B092PR7W4G",
+        "reason": "RGB mouse pad with lighting modes"
+      },
+      {
+        "item_id": "B00B1N07QM",
+        "reason": "Mechanical keypad for gaming"
+      },
+      {
+        "item_id": "B08H1GZQXT",
+        "reason": "RGB extended gaming mat"
+      },
+      {
+        "item_id": "B0799JJ6ST",
+        "reason": "RGB backlit gaming keyboard"
+      },
+      {
+        "item_id": "B003EV6YKW",
+        "reason": "High-performance gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3272,
+    "completion_tokens": 317
+  }
+}

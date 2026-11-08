@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001C58T6E",
+      "B0123",
+      "B0002ILS10",
+      "B00005BX7K",
+      "B00005MA8H",
+      "B00005BX7K",
+      "B000ICZ60O",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001C58T6E",
+        "reason": "Popular motion gaming controller"
+      },
+      {
+        "item_id": "B0002ILS10",
+        "reason": "Classic racing game for Xbox"
+      },
+      {
+        "item_id": "B00005BX7K",
+        "reason": "Compatible with PlayStation 3"
+      },
+      {
+        "item_id": "B00005MA8H",
+        "reason": "Light and magnifier for Game Boy"
+      },
+      {
+        "item_id": "B000ICZ60O",
+        "reason": "Accessory for PlayStation systems"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3495,
+    "completion_tokens": 311
+  }
+}

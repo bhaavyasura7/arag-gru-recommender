@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003VH5Z2C",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic gaming, not recent interests."
+      },
+      {
+        "item_id": "B09Y1611MW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "VR boxing not aligned with preferences."
+      },
+      {
+        "item_id": "B003JZT1OY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar action genre to user favorites."
+      },
+      {
+        "item_id": "B002DPUJCE",
+        "label": "support",
+        "score": 7,
+        "rationale": "RPG elements align with user interests."
+      },
+      {
+        "item_id": "B07NSTTMVB",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1293,
+    "completion_tokens": 152
+  }
+}

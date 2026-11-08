@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01KX8ETK0",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox games, soccer genre."
+      },
+      {
+        "item_id": "B09RMQN6FH",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not Nintendo accessories."
+      },
+      {
+        "item_id": "B00004SVNO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in NES games."
+      },
+      {
+        "item_id": "B07BKQNJD9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Memory card relevant, but not exciting."
+      },
+      {
+        "item_id": "B018XIRZ12",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Xbox, likes controller accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 921,
+    "completion_tokens": 160
+  }
+}

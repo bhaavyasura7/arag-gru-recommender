@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming accessories",
+      "controller grips",
+      "mobile gaming",
+      "Nintendo Switch",
+      "Xbox accessories"
+    ],
+    "current_intent": "looking for high-quality gaming accessories",
+    "avoid": [
+      "low-quality products",
+      "overpriced items",
+      "non-compatible accessories"
+    ],
+    "summary": "User is a gaming enthusiast focused on enhancing their gaming experience with quality accessories for consoles and mobile devices."
+  },
+  "usage": {
+    "prompt_tokens": 394,
+    "completion_tokens": 71
+  }
+}

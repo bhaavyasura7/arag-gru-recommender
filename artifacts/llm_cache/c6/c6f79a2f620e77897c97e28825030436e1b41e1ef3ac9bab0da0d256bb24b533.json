@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07MLW2SWR",
+      "B001EYUS7G",
+      "B14Z9TKRH8",
+      "B003BLUA64",
+      "B00Z9TKRH8",
+      "B00FA1CLEW",
+      "B001NV7KOO",
+      "B001ELJP8W",
+      "B001EYUTE8",
+      "B003EQ3LS0",
+      "B004HD55VK",
+      "B00M796R1I",
+      "B07982R9BZ",
+      "B00RZ7T8TK",
+      "B00FA1CLEW",
+      "B001EYUS7G",
+      "B0C3KJJ6XS",
+      "B002XVUT3M",
+      "B000K9OP2A",
+      "B000CFKXYQ",
+      "B001EYUTE8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07MLW2SWR",
+        "reason": "Action-adventure multiplayer experience"
+      },
+      {
+        "item_id": "B001EYUS7G",
+        "reason": "Nintendo Switch accessory for comfort"
+      },
+      {
+        "item_id": "B14Z9TKRH8",
+        "reason": "Thumb grips for better control"
+      },
+      {
+        "item_id": "B003BLUA64",
+        "reason": "Classic controller for Nintendo Wii"
+      },
+      {
+        "item_id": "B00Z9TKRH8",
+        "reason": "Fun multiplayer Yoshi adventure"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3488,
+    "completion_tokens": 328
+  }
+}

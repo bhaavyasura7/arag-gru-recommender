@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07MKS66XM",
+      "B0BTNG1QFB",
+      "B05EDHEWP0",
+      "B00125ON14",
+      "B11F6DHWH4",
+      "B000924JLA",
+      "B00005KFSF",
+      "B00004TJDK",
+      "B00009MRF9",
+      "B0037HPS6Y",
+      "B07KQD87TZ",
+      "B0BVD2GY4H",
+      "B0045U292I",
+      "B000E23W6S",
+      "B09XDPMZJ6",
+      "B00005KFSF",
+      "B00004TJDK",
+      "B0037HPS6Y",
+      "B00009MRF9",
+      "B0BTNG1QFB"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07MKS66XM",
+        "reason": "New multiplayer Nintendo Switch game"
+      },
+      {
+        "item_id": "B0BTNG1QFB",
+        "reason": "Compatible gaming headset for all consoles"
+      },
+      {
+        "item_id": "B05EDHEWP0",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B00125ON14",
+        "reason": "Fun multiplayer basketball game"
+      },
+      {
+        "item_id": "B11F6DHWH4",
+        "reason": "Popular multiplayer game edition"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3448,
+    "completion_tokens": 316
+  }
+}

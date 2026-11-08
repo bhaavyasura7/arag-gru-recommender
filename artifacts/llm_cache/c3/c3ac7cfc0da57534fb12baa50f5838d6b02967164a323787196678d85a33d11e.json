@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01MXPTJPO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B083FFY4S4",
+        "label": "support",
+        "score": 7,
+        "rationale": "User owns Nintendo 3DS devices."
+      },
+      {
+        "item_id": "B0094096EI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action/adventure games."
+      },
+      {
+        "item_id": "B07TS2ZTXL",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse not directly relevant."
+      },
+      {
+        "item_id": "B000CSUL40",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Targeted at younger audience."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1908,
+    "completion_tokens": 153
+  }
+}

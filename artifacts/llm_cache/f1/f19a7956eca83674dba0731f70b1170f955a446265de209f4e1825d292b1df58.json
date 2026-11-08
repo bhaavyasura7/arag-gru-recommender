@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0009FZQYQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action and FPS games."
+      },
+      {
+        "item_id": "B00003IEGA",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User focuses on action-oriented games."
+      },
+      {
+        "item_id": "B00FE6OR2M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in strategy."
+      },
+      {
+        "item_id": "B000FEWSTW",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers immersive gaming experiences."
+      },
+      {
+        "item_id": "B00004ZBOG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User's history lacks strategy game interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2337,
+    "completion_tokens": 163
+  }
+}

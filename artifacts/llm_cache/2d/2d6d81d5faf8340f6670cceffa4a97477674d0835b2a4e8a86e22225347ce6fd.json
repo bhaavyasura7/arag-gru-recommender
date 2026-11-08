@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B004G5YI3U",
+      "B00Z9TIM3Y",
+      "B01IFE2OFG",
+      "B12YBXFF5C",
+      "B001EYUNVC",
+      "B00A63GL4A",
+      "B000U96L54",
+      "B07C75CLCD",
+      "B004JHY3ZI",
+      "B003O6E9T0",
+      "B07YBWT3PK",
+      "B00W9DHUBS",
+      "B001EYUQTQ",
+      "B002JTX7KA",
+      "B07YBXFF5C",
+      "B01GR9ZZTS",
+      "B07K89DFR8",
+      "B000X2H8UA",
+      "B004HKIMK4",
+      "B004JHY3ZI",
+      "B000A2R54M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004G5YI3U",
+        "reason": "Rich narrative and gameplay"
+      },
+      {
+        "item_id": "B00Z9TIM3Y",
+        "reason": "Engaging combat and story"
+      },
+      {
+        "item_id": "B01IFE2OFG",
+        "reason": "High-quality gaming accessory"
+      },
+      {
+        "item_id": "B12YBXFF5C",
+        "reason": "Immersive open-world experience"
+      },
+      {
+        "item_id": "B001EYUNVC",
+        "reason": "Classic story-driven adventure"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3830,
+    "completion_tokens": 334
+  }
+}

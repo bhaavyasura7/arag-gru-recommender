@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0988533WP",
+      "B0002XL3BA",
+      "B000038A6U",
+      "B00HVBPRUO",
+      "B002SUTB28",
+      "B20TC8J6HK",
+      "B001EYUY8Y",
+      "B001EYUQ8M",
+      "B0191J0RXA",
+      "B00DDIRERI",
+      "B00264H2W2",
+      "B01B2RWVHY",
+      "B07YBXP45M",
+      "B06XPX5XLY",
+      "B01L1L3F26",
+      "B00BHJ6KY8",
+      "B07TC8J6HK",
+      "B001EYUQ8M",
+      "B00HVBPRUO",
+      "B001EYUY8Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0988533WP",
+        "reason": "Multiplayer microgames for fun"
+      },
+      {
+        "item_id": "B0002XL3BA",
+        "reason": "Classic Nintendo console experience"
+      },
+      {
+        "item_id": "B000038A6U",
+        "reason": "Arcade classics for nostalgia"
+      },
+      {
+        "item_id": "B00HVBPRUO",
+        "reason": "Great headset for multiplayer gaming"
+      },
+      {
+        "item_id": "B002SUTB28",
+        "reason": "Co-op fitness game for fun"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3833,
+    "completion_tokens": 325
+  }
+}

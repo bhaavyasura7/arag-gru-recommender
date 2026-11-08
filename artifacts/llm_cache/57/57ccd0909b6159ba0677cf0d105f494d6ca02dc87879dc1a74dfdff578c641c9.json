@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09BVQ8TND",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes gaming keyboards."
+      },
+      {
+        "item_id": "B096MMH5KG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user's games."
+      },
+      {
+        "item_id": "B091CH1R3W",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys mechanical gaming keyboards."
+      },
+      {
+        "item_id": "B0040EJLSY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre from user's interests."
+      },
+      {
+        "item_id": "B09GYDWLCM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to gaming but not essential."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1559,
+    "completion_tokens": 149
+  }
+}

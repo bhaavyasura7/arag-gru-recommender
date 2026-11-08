@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B000ZVVYOU",
+      "B089M2FPMZ",
+      "B0B2MN7H4S",
+      "B07V38PT55",
+      "B19MN7LDDN",
+      "B006JKARU8",
+      "B00009X3VG",
+      "B00062VOSE",
+      "B000E67D096",
+      "B008H3QCYU",
+      "B00006B5T8",
+      "B0123PBHHE",
+      "B00001QERU",
+      "B000ZKJPXS",
+      "B07C3PV1PX",
+      "B087BV4FDP",
+      "B00GURH7EO",
+      "B00009X3VG",
+      "B005SASS6U",
+      "B08P44VYCK",
+      "B09CWV92RS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000ZVVYOU",
+        "reason": "Engaging word puzzles for brain training"
+      },
+      {
+        "item_id": "B089M2FPMZ",
+        "reason": "Unique action-adventure gameplay"
+      },
+      {
+        "item_id": "B0B2MN7H4S",
+        "reason": "Doctor Who adventure on Switch"
+      },
+      {
+        "item_id": "B07V38PT55",
+        "reason": "Racing wheel stand for immersive play"
+      },
+      {
+        "item_id": "B19MN7LDDN",
+        "reason": "LED lights enhance gaming setup"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3682,
+    "completion_tokens": 337
+  }
+}

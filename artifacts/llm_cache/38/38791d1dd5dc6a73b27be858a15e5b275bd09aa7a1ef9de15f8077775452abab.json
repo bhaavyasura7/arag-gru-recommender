@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00F8W9SWQ",
+      "B0BVWPMMCT",
+      "B08MZG427Q",
+      "B001ELJE4W",
+      "B00HGLLRV2",
+      "B07X56VM5R",
+      "B004HD55VK",
+      "B00WOK8Z74",
+      "B0C3KYVDWT",
+      "B00F27JGVA",
+      "B00Y4S5KPY",
+      "B073X4RGFP",
+      "B00JA81WQE",
+      "B00009WAUO",
+      "B000GCJ6MK",
+      "B00003031F",
+      "B00000K1VE",
+      "B009DYE3JI",
+      "B000096L71",
+      "B00F8W9SWQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00F8W9SWQ",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B0BVWPMMCT",
+        "reason": "Premium gaming headset"
+      },
+      {
+        "item_id": "B08MZG427Q",
+        "reason": "VR accessory for Oculus Quest 2"
+      },
+      {
+        "item_id": "B001ELJE4W",
+        "reason": "Popular gaming accessory"
+      },
+      {
+        "item_id": "B00HGLLRV2",
+        "reason": "Latest PS4 game with superpowers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3661,
+    "completion_tokens": 321
+  }
+}

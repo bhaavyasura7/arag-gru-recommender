@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08HL8YSWD",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers Nintendo products primarily."
+      },
+      {
+        "item_id": "B000U5RRX8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User shows no interest in racing games."
+      },
+      {
+        "item_id": "B076DF9F12",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no PS4 accessories in history."
+      },
+      {
+        "item_id": "B000MZ8QWM",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Nintendo DS products."
+      },
+      {
+        "item_id": "B0B67PQ6HR",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User does not show interest in PS4."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1447,
+    "completion_tokens": 160
+  }
+}

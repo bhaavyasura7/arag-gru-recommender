@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "gaming accessories",
+      "Nintendo products",
+      "mechanical keyboards",
+      "VR gaming"
+    ],
+    "current_intent": "looking for high-quality gaming peripherals",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "overpriced accessories"
+    ],
+    "summary": "User is a gaming enthusiast focused on quality gaming gear, particularly for Nintendo and VR, seeking reliable and well-reviewed products."
+  },
+  "usage": {
+    "prompt_tokens": 814,
+    "completion_tokens": 77
+  }
+}

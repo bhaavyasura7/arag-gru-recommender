@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "visual novels",
+      "horror games",
+      "racing games",
+      "action-adventure",
+      "story-driven experiences"
+    ],
+    "current_intent": "looking for engaging video games with strong narratives",
+    "avoid": [
+      "poorly rated games",
+      "racing simulations",
+      "generic action games"
+    ],
+    "summary": "The user enjoys narrative-driven games but has recently rated several poorly, indicating a desire for better quality titles."
+  },
+  "usage": {
+    "prompt_tokens": 305,
+    "completion_tokens": 79
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B003YMMMFM",
+      "B07YBWT3PK",
+      "B001EYUNPI",
+      "B0007P0U3U",
+      "B0044R8X9U",
+      "B0046D9W88",
+      "B0000A09EN",
+      "B001CM0PJ6",
+      "B0009UC68U",
+      "B001EYUNPI",
+      "B00005BW7Q",
+      "B000N5Z2L4",
+      "B0000A09EN",
+      "B0044R8X9U",
+      "B0007P0U3U",
+      "B006JKARN0",
+      "B01MZAUPD6",
+      "B0009UC68U",
+      "B0000A09EN",
+      "B0007P0U3U"
+    ],
+    "reasons": [
+      {
+        "item_id": "B003YMMMFM",
+        "reason": "Highly rated first-person shooter"
+      },
+      {
+        "item_id": "B07YBWT3PK",
+        "reason": "Classic open-world shooter"
+      },
+      {
+        "item_id": "B001EYUNPI",
+        "reason": "Collector's edition of a classic"
+      },
+      {
+        "item_id": "B0007P0U3U",
+        "reason": "Classic WWII shooter experience"
+      },
+      {
+        "item_id": "B0044R8X9U",
+        "reason": "Engaging military storyline"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3802,
+    "completion_tokens": 324
+  }
+}

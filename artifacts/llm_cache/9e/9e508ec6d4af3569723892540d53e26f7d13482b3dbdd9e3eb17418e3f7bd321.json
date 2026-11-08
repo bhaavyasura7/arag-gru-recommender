@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07SCZQV68",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's Xbox 360 games."
+      },
+      {
+        "item_id": "B000OYITQO",
+        "label": "support",
+        "score": 8,
+        "rationale": "Original Xbox 360 controller, highly rated."
+      },
+      {
+        "item_id": "B08K2Y2KQN",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Newer model, not directly related."
+      },
+      {
+        "item_id": "B0BGGBY186",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Compatible but for newer Xbox models."
+      },
+      {
+        "item_id": "B01MR5X8FQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "For Xbox One, not Xbox 360."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1340,
+    "completion_tokens": 160
+  }
+}

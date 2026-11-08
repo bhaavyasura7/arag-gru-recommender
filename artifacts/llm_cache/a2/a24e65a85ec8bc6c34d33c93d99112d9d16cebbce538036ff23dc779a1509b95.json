@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00GM5T8PK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers RPGs, not action games."
+      },
+      {
+        "item_id": "B07SSZGYNR",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in Naruto games."
+      },
+      {
+        "item_id": "B087LSSNG1",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys RPGs like Final Fantasy."
+      },
+      {
+        "item_id": "B09M6YFK7Y",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User's focus is on gaming, not peripherals."
+      },
+      {
+        "item_id": "B00O65I2VY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has not shown interest in Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1327,
+    "completion_tokens": 165
+  }
+}

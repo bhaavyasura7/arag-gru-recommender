@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUQTQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers older games, not FPS."
+      },
+      {
+        "item_id": "B0C3KYVDWT",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's Nintendo system."
+      },
+      {
+        "item_id": "B000WCQWR6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar genre, but different platform."
+      },
+      {
+        "item_id": "B00K308KF4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers older games, not FPS."
+      },
+      {
+        "item_id": "B00CJ9OTNE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers older games, not FPS."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1316,
+    "completion_tokens": 159
+  }
+}

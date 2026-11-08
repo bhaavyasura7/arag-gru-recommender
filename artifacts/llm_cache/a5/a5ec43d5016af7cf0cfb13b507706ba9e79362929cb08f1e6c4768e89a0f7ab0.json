@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B075SRFWVG",
+      "B07VT2491H",
+      "B000038I9O",
+      "B17XMG1BQL",
+      "B06ZYTHKR7",
+      "B00UBL0ZQC",
+      "B087BJ43VS",
+      "B07T67S9Y1",
+      "B015QHTICW",
+      "B07XMG1BQL",
+      "B0015FOANW",
+      "B014KXMLXG",
+      "B06WW7CD5R",
+      "B08MBQ51KG",
+      "B07T67S9Y1",
+      "B075XJCGYX",
+      "B19EWTY3D4",
+      "B000E3UV8O",
+      "B09322LLZ2",
+      "B0BLYC2YVN",
+      "B007IVR26E"
+    ],
+    "reasons": [
+      {
+        "item_id": "B075SRFWVG",
+        "reason": "Xbox One game show compilation"
+      },
+      {
+        "item_id": "B07VT2491H",
+        "reason": "Compatible Xbox gaming headset"
+      },
+      {
+        "item_id": "B000038I9O",
+        "reason": "Classic game for nostalgia"
+      },
+      {
+        "item_id": "B06ZYTHKR7",
+        "reason": "Popular WWII shooter game"
+      },
+      {
+        "item_id": "B17XMG1BQL",
+        "reason": "Engaging sports trivia game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3397,
+    "completion_tokens": 328
+  }
+}

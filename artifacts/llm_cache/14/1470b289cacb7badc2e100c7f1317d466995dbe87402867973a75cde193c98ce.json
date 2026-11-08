@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09R1S45VM",
+      "B09Z9Q6DZC",
+      "B0006IGX9S",
+      "B075B475G5",
+      "B00005O0I8",
+      "B09VKTZ7HK",
+      "B01N4NUG5R",
+      "B08P1KNQ28",
+      "B072F6WKZS",
+      "B01N1Q2N5I",
+      "B07YF64SVV",
+      "B01NAAWIGV",
+      "B01LRPXFLC",
+      "B00006JK40",
+      "B002I0JD1C",
+      "B004IMGQT0",
+      "B00WMMUDR4",
+      "B19N1Q2N5I",
+      "B07HHW8C4V",
+      "0439591368"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09R1S45VM",
+        "reason": "Protective case for Switch"
+      },
+      {
+        "item_id": "B09Z9Q6DZC",
+        "reason": "Travel case for PS5"
+      },
+      {
+        "item_id": "B0006IGX9S",
+        "reason": "Charging cradle for Nintendo DS"
+      },
+      {
+        "item_id": "B075B475G5",
+        "reason": "Controller skin for PS4"
+      },
+      {
+        "item_id": "B00005O0I8",
+        "reason": "Memory unit for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3456,
+    "completion_tokens": 333
+  }
+}

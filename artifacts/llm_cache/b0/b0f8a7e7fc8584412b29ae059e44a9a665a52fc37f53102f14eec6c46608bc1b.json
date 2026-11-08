@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0771ZXXV6",
+      "B09YCS59MW",
+      "B08BF8C4SK",
+      "B09NT4VC71",
+      "B07X7FYZ4Z",
+      "B0BS5KQ4QH",
+      "B09X1KKVM9",
+      "B0015QBY2G",
+      "B00007BGQT",
+      "B006OCM0JC",
+      "B0002IQCL6",
+      "B07HMBG1MQ",
+      "B08ZCKRLYK",
+      "B09NT4VC71",
+      "B0B27QGWZ8",
+      "B01AILTT1G",
+      "B096P6D385",
+      "B00GUST0B6",
+      "B079KJZMLN",
+      "B12VGBLL2J"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0771ZXXV6",
+        "reason": "Essential Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B09YCS59MW",
+        "reason": "Popular Zelda-themed item"
+      },
+      {
+        "item_id": "B08BF8C4SK",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B09NT4VC71",
+        "reason": "Convenient Joy-Con charging dock"
+      },
+      {
+        "item_id": "B07X7FYZ4Z",
+        "reason": "VR stand for gaming setup"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3501,
+    "completion_tokens": 329
+  }
+}

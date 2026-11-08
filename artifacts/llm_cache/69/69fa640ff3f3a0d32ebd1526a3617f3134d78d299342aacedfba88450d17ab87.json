@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07YBXJ5FK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action and multiplayer games."
+      },
+      {
+        "item_id": "B079QKM4Q3",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not favor psychological horror."
+      },
+      {
+        "item_id": "B00FWMWHSO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers action-oriented games."
+      },
+      {
+        "item_id": "B005OOZRIM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not favor horror themes."
+      },
+      {
+        "item_id": "B07FDZB863",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers serious gaming experiences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2350,
+    "completion_tokens": 159
+  }
+}

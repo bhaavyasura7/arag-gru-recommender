@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001G7PRPO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers adventure, not rhythm games."
+      },
+      {
+        "item_id": "B003VUO6LU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Console not directly related to interests."
+      },
+      {
+        "item_id": "B07G3Y68KR",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre and platform as user favorites."
+      },
+      {
+        "item_id": "B00HM3QCN2",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Adapter not a game, limited relevance."
+      },
+      {
+        "item_id": "B018QH6VVA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Controller for Xbox, user prefers Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 159
+  }
+}

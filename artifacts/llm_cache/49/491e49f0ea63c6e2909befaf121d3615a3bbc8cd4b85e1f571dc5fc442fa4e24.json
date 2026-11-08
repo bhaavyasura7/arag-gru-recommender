@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08CNGFVG9",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B000U8DTGY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B00004ZBOG",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Classic game, not aligned with preferences."
+      },
+      {
+        "item_id": "B005IHBR2K",
+        "label": "support",
+        "score": 6,
+        "rationale": "Related to Xbox controller customization."
+      },
+      {
+        "item_id": "B000035XO4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system game, not user’s focus."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1582,
+    "completion_tokens": 155
+  }
+}

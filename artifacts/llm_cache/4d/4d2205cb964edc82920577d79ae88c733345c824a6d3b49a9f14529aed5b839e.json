@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0000AI1KE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Fighting game, not user’s preference."
+      },
+      {
+        "item_id": "B08F4D36D9",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo games, Pokémon fits."
+      },
+      {
+        "item_id": "B005FVBYV8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Spider-Man is popular, but not preferred."
+      },
+      {
+        "item_id": "B00NY7H5EA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Bioshock is different from user’s interests."
+      },
+      {
+        "item_id": "B01MFFGRVP",
+        "label": "support",
+        "score": 9,
+        "rationale": "Kingdom Hearts aligns with user’s gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1257,
+    "completion_tokens": 165
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07D2D4T1P",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo Switch case, not directly relevant."
+      },
+      {
+        "item_id": "B000083JXC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Chess game, not aligned with interests."
+      },
+      {
+        "item_id": "B01KU77AE6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PS4 game, user prefers PC games."
+      },
+      {
+        "item_id": "B00005RCPJ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Game Boy game, not a current interest."
+      },
+      {
+        "item_id": "B0CH3JHGVD",
+        "label": "support",
+        "score": 6,
+        "rationale": "Protective case for Pokémon Go, relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1210,
+    "completion_tokens": 165
+  }
+}

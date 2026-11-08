@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07VC1MKNZ",
+      "B18D8TD8RT",
+      "B000ASBIEO",
+      "B08QXBCP8F",
+      "B09DPHZGSZ",
+      "B08NTML8NR",
+      "B13GW3H3U8",
+      "B07WSX9PCJ",
+      "B07CHXF76P",
+      "B000BYQDLU",
+      "B07KF4PPGP",
+      "B17WGJ72KT",
+      "B07TV7P3GP",
+      "B0007KTBDK",
+      "B0851PXXD2",
+      "B12G84D29",
+      "B07WGJ72KT",
+      "B09X9ZGH8X",
+      "B005HI2JCC",
+      "B12G84D29"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07VC1MKNZ",
+        "reason": "Popular Xbox controller for gaming"
+      },
+      {
+        "item_id": "B18D8TD8RT",
+        "reason": "Wii U remote enhances multiplayer"
+      },
+      {
+        "item_id": "B000ASBIEO",
+        "reason": "Multiplayer racing game for PS2"
+      },
+      {
+        "item_id": "B08QXBCP8F",
+        "reason": "VR headset for immersive gaming"
+      },
+      {
+        "item_id": "B09DPHZGSZ",
+        "reason": "Carrying case for Switch accessories"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3425,
+    "completion_tokens": 331
+  }
+}

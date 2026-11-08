@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B003IPCF02",
+      "B001AI7CF2",
+      "B00VX73DD0",
+      "B06XKXQW4",
+      "B00Z9TIM3Y",
+      "B00SHXKC8M",
+      "B00DYJGDYQ",
+      "B01I3E7XAO",
+      "B01KXB7SZ0",
+      "B00004SVS7",
+      "B00O9JLBOC",
+      "B001ENPDJA",
+      "B01I59OC92",
+      "B003NSLGW2",
+      "B00DBDPOZ4",
+      "B00VX73DD0",
+      "B0154OZU4M",
+      "B00DBDPOZ4",
+      "B0029LJIFG",
+      "B00SHXKC8M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001AI7CF2",
+        "reason": "Wii accessory, high relevance"
+      },
+      {
+        "item_id": "B00VX73DD0",
+        "reason": "Nintendo game card holder"
+      },
+      {
+        "item_id": "B06XKXQW4",
+        "reason": "DIY Joy-Con case, personalized"
+      },
+      {
+        "item_id": "B00Z9TIM3Y",
+        "reason": "Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B003IPCF02",
+        "reason": "Not relevant to Nintendo interests"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3552,
+    "completion_tokens": 325
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00002JXBC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not related to user's game preferences."
+      },
+      {
+        "item_id": "B0BHZ9741H",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "VR accessory, user prefers console games."
+      },
+      {
+        "item_id": "B0036N6E2Q",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with Xbox, user has Xbox games."
+      },
+      {
+        "item_id": "B01BFLRNKW",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Different game series, user prefers Star Wars."
+      },
+      {
+        "item_id": "B004E0M5H8",
+        "label": "support",
+        "score": 5,
+        "rationale": "Cooling fan for Xbox, relevant to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1147,
+    "completion_tokens": 162
+  }
+}

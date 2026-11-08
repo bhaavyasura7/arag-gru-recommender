@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07YBX5FVF",
+      "B003DOSRSW",
+      "B0BYPDQN2W",
+      "B089F9SCS1",
+      "B07D5G4KXJ",
+      "B01FMQ3LMU",
+      "B001K7HUR8",
+      "B00CF7KVMI",
+      "B003R7LBQK",
+      "B00C5M4I54",
+      "B00005NCCW",
+      "B006VB2W3A",
+      "B000VBIGK4",
+      "B01N6S068R",
+      "B000IOFM0G",
+      "B00QV3ZC44",
+      "B000VBIGK4",
+      "B00005NCCW",
+      "B00LPSS2LK",
+      "B000VBIGK4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07YBX5FVF",
+        "reason": "Highly rated RPG experience"
+      },
+      {
+        "item_id": "B003DOSRSW",
+        "reason": "Action RPG with customization"
+      },
+      {
+        "item_id": "B0BYPDQN2W",
+        "reason": "VR gaming accessory"
+      },
+      {
+        "item_id": "B089F9SCS1",
+        "reason": "Immersive space combat game"
+      },
+      {
+        "item_id": "B07D5G4KXJ",
+        "reason": "Enhances gaming experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3861,
+    "completion_tokens": 328
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002JTX9XU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user’s gaming preferences."
+      },
+      {
+        "item_id": "B004EDIO98",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Different genre than user’s interests."
+      },
+      {
+        "item_id": "B001KWE2WE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a traditional video game experience."
+      },
+      {
+        "item_id": "B08BGPTPS2",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar genre and platform as user’s games."
+      },
+      {
+        "item_id": "B08BRM3N53",
+        "label": "support",
+        "score": 6,
+        "rationale": "Gaming accessory aligns with user’s interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1263,
+    "completion_tokens": 161
+  }
+}

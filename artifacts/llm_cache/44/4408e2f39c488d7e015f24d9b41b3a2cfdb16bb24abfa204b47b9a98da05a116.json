@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01N9KN4OC",
+      "B01GHFKR18",
+      "B0863MT183",
+      "B07F89LW78",
+      "B14CJCQ1ZF",
+      "B003RRXW0I",
+      "B07CJCQ1ZF",
+      "B000069T7L",
+      "B0951P2ZLM",
+      "B00019069K",
+      "B0002IP4LU",
+      "B00292BQL4",
+      "B00HTK0ML6",
+      "B00IG3GP84",
+      "B00XUZFGWE",
+      "B08W1W5VMF",
+      "B00UA9X9Z4",
+      "B00IG3GP84",
+      "B002MUB0UK",
+      "B08CZMWHT4",
+      "B00UA9X9Z4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01N9KN4OC",
+        "reason": "Engaging multiplayer RPG experience"
+      },
+      {
+        "item_id": "B01GHFKR18",
+        "reason": "Action-packed multiplayer gameplay"
+      },
+      {
+        "item_id": "B0863MT183",
+        "reason": "Supports VR gaming experience"
+      },
+      {
+        "item_id": "B07F89LW78",
+        "reason": "Stylish carrying case for Switch"
+      },
+      {
+        "item_id": "B003RRXW0I",
+        "reason": "Fun multiplayer music rhythm game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3521,
+    "completion_tokens": 331
+  }
+}

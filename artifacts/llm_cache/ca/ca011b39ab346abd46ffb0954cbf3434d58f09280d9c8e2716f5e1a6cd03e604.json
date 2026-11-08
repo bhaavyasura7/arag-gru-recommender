@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00US76K2M",
+      "B0C7PPFR3Y",
+      "B12GUSUBQO",
+      "B075LFQGBV",
+      "B07MJGDP1T",
+      "B001158LE0",
+      "B002I08VXI",
+      "B09B1NYMN6",
+      "B01N4N3WIA",
+      "B004NDTRJA",
+      "B00000K1VE",
+      "B07N8KZJ82",
+      "B08NH9JLYX",
+      "B01AXZNUKI",
+      "B07X2LNHGB",
+      "B0B845WSVX",
+      "B16GUSUBQO",
+      "B01FN45IXQ",
+      "B000QKXNLM",
+      "B0836BR7MP"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00US76K2M",
+        "reason": "Popular fighting game for Xbox"
+      },
+      {
+        "item_id": "B0C7PPFR3Y",
+        "reason": "High-quality gaming headset for Xbox"
+      },
+      {
+        "item_id": "B12GUSUBQO",
+        "reason": "Unique Xbox controller skin design"
+      },
+      {
+        "item_id": "B075LFQGBV",
+        "reason": "Stylish console and controller skins"
+      },
+      {
+        "item_id": "B07MJGDP1T",
+        "reason": "Limited edition collectible figure"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3793,
+    "completion_tokens": 327
+  }
+}

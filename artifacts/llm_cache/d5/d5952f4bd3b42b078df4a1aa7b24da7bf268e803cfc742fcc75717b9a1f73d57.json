@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming accessories",
+      "retro gaming",
+      "console-specific gear",
+      "video game hardware",
+      "collectible gaming items"
+    ],
+    "current_intent": "looking for quality gaming accessories",
+    "avoid": [
+      "low-quality products",
+      "incompatible items",
+      "overpriced accessories"
+    ],
+    "summary": "The user is a gaming enthusiast focused on quality accessories for various consoles, particularly interested in retro gaming gear."
+  },
+  "usage": {
+    "prompt_tokens": 341,
+    "completion_tokens": 91
+  }
+}

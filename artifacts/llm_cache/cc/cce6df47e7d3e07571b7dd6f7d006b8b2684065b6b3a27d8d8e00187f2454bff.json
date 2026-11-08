@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07JH4R6ZT",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming accessories and headsets."
+      },
+      {
+        "item_id": "B0079V4FAY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User plays PC games but no specific interest."
+      },
+      {
+        "item_id": "B00K32USMU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers PC games but not specific titles."
+      },
+      {
+        "item_id": "B007YZCE94",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in Nintendo 3DS games."
+      },
+      {
+        "item_id": "B001KBZZYE",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User's history doesn't indicate puzzle games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1338,
+    "completion_tokens": 163
+  }
+}

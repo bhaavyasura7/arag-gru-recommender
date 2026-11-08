@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00HVBPRUO",
+      "B01DUHQIL4",
+      "B00BFOEY4I",
+      "B07G4YYZ1M",
+      "B08N6HY1FF",
+      "B000WQ3838",
+      "B00154J9HK",
+      "B00020LZAM",
+      "B01N3ASPNV",
+      "B00WL8WBE2",
+      "B001EYUPL0",
+      "B001ELJDU2",
+      "B00BGA9WK2",
+      "B00GM5TPSA",
+      "B094J36QYZ",
+      "B001SIDQRM",
+      "B00NYALSNQ",
+      "B01LX4I8H8",
+      "B00004U47O",
+      "B00BGA9WK2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00HVBPRUO",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B01DUHQIL4",
+        "reason": "Universal compatibility for gaming"
+      },
+      {
+        "item_id": "B00BFOEY4I",
+        "reason": "Good sound quality for gaming"
+      },
+      {
+        "item_id": "B07G4YYZ1M",
+        "reason": "Popular ergonomic gaming mouse"
+      },
+      {
+        "item_id": "B08N6HY1FF",
+        "reason": "Durable keycap set for gamers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3917,
+    "completion_tokens": 326
+  }
+}
