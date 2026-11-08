@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "classic Nintendo games",
+      "platformers",
+      "action-adventure titles",
+      "multiplayer games",
+      "nostalgic gaming experiences"
+    ],
+    "current_intent": "looking for more classic video games to play",
+    "avoid": [
+      "modern AAA titles",
+      "first-person shooters",
+      "mobile games"
+    ],
+    "summary": "User enjoys classic Nintendo games, particularly platformers and action-adventure titles, and seeks more nostalgic gaming experiences."
+  },
+  "usage": {
+    "prompt_tokens": 585,
+    "completion_tokens": 81
+  }
+}

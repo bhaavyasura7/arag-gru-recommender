@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action RPGs",
+      "LEGO games",
+      "fighting games",
+      "console gaming",
+      "immersive storylines"
+    ],
+    "current_intent": "looking for engaging video games to play",
+    "avoid": [
+      "boring gameplay",
+      "poor graphics",
+      "complex controls"
+    ],
+    "summary": "User enjoys action RPGs and LEGO games, seeking engaging titles with immersive experiences, while avoiding games with poor graphics or complex controls."
+  },
+  "usage": {
+    "prompt_tokens": 289,
+    "completion_tokens": 81
+  }
+}

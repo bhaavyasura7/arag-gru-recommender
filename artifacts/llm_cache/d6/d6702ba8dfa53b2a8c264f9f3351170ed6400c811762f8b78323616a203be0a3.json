@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00F9XE932",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not specific to Xbox games."
+      },
+      {
+        "item_id": "B001EYUPOW",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox game aligns with user history."
+      },
+      {
+        "item_id": "B0C7PPFR3Y",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox One, user interest."
+      },
+      {
+        "item_id": "B00BAQXJU6",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox 360 game matches user preferences."
+      },
+      {
+        "item_id": "B00FK2X2T4",
+        "label": "support",
+        "score": 6,
+        "rationale": "Accessory for Xbox 360, relevant to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1214,
+    "completion_tokens": 161
+  }
+}

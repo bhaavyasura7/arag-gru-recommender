@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUT6G",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not aligned with user interests."
+      },
+      {
+        "item_id": "B07DML9W41",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre than user prefers."
+      },
+      {
+        "item_id": "B09WBQQ6XT",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar nostalgic gaming experience."
+      },
+      {
+        "item_id": "B00UK5A0P0",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different gameplay style than user enjoys."
+      },
+      {
+        "item_id": "B00002STF7",
+        "label": "support",
+        "score": 6,
+        "rationale": "Classic game aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1212,
+    "completion_tokens": 149
+  }
+}

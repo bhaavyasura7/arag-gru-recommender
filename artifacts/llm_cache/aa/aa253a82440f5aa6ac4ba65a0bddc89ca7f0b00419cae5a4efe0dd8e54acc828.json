@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07KRKYGL4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo Switch games."
+      },
+      {
+        "item_id": "B08NP2MJBK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Includes Joy-Con for Nintendo Switch."
+      },
+      {
+        "item_id": "B0BWYFTJSM",
+        "label": "support",
+        "score": 8,
+        "rationale": "Wired controller matches Nintendo Switch preference."
+      },
+      {
+        "item_id": "B07L2ZKR81",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Monopoly game not directly related to interests."
+      },
+      {
+        "item_id": "B08PSV5GQL",
+        "label": "support",
+        "score": 9,
+        "rationale": "Includes Nintendo Switch and Mario Kart 8."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1515,
+    "completion_tokens": 159
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000092W8W",
+      "B07VQN8X6J",
+      "B0BHVPZH7R",
+      "B09644NPJ4",
+      "B0BZGMSVYK",
+      "B08KQS2RRK",
+      "B08MVK1W54",
+      "B08F217SXB",
+      "B01N8X8HO2",
+      "B08PB3J789",
+      "B08N5XZ6L5",
+      "B07G5PPPFX",
+      "B08K327RKS",
+      "B002MB0BUO",
+      "B0JOPRW9E",
+      "B08KQS2RRK",
+      "B0BHVPZH7R",
+      "B08MVK1W54",
+      "B08N5XZ6L5",
+      "B07KSYFP8V"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000092W8W",
+        "reason": "Classic PS2 game title"
+      },
+      {
+        "item_id": "B07VQN8X6J",
+        "reason": "Retro gaming case with games"
+      },
+      {
+        "item_id": "B0BHVPZH7R",
+        "reason": "Replacement parts for Xbox 360"
+      },
+      {
+        "item_id": "B09644NPJ4",
+        "reason": "Sega Genesis retro game"
+      },
+      {
+        "item_id": "B0BZGMSVYK",
+        "reason": "PSVR2 accessory, not modern console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3051,
+    "completion_tokens": 335
+  }
+}

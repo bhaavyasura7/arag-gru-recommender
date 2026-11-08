@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B073LSGCWG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B000KHYKJA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older game, user prefers newer titles."
+      },
+      {
+        "item_id": "B00GUSRZMM",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Xbox One, enjoys accessories."
+      },
+      {
+        "item_id": "B07FZ95SHS",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Racing simulator not aligned with interests."
+      },
+      {
+        "item_id": "B07H57RV43",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar to previous headphone purchase."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1557,
+    "completion_tokens": 151
+  }
+}

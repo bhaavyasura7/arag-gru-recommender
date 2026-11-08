@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00009XS6G",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user history."
+      },
+      {
+        "item_id": "B073Z99D25",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not relevant to user's gaming interests."
+      },
+      {
+        "item_id": "B000067O0D",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, user prefers consoles."
+      },
+      {
+        "item_id": "B0C6YY17NJ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Plush toy, not a gaming product."
+      },
+      {
+        "item_id": "B0891XRMGC",
+        "label": "support",
+        "score": 7,
+        "rationale": "Storage case for gaming accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 156
+  }
+}

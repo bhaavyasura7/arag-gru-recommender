@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00E290JRE",
+      "B01A0VQOCQ",
+      "B11NDCL3XB",
+      "B006PP3ZK6",
+      "B07DK1H3H5",
+      "B07D3JSZ8F",
+      "B074TRZVYZ",
+      "B07FZSDYTZ",
+      "B000090W86",
+      "B00004R8WH",
+      "B09DDWRDWM",
+      "B07WP2ZYNR",
+      "B001BKLE58",
+      "B00B7UNO4Q",
+      "B07SGH1C49",
+      "B07NDCL3XB",
+      "B00AYABWYE",
+      "B09R4K5ZTZ",
+      "B0728H6KPV",
+      "B00BCIC9WG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00E290JRE",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B01A0VQOCQ",
+        "reason": "Comfortable gaming headset"
+      },
+      {
+        "item_id": "B11NDCL3XB",
+        "reason": "Customizable PS4 controller"
+      },
+      {
+        "item_id": "B006PP3ZK6",
+        "reason": "Official PlayStation headset"
+      },
+      {
+        "item_id": "B07DK1H3H5",
+        "reason": "Popular PC game title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3865,
+    "completion_tokens": 324
+  }
+}

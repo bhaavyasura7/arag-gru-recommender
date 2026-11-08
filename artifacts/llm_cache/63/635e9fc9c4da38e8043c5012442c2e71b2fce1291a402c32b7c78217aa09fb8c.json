@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01AVQT95Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Keyboard not directly related to games."
+      },
+      {
+        "item_id": "B09FYY8KY9",
+        "label": "support",
+        "score": 7,
+        "rationale": "Protective case for Nintendo Switch games."
+      },
+      {
+        "item_id": "B01MZ9LKJE",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Memory card holder not highly relevant."
+      },
+      {
+        "item_id": "B000NIBB5W",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Slots game not aligned with interests."
+      },
+      {
+        "item_id": "B0BG43T6YB",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "USB hub for Xbox, not preferred console."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1074,
+    "completion_tokens": 160
+  }
+}

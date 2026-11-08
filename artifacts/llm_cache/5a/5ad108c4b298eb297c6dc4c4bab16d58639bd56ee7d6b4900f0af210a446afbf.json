@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B18HJVDXYB",
+      "B18MVQCSV5",
+      "B18J2SC9ZG",
+      "B18DCZJ297",
+      "B18PIXWMS",
+      "B18LY0NFAN",
+      "B18WTWBLWZ",
+      "B18JH4S69W",
+      "B18P0X5Y0",
+      "B18CA5FJPE",
+      "B18G2T6HM",
+      "B18Q5WHPSV",
+      "B18P5BSUQ",
+      "B18J2BXJDQ",
+      "B18J2SC9ZG",
+      "B18J2BXJDQ",
+      "B18J2BXJDQ",
+      "B18J2BXJDQ",
+      "B18J2BXJDQ",
+      "B18J2BXJDQ",
+      "B18J2BXJDQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08HJVDXYB",
+        "reason": "Joycon replacement for Nintendo Switch"
+      },
+      {
+        "item_id": "B08MVQCSV5",
+        "reason": "Charging station for controllers"
+      },
+      {
+        "item_id": "B07J2SC9ZG",
+        "reason": "Wireless adapter for Xbox 360"
+      },
+      {
+        "item_id": "B007PIXWMS",
+        "reason": "Replacement shell for Xbox controller"
+      },
+      {
+        "item_id": "B01LY0NFAN",
+        "reason": "Mechanical keyboard for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3286,
+    "completion_tokens": 338
+  }
+}

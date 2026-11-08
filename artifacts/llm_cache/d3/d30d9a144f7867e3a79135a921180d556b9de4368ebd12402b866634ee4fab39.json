@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B3DHJG1L",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Cooling fan for PS5, user prefers PS4."
+      },
+      {
+        "item_id": "B09F2PCKBG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "General cooling fan, not console-specific."
+      },
+      {
+        "item_id": "B07X7XJBBW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "For Xbox One, user prefers PlayStation."
+      },
+      {
+        "item_id": "B08P5SVPPG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Cooling fan for PS5, user prefers PS4."
+      },
+      {
+        "item_id": "B09XP4NPCB",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Cooling fan for Switch, not relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1973,
+    "completion_tokens": 169
+  }
+}

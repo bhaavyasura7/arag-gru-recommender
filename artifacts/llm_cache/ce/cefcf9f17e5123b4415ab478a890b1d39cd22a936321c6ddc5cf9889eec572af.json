@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "platformers",
+      "RPGs",
+      "Nintendo titles",
+      "nostalgic gaming"
+    ],
+    "current_intent": "looking for more engaging video games to play",
+    "avoid": [
+      "sports games",
+      "first-person shooters",
+      "mobile games"
+    ],
+    "summary": "The user enjoys classic and engaging video games, particularly from Nintendo, and seeks new titles that offer similar experiences."
+  },
+  "usage": {
+    "prompt_tokens": 316,
+    "completion_tokens": 78
+  }
+}

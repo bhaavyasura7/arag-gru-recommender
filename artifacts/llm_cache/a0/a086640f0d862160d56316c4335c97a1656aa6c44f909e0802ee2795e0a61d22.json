@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008U4QPJI",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Final Fantasy series games."
+      },
+      {
+        "item_id": "B001IVARAS",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has positive history with Final Fantasy."
+      },
+      {
+        "item_id": "B0000E2OBD",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likely enjoys MMORPGs like Final Fantasy."
+      },
+      {
+        "item_id": "B07K9BTSLB",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User plays various genres, including shooters."
+      },
+      {
+        "item_id": "B001HTOCGQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action RPGs over puzzle games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2300,
+    "completion_tokens": 159
+  }
+}

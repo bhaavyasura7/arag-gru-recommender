@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0017ZIIK6",
+      "B019H5II8Y",
+      "B06ZXXH1TT",
+      "B00QXJFDZO",
+      "B014U5LD3S",
+      "B082VX16VJ",
+      "B002BSA388",
+      "B005669IE2",
+      "B003JVKHEQ",
+      "B00CWV550U",
+      "B09DL5PMWL",
+      "B001EHD9BK",
+      "B001ULNO6A",
+      "B000I10PY2",
+      "B00EK5TWFA",
+      "B007NLHN52M",
+      "B009M72E5Q",
+      "B000I10PY2",
+      "B001TEYMRI",
+      "B00N3OELPU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0017ZIIK6",
+        "reason": "Popular PlayStation game title"
+      },
+      {
+        "item_id": "B019H5II8Y",
+        "reason": "Supports multiple platforms"
+      },
+      {
+        "item_id": "B06ZXXH1TT",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B00QXJFDZO",
+        "reason": "Action-packed PlayStation game"
+      },
+      {
+        "item_id": "B014U5LD3S",
+        "reason": "Engaging Nintendo game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3667,
+    "completion_tokens": 318
+  }
+}

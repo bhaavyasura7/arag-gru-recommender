@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01M3QW3Q0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not puzzles."
+      },
+      {
+        "item_id": "B01ASRXXX0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Decals are not directly related to gameplay."
+      },
+      {
+        "item_id": "B004LB59A0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B075Y6RS13",
+        "label": "support",
+        "score": 8,
+        "rationale": "FIFA is popular among console gamers."
+      },
+      {
+        "item_id": "B07LCGCJNP",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly compatible with user's Wii U."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1165,
+    "completion_tokens": 163
+  }
+}

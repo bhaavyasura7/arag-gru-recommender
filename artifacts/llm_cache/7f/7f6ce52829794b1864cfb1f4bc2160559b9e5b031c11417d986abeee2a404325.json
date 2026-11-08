@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001FRTK4O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre than user prefers."
+      },
+      {
+        "item_id": "B019WRM1IA",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox and PC gaming."
+      },
+      {
+        "item_id": "B0030H8I4K",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PlayStation 3 game, not preferred."
+      },
+      {
+        "item_id": "B09B1MQV35",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PlayStation 4 game, not preferred."
+      },
+      {
+        "item_id": "B075ZPGMJT",
+        "label": "support",
+        "score": 7,
+        "rationale": "Memory card for compatible Nintendo systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1352,
+    "completion_tokens": 157
+  }
+}

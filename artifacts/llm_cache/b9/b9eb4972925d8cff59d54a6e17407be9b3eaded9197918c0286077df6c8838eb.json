@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B017ZV7GGB3",
+      "B074C49V46",
+      "B17ZV7GGB3",
+      "B004E0M5H8",
+      "B17ZV7GGB3",
+      "B0036N6E2Q",
+      "B00002JXBC",
+      "B01BFLRNKW",
+      "B00XUZFFBG",
+      "B002BXJ7G2",
+      "B00Z9LUDX4",
+      "B000MWWN7O",
+      "B000R37S00",
+      "B000062YCV",
+      "B075QNN8MV",
+      "B0913J86YM",
+      "B091HSSYV9",
+      "B000RO5JH8",
+      "B000TAAA42U",
+      "B002EAYCHG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B074C49V46",
+        "reason": "Enhances multiplayer VR experience"
+      },
+      {
+        "item_id": "B17ZV7GGB3",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B004E0M5H8",
+        "reason": "Cooling for long gaming sessions"
+      },
+      {
+        "item_id": "B0036N6E2Q",
+        "reason": "Charging dock for controllers"
+      },
+      {
+        "item_id": "B01BFLRNKW",
+        "reason": "Action game with multiplayer focus"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3216,
+    "completion_tokens": 331
+  }
+}

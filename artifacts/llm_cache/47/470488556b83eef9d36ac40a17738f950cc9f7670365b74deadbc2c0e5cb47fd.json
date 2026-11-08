@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00009ZVI2",
+      "B001G7PSFS",
+      "B0088TN73M",
+      "B08D67XHWH",
+      "B001G7PTAC",
+      "B00HKPSVIG",
+      "B00ZJRHSRW",
+      "B00KXAI6MQ",
+      "B00VUCGB7I",
+      "B06XSMSL45",
+      "B000G6SPHI",
+      "B0088TN7NW",
+      "B01N3ASPNV",
+      "B00DTY9B0O",
+      "B016P6KIFY",
+      "B0795GHTBC",
+      "B00DTY9B0O",
+      "B00ZJRHSRW",
+      "B12G6SPHI",
+      "B00HKPSVIG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00009ZVI2",
+        "reason": "Classic action-adventure game"
+      },
+      {
+        "item_id": "B001G7PSFS",
+        "reason": "Classic platformer experience"
+      },
+      {
+        "item_id": "B0088TN73M",
+        "reason": "Nostalgic classic title"
+      },
+      {
+        "item_id": "B08D67XHWH",
+        "reason": "Accessory for classic gaming"
+      },
+      {
+        "item_id": "B001G7PTAC",
+        "reason": "GameCube controller for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3778,
+    "completion_tokens": 320
+  }
+}

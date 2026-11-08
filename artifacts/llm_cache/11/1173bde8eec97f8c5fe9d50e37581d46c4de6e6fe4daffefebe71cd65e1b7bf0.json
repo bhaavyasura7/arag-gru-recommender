@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B16",
+      "B13",
+      "B09",
+      "B08",
+      "B20",
+      "B04",
+      "B01",
+      "B03",
+      "B10",
+      "B07",
+      "B12",
+      "B11",
+      "B14",
+      "B02",
+      "B05",
+      "B06",
+      "B15",
+      "B17",
+      "B18",
+      "B19"
+    ],
+    "reasons": [
+      {
+        "item_id": "B16",
+        "reason": "Enhances racing game experience"
+      },
+      {
+        "item_id": "B13",
+        "reason": "Improves music game performance"
+      },
+      {
+        "item_id": "B09",
+        "reason": "High precision gaming mouse"
+      },
+      {
+        "item_id": "B08",
+        "reason": "Protective case for Switch Lite"
+      },
+      {
+        "item_id": "B20",
+        "reason": "Compatible wireless controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3338,
+    "completion_tokens": 210
+  }
+}

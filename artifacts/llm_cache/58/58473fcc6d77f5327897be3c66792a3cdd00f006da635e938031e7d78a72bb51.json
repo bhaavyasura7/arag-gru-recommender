@@ -1,0 +1,17 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Video Games",
+      "Gaming Controllers",
+      "Nintendo",
+      "Sony"
+    ],
+    "current_intent": "The user is likely seeking new gaming experiences or accessories, possibly cross-platform titles or high-quality controllers.",
+    "avoid": [],
+    "summary": "A dedicated gamer who enjoys Nintendo and Sony platforms, with a preference for high-quality controllers. Recently purchased controllers for Xbox and PS4, suggesting a interest in gaming hardware and cross-platform titles. Likely looking for new games or accessories to enhance their gaming setup."
+  },
+  "usage": {
+    "prompt_tokens": 277,
+    "completion_tokens": 479
+  }
+}

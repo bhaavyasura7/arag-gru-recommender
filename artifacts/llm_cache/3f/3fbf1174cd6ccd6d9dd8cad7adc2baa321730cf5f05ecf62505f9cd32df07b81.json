@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B006VR6BHM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox, not Wii."
+      },
+      {
+        "item_id": "B01MT1DCIV",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox One, enhances gaming."
+      },
+      {
+        "item_id": "B086SCNV9K",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "For PlayStation 3, not Xbox."
+      },
+      {
+        "item_id": "B00634MLMW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "For Wii, user prefers Xbox."
+      },
+      {
+        "item_id": "B008XF5WP2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Japanese import, not relevant to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1209,
+    "completion_tokens": 161
+  }
+}

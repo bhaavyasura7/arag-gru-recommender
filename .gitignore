@@ -1,6 +1,13 @@
 # Root-anchored ignores (a bare "data/" would swallow any package named data/)
 /data/
-/artifacts/
+# artifacts: ignore everything except the small files needed to verify and replay the run at $0
+/artifacts/*
+!/artifacts/llm_cache/
+!/artifacts/lists/
+!/artifacts/gru/
+!/artifacts/gru_text/
+!/artifacts/sasrec/
+!/artifacts/predictions/
 /.venv/
 .venv/
 node_modules/

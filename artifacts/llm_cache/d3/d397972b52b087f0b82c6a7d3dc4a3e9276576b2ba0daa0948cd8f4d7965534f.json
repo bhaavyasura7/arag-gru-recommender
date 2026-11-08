@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00002DHEV",
+      "B00009WAW7",
+      "B0050SW1WW",
+      "B003UT9XI8",
+      "B00AMA4L4E",
+      "B001ELJFFU",
+      "B0050SZ7D2",
+      "B006VR663G",
+      "B00DBKSN8M",
+      "B002I0J4VQ",
+      "B00GGUVI5Y",
+      "B00BHRD4BM",
+      "B07WT9162S",
+      "B072FRJWQH",
+      "B01GY35UK6",
+      "B00BHRD4BM",
+      "B00AMA4L4E",
+      "B00GGUVI5Y",
+      "B00BHRD4BM",
+      "B00AMA4L4E"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00002DHEV",
+        "reason": "Classic console for nostalgic gaming"
+      },
+      {
+        "item_id": "B00009WAW7",
+        "reason": "Classic sports game experience"
+      },
+      {
+        "item_id": "B0050SW1WW",
+        "reason": "Multiplayer sports game"
+      },
+      {
+        "item_id": "B003UT9XI8",
+        "reason": "Classic racing game experience"
+      },
+      {
+        "item_id": "B00AMA4L4E",
+        "reason": "Cult classic with multiplayer elements"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3368,
+    "completion_tokens": 321
+  }
+}

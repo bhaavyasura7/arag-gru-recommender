@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000H29ZPM",
+      "B0868Y6HDJ",
+      "B15D0FCH0Y",
+      "B003KT9E64",
+      "B00002ST7U",
+      "B00002SUFX",
+      "B07TG73YLY",
+      "B00009VRFL",
+      "B003INEU0C",
+      "B002FQIPPO",
+      "B00DOD51UY",
+      "B00IB02RD4",
+      "B07N4QC69R",
+      "B08HPK581L",
+      "B08PGGRGPC",
+      "B00861ML3Y",
+      "B075R4FMC2",
+      "B00BUG8BJ0",
+      "B06XY932R8",
+      "B19D0FCH0Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000H29ZPM",
+        "reason": "Classic Nintendo game experience"
+      },
+      {
+        "item_id": "B0868Y6HDJ",
+        "reason": "Popular Pokémon title"
+      },
+      {
+        "item_id": "B15D0FCH0Y",
+        "reason": "Mario-themed product"
+      },
+      {
+        "item_id": "B003KT9E64",
+        "reason": "Nintendo fitness accessory"
+      },
+      {
+        "item_id": "B00002ST7U",
+        "reason": "Action game with popular characters"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3362,
+    "completion_tokens": 313
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09WR3DBT3",
+      "B0C9DNXQ3S",
+      "B10PH295QR",
+      "B08FC58KJX",
+      "B12RMHQK6M",
+      "B07N2Z9VZX",
+      "B089YPBP4B",
+      "B07F9R1YT5",
+      "B12W4M41XN",
+      "B07RMHQK6M",
+      "B003SEXRF0",
+      "B0042X9RX2",
+      "B09BH3L2KC",
+      "B08P5Z1BHL",
+      "B007Z0O7S4",
+      "B01FN2M0NY",
+      "B08JTVYKQK",
+      "B002EWD02M",
+      "B12W4M41XN",
+      "B00KPWZ7LA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09WR3DBT3",
+        "reason": "PS5 stand with cooling features"
+      },
+      {
+        "item_id": "B0C9DNXQ3S",
+        "reason": "High-quality wireless gaming mouse"
+      },
+      {
+        "item_id": "B09PH295QR",
+        "reason": "RGB gaming mouse pad for gamers"
+      },
+      {
+        "item_id": "B08FC58KJX",
+        "reason": "Wireless adapter for VR gaming"
+      },
+      {
+        "item_id": "B07N2Z9VZX",
+        "reason": "Classic game for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3932,
+    "completion_tokens": 339
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B003ZUXQD0",
+      "B07D2LGY25",
+      "B004CHLNWQ",
+      "B00ZQB28XK",
+      "B20BRS87T11",
+      "B000ZK696O",
+      "B0030JTD7O",
+      "B00NFXOQW2",
+      "B081N41H9X",
+      "B006QRMR4S",
+      "B09ZTN5QJN",
+      "B08LT6PT1X",
+      "B0053BCML6",
+      "B002B9XB0E",
+      "B08N6P14S7",
+      "B07YBX6T95",
+      "B009AFLXQQ",
+      "B0030JTD7O",
+      "B006QRMR4S",
+      "B08N6P14S7",
+      "B00ZQB28XK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B003ZUXQD0",
+        "reason": "Engaging narrative and gameplay"
+      },
+      {
+        "item_id": "B07D2LGY25",
+        "reason": "Strong narrative and replayability"
+      },
+      {
+        "item_id": "B004CHLNWQ",
+        "reason": "Classic Zelda games included"
+      },
+      {
+        "item_id": "B00ZQB28XK",
+        "reason": "Classic RPG with rich story"
+      },
+      {
+        "item_id": "B20BRS87T11",
+        "reason": "Exploration and narrative focus"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3859,
+    "completion_tokens": 340
+  }
+}

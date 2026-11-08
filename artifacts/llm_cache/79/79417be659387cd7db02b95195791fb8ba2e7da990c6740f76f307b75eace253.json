@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00LYPLAMW",
+      "B003VWC124",
+      "B00BMJYLTO",
+      "B00007MA56",
+      "B09P5Y55RR",
+      "B0000631V8",
+      "B08TVPBH3Y",
+      "B00004TMYC",
+      "B0BV799V2Q",
+      "B00KQOW0XU",
+      "B00ER8HHFW",
+      "B00V4Y2CQQ",
+      "B000040OEI",
+      "B000OKJHEQ",
+      "B094VFSHGK",
+      "B0BFWPF3NZ",
+      "B00LYPLAMW",
+      "B00BMJYLTO",
+      "B000W495PA",
+      "B0BMXG6T3Q"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00LYPLAMW",
+        "reason": "Engaging strategy game with expansions"
+      },
+      {
+        "item_id": "B003VWC124",
+        "reason": "Unique simulation gameplay experience"
+      },
+      {
+        "item_id": "B00BMJYLTO",
+        "reason": "Not a game, but essential accessory"
+      },
+      {
+        "item_id": "B00007MA56",
+        "reason": "Adventure with puzzles and humor"
+      },
+      {
+        "item_id": "B09P5Y55RR",
+        "reason": "NFC cards for popular game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3412,
+    "completion_tokens": 320
+  }
+}

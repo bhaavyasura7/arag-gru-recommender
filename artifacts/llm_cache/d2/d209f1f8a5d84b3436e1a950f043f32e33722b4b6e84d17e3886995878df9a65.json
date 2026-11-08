@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00Z8EBXSQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with PC gaming preferences."
+      },
+      {
+        "item_id": "B000ZK7ZOE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not relevant to user's gaming platform."
+      },
+      {
+        "item_id": "B09KBYSSGM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's gaming interests."
+      },
+      {
+        "item_id": "B013HSWF40",
+        "label": "support",
+        "score": 8,
+        "rationale": "High-quality gaming mouse matches interests."
+      },
+      {
+        "item_id": "B003O3EFY2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system not aligned with user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1444,
+    "completion_tokens": 158
+  }
+}

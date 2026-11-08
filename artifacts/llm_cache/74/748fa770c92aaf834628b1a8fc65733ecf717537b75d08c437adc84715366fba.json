@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00GM5W5H8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, not a Nintendo game."
+      },
+      {
+        "item_id": "B00ZOMO3K2",
+        "label": "support",
+        "score": 10,
+        "rationale": "Directly related to user's interests."
+      },
+      {
+        "item_id": "B0BH7PZ8C3",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Generic controller, not specific to Nintendo."
+      },
+      {
+        "item_id": "B004OUGQ9Q",
+        "label": "support",
+        "score": 9,
+        "rationale": "Accessory for Nintendo 3DS, matches interests."
+      },
+      {
+        "item_id": "B000FLZEXM",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different platform, not a Nintendo game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1328,
+    "completion_tokens": 163
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DBDPOZ4",
+      "B000UHNHQW",
+      "B08DXS6DVC",
+      "B07WRL8MDM",
+      "B00N8KT35W",
+      "B01MSHGS6Y",
+      "B07GVPHYBG",
+      "B003AJJTZ0",
+      "B00B0YGTWI",
+      "B00002AH2T",
+      "B000U1OOB0",
+      "B08DS8YC6L",
+      "B07HH3B953",
+      "B01EWQQZL0",
+      "B07NVHGY8P",
+      "B00008NRM3",
+      "B09QR6MX9V",
+      "B000UHNHQW",
+      "B01MSHGS6Y",
+      "B07WRL8MDM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DBDPOZ4",
+        "reason": "Essential Xbox charging kit"
+      },
+      {
+        "item_id": "B000UHNHQW",
+        "reason": "Popular action RPG game"
+      },
+      {
+        "item_id": "B08DXS6DVC",
+        "reason": "Compact mechanical keyboard for gaming"
+      },
+      {
+        "item_id": "B07WRL8MDM",
+        "reason": "Versatile gaming mouse for Xbox"
+      },
+      {
+        "item_id": "B00N8KT35W",
+        "reason": "Customizable gaming mouse features"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3625,
+    "completion_tokens": 327
+  }
+}

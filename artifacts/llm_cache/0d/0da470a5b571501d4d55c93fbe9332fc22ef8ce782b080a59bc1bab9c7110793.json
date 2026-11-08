@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0130BR8LE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B000IBOGI8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Compatible with multiple gaming systems."
+      },
+      {
+        "item_id": "B000B6E4U0",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports Nintendo GameCube."
+      },
+      {
+        "item_id": "B002FY4AOG",
+        "label": "support",
+        "score": 8,
+        "rationale": "Replacement for Nintendo GameCube accessories."
+      },
+      {
+        "item_id": "B00MBOXHGC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo over Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1176,
+    "completion_tokens": 152
+  }
+}

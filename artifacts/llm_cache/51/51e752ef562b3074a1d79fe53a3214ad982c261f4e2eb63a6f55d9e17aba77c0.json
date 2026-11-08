@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07TN89FGQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers older Nintendo systems."
+      },
+      {
+        "item_id": "B008ZXBYJU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own a 3DS."
+      },
+      {
+        "item_id": "B008L3UUPS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in Nintendo 64."
+      },
+      {
+        "item_id": "B00F27JGVA",
+        "label": "support",
+        "score": 8,
+        "rationale": "User previously rated Vita memory card highly."
+      },
+      {
+        "item_id": "B07X1HF3V6",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PlayStation 3 games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1053,
+    "completion_tokens": 160
+  }
+}

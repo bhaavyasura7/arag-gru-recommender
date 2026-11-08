@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0000AI1KK",
+      "B0002A6CQ4",
+      "B08MBMZKVH",
+      "B00I9RAW8G",
+      "B01L0CV6OK",
+      "B07QJ5L4L4",
+      "B0741C75T3",
+      "B003BYQ79U",
+      "B00JY7GMS4",
+      "B008EMXQQG",
+      "B0BQQH4MPT",
+      "B07YKV1MKC",
+      "B09J4MQ7HT",
+      "B01DPVP3ZM",
+      "B00KRSXHT6",
+      "B0001B6QBU",
+      "B20BQQH4MPT",
+      "B00IN6PETA",
+      "B07YKV1MKC",
+      "B01DPVP3ZM",
+      "B00KRSXHT6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0000AI1KK",
+        "reason": "Strong narrative horror experience"
+      },
+      {
+        "item_id": "B0002A6CQ4",
+        "reason": "Classic horror with engaging story"
+      },
+      {
+        "item_id": "B08MBMZKVH",
+        "reason": "Unique gameplay with narrative depth"
+      },
+      {
+        "item_id": "B00I9RAW8G",
+        "reason": "Customization for favorite console"
+      },
+      {
+        "item_id": "B01L0CV6OK",
+        "reason": "Popular quiz game for social play"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3384,
+    "completion_tokens": 344
+  }
+}

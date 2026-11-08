@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00OHJY7C2",
+      "B014G8D8D4",
+      "B014G8D8D4",
+      "B14D8D8D4",
+      "B00KWOSQC8",
+      "B005TFJB2Y",
+      "B01F9B019Y",
+      "B01D63UU52",
+      "B003VUO6H4",
+      "B01F74F00I",
+      "B07JJLLFXJ",
+      "B001BZ8EX8",
+      "B003R7JXOM",
+      "B001G6062O",
+      "B00UBL0ZQC",
+      "B00KWOSQC8",
+      "B001BZ8EX8",
+      "B003R7JXOM",
+      "B01F9B019Y",
+      "B00OHJY7C2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KWOSQC8",
+        "reason": "Popular Pokémon game for 3DS"
+      },
+      {
+        "item_id": "B005TFJB2Y",
+        "reason": "Game selector for DS consoles"
+      },
+      {
+        "item_id": "B01F9B019Y",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B01D63UU52",
+        "reason": "Top-rated gaming mouse"
+      },
+      {
+        "item_id": "B003VUO6H4",
+        "reason": "High-quality gaming keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3499,
+    "completion_tokens": 329
+  }
+}

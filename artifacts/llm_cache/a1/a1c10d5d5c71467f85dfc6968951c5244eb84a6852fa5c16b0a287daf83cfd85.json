@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07NRS4F6G",
+      "B087RS5P1K",
+      "B004TPVHB8",
+      "B01N418KHK",
+      "B096DZFCR1",
+      "B00GCB63ZC",
+      "B09HQK356N",
+      "B00HQCSHKK",
+      "B002DGRUU2",
+      "B00GSHYMYO",
+      "B07SKGVHR4",
+      "B003JKKNLO",
+      "B007RE6542",
+      "B00JUQMV70",
+      "B09CGGNJ56",
+      "B00GCB63ZC",
+      "B00HQCSHKK",
+      "B00GSHYMYO",
+      "B005J2HLTC",
+      "B07PQ7B1CP",
+      "B00JUQMV70"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07NRS4F6G",
+        "reason": "Essential charging dock for Switch"
+      },
+      {
+        "item_id": "B087RS5P1K",
+        "reason": "High-quality Joy-Con replacements"
+      },
+      {
+        "item_id": "B004TPVHB8",
+        "reason": "Protective case for 3DS"
+      },
+      {
+        "item_id": "B01N418KHK",
+        "reason": "Wired controller for NES Classic"
+      },
+      {
+        "item_id": "B096DZFCR1",
+        "reason": "High-precision gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3000,
+    "completion_tokens": 333
+  }
+}

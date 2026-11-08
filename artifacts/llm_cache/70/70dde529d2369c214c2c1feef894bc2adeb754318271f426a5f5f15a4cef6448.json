@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00004WFVZ",
+      "B072KHSYDD",
+      "B00RH6R7C4",
+      "B07Y85JBDV",
+      "B00H2008JO",
+      "B00D7B9M0I",
+      "B000FQ2D5E",
+      "B001E8WQLI",
+      "B06X9XC8SK",
+      "B09DSSK3RD",
+      "B0BDWVBWC9",
+      "B0891H37KK",
+      "B0BF62G2C6",
+      "B00K0NV5J2",
+      "B09QTCLJ9T",
+      "B00498SCKY",
+      "B00L6AVNE0",
+      "B07YBX7Y3P",
+      "B087NNZZM8",
+      "B19DSSK3RD"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00004WFVZ",
+        "reason": "WWII flight combat simulation"
+      },
+      {
+        "item_id": "B072KHSYDD",
+        "reason": "Gaming accessory for comfort"
+      },
+      {
+        "item_id": "B00RH6R7C4",
+        "reason": "Gaming mouse for better control"
+      },
+      {
+        "item_id": "B07Y85JBDV",
+        "reason": "Enhanced gaming experience"
+      },
+      {
+        "item_id": "B00H2008JO",
+        "reason": "Popular online game DLC"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3877,
+    "completion_tokens": 332
+  }
+}

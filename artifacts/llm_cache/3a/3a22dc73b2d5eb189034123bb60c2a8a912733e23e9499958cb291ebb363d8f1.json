@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08DV4ZFVQ",
+      "B0BY8X7VVB",
+      "B00B920R9C",
+      "B07VWNN9BZ",
+      "B07Z3FV3X9",
+      "B07JH4R6ZT",
+      "B09YDQRZF8",
+      "B0BXSK5V9Q",
+      "B0BDF39JJP",
+      "B07Z4YKNSL",
+      "B01KY9XLPW",
+      "B07NP5J6H5",
+      "B00002QUKJ",
+      "B004Q4PE8E",
+      "B01E57PW7Y",
+      "B07ZQ7S28B",
+      "B00UN0DDLK",
+      "B07QV5NPTF",
+      "B09V5428B3",
+      "B07Z4YKNSL",
+      "B00UN0DDLK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08DV4ZFVQ",
+        "reason": "High DPI wireless gaming mouse"
+      },
+      {
+        "item_id": "B0BY8X7VVB",
+        "reason": "Adjustable racing wheel stand"
+      },
+      {
+        "item_id": "B00B920R9C",
+        "reason": "Modded controller with rapid fire"
+      },
+      {
+        "item_id": "B07VWNN9BZ",
+        "reason": "Multi-function charging dock"
+      },
+      {
+        "item_id": "B07Z3FV3X9",
+        "reason": "Charging dock for multiple controllers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3647,
+    "completion_tokens": 349
+  }
+}

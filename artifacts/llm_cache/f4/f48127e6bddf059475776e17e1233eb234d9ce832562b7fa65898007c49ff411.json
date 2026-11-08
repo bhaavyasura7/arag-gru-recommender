@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07R33CZ92",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Xbox One accessory, not directly relevant."
+      },
+      {
+        "item_id": "B0006ZB0ZS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B000KF0GSQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PSP game, not aligned with interests."
+      },
+      {
+        "item_id": "B015M4X7HG",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo Wii game, aligns with interests."
+      },
+      {
+        "item_id": "B00005Y1NE",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PC game, not preferred platform."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1122,
+    "completion_tokens": 163
+  }
+}

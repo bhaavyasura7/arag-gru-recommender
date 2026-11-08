@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08T4W5WG2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B08RCZ532X",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar genre, positive reviews likely."
+      },
+      {
+        "item_id": "B072BD8MXJ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different style, but narrative focus."
+      },
+      {
+        "item_id": "B07YSHZPTN",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not a game, hygiene product."
+      },
+      {
+        "item_id": "B00N52DN8Q",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Hidden object game, user prefers action."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1296,
+    "completion_tokens": 156
+  }
+}

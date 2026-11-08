@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002BU0DPE",
+      "B0050SXI6K",
+      "B001DLUESI",
+      "B00X67FWNY",
+      "B00518GWF8",
+      "B001DNGCN2",
+      "B00ANHBJBY",
+      "B005GISPMQ",
+      "B07X5X5KF9",
+      "B019EWMXWC",
+      "B072C3VM5F",
+      "B071X7C1B4",
+      "B0BJ92CHSC",
+      "B003NSLGW2",
+      "B0046EC9ZK",
+      "B09PG3T3Z7",
+      "B017LKMR5W",
+      "B00J7N6C26",
+      "B006Z8D8D4",
+      "B00518GWF8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002BU0DPE",
+        "reason": "Compatible with Xbox 360"
+      },
+      {
+        "item_id": "B0050SXI6K",
+        "reason": "Includes classic PS3 games"
+      },
+      {
+        "item_id": "B001DLUESI",
+        "reason": "Story-driven gameplay experience"
+      },
+      {
+        "item_id": "B00X67FWNY",
+        "reason": "Engaging single-player missions"
+      },
+      {
+        "item_id": "B00518GWF8",
+        "reason": "Includes multiple fun games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3796,
+    "completion_tokens": 321
+  }
+}

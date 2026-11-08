@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00019Z1A0",
+      "B000N5Z2L4",
+      "B001EYUQT6",
+      "B000OCXK6A",
+      "B006ZQ85YG",
+      "B08N7PX4WX",
+      "B001TKK3NE",
+      "B001EYUQEQ",
+      "B001EYUVHS",
+      "B001EYUT70",
+      "B0031SWWPO",
+      "B00HGLLRV2",
+      "B01MG6DORB",
+      "B002BG1PXM",
+      "B00005NFN4",
+      "B00005QEFD",
+      "B001EYUQEQ",
+      "B0017R5SYI",
+      "B00Z9TJ1VQ",
+      "B005OGLHM0",
+      "B01ASZ676M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00019Z1A0",
+        "reason": "Popular first-person shooter title"
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "reason": "Essential Xbox Live membership"
+      },
+      {
+        "item_id": "B001EYUQT6",
+        "reason": "Classic Call of Duty experience"
+      },
+      {
+        "item_id": "B000OCXK6A",
+        "reason": "Open-world FPS with multiplayer"
+      },
+      {
+        "item_id": "B006ZQ85YG",
+        "reason": "Performance controller for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3518,
+    "completion_tokens": 328
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00001ZWQI",
+      "B0C9DNXQ3S",
+      "B00J5C3Z10",
+      "B074FQ84B2",
+      "B077SZ1BFW",
+      "B002PY7KN4",
+      "B00YJJ0JXQ",
+      "B001EYUPXS",
+      "B087V543WW",
+      "B0BF4XCX9C",
+      "B0957H6KB7",
+      "B14KXBJJ16",
+      "B018XG4BJ8",
+      "B06Y1LKYNC",
+      "B00Z9TLLG4",
+      "B07CPKMTSK",
+      "B0B9V65WXV",
+      "B000A11EOK",
+      "B000GVWYAW",
+      "B19HGWQKV1"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00001ZWQI",
+        "reason": "High-energy racing gameplay"
+      },
+      {
+        "item_id": "B0C9DNXQ3S",
+        "reason": "Essential gaming accessory"
+      },
+      {
+        "item_id": "B00J5C3Z10",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B074FQ84B2",
+        "reason": "Unique renovation gameplay"
+      },
+      {
+        "item_id": "B077SZ1BFW",
+        "reason": "Immersive art style and action"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3633,
+    "completion_tokens": 327
+  }
+}

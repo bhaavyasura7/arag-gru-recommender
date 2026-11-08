@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01N9KN4OC",
+      "B003RRXW0I",
+      "B09GHFKR18",
+      "B0863MT183",
+      "B11F89LW78",
+      "B07F89LW78",
+      "B0951P2ZLM",
+      "B00UA9X9Z4",
+      "B000069T7L",
+      "B000059S8B",
+      "B00019069K",
+      "B00292BQL4",
+      "B00IG3GP84",
+      "B00HTK0ML6",
+      "B08CZMWHT4",
+      "B08W1W5VMF",
+      "B00XUZFGWE",
+      "B00IG3GP84",
+      "B003RRXW0I",
+      "B002MUB0UK",
+      "B00UA9X9Z4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01N9KN4OC",
+        "reason": "Engaging multiplayer RPG experience"
+      },
+      {
+        "item_id": "B003RRXW0I",
+        "reason": "Fun social music game"
+      },
+      {
+        "item_id": "B01GHFKR18",
+        "reason": "Action-packed multiplayer gameplay"
+      },
+      {
+        "item_id": "B0863MT183",
+        "reason": "Enhances VR gaming experience"
+      },
+      {
+        "item_id": "B07F89LW78",
+        "reason": "Popular fighting game with multiplayer"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3522,
+    "completion_tokens": 329
+  }
+}

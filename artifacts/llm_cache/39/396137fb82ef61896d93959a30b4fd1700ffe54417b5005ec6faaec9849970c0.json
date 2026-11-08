@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0BMWQLF3V",
+      "B19D7PQJRP",
+      "B07T62NYDD",
+      "B09TQJS8QH",
+      "B005S7YG0K",
+      "B08RDZGDYG",
+      "B006NZ4ALQ",
+      "B0C4PNVCT2",
+      "B0B25G8XWQ",
+      "B001EYUNYY",
+      "B000ZPPPKU",
+      "B07D7PQJRP",
+      "B09CKBCBWD",
+      "B0B25G8XWQ",
+      "B06XPYNGLP",
+      "B00EE1H2UC",
+      "B0919N3H4X",
+      "B008QRVPQW",
+      "B0B25G8XWQ",
+      "B08RDZGDYG",
+      "B0BMWQLF3V"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BMWQLF3V",
+        "reason": "High-quality gaming headphones"
+      },
+      {
+        "item_id": "B19D7PQJRP",
+        "reason": "Xbox controller repair kit"
+      },
+      {
+        "item_id": "B07T62NYDD",
+        "reason": "PS4 controller grip cover"
+      },
+      {
+        "item_id": "B09TQJS8QH",
+        "reason": "Keyboard and mouse adapter"
+      },
+      {
+        "item_id": "B005S7YG0K",
+        "reason": "Popular video game title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3482,
+    "completion_tokens": 342
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B094YHB1QK",
+      "B008U4QPJI",
+      "B00L3KU0S8",
+      "B01GY35HKE",
+      "B001QCWSDI",
+      "B00DTY9B0O",
+      "B12D3K5NPD",
+      "B017QU5G1O",
+      "B003ZHMMEM",
+      "B00008H2IS",
+      "B000PWZKXK",
+      "B006ZQ85YG",
+      "B00B8SAB8O",
+      "B00EP2WNKY",
+      "B00ZJBSBD8",
+      "B001EYUX3K",
+      "B00BBUCCKO",
+      "B00DTY9B0O",
+      "B000065SQJ",
+      "B00DTY9B0O"
+    ],
+    "reasons": [
+      {
+        "item_id": "B094YHB1QK",
+        "reason": "New PlayStation controller"
+      },
+      {
+        "item_id": "B008U4QPJI",
+        "reason": "Dual controller charging system"
+      },
+      {
+        "item_id": "B00L3KU0S8",
+        "reason": "Protective dust cover for PS4"
+      },
+      {
+        "item_id": "B01GY35HKE",
+        "reason": "Popular Xbox game title"
+      },
+      {
+        "item_id": "B001QCWSDI",
+        "reason": "Action-adventure game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3526,
+    "completion_tokens": 328
+  }
+}

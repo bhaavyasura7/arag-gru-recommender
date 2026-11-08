@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B000G1O7DE",
+      "B00PJKWN2Y",
+      "B07177727N",
+      "B086LB3ZMG",
+      "B00IB02RD4",
+      "B0B4S2K2ST",
+      "B00CIBAZOU",
+      "B001EYUQTQ",
+      "B000066RKC",
+      "B00K1HF3HM",
+      "B07C2M38SB",
+      "B07D5G4KXJ",
+      "B001EYUNNK",
+      "B01GVE4ZXQ",
+      "B079MRDY5V",
+      "B00638TBJY",
+      "B091F2J6BZ",
+      "B0BDWVBWC9",
+      "B00IB02RD4",
+      "B00K1HF3HM",
+      "B07F7XWVMQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000G1O7DE",
+        "reason": "Essential for PSP gaming experience"
+      },
+      {
+        "item_id": "B00PJKWN2Y",
+        "reason": "Classic horror game for nostalgia"
+      },
+      {
+        "item_id": "B07177727N",
+        "reason": "Accessory for classic gaming systems"
+      },
+      {
+        "item_id": "B086LB3ZMG",
+        "reason": "Charger for PS4 controllers"
+      },
+      {
+        "item_id": "B00IB02RD4",
+        "reason": "Convenient PS4 controller charging"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3937,
+    "completion_tokens": 337
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B7125T7V",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers traditional video games."
+      },
+      {
+        "item_id": "B00ZM6I932",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 4 games."
+      },
+      {
+        "item_id": "B00DB2BI8M",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Learning guitar not directly related."
+      },
+      {
+        "item_id": "B00GM5WGNQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes Far Cry series."
+      },
+      {
+        "item_id": "B001EHD92Y",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Iron Man not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1384,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B005APQKX6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B08S39W8JR",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's PS3 controller."
+      },
+      {
+        "item_id": "B01FFC4NVY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different gaming system than user prefers."
+      },
+      {
+        "item_id": "B00004SW2C",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older system, not in user's history."
+      },
+      {
+        "item_id": "B00917DBUE",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre to user's favorite games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1131,
+    "completion_tokens": 154
+  }
+}

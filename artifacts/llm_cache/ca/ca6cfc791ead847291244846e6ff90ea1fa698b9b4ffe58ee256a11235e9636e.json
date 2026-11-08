@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00Z9TM72Q",
+      "B000N5Z2L4",
+      "B0B8XNG9NX",
+      "B0714FFZD8",
+      "B13YZNRQ7N",
+      "B0064VBM4W",
+      "B0017Q4DGI",
+      "B0B6GLJ6YQ",
+      "B002I0GZ5Y",
+      "B0041RWIGW",
+      "B00ECOGM52",
+      "B0B8XNG9NX",
+      "B06XX2PLBX",
+      "B078SM4YJ9",
+      "B002ZLPLUQ",
+      "B0064VBM4W",
+      "B0006A9SM0",
+      "B0B6GLJ6YQ",
+      "B0017Q4DGI",
+      "B000034DMG",
+      "B0B8XNG9NX"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Engaging multiplayer modes available"
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "reason": "Access to multiplayer games"
+      },
+      {
+        "item_id": "B0714FFZD8",
+        "reason": "Party game for multiplayer fun"
+      },
+      {
+        "item_id": "B13YZNRQ7N",
+        "reason": "Appealing special edition design"
+      },
+      {
+        "item_id": "B0064VBM4W",
+        "reason": "Enhances multiplayer gaming experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3714,
+    "completion_tokens": 349
+  }
+}

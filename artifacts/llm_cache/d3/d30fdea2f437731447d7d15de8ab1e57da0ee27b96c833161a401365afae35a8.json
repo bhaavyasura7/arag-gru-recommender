@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B017C27MT0",
+      "B08WBRSD1J",
+      "B001NGS6DI",
+      "B0010B675K",
+      "B00DAP835G",
+      "B071DVVFVZ",
+      "B00KE6DCIM",
+      "B06Y65LZMX",
+      "B00009VRFV",
+      "B00005QX4K",
+      "B000MED9FM",
+      "B00YP7FNUG",
+      "B01LDWMGNC",
+      "B005QT3VJW",
+      "B07QKLZYX9",
+      "B071DVVFVZ",
+      "B00DAP835G",
+      "B00009VRFV",
+      "B00005QX4K",
+      "B000MED9FM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B017C27MT0",
+        "reason": "Popular racing game for Xbox"
+      },
+      {
+        "item_id": "B08WBRSD1J",
+        "reason": "Racing simulation experience"
+      },
+      {
+        "item_id": "B001NGS6DI",
+        "reason": "Engaging pet simulation game"
+      },
+      {
+        "item_id": "B0010B675K",
+        "reason": "Tactical military simulation game"
+      },
+      {
+        "item_id": "B00DAP835G",
+        "reason": "Classic console bundle for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3135,
+    "completion_tokens": 310
+  }
+}

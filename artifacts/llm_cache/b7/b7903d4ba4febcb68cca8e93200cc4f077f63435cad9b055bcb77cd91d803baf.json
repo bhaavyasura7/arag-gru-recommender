@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002YGS5IM",
+      "B00008DHNP",
+      "B07DTL22BC",
+      "B005ADFSLS",
+      "B08K7G1JVL",
+      "B0009IA1XO",
+      "B071KNNF9S",
+      "B07DZZNJC2",
+      "B00D2MS762",
+      "B00AWRPEJI",
+      "B005D3JZB4",
+      "B07JX4PP8G",
+      "B0855HRVJ1",
+      "B07213YKCX",
+      "B20HRXJ55E",
+      "B082KHYG9K",
+      "B01CZGZ7VI",
+      "B00064B0JU",
+      "B16D3JZB4",
+      "B0BMLPN46D"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002YGS5IM",
+        "reason": "Engaging multiplayer experience"
+      },
+      {
+        "item_id": "B00008DHNP",
+        "reason": "Classic adventure game"
+      },
+      {
+        "item_id": "B07DTL22BC",
+        "reason": "Accessory for nostalgic gaming"
+      },
+      {
+        "item_id": "B005ADFSLS",
+        "reason": "Classic flight combat game"
+      },
+      {
+        "item_id": "B08K7G1JVL",
+        "reason": "Enhances gameplay for Wii"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3273,
+    "completion_tokens": 319
+  }
+}

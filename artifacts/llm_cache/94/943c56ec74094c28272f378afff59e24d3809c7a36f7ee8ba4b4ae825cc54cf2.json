@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B8P2XR2L",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to gaming but not specific."
+      },
+      {
+        "item_id": "B01MSSM38C",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system, not directly relevant."
+      },
+      {
+        "item_id": "B0002VKC3W",
+        "label": "support",
+        "score": 7,
+        "rationale": "PC game aligns with user interests."
+      },
+      {
+        "item_id": "B001D6CW7Y",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular RPG, matches gaming preference."
+      },
+      {
+        "item_id": "B08NPD7B4R",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory for a different console."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 878,
+    "completion_tokens": 157
+  }
+}

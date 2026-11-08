@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07J35GDD9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not directly related to games."
+      },
+      {
+        "item_id": "B07RRYG7KP",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers different game genres."
+      },
+      {
+        "item_id": "B07JZ4DG95",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with legacy Nintendo systems."
+      },
+      {
+        "item_id": "B07ZLZ1N6M",
+        "label": "support",
+        "score": 6,
+        "rationale": "Accessory for Nintendo Switch, user interest."
+      },
+      {
+        "item_id": "B004K6L0FY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Japanese import, user hasn't shown interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 160
+  }
+}

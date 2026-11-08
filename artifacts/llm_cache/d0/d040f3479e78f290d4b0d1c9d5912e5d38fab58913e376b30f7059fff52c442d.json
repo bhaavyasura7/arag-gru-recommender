@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07KVHH7H4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for gaming headset, not games."
+      },
+      {
+        "item_id": "B09M8KRMNK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS5 accessory, user prefers Xbox games."
+      },
+      {
+        "item_id": "B06XG1VYPR",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Screen protector, not directly related."
+      },
+      {
+        "item_id": "B008S2G7WM",
+        "label": "support",
+        "score": 7,
+        "rationale": "PC game aligns with user interests."
+      },
+      {
+        "item_id": "B000UZXOQW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Flight simulator expansion, not preferred genre."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1529,
+    "completion_tokens": 160
+  }
+}

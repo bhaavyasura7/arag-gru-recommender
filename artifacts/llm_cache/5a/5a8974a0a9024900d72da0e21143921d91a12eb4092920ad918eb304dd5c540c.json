@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08MBQ51KG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's past games."
+      },
+      {
+        "item_id": "B08MBG5254",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00HVBPRUO",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Headset, not a game."
+      },
+      {
+        "item_id": "B002I0J45C",
+        "label": "support",
+        "score": 7,
+        "rationale": "Retro style matches user interests."
+      },
+      {
+        "item_id": "B001QCWSHO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre than user's favorites."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1348,
+    "completion_tokens": 152
+  }
+}

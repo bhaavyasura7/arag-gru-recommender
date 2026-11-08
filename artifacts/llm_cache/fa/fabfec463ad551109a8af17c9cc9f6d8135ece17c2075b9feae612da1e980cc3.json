@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B013HTBPYU",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "not related to video games"
+      },
+      {
+        "item_id": "B088DCPM2P",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox game aligns with user preferences"
+      },
+      {
+        "item_id": "B0046II3KQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "karaoke game may interest some users"
+      },
+      {
+        "item_id": "B01KLOSPPG",
+        "label": "support",
+        "score": 7,
+        "rationale": "accessory for Xbox One matches user history"
+      },
+      {
+        "item_id": "B07YFSJW46",
+        "label": "support",
+        "score": 6,
+        "rationale": "Nintendo Switch case supports user interests"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1099,
+    "completion_tokens": 150
+  }
+}

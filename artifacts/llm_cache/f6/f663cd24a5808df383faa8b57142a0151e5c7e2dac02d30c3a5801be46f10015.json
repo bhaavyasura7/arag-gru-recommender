@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B084Z4Q9NK",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming headset matches gaming interest."
+      },
+      {
+        "item_id": "B00004U9KA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Older game not aligned with preferences."
+      },
+      {
+        "item_id": "B08KB1WW74",
+        "label": "support",
+        "score": 9,
+        "rationale": "External drive enhances Xbox gaming experience."
+      },
+      {
+        "item_id": "B06XKQ6X48",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but still a video game."
+      },
+      {
+        "item_id": "B09BRFBSNV",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming mouse fits gaming setup needs."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1435,
+    "completion_tokens": 156
+  }
+}

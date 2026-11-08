@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07MF9NR3Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers Xbox and PlayStation games."
+      },
+      {
+        "item_id": "B009NPA81O",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for Wii U, not preferred system."
+      },
+      {
+        "item_id": "B006JKASAC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in PlayStation Vita."
+      },
+      {
+        "item_id": "B00OBZNI0O",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has interest in PlayStation 4 games."
+      },
+      {
+        "item_id": "B00U33Q940",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Streaming device, not directly related to gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1127,
+    "completion_tokens": 164
+  }
+}

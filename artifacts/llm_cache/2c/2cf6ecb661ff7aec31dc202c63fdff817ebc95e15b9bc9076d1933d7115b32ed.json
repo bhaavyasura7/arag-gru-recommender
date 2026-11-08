@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08RD53FSV",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox One, user interest."
+      },
+      {
+        "item_id": "B001ELJFM8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B084BKJF4C",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform, but casual gaming appeal."
+      },
+      {
+        "item_id": "B001EYUNK8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic game, but not user’s main interest."
+      },
+      {
+        "item_id": "B075R4TBR2",
+        "label": "support",
+        "score": 6,
+        "rationale": "Accessory for Xbox One, user owns Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1361,
+    "completion_tokens": 159
+  }
+}

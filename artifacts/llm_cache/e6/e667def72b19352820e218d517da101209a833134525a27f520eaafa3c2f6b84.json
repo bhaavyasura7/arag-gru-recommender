@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0746NVS2Z",
+      "B07DK1H3H5",
+      "B0195IAPBQ",
+      "B09QJYDH9Z",
+      "B09SGBH5PC",
+      "B07VRBHWQR",
+      "B0876KN5WH",
+      "B088R7YMWG",
+      "B07C7RQ157",
+      "B07P2H3FGH",
+      "B000006P0N",
+      "B00005QEG7",
+      "B07M86J6DR",
+      "B0049WF6FY",
+      "B00GCPBCRW",
+      "B00AHHC0HC",
+      "B000H58URS",
+      "B07DK1H3H5",
+      "B00REEBO1Y",
+      "B07Q8G218M",
+      "B000006P0N"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0746NVS2Z",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B07DK1H3H5",
+        "reason": "Popular game download"
+      },
+      {
+        "item_id": "B0195IAPBQ",
+        "reason": "GTA V bundle offers value"
+      },
+      {
+        "item_id": "B09QJYDH9Z",
+        "reason": "Portable carrying case"
+      },
+      {
+        "item_id": "B09SGBH5PC",
+        "reason": "Mechanical keyboard for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3219,
+    "completion_tokens": 335
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09FPFZJ8L",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Keyboard not directly related to gaming."
+      },
+      {
+        "item_id": "B0029D57NG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Drum sticks for a specific game."
+      },
+      {
+        "item_id": "B008B3QCJQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Related to PlayStation gaming experience."
+      },
+      {
+        "item_id": "B000BZ6BPW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Paintball game not aligned with interests."
+      },
+      {
+        "item_id": "B09BMRBBYR",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller case, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 155
+  }
+}

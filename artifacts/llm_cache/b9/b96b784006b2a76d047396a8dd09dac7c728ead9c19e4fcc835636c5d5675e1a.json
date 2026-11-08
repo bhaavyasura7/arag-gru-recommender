@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002G9MHY0",
+        "label": "support",
+        "score": 8,
+        "rationale": "Useful tool for Xbox 360 controllers."
+      },
+      {
+        "item_id": "B0011E4J7O",
+        "label": "support",
+        "score": 9,
+        "rationale": "Essential for Xbox 360 gameplay."
+      },
+      {
+        "item_id": "B00XZDQ6O8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "WWE game, not directly related."
+      },
+      {
+        "item_id": "B00KCCNMYW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not relevant to user's interests."
+      },
+      {
+        "item_id": "B00CQ35C1Q",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming headset enhances gaming experience."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1278,
+    "completion_tokens": 159
+  }
+}

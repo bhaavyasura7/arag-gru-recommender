@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008MXPKP2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for PlayStation, not directly relevant."
+      },
+      {
+        "item_id": "B005R40DTM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not a video game, unrelated genre."
+      },
+      {
+        "item_id": "B00005LLSS",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances gameplay experience for PS2."
+      },
+      {
+        "item_id": "B09CDKVCR7",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with PS5, enhances gaming experience."
+      },
+      {
+        "item_id": "B0055ES7OW",
+        "label": "support",
+        "score": 6,
+        "rationale": "Accessory for Xbox 360, aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1139,
+    "completion_tokens": 160
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008U4QPJI",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Final Fantasy series games."
+      },
+      {
+        "item_id": "B00GCB2Z0E",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to Final Fantasy, but older."
+      },
+      {
+        "item_id": "B07NSFRG7W",
+        "label": "support",
+        "score": 7,
+        "rationale": "New twist on familiar Final Fantasy gameplay."
+      },
+      {
+        "item_id": "B01M3306ND",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different gameplay style, less traditional RPG."
+      },
+      {
+        "item_id": "B007YBXSK2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's RPG preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2135,
+    "completion_tokens": 158
+  }
+}

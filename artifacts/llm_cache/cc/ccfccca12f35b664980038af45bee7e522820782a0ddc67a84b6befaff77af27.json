@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BBQQWFPB",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nostalgic but not directly relevant."
+      },
+      {
+        "item_id": "B07DY2XHGM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a gaming experience."
+      },
+      {
+        "item_id": "B09CTMDQG9",
+        "label": "support",
+        "score": 8,
+        "rationale": "High-quality headset aligns with interests."
+      },
+      {
+        "item_id": "B073ZB314P",
+        "label": "support",
+        "score": 7,
+        "rationale": "Cooling fan for PlayStation 4 is relevant."
+      },
+      {
+        "item_id": "B008GW5V9E",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Downloadable content, less interest shown."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1186,
+    "completion_tokens": 160
+  }
+}

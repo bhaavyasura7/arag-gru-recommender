@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B004G5YI3U",
+      "B00Z9TIM3Y",
+      "B12YBXFF5C",
+      "B01IFE2OFG",
+      "B003O6E9T0",
+      "B000U96L54",
+      "B00A63GL4A",
+      "B07C75CLCD",
+      "B001EYUNVC",
+      "B004HKIMK4",
+      "B004JHY3ZI",
+      "B07YBWT3PK",
+      "B00W9DHUBS",
+      "B001EYUQTQ",
+      "B002JTX7KA",
+      "B07K89DFR8",
+      "B01GR9ZZTS",
+      "B000X2H8UA",
+      "B004G5YI3U",
+      "B000A2R54M",
+      "B004HKIMK4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004G5YI3U",
+        "reason": "Rich narrative and gameplay"
+      },
+      {
+        "item_id": "B00Z9TIM3Y",
+        "reason": "Immersive action-adventure experience"
+      },
+      {
+        "item_id": "B12YBXFF5C",
+        "reason": "High-quality graphics and gameplay"
+      },
+      {
+        "item_id": "B01IFE2OFG",
+        "reason": "Specialized gaming controller"
+      },
+      {
+        "item_id": "B003O6E9T0",
+        "reason": "Unique immersive experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3828,
+    "completion_tokens": 338
+  }
+}

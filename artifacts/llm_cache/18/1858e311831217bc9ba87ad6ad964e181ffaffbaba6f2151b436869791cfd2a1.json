@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001237ZWK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B077RLSQYH",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys LEGO and superhero games."
+      },
+      {
+        "item_id": "B001EYUWWC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User likes action games, but not specific."
+      },
+      {
+        "item_id": "B00005NOFM",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys sports and action games."
+      },
+      {
+        "item_id": "B0795QV2BH",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1306,
+    "completion_tokens": 151
+  }
+}

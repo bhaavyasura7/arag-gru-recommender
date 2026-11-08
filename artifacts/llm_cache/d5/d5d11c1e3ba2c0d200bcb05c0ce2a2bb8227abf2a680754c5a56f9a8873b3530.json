@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B017G3ZBV6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B08X4WMK3X",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation, not Xbox."
+      },
+      {
+        "item_id": "B0C4J8C2QJ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR gaming not indicated in history."
+      },
+      {
+        "item_id": "B07WTBZNTN",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation, not Xbox."
+      },
+      {
+        "item_id": "B0BN3YRNNV",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Steam Deck not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1508,
+    "completion_tokens": 164
+  }
+}

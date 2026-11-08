@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B9BKTP1D",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not related to Nintendo Switch."
+      },
+      {
+        "item_id": "B0929JM6ZS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Compatible with mobile gaming, not Switch."
+      },
+      {
+        "item_id": "B071WQ28YV",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "For Xbox, not Nintendo Switch."
+      },
+      {
+        "item_id": "B087SHFL9B",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly for Nintendo Switch games."
+      },
+      {
+        "item_id": "B01HV9WE0Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "General accessory, not specific to Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1368,
+    "completion_tokens": 159
+  }
+}

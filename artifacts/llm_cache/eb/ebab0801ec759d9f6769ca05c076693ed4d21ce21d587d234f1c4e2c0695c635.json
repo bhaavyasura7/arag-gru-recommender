@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00004SVXW",
+      "B000HGMSXY",
+      "B00019AZAU",
+      "B00002ST9I",
+      "B0007L8UJK",
+      "B0061YFYDW",
+      "B000TOMGIG",
+      "B00R465V0W",
+      "B09Y5KBDW6",
+      "B01BSQV64I",
+      "B093H3381T",
+      "B01KT5JG5U",
+      "B0009ER38O",
+      "B01HI273ZW",
+      "B0007L8UJK",
+      "B00LP35WPY",
+      "B08YR8LFH3",
+      "B000000000",
+      "B000000000",
+      "B000000000"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00004SVXW",
+        "reason": "Classic Zelda game experience"
+      },
+      {
+        "item_id": "B000HGMSXY",
+        "reason": "Nostalgic NES platformer"
+      },
+      {
+        "item_id": "B00019AZAU",
+        "reason": "Legacy system baseball game"
+      },
+      {
+        "item_id": "B00002ST9I",
+        "reason": "Classic soccer game nostalgia"
+      },
+      {
+        "item_id": "B0007L8UJK",
+        "reason": "Gundam game for legacy systems"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3630,
+    "completion_tokens": 309
+  }
+}

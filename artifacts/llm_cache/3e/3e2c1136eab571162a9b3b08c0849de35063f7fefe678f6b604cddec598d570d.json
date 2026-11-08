@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B009R9NR96",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Racing game, not a strong interest."
+      },
+      {
+        "item_id": "B00AEZIZ9E",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar to previous candidate, neutral."
+      },
+      {
+        "item_id": "B0010LOT00",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Racing theme, less appealing to user."
+      },
+      {
+        "item_id": "B004EJXSPW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Virtual racing, user prefers action games."
+      },
+      {
+        "item_id": "B07R9HW8VC",
+        "label": "support",
+        "score": 6,
+        "rationale": "Cartoon racing aligns with casual gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1987,
+    "completion_tokens": 158
+  }
+}

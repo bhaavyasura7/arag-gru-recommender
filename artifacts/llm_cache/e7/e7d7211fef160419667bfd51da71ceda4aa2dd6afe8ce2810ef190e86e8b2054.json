@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001C58T6E",
+      "B012I0J51U",
+      "B000ICZ60O",
+      "B07QWTM6XL",
+      "B00LW7F2OE",
+      "B00005BX7K",
+      "B00005MA8H",
+      "B009ZXJU1I",
+      "B00501IBV4",
+      "B07MX4S86T",
+      "B0002ILS10",
+      "B0725PBXB2",
+      "B001FUWHFK",
+      "B014LQHLB4",
+      "B091T2WHG1",
+      "B00005BX7K",
+      "B00005MA8H",
+      "B07LB53M69",
+      "B00005BX7K",
+      "B00005MA8H"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001C58T6E",
+        "reason": "Essential PS3 motion controller"
+      },
+      {
+        "item_id": "B012I0J51U",
+        "reason": "Directly enhances PS3 gaming"
+      },
+      {
+        "item_id": "B000ICZ60O",
+        "reason": "Useful accessory for PSP"
+      },
+      {
+        "item_id": "B07QWTM6XL",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B00LW7F2OE",
+        "reason": "Popular racing game accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3448,
+    "completion_tokens": 319
+  }
+}

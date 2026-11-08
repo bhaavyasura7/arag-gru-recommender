@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09R4K5ZTZ",
+      "B000069BD9",
+      "B12IC2A28C",
+      "B07YBXFF44",
+      "B07CRX5X9T",
+      "B00YJJ0P1C",
+      "B003RJXVU2",
+      "B07624RBWB",
+      "B001TOQ8UW",
+      "B003O680ZY",
+      "B00XZQ58AI",
+      "B0187UFI1U",
+      "B00006LEM0",
+      "B00DC7G2W8",
+      "B07SSZGYNR",
+      "B003RJXVU2",
+      "B076HHZ41Z",
+      "B00897Z27C",
+      "B001UW9Z6M",
+      "B0BLXJC8MZ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09R4K5ZTZ",
+        "reason": "Popular Nintendo Switch game bundle"
+      },
+      {
+        "item_id": "B000069BD9",
+        "reason": "Classic Xbox fighting game"
+      },
+      {
+        "item_id": "B12IC2A28C",
+        "reason": "Highly rated Nintendo games"
+      },
+      {
+        "item_id": "B07YBXFF44",
+        "reason": "Popular PS4 game pack"
+      },
+      {
+        "item_id": "B07CRX5X9T",
+        "reason": "High-quality gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3840,
+    "completion_tokens": 322
+  }
+}

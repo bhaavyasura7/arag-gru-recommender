@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "open-world exploration",
+      "challenging gameplay",
+      "collector's editions",
+      "Xbox gaming"
+    ],
+    "current_intent": "looking for new action-adventure games",
+    "avoid": [
+      "poorly rated games",
+      "linear gameplay",
+      "non-collector's editions"
+    ],
+    "summary": "The user enjoys action-adventure games with challenging elements, prefers Xbox titles, and is interested in collector's editions."
+  },
+  "usage": {
+    "prompt_tokens": 288,
+    "completion_tokens": 82
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B072L2ZSC7",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo Switch games."
+      },
+      {
+        "item_id": "B00002ST5C",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system game, not relevant."
+      },
+      {
+        "item_id": "B09P5XW7G9",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "For Wii, not aligned with interests."
+      },
+      {
+        "item_id": "B07SQMX123",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Different console, not relevant to user."
+      },
+      {
+        "item_id": "B01A0PVN5A",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances multiplayer experience on Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1049,
+    "completion_tokens": 163
+  }
+}

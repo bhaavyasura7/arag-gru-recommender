@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003VUO6H4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different console, not directly relevant."
+      },
+      {
+        "item_id": "B002BRZ7JE",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different console, not a strong match."
+      },
+      {
+        "item_id": "B01D63UU52",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Gaming mouse, not directly related."
+      },
+      {
+        "item_id": "B00KWOSQC8",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly related to Pokémon and 3DS."
+      },
+      {
+        "item_id": "B000HKGIOA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox 360 game, not of interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1254,
+    "completion_tokens": 159
+  }
+}

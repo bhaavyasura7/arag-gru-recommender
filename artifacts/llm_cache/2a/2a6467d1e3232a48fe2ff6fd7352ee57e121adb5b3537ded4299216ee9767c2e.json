@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07V5CFMY4",
+      "B08SC46N9J",
+      "B08L7JTBCN",
+      "B09V5R5LSZ",
+      "B0883P3VSH",
+      "B003DNSR3S",
+      "B007CM0K86",
+      "B08MBKBH6G",
+      "B000ARPXU0",
+      "B019WRM1IA",
+      "B01GKFPFZS",
+      "B07YBXFF99",
+      "B0754LGLFP",
+      "B0BRQ8G28W",
+      "B00111SFEU",
+      "B12KXQS738",
+      "B001EYUQUU",
+      "B0BX8VPN1L",
+      "B00111SFEU",
+      "B00IIHU44E",
+      "B07KXQS738"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07V5CFMY4",
+        "reason": "High compatibility with Nintendo Switch"
+      },
+      {
+        "item_id": "B08SC46N9J",
+        "reason": "Supports multiple Switch models"
+      },
+      {
+        "item_id": "B08L7JTBCN",
+        "reason": "Great for immersive gaming experiences"
+      },
+      {
+        "item_id": "B09V5R5LSZ",
+        "reason": "Enhances Halo 5 multiplayer experience"
+      },
+      {
+        "item_id": "B0883P3VSH",
+        "reason": "Compatible with multiple consoles"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4153,
+    "completion_tokens": 337
+  }
+}

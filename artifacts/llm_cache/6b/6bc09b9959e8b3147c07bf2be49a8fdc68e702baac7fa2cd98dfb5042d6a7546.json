@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B006V5S2OE",
+      "B0BJK32F71",
+      "B09HGWQKV1",
+      "B088GTV4XS",
+      "B11NPL3JJ1",
+      "B08MZXNCHT",
+      "B00GKL905O",
+      "B0028N6TNE",
+      "B07J22DLL7",
+      "B07NPL3JJ1",
+      "B095KDH8J7",
+      "B0B7WK561Z",
+      "B07NPL3JJ1",
+      "B086YSDMBJ",
+      "B08LKNZNQF",
+      "B003ZSH872",
+      "B07J22DLL7",
+      "B06XKHBHN6",
+      "B0B7LMB23R",
+      "B00001QEQD"
+    ],
+    "reasons": [
+      {
+        "item_id": "B006V5S2OE",
+        "reason": "High-quality gaming mouse features"
+      },
+      {
+        "item_id": "B0BJK32F71",
+        "reason": "Adapter for PS5 gaming peripherals"
+      },
+      {
+        "item_id": "B09HGWQKV1",
+        "reason": "Efficient PS5 controller charging"
+      },
+      {
+        "item_id": "B088GTV4XS",
+        "reason": "Protective cover for PS5 controllers"
+      },
+      {
+        "item_id": "B11NPL3JJ1",
+        "reason": "Metal buttons for PS4 controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4138,
+    "completion_tokens": 334
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000K8ZXK4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user history."
+      },
+      {
+        "item_id": "B08VMZBVJF",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers older gaming systems."
+      },
+      {
+        "item_id": "B000FVVSZA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to Nintendo, but not gameplay."
+      },
+      {
+        "item_id": "B001EYUQKK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar gaming style to user preferences."
+      },
+      {
+        "item_id": "B001DKDANA",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly related to legacy gaming systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1105,
+    "completion_tokens": 152
+  }
+}

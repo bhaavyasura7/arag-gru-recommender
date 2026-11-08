@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07VHHPJBV",
+      "B00562O8U0",
+      "B00332F3QI",
+      "B0012N7BSI",
+      "B001D7JEJM",
+      "B003HGGN82",
+      "B004WLRQ2S",
+      "B002JTX7FK",
+      "B0051D8PGM",
+      "B00CEGCN76",
+      "B000NJBD90",
+      "B00MP7SFJE",
+      "B00DR8V74A",
+      "B000935256",
+      "B002I0EMBI",
+      "B0015HYPOO",
+      "B08VFQ3XJX",
+      "B000CC3IEQ",
+      "B001ELJFPA",
+      "B000H8D8A0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07VHHPJBV",
+        "reason": "High DPI and RGB lighting"
+      },
+      {
+        "item_id": "B00562O8U0",
+        "reason": "Programmable buttons and ergonomic"
+      },
+      {
+        "item_id": "B00332F3QI",
+        "reason": "Wireless charging for convenience"
+      },
+      {
+        "item_id": "B0012N7BSI",
+        "reason": "Popular sports game for gamers"
+      },
+      {
+        "item_id": "B001D7JEJM",
+        "reason": "Tactical shooter for enthusiasts"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3851,
+    "completion_tokens": 318
+  }
+}

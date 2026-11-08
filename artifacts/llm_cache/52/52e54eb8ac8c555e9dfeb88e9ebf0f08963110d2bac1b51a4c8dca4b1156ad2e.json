@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BPXMJ14B",
+        "label": "support",
+        "score": 8,
+        "rationale": "PS5 accessory matches user interest."
+      },
+      {
+        "item_id": "B06XTPKCLD",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo Switch accessory aligns with user history."
+      },
+      {
+        "item_id": "B07JN5CGKG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Xbox accessory, not directly relevant."
+      },
+      {
+        "item_id": "B00GZ5222I",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS4 skin, user prefers PS5."
+      },
+      {
+        "item_id": "B07CY2T66Q",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "SNES controller not relevant to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1437,
+    "completion_tokens": 160
+  }
+}

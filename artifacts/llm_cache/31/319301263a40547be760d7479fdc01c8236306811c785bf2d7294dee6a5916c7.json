@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00ATNFLDY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming mouse for PC gaming enthusiasts."
+      },
+      {
+        "item_id": "B08LPMVJDJ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox 360, user plays Xbox."
+      },
+      {
+        "item_id": "B07D8DPPJN",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS4 accessory, user prefers Xbox games."
+      },
+      {
+        "item_id": "B0BL1QQDNY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Mechanical keyboard for gaming, user plays games."
+      },
+      {
+        "item_id": "B071S7Z6L5",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS4 charger, user focuses on Xbox games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1498,
+    "completion_tokens": 164
+  }
+}

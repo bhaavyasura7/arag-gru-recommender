@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "PlayStation games",
+      "Action-adventure titles",
+      "Limited edition collectibles",
+      "Multiplayer experiences",
+      "Game console accessories"
+    ],
+    "current_intent": "Looking for new PlayStation 4 games or accessories.",
+    "avoid": [
+      "Xbox games",
+      "Low-rated titles",
+      "Non-gaming products"
+    ],
+    "summary": "The user is a dedicated PlayStation gamer interested in high-quality games and accessories, particularly limited editions."
+  },
+  "usage": {
+    "prompt_tokens": 469,
+    "completion_tokens": 81
+  }
+}

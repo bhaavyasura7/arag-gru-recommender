@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0051PLQ8E",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B00Z9TKRH8",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Not a preferred gaming genre for user."
+      },
+      {
+        "item_id": "B0B1TMZB5S",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game; user may need."
+      },
+      {
+        "item_id": "B00IXMF5CU",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre; user enjoys Xbox 360 games."
+      },
+      {
+        "item_id": "B000UODATY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory; may be useful for Xbox 360."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1401,
+    "completion_tokens": 169
+  }
+}

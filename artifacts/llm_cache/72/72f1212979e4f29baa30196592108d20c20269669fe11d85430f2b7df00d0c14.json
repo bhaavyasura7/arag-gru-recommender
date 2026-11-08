@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09R1S45VM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers games, not accessories."
+      },
+      {
+        "item_id": "B09VKTZ7HK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Keyboard not directly related to gaming."
+      },
+      {
+        "item_id": "B01N4NUG5R",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Skin for Xbox, user prefers PlayStation."
+      },
+      {
+        "item_id": "B08P1KNQ28",
+        "label": "support",
+        "score": 8,
+        "rationale": "Supports PlayStation, user has related games."
+      },
+      {
+        "item_id": "B072F6WKZS",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Pokemon Go not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1234,
+    "completion_tokens": 159
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07XMG1BQL",
+      "B000E3UV8O",
+      "B075SRFWVG",
+      "B00LLWIVLQ",
+      "B07VT2491H",
+      "B000038I9O",
+      "B087BJ43VS",
+      "B06WW7CD5R",
+      "B08MBQ51KG",
+      "B07T67S9Y1",
+      "B015QHTICW",
+      "B06ZYTHKR7",
+      "B01EWTY3D4",
+      "B00UBL0ZQC",
+      "B09322LLZ2",
+      "B075XJCGYX",
+      "B007IVR26E",
+      "B014KXMLXG",
+      "B18BLYC2YVN",
+      "B000038I9O"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07XMG1BQL",
+        "reason": "Compatible with Xbox One"
+      },
+      {
+        "item_id": "B000E3UV8O",
+        "reason": "Related to military simulation"
+      },
+      {
+        "item_id": "B075SRFWVG",
+        "reason": "Xbox One game show collection"
+      },
+      {
+        "item_id": "B00LLWIVLQ",
+        "reason": "Adventure game for PC"
+      },
+      {
+        "item_id": "B07VT2491H",
+        "reason": "Gaming headset for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3449,
+    "completion_tokens": 318
+  }
+}

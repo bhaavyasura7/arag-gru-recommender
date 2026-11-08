@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00005ME6O",
+      "B007VDOOBU",
+      "B00LVAHX9O",
+      "B078GLDBZX",
+      "B00D5SZ04K",
+      "B0091GS8R6",
+      "B00O99EWPM",
+      "B00Z9TIGCG",
+      "B08FY73CRW",
+      "B0B7HD8865",
+      "B00CSIB3PS",
+      "B08MBMWTYR",
+      "B0BNPKQ5N8",
+      "B00YBX5FVF",
+      "B003TSANLQ",
+      "B07YBXFF99",
+      "B00D5SZ04K",
+      "B0051D8P26",
+      "B0BPM13LPG",
+      "B00Z9TIGCG",
+      "B00LVAHX9O"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00005ME6O",
+        "reason": "Classic horror game experience"
+      },
+      {
+        "item_id": "B007VDOOBU",
+        "reason": "Highly rated action-adventure title"
+      },
+      {
+        "item_id": "B00LVAHX9O",
+        "reason": "Unique narrative-driven gameplay"
+      },
+      {
+        "item_id": "B078GLDBZX",
+        "reason": "Includes classic arcade titles"
+      },
+      {
+        "item_id": "B00D5SZ04K",
+        "reason": "Popular racing game with single-player mode"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4034,
+    "completion_tokens": 334
+  }
+}

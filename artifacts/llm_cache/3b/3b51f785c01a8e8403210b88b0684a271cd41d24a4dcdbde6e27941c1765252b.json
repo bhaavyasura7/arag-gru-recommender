@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B072K63ZPD",
+      "B004HD55VK",
+      "B11QRRLCKD",
+      "B007W8S2MG",
+      "B0000A1OG8",
+      "B078GHDJW4",
+      "B0191F6L1G",
+      "B00Z8EBXSQ",
+      "B003IU1AHQ",
+      "B003L77YKS",
+      "B003VUNWW4",
+      "B001AATQ0Y",
+      "B0894RCSV4",
+      "B007W8S2MG",
+      "B001TOQ8WU",
+      "B00269DXXO",
+      "B07624RBWB",
+      "B0BGB7VPGK",
+      "B075MJLB5B",
+      "B001AATQ0Y",
+      "B003IU1AHQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B072K63ZPD",
+        "reason": "Popular Xbox game title"
+      },
+      {
+        "item_id": "B004HD55VK",
+        "reason": "Action-adventure gameplay"
+      },
+      {
+        "item_id": "B11QRRLCKD",
+        "reason": "DIY arcade gaming kit"
+      },
+      {
+        "item_id": "B007W8S2MG",
+        "reason": "Wireless gaming controller"
+      },
+      {
+        "item_id": "B0000A1OG8",
+        "reason": "Classic Star Wars game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3509,
+    "completion_tokens": 324
+  }
+}

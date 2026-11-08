@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming headsets",
+      "high-quality audio",
+      "multiplatform compatibility",
+      "sports video games",
+      "wireless technology"
+    ],
+    "current_intent": "looking for a high-quality gaming headset",
+    "avoid": [
+      "wired headsets",
+      "low battery life",
+      "poor sound quality"
+    ],
+    "summary": "User is a gamer interested in premium wireless headsets for an immersive experience across multiple platforms."
+  },
+  "usage": {
+    "prompt_tokens": 377,
+    "completion_tokens": 76
+  }
+}

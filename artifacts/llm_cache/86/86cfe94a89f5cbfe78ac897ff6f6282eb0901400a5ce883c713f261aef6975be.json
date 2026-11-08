@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002LE7164",
+        "label": "support",
+        "score": 8,
+        "rationale": "Same franchise as NHL 2K10."
+      },
+      {
+        "item_id": "B003FVMQWQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different platform, less interest shown."
+      },
+      {
+        "item_id": "B07GHXQSNS",
+        "label": "support",
+        "score": 9,
+        "rationale": "Same franchise as The Division."
+      },
+      {
+        "item_id": "B082DVFHKK",
+        "label": "support",
+        "score": 9,
+        "rationale": "Includes The Division 2, user liked The Division."
+      },
+      {
+        "item_id": "B07NHFW92Z",
+        "label": "support",
+        "score": 9,
+        "rationale": "Includes The Division 2, user liked The Division."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 160
+  }
+}

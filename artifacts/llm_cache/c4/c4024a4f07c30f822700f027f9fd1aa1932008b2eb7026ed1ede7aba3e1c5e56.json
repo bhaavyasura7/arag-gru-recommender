@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00GCB63ZC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, user prefers newer systems."
+      },
+      {
+        "item_id": "B004TPVHB8",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's 3DS devices."
+      },
+      {
+        "item_id": "B01N418KHK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older system, not aligned with user's interests."
+      },
+      {
+        "item_id": "B07NRS4F6G",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly supports user's Nintendo Switch."
+      },
+      {
+        "item_id": "B087RS5P1K",
+        "label": "support",
+        "score": 9,
+        "rationale": "Replacement for user's Nintendo Switch controllers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1158,
+    "completion_tokens": 158
+  }
+}

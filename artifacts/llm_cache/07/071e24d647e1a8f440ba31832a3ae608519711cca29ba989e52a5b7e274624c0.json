@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00J5C3Z10",
+      "B00001ZWQI",
+      "B077SZ1BFW",
+      "B002PY7KN4",
+      "B0BF4XCX9C",
+      "B074FQ84B2",
+      "B0C9DNXQ3S",
+      "B087V543WW",
+      "B001EYUPXS",
+      "B0957H6KB7",
+      "B14KXBJJ16",
+      "B0B9V65WXV",
+      "B06Y1LKYNC",
+      "B018XG4BJ8",
+      "B00Z9TLLG4",
+      "B00YJJ0JXQ",
+      "B000A11EOK",
+      "B000GVWYAW",
+      "B00CPKMTSK",
+      "B00Z9TLLG4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00J5C3Z10",
+        "reason": "Popular action-adventure game"
+      },
+      {
+        "item_id": "B00001ZWQI",
+        "reason": "High-octane racing experience"
+      },
+      {
+        "item_id": "B077SZ1BFW",
+        "reason": "Immersive storytelling and action"
+      },
+      {
+        "item_id": "B002PY7KN4",
+        "reason": "Engaging multiplayer wizard duels"
+      },
+      {
+        "item_id": "B0BF4XCX9C",
+        "reason": "Competitive racing gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3644,
+    "completion_tokens": 330
+  }
+}

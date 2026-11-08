@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002RL8K3E",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B004CVQ0JI",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's PlayStation 3 gaming."
+      },
+      {
+        "item_id": "B004E0G7ZY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not directly related to games."
+      },
+      {
+        "item_id": "B08WZKMTF9",
+        "label": "support",
+        "score": 8,
+        "rationale": "High-quality headset for gaming experience."
+      },
+      {
+        "item_id": "B000UFWLPM",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Older game, not in user's recent interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1185,
+    "completion_tokens": 161
+  }
+}

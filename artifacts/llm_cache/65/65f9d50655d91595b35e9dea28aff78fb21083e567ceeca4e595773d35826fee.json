@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07YSNQSWF",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to Xbox gaming."
+      },
+      {
+        "item_id": "B074NWXJV5",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PS4."
+      },
+      {
+        "item_id": "B0785KCMBB",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo accessory, not Xbox related."
+      },
+      {
+        "item_id": "B08NB2MD6N",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR accessory, not directly Xbox related."
+      },
+      {
+        "item_id": "B07BSWYMPV",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo Switch accessory, not Xbox related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1100,
+    "completion_tokens": 161
+  }
+}

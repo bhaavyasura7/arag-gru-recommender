@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00H0B4BRA",
+      "B013VO5QL4",
+      "B19C1KV8DZ",
+      "B002NIK174",
+      "B00LUL99FU",
+      "B07WXL4V7L",
+      "B0B6VPBCWJ",
+      "B000MNGI9C",
+      "B00006LJTL",
+      "B004FONRRK",
+      "B002XD1QEG",
+      "B008ATPG2A",
+      "B001KC02M8",
+      "B003CECLA8",
+      "B000JJI4Z0",
+      "B002NIK174",
+      "B0BC79QXSC",
+      "B081TJS2KS",
+      "B000JJI4Z0",
+      "B00006LJTL"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00H0B4BRA",
+        "reason": "Xbox One controller skin accessory"
+      },
+      {
+        "item_id": "B013VO5QL4",
+        "reason": "Thumb grips for Xbox One controller"
+      },
+      {
+        "item_id": "B19C1KV8DZ",
+        "reason": "Xbox game update for multiplayer"
+      },
+      {
+        "item_id": "B002NIK174",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B00LUL99FU",
+        "reason": "Comfortable gaming headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3716,
+    "completion_tokens": 319
+  }
+}

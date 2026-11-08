@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00026UZ1Q",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B07YM4DGWK",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo games, like Wii."
+      },
+      {
+        "item_id": "B07DNZCSBT",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo Switch game aligns with interests."
+      },
+      {
+        "item_id": "B079H7N61M",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Keyboard is for PC, not console gaming."
+      },
+      {
+        "item_id": "B09BQZMJ1P",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for PS4, not directly relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1356,
+    "completion_tokens": 160
+  }
+}

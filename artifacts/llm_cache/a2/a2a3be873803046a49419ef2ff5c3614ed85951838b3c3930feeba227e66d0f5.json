@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01CZGZ7VI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B071KNNF9S",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre, RPG interest."
+      },
+      {
+        "item_id": "B07JX4PP8G",
+        "label": "support",
+        "score": 7,
+        "rationale": "Popular game, aligns with interests."
+      },
+      {
+        "item_id": "B0855HRVJ1",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for existing console."
+      },
+      {
+        "item_id": "B00064B0JU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Legacy system game, less relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1103,
+    "completion_tokens": 151
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B3RX24F9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's gaming history."
+      },
+      {
+        "item_id": "B000TXZD6O",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports Wii gaming accessories."
+      },
+      {
+        "item_id": "B01KBDV0D6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "New game, not in user's history."
+      },
+      {
+        "item_id": "B00P08NTVE",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Power adapter, not a game or accessory."
+      },
+      {
+        "item_id": "B00004W4WO",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Unrelated to user's gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1118,
+    "completion_tokens": 157
+  }
+}

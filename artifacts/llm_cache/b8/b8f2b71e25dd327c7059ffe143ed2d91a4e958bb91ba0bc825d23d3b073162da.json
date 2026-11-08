@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07CW48RYQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR game, not aligned with past interests."
+      },
+      {
+        "item_id": "B0BBR5T6YG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Charging dock, not a game."
+      },
+      {
+        "item_id": "B07GJNSC2P",
+        "label": "support",
+        "score": 7,
+        "rationale": "Survival game aligns with user interests."
+      },
+      {
+        "item_id": "B000HB7USC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Sims game, different genre than user likes."
+      },
+      {
+        "item_id": "B019BFAHXY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Charge station, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1323,
+    "completion_tokens": 164
+  }
+}

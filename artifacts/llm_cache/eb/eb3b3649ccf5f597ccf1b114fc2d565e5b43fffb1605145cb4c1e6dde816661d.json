@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07GCWJM78",
+      "B09WBQQ6XT",
+      "B08F4D36D9",
+      "B07DML9W41",
+      "B01MFFGRVP",
+      "B0002MQG36",
+      "B0009VXBAQ",
+      "B001EYUT6G",
+      "B00UK5A0P0",
+      "B0006B7DXA",
+      "B0000AI1KE",
+      "B005FVBYV8",
+      "B001EYUPHO",
+      "B00NY7H5EA",
+      "B00002STF7",
+      "B004XYQ3M8",
+      "B006WVR9CI",
+      "B07YBXFF44",
+      "B0002MQG36",
+      "B0000AI1KE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07GCWJM78",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B09WBQQ6XT",
+        "reason": "Classic TMNT games collection"
+      },
+      {
+        "item_id": "B08F4D36D9",
+        "reason": "Popular Pokémon game bundle"
+      },
+      {
+        "item_id": "B07DML9W41",
+        "reason": "Top sports game on Switch"
+      },
+      {
+        "item_id": "B01MFFGRVP",
+        "reason": "Beloved Kingdom Hearts remaster"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3632,
+    "completion_tokens": 321
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00BGAA3S2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's VR interests."
+      },
+      {
+        "item_id": "B00EN9Q8G4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers VR, not racing games."
+      },
+      {
+        "item_id": "B001REZLXO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B08G4FDHT7",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming keyboard fits user's gaming setup."
+      },
+      {
+        "item_id": "B002I096AA",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User's focus is on VR, not handheld consoles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1330,
+    "completion_tokens": 164
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B004HILZUA",
+      "B19N07OX04",
+      "B07PYH623G",
+      "B08VHJX37Y",
+      "B00I9CPD12",
+      "B07VJRZ62R",
+      "B00K80NODC",
+      "B00NERNNQO",
+      "B00P08NTVE",
+      "B00BIPLANW",
+      "B00002S655",
+      "B00004W4WO",
+      "B003FSSMZY",
+      "B08YNL3HZV",
+      "B000TXZD6O",
+      "B007TE4RAE",
+      "B01KBDV0D6",
+      "B00XPRG26Q",
+      "B01N07OX04",
+      "B00004W4WO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004HILZUA",
+        "reason": "Crash Bandicoot game is a favorite"
+      },
+      {
+        "item_id": "B07PYH623G",
+        "reason": "Nintendo Switch is highly relevant"
+      },
+      {
+        "item_id": "B08VHJX37Y",
+        "reason": "Controller grip enhances gaming experience"
+      },
+      {
+        "item_id": "B00I9CPD12",
+        "reason": "Classic console appeals to nostalgia"
+      },
+      {
+        "item_id": "B07VJRZ62R",
+        "reason": "High-quality gaming console option"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3144,
+    "completion_tokens": 325
+  }
+}

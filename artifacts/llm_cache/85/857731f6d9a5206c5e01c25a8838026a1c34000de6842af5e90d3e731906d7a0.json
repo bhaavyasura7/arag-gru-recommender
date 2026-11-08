@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B071DVVFVZ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's gaming preferences."
+      },
+      {
+        "item_id": "B017C27MT0",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Xbox games, relevant title."
+      },
+      {
+        "item_id": "B07WBRSD1J",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Bus simulator not aligned with user's interests."
+      },
+      {
+        "item_id": "B01DU8A38M",
+        "label": "support",
+        "score": 6,
+        "rationale": "Gaming headset matches user's gaming setup."
+      },
+      {
+        "item_id": "B00009VRFV",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Old PC game, not aligned with user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 156
+  }
+}

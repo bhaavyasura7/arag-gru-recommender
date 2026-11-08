@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08TBYJNBY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Nintendo Switch, not games."
+      },
+      {
+        "item_id": "B06XS4XXFT",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo Switch game aligns with interests."
+      },
+      {
+        "item_id": "B0017OT20W",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Final Fantasy toy, not a game."
+      },
+      {
+        "item_id": "B01FMB973M",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Xbox accessory, user prefers Nintendo."
+      },
+      {
+        "item_id": "B003A5MCTY",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "PC game, user prefers console games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1137,
+    "completion_tokens": 154
+  }
+}

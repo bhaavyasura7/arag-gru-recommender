@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07QQ8N7LL",
+      "B084JCSMCY",
+      "B06HV9DD71",
+      "B003DNSR56",
+      "B09MR2QDLS",
+      "B091BGZCVF",
+      "B08BXL7TLQ",
+      "B08FXLY3F5",
+      "B0BRGSGPXR",
+      "B004DSKVB8",
+      "B08HV9DD71",
+      "B077XFJZKY",
+      "B001VEI34O",
+      "B009H7QZS8",
+      "B0BMLPN46D",
+      "B0713XFXNK",
+      "B12FT8CDKX",
+      "B08BXL7TLQ",
+      "B003DNSR56",
+      "B00DZJN514"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07QQ8N7LL",
+        "reason": "Star Wars action-adventure game"
+      },
+      {
+        "item_id": "B084JCSMCY",
+        "reason": "Pirate-themed open-world game"
+      },
+      {
+        "item_id": "B06HV9DD71",
+        "reason": "Popular fighting game franchise"
+      },
+      {
+        "item_id": "B003DNSR56",
+        "reason": "Action-packed arcade shooter"
+      },
+      {
+        "item_id": "B09MR2QDLS",
+        "reason": "Interactive visual novel adventure"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3565,
+    "completion_tokens": 316
+  }
+}

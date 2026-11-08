@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0C3CTQ41Z",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Xbox, not a game."
+      },
+      {
+        "item_id": "B07GFH462T",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Limited edition, but not highly rated."
+      },
+      {
+        "item_id": "B07XJY1LJ1",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Switch case, user prefers Xbox/PS."
+      },
+      {
+        "item_id": "B071P87W4V",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Wii U controller, not directly relevant."
+      },
+      {
+        "item_id": "B07549RH4C",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PS4 accessory, user prefers Xbox games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1222,
+    "completion_tokens": 169
+  }
+}

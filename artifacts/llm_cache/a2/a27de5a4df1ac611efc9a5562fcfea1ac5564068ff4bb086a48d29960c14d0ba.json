@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0932RBTTV",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not related to user's preferred games."
+      },
+      {
+        "item_id": "B00DGYJ634",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches user's interest in PlayStation 3."
+      },
+      {
+        "item_id": "B000IK412A",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Old game, not aligned with user's history."
+      },
+      {
+        "item_id": "B09W4ZWZFG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not specifically tied to user preferences."
+      },
+      {
+        "item_id": "B0B4KCJGLD",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Keyboard not relevant to user's gaming style."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 161
+  }
+}

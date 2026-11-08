@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0009F79BE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user prefers consoles."
+      },
+      {
+        "item_id": "B001VMATDE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B00004T009",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B0009MUK2C",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B002JCS5J0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user prefers console games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 614,
+    "completion_tokens": 154
+  }
+}

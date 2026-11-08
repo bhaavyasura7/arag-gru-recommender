@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUNYY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different console, user prefers Xbox."
+      },
+      {
+        "item_id": "B0771FCV5B",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming accessory aligns with user interests."
+      },
+      {
+        "item_id": "B06XPYNGLP",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Charger not directly related to gaming."
+      },
+      {
+        "item_id": "B09TQJS8QH",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Adapter for PS5, user prefers Xbox."
+      },
+      {
+        "item_id": "B07T62NYDD",
+        "label": "support",
+        "score": 6,
+        "rationale": "Controller accessory fits gaming interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1271,
+    "completion_tokens": 154
+  }
+}

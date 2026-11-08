@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00017K08O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B002S62BGA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Too broad, lacks specific interest focus."
+      },
+      {
+        "item_id": "B001BYPXRE",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar to user's interest in casual games."
+      },
+      {
+        "item_id": "B00002S671",
+        "label": "support",
+        "score": 6,
+        "rationale": "Includes various games, matches user interests."
+      },
+      {
+        "item_id": "B01FILM2ZQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "High-performance PC for gaming aligns well."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 910,
+    "completion_tokens": 154
+  }
+}

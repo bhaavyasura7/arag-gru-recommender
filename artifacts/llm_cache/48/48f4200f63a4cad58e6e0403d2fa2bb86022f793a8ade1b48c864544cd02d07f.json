@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0000A0O28",
+      "B08L6CZ6N3",
+      "B07BFV8GYY",
+      "B08BF4JBB9",
+      "B0043VDC9S",
+      "B01AVQT95Y",
+      "B09FYY8KY9",
+      "B01MZ9LKJE",
+      "B07GMXHGZT",
+      "B07WCQDG7S",
+      "B07H54S914",
+      "B000NIBB5W",
+      "B07M8QTLVV",
+      "B00433468C",
+      "B0BG43T6YB",
+      "B08RCQDWDM",
+      "B01M7XSWTF",
+      "B07Q4F7FGX",
+      "B11JKCLXH6",
+      "B08BF4JBB9"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0000A0O28",
+        "reason": "Nostalgic multiplayer mini-games"
+      },
+      {
+        "item_id": "B08L6CZ6N3",
+        "reason": "Compatible with Xbox controllers"
+      },
+      {
+        "item_id": "B07BFV8GYY",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B08BF4JBB9",
+        "reason": "Multiplayer racing game"
+      },
+      {
+        "item_id": "B0043VDC9S",
+        "reason": "Classic Alice in Wonderland game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3106,
+    "completion_tokens": 336
+  }
+}

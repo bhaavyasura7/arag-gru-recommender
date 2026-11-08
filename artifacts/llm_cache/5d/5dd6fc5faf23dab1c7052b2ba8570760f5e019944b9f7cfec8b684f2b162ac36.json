@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01EV5SROA",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with Xbox One, user interest."
+      },
+      {
+        "item_id": "B0C86F41D3",
+        "label": "support",
+        "score": 9,
+        "rationale": "Supports Xbox One, matches user preference."
+      },
+      {
+        "item_id": "B078TWTDQP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Compatible but camouflage may not appeal."
+      },
+      {
+        "item_id": "B07P4LZ7KG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar to others, camouflage design noted."
+      },
+      {
+        "item_id": "B075V1D18Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar features, camouflage design may vary."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1148,
+    "completion_tokens": 159
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B004WIOH4G",
+      "B00004U62O",
+      "B00002SVO9",
+      "B007CM0K86",
+      "B00YJJ0OQS",
+      "B004IZL5FM",
+      "B00AQF345C",
+      "B00NM9R6GW",
+      "B0BHVPZH7R",
+      "B0046ZQ022",
+      "B00DWG1454",
+      "B00W9DHUBS",
+      "B01LXC1QL0",
+      "B07N1XKY1L",
+      "B005K1SI8A",
+      "B0050SX89W",
+      "B00R5CFSVN",
+      "B00YJJ0OQS",
+      "B0088TN73M",
+      "B0B3RKNSM6",
+      "B00AQF345C"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004WIOH4G",
+        "reason": "Classic PS2 action-adventure game"
+      },
+      {
+        "item_id": "B00004U62O",
+        "reason": "Popular retro PS2 title"
+      },
+      {
+        "item_id": "B00002SVO9",
+        "reason": "Sega classic, nostalgic gameplay"
+      },
+      {
+        "item_id": "B007CM0K86",
+        "reason": "Legacy PS3 title, story-driven"
+      },
+      {
+        "item_id": "B00YJJ0OQS",
+        "reason": "Gaming accessory for retro consoles"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3712,
+    "completion_tokens": 341
+  }
+}

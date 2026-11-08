@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0053BCO00",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation products."
+      },
+      {
+        "item_id": "B001EYUR54",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in Mac games."
+      },
+      {
+        "item_id": "B09C4DLF4P",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with PS4, enhancing gaming experience."
+      },
+      {
+        "item_id": "B00DTY9B0O",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation over Xbox."
+      },
+      {
+        "item_id": "B07P26L5GD",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly related to PlayStation gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1292,
+    "completion_tokens": 163
+  }
+}

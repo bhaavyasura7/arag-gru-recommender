@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07LF7ZKXL",
+      "B09TTFCT4S",
+      "B0B25BHKNX",
+      "B01MRIEP69",
+      "B08TWHP4W1",
+      "B0BPXMJ14B",
+      "B07JN5CGKG",
+      "B17WP2ZYNR",
+      "B06XRQC3KV",
+      "B0BSC2BCB4",
+      "B00YOB92UU",
+      "B07HMWJLYP",
+      "B00G6DYCSG",
+      "B07CY2T66Q",
+      "B06XTPKCLD",
+      "B01MRHHC0T",
+      "B0006TNCVE",
+      "B19GZ5222I",
+      "B07WP2ZYNR",
+      "B07HMWJLYP"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07LF7ZKXL",
+        "reason": "Essential charging stand for Switch"
+      },
+      {
+        "item_id": "B09TTFCT4S",
+        "reason": "Wireless charger for Xbox controller"
+      },
+      {
+        "item_id": "B0B25BHKNX",
+        "reason": "Protective case for Switch OLED"
+      },
+      {
+        "item_id": "B01MRIEP69",
+        "reason": "Improves grip for PS5 controllers"
+      },
+      {
+        "item_id": "B08TWHP4W1",
+        "reason": "Stylish mechanical gaming keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3838,
+    "completion_tokens": 333
+  }
+}

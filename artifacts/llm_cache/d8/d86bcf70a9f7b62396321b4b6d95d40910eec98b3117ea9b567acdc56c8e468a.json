@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002IGTPK0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different console, not directly related."
+      },
+      {
+        "item_id": "B0721GGGS9",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Classic system, not in user history."
+      },
+      {
+        "item_id": "B001ET07O0",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wii game, aligns with user interests."
+      },
+      {
+        "item_id": "B001QCWSHO",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PC game, different platform preference."
+      },
+      {
+        "item_id": "B001PO2BJI",
+        "label": "support",
+        "score": 8,
+        "rationale": "Wii accessory, enhances gaming experience."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1276,
+    "completion_tokens": 153
+  }
+}

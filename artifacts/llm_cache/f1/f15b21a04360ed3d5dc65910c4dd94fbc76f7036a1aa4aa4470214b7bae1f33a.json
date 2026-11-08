@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00ZWWM7Q6",
+        "label": "support",
+        "score": 8,
+        "rationale": "Supports PlayStation gaming accessories."
+      },
+      {
+        "item_id": "B075VJLKL7",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox product, user prefers PlayStation."
+      },
+      {
+        "item_id": "B000X1DT22",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Card games, not directly related."
+      },
+      {
+        "item_id": "B016VGQ2QM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a video game or accessory."
+      },
+      {
+        "item_id": "B09QQJM97D",
+        "label": "support",
+        "score": 7,
+        "rationale": "Supports Nintendo gaming interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1103,
+    "completion_tokens": 154
+  }
+}

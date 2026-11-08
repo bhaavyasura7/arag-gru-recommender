@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00HRH79H6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PC gaming products."
+      },
+      {
+        "item_id": "B08V1QTP6X",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for gaming consoles, not PC."
+      },
+      {
+        "item_id": "B00FA1CLEW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Skylanders is not PC gaming."
+      },
+      {
+        "item_id": "B001E91OLK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo Wii game, not PC related."
+      },
+      {
+        "item_id": "B00ZS1S4XG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo 3DS game, not PC gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1300,
+    "completion_tokens": 167
+  }
+}

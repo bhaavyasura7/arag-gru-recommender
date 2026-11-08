@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01EFVAOF0",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming mice for gaming."
+      },
+      {
+        "item_id": "B0038JVJ9G",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in fitness accessories."
+      },
+      {
+        "item_id": "B08GPGL3ZP",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not relevant to user's gaming interests."
+      },
+      {
+        "item_id": "B01N6SW518",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Gameboy games needing batteries."
+      },
+      {
+        "item_id": "B08DDLL1NB",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Unrelated to user's gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1440,
+    "completion_tokens": 158
+  }
+}

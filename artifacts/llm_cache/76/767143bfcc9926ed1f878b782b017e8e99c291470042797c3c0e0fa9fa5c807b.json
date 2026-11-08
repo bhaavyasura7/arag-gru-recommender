@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09JDLC31H",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox One game collection matches interests."
+      },
+      {
+        "item_id": "B00720GN7U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not directly related to games."
+      },
+      {
+        "item_id": "B00DC7G2W8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Wii U game, user prefers Xbox."
+      },
+      {
+        "item_id": "B00DCQ5A40",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Playstation game, user prefers Xbox."
+      },
+      {
+        "item_id": "B0030JTD7O",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, not preferred platform."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1156,
+    "completion_tokens": 162
+  }
+}

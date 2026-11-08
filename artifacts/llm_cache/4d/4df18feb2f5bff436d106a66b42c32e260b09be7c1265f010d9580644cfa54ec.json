@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0088TN7BO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different franchise, but similar gameplay style."
+      },
+      {
+        "item_id": "B0006B7DXA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games, not PC."
+      },
+      {
+        "item_id": "B0017HW5LM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in Xbox games."
+      },
+      {
+        "item_id": "B078SM4YJ9",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game, less relevant."
+      },
+      {
+        "item_id": "B00CMQTUSS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo, not Xbox accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1420,
+    "completion_tokens": 163
+  }
+}

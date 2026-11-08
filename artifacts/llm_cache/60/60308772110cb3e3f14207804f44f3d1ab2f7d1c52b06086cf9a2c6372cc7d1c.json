@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0891DDRYN",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming accessories."
+      },
+      {
+        "item_id": "B09WS2QZXT",
+        "label": "support",
+        "score": 9,
+        "rationale": "User plays PlayStation games."
+      },
+      {
+        "item_id": "B00GKL905O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has retro gaming interest."
+      },
+      {
+        "item_id": "B00Y8CQCXA",
+        "label": "support",
+        "score": 7,
+        "rationale": "User owns PlayStation 4."
+      },
+      {
+        "item_id": "B004HO6CQG",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 3 games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1244,
+    "completion_tokens": 149
+  }
+}

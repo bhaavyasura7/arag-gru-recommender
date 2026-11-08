@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07869V1JT",
+      "B0019N6RG8",
+      "B14J47HCSC",
+      "B001QCWS6A",
+      "B001ELJPUK",
+      "B002JTX9XK",
+      "B003R7JXMO",
+      "B00J5C3Z10",
+      "B004Y98Q04",
+      "B006HZA7Y6",
+      "B00C2PJTKS",
+      "B07X649B77",
+      "B008FWZZ9Q",
+      "B005UUO9CK",
+      "B01MXLEYZ8",
+      "B002I0J51U",
+      "B01DPS4QQ2",
+      "B0123D4F56",
+      "B00J5C3Z10",
+      "B003R7JXMO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07869V1JT",
+        "reason": "Compatible with Nintendo Switch"
+      },
+      {
+        "item_id": "B0019N6RG8",
+        "reason": "Strong female characters featured"
+      },
+      {
+        "item_id": "B14J47HCSC",
+        "reason": "Family-friendly multiplayer experience"
+      },
+      {
+        "item_id": "B001QCWS6A",
+        "reason": "Fun and engaging gameplay"
+      },
+      {
+        "item_id": "B001ELJPUK",
+        "reason": "Creative and interactive gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3969,
+    "completion_tokens": 321
+  }
+}

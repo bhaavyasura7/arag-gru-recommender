@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00K0NV5J2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox over PlayStation."
+      },
+      {
+        "item_id": "B017C6OK7S",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo 3DS not in user history."
+      },
+      {
+        "item_id": "B09WS2QZXT",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox over PlayStation."
+      },
+      {
+        "item_id": "B0087ACBAW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, not preferred platform."
+      },
+      {
+        "item_id": "B000IONGVI",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no Wii game history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1354,
+    "completion_tokens": 163
+  }
+}

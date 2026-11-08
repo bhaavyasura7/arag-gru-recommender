@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01IC2A28C",
+      "B006VR663G",
+      "B15B8HL8YSWD",
+      "B000A28ENI",
+      "B15B8HL8YSWD",
+      "B00PJMJ924",
+      "B004K6LQAS",
+      "B11B8HL8YSWD",
+      "B0BRZZ8YSF",
+      "B00CMQTUSS",
+      "B0B9WK4HZ1",
+      "B099YTDMZ3",
+      "B001EYUSTY",
+      "B00KIWEMIG",
+      "B0718YCJJB",
+      "B0006GBD04",
+      "B002W8D0EQ",
+      "B00L3UUPS",
+      "B00PJMJ924",
+      "B001CZG42U"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01IC2A28C",
+        "reason": "Popular Nintendo game bundle"
+      },
+      {
+        "item_id": "B006VR663G",
+        "reason": "Classic Nintendo game"
+      },
+      {
+        "item_id": "B00PJMJ924",
+        "reason": "Compatible with Nintendo systems"
+      },
+      {
+        "item_id": "B004K6LQAS",
+        "reason": "Storage for Nintendo games"
+      },
+      {
+        "item_id": "B0718YCJJB",
+        "reason": "New Nintendo Switch game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3833,
+    "completion_tokens": 316
+  }
+}

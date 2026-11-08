@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00ZMBLKPG",
+      "B002JTX87C",
+      "B000GA6YFO",
+      "B000AYFPKQ",
+      "B00GR5B5X8",
+      "B00FKLMWXW",
+      "B00WNO48EA",
+      "B00TXOD7ZY",
+      "B0BCKN6Y4X",
+      "B00BLS4EPC",
+      "B00FC4DPBD",
+      "B01MTR9LON",
+      "B07D5JKKQB",
+      "B0B1VCPZ7D",
+      "B07YXL4ZKS",
+      "B000HJOTT2",
+      "B0BG5CGFN8",
+      "B00TXOD7ZY",
+      "B00ZMBLKPG",
+      "B00GR5B5X8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00ZMBLKPG",
+        "reason": "Classic game for Xbox One"
+      },
+      {
+        "item_id": "B002JTX87C",
+        "reason": "Scooby-Doo game interest"
+      },
+      {
+        "item_id": "B000GA6YFO",
+        "reason": "Game Boy Advance classic"
+      },
+      {
+        "item_id": "B000AYFPKQ",
+        "reason": "Police Quest classic collection"
+      },
+      {
+        "item_id": "B00GR5B5X8",
+        "reason": "PC game with adventure elements"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3641,
+    "completion_tokens": 327
+  }
+}

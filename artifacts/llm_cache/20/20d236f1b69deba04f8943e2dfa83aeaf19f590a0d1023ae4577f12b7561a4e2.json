@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003L20IPQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action RPGs, not simulation."
+      },
+      {
+        "item_id": "B004QEV0MI",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys action games like Monster Hunter."
+      },
+      {
+        "item_id": "B0B3JCL874",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game; limited relevance."
+      },
+      {
+        "item_id": "B00000K3X9",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Sonic is nostalgic but not an RPG."
+      },
+      {
+        "item_id": "B004QEWVLC",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar to Saint's Row, action-oriented."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1132,
+    "completion_tokens": 163
+  }
+}

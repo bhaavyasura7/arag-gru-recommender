@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00004WFVZ",
+      "B000AY0S3U",
+      "B00001LDBV",
+      "B000S0C2UI",
+      "B002BU0DPE",
+      "B00005JHDP",
+      "B001EQD0CO",
+      "B000ARW4RU",
+      "B01953YZ0S",
+      "B093V61T2N",
+      "B074ZZ933M",
+      "B00000K57P",
+      "B07DTLDMXD",
+      "B089MV3BYN",
+      "B004IPPET0",
+      "B095WLSXHG",
+      "B081LJHQF1",
+      "B000J49XYXS",
+      "B00005JHDP",
+      "B00004WFVZ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00004WFVZ",
+        "reason": "WWII air combat simulation"
+      },
+      {
+        "item_id": "B000AY0S3U",
+        "reason": "Classic military strategy game"
+      },
+      {
+        "item_id": "B00001LDBV",
+        "reason": "Racing game with combat elements"
+      },
+      {
+        "item_id": "B000S0C2UI",
+        "reason": "Accessory for gaming experience"
+      },
+      {
+        "item_id": "B002BU0DPE",
+        "reason": "Enhances multiplayer communication"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3156,
+    "completion_tokens": 314
+  }
+}

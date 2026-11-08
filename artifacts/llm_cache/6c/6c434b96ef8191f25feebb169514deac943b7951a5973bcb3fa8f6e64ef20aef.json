@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000B6MLS2",
+      "B0133F8F4K",
+      "B001FRTK4O",
+      "B0133F8F4K",
+      "B07MRJ12HX",
+      "B000FRV2UK",
+      "B019WRM1IA",
+      "B075ZPGMJT",
+      "B009D3HSTG",
+      "B001EYUU3I",
+      "B004WIOH4G",
+      "B0046XSJM8",
+      "B00GIK3YAO",
+      "B00AEX81SG",
+      "B00D9EPI38",
+      "B0030H8I4K",
+      "B06XHS6534",
+      "B0046XSJM8",
+      "B001FRTK4O",
+      "B00ZE3616K"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000B6MLS2",
+        "reason": "Rechargeable kit for Xbox 360"
+      },
+      {
+        "item_id": "B07MRJ12HX",
+        "reason": "Repair kit for Joy-Con controllers"
+      },
+      {
+        "item_id": "B001FRTK4O",
+        "reason": "Wired controller for Xbox 360"
+      },
+      {
+        "item_id": "B019WRM1IA",
+        "reason": "Ergonomic Xbox 360 controller"
+      },
+      {
+        "item_id": "B000FRV2UK",
+        "reason": "Classic Zelda game for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3667,
+    "completion_tokens": 332
+  }
+}

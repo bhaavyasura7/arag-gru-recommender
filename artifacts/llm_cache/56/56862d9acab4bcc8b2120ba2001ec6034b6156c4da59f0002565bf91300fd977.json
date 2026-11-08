@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "flight simulation games",
+      "gaming accessories",
+      "Playstation 2 games",
+      "action video games",
+      "joystick controllers"
+    ],
+    "current_intent": "looking for more flight simulation games or accessories",
+    "avoid": [
+      "non-gaming products",
+      "mobile games",
+      "low-quality accessories"
+    ],
+    "summary": "The user enjoys flight simulation games and related accessories, particularly for older consoles like the PS2, and is currently seeking new gaming experiences in that genre."
+  },
+  "usage": {
+    "prompt_tokens": 341,
+    "completion_tokens": 105
+  }
+}

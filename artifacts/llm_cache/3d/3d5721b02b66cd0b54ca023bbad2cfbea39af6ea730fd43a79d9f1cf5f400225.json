@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09PHKJCF3",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Mobile controller, not console specific."
+      },
+      {
+        "item_id": "B08GQNLK7F",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Train simulator, not user’s interest."
+      },
+      {
+        "item_id": "B07HYBZ427",
+        "label": "support",
+        "score": 7,
+        "rationale": "Popular franchise, aligns with gaming interest."
+      },
+      {
+        "item_id": "B003RWSIIY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy game, less relevant to user."
+      },
+      {
+        "item_id": "B08CLP4DWM",
+        "label": "support",
+        "score": 6,
+        "rationale": "Fighting game, appeals to gaming preference."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1339,
+    "completion_tokens": 160
+  }
+}

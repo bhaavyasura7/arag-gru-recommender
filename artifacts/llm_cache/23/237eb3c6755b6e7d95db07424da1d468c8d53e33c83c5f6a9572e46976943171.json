@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0000C6FKA",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox racing games."
+      },
+      {
+        "item_id": "B004EJXSPW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "General racing simulators, not specific."
+      },
+      {
+        "item_id": "B000FW3XOS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC racing game, less relevant."
+      },
+      {
+        "item_id": "B000FUG5VS",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar to user's Xbox racing interests."
+      },
+      {
+        "item_id": "B09MQJBFJQ",
+        "label": "support",
+        "score": 9,
+        "rationale": "Racing wheel enhances Xbox racing experience."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1544,
+    "completion_tokens": 154
+  }
+}

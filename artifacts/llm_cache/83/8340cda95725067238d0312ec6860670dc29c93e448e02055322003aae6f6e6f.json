@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The recommended products align with the user's interest in engaging action-adventure and multiplayer games. Key features include immersive gameplay, enhanced graphics, and cooperative modes, catering to the user's preference for action-packed experiences while avoiding puzzle and simulation genres."
+  },
+  "usage": {
+    "prompt_tokens": 2048,
+    "completion_tokens": 50
+  }
+}

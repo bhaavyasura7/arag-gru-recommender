@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00A6IPHXQ",
+      "B00VRSTQ72",
+      "B00E8CF268",
+      "B073ZC8RNW",
+      "B18MSWGT4C",
+      "B00P1OYN0S",
+      "B00Z9TKRH8",
+      "B01GW8VG7O",
+      "B01L91OUHM",
+      "B002CZ918S",
+      "B00RU5M6FK",
+      "B00242KDGS",
+      "B00ZS1SRO2",
+      "B01HV9WE0Q",
+      "B00CJ9OTNE",
+      "B00MMVNMZL",
+      "B00Z9TKRH8",
+      "B01MSWGT4C",
+      "B00E8CF268",
+      "B00P1OYN0S",
+      "B00Z9TKRH8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00A6IPHXQ",
+        "reason": "Nintendo 3DS console for gaming"
+      },
+      {
+        "item_id": "B00VRSTQ72",
+        "reason": "Controller case for protection"
+      },
+      {
+        "item_id": "B00E8CF268",
+        "reason": "Ergonomic gaming mouse for comfort"
+      },
+      {
+        "item_id": "B073ZC8RNW",
+        "reason": "N64 controller extension cables"
+      },
+      {
+        "item_id": "B01MSWGT4C",
+        "reason": "Popular PS4 game in good condition"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3649,
+    "completion_tokens": 343
+  }
+}

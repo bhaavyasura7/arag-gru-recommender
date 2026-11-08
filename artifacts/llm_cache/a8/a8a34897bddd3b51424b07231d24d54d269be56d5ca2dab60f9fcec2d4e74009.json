@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09K6FVY86",
+      "B076C7M7ZR",
+      "B0B8DG8YRM",
+      "B0009WAEK0",
+      "B19PLMS72",
+      "B07T9MNFD3",
+      "B00005RKXL",
+      "B00006RHLF",
+      "B00008GKFZ",
+      "B000RO0RO8",
+      "B07Q3THC6R",
+      "B001E3VKFG",
+      "B0B5LX9RQV",
+      "B06WW7B61X",
+      "B08H2CJFSS",
+      "B0714FFZD8",
+      "B0009WAEK0",
+      "B00005RKXL",
+      "B00006RHLF",
+      "B00008GKFZ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09K6FVY86",
+        "reason": "Popular story-driven multiplayer game"
+      },
+      {
+        "item_id": "B076C7M7ZR",
+        "reason": "High-quality gaming accessory"
+      },
+      {
+        "item_id": "B0B8DG8YRM",
+        "reason": "Enhances PS5 gaming experience"
+      },
+      {
+        "item_id": "B0009WAEK0",
+        "reason": "Classic multiplayer action game"
+      },
+      {
+        "item_id": "B19PLMS72",
+        "reason": "Useful for PS4 controller charging"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2868,
+    "completion_tokens": 326
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0BPLX2X7C",
+      "B08TTZGK1N",
+      "B09GPF775B",
+      "B18D2R12D6",
+      "B09TH69VNT",
+      "B09WPXBF43",
+      "B09L7NMWWM",
+      "B07YFC8D87",
+      "B00CCEFRQ4",
+      "B00JVIPSZ4",
+      "B000067QD3",
+      "B00005Q5Q5",
+      "B000FRTTJG",
+      "B017W2U26U",
+      "B003AHPA46",
+      "B00E67D096",
+      "B000FRTTJG",
+      "B01NA9M7RK",
+      "B0776CBM1Q",
+      "B09TH69VNT",
+      "B00CCEFRQ4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BPLX2X7C",
+        "reason": "Racing simulator cockpit experience"
+      },
+      {
+        "item_id": "B08TTZGK1N",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B09GPF775B",
+        "reason": "Organizes gaming accessories neatly"
+      },
+      {
+        "item_id": "B18D2R12D6",
+        "reason": "Popular PS3 game title"
+      },
+      {
+        "item_id": "B09TH69VNT",
+        "reason": "Customizable controller grips"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3438,
+    "completion_tokens": 335
+  }
+}

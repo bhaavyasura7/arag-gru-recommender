@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00009YEJY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different gaming system, not Nintendo."
+      },
+      {
+        "item_id": "B00001ZWPB",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo 64 game, aligns with interests."
+      },
+      {
+        "item_id": "B07DJCYNN9",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PlayStation 4 accessory, not relevant."
+      },
+      {
+        "item_id": "B01JO5VKBO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox One accessory, not relevant."
+      },
+      {
+        "item_id": "B0033AH2LE",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, not directly related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1194,
+    "completion_tokens": 161
+  }
+}

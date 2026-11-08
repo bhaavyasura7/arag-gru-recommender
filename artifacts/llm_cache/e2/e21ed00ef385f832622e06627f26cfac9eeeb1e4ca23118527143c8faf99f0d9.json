@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00LCK8GAI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Golf game, not a primary interest."
+      },
+      {
+        "item_id": "B09ZNRY174",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre, not aligned with interests."
+      },
+      {
+        "item_id": "B000I7ZBBI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Golf game, user prefers other genres."
+      },
+      {
+        "item_id": "B0BN6X1BGV",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Different gameplay style, not preferred."
+      },
+      {
+        "item_id": "B07MWYQDWR",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1747,
+    "completion_tokens": 162
+  }
+}

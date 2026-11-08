@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001R5CS0W",
+      "B15D122T41",
+      "B11CTXH6P2",
+      "B004PBPAWS",
+      "B00G94RXCE",
+      "B003TEGSXM",
+      "B07HYW4XMP",
+      "B007DKUB5O",
+      "B004DNWPO4",
+      "B00U2GEVPC",
+      "B00005OBQ9",
+      "B00005NCBA",
+      "B017C2U8A0",
+      "B017D3KOJS",
+      "B00ORY7GVG",
+      "B007IQI8XU",
+      "B08DB8H8M5",
+      "B00005OBQ9",
+      "B004LLC4B2",
+      "B00ABTAZV4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001R5CS0W",
+        "reason": "Popular family-friendly sports game"
+      },
+      {
+        "item_id": "B15D122T41",
+        "reason": "Family-friendly multiplayer game"
+      },
+      {
+        "item_id": "B11CTXH6P2",
+        "reason": "Customizable Xbox One console skin"
+      },
+      {
+        "item_id": "B004PBPAWS",
+        "reason": "Family-friendly RPG on Xbox"
+      },
+      {
+        "item_id": "B00G94RXCE",
+        "reason": "Interactive figure for family gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3405,
+    "completion_tokens": 321
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00ZDNNRB8",
+      "B00DBDPOZ4",
+      "B01GKFPFZS",
+      "B00CMQTUSS",
+      "B07HYCZ68N",
+      "B00U33Q940",
+      "B07J27TFCD",
+      "B01GY35UK6",
+      "B09KNG2LHC",
+      "B07VHHPJBV",
+      "B06XSCN9BX",
+      "B0009Z3MGA",
+      "B00BHRD4BM",
+      "B00K5I323O",
+      "B00DB2BI00",
+      "B0815VFZRL",
+      "B00S7O6R9O",
+      "B0B96YZCK3",
+      "B07HYCZ68N",
+      "B01GKFPFZS",
+      "B00DBDPOZ4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00ZDNNRB8",
+        "reason": "High-quality wireless controller"
+      },
+      {
+        "item_id": "B00DBDPOZ4",
+        "reason": "Rechargeable battery for convenience"
+      },
+      {
+        "item_id": "B01GKFPFZS",
+        "reason": "Advanced controller features"
+      },
+      {
+        "item_id": "B00CMQTUSS",
+        "reason": "Improved wireless controller design"
+      },
+      {
+        "item_id": "B07HYCZ68N",
+        "reason": "Compatible with Xbox accessories"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3628,
+    "completion_tokens": 330
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0716CXJ1R",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different game, same console type."
+      },
+      {
+        "item_id": "B001ELJDUC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, user prefers modern consoles."
+      },
+      {
+        "item_id": "B001BQVXP8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B001EYUTZ2",
+        "label": "support",
+        "score": 8,
+        "rationale": "Same franchise, user enjoys NCAA Football."
+      },
+      {
+        "item_id": "B08N7QBVBJ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Accessory for Xbox One, user owns Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1140,
+    "completion_tokens": 159
+  }
+}

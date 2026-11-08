@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08PCRVN8X",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Nintendo products interest."
+      },
+      {
+        "item_id": "B000AAVPQS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern consoles, not Atari."
+      },
+      {
+        "item_id": "B01CRO22CK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Skin is for PS4, not directly relevant."
+      },
+      {
+        "item_id": "B08B4ZSZ5N",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no Xbox interest shown."
+      },
+      {
+        "item_id": "B001EYUQKK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User's interest in PC games is unclear."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 161
+  }
+}

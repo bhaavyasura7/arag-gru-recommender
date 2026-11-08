@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000E31QEC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers modern gaming, not accessories."
+      },
+      {
+        "item_id": "B011AH9A16",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation games, likes platformers."
+      },
+      {
+        "item_id": "B07PZ8NZSZ",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has PlayStation interest, console upgrade."
+      },
+      {
+        "item_id": "B005TH6BD4",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likes PlayStation 3 games, action genre."
+      },
+      {
+        "item_id": "B09LTXRNCC",
+        "label": "support",
+        "score": 5,
+        "rationale": "User enjoys PlayStation 4 games, action RPG."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1157,
+    "completion_tokens": 167
+  }
+}

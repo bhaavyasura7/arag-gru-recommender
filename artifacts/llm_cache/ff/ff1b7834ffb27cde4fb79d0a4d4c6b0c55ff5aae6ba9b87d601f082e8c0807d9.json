@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "role-playing games",
+      "game of the year editions",
+      "video game compilations",
+      "downloadable content"
+    ],
+    "current_intent": "looking for more engaging video games",
+    "avoid": [
+      "sports games",
+      "puzzle games",
+      "mobile games"
+    ],
+    "summary": "User enjoys immersive action-adventure and RPGs, particularly special editions and compilations, and seeks new gaming experiences."
+  },
+  "usage": {
+    "prompt_tokens": 308,
+    "completion_tokens": 81
+  }
+}

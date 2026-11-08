@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "PlayStation accessories",
+      "Nintendo Switch gear",
+      "gaming controllers",
+      "charging solutions",
+      "thumb grips"
+    ],
+    "current_intent": "looking for gaming accessories for PlayStation and Nintendo Switch",
+    "avoid": [
+      "low-quality products",
+      "overpriced items",
+      "unnecessary gadgets"
+    ],
+    "summary": "User is a gamer focused on enhancing their PlayStation and Nintendo Switch experience with quality accessories."
+  },
+  "usage": {
+    "prompt_tokens": 653,
+    "completion_tokens": 75
+  }
+}

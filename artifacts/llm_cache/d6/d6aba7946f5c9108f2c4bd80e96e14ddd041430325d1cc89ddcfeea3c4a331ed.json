@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B005FDUSTA",
+      "B00917DBUE",
+      "B08D3XL1KF",
+      "B01GY369GA",
+      "B0032C9V7G",
+      "B0017ZIIK6",
+      "B0000D12XI",
+      "B00IPTUJ8G",
+      "B007X5103Q",
+      "B00LMHT560",
+      "B0007MZWQS",
+      "B07624RBWB",
+      "B00DE2W4PK",
+      "B000NDFFFE",
+      "B000066RKC",
+      "B00HVPZP1Q",
+      "B008CP6MA2",
+      "B01GY369GA",
+      "B07F36FWMQ",
+      "B005UI8V6C"
+    ],
+    "reasons": [
+      {
+        "item_id": "B005FDUSTA",
+        "reason": "Highly acclaimed JRPG experience"
+      },
+      {
+        "item_id": "B00917DBUE",
+        "reason": "Challenging action RPG gameplay"
+      },
+      {
+        "item_id": "B08D3XL1KF",
+        "reason": "Includes Dragon Quest character"
+      },
+      {
+        "item_id": "B01GY369GA",
+        "reason": "Enhanced gameplay for Switch"
+      },
+      {
+        "item_id": "B0032C9V7G",
+        "reason": "Immersive storytelling and exploration"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3514,
+    "completion_tokens": 314
+  }
+}

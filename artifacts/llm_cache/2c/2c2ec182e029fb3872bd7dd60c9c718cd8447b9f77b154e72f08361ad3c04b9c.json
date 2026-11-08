@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001ELJE74",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Party game, not preferred genre."
+      },
+      {
+        "item_id": "B00O1CKQW0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B06XX4D2KY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular franchise, shooter genre."
+      },
+      {
+        "item_id": "B004DGIYEG",
+        "label": "support",
+        "score": 7,
+        "rationale": "Unique gameplay, strong narrative."
+      },
+      {
+        "item_id": "B0B9KXTNJY",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Keyboard, not directly related to games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1893,
+    "completion_tokens": 152
+  }
+}

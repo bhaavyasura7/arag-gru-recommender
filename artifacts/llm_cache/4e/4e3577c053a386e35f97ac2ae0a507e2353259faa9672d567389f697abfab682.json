@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo Wii games",
+      "Xbox 360 games",
+      "Xbox One games",
+      "video game accessories",
+      "racing games"
+    ],
+    "current_intent": "Looking for more video games or accessories for Xbox and Wii.",
+    "avoid": [
+      "non-gaming products",
+      "low-rated games",
+      "outdated consoles"
+    ],
+    "summary": "User enjoys gaming, particularly on Xbox and Wii, and seeks high-quality games and accessories."
+  },
+  "usage": {
+    "prompt_tokens": 367,
+    "completion_tokens": 81
+  }
+}

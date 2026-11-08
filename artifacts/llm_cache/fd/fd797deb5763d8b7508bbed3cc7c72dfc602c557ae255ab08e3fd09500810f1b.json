@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002JTX9RQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Racing game, not a strong interest."
+      },
+      {
+        "item_id": "B01N4V7SNP",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming keyboard aligns with gaming interests."
+      },
+      {
+        "item_id": "B08N7PX4WX",
+        "label": "support",
+        "score": 6,
+        "rationale": "Joy-Con grips enhance Nintendo Switch experience."
+      },
+      {
+        "item_id": "B072C3VM5F",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Far Cry series not previously reviewed."
+      },
+      {
+        "item_id": "B000062SSO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Joystick for PC, not a strong preference."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2560,
+    "completion_tokens": 158
+  }
+}

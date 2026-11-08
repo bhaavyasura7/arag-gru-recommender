@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B14D93X3QW",
+      "B0055ES7OW",
+      "B0BNKXX9SP",
+      "B004BDJZCG",
+      "B00005LLSS",
+      "B08ZC8669L",
+      "B016A9B5HG",
+      "B005UFVLJ4",
+      "B000ZEV3U2",
+      "B008MXPKP2",
+      "B007EJYOMU",
+      "B0123D4F56",
+      "B005R40DTM",
+      "B0BBLB1DJN",
+      "B01D93X3QW",
+      "B0876KN5WH",
+      "B01GU9NV0A",
+      "B005UFVLJ4",
+      "B0BBLB1DJN",
+      "B000VL2VQO",
+      "B0BBLB1DJN"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BNKXX9SP",
+        "reason": "Popular Xbox controller accessory"
+      },
+      {
+        "item_id": "B0055ES7OW",
+        "reason": "Essential Kinect sensor mount"
+      },
+      {
+        "item_id": "B14D93X3QW",
+        "reason": "New Xbox controller model"
+      },
+      {
+        "item_id": "B004BDJZCG",
+        "reason": "Classic action-adventure game"
+      },
+      {
+        "item_id": "B00005LLSS",
+        "reason": "Game enhancement tool for PS2"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3504,
+    "completion_tokens": 335
+  }
+}

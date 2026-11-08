@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000035Y1T",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming accessories, not games."
+      },
+      {
+        "item_id": "B00QVLVEAC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in toys."
+      },
+      {
+        "item_id": "B07HK95QL5",
+        "label": "support",
+        "score": 9,
+        "rationale": "Matches user's interest in gaming keyboards."
+      },
+      {
+        "item_id": "B08H1ZNKW9",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B009PJRZUU",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers accessories over video games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1138,
+    "completion_tokens": 159
+  }
+}

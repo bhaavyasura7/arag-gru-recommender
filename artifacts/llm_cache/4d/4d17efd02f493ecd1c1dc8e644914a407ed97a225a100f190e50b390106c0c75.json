@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07TP5RLYJ",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Nintendo Switch interests."
+      },
+      {
+        "item_id": "B08BCFCXGP",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible replacement for Joycon controllers."
+      },
+      {
+        "item_id": "B07V2B5QYB",
+        "label": "support",
+        "score": 8,
+        "rationale": "Another controller option for Nintendo Switch."
+      },
+      {
+        "item_id": "B0B6ZR18LZ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Full-size grip enhances gaming experience."
+      },
+      {
+        "item_id": "B08NST2F9D",
+        "label": "support",
+        "score": 10,
+        "rationale": "Ultimate controller for Nintendo Switch fans."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2347,
+    "completion_tokens": 156
+  }
+}

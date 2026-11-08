@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B072K63ZPD",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys action video games."
+      },
+      {
+        "item_id": "B003IU1AHQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's interests."
+      },
+      {
+        "item_id": "B001AATQ0Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B075MJLB5B",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Different gaming system preference."
+      },
+      {
+        "item_id": "B0191F6L1G",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for a less favored console."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1006,
+    "completion_tokens": 152
+  }
+}

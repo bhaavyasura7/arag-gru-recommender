@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B087NNPYP3",
+      "B0052WG9II",
+      "B01N7VUOPH",
+      "B000U34SZA",
+      "B019WRM1IA",
+      "B003JBHG90",
+      "B00503E8S2",
+      "B0006B7DXA",
+      "B000021Y1B",
+      "B000TUZCQI",
+      "B000HKMPVA",
+      "B000BC38LA",
+      "B0050SX9I2",
+      "B0000C0D1A",
+      "B06ZYTHKR7",
+      "B0000C0D1A",
+      "B0000C0D1A",
+      "B0000C0D1A",
+      "B0000C0D1A",
+      "B0000C0D1A"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087NNPYP3",
+        "reason": "High-quality Nintendo game edition"
+      },
+      {
+        "item_id": "B0052WG9II",
+        "reason": "Classic Nintendo game experience"
+      },
+      {
+        "item_id": "B01N7VUOPH",
+        "reason": "Popular RPG with high ratings"
+      },
+      {
+        "item_id": "B000U34SZA",
+        "reason": "Essential charging dock for Switch"
+      },
+      {
+        "item_id": "B019WRM1IA",
+        "reason": "Xbox controller for enhanced gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3639,
+    "completion_tokens": 325
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00YTUZF34",
+      "B018D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D",
+      "B15D1D1D"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00YTUZF34",
+        "reason": "High-quality action RPG experience"
+      },
+      {
+        "item_id": "B15D1D1D",
+        "reason": "Immersive gaming headset"
+      },
+      {
+        "item_id": "B15D1D1D",
+        "reason": "PlayStation exclusive game"
+      },
+      {
+        "item_id": "B15D1D1D",
+        "reason": "Subscription gaming service"
+      },
+      {
+        "item_id": "B15D1D1D",
+        "reason": "Enhances gaming setup"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3864,
+    "completion_tokens": 331
+  }
+}

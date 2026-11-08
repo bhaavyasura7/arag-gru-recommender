@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B001IVIZCK",
+      "B008U4QPJI",
+      "B000FAMQ3Y",
+      "B019VURSEG",
+      "B000ENW5W4",
+      "B0058LLJL0",
+      "B00002SUV0",
+      "B0000AZVVT",
+      "B00115CNMG",
+      "B07NSFRG7W",
+      "B001IVIZCK",
+      "B07YGTBD3V",
+      "B01M3306ND",
+      "B000FAMQ3Y",
+      "B0000AZVVT",
+      "B00115CNMG",
+      "B07K9BTSLB",
+      "B099JP9NQZ",
+      "B00002SUV0",
+      "B0000AZVVT",
+      "B0822DFC26"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001IVIZCK",
+        "reason": "Classic RPG with rich storytelling"
+      },
+      {
+        "item_id": "B008U4QPJI",
+        "reason": "Latest Final Fantasy experience"
+      },
+      {
+        "item_id": "B000FAMQ3Y",
+        "reason": "Unique action RPG gameplay"
+      },
+      {
+        "item_id": "B019VURSEG",
+        "reason": "Classic point-and-click adventure"
+      },
+      {
+        "item_id": "B000ENW5W4",
+        "reason": "Classic MMORPG with deep lore"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2316,
+    "completion_tokens": 318
+  }
+}

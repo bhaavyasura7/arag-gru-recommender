@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07K3KHFSY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different PlayStation system"
+      },
+      {
+        "item_id": "B0C5K4M7WJ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with PlayStation, enhances gaming experience"
+      },
+      {
+        "item_id": "B0053B66KE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo game, user prefers PlayStation titles"
+      },
+      {
+        "item_id": "B00NY7H0T0",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox game, aligns with action game interest"
+      },
+      {
+        "item_id": "B001Q24UAM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Casual games, not aligned with user's preferences"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1334,
+    "completion_tokens": 164
+  }
+}

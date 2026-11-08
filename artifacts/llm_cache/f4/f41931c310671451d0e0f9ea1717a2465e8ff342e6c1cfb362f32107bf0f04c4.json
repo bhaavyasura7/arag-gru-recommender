@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B005H3CZBW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers modern gaming accessories."
+      },
+      {
+        "item_id": "B08F5T3F9Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no VR gaming history."
+      },
+      {
+        "item_id": "B07VRMM3VM",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys audio accessories for gaming."
+      },
+      {
+        "item_id": "B09DL5PMWL",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no Nintendo 3DS games."
+      },
+      {
+        "item_id": "B00020BV1A",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User has no Xbox gaming history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1372,
+    "completion_tokens": 156
+  }
+}

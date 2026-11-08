@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00VR33XVC",
+      "B00000DMAG",
+      "B085751BTH",
+      "B001EYUOAW",
+      "B06YF64SVV",
+      "B093GVW6WD",
+      "B07XZS4NB9",
+      "B000F1UIPG",
+      "B0000DJX7H",
+      "B0057ETTZG",
+      "B07JFTWDY9",
+      "B07T8JGPTT",
+      "B09BJL9B8C",
+      "B006VE454Q",
+      "B00BIIE3B0",
+      "B07YF64SVV",
+      "B07VQ6YNQZ",
+      "B08M3BS9ZT",
+      "B09YYHSK2V",
+      "B07T8JGPTT",
+      "B00GHQZVM8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00VR33XVC",
+        "reason": "Includes classic Zelda game"
+      },
+      {
+        "item_id": "B00000DMAG",
+        "reason": "Classic RPG aligns with interests"
+      },
+      {
+        "item_id": "B085751BTH",
+        "reason": "Mini NES with built-in games"
+      },
+      {
+        "item_id": "B001EYUOAW",
+        "reason": "Retro theme park simulation game"
+      },
+      {
+        "item_id": "B06YF64SVV",
+        "reason": "Wireless controller for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3584,
+    "completion_tokens": 332
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming accessories",
+      "headsets",
+      "controller grips",
+      "PlayStation products",
+      "PC gaming gear"
+    ],
+    "current_intent": "looking for gaming accessories for PlayStation.",
+    "avoid": [
+      "low-quality products",
+      "wired headsets",
+      "non-gaming items"
+    ],
+    "summary": "The user is a gamer focused on enhancing their PlayStation experience with quality accessories, particularly headsets and controller grips."
+  },
+  "usage": {
+    "prompt_tokens": 356,
+    "completion_tokens": 94
+  }
+}

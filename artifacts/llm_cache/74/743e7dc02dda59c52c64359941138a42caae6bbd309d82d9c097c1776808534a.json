@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002GC5YMY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B001E8WQKY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in Xbox."
+      },
+      {
+        "item_id": "B001EYUW72",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo and PlayStation."
+      },
+      {
+        "item_id": "B01GY35W22",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 4 games."
+      },
+      {
+        "item_id": "B00005NN5G",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User may like classic skateboarding games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1316,
+    "completion_tokens": 158
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01DAL16WG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B0B844ZBS9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Compatible with Nintendo Switch, user may like."
+      },
+      {
+        "item_id": "B0831TDP3B",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on simpler, casual games."
+      },
+      {
+        "item_id": "B004MNDF80",
+        "label": "support",
+        "score": 7,
+        "rationale": "Supports Nintendo Wii, aligns with interests."
+      },
+      {
+        "item_id": "B0BD3DV3SJ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances gaming experience on Nintendo Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1242,
+    "completion_tokens": 159
+  }
+}

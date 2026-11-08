@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "classic video games",
+      "Nintendo titles",
+      "PlayStation games",
+      "racing games",
+      "JRPGs"
+    ],
+    "current_intent": "looking for more engaging video games",
+    "avoid": [
+      "mobile games",
+      "first-person shooters",
+      "sports games"
+    ],
+    "summary": "User enjoys classic and engaging video games, particularly from Nintendo and PlayStation, and is currently seeking new titles to play."
+  },
+  "usage": {
+    "prompt_tokens": 308,
+    "completion_tokens": 77
+  }
+}

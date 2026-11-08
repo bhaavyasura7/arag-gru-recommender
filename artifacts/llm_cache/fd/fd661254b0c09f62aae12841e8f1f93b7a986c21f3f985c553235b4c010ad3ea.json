@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "fighting games",
+      "open-world games",
+      "multiplayer online games",
+      "anime-based games"
+    ],
+    "current_intent": "looking for new video game releases",
+    "avoid": [
+      "puzzle games",
+      "sports games",
+      "mobile games"
+    ],
+    "summary": "User enjoys action and fighting video games, particularly those with strong narratives and multiplayer options, and is currently seeking new titles to play."
+  },
+  "usage": {
+    "prompt_tokens": 357,
+    "completion_tokens": 82
+  }
+}

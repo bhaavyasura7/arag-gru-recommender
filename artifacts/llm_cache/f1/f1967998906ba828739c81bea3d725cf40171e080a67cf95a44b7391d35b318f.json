@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00004U49W",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action RPGs, not racing."
+      },
+      {
+        "item_id": "B00005NCA3",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User's interests are not in racing games."
+      },
+      {
+        "item_id": "B000FW3XOS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers RPGs over racing games."
+      },
+      {
+        "item_id": "B00FB5Q4ZE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User's history lacks racing game interest."
+      },
+      {
+        "item_id": "B001EYUY9I",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User favors RPGs, not racing games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2361,
+    "completion_tokens": 169
+  }
+}

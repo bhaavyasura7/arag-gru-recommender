@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B078JK6B2T",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B08L74DB2M",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo games."
+      },
+      {
+        "item_id": "B07BF3KC6Y",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PC accessory, not console related."
+      },
+      {
+        "item_id": "B015ZWKLWO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PS4 accessory, not Nintendo related."
+      },
+      {
+        "item_id": "B07TZ6QV3L",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo game aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1586,
+    "completion_tokens": 154
+  }
+}

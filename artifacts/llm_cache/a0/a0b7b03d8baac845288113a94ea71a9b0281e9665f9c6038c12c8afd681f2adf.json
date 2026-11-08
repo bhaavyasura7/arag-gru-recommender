@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B075MV4VF4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not in user's preferred genres."
+      },
+      {
+        "item_id": "B07RQP5S8C",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B001ELJEH4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar action genre as favorites."
+      },
+      {
+        "item_id": "B06ZXXHMS7",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular shooter, aligns with interests."
+      },
+      {
+        "item_id": "B001EYUY7K",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Classic game, not recent or preferred."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1718,
+    "completion_tokens": 151
+  }
+}

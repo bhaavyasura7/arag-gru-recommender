@@ -1,0 +1,30 @@
+{
+  "content": {
+    "ranking": [
+      "B00VULDPCI",
+      "B00RBVFA92",
+      "B00N34CK5I",
+      "B007VTVRFA",
+      "B006HZA8EA",
+      "B00QO4NAOO",
+      "B014T4J5HQ",
+      "B00JZ4DG95",
+      "B00P2J6HSR",
+      "B000E7ORP8",
+      "B00002SVER",
+      "B006JKASAC",
+      "B071NFKBP7",
+      "B0BM93GWF1",
+      "B000SJ61BK",
+      "B00000IM2T",
+      "B00002SVER",
+      "B006HZA8EA",
+      "B007VTVRFA",
+      "B00RBVFA92"
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3784,
+    "completion_tokens": 147
+  }
+}

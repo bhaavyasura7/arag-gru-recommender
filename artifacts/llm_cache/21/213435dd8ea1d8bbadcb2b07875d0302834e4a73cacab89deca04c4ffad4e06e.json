@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004LVO4M4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B005CELMWY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B002LLRLMQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox games, Marvel theme."
+      },
+      {
+        "item_id": "B07X1HF3V6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B001G78TRW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User may like simulation games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1186,
+    "completion_tokens": 161
+  }
+}

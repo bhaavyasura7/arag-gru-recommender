@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08FLLFGO8",
+      "B01M5GG9I7",
+      "B07YBXFDYN",
+      "B0BRR1CHDL",
+      "B000N5Z2L4",
+      "B00XCRT0GS",
+      "B00IEZ6H4G",
+      "B018P6KIFY",
+      "B0053B66KE",
+      "B00U33Q940",
+      "B00HAZ6D2M",
+      "B00002SVFM",
+      "B07PVJ5VCC",
+      "B0771R1X9L",
+      "B0009VXBAQ",
+      "B087SHFL9B",
+      "B00FLLFGO8",
+      "B00B9775W4",
+      "B016P6KIFY",
+      "B00XCRT0GS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08FLLFGO8",
+        "reason": "Popular game bundle for Xbox"
+      },
+      {
+        "item_id": "B01M5GG9I7",
+        "reason": "Essential Xbox controller accessory"
+      },
+      {
+        "item_id": "B07YBXFDYN",
+        "reason": "Highly rated VR game for PS4"
+      },
+      {
+        "item_id": "B0BRR1CHDL",
+        "reason": "Quality gaming mouse for PC"
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "reason": "Xbox Live membership for online gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3772,
+    "completion_tokens": 334
+  }
+}

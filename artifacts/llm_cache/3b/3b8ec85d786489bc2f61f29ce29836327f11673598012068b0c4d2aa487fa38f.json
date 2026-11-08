@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003V1WHOM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games only."
+      },
+      {
+        "item_id": "B08V8Z9Y7S",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related to Nintendo Switch accessories."
+      },
+      {
+        "item_id": "B00GD8PO68",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Japanese game, not directly relevant."
+      },
+      {
+        "item_id": "B00EUT0BQU",
+        "label": "support",
+        "score": 6,
+        "rationale": "Related to Nintendo system repair."
+      },
+      {
+        "item_id": "B08PC9DKXY",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Focus on Xbox, not Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1025,
+    "completion_tokens": 155
+  }
+}

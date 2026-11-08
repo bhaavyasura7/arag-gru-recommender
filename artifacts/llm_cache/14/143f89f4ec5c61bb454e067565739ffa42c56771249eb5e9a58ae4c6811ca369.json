@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00GGURCU4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox and Nintendo products."
+      },
+      {
+        "item_id": "B002I0K7DK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in PS3 games."
+      },
+      {
+        "item_id": "B002I08VDI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on Xbox and Nintendo systems."
+      },
+      {
+        "item_id": "B001F8188Y",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in DS Lite."
+      },
+      {
+        "item_id": "B0013OM528",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for PS3, not user’s main focus."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1567,
+    "completion_tokens": 167
+  }
+}

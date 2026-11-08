@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BRSZ7VL8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers Nintendo games, not PlayStation."
+      },
+      {
+        "item_id": "B0BNKQ861F",
+        "label": "support",
+        "score": 9,
+        "rationale": "User likes high-DPI gaming mice."
+      },
+      {
+        "item_id": "B002ACOJTY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no Wii interest shown."
+      },
+      {
+        "item_id": "B003BLUA64",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no Wii interest shown."
+      },
+      {
+        "item_id": "B0136JP9OS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers Nintendo over Xbox products."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2024,
+    "completion_tokens": 154
+  }
+}

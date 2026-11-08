@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B008MXPKP2",
+      "B004LLHFAW",
+      "B006ZZCCDP7",
+      "B00DTWEOZ8",
+      "B005EOOTHW",
+      "B0050SX4CI",
+      "B019DCYWI96",
+      "B0055Q175G",
+      "B0000296ZD",
+      "B0080CAOYM",
+      "B0141736OO",
+      "B003O6EE4U",
+      "B07P6MD9B7",
+      "B01GRY9VIY",
+      "B00083G5BM",
+      "B07QVTXDMF",
+      "B00JE3WYIU",
+      "B01DCYWI96",
+      "B06ZZCCDP7",
+      "B004BH5R9W"
+    ],
+    "reasons": [
+      {
+        "item_id": "B008MXPKP2",
+        "reason": "Intense first-person shooter experience"
+      },
+      {
+        "item_id": "B004LLHFAW",
+        "reason": "Popular historical shooter game"
+      },
+      {
+        "item_id": "B006ZZCCDP7",
+        "reason": "Star Wars FPS with multiplayer"
+      },
+      {
+        "item_id": "B00DTWEOZ8",
+        "reason": "Fast-paced multiplayer action"
+      },
+      {
+        "item_id": "B005EOOTHW",
+        "reason": "High-quality gaming headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3367,
+    "completion_tokens": 313
+  }
+}

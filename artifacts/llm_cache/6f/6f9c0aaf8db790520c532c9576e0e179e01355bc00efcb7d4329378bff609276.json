@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B078YF9KW1",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "MMORPGs not previously rated highly."
+      },
+      {
+        "item_id": "B08ZTZ7YLH",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Survival elements not strongly aligned."
+      },
+      {
+        "item_id": "B000WKUNIW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Unknown RPG, limited user interest."
+      },
+      {
+        "item_id": "B000RWHR5W",
+        "label": "support",
+        "score": 6,
+        "rationale": "Includes RPG elements user enjoys."
+      },
+      {
+        "item_id": "1616615435",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Tabletop RPG not aligned with video games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2115,
+    "completion_tokens": 154
+  }
+}

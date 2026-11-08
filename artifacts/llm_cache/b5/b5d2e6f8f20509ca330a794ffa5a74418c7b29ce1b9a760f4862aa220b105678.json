@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B007BK7J2Y",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo systems."
+      },
+      {
+        "item_id": "B00X6KXRP6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no PS4 games."
+      },
+      {
+        "item_id": "B00005V4NS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo systems."
+      },
+      {
+        "item_id": "B00004U1R2",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys classic Nintendo games."
+      },
+      {
+        "item_id": "B004LWVHIM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User may like party games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1058,
+    "completion_tokens": 153
+  }
+}

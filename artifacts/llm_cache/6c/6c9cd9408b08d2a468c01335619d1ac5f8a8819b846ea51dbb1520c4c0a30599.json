@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo games",
+      "Pokémon series",
+      "Action-adventure games",
+      "Classic video games",
+      "Collector's editions"
+    ],
+    "current_intent": "Looking for new video games to play, especially in the action-adventure genre.",
+    "avoid": [
+      "Mobile games",
+      "Sports games",
+      "Puzzle games"
+    ],
+    "summary": "The user enjoys classic Nintendo and Pokémon games, seeks new action-adventure titles, and prefers collector's editions."
+  },
+  "usage": {
+    "prompt_tokens": 957,
+    "completion_tokens": 84
+  }
+}

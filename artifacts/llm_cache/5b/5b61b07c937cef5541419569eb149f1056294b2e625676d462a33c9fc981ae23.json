@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "Nintendo Switch",
+      "PlayStation 4",
+      "multiplayer racing games",
+      "game controllers"
+    ],
+    "current_intent": "looking for new video games or gaming accessories",
+    "avoid": [
+      "mobile games",
+      "sports games",
+      "horror games"
+    ],
+    "summary": "User enjoys high-quality video games on PS4 and Nintendo Switch, particularly action-adventure and racing genres, and is currently seeking new gaming experiences."
+  },
+  "usage": {
+    "prompt_tokens": 318,
+    "completion_tokens": 86
+  }
+}

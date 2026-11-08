@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001H8DUB0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has PS3 controller experience."
+      },
+      {
+        "item_id": "B000NKNB4Y",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has PC gaming interest."
+      },
+      {
+        "item_id": "B07GWJN5YW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User prefers PC and PS3 games."
+      },
+      {
+        "item_id": "B00KQHHDZC",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys soccer games on PC."
+      },
+      {
+        "item_id": "B005IU8A5O",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "User has no Xbox 360 interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1235,
+    "completion_tokens": 156
+  }
+}

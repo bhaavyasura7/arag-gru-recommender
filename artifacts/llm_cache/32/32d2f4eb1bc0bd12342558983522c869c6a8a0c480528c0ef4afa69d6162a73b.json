@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "gaming accessories",
+      "Nintendo products",
+      "controller charging systems",
+      "dance games"
+    ],
+    "current_intent": "looking for new video game accessories or games",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "overpriced accessories"
+    ],
+    "summary": "User enjoys video games and accessories, particularly for Nintendo and Xbox, and seeks quality products to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 335,
+    "completion_tokens": 78
+  }
+}

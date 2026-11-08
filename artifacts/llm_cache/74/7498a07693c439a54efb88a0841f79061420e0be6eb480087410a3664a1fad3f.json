@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00GBCLG0E",
+      "B017W16ZDK",
+      "B004HGFZYO",
+      "B01LXC1QL0",
+      "B0077LRPSA",
+      "B00K0NV5J2",
+      "B006QRNKOO",
+      "B006PP404Q",
+      "B075MK6THW",
+      "B00005NN5G",
+      "B000FQ9QVI",
+      "B0001AO01Y",
+      "B000VJRU44",
+      "B00BER9YFA",
+      "B00KIWEMIG",
+      "B009C9DPUW",
+      "B08JHZHWZ3",
+      "B0001AO01Y",
+      "B006MQH644",
+      "B00GBCLG0E"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00GBCLG0E",
+        "reason": "Highly rated zombie game"
+      },
+      {
+        "item_id": "B017W16ZDK",
+        "reason": "Narrative-driven RPG elements"
+      },
+      {
+        "item_id": "B004HGFZYO",
+        "reason": "Action-packed racing experience"
+      },
+      {
+        "item_id": "B01LXC1QL0",
+        "reason": "Engaging fantasy narrative"
+      },
+      {
+        "item_id": "B0077LRPSA",
+        "reason": "Intense action and storytelling"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3827,
+    "completion_tokens": 316
+  }
+}

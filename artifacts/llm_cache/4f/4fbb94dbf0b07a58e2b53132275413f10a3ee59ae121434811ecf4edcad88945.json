@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Xbox accessories",
+      "gaming headsets",
+      "controller skins",
+      "gaming peripherals",
+      "high-quality audio"
+    ],
+    "current_intent": "Looking for high-quality gaming accessories.",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "overpriced accessories"
+    ],
+    "summary": "User is a gaming enthusiast focused on Xbox accessories and high-quality audio gear, seeking to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 444,
+    "completion_tokens": 92
+  }
+}

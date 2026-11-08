@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00V2LZ45M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action RPGs, not horror."
+      },
+      {
+        "item_id": "B00CMC7AXY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action RPGs, not horror."
+      },
+      {
+        "item_id": "B0BSKR3G4F",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action RPGs, not horror."
+      },
+      {
+        "item_id": "B00005Q5GY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action RPGs, not horror."
+      },
+      {
+        "item_id": "B007LS8N6W",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action RPGs, not horror."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1992,
+    "completion_tokens": 175
+  }
+}

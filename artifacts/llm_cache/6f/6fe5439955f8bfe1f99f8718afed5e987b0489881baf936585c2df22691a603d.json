@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Assassin's Creed series",
+      "Nintendo Switch accessories",
+      "Xbox gaming",
+      "wireless controllers",
+      "gaming chargers"
+    ],
+    "current_intent": "Looking for new gaming accessories or games.",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "overpriced accessories"
+    ],
+    "summary": "The user enjoys gaming, particularly with Assassin's Creed and Nintendo Switch, and seeks reliable accessories to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 98
+  }
+}

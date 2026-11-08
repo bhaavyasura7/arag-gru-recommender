@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001BATGEE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action RPGs, not Mahjong."
+      },
+      {
+        "item_id": "B07YGTBD3V",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys action RPGs like Borderlands."
+      },
+      {
+        "item_id": "B009VURSEG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Point & Click adventure may interest user."
+      },
+      {
+        "item_id": "B01EX6NNSM",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes Final Fantasy series games."
+      },
+      {
+        "item_id": "1616618698",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers video games over card games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1919,
+    "completion_tokens": 158
+  }
+}

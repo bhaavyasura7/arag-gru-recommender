@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09NQWKKMJ",
+      "B00CISMP8M",
+      "B20N7QBVBJ",
+      "B003FMTZSI",
+      "B00Z9TJZAI",
+      "B003HKS156",
+      "B0079V4GK8",
+      "B001EYUTZ2",
+      "B001BQVXP8",
+      "B00TDMBUMI",
+      "B00BGAA3S2",
+      "B014GWNTCI",
+      "B0728CJKZS",
+      "B00RN7QTF8",
+      "B00YDV70NW",
+      "B00C2Y9QX1H",
+      "B00CISMP8M",
+      "B001ELJDUC",
+      "B00BGAA3S2",
+      "B00C2Y9QX1H"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09NQWKKMJ",
+        "reason": "High-quality gaming accessory"
+      },
+      {
+        "item_id": "B00CISMP8M",
+        "reason": "Popular sports game for Xbox"
+      },
+      {
+        "item_id": "B20N7QBVBJ",
+        "reason": "Essential charging stand for Xbox"
+      },
+      {
+        "item_id": "B003FMTZSI",
+        "reason": "Gaming mouse for enhanced performance"
+      },
+      {
+        "item_id": "B00Z9TJZAI",
+        "reason": "Classic game collection for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3550,
+    "completion_tokens": 328
+  }
+}

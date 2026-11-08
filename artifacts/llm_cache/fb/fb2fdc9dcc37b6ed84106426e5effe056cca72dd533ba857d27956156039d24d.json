@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B071H7XCPV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not a game."
+      },
+      {
+        "item_id": "B00006LELH",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre, positive gaming experience."
+      },
+      {
+        "item_id": "B001P1ZE68",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different gameplay style, not a strong match."
+      },
+      {
+        "item_id": "B07K8N1TCR",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Visual novel, different genre preference."
+      },
+      {
+        "item_id": "B003O680ZY",
+        "label": "support",
+        "score": 7,
+        "rationale": "Racing game, aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1366,
+    "completion_tokens": 155
+  }
+}

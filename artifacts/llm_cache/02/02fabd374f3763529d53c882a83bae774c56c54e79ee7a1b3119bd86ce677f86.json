@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00KQXKUFQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not sports."
+      },
+      {
+        "item_id": "B002JTX7KA",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys action-packed video games."
+      },
+      {
+        "item_id": "B001EYUNOO",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likes dark, narrative-driven games."
+      },
+      {
+        "item_id": "B00MAPYKPO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Storage device, not a game."
+      },
+      {
+        "item_id": "B01N7XUY14",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Platformer, less relevant to user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1194,
+    "completion_tokens": 157
+  }
+}

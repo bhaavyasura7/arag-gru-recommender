@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B086YVBCSM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B007OAGLSO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, not Nintendo related."
+      },
+      {
+        "item_id": "B00IPTUJ8G",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a Nintendo game."
+      },
+      {
+        "item_id": "B017QU5KLK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox game, user prefers Nintendo."
+      },
+      {
+        "item_id": "B004L4G8UC",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo game aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1186,
+    "completion_tokens": 154
+  }
+}

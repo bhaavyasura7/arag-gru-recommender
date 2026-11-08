@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00YXO5X4M",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances gaming experience on Xbox One."
+      },
+      {
+        "item_id": "B004K6LQ9E",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Nintendo 3DS, not core games."
+      },
+      {
+        "item_id": "B0062UOBW0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Skylanders not aligned with user interests."
+      },
+      {
+        "item_id": "B001EYUPEC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B00O9GW8VK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Classic controller for Nintendo games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1179,
+    "completion_tokens": 161
+  }
+}

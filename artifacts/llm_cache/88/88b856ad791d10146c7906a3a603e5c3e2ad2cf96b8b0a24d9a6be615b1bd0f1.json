@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B15KBNB7K2",
+      "B06ZZCCDP7",
+      "B18TTT1M3B",
+      "B12M7BZF4G",
+      "B0B785XS4Q",
+      "B003XDJEIA",
+      "B00004WGW1",
+      "B07M7BZF4G",
+      "B09B9KJQDT",
+      "B002BZ11EG",
+      "B002LCA4K6",
+      "B001HX3KVA",
+      "B00VTROHIY",
+      "B071J5HWZS",
+      "B0CHM4DQKZ",
+      "B004EEUUMG",
+      "B001G7POMA",
+      "B00008NRMC",
+      "B20BYADRJU",
+      "B002BZ11EG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B06ZZCCDP7",
+        "reason": "Popular first-person shooter game"
+      },
+      {
+        "item_id": "B18TTT1M3B",
+        "reason": "High-quality gaming controller"
+      },
+      {
+        "item_id": "B12M7BZF4G",
+        "reason": "Compatible with multiple consoles"
+      },
+      {
+        "item_id": "B0B785XS4Q",
+        "reason": "Ergonomic controller for FPS"
+      },
+      {
+        "item_id": "B003XDJEIA",
+        "reason": "Multiplayer hunting game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3183,
+    "completion_tokens": 324
+  }
+}

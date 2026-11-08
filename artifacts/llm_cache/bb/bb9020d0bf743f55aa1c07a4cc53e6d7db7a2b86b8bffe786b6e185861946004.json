@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07HMBG1MQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Dreamcast not in user history."
+      },
+      {
+        "item_id": "B09NT4VC71",
+        "label": "support",
+        "score": 8,
+        "rationale": "User owns Nintendo Switch products."
+      },
+      {
+        "item_id": "B0015QBY2G",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Nintendo DS not frequently mentioned."
+      },
+      {
+        "item_id": "B0002IQCL6",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PlayStation 2 games not in history."
+      },
+      {
+        "item_id": "B096P6D385",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Flight sim controller unrelated to interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2507,
+    "completion_tokens": 154
+  }
+}

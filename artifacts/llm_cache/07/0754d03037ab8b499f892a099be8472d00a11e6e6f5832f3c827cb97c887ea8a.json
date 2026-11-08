@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B018RKQXEQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Retro games not in user history."
+      },
+      {
+        "item_id": "B00009YXDA",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys fighting games like Fight Night."
+      },
+      {
+        "item_id": "B07LB9X8BH",
+        "label": "support",
+        "score": 8,
+        "rationale": "Includes classic games user likely enjoys."
+      },
+      {
+        "item_id": "B00026I0EK",
+        "label": "support",
+        "score": 9,
+        "rationale": "User rated Madden NFL 2005 highly."
+      },
+      {
+        "item_id": "B001EYUSG2",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys boxing games like Fight Night."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1480,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming accessories",
+      "retro gaming",
+      "controller adapters",
+      "wireless devices",
+      "smart TV peripherals"
+    ],
+    "current_intent": "looking for more retro gaming accessories",
+    "avoid": [
+      "modern gaming consoles",
+      "non-gaming electronics",
+      "overly complex devices"
+    ],
+    "summary": "User is a retro gaming enthusiast focused on enhancing their gaming setup with compatible accessories and controllers."
+  },
+  "usage": {
+    "prompt_tokens": 396,
+    "completion_tokens": 73
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07PPPMBB3",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo, not PlayStation."
+      },
+      {
+        "item_id": "B0000ZUGY0",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no PC game interest."
+      },
+      {
+        "item_id": "B0007V46I4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a PSP."
+      },
+      {
+        "item_id": "B09577GRRZ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory not directly related to interests."
+      },
+      {
+        "item_id": "B00030GK56",
+        "label": "support",
+        "score": 6,
+        "rationale": "Classic game aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1105,
+    "completion_tokens": 158
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B3RKNSM6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers console games, not VR."
+      },
+      {
+        "item_id": "B004IZL5FM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on console, not PC games."
+      },
+      {
+        "item_id": "B005K1SI8A",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PlayStation and Xbox games."
+      },
+      {
+        "item_id": "B0050SX89W",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Augmented reality not in user history."
+      },
+      {
+        "item_id": "B004OL4980",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes PlayStation 3 games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1206,
+    "completion_tokens": 160
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07NZ9KM4F",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Wii accessories interest."
+      },
+      {
+        "item_id": "B01N4JYY1H",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Xbox games and controllers."
+      },
+      {
+        "item_id": "B00001OX3X",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers console games over handheld."
+      },
+      {
+        "item_id": "B004DGIYEG",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys PC games with unique mechanics."
+      },
+      {
+        "item_id": "B000XXC0CK",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User has no flight simulator interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1609,
+    "completion_tokens": 153
+  }
+}

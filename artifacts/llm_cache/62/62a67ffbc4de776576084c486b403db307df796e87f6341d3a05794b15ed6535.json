@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00BRQN2EM",
+      "B001COVME6",
+      "B07RMZ31Z2",
+      "B14I6RD5I2",
+      "B00JDP1AWU",
+      "B00ZKZYKMO",
+      "B00ZQYZTP6",
+      "B000NI8WEA",
+      "B002DPUJCE",
+      "B0061PAZUS",
+      "B00L2FGSBM",
+      "B0002IQCLG",
+      "B00FZ45GLT",
+      "B001EYUQTQ",
+      "B00N1V12D4",
+      "B00ZKZYKMO",
+      "B00BRQN2EM",
+      "B00ZQYZTP6",
+      "B000NI8WEA",
+      "B00L2FGSBM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00BRQN2EM",
+        "reason": "Engaging story-driven gameplay"
+      },
+      {
+        "item_id": "B001COVME6",
+        "reason": "RPG with immersive elements"
+      },
+      {
+        "item_id": "B07RMZ31Z2",
+        "reason": "High-quality graphics and gameplay"
+      },
+      {
+        "item_id": "B01I6RD5I2",
+        "reason": "Fun, engaging single-player experience"
+      },
+      {
+        "item_id": "B00JDP1AWU",
+        "reason": "Strategic gameplay with depth"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3653,
+    "completion_tokens": 330
+  }
+}

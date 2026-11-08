@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07DJ6D4ZY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox controllers in history."
+      },
+      {
+        "item_id": "B08J7Q2J83",
+        "label": "support",
+        "score": 8,
+        "rationale": "User prefers wired controllers for Xbox."
+      },
+      {
+        "item_id": "B088NLT5WL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has PC gaming interest but no history."
+      },
+      {
+        "item_id": "B08K7G4TJ1",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Generic PC controller, no specific interest."
+      },
+      {
+        "item_id": "B07HHWB23K",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has PDP controllers in history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1506,
+    "completion_tokens": 158
+  }
+}

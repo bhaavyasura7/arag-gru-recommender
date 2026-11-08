@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0C5DHFC6N",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming headset for PC and consoles."
+      },
+      {
+        "item_id": "B0899NBQVV",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Case for Nintendo Switch controllers only."
+      },
+      {
+        "item_id": "B086BN4W3V",
+        "label": "support",
+        "score": 6,
+        "rationale": "Mechanical keyboard for PC gaming."
+      },
+      {
+        "item_id": "B00AR8FPRS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to gaming or electronics."
+      },
+      {
+        "item_id": "B004HD62IU",
+        "label": "support",
+        "score": 5,
+        "rationale": "PC game aligns with gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1359,
+    "completion_tokens": 153
+  }
+}

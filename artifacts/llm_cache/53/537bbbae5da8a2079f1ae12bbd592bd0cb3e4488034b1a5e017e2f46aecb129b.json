@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07WXKQWTV",
+      "B00004TBA7",
+      "B00020DGMC",
+      "B00002ST7X",
+      "B003LO2GBS",
+      "B010G4S060",
+      "B08DQDRCGH",
+      "B001ELJFIM",
+      "B09CHLM157",
+      "B07FM4GCRH",
+      "B08R2CZ9VD",
+      "B07CGCL449",
+      "B07VYWG25L",
+      "B19X14QMM8",
+      "B19X14QMM8",
+      "B08R2CZ9VD",
+      "B07FM4GCRH",
+      "B07CGCL449",
+      "B08DQDRCGH",
+      "B00004TBA7"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07WXKQWTV",
+        "reason": "Nostalgic retro gaming console"
+      },
+      {
+        "item_id": "B00004TBA7",
+        "reason": "Classic PC game experience"
+      },
+      {
+        "item_id": "B00020DGMC",
+        "reason": "Xbox Live access for multiplayer"
+      },
+      {
+        "item_id": "B00002ST7X",
+        "reason": "Retro Sega game title"
+      },
+      {
+        "item_id": "B003LO2GBS",
+        "reason": "Adventure puzzle game appeal"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3635,
+    "completion_tokens": 314
+  }
+}

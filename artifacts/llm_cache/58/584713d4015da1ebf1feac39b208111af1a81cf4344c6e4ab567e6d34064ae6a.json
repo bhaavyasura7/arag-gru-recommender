@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUWDG",
+      "B07HHW8C4V",
+      "B0015Z1I4G",
+      "B00R0ZS9YW",
+      "B087SHFL9B",
+      "B07TN89FGQ",
+      "B00F27JGVA",
+      "B07X1HF3V6",
+      "B001EYUO52",
+      "B0015Z1I4G",
+      "B07KZ6QJTX",
+      "B004RMK4BC",
+      "B00DTY9B0O",
+      "B078GLDBZX",
+      "B01M6C7YE8",
+      "B0043B5SKE",
+      "B008ZXBYJU",
+      "B008L3UUPS",
+      "B07V56JYJ9",
+      "B0015Z1I4G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUWDG",
+        "reason": "Highly rated sports game"
+      },
+      {
+        "item_id": "B07HHW8C4V",
+        "reason": "Includes popular game bundle"
+      },
+      {
+        "item_id": "B0015Z1I4G",
+        "reason": "Fun multiplayer experience"
+      },
+      {
+        "item_id": "B00R0ZS9YW",
+        "reason": "Popular remastered title"
+      },
+      {
+        "item_id": "B087SHFL9B",
+        "reason": "Multiplayer on handheld console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3605,
+    "completion_tokens": 330
+  }
+}

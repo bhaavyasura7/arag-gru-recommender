@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09PH295QR",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to gaming consoles."
+      },
+      {
+        "item_id": "B07N2Z9VZX",
+        "label": "support",
+        "score": 8,
+        "rationale": "PlayStation 2 game aligns with interests."
+      },
+      {
+        "item_id": "B0C9DNXQ3S",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse, not console-specific."
+      },
+      {
+        "item_id": "B08FC58KJX",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "VR accessory, not console-related."
+      },
+      {
+        "item_id": "B07F9R1YT5",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with retro gaming systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1479,
+    "completion_tokens": 158
+  }
+}

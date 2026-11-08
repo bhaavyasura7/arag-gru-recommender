@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0030ADHZW",
+      "B000UQSRRM",
+      "B009GHHJQI",
+      "B00005KG5U",
+      "B093QCGVPH",
+      "B000PO2Y3C",
+      "B000068HLW",
+      "B0017DE4HY",
+      "B00009YXBT",
+      "B00776UHG2",
+      "B094VF2SC6",
+      "B082NBJZ2L",
+      "B005HERMD2",
+      "B01FUSW4Z0",
+      "B01JOLIVRY",
+      "B01I148T54",
+      "B08XZ93J1Y",
+      "B000EDSI8GS",
+      "B077G4LVNC",
+      "B01FUSW4Z0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0030ADHZW",
+        "reason": "Family-friendly trivia game"
+      },
+      {
+        "item_id": "B000UQSRRM",
+        "reason": "Engaging puzzle gameplay"
+      },
+      {
+        "item_id": "B009GHHJQI",
+        "reason": "Compatible with Nintendo Switch"
+      },
+      {
+        "item_id": "B00005KG5U",
+        "reason": "Interactive pet care game"
+      },
+      {
+        "item_id": "B093QCGVPH",
+        "reason": "Fun controller for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3144,
+    "completion_tokens": 312
+  }
+}

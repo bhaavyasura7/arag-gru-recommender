@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07Z9F3GLG",
+      "B00005B43U",
+      "B00005RCPT",
+      "B078GCN37N",
+      "B000LV7PC4",
+      "B000WMEEAI",
+      "B006NU6EJC",
+      "B001LRQ8TI",
+      "B0859WXCCT",
+      "B075PH6YKJ",
+      "B0009NWQFK",
+      "B000OF0O8Y",
+      "B000054BEB",
+      "B00005B43U",
+      "B000F4WM1XS",
+      "B00005RCPT",
+      "B0009NWQFK",
+      "B0859WXCCT",
+      "B000LV7PC4",
+      "B000WMEEAI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07Z9F3GLG",
+        "reason": "Engaging narrative and gameplay"
+      },
+      {
+        "item_id": "B00005B43U",
+        "reason": "Classic adventure game experience"
+      },
+      {
+        "item_id": "B00005RCPT",
+        "reason": "RPG elements and adventure"
+      },
+      {
+        "item_id": "B078GCN37N",
+        "reason": "Unique simulation with exploration"
+      },
+      {
+        "item_id": "B000LV7PC4",
+        "reason": "Enhances gaming experience with accessories"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2923,
+    "completion_tokens": 311
+  }
+}

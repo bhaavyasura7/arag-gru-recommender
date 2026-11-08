@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01LDWMGNC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers racing games, not amiibo."
+      },
+      {
+        "item_id": "B0010B675K",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers racing games, not military sims."
+      },
+      {
+        "item_id": "B005QT3VJW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers racing games, not trading sims."
+      },
+      {
+        "item_id": "B07QKLZYX9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Generic accessory, not specific to interests."
+      },
+      {
+        "item_id": "B00KE6DCIM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a PlayStation Vita."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 168
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B05C7P7",
+      "B01MZ4VLXE",
+      "B13D8QZYP1",
+      "B08KB1WW74",
+      "B084Z4Q9NK",
+      "B08N439W9B",
+      "B00004U47O",
+      "B00002CF8Q",
+      "B00004U9KA",
+      "B07F8QZYP1",
+      "B00005C7P7",
+      "B0000CCZSU",
+      "B09KM3Z765",
+      "B06XKQ6X48",
+      "B08JQ68766",
+      "B097MXJ1BW",
+      "B00328I0BS",
+      "B07XZ26VLN",
+      "B09BRFBSNV",
+      "B0BBH7MY24"
+    ],
+    "reasons": [
+      {
+        "item_id": "B05C7P7",
+        "reason": "Cooling fan for Xbox One S"
+      },
+      {
+        "item_id": "B01MZ4VLXE",
+        "reason": "External hard drive for Xbox"
+      },
+      {
+        "item_id": "B13D8QZYP1",
+        "reason": "Family-friendly game for PS5"
+      },
+      {
+        "item_id": "B08KB1WW74",
+        "reason": "Portable hard drive for gaming"
+      },
+      {
+        "item_id": "B084Z4Q9NK",
+        "reason": "Comfortable gaming headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3688,
+    "completion_tokens": 328
+  }
+}

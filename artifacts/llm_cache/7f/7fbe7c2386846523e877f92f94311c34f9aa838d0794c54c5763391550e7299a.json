@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B11R4KYMS",
+      "B00ATNFLDY",
+      "B08LPMVJDJ",
+      "B07D8DPPJN",
+      "B0BL1QQDNY",
+      "B004CHLNWQ",
+      "B088BVFZG8",
+      "B009T3EY1A",
+      "B001E27DLM",
+      "B000HAWCFE",
+      "B00002STOQ",
+      "B071S7Z6L5",
+      "B0014DHIL6",
+      "B00008URUA",
+      "B07DPK5NPD",
+      "B0050SX1JO",
+      "B000D5SZ04K",
+      "B12LPMVJDJ",
+      "B00008URUA",
+      "B0014DHIL6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B11R4KYMS",
+        "reason": "Highly rated action-adventure game"
+      },
+      {
+        "item_id": "B00ATNFLDY",
+        "reason": "Precision mouse for FPS games"
+      },
+      {
+        "item_id": "B08LPMVJDJ",
+        "reason": "Compatible wireless controller"
+      },
+      {
+        "item_id": "B07D8DPPJN",
+        "reason": "Performance thumbsticks for accuracy"
+      },
+      {
+        "item_id": "B0BL1QQDNY",
+        "reason": "Mechanical keyboard for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4077,
+    "completion_tokens": 317
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BVWPMMCT",
+      "B04B6N790",
+      "B0009UC6AI",
+      "B0001PWCPU",
+      "B001G7PRP4",
+      "B00002SVMJ",
+      "B000NKRIZM",
+      "B001EYUPLK",
+      "B08ZXH4JLM",
+      "B07WY4CVRP",
+      "B002LT24CK",
+      "B0B3X4L6YZ",
+      "B00005MDZ0",
+      "B01J4K384Q",
+      "B0042A4ZLY",
+      "B000AODB7A",
+      "B00002SVEA",
+      "B001EYUT5C",
+      "B0001PWCPU",
+      "B000NKRIZM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BVWPMMCT",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B04B6N790",
+        "reason": "Popular gaming title"
+      },
+      {
+        "item_id": "B0009UC6AI",
+        "reason": "Horror game with strong appeal"
+      },
+      {
+        "item_id": "B0001PWCPU",
+        "reason": "Essential gaming accessory"
+      },
+      {
+        "item_id": "B001G7PRP4",
+        "reason": "Compatible with Xbox 360"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3155,
+    "completion_tokens": 313
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00E4KN6P8",
+      "B086ZGXL7J",
+      "B00006CRUN",
+      "B000035Y10",
+      "B081J6RMT9",
+      "B09Q8XZYWF",
+      "B001QY13C8",
+      "B07X8ZSL76",
+      "B00189HR7Q",
+      "B07ZF8ZH8C",
+      "B0BMFL3RWT",
+      "B01CK89AFA",
+      "B08SW7G6V7",
+      "B0BTBGDSFB",
+      "B001G4JZ9K",
+      "B00W4KX272",
+      "B0BVVTQ5JP",
+      "B0BTBGDSFB",
+      "B00009W5JS",
+      "B00GGIEQY6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00E4KN6P8",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B086ZGXL7J",
+        "reason": "Mechanical keyboard for gaming"
+      },
+      {
+        "item_id": "B00006CRUN",
+        "reason": "Classic simulation game"
+      },
+      {
+        "item_id": "B000035Y10",
+        "reason": "Nostalgic retro game"
+      },
+      {
+        "item_id": "B081J6RMT9",
+        "reason": "Switch game with nostalgic appeal"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3209,
+    "completion_tokens": 323
+  }
+}

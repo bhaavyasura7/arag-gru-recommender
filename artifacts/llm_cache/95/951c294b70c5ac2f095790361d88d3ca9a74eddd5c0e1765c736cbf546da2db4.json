@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B087NNPYP3",
+      "B0052WG9II",
+      "B01N7VUOPH",
+      "B000U34SZA",
+      "B019WRM1IA",
+      "B003JBHG90",
+      "B000021Y1B",
+      "B000TUZCQI",
+      "B00503E8S2",
+      "B06ZYTHKR7",
+      "B000BC38LA",
+      "B000HKMPVA",
+      "B0050SX9I2",
+      "B0006B7DXA",
+      "B000ELJFGO",
+      "B000PRMCTGB",
+      "B0040Y3K9U",
+      "B000U34SZA",
+      "B000TUZCQI",
+      "B000021Y1B"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087NNPYP3",
+        "reason": "Highly rated Nintendo game"
+      },
+      {
+        "item_id": "B0052WG9II",
+        "reason": "Classic game with modern twist"
+      },
+      {
+        "item_id": "B01N7VUOPH",
+        "reason": "Popular RPG with great reviews"
+      },
+      {
+        "item_id": "B000U34SZA",
+        "reason": "Essential charging dock for Switch"
+      },
+      {
+        "item_id": "B019WRM1IA",
+        "reason": "Comfortable Xbox controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3695,
+    "completion_tokens": 313
+  }
+}

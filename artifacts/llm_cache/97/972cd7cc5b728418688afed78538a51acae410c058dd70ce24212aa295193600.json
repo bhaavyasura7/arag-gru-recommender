@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07HDYY8WK",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox One, user interest."
+      },
+      {
+        "item_id": "B01CEFEMFW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not directly related."
+      },
+      {
+        "item_id": "B081L9BQNJ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "For legacy systems, not user interest."
+      },
+      {
+        "item_id": "B01LD7MR2C",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PlayStation accessory, user prefers Xbox."
+      },
+      {
+        "item_id": "B008U4QPJI",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, user prefers console games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1336,
+    "completion_tokens": 159
+  }
+}

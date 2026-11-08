@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07JBMX8QS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User rated similar headset poorly."
+      },
+      {
+        "item_id": "B06XDB13HZ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User rated similar headset poorly."
+      },
+      {
+        "item_id": "B015WJ8QV8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User rated similar headset poorly."
+      },
+      {
+        "item_id": "B07PN8GY68",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User rated similar headset poorly."
+      },
+      {
+        "item_id": "B016MN5J0O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has mixed headset experiences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 994,
+    "completion_tokens": 155
+  }
+}

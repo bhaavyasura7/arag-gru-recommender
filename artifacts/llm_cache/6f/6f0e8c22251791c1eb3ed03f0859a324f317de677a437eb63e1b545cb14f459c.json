@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000077W0H",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user prefers Xbox/PlayStation."
+      },
+      {
+        "item_id": "B00002STY4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, user prefers modern consoles."
+      },
+      {
+        "item_id": "B097RD75K6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Storage solution, not a game."
+      },
+      {
+        "item_id": "B07J5VZT5W",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller compatible with PC, not Xbox."
+      },
+      {
+        "item_id": "B001ELJEJM",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Nintendo system, user prefers Xbox/PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1025,
+    "completion_tokens": 163
+  }
+}

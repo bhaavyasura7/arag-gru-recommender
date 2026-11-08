@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00K3PNUEA",
+      "B0759BV9DJ",
+      "B11MG2OG11",
+      "B00HRS5VD4",
+      "B00ITE71U6",
+      "B09H5R5C1R",
+      "B001AW16QE",
+      "B004UMAPQS",
+      "B09HBMCM1B",
+      "B09NCWP9HH",
+      "B00YDV70NW",
+      "B00ENZRF1K",
+      "B000AM249S",
+      "B00578W1ZW",
+      "B01J4K1082",
+      "B07DCYSZ1Q",
+      "B000NKWO8S",
+      "B00KZ0LS7Y",
+      "B00K3PNUEA",
+      "B01MG2OG11",
+      "B00ITE71U6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00K3PNUEA",
+        "reason": "Popular action-adventure game"
+      },
+      {
+        "item_id": "B0759BV9DJ",
+        "reason": "Console game with customization"
+      },
+      {
+        "item_id": "B01MG2OG11",
+        "reason": "Useful accessory for console gaming"
+      },
+      {
+        "item_id": "B00HRS5VD4",
+        "reason": "Charger for PS4 controllers"
+      },
+      {
+        "item_id": "B00ITE71U6",
+        "reason": "Controller skin for PS4"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3229,
+    "completion_tokens": 332
+  }
+}

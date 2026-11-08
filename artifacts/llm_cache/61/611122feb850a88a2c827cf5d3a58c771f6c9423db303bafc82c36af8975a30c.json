@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0031Q7N1E",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PSP game, user prefers PS2/Xbox One."
+      },
+      {
+        "item_id": "B003O6G114",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game, less relevant."
+      },
+      {
+        "item_id": "B00M3D8AQ8",
+        "label": "support",
+        "score": 8,
+        "rationale": "PS3 game, aligns with user interests."
+      },
+      {
+        "item_id": "B005GISQX4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B07YBX7Y3P",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox One game, user prefers PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1247,
+    "completion_tokens": 170
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00005AG2L",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre than user's interests."
+      },
+      {
+        "item_id": "B07L3SV188",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B07D122T41",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but multiplayer options."
+      },
+      {
+        "item_id": "B08C2MT145",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances Xbox One gaming experience."
+      },
+      {
+        "item_id": "B07467QH6M",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, but RPG elements present."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1324,
+    "completion_tokens": 152
+  }
+}

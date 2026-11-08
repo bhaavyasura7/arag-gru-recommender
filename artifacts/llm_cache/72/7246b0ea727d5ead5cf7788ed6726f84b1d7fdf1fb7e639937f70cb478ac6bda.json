@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00BQVXUOA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation games."
+      },
+      {
+        "item_id": "B004TM8LJC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B082W522QZ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory for Xbox, user prefers PlayStation."
+      },
+      {
+        "item_id": "B08MLJ4M9Z",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo Switch accessory, user prefers PlayStation."
+      },
+      {
+        "item_id": "B008U4QPJI",
+        "label": "support",
+        "score": 7,
+        "rationale": "Final Fantasy is a popular franchise."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1244,
+    "completion_tokens": 165
+  }
+}

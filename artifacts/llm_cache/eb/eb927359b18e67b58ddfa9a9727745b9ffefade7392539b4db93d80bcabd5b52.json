@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01B1H2TYA",
+      "B006JKARN0",
+      "B07HQJ5Z9B",
+      "B12BRSZ7VL8",
+      "B005OGL766",
+      "B0050SZ7IC",
+      "B000X2DP8O",
+      "B000BCDELO",
+      "B003BLUA64",
+      "B0032C9V7G",
+      "B000F6W8AE",
+      "B008TOZXJM",
+      "B00BGA9WK2",
+      "B00000JRSB",
+      "B002ACOJTY",
+      "B01CJJHAMU",
+      "B15C1TTF86",
+      "B09P9LT8NV",
+      "B00000JRSB",
+      "B0032C9V7G",
+      "B000F6W8AE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01B1H2TYA",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B006JKARN0",
+        "reason": "Top racing game for PS3"
+      },
+      {
+        "item_id": "B07HQJ5Z9B",
+        "reason": "High precision gaming mouse"
+      },
+      {
+        "item_id": "B12BRSZ7VL8",
+        "reason": "Popular game with immersive experience"
+      },
+      {
+        "item_id": "B005OGL766",
+        "reason": "Fun co-op gameplay experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3793,
+    "completion_tokens": 334
+  }
+}

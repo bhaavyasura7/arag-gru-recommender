@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BVVTQ5JP",
+        "label": "support",
+        "score": 9,
+        "rationale": "High-performance gaming mouse matches interests."
+      },
+      {
+        "item_id": "B014N4RTS4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's gaming accessories."
+      },
+      {
+        "item_id": "B0C3KYVDWT",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "MicroSD card not relevant to user's needs."
+      },
+      {
+        "item_id": "B07RYWGWFH",
+        "label": "support",
+        "score": 8,
+        "rationale": "Mechanical keyboard aligns with gaming setup."
+      },
+      {
+        "item_id": "B08WQD819H",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a gaming accessory or hardware."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1544,
+    "completion_tokens": 161
+  }
+}

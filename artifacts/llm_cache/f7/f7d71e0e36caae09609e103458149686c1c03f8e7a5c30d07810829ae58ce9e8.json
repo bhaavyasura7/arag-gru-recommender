@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09TDYJBCL",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related to Nintendo Switch accessories."
+      },
+      {
+        "item_id": "B000K9DMLU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, not Nintendo related."
+      },
+      {
+        "item_id": "B08F97Q8HS",
+        "label": "support",
+        "score": 9,
+        "rationale": "Popular Nintendo Switch game."
+      },
+      {
+        "item_id": "B00005JTVK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, not relevant to user."
+      },
+      {
+        "item_id": "B00A80AAZW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox 360 game, not Nintendo related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1276,
+    "completion_tokens": 158
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002I0EPP6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different Nintendo system, not a strong match."
+      },
+      {
+        "item_id": "B07NKN4VR4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox game, user prefers Nintendo products."
+      },
+      {
+        "item_id": "B07JLSG4X1",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Nintendo Switch, user interest."
+      },
+      {
+        "item_id": "B01LXTD0UN",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "General gaming headset, not specific to interests."
+      },
+      {
+        "item_id": "B002I0J4NE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation product, user prefers Nintendo games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 167
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B074T8GDTV",
+      "B17K3TCCWZ",
+      "B000CIUAH8",
+      "B0006HB6H8",
+      "B00004UFM2",
+      "B008BLF5ZU",
+      "B00JQSCIKM",
+      "B009KDX5AK",
+      "B00GWT8U9Q",
+      "B00N73UUJI",
+      "B00S2TC8PG",
+      "B01MRROR26",
+      "B00H3YS4YU",
+      "B07XY9ZL67",
+      "B00VWRH80",
+      "B00DSSX47Q",
+      "B07K3TCCWZ",
+      "B00JQSCIKM",
+      "B00H3YS4YU",
+      "B00N73UUJI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B074T8GDTV",
+        "reason": "Classic Nintendo game collectible"
+      },
+      {
+        "item_id": "B17K3TCCWZ",
+        "reason": "Nintendo DS game, user interest"
+      },
+      {
+        "item_id": "B000CIUAH8",
+        "reason": "Puzzle game with detective theme"
+      },
+      {
+        "item_id": "B0006HB6H8",
+        "reason": "Classic arcade game collection"
+      },
+      {
+        "item_id": "B00004UFM2",
+        "reason": "Legacy Sega game, nostalgic appeal"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2605,
+    "completion_tokens": 328
+  }
+}

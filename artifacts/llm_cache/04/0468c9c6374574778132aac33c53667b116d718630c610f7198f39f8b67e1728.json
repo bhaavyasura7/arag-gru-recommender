@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0001ILKEG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers different game genres."
+      },
+      {
+        "item_id": "B002PK0L4I",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Limited interest in Japanese imports."
+      },
+      {
+        "item_id": "B007YLUCME",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys gaming accessories."
+      },
+      {
+        "item_id": "B0BZ7DNP2Q",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not directly related to gaming."
+      },
+      {
+        "item_id": "B09FQFKGLV",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1340,
+    "completion_tokens": 147
+  }
+}

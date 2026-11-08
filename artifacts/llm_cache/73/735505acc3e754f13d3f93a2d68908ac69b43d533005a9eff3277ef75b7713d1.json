@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00000IM2T",
+      "B000E7ORP8",
+      "B000SJ61BK",
+      "B00002SVER",
+      "B000QSE7FK",
+      "B00002SVER",
+      "B007VTVRFA",
+      "B000N34CK5I",
+      "B00RBVFA92",
+      "B00VULDPCI",
+      "B00JZ4DG95",
+      "B00QO4NAOO",
+      "B00N34CK5I",
+      "B00HC1JR2H",
+      "B006HZA8EA",
+      "B00P2J6HSR",
+      "B00H1Z4J5HQ",
+      "B00H1Z4J5HQ",
+      "B00H1Z4J5HQ",
+      "B00H1Z4J5HQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00000IM2T",
+        "reason": "Classic JRPG experience"
+      },
+      {
+        "item_id": "B000E7ORP8",
+        "reason": "Replacement for nostalgic PSP"
+      },
+      {
+        "item_id": "B000SJ61BK",
+        "reason": "Classic action-adventure game"
+      },
+      {
+        "item_id": "B00002SVER",
+        "reason": "Compatible with retro systems"
+      },
+      {
+        "item_id": "B000QSE7FK",
+        "reason": "Nostalgic fighting game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3833,
+    "completion_tokens": 325
+  }
+}

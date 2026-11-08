@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07YDZJ4GP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different gaming system."
+      },
+      {
+        "item_id": "B09JCNG557",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Controller for legacy systems, not preferred."
+      },
+      {
+        "item_id": "B0002D6A4K",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, but not a shooter."
+      },
+      {
+        "item_id": "B08WKCZVML",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not a shooter, different genre."
+      },
+      {
+        "item_id": "B003YMMMFM",
+        "label": "support",
+        "score": 9,
+        "rationale": "Part of the Call of Duty series."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1253,
+    "completion_tokens": 156
+  }
+}

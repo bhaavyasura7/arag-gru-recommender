@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B005FO0V2I",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys gaming headsets."
+      },
+      {
+        "item_id": "B09JM7N96K",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes Nintendo Switch games."
+      },
+      {
+        "item_id": "B000B6HWF4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B0B5SXDD61",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Nintendo Switch titles."
+      },
+      {
+        "item_id": "B004OH7ODG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User hasn't shown interest in PC games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 153
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08JW5DR79",
+      "B000BPLCDI",
+      "B000YJMHVM",
+      "B0BGGBY186",
+      "B01MR5X8FQ",
+      "B08K2Y2KQN",
+      "B003VD56KC",
+      "B000OYITQO",
+      "B07XQ1CVX2",
+      "B07SCZQV68",
+      "B0BQRQH324",
+      "B08CVPTM7R",
+      "B01GVN10VM",
+      "B004JU0JSA",
+      "B07Y2RNCQ8",
+      "B0BZCF1D75",
+      "B002SU7GJ8",
+      "B08CGY232D",
+      "B12Y2RNCQ8",
+      "B09T37XVVV"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08JW5DR79",
+        "reason": "Best for Xbox Series and PC"
+      },
+      {
+        "item_id": "B000BPLCDI",
+        "reason": "Award-winning wireless controller"
+      },
+      {
+        "item_id": "B000YJMHVM",
+        "reason": "High-performance wireless gaming"
+      },
+      {
+        "item_id": "B0BGGBY186",
+        "reason": "Wide compatibility with Xbox models"
+      },
+      {
+        "item_id": "B01MR5X8FQ",
+        "reason": "Enhanced comfort and feel"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3705,
+    "completion_tokens": 326
+  }
+}

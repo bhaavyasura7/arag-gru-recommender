@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B076J9TNCD",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Legacy system, not directly relevant."
+      },
+      {
+        "item_id": "B000MJB1WU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern consoles, not DS."
+      },
+      {
+        "item_id": "B00BGAA0SU",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 4 games."
+      },
+      {
+        "item_id": "B0050FDE4E",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Nintendo 3DS, not preferred by user."
+      },
+      {
+        "item_id": "B003OAE79S",
+        "label": "support",
+        "score": 7,
+        "rationale": "Accessory for Xbox 360, aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1234,
+    "completion_tokens": 161
+  }
+}

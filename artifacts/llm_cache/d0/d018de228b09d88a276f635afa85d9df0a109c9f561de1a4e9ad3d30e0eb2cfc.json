@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002JTX87C",
+      "B00ZMBLKPG",
+      "B000AYFPKQ",
+      "B000GA6YFO",
+      "B00GR5B5X8",
+      "B00FKLMWXW",
+      "B00WNO48EA",
+      "B001H0NPUY",
+      "B00TXOD7ZY",
+      "B00BLS4EPC",
+      "B07D5JKKQB",
+      "B0BCKN6Y4X",
+      "B07FC4DPBD",
+      "B0B1VCPZ7D",
+      "B01MTR9LON",
+      "B0BG5CGFN8",
+      "B07YXL4ZKS",
+      "B000HJOTT2",
+      "B0B1VCPZ7D",
+      "B00BLS4EPC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002JTX87C",
+        "reason": "Scooby-Doo game interest"
+      },
+      {
+        "item_id": "B00ZMBLKPG",
+        "reason": "Classic game remaster"
+      },
+      {
+        "item_id": "B000AYFPKQ",
+        "reason": "Retro game collection"
+      },
+      {
+        "item_id": "B000GA6YFO",
+        "reason": "Legacy system game"
+      },
+      {
+        "item_id": "B00GR5B5X8",
+        "reason": "PC game with adventure theme"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3634,
+    "completion_tokens": 327
+  }
+}

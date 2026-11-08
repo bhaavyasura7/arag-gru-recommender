@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09WVM75CP",
+      "B11GW3PFSA",
+      "B0BGHVSYF3",
+      "B11NR7VZKN",
+      "B17NR7VZKN",
+      "B01L1Y0RZQ",
+      "B0C1KSD9Q8",
+      "B004FZ6RF8",
+      "B08HRVWV1X",
+      "B001EYUUF6",
+      "B00006AVAY",
+      "B0002CHIWO",
+      "B001C0L7PO",
+      "B00001SHM5",
+      "B00002SUFX",
+      "B0B7DP5XCQ",
+      "B01N33OBYK",
+      "B07S91X6W5",
+      "B0002CHIWO",
+      "B00006AVAY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09WVM75CP",
+        "reason": "High-quality carrying case for Switch"
+      },
+      {
+        "item_id": "B11GW3PFSA",
+        "reason": "Unique gameplay experience on PS4"
+      },
+      {
+        "item_id": "B0BGHVSYF3",
+        "reason": "Cooling fan for VR headset"
+      },
+      {
+        "item_id": "B11NR7VZKN",
+        "reason": "New Nintendo Switch game"
+      },
+      {
+        "item_id": "B17NR7VZKN",
+        "reason": "Compact gaming keyboard for PC"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3501,
+    "completion_tokens": 329
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0912H7ZKP",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming accessories."
+      },
+      {
+        "item_id": "B0002TY096",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern games, not strategy."
+      },
+      {
+        "item_id": "B006T9Y9NK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not relevant to user's interests."
+      },
+      {
+        "item_id": "B01KI2I100",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to gaming mice, somewhat relevant."
+      },
+      {
+        "item_id": "B001EHD9CO",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Not aligned with user's gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1467,
+    "completion_tokens": 156
+  }
+}

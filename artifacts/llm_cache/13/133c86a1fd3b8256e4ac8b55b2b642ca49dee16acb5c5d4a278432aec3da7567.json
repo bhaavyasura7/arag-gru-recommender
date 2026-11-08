@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07SX9MSVD",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games only."
+      },
+      {
+        "item_id": "B079S26TB7",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00007FEFT",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not a Nintendo game."
+      },
+      {
+        "item_id": "B00NUICI5O",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Related to Disney Infinity, not Nintendo."
+      },
+      {
+        "item_id": "B09ZF185HT",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Nintendo Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1207,
+    "completion_tokens": 147
+  }
+}

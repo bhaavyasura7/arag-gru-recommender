@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07D34NSL4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Legacy Xbox controller, not preferred."
+      },
+      {
+        "item_id": "B098N6XSK4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox Series X/S."
+      },
+      {
+        "item_id": "B07LDXZV5Q",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system controller, less relevant."
+      },
+      {
+        "item_id": "B07N94G3JT",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhanced wired controller for Xbox One."
+      },
+      {
+        "item_id": "B07DHY6YLM",
+        "label": "support",
+        "score": 7,
+        "rationale": "Another enhanced wired controller option."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2337,
+    "completion_tokens": 154
+  }
+}

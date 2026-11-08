@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BDWH279M",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Unique RPG but golf-themed gameplay."
+      },
+      {
+        "item_id": "B00IOIHBX4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Strong RPG elements and strategy involved."
+      },
+      {
+        "item_id": "B01M07V5OS",
+        "label": "support",
+        "score": 6,
+        "rationale": "Action RPG with crafting and combat."
+      },
+      {
+        "item_id": "B000ENW5W4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Final Fantasy series, MMORPG experience."
+      },
+      {
+        "item_id": "B07BYSDLPS",
+        "label": "support",
+        "score": 7,
+        "rationale": "Action RPG in popular universe."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2340,
+    "completion_tokens": 151
+  }
+}

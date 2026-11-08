@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07Q5VC6X5",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with user's Nintendo Switch interests."
+      },
+      {
+        "item_id": "B09DP9P25T",
+        "label": "support",
+        "score": 10,
+        "rationale": "Ergonomic design matches user's gaming preferences."
+      },
+      {
+        "item_id": "B09XV1G9Q9",
+        "label": "support",
+        "score": 8,
+        "rationale": "Universal compatibility for Nintendo games."
+      },
+      {
+        "item_id": "B0BVTSGG9G",
+        "label": "support",
+        "score": 7,
+        "rationale": "Ergonomic design aligns with user's needs."
+      },
+      {
+        "item_id": "B0C6GDS517",
+        "label": "support",
+        "score": 9,
+        "rationale": "Great replacement for original Nintendo controller."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2602,
+    "completion_tokens": 160
+  }
+}

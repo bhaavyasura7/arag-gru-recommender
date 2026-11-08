@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001DLVIFQ",
+      "B00002SVFR",
+      "B19Q5BYB82",
+      "B08PCJJW9V",
+      "B19HTJV7NG",
+      "B002ZS6Y64",
+      "B0CB8LZT7K",
+      "B001G78TRW",
+      "B00J48C36S",
+      "B001EYUPEC",
+      "B004HD55V0",
+      "B0794W1LWG",
+      "B01DX8B0OU",
+      "B00NMUYBZA",
+      "B007X5103Q",
+      "B079C7QGLQ",
+      "B00KR2C0RC",
+      "B00KR2BTVU",
+      "B00PCJJW9V",
+      "B00J48C36S"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001DLVIFQ",
+        "reason": "Classic Nintendo game experience"
+      },
+      {
+        "item_id": "B00002SVFR",
+        "reason": "Nostalgic racing game"
+      },
+      {
+        "item_id": "B19Q5BYB82",
+        "reason": "Retro gaming headset"
+      },
+      {
+        "item_id": "B08PCJJW9V",
+        "reason": "Organizes Nintendo games"
+      },
+      {
+        "item_id": "B19HTJV7NG",
+        "reason": "Cooling accessory for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3777,
+    "completion_tokens": 319
+  }
+}

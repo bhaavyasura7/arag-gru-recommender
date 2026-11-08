@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00B2ROJVG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to Xbox 360 games."
+      },
+      {
+        "item_id": "B01EKW0Z6M",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly enhances Xbox 360 gaming experience."
+      },
+      {
+        "item_id": "B0B82PNYJ2",
+        "label": "support",
+        "score": 7,
+        "rationale": "Useful accessory for Xbox gaming."
+      },
+      {
+        "item_id": "B01MT1K6KS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "For Xbox One, not Xbox 360."
+      },
+      {
+        "item_id": "B01IJAQS9Y",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not relevant to Xbox 360 gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1098,
+    "completion_tokens": 164
+  }
+}

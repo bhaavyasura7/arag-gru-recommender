@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07V8G35BR",
+      "B073XKXQW4",
+      "B0B827MYPK",
+      "B0B927VQFK",
+      "B01LZPH7SG",
+      "B004OQS94U",
+      "B17S1KMRHX",
+      "B01J4JZWMS",
+      "B0C2VJ3R1C",
+      "B001EAWM4W",
+      "B00005CFHJ",
+      "B000SO4I4M",
+      "B0038K3GLY",
+      "B00MEWE2KQ",
+      "B009G7ZSYQ",
+      "B01NBKW254",
+      "B0B8DG8YRM",
+      "B01I3A5DXW",
+      "B000CS3EQ2",
+      "B001EAWM4W",
+      "B000SO4I4M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07V8G35BR",
+        "reason": "Perfect for Nintendo Switch Lite"
+      },
+      {
+        "item_id": "B073XKXQW4",
+        "reason": "DIY case for Joy-Con controllers"
+      },
+      {
+        "item_id": "B0B827MYPK",
+        "reason": "Cute thumb grips for Switch"
+      },
+      {
+        "item_id": "B0B927VQFK",
+        "reason": "Compatible with multiple Xbox systems"
+      },
+      {
+        "item_id": "B01LZPH7SG",
+        "reason": "Zelda-themed blanket for fans"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2805,
+    "completion_tokens": 350
+  }
+}

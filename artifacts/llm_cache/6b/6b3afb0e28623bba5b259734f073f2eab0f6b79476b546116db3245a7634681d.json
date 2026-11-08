@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00BGAA3S2",
+      "B08Z3J17ZY",
+      "B08R8CJZC6",
+      "B07TD17MTK",
+      "B001G6064C",
+      "B11N9TWCCB",
+      "B06XC5JQ8V",
+      "B004GKNKQQ",
+      "B003EZ1KGQ",
+      "B008B2OSQQ",
+      "B00F4OZMHS",
+      "B00002SVBL",
+      "B015D8AUCQ",
+      "B000FN99KO",
+      "B07WKJNQ4C",
+      "B09N9TWCCB",
+      "B00I6BOQDW",
+      "B12N9TWCCB",
+      "B0009ZGK4Q",
+      "B12N9TWCCB"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00BGAA3S2",
+        "reason": "Essential PS4 accessory for gaming"
+      },
+      {
+        "item_id": "B08Z3J17ZY",
+        "reason": "Protective case for PS5 console"
+      },
+      {
+        "item_id": "B08R8CJZC6",
+        "reason": "Popular PS5 game title"
+      },
+      {
+        "item_id": "B07TD17MTK",
+        "reason": "High-quality gaming controller"
+      },
+      {
+        "item_id": "B001G6064C",
+        "reason": "Classic PS3 game for collectors"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3553,
+    "completion_tokens": 332
+  }
+}

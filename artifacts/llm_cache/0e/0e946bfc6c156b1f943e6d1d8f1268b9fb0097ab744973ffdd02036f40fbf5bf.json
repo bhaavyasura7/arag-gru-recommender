@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B002YGS5IM",
+      "B12DZZNJC2",
+      "B071KNNF9S",
+      "B005ADFSLS",
+      "B0008DHNP",
+      "B08K7G1JVL",
+      "B0009IA1XO",
+      "B00AWRPEJI",
+      "B07DTL22BC",
+      "B005D3JZB4",
+      "B07213YKCX",
+      "B20HRXJ55E",
+      "B0855HRVJ1",
+      "B01CZGZ7VI",
+      "B0BMLPN46D",
+      "B14DZZNJC2",
+      "B00064B0JU",
+      "B07JX4PP8G",
+      "B20D2MS762",
+      "B082KHYG9K",
+      "B06DZZNJC2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002YGS5IM",
+        "reason": "Engaging multiplayer experience"
+      },
+      {
+        "item_id": "B071KNNF9S",
+        "reason": "Rich narrative content"
+      },
+      {
+        "item_id": "B12DZZNJC2",
+        "reason": "Classic game appeal"
+      },
+      {
+        "item_id": "B005ADFSLS",
+        "reason": "Action-adventure gameplay"
+      },
+      {
+        "item_id": "B0008DHNP",
+        "reason": "Classic platforming adventure"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3212,
+    "completion_tokens": 326
+  }
+}

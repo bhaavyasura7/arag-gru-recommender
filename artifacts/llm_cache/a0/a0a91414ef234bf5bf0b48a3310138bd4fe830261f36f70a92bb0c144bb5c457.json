@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07RC5P99K",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR gaming not in user history."
+      },
+      {
+        "item_id": "B000068I2T",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers mainstream games."
+      },
+      {
+        "item_id": "B08SG26GDD",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys action games like COD."
+      },
+      {
+        "item_id": "B000E8D0EQ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Puzzle games not in user history."
+      },
+      {
+        "item_id": "B07L8MVVKR",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User hasn't shown interest in Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1328,
+    "completion_tokens": 153
+  }
+}

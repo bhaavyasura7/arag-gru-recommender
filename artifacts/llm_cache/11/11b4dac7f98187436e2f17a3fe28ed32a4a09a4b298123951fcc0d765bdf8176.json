@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07D53QSMK",
+      "B00MXRHZ5Q",
+      "B07D53QSMK",
+      "B00FM5IY0Q",
+      "B19CYYSFC",
+      "B006QZ85PU",
+      "B00GYI3CMU",
+      "B000F3AACA",
+      "B000N5Z2L4",
+      "B001ELJFN2",
+      "B0848GXDR8",
+      "B001EYUW2M",
+      "B005JQNEO4",
+      "B000HKGD4A",
+      "B000FJEV06",
+      "B08GYNLVF4",
+      "B000F3AACA",
+      "B000N5Z2L4",
+      "B001ELJFN2",
+      "B006QZ85PU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07D53QSMK",
+        "reason": "High-quality gaming grips"
+      },
+      {
+        "item_id": "B00MXRHZ5Q",
+        "reason": "Popular racing game for Xbox"
+      },
+      {
+        "item_id": "B00FM5IY0Q",
+        "reason": "Immersive zombie survival game"
+      },
+      {
+        "item_id": "B19CYYSFC",
+        "reason": "Versatile gaming headset"
+      },
+      {
+        "item_id": "B0848GXDR8",
+        "reason": "Performance audio for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3803,
+    "completion_tokens": 324
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07WLT1C27",
+      "B19P17SD51",
+      "B19P17SD51",
+      "B17WLT1C27",
+      "B19P17SD51",
+      "B00Z9TM72Q",
+      "B004HD55VK",
+      "B006ZN65BY",
+      "B0036CS9SO",
+      "B008CP6MA2",
+      "B0128UH1VU",
+      "B007W5PG5U",
+      "B001JKTC9A",
+      "B0002HDSZ0",
+      "B0BFKZMHRL",
+      "B000LSJKAM",
+      "B002DLOM6C",
+      "B000BI3SIC",
+      "B008CP6MA2",
+      "B006ZN65BY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07WLT1C27",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B09P17SD51",
+        "reason": "Enhances PS5 controller performance"
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Popular FPS game"
+      },
+      {
+        "item_id": "B004HD55VK",
+        "reason": "Classic Xbox 360 controller"
+      },
+      {
+        "item_id": "B0036CS9SO",
+        "reason": "Immersive MMORPG experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3640,
+    "completion_tokens": 314
+  }
+}

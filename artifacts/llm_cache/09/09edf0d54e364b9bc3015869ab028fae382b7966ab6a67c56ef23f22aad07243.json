@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08YR8LFH3",
+      "B01KX8ETK0",
+      "B19G4FDHT7",
+      "B009C9DPUW",
+      "B08P1C7F1Q",
+      "B00BGAA3S2",
+      "B01MS6WG9S",
+      "B0055202HE",
+      "B07DPK5NPD",
+      "B00KIWEMIG",
+      "B006912EXA",
+      "B001REZLXO",
+      "B00FXOP1JI",
+      "B001EYUOHK",
+      "B07WWK48DV",
+      "B002I096AA",
+      "B00EN9Q8G4",
+      "B08G4FDHT7",
+      "B00EN9Q8G4",
+      "B07WWK48DV"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08YR8LFH3",
+        "reason": "Perfect for Oculus Quest upgrades"
+      },
+      {
+        "item_id": "B01KX8ETK0",
+        "reason": "High-quality VR accessory"
+      },
+      {
+        "item_id": "B19G4FDHT7",
+        "reason": "Great for gaming setup"
+      },
+      {
+        "item_id": "B009C9DPUW",
+        "reason": "Customizable controller buttons"
+      },
+      {
+        "item_id": "B08P1C7F1Q",
+        "reason": "Stylish and protective controller skin"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3880,
+    "completion_tokens": 331
+  }
+}

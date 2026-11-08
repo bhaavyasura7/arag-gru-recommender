@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00Z7STA42",
+      "B08PQFNP9J",
+      "B0B25F59PN",
+      "B20N7QBVBJ",
+      "B08BKWCL86",
+      "B09YDRBZQS",
+      "B08RXN3RZD",
+      "B013PZEZFM",
+      "B002TK6R60",
+      "B002XUKTTM",
+      "B007NDJG98",
+      "B01M66ZVW0",
+      "B0056FOJF6",
+      "B00GTWHICG",
+      "B00EDEA2Z2",
+      "B001B1W3HA",
+      "B00J3KLZAM",
+      "B00014B0GS",
+      "B08N7QBVBJ",
+      "B12M07LUG6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00Z7STA42",
+        "reason": "High-capacity storage for Xbox"
+      },
+      {
+        "item_id": "B08PQFNP9J",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B0B25F59PN",
+        "reason": "Cute carrying case for Switch"
+      },
+      {
+        "item_id": "B20N7QBVBJ",
+        "reason": "Official charging stand for Xbox"
+      },
+      {
+        "item_id": "B08BKWCL86",
+        "reason": "Comfortable headset for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2817,
+    "completion_tokens": 326
+  }
+}

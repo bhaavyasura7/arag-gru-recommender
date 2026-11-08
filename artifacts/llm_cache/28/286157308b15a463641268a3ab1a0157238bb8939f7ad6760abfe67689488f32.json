@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00QV3ZC44",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for PS4, user plays PS4 games."
+      },
+      {
+        "item_id": "B000IOFM0G",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo accessory, user prefers Xbox and PS."
+      },
+      {
+        "item_id": "B089F9SCS1",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox One game, matches user's gaming preference."
+      },
+      {
+        "item_id": "B00005NCCW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy Nintendo game, user prefers Xbox and PS."
+      },
+      {
+        "item_id": "B01N6S068R",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo accessory, user prefers Xbox and PS."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1284,
+    "completion_tokens": 172
+  }
+}

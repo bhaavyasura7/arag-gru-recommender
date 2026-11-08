@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUOAW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B00000DMAG",
+        "label": "support",
+        "score": 7,
+        "rationale": "PC game aligns with user preferences."
+      },
+      {
+        "item_id": "B09BJL9B8C",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00VR33XVC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo 64 not in user history."
+      },
+      {
+        "item_id": "B0000DJX7H",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PlayStation 2 game, less relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1014,
+    "completion_tokens": 155
+  }
+}

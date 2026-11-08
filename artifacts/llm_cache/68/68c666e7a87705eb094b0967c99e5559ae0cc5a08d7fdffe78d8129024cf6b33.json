@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09WVM75CP",
+      "B11S91X6W5",
+      "B0BGHVSYF3",
+      "B0C1KSD9Q8",
+      "B004FZ6RF8",
+      "B08R1BSYDD",
+      "B01GW3PFSA",
+      "B07NR7VZKN",
+      "B001EYUUF6",
+      "B00006AVAY",
+      "B0002CHIWO",
+      "B001C0L7PO",
+      "B00001SHM5",
+      "B0B7DP5XCQ",
+      "B01N33OBYK",
+      "B00002SUFX",
+      "B00CJ8X23I",
+      "B01L1Y0RZQ",
+      "B07S91X6W5",
+      "B0002CHIWO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09WVM75CP",
+        "reason": "High-quality Switch carrying case"
+      },
+      {
+        "item_id": "B11S91X6W5",
+        "reason": "Mechanical gaming keyboard"
+      },
+      {
+        "item_id": "B0BGHVSYF3",
+        "reason": "Wired gaming mouse with RGB"
+      },
+      {
+        "item_id": "B0C1KSD9Q8",
+        "reason": "Ergonomic gaming mouse"
+      },
+      {
+        "item_id": "B004FZ6RF8",
+        "reason": "Official Nintendo accessory kit"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3502,
+    "completion_tokens": 333
+  }
+}

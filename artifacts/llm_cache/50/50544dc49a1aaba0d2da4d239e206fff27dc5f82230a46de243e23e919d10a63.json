@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00884S6YW",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox 360 video games."
+      },
+      {
+        "item_id": "B00L3LQ1FI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox and PlayStation systems."
+      },
+      {
+        "item_id": "B074NDG5MN",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no PS Vita interest."
+      },
+      {
+        "item_id": "B09W56JJX2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on Xbox and PlayStation."
+      },
+      {
+        "item_id": "B09PR8NBZZ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a Steam Deck."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 165
+  }
+}

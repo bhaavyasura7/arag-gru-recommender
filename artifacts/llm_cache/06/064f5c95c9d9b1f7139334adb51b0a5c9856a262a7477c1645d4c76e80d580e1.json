@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07624RBWB",
+      "B004HILZUA",
+      "B00GOZSR96",
+      "B018K6KV68",
+      "B07HYCZ68N",
+      "B07C2XYDW8",
+      "B07MGC3XWK",
+      "B077SN7QN3",
+      "B09H41CRHK",
+      "B00076EY9U",
+      "B0052J8FS8",
+      "B0BW8N6X48",
+      "B08WQ75YMZ",
+      "B001EYUXHG",
+      "B07ZHZBYCJ",
+      "B001EYUW6I",
+      "B12HILZUA",
+      "B07C2XYDW8",
+      "B0B36HX334",
+      "B07MGC3XWK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07624RBWB",
+        "reason": "Preferred Nintendo controller"
+      },
+      {
+        "item_id": "B004HILZUA",
+        "reason": "Crash Bandicoot series game"
+      },
+      {
+        "item_id": "B00GOZSR96",
+        "reason": "Popular PS4 game"
+      },
+      {
+        "item_id": "B018K6KV68",
+        "reason": "Quality gaming headset"
+      },
+      {
+        "item_id": "B07HYCZ68N",
+        "reason": "Useful PS2 memory card"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3754,
+    "completion_tokens": 315
+  }
+}

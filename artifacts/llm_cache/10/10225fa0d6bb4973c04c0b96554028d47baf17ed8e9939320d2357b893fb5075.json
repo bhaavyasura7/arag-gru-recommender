@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08HL8YSWD",
+      "B000MZ8QWM",
+      "B08DJ9L8FZ",
+      "B0B67PQ6HR",
+      "B0756YV3MK",
+      "B08H8CPSQJ",
+      "B0057UCXS0",
+      "B00005J36X",
+      "B002EWD01S",
+      "B076DF9F12",
+      "B009O8HH3M",
+      "B000U5RRX8",
+      "B07DNDF1D6",
+      "B01M9J5MHK",
+      "B00GQYIAME",
+      "B01HPCHQ3O",
+      "B085ZNBWF1",
+      "B01HPCHQ3O",
+      "B07S8DWWNX",
+      "B00BLTMUYS",
+      "B00005J36X"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08HL8YSWD",
+        "reason": "Compatible with Nintendo Switch"
+      },
+      {
+        "item_id": "B000MZ8QWM",
+        "reason": "Replacement for Nintendo systems"
+      },
+      {
+        "item_id": "B08DJ9L8FZ",
+        "reason": "Controllers for Nintendo Wii"
+      },
+      {
+        "item_id": "B0B67PQ6HR",
+        "reason": "Wireless controller for PS4"
+      },
+      {
+        "item_id": "B0756YV3MK",
+        "reason": "Gamepad for Nintendo Wii"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3349,
+    "completion_tokens": 339
+  }
+}

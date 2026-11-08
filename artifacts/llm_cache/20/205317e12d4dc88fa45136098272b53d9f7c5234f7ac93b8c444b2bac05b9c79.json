@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01N9K8K5G",
+      "B07ZKW2285",
+      "B018EKX1UI",
+      "B00D82Z4YO",
+      "B13VMUMHY",
+      "B07SPGWL9M",
+      "B005M2U08S",
+      "B000GABTW2",
+      "B003QWYX8E",
+      "B07TSGW6T1",
+      "B09L156YBX",
+      "B07424Y38Y",
+      "B13VMUMHY",
+      "B00IGCK71G",
+      "B076HFWFDY",
+      "B0011W61HW",
+      "B00Z94K5R0",
+      "B07Y8JQ453",
+      "B09V6R36BD",
+      "B005M2U08S"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01N9K8K5G",
+        "reason": "VR game aligns with interests"
+      },
+      {
+        "item_id": "B07ZKW2285",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B018EKX1UI",
+        "reason": "Gaming headset for PS4"
+      },
+      {
+        "item_id": "B00D82Z4YO",
+        "reason": "Essential PS4 controller"
+      },
+      {
+        "item_id": "B13VMUMHY",
+        "reason": "Popular game with multiplayer"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3369,
+    "completion_tokens": 323
+  }
+}

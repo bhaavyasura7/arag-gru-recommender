@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07TJ141Q9",
+      "B07RFZFNQT",
+      "B0C1KSD9Q8",
+      "B07WNV98X5",
+      "B18ZJ6RY1W",
+      "B000F1TG0E",
+      "B00MQ691WE",
+      "B004G5YI3U",
+      "B07YBX6T95",
+      "B07NKN4VR4",
+      "B008CP6MA2",
+      "B00BGA9WK2",
+      "B00GOZSR96",
+      "B00KIWEMIG",
+      "B006VB2V54",
+      "B001EYUT70",
+      "B073ZNVN2G",
+      "B0779JS5JC",
+      "B00WU99A96",
+      "B00MQ691WE",
+      "B008CP6MA2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07TJ141Q9",
+        "reason": "Essential Nintendo DS Lite charger"
+      },
+      {
+        "item_id": "B07RFZFNQT",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B0C1KSD9Q8",
+        "reason": "Ergonomic gaming mouse with RGB"
+      },
+      {
+        "item_id": "B07WNV98X5",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B18ZJ6RY1W",
+        "reason": "Gift card for Nintendo eShop"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3674,
+    "completion_tokens": 340
+  }
+}

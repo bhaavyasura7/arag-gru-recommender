@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09BCT8SXP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Cooling fan for Xbox, not directly relevant."
+      },
+      {
+        "item_id": "B00LHKVXHG",
+        "label": "support",
+        "score": 7,
+        "rationale": "Game card cases for Nintendo systems, relevant."
+      },
+      {
+        "item_id": "B000ODVKUC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PS2 accessory, user prefers modern systems."
+      },
+      {
+        "item_id": "B09M8P5GRC",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo Switch accessories match user interests."
+      },
+      {
+        "item_id": "B08NJTHY3G",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PS5 accessory, user has no PS5 interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1325,
+    "completion_tokens": 167
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming accessories",
+      "Nintendo products",
+      "Xbox controllers",
+      "retro gaming",
+      "gaming peripherals"
+    ],
+    "current_intent": "looking for high-quality gaming accessories",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "overpriced accessories"
+    ],
+    "summary": "User is a gaming enthusiast focused on high-quality accessories for Nintendo and Xbox consoles, with a particular interest in retro gaming."
+  },
+  "usage": {
+    "prompt_tokens": 571,
+    "completion_tokens": 76
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "content": {
+    "ranking": [
+      "B0007D4MVI",
+      "B00KCCNMYW",
+      "B001HUHB54",
+      "B05M3D8AQ8",
+      "B05M3D8AQ8",
+      "B00004YUWA",
+      "B07YBX6T95",
+      "B00005B8G1",
+      "B004C43FH0",
+      "B07HC1JR2H",
+      "B09RNK4H6Z",
+      "B002W8D0EQ",
+      "B008VQ8HBO",
+      "B06ZXYT5KJ",
+      "B00E4MQODC",
+      "B004DI5H26",
+      "B0006BK58U",
+      "B00542XG96",
+      "B07HC1JR2H",
+      "B001HUHB54",
+      "B00HLWIS72",
+      "B00E4MQODC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0007D4MVI",
+        "reason": "Beloved Pokemon franchise title"
+      },
+      {
+        "item_id": "B00KCCNMYW",
+        "reason": "Engaging action-adventure gameplay"
+      },
+      {
+        "item_id": "B001HUHB54",
+        "reason": "Family-friendly simulation game"
+      },
+      {
+        "item_id": "B05M3D8AQ8",
+        "reason": "Action-adventure with cinematic elements"
+      },
+      {
+        "item_id": "B00004YUWA",
+        "reason": "Puzzle-solving adventure experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3672,
+    "completion_tokens": 347
+  }
+}

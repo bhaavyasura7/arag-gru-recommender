@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00000I1B7",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation games."
+      },
+      {
+        "item_id": "B00KQHHDZC",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys sports video games."
+      },
+      {
+        "item_id": "B0C7PZB135",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller compatible with various systems."
+      },
+      {
+        "item_id": "B01FRL2OSW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B0013G0XZC",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers PlayStation over Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 157
+  }
+}

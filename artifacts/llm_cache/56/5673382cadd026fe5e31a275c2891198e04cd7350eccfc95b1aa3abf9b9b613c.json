@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002Z01QO2",
+      "B01IFE2OFG",
+      "B00BN5T30E",
+      "B007VYW5K6",
+      "B12H4FY96B",
+      "B014W1YRY2",
+      "B00N34CK5I",
+      "B000WJFZEA",
+      "B00GM5TPSA",
+      "B0816ZR4DX",
+      "B007VM72BA",
+      "B08MBPMKPC",
+      "B004DGIYEG",
+      "B00ZQB28XK",
+      "B07SSZGYNR",
+      "B00BN5T30E",
+      "B0BM5YPLKM",
+      "B08MBMWTYR",
+      "B011XO54MA",
+      "B09H4FY96B"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002Z01QO2",
+        "reason": "Popular game for older consoles"
+      },
+      {
+        "item_id": "B01IFE2OFG",
+        "reason": "High-quality gaming controller"
+      },
+      {
+        "item_id": "B00BN5T30E",
+        "reason": "Gaming headset for immersive experience"
+      },
+      {
+        "item_id": "B007VYW5K6",
+        "reason": "Flight combat game experience"
+      },
+      {
+        "item_id": "B00GM5TPSA",
+        "reason": "Classic PS2 game with action elements"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3955,
+    "completion_tokens": 323
+  }
+}

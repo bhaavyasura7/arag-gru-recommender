@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action RPGs",
+      "adventure games",
+      "survival horror",
+      "story-driven experiences",
+      "high-quality graphics"
+    ],
+    "current_intent": "looking for engaging video games to play",
+    "avoid": [
+      "poorly rated games",
+      "repetitive gameplay",
+      "low-quality graphics"
+    ],
+    "summary": "User enjoys immersive video games, particularly in action RPG and adventure genres, but is cautious about low-rated titles."
+  },
+  "usage": {
+    "prompt_tokens": 291,
+    "completion_tokens": 81
+  }
+}

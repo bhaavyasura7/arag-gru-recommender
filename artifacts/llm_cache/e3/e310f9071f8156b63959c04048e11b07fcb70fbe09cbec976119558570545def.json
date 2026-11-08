@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUQMI",
+      "B074PKQWB1",
+      "B00H9CVO0W",
+      "B005SYWL4Q",
+      "B07L7LT3Q6",
+      "B9XWFDSP6",
+      "B003YJ4J0Q",
+      "B000059WIQ",
+      "B077PBNG9B",
+      "B07PPPMBB3",
+      "B00030GK56",
+      "B076V8FC1H",
+      "B002YX09IY",
+      "B08ZNCVZRQ",
+      "B0C85TJFFH",
+      "B08XWFDSP6",
+      "B0007V46I4",
+      "B09577GRRZ",
+      "B0000ZUGY0",
+      "B01L5QXEJG",
+      "B08ZNCVZRQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUQMI",
+        "reason": "Popular family-friendly racing game"
+      },
+      {
+        "item_id": "B074PKQWB1",
+        "reason": "Engaging hidden object adventure"
+      },
+      {
+        "item_id": "B00H9CVO0W",
+        "reason": "Accessory for Nintendo gaming"
+      },
+      {
+        "item_id": "B005SYWL4Q",
+        "reason": "Classic family-friendly adventure"
+      },
+      {
+        "item_id": "B07L7LT3Q6",
+        "reason": "Versatile headset for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3037,
+    "completion_tokens": 338
+  }
+}

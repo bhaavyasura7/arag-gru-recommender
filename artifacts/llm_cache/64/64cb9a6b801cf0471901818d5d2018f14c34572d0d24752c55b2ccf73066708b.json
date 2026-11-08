@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0000A33W7",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related to X-Men, user liked Wolverine."
+      },
+      {
+        "item_id": "B01N955CE7",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game, less relevant."
+      },
+      {
+        "item_id": "B079C4BCPV",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Console skin, not directly related."
+      },
+      {
+        "item_id": "B015D8UE2C",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Superhero theme, but different franchise."
+      },
+      {
+        "item_id": "B07B2PDDWW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming keyboard, not a game itself."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1123,
+    "completion_tokens": 159
+  }
+}

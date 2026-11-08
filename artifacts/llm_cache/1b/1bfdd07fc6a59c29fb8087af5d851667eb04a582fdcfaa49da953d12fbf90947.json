@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B20BVFHFP37",
+      "B09N9GGR51",
+      "B13F3Y79BA",
+      "B07R7LC8LY",
+      "B07GQ6NN9M",
+      "B14PKJ3C7S",
+      "B0BS5GV9VV",
+      "B072F43DLR",
+      "B07FL8NYQH",
+      "B07M9Q5TLJ",
+      "B08961BCXD",
+      "B06XKM5LSX",
+      "B00AE6OPEC",
+      "B000ENMSXU",
+      "B00BHV29Y6",
+      "B089CJNG33",
+      "B07VBFLNV2",
+      "B08PKJ3C7S",
+      "B07G7GPS32",
+      "B07G7GPS32"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BVFHFP37",
+        "reason": "Wireless RGB gaming keyboard and mouse"
+      },
+      {
+        "item_id": "B09N9GGR51",
+        "reason": "High-quality RGB mechanical keyboard"
+      },
+      {
+        "item_id": "B13F3Y79BA",
+        "reason": "7.1 surround sound gaming headset"
+      },
+      {
+        "item_id": "B07R7LC8LY",
+        "reason": "Compatible wireless gaming headset"
+      },
+      {
+        "item_id": "B07GQ6NN9M",
+        "reason": "Popular wireless controller option"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3023,
+    "completion_tokens": 331
+  }
+}

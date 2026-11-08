@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B072XQNF39",
+      "B0BJV8Y6C4",
+      "B075VJ6NLZ",
+      "B00004TNU6",
+      "B00008XKZ3",
+      "B009MFU9A0",
+      "B019KJAQKO",
+      "B000093HZ0",
+      "B003JBHG7C",
+      "B004HH81S0",
+      "B00005RQRH",
+      "B00153CNX8",
+      "B0BGBQG3LR",
+      "B000035XH4",
+      "B007WXJPXVQ",
+      "B00008XKZ3",
+      "B00004TNU6",
+      "B0099F1NZI",
+      "B000035XH4",
+      "B00005RQRH"
+    ],
+    "reasons": [
+      {
+        "item_id": "B072XQNF39",
+        "reason": "Popular Pokémon game on Nintendo"
+      },
+      {
+        "item_id": "B0BJV8Y6C4",
+        "reason": "Family party accessories for Switch"
+      },
+      {
+        "item_id": "B075VJ6NLZ",
+        "reason": "Custom skin for Nintendo Switch"
+      },
+      {
+        "item_id": "B00004TNU6",
+        "reason": "Classic Nintendo 64 console"
+      },
+      {
+        "item_id": "B00008XKZ3",
+        "reason": "Engaging hunting game for Wii"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3284,
+    "completion_tokens": 327
+  }
+}

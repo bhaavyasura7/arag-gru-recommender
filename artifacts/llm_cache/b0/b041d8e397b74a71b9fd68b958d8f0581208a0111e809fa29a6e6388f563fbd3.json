@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00004WFVZ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar WWII air combat theme."
+      },
+      {
+        "item_id": "B000FQ2D5E",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre, not air combat."
+      },
+      {
+        "item_id": "B06X9XC8SK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Adventure game, not combat-focused."
+      },
+      {
+        "item_id": "B09DSSK3RD",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B07YBX7Y3P",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different setting, but multiplayer elements."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1336,
+    "completion_tokens": 158
+  }
+}

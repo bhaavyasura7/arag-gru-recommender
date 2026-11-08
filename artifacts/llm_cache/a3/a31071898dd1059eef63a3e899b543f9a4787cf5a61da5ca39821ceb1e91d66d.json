@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00LLWIVLQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, not Xbox related."
+      },
+      {
+        "item_id": "B015QHTICW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation game, user prefers Xbox."
+      },
+      {
+        "item_id": "B07T67S9Y1",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming mouse for PC, relevant accessory."
+      },
+      {
+        "item_id": "B0015FOANW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Educational game, not user’s typical genre."
+      },
+      {
+        "item_id": "B014KXMLXG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Amiibo for Nintendo, not Xbox related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1030,
+    "completion_tokens": 164
+  }
+}

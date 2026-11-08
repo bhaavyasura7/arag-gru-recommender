@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B007G3U7NE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B000S6AG9G",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Tool for Nintendo, not directly relevant."
+      },
+      {
+        "item_id": "B07BW77M9V",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo Switch game, user prefers Xbox."
+      },
+      {
+        "item_id": "B00DYJGDYQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PlayStation Vita game, user prefers Xbox."
+      },
+      {
+        "item_id": "B08N6PFRPD",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox, aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1295,
+    "completion_tokens": 167
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00005B70T",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Racing game, not a strong interest."
+      },
+      {
+        "item_id": "B0000A2MAQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Targeted at younger children, not user."
+      },
+      {
+        "item_id": "B000059OQF",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Educational game, not aligned with interests."
+      },
+      {
+        "item_id": "B075G5SMHT",
+        "label": "support",
+        "score": 7,
+        "rationale": "Visual novel aligns with user preferences."
+      },
+      {
+        "item_id": "B0916MVHCM",
+        "label": "support",
+        "score": 8,
+        "rationale": "Action-adventure matches user gaming style."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1944,
+    "completion_tokens": 161
+  }
+}

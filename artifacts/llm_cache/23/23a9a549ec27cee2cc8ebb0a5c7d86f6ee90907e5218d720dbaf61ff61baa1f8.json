@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000092P91",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B0C28BJR3H",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Keyboard not directly related to gaming."
+      },
+      {
+        "item_id": "B00GUDHUDQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox 360 game aligns with interests."
+      },
+      {
+        "item_id": "B09Y2X5ZR3",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS5 accessory, not directly relevant."
+      },
+      {
+        "item_id": "B002WVQHB6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Old console, not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1079,
+    "completion_tokens": 159
+  }
+}

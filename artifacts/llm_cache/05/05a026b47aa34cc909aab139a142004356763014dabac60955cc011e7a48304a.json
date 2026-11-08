@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01CTXH6P2",
+        "label": "support",
+        "score": 7,
+        "rationale": "Matches Xbox One console ownership."
+      },
+      {
+        "item_id": "B00U2GEVPC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox over PlayStation."
+      },
+      {
+        "item_id": "B004LLC4B2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo DS not in user history."
+      },
+      {
+        "item_id": "B00005NCBA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy system, not Xbox or PS."
+      },
+      {
+        "item_id": "B003TEGSXM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "FIFA series not mentioned in history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1063,
+    "completion_tokens": 158
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000N5Z2L4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Online gaming interest is unclear."
+      },
+      {
+        "item_id": "B0B8XNG9NX",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no VR gaming history."
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PlayStation games."
+      },
+      {
+        "item_id": "B0B6GLJ6YQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Keyboard not directly related to interests."
+      },
+      {
+        "item_id": "B0006A9SM0",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has Nintendo gaming history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1244,
+    "completion_tokens": 158
+  }
+}

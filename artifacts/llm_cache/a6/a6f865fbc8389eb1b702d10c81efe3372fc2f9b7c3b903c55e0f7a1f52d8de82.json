@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08NYQYMS5",
+      "B00DDLJI9W",
+      "B0B5SXDD61",
+      "B0916MVHCM",
+      "B00KZLHTAI",
+      "B01GOK1HB0",
+      "B07G5SMHT",
+      "B0B45V8T4J",
+      "B005FO0V2I",
+      "B083PTPWDR",
+      "B00005B70T",
+      "B00002STKI",
+      "B000059OQF",
+      "B0000A2MAQ",
+      "B000B6HWF4",
+      "B004OH7ODG",
+      "B14KZLHTAI",
+      "B0000A2MAQ",
+      "B00005B70T",
+      "B000059OQF"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08NYQYMS5",
+        "reason": "Dual controller charging dock"
+      },
+      {
+        "item_id": "B00DDLJI9W",
+        "reason": "Backlit gaming keyboard"
+      },
+      {
+        "item_id": "B0B5SXDD61",
+        "reason": "Nintendo Switch game bundle"
+      },
+      {
+        "item_id": "B0916MVHCM",
+        "reason": "Collector's edition for PS5"
+      },
+      {
+        "item_id": "B00KZLHTAI",
+        "reason": "Silicone case for Wii U"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3515,
+    "completion_tokens": 324
+  }
+}

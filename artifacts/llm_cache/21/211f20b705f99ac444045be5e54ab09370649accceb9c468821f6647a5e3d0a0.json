@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00DJRLDMU",
+      "B0BYNPVB24",
+      "B008KGNCSI",
+      "B00004U5VK",
+      "B0086VPUHI",
+      "B000EHIXJY",
+      "B0001NYK1G",
+      "B074DVJJWB",
+      "B002BSC4ZS",
+      "B00006LELH",
+      "B002TDIEDG",
+      "B0088TN7BO",
+      "B087NN2K41",
+      "B00008KTW6",
+      "B0001NYK1G",
+      "B00004U5VK",
+      "B0029F2FB6",
+      "B00006LELH",
+      "B0001NYK1G",
+      "B0001NYK1G",
+      "B0001NYK1G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DJRLDMU",
+        "reason": "Popular DLC for current games"
+      },
+      {
+        "item_id": "B0BYNPVB24",
+        "reason": "High-quality controller for Xbox"
+      },
+      {
+        "item_id": "B008KGNCSI",
+        "reason": "Based on popular TV series"
+      },
+      {
+        "item_id": "B00004U5VK",
+        "reason": "Classic game with strong narrative"
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "reason": "Highly rated action-adventure game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3690,
+    "completion_tokens": 322
+  }
+}

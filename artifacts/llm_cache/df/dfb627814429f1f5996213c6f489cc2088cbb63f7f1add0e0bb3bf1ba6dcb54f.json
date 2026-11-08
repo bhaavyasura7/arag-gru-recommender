@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01IC2A28C",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo 3DS games."
+      },
+      {
+        "item_id": "B099YTDMZ3",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers Nintendo over Xbox accessories."
+      },
+      {
+        "item_id": "B006VR663G",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in Wii U games."
+      },
+      {
+        "item_id": "B00KIWEMIG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not play PS3 games."
+      },
+      {
+        "item_id": "B000A28ENI",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys classic Nintendo games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1343,
+    "completion_tokens": 157
+  }
+}

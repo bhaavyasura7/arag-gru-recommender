@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07VHHPJBV",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar gaming mouse features and DPI."
+      },
+      {
+        "item_id": "B08CRZXNZ1",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to gaming mice."
+      },
+      {
+        "item_id": "B091G6TPDW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Educational DVDs, not gaming."
+      },
+      {
+        "item_id": "B09HZC194X",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Charger cable, somewhat relevant accessory."
+      },
+      {
+        "item_id": "B00005EBC4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Old console bundle, not a mouse."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1337,
+    "completion_tokens": 156
+  }
+}

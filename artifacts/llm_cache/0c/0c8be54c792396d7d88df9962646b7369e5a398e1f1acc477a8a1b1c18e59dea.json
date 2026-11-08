@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07MJGDP1T",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B09B1NYMN6",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar genre to user's games."
+      },
+      {
+        "item_id": "B075LFQGBV",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B01N4N3WIA",
+        "label": "support",
+        "score": 6,
+        "rationale": "PC game, aligns with gaming interest."
+      },
+      {
+        "item_id": "B004NDTRJA",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different genre, less appealing."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1294,
+    "completion_tokens": 149
+  }
+}

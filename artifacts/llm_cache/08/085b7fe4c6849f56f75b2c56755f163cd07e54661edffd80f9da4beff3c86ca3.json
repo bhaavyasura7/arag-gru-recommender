@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B12MZ2PX42",
+      "B06ZZ5N6SH",
+      "B20BF9TDLHT",
+      "B093S1V4GF",
+      "B17K7HL1CH",
+      "B0039QJKZ8",
+      "B01MEDEM3R",
+      "B001KW421A",
+      "B001FPX65U",
+      "B000APWZOE",
+      "B0002FQVBA",
+      "B0002ATZ7M",
+      "B08268DDKC",
+      "B008S7JREW",
+      "B07MZ2PX42",
+      "B0054I9ZFE",
+      "B010S32LBE",
+      "B07HJ3YRBC",
+      "B005WPG9QC",
+      "B001FPX65U"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07MZ2PX42",
+        "reason": "Comprehensive Nintendo Switch kit"
+      },
+      {
+        "item_id": "B06ZZ5N6SH",
+        "reason": "High-quality mechanical keyboard"
+      },
+      {
+        "item_id": "B20BF9TDLHT",
+        "reason": "RGB mechanical keyboard combo"
+      },
+      {
+        "item_id": "B093S1V4GF",
+        "reason": "Durable VR headset case"
+      },
+      {
+        "item_id": "B17K7HL1CH",
+        "reason": "Versatile Nintendo Switch accessories"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3428,
+    "completion_tokens": 323
+  }
+}

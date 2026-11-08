@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B003JKK60C",
+      "B005Z9GNSE",
+      "B0080Y3P2B",
+      "B00457X0YM",
+      "B007B64TCQ",
+      "B00HCRMWN2",
+      "B00CQ35C1Q",
+      "B001MBP678",
+      "B09NDCX7GK",
+      "B07Z427CPZ",
+      "B0BTHS5YRW",
+      "B0038K69UO",
+      "B0B9GZ58RB",
+      "B07NY2YJSH",
+      "B09F2MSB59",
+      "B08HK5MSB7",
+      "B0B9GZ58RB",
+      "B07Z427CPZ",
+      "B0038K69UO",
+      "B0BTHS5YRW",
+      "B07NY2YJSH"
+    ],
+    "reasons": [
+      {
+        "item_id": "B003JKK60C",
+        "reason": "Best retro controller option"
+      },
+      {
+        "item_id": "B005Z9GNSE",
+        "reason": "Popular retro game title"
+      },
+      {
+        "item_id": "B0080Y3P2B",
+        "reason": "Wireless controller for PS3"
+      },
+      {
+        "item_id": "B00457X0YM",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B007B64TCQ",
+        "reason": "Durable PS Vita case"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3562,
+    "completion_tokens": 338
+  }
+}

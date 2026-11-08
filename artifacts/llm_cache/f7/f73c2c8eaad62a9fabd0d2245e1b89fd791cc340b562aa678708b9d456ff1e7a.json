@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07VHHPJBV",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar gaming mouse features and DPI."
+      },
+      {
+        "item_id": "B0051D8PGM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not a mouse, but a popular game."
+      },
+      {
+        "item_id": "B0015HYPOO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Racing wheel, not a gaming mouse."
+      },
+      {
+        "item_id": "B00CEGCN76",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not a mouse, but an action game."
+      },
+      {
+        "item_id": "B08VFQ3XJX",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not a mouse, classic RPG game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1375,
+    "completion_tokens": 162
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00GBCLG0E",
+      "B001EYUNMG",
+      "B0077LRPSA",
+      "B19KXFB1P8",
+      "B004HGFZYO",
+      "B00K0NV5J2",
+      "B00BER9YFA",
+      "B006QRNKOO",
+      "B006PP404Q",
+      "B00005NN5G",
+      "B000FQ9QVI",
+      "B000VJRU44",
+      "B08JHZHWZ3",
+      "B075MK6THW",
+      "B001EYUNMG",
+      "B0001AO01Y",
+      "B006MQH644",
+      "B0001AO01Y",
+      "B0001AO01Y",
+      "B0001AO01Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00GBCLG0E",
+        "reason": "Highly rated zombie narrative game"
+      },
+      {
+        "item_id": "B001EYUNMG",
+        "reason": "Engaging action-adventure gameplay"
+      },
+      {
+        "item_id": "B0077LRPSA",
+        "reason": "Intense action and storytelling"
+      },
+      {
+        "item_id": "B004HGFZYO",
+        "reason": "Thrilling chase experience"
+      },
+      {
+        "item_id": "B00K0NV5J2",
+        "reason": "Expansive narrative-driven content"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3826,
+    "completion_tokens": 317
+  }
+}

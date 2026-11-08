@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00KIWEMIG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games."
+      },
+      {
+        "item_id": "B00002SVWG",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers newer games."
+      },
+      {
+        "item_id": "B0118YZG0A",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys action-packed games."
+      },
+      {
+        "item_id": "B0C1W4WV2B",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has gaming accessories interest."
+      },
+      {
+        "item_id": "B0166FC9J2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers English language games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1286,
+    "completion_tokens": 153
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003DNSR3S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not mysteries."
+      },
+      {
+        "item_id": "B07V5CFMY4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's gaming systems."
+      },
+      {
+        "item_id": "B007CM0K86",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 3 games."
+      },
+      {
+        "item_id": "B08SC46N9J",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with Nintendo Switch, user likes."
+      },
+      {
+        "item_id": "B08L7JTBCN",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming headset for popular action games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1442,
+    "completion_tokens": 157
+  }
+}

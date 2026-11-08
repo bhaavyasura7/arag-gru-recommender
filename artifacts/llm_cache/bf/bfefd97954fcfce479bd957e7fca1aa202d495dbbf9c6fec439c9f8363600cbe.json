@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00009ZVI2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, but adventure elements present."
+      },
+      {
+        "item_id": "B01ARRXJJE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Headset not related to gaming preferences."
+      },
+      {
+        "item_id": "B07QPVTW6R",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Headset not related to gaming preferences."
+      },
+      {
+        "item_id": "B000FII14Y",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform, but similar adventure theme."
+      },
+      {
+        "item_id": "B075QLXC7C",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Different genre, user prefers platformers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1418,
+    "completion_tokens": 162
+  }
+}

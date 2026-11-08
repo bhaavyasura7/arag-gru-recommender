@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07P2J6HSR",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not Nintendo."
+      },
+      {
+        "item_id": "B00Y4S5KPY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not directly related to consoles."
+      },
+      {
+        "item_id": "B00498XT1G",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "For Nintendo DS, not Xbox or PlayStation."
+      },
+      {
+        "item_id": "B001ELJE88",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related to Halo, user enjoys Halo games."
+      },
+      {
+        "item_id": "B073GYFP2M",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PSP accessory, not relevant to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 165
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BF8H4WNC",
+      "B0PDW1Z2G",
+      "B0CF82DZ4P",
+      "B17ZNQNDN5",
+      "B00196DP9M",
+      "B08YDM92NR",
+      "B00EZAWU4K",
+      "B00HFXSVDI",
+      "B00NQMKTI2",
+      "B009CXLEEW",
+      "B07KB9MDC2",
+      "B08LP8JWJ7",
+      "B07ZJ6RY1W",
+      "B00LF7HAXM",
+      "B074Y4G1TT",
+      "B08J6GVCT9",
+      "B08PDW1Z2G",
+      "B00E9T8FU",
+      "B0CF82DZ4P",
+      "B08LP8JWJ7"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BF8H4WNC",
+        "reason": "Epic adventure with immersive storyline"
+      },
+      {
+        "item_id": "B0PDW1Z2G",
+        "reason": "Engaging Mario games included"
+      },
+      {
+        "item_id": "B0CF82DZ4P",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B07ZNQNDN5",
+        "reason": "Easy to grab and play"
+      },
+      {
+        "item_id": "B00196DP9M",
+        "reason": "Classic action RPG experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3793,
+    "completion_tokens": 338
+  }
+}

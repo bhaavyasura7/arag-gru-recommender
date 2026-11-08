@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08KB1WW74",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox accessory for gaming collection."
+      },
+      {
+        "item_id": "B0050SVOXE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, but similar gaming style."
+      },
+      {
+        "item_id": "B004RMK5QG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation service, not Xbox related."
+      },
+      {
+        "item_id": "B08QMMVHWX",
+        "label": "support",
+        "score": 7,
+        "rationale": "Switch controller aligns with Nintendo interests."
+      },
+      {
+        "item_id": "B0C5HQ6L7F",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Classic game, but not current interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1371,
+    "completion_tokens": 159
+  }
+}

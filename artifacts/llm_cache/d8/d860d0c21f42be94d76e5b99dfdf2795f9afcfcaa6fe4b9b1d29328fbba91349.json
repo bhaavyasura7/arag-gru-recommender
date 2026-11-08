@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0187UFI1U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, user prefers Xbox."
+      },
+      {
+        "item_id": "B000069BD9",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, user prefers newer consoles."
+      },
+      {
+        "item_id": "B00XZQ58AI",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with Xbox, user likes controllers."
+      },
+      {
+        "item_id": "B00YJJ0P1C",
+        "label": "support",
+        "score": 10,
+        "rationale": "Directly matches user's Xbox accessory needs."
+      },
+      {
+        "item_id": "B001TOQ8UW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform, user prefers Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1902,
+    "completion_tokens": 157
+  }
+}

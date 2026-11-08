@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B20H0TJM70",
+      "B07C9W9FK4",
+      "B00BQVXSSS",
+      "B000GA8U9W",
+      "B005669IE2",
+      "B000Q0ASEW",
+      "B078WKY7F6",
+      "B00X8XIN7S",
+      "B00004S9AC",
+      "B0012RCNTG",
+      "B06Y626MDF",
+      "B005QP3MGI",
+      "B004GEBB2W",
+      "B00DOD52QW",
+      "B008B6OC5O",
+      "B0C5K4M7WJ",
+      "B00HX1UXD8",
+      "B000MI0W3U",
+      "B086VWKLXF",
+      "B000GA8U9W"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01H0TJM70",
+        "reason": "Popular action game with great reviews"
+      },
+      {
+        "item_id": "B07C9W9FK4",
+        "reason": "Essential Xbox One accessory"
+      },
+      {
+        "item_id": "B00BQVXSSS",
+        "reason": "Highly rated Gears of War title"
+      },
+      {
+        "item_id": "B000GA8U9W",
+        "reason": "Strategic gameplay with Digimon"
+      },
+      {
+        "item_id": "B005669IE2",
+        "reason": "Fun music rhythm game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3821,
+    "completion_tokens": 334
+  }
+}

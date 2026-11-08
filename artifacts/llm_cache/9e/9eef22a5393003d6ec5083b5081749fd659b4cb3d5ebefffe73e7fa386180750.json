@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B013HMN66M",
+      "B00006FWU7",
+      "B001EYUXWQ",
+      "B003Q9RGRW",
+      "B004ZCPL26",
+      "B007CSCWVI",
+      "B002JTX9X0",
+      "B00DB2BI00",
+      "B003O6FV8S",
+      "B00CJ9OTNE",
+      "B00DE2W5XG",
+      "B00K0NV5J2",
+      "B00G6VPUHI",
+      "B007G69KPM",
+      "B00KSQHX1K",
+      "B00V693FF7",
+      "B00DB2BI00",
+      "B00K0NV5J2",
+      "B00DE2W5XG",
+      "B003EUPCZG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B013HMN66M",
+        "reason": "Retro Sega Genesis controller"
+      },
+      {
+        "item_id": "B00006FWU7",
+        "reason": "Classic racing game for Xbox"
+      },
+      {
+        "item_id": "B001EYUXWQ",
+        "reason": "Legacy horror game for Xbox 360"
+      },
+      {
+        "item_id": "B003Q9RGRW",
+        "reason": "Useful chatpad for Xbox 360"
+      },
+      {
+        "item_id": "B004ZCPL26",
+        "reason": "Action game for PlayStation 3"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3772,
+    "completion_tokens": 330
+  }
+}

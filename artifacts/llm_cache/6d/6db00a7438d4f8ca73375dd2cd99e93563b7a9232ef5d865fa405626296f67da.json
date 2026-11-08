@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000G79YNQ",
+      "B002JTX87C",
+      "B0046A8IRC",
+      "B07CB12726",
+      "B004LLHFAW",
+      "B00C1TTF86",
+      "B0061PAZUS",
+      "B00BGA9WK2",
+      "B003JVCA9Q",
+      "B01LX4ZCJL",
+      "B07VYHB37P",
+      "B09Z7DLGWL",
+      "B07DLNHQZX",
+      "B08QFPS48J",
+      "B015NGZFWS",
+      "B004LLHFAW",
+      "B00069GD0Q",
+      "B07CB12726",
+      "B004LLHFAW",
+      "B004LLHFAW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000G79YNQ",
+        "reason": "Popular PS2 racing game"
+      },
+      {
+        "item_id": "B002JTX87C",
+        "reason": "Scooby-Doo game fits interests"
+      },
+      {
+        "item_id": "B0046A8IRC",
+        "reason": "Classic RPG, not PS2"
+      },
+      {
+        "item_id": "B07CB12726",
+        "reason": "Vita game, not PS2"
+      },
+      {
+        "item_id": "B004LLHFAW",
+        "reason": "Modern game, not PS2"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3867,
+    "completion_tokens": 319
+  }
+}

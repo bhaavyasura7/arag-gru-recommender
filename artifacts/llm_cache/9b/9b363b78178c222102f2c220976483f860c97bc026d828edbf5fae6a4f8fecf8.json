@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00H2W0DIS",
+      "B12ZQB28XK",
+      "B12O2T0G8",
+      "B12YGCCASI",
+      "B12XFYYQ4Q",
+      "B12E290JRE",
+      "B12EYUSHQ",
+      "B12J42FNW",
+      "B12KUZEFBK",
+      "B12S4JTTC",
+      "B12O2T0G8",
+      "B12N4RTS4",
+      "B12D08JV6I",
+      "B12J42FNW",
+      "B12E290JRE",
+      "B12EYUSHQ",
+      "B12J42FNW",
+      "B12D08JV6I",
+      "B12J42FNW",
+      "B12E290JRE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00H2W0DIS",
+        "reason": "High-quality game code"
+      },
+      {
+        "item_id": "B12ZQB28XK",
+        "reason": "Popular game for PS4"
+      },
+      {
+        "item_id": "B12O2T0G8",
+        "reason": "Premium gaming headset"
+      },
+      {
+        "item_id": "B12YGCCASI",
+        "reason": "Enhances controller grip"
+      },
+      {
+        "item_id": "B12XFYYQ4Q",
+        "reason": "Wireless gaming keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3784,
+    "completion_tokens": 317
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BVVTQ5JP",
+      "B07RYWGWFH",
+      "B014N4RTS4",
+      "B08WQD819H",
+      "B0C3KYVDWT",
+      "B09WKGQZRC",
+      "B0762H7Z8H",
+      "B004GUTRYK",
+      "B07V3T7WF1",
+      "B001E90A10",
+      "B003BLUA64",
+      "B001E56K5Y",
+      "B004IK89G0",
+      "B08H1SYGWV",
+      "B07ZV4GX9",
+      "B000U34SZA",
+      "B087SHFL9B",
+      "B06XQZ4F9D",
+      "B01N332TG8",
+      "B07RYWGWFH"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BVVTQ5JP",
+        "reason": "High-quality gaming mouse features"
+      },
+      {
+        "item_id": "B07RYWGWFH",
+        "reason": "Customizable mechanical keyboard"
+      },
+      {
+        "item_id": "B014N4RTS4",
+        "reason": "Popular gaming title for nostalgia"
+      },
+      {
+        "item_id": "B08WQD819H",
+        "reason": "Mobile gaming accessory for convenience"
+      },
+      {
+        "item_id": "B0C3KYVDWT",
+        "reason": "Fast storage for gaming needs"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4151,
+    "completion_tokens": 327
+  }
+}

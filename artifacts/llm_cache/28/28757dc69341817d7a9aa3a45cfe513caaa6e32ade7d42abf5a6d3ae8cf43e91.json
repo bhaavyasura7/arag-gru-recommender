@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo handheld consoles",
+      "Pokémon games",
+      "PlayStation accessories",
+      "video game expansions",
+      "gaming travel gear"
+    ],
+    "current_intent": "Looking for new gaming accessories or titles.",
+    "avoid": [
+      "PC games",
+      "non-gaming products",
+      "mobile games"
+    ],
+    "summary": "The user enjoys Nintendo and PlayStation gaming, particularly Pokémon and accessories, and is currently seeking new items to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 98
+  }
+}

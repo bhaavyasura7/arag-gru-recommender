@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Warhammer 40K games",
+      "Real-time strategy games",
+      "PC gaming",
+      "Military strategy",
+      "Multiplayer experiences"
+    ],
+    "current_intent": "Looking for more strategy games similar to Warhammer.",
+    "avoid": [
+      "Casual games",
+      "Single-player only",
+      "Non-strategy genres"
+    ],
+    "summary": "User enjoys strategy games, particularly in the Warhammer universe, and seeks similar titles for PC gaming."
+  },
+  "usage": {
+    "prompt_tokens": 282,
+    "completion_tokens": 82
+  }
+}

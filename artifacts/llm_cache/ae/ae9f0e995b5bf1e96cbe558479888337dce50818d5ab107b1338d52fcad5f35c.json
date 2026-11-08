@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08QMMVHWX",
+      "B00DJRLAZ0",
+      "B06CCZWKKV3",
+      "B009DL2TBA",
+      "B004RMK5QG",
+      "B00QRZ1HVS",
+      "B001ELJFMI",
+      "B001EYUPHO",
+      "B001EYUWIG",
+      "B00AEL9MNG",
+      "B0C5HQ6L7F",
+      "B004AM656M",
+      "B00DDIRERI",
+      "B0C1W4WV2B",
+      "B08KB1WW74",
+      "B0050SVOXE",
+      "B0118YZG0A",
+      "B00002SVWG",
+      "B001EYUPHO",
+      "B00KIWEMIG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08QMMVHWX",
+        "reason": "Family-friendly controller for Switch"
+      },
+      {
+        "item_id": "B00DJRLAZ0",
+        "reason": "Multiplayer racing game experience"
+      },
+      {
+        "item_id": "B06CCZWKKV3",
+        "reason": "Limited edition Xbox external drive"
+      },
+      {
+        "item_id": "B009DL2TBA",
+        "reason": "Family-friendly Nintendo DS game"
+      },
+      {
+        "item_id": "B004RMK5QG",
+        "reason": "Multiplayer Naruto fighting game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3845,
+    "completion_tokens": 322
+  }
+}

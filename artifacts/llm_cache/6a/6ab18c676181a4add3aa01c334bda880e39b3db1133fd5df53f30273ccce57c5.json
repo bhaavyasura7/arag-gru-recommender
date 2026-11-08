@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B009R9NR96",
+      "B00AEZIZ9E",
+      "B0010LOT00",
+      "B004EJXSPW",
+      "B07R9HW8VC",
+      "B00004U49W",
+      "B00005NCA3",
+      "B000FW3XOS",
+      "B00FB5Q4ZE",
+      "B001EYUY9I",
+      "B000BTYP4C",
+      "B00HJZMJ0S",
+      "B00009XS6P",
+      "B006OBEFXW",
+      "B004EC4CPE",
+      "B000R3SP34",
+      "B0013EF17O",
+      "B0002ATZ7M",
+      "B00006N5SQ",
+      "B000067GAW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B009R9NR96",
+        "reason": "High-quality racing experience"
+      },
+      {
+        "item_id": "B00AEZIZ9E",
+        "reason": "Engaging gameplay for gamers"
+      },
+      {
+        "item_id": "B0010LOT00",
+        "reason": "Classic racing nostalgia"
+      },
+      {
+        "item_id": "B004EJXSPW",
+        "reason": "Realistic racing simulation"
+      },
+      {
+        "item_id": "B07R9HW8VC",
+        "reason": "Nintendo Switch compatibility"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2513,
+    "completion_tokens": 312
+  }
+}

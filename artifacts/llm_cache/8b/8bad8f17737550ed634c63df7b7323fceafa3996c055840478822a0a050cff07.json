@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07MLW2SWR",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo Switch game, cooperative gameplay."
+      },
+      {
+        "item_id": "B003EQ3LS0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo DS game, not highly rated."
+      },
+      {
+        "item_id": "B004HD55VK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PlayStation 3 game, different genre."
+      },
+      {
+        "item_id": "B00FA1CLEW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Kids game, not aligned with interests."
+      },
+      {
+        "item_id": "B001EYUS7G",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system game, not preferred."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1417,
+    "completion_tokens": 156
+  }
+}

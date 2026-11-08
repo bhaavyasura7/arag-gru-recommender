@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00DDILSBG",
+      "B00006FXJ4",
+      "B07895QZBF",
+      "B00BGA9WK2",
+      "B00RZ7TC6Y",
+      "B00B7UHWB2",
+      "B0095CZL8A",
+      "B003ZRZVW2",
+      "B0BVVTQ5JP",
+      "B00M3D8LCG",
+      "B001EYUPHO",
+      "B00UH9DN58",
+      "B00XV2D37G",
+      "B0BR5N5VK5",
+      "B00005QEFG",
+      "B00B7UHWB2",
+      "B00RZ7TC6Y",
+      "B008KGN9DG",
+      "B07ZHSPB4W",
+      "B001EYUXDU",
+      "B0BVVTQ5JP"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DDILSBG",
+        "reason": "Popular RPG with nostalgic elements"
+      },
+      {
+        "item_id": "B00006FXJ4",
+        "reason": "Includes classic simulation games"
+      },
+      {
+        "item_id": "B07895QZBF",
+        "reason": "Highly rated action RPG"
+      },
+      {
+        "item_id": "B00BGA9WK2",
+        "reason": "Essential gaming accessory"
+      },
+      {
+        "item_id": "B00RZ7TC6Y",
+        "reason": "Protective accessory for gaming console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3812,
+    "completion_tokens": 335
+  }
+}

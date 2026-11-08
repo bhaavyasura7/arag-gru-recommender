@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0BR9RGRW8",
+      "B01EZUCHOC",
+      "B074FD2WQJ",
+      "B00DBDPOZ4",
+      "B16QU5KLK",
+      "B004ZX75AQ",
+      "B01N7RYYKK",
+      "B00CISMP8M",
+      "B01GDKXMPA",
+      "B0087LXZRE",
+      "B00CIO5ILW",
+      "B00VILBF0Y",
+      "B001EYUQDW",
+      "B00DC7G3Q8",
+      "B003VUO6H4",
+      "B00CISMP8M",
+      "B01LPNKGGI",
+      "B0BRPR1L4N",
+      "B00CIO5ILW",
+      "B01N7RYYKK",
+      "B00DBDPOZ4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BR9RGRW8",
+        "reason": "Top Xbox gaming accessory"
+      },
+      {
+        "item_id": "B01EZUCHOC",
+        "reason": "Popular Xbox game"
+      },
+      {
+        "item_id": "B074FD2WQJ",
+        "reason": "Essential Xbox controller"
+      },
+      {
+        "item_id": "B00DBDPOZ4",
+        "reason": "Useful Xbox charging kit"
+      },
+      {
+        "item_id": "B16QU5KLK",
+        "reason": "Highly rated Xbox game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3743,
+    "completion_tokens": 334
+  }
+}

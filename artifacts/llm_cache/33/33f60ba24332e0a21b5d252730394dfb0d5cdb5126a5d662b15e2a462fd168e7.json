@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000ERVMI8",
+      "B00BAQXJMO",
+      "B074NJWFXH",
+      "B0015MMN6G",
+      "B00DOD51UY",
+      "B003INEQ2O",
+      "B00BN5T30E",
+      "B000094OT8",
+      "B0086VPUHI",
+      "B00008RUYZ",
+      "B00DV16N6U",
+      "B004S5MB1O",
+      "B07H5NGZQ8",
+      "B001G60LBK",
+      "B0C23C5YP5",
+      "B007H5NGZQ8",
+      "B0001B15RA",
+      "B00JS9XVNM",
+      "B004LLHFAW",
+      "B009VUHVY8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000ERVMI8",
+        "reason": "Mario game highly rated"
+      },
+      {
+        "item_id": "B00BAQXJMO",
+        "reason": "Popular sports game"
+      },
+      {
+        "item_id": "B074NJWFXH",
+        "reason": "Nintendo accessory"
+      },
+      {
+        "item_id": "B0015MMN6G",
+        "reason": "Memory card for gaming"
+      },
+      {
+        "item_id": "B00DOD51UY",
+        "reason": "Wii charging station"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3593,
+    "completion_tokens": 313
+  }
+}

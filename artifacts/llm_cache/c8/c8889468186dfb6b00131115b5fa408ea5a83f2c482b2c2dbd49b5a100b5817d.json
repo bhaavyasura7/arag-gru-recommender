@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B087SHFL9B",
+      "B04N332TG8",
+      "B0929JM6ZS",
+      "B071WQ28YV",
+      "B14V5LZMTH",
+      "B07D3MY2VZ",
+      "B001QCWRZC",
+      "B00C2PJTKS",
+      "B00DDILSBG",
+      "B001QCWRZC",
+      "B00F27JGVA",
+      "B00YXO5X4M",
+      "B002RRLQIO",
+      "B004RMK5QG",
+      "B081SHD773",
+      "B00C2PJTKS",
+      "B00DDILSBG",
+      "B07R9PBHP2",
+      "B00C2PJTKS",
+      "B00DDILSBG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087SHFL9B",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B04N332TG8",
+        "reason": "Classic RPG on Switch"
+      },
+      {
+        "item_id": "B0929JM6ZS",
+        "reason": "High-quality controller option"
+      },
+      {
+        "item_id": "B071WQ28YV",
+        "reason": "Fun dance game for Switch"
+      },
+      {
+        "item_id": "B14V5LZMTH",
+        "reason": "Engaging multiplayer experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3886,
+    "completion_tokens": 320
+  }
+}

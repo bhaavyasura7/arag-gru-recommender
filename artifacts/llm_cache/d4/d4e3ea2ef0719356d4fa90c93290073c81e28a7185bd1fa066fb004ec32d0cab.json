@@ -1,0 +1,14 @@
+{
+  "content": {
+    "keywords": [
+      "gaming",
+      "headset"
+    ],
+    "max_price": 50,
+    "exclude_terms": []
+  },
+  "usage": {
+    "prompt_tokens": 183,
+    "completion_tokens": 27
+  }
+}

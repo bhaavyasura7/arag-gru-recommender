@@ -1,0 +1,29 @@
+{
+  "content": {
+    "ranking": [
+      "B005MICTUE",
+      "B001EYUXLC",
+      "B001DLVIFQ",
+      "B003MQMD2W",
+      "B005OGPTSS",
+      "B0015AARJI",
+      "B0029MAXVS",
+      "B001ELJE1U",
+      "B0BLLG2RHT",
+      "B00Z9TM72Q",
+      "B00NHV0XV0",
+      "B07ZJ6RY1W",
+      "B003Z0BRDQ",
+      "B006VR663G",
+      "B0041HROGG",
+      "B07C3PV1PX",
+      "B003R7JXMO",
+      "B00JA81WQE",
+      "B00C1TTF86"
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3616,
+    "completion_tokens": 140
+  }
+}

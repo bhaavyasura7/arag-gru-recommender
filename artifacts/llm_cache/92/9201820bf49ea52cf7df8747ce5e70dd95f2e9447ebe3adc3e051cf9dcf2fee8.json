@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09Q5M4FVK",
+      "B01EV5SROA",
+      "B0C86F41D3",
+      "B0785WMMZ1",
+      "B07P171J2L",
+      "B078TWTDQP",
+      "B07P4LZ7KG",
+      "B075V1D18Q",
+      "B01EV5SOVQ",
+      "B01EV5SUDS",
+      "B07439W2ZZ",
+      "B07LFC71DR",
+      "B08GPG8TCD",
+      "B06XGZDKJ1",
+      "B01E8KSI60",
+      "B071ZVNM8G",
+      "B12LFC71DR",
+      "B08NJQKTLX",
+      "B07LF8PW5K",
+      "B01EV5SUDS",
+      "B01EV5SROA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09Q5M4FVK",
+        "reason": "7.1 surround sound features"
+      },
+      {
+        "item_id": "B01EV5SROA",
+        "reason": "Excellent sound and RGB lighting"
+      },
+      {
+        "item_id": "B0C86F41D3",
+        "reason": "High-grade sound performance"
+      },
+      {
+        "item_id": "B0785WMMZ1",
+        "reason": "Soft memory earmuffs for comfort"
+      },
+      {
+        "item_id": "B07P171J2L",
+        "reason": "Fantastic stereo sound effect"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4238,
+    "completion_tokens": 348
+  }
+}

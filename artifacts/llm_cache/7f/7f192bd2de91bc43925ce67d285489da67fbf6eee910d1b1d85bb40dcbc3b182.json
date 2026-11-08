@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DBDPOZ4",
+      "B00002AH2T",
+      "B000UHNHQW",
+      "B00N8KT35W",
+      "B00B0YGTWI",
+      "B000U1OOB0",
+      "B08DXS6DVC",
+      "B01MSHGS6Y",
+      "B07HH3B953",
+      "B07WRL8MDM",
+      "B07GVPHYBG",
+      "B003AJJTZ0",
+      "B08DS8YC6L",
+      "B09QR6MX9V",
+      "B00008NRM3",
+      "B000U1OOB0",
+      "B01EWQQZL0",
+      "B000UHNHQW",
+      "B00002AH2T",
+      "B000B0YGTWI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DBDPOZ4",
+        "reason": "Directly related to Xbox gaming"
+      },
+      {
+        "item_id": "B00002AH2T",
+        "reason": "Gaming accessory for legacy systems"
+      },
+      {
+        "item_id": "B000UHNHQW",
+        "reason": "Action RPG game on PlayStation"
+      },
+      {
+        "item_id": "B00N8KT35W",
+        "reason": "Gaming mouse for PC gamers"
+      },
+      {
+        "item_id": "B00B0YGTWI",
+        "reason": "Compatible with Xbox controllers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3619,
+    "completion_tokens": 327
+  }
+}

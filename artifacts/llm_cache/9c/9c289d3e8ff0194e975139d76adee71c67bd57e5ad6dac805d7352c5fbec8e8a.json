@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B12ZZ5N6SH",
+      "B07K7HL1CH",
+      "B07MZ2PX42",
+      "B093S1V4GF",
+      "B20BF9TDLHT",
+      "B001KW421A",
+      "B0039QJKZ8",
+      "B001FPX65U",
+      "B001FPX65U",
+      "B001FPX65U",
+      "B0002FQVBA",
+      "B0002ATZ7M",
+      "B000APWZOE",
+      "B07HJ3YRBC",
+      "B005WPG9QC",
+      "B004UJI5N6",
+      "B06ZZ5N6SH",
+      "B010S32LBE",
+      "B0054I9ZFE",
+      "B08268DDKC",
+      "B0002FQVBA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B12ZZ5N6SH",
+        "reason": "High-quality mechanical keyboard"
+      },
+      {
+        "item_id": "B07K7HL1CH",
+        "reason": "Gaming headset with noise isolation"
+      },
+      {
+        "item_id": "B07MZ2PX42",
+        "reason": "Complete Nintendo Switch accessory kit"
+      },
+      {
+        "item_id": "B093S1V4GF",
+        "reason": "Protective case for VR headset"
+      },
+      {
+        "item_id": "B20BF9TDLHT",
+        "reason": "RGB mechanical keyboard and mouse combo"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3378,
+    "completion_tokens": 335
+  }
+}

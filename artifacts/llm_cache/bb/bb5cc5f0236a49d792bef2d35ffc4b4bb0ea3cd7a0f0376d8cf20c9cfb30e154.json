@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0000A0O28",
+      "B08BF4JBB9",
+      "B07BFV8GYY",
+      "B08L6CZ6N3",
+      "B0043VDC9S",
+      "B01M7XSWTF",
+      "B09JKCLXH6",
+      "B07WCQDG7S",
+      "B01AVQT95Y",
+      "B08RCQDWDM",
+      "B07GMXHGZT",
+      "B07H54S914",
+      "B000NIBB5W",
+      "B00433468C",
+      "B09FYY8KY9",
+      "B01MZ9LKJE",
+      "B07M8QTLVV",
+      "B08RCQDWDM",
+      "B0BG43T6YB",
+      "B07Q4F7FGX",
+      "B08BF4JBB9"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0000A0O28",
+        "reason": "Nostalgic multiplayer fun"
+      },
+      {
+        "item_id": "B08BF4JBB9",
+        "reason": "Engaging competitive gameplay"
+      },
+      {
+        "item_id": "B07BFV8GYY",
+        "reason": "Protective case for Switch"
+      },
+      {
+        "item_id": "B08L6CZ6N3",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B0043VDC9S",
+        "reason": "Classic title for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3109,
+    "completion_tokens": 342
+  }
+}

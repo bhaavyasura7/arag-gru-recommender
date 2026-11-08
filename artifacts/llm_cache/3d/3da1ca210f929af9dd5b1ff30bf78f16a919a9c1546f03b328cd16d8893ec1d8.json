@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003TQM4DS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers RPGs, not shooters."
+      },
+      {
+        "item_id": "B019WRM1IA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller not directly related to games."
+      },
+      {
+        "item_id": "B014R4KYMS",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 4 games."
+      },
+      {
+        "item_id": "B00RJNE3TK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse not specific to user interests."
+      },
+      {
+        "item_id": "B00BU3ZLJQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Minecraft is popular but not preferred."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 157
+  }
+}

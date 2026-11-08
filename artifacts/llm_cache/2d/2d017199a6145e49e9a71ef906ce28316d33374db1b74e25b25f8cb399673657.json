@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B014278KOO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PC gaming products."
+      },
+      {
+        "item_id": "B001QCWSGU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on PC gaming, not consoles."
+      },
+      {
+        "item_id": "B002BSA388",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not relevant to user's PC gaming interests."
+      },
+      {
+        "item_id": "B07KCBHDLX",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's gaming controllers."
+      },
+      {
+        "item_id": "B000067FDY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, but not aligned with user's history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1260,
+    "completion_tokens": 158
+  }
+}

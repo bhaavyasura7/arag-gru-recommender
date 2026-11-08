@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07TN89FGQ",
+      "B0017HW5LM",
+      "B00CMQTUSS",
+      "B01N3ASPNV",
+      "B0088TN7BO",
+      "B002I0J4VQ",
+      "B000035Y5A",
+      "B06XT99YW5",
+      "B00CJ9OTNE",
+      "B001EYUQVE",
+      "B002SR1G4C",
+      "B00GB7HVGW",
+      "B000VTQ3LU",
+      "B01KSVR9ZY",
+      "B078SM4YJ9",
+      "B00C1ZBFTW",
+      "B009AOFNU4",
+      "B01N3ASPNV",
+      "B0006B7DXA",
+      "B07DPK5NPD",
+      "B002I0J4VQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07TN89FGQ",
+        "reason": "Joy-Con for Nintendo Switch"
+      },
+      {
+        "item_id": "B0017HW5LM",
+        "reason": "Classic Nintendo game"
+      },
+      {
+        "item_id": "B00CMQTUSS",
+        "reason": "Xbox controller, not preferred"
+      },
+      {
+        "item_id": "B01N3ASPNV",
+        "reason": "Screen protector for Switch"
+      },
+      {
+        "item_id": "B0088TN7BO",
+        "reason": "LEGO game, family-friendly"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3772,
+    "completion_tokens": 332
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004DNWPO4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B004PBPAWS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox 360 game aligns with user interests."
+      },
+      {
+        "item_id": "B00G94RXCE",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Skylanders figures are not core games."
+      },
+      {
+        "item_id": "B007DKUB5O",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Book about football, not a game."
+      },
+      {
+        "item_id": "B001R5CS0W",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, but relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 159
+  }
+}

@@ -52,7 +52,7 @@ All numbers are produced by a deterministic, audited pipeline: **`make verify` r
 
 ## 0. How to read this document (orientation, glossary, diagram)
 
-**If you have 30 seconds:** the project asks whether adding a *trained* neural sequence model (GRU) to an *LLM agent* recommender (ARAG) improves ranking. Answer: **no (H1 fails) — and on fair candidate lists the LLM agent is itself the best system**, significantly beating the trained model, the paper's simpler LLM baselines, popularity and random ranking.
+**If you have 30 seconds:** the project asks whether adding a *trained* neural sequence model (GRU) to an *LLM agent* recommender (ARAG) improves ranking. Answer (final run, §15): **yes (H1 supported)** — fusing the GRU improves ARAG significantly (+0.098), but the fused system is no better than the GRU alone (H2 not supported), and properly trained sequence models (SASRec, GRU, text-GRU) beat the LLM agent on accuracy. ARAG still significantly beats the paper's simpler LLM baselines and has the lowest popularity bias. *(The first run, with a GRU initialisation bug, concluded the opposite — see Appendix G.)*
 
 **If you have 10 minutes:** read §1 (questions), §3.2 (frozen candidate lists — including why they were rebuilt after review), §4 (system), §6 (results), §7 (analysis), and Appendix E (the errata, if you saw the earlier numbers).
 
@@ -872,7 +872,7 @@ Cost and statistics: each LLM user costs ~7–12 API calls, and 100 paired users
 Qualitatively and now statistically: ARAG significantly beats LLM-Recency and LLM-Vanilla-RAG (the paper's baselines), and removing NLI **and** CSA significantly hurts ARAG (the paper's ablation). Removing only NLI is directionally negative but not significant. **Appendix F** puts the paper's Table 1 side by side with ours — including the absolute numbers, why they are not comparable (different category, model, dataset version, protocol), and where our results are stronger or weaker than the paper's. We never claim to reproduce the paper's absolute numbers. Note this is a change from the first run, where none of these differences were significant and the ablations were weakly *better* — the degenerate lists had hidden them (Appendix E).
 
 **Q10. What would you change with more time/budget?**
-≥300 test users for tighter CIs and a stable α (the 0.9-vs-1.0 disagreement is a small-n artefact); retrieval-mined hard negatives; a strictly time-separated split for the GRU; and an LLM ranker explicitly given popularity/statistical features, to test whether the agentic contribution survives with every confound removed.
+≥300 test users for tighter CIs and a more stable α (the first run's 0.9-vs-1.0 disagreement was a small-n artefact); retrieval-mined hard negatives; a strictly time-separated split for the GRU; and an LLM ranker explicitly given popularity/statistical features, to test whether the agentic contribution survives with every confound removed.
 
 ---
 

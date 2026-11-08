@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B15NVVV9R7",
+      "B15Y8X55I8",
+      "B0017QFMJU",
+      "B076PL1965",
+      "B007OAGLSO",
+      "B001EYUQMI",
+      "B004L4G8UC",
+      "B00MAM0ALA",
+      "B005HJJICA",
+      "B086YVBCSM",
+      "B00IPTUJ8G",
+      "B00E4MQODC",
+      "B00005O0I2",
+      "B0BDWVBWC9",
+      "B094YHB1QK",
+      "B00Y8CQCXA",
+      "B00X8X55I8",
+      "B017QU5KLK",
+      "B000BHEQ1G",
+      "B00E4MQODC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B15NVVV9R7",
+        "reason": "amiibo for family-friendly games"
+      },
+      {
+        "item_id": "B15Y8X55I8",
+        "reason": "popular Nintendo game"
+      },
+      {
+        "item_id": "B0017QFMJU",
+        "reason": "essential Wii accessory"
+      },
+      {
+        "item_id": "B076PL1965",
+        "reason": "protects Nintendo 2DS XL"
+      },
+      {
+        "item_id": "B007OAGLSO",
+        "reason": "Disney game for family fun"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3583,
+    "completion_tokens": 325
+  }
+}

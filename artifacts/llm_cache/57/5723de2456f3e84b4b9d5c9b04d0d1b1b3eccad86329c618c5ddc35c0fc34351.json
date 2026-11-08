@@ -1,0 +1,30 @@
+{
+  "content": {
+    "ranking": [
+      "B0BVWPMMCT",
+      "B0001PWCPU",
+      "B0009UC6AI",
+      "B00002SVMJ",
+      "B001G7PRP4",
+      "B01J4K384Q",
+      "B0B3X4L6YZ",
+      "B0042A4ZLY",
+      "B001EYUPLK",
+      "B00005MDZ0",
+      "B000NKRIZM",
+      "B002LT24CK",
+      "B08ZXH4JLM",
+      "B004B6N790",
+      "B07WY4CVRP",
+      "B000AODB7A",
+      "B00002SVEA",
+      "B0001PWCPU",
+      "B0009UC6AI",
+      "B0042A4ZLY"
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3369,
+    "completion_tokens": 149
+  }
+}

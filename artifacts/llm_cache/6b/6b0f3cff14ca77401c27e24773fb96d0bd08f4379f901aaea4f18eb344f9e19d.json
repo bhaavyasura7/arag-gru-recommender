@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07MKS66XM",
+      "B0BTNG1QFB",
+      "B05KFSF",
+      "B00125ON14",
+      "B11JDJXP65",
+      "B07KQD87TZ",
+      "B000924JLA",
+      "B00004TJDK",
+      "B0037HPS6Y",
+      "B00EDHEWP0",
+      "B00005KFSF",
+      "B00TRC3RLQ",
+      "B00009MRF9",
+      "B09XDPMZJ6",
+      "B0045U292I",
+      "B0BVD2GY4H",
+      "B000E23W6S",
+      "B07NRSQFSV",
+      "B00005KFSF",
+      "B00JQR54Q8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07MKS66XM",
+        "reason": "Popular multiplayer Mario game"
+      },
+      {
+        "item_id": "B0BTNG1QFB",
+        "reason": "Ergonomic controller for Switch"
+      },
+      {
+        "item_id": "B00125ON14",
+        "reason": "Fun multiplayer basketball game"
+      },
+      {
+        "item_id": "B00005KFSF",
+        "reason": "Massively multiplayer online game"
+      },
+      {
+        "item_id": "B00EDHEWP0",
+        "reason": "High-quality gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3455,
+    "completion_tokens": 315
+  }
+}

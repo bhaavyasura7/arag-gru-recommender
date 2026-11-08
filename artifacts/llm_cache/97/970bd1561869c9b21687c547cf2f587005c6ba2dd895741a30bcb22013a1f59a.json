@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00001QHYA",
+      "B000FM38RK",
+      "B00MA089GA",
+      "B00CP1QA1U",
+      "B000066RKC",
+      "B07NYDS9SY",
+      "B072JMHVM4",
+      "B07ZJ6YDJT",
+      "B093LB7W5F",
+      "B0194X7X7Q",
+      "B093X5KNHZ",
+      "B0037JT3K4",
+      "B08HSQDH45",
+      "B074Z7B59J",
+      "B0055SZAB6",
+      "B00AWD18QK",
+      "B07SJ4LV23",
+      "B075YBBQMM",
+      "B06X2L4BV7",
+      "B08HSQDH45"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00001QHYA",
+        "reason": "Classic game with nostalgic appeal"
+      },
+      {
+        "item_id": "B000FM38RK",
+        "reason": "Retro bowling game experience"
+      },
+      {
+        "item_id": "B00MA089GA",
+        "reason": "Organizes retro game cartridges"
+      },
+      {
+        "item_id": "B00CP1QA1U",
+        "reason": "Unique gameplay with humor"
+      },
+      {
+        "item_id": "B000066RKC",
+        "reason": "Classic horror game with suspense"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3555,
+    "completion_tokens": 316
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "survival horror",
+      "narrative-driven experiences",
+      "multiplayer gameplay",
+      "classic console titles"
+    ],
+    "current_intent": "looking for more engaging video games",
+    "avoid": [
+      "puzzle games",
+      "sports games",
+      "casual games"
+    ],
+    "summary": "The user enjoys immersive action-adventure and horror games, primarily on older consoles, and seeks similar titles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 302,
+    "completion_tokens": 84
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BGMYCK1V",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "General accessory, not specific interest."
+      },
+      {
+        "item_id": "B0882TR2WY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo Switch controller aligns with interests."
+      },
+      {
+        "item_id": "B01995X43Q",
+        "label": "support",
+        "score": 7,
+        "rationale": "Protective skin for PS4 controllers matches."
+      },
+      {
+        "item_id": "B00WO9RRMO",
+        "label": "support",
+        "score": 6,
+        "rationale": "Clear controller for PS4 fits gaming style."
+      },
+      {
+        "item_id": "B01BZ89S8A",
+        "label": "support",
+        "score": 6,
+        "rationale": "Controller skins for PS3/PS4 are relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2297,
+    "completion_tokens": 161
+  }
+}

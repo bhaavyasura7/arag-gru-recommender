@@ -1,0 +1,70 @@
+{
+  "content": {
+    "ranking": [
+      "B00BGAA3S2",
+      "B00HVBPRUO",
+      "B00Z9TM72Q",
+      "B00BGA9X9W",
+      "B01GY35UK6",
+      "B00RN7QTF8",
+      "B00HVBPRUO",
+      "B00Z9TM72Q",
+      "B00BGAA3S2",
+      "B00BGA9X9W",
+      "B003L77YKS",
+      "B000095ZH6",
+      "B0B11Z2PYX",
+      "B0000A0MDV",
+      "B002U02AEC",
+      "B002824SNS",
+      "B0072A4JVW",
+      "B0BVVTQ5JP",
+      "B09XM8MMYD",
+      "B0086VPUHI",
+      "B07DLNHQZX",
+      "B0BLFYF8K2",
+      "B001G60JHQ",
+      "B000R08L7M",
+      "B0000A0MDV",
+      "B003L77YKS",
+      "B0B11Z2PYX",
+      "B000095ZH6",
+      "B002U02AEC",
+      "B002824SNS",
+      "B0072A4JVW",
+      "B0BVVTQ5JP",
+      "B09XM8MMYD",
+      "B0086VPUHI",
+      "B07DLNHQZX",
+      "B0BLFYF8K2",
+      "B001G60JHQ",
+      "B000R08L7M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00BGAA3S2",
+        "reason": "Essential PS4 accessory for navigation"
+      },
+      {
+        "item_id": "B00HVBPRUO",
+        "reason": "High-quality gaming headset for immersion"
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Popular PS4 game with multiplayer"
+      },
+      {
+        "item_id": "B00BGA9X9W",
+        "reason": "Controller upgrade for better gameplay"
+      },
+      {
+        "item_id": "B01GY35UK6",
+        "reason": "Advanced gaming mouse for precision"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3646,
+    "completion_tokens": 501
+  }
+}

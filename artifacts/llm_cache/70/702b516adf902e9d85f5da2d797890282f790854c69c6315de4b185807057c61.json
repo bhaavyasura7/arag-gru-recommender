@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09MFFTCX8",
+      "B13D1ZLHB",
+      "B000FQBF1M",
+      "B17FSZQ1W1",
+      "B0000657SO",
+      "B001EHD9N8",
+      "B09NKTTRQD",
+      "B071Y79VNL",
+      "B0029LJIFG",
+      "B06XCP3C7H",
+      "B00SZ1DQFM",
+      "B00NW6T6CC",
+      "B0030MEITE",
+      "B00B8SAB8O",
+      "B00K0NV5J2",
+      "B01K1CC4R8",
+      "B00NOD0OTW",
+      "B00K0NV5J2",
+      "B00B8SAB8O",
+      "B09S6HGYT2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09MFFTCX8",
+        "reason": "Highly relevant gaming accessory"
+      },
+      {
+        "item_id": "B17FSZQ1W1",
+        "reason": "Collector's edition for PlayStation"
+      },
+      {
+        "item_id": "B000FQBF1M",
+        "reason": "Popular first-person shooter title"
+      },
+      {
+        "item_id": "B0000657SO",
+        "reason": "Compatible with PlayStation systems"
+      },
+      {
+        "item_id": "B001EHD9N8",
+        "reason": "High-quality gaming headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3915,
+    "completion_tokens": 336
+  }
+}

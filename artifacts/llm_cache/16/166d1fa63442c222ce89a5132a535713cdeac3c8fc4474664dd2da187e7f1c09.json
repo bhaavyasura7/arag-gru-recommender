@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B004PBPAWS",
+      "B15D122T41",
+      "B001R5CS0W",
+      "B003TEGSXM",
+      "B11CTXH6P2",
+      "B07HYW4XMP",
+      "B007DKUB5O",
+      "B00G94RXCE",
+      "B08DB8H8M5",
+      "B00005OBQ9",
+      "B00ABTAZV4",
+      "B004DNWPO4",
+      "B00ORY7GVG",
+      "B017C2U8A0",
+      "B00005NCBA",
+      "B017D3KOJS",
+      "B12D122T41",
+      "B007IQI8XU",
+      "B00U2GEVPC",
+      "B004LLC4B2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004PBPAWS",
+        "reason": "Family-friendly Xbox 360 game"
+      },
+      {
+        "item_id": "B15D122T41",
+        "reason": "Xbox One console skin accessory"
+      },
+      {
+        "item_id": "B001R5CS0W",
+        "reason": "Popular sports game on PS3"
+      },
+      {
+        "item_id": "B003TEGSXM",
+        "reason": "FIFA game for sports fans"
+      },
+      {
+        "item_id": "B11CTXH6P2",
+        "reason": "Customizable Xbox One decals"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3355,
+    "completion_tokens": 323
+  }
+}

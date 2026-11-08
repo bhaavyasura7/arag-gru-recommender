@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07624RBWB",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys Nintendo Switch accessories."
+      },
+      {
+        "item_id": "B00WAI6054",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic game, not a recent interest."
+      },
+      {
+        "item_id": "B0007QQUV0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy Xbox game, less relevant now."
+      },
+      {
+        "item_id": "B00578W1ZW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers consoles."
+      },
+      {
+        "item_id": "B08JHB9V72",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Board game, not video game related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1573,
+    "completion_tokens": 157
+  }
+}

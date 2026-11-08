@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08PSJW7FC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B014JNM8GM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older game, not a strong match."
+      },
+      {
+        "item_id": "B000197Z2G",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B001W30G44",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Not relevant to user's recent interests."
+      },
+      {
+        "item_id": "B0BNKQ861F",
+        "label": "support",
+        "score": 9,
+        "rationale": "High DPI gaming mouse matches interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1916,
+    "completion_tokens": 156
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000DZLMTA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers adventure games, not sports."
+      },
+      {
+        "item_id": "B0BXKSJTDP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, but relevant."
+      },
+      {
+        "item_id": "B09QJCBLHS",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo game aligns with user interests."
+      },
+      {
+        "item_id": "B00T5458IG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Solitaire game differs from user's preferences."
+      },
+      {
+        "item_id": "B0000C7FPT",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Casino games are not user’s interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1248,
+    "completion_tokens": 162
+  }
+}

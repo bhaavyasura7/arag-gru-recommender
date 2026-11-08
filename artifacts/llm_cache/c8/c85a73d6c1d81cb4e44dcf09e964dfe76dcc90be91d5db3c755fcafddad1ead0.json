@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B007BK7J2Y",
+        "label": "support",
+        "score": 8,
+        "rationale": "User owns PlayStation Vita."
+      },
+      {
+        "item_id": "B00FA1CLEW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Skylanders not in user history."
+      },
+      {
+        "item_id": "B07S1Q55MB",
+        "label": "support",
+        "score": 9,
+        "rationale": "User owns Nintendo 3DS XL."
+      },
+      {
+        "item_id": "B09T7CBPZ9",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers handheld consoles."
+      },
+      {
+        "item_id": "B01L1Y0TCC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no Xbox interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 157
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Xbox 360 accessories",
+      "Video game subscriptions",
+      "Gaming peripherals",
+      "Xbox LIVE points",
+      "Home entertainment devices"
+    ],
+    "current_intent": "Looking for more Xbox 360 gaming accessories or subscriptions.",
+    "avoid": [
+      "Non-gaming products",
+      "Outdated consoles",
+      "PlayStation items"
+    ],
+    "summary": "User is focused on enhancing their Xbox 360 gaming experience with accessories and subscriptions."
+  },
+  "usage": {
+    "prompt_tokens": 295,
+    "completion_tokens": 77
+  }
+}

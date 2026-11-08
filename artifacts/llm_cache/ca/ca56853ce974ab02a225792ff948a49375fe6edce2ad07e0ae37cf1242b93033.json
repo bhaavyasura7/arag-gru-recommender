@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09V6R36BD",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation, not Switch."
+      },
+      {
+        "item_id": "B07SPGWL9M",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B07Y8JQ453",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox 360 games."
+      },
+      {
+        "item_id": "B00D82Z4YO",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has PlayStation 4, needs controller."
+      },
+      {
+        "item_id": "B01ERBYZI0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse not directly relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1163,
+    "completion_tokens": 159
+  }
+}

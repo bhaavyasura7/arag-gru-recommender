@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B081PM41CF",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox accessories interest."
+      },
+      {
+        "item_id": "B07L15TGTW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has Nintendo interest but no Wii."
+      },
+      {
+        "item_id": "B07LC8NPZ4",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has Nintendo Switch accessories interest."
+      },
+      {
+        "item_id": "B077JL1PYL",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Xbox gaming headset interest."
+      },
+      {
+        "item_id": "B0B7HW9358",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Nintendo Switch protective case interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1415,
+    "completion_tokens": 153
+  }
+}

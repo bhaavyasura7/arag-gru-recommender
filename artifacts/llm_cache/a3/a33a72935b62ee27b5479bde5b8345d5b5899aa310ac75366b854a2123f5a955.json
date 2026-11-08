@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001IK9AZM",
+      "B0058TGQKG",
+      "B15E9CU7E4",
+      "B17GD2997C",
+      "B0782336XD",
+      "B088DGJ765",
+      "B005GAV9HC",
+      "B006ZNGOJC",
+      "B003G2Z4VY",
+      "B076M9SMZ8",
+      "B085QFH3HW",
+      "B11LWMKQWU",
+      "B12BFWQ2HC6",
+      "B14DB4D832",
+      "B15E9CU7E4",
+      "B16DB4D832",
+      "B17GD2997C",
+      "B18B3DS362",
+      "B19B3DS362",
+      "B20B3DS362"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001IK9AZM",
+        "reason": "Retro console skin for Xbox 360"
+      },
+      {
+        "item_id": "B0058TGQKG",
+        "reason": "PSP charging cable for retro gaming"
+      },
+      {
+        "item_id": "B15E9CU7E4",
+        "reason": "Stylus for Nintendo DSi"
+      },
+      {
+        "item_id": "B17GD2997C",
+        "reason": "Joy-Con grips for Nintendo Switch"
+      },
+      {
+        "item_id": "B0782336XD",
+        "reason": "Silicone cover for Xbox controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4013,
+    "completion_tokens": 328
+  }
+}

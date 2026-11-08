@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B015D8AUCQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 3 games."
+      },
+      {
+        "item_id": "B08SBP4FLD",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own a Nintendo Switch."
+      },
+      {
+        "item_id": "B000FN99KO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers modern consoles over TurboGrafx."
+      },
+      {
+        "item_id": "B003EZ1KGQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User likes shooters but on different platforms."
+      },
+      {
+        "item_id": "B0009ZGK4Q",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a PSP."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1217,
+    "completion_tokens": 163
+  }
+}

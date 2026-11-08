@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BXFYD8NH",
+        "label": "support",
+        "score": 7,
+        "rationale": "Xbox Series X matches user interests."
+      },
+      {
+        "item_id": "B07SPHVDL5",
+        "label": "support",
+        "score": 6,
+        "rationale": "Xbox One aligns with gaming preferences."
+      },
+      {
+        "item_id": "B001ELJF8W",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system not aligned with user history."
+      },
+      {
+        "item_id": "B0035G08DK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game not relevant to user interests."
+      },
+      {
+        "item_id": "B001G7PSOE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PlayStation 3 game, somewhat relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1212,
+    "completion_tokens": 160
+  }
+}

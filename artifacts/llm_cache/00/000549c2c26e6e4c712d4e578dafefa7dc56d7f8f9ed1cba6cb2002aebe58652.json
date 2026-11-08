@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action video games",
+      "multiplayer experiences",
+      "gaming accessories",
+      "story-driven games",
+      "headsets for gaming"
+    ],
+    "current_intent": "looking for new video games or gaming accessories",
+    "avoid": [
+      "low-quality games",
+      "single-player only",
+      "outdated consoles"
+    ],
+    "summary": "User enjoys action and story-driven video games, values quality accessories, and is seeking new gaming experiences."
+  },
+  "usage": {
+    "prompt_tokens": 334,
+    "completion_tokens": 78
+  }
+}

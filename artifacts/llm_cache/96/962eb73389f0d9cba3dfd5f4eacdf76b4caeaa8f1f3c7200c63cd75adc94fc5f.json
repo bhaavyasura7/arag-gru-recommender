@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09NKTTRQD",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with PlayStation 3, user interest."
+      },
+      {
+        "item_id": "B071Y79VNL",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation, not Nintendo."
+      },
+      {
+        "item_id": "B0029LJIFG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no Xbox interest shown."
+      },
+      {
+        "item_id": "B0000657SO",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different platform, not directly relevant."
+      },
+      {
+        "item_id": "B06XCP3C7H",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation games, not Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1239,
+    "completion_tokens": 164
+  }
+}

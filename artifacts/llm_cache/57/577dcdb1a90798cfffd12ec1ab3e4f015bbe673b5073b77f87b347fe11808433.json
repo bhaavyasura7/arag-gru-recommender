@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00004TFLJ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user's interests."
+      },
+      {
+        "item_id": "B003BFTXWW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers different game genres."
+      },
+      {
+        "item_id": "B003VUO6H4",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has interest in gaming consoles."
+      },
+      {
+        "item_id": "B00006966U",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys classic Nintendo games."
+      },
+      {
+        "item_id": "B000X2BAOK",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1664,
+    "completion_tokens": 146
+  }
+}

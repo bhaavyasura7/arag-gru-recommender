@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00Z9TJ1VQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, but popular franchise."
+      },
+      {
+        "item_id": "B001EYUT70",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Targeted at younger audience, not Tom."
+      },
+      {
+        "item_id": "B005OGLHM0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Kids' game, not aligned with interests."
+      },
+      {
+        "item_id": "B00HGLLRV2",
+        "label": "support",
+        "score": 7,
+        "rationale": "Open world, action-adventure aligns well."
+      },
+      {
+        "item_id": "B00005NFN4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system, not a strong preference."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1373,
+    "completion_tokens": 162
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07NY3JTXK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers traditional video games."
+      },
+      {
+        "item_id": "B0BWD2QV4N",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR gaming not indicated in user history."
+      },
+      {
+        "item_id": "B08XQM1QHW",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo games."
+      },
+      {
+        "item_id": "B002I08CJG",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes action games."
+      },
+      {
+        "item_id": "B06X9898LZ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1154,
+    "completion_tokens": 152
+  }
+}

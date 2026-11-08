@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07HGT7JC8",
+      "B00LV416KC",
+      "B085G42RXJ",
+      "B0B5NP8MVZ",
+      "B14K1CC4R8",
+      "B08C2MT145",
+      "B08DMWF4MX",
+      "B07467QH6M",
+      "B000N45SO6",
+      "B00005AG2L",
+      "B08H9CVSS9",
+      "B01K1CC4R8",
+      "B000PKU2N0",
+      "B006ZN64CY",
+      "B000RO39AW",
+      "B00D9ILIYW",
+      "B094Q6C3L9",
+      "B07D122T41",
+      "B08H9CVSS9",
+      "B00M1RSYUI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07HGT7JC8",
+        "reason": "Popular action-adventure RPG"
+      },
+      {
+        "item_id": "B00LV416KC",
+        "reason": "Engaging multiplayer co-op"
+      },
+      {
+        "item_id": "B085G42RXJ",
+        "reason": "Enhances gaming comfort"
+      },
+      {
+        "item_id": "B0B5NP8MVZ",
+        "reason": "Improves console cooling"
+      },
+      {
+        "item_id": "B14K1CC4R8",
+        "reason": "Boosts controller accuracy"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3339,
+    "completion_tokens": 324
+  }
+}

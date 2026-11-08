@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "1633441180",
+      "B000034DC6",
+      "B0033764FC",
+      "B19D0NV5J2",
+      "B000N5Z2L4",
+      "B08MBG5CQB",
+      "B07DHY6YLM",
+      "B099YTDMZ3",
+      "B014278KKI",
+      "B0050SYXSW",
+      "B003DNSR3S",
+      "B081W1VBKN",
+      "B000CCXCYC",
+      "B00EDU8HY4",
+      "B071G61TRM",
+      "B000SL4IIG",
+      "B0050SVHRC",
+      "B00LLG5B88",
+      "B000SFK0T8",
+      "B001H0RZX2"
+    ],
+    "reasons": [
+      {
+        "item_id": "1633441180",
+        "reason": "Star Wars strategy game expansion"
+      },
+      {
+        "item_id": "B000034DC6",
+        "reason": "Classic retro video game"
+      },
+      {
+        "item_id": "B0033764FC",
+        "reason": "Expansion for Dragon Age series"
+      },
+      {
+        "item_id": "B19D0NV5J2",
+        "reason": "Expansion for Dragon Age: Inquisition"
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "reason": "Xbox Live for online gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3498,
+    "completion_tokens": 317
+  }
+}

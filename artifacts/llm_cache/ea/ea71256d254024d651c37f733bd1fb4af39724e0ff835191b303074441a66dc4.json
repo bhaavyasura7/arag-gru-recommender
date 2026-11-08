@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0032C9V7G",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B01GOK34SO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "General gaming accessory, not specific."
+      },
+      {
+        "item_id": "B000BOJPRE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no Xbox interest."
+      },
+      {
+        "item_id": "B006JKAS6G",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own PlayStation Vita."
+      },
+      {
+        "item_id": "B01LPZM7VI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo over Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1269,
+    "completion_tokens": 156
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0000DC1TB",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with gaming preferences."
+      },
+      {
+        "item_id": "B01FVLA2CS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming headset matches user interests."
+      },
+      {
+        "item_id": "B00GT3PSZ4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PlayStation game, not Xbox-related."
+      },
+      {
+        "item_id": "B000FJ9I9U",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Older PC game, not relevant."
+      },
+      {
+        "item_id": "B0BKS1LJVL",
+        "label": "support",
+        "score": 9,
+        "rationale": "Racing wheel for Xbox, highly relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1334,
+    "completion_tokens": 160
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00BAQXJMO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games only."
+      },
+      {
+        "item_id": "B000ERVMI8",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related to Mario games, user enjoys."
+      },
+      {
+        "item_id": "B0015MMN6G",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Memory card not directly related to interests."
+      },
+      {
+        "item_id": "B07H5NGZQ8",
+        "label": "support",
+        "score": 6,
+        "rationale": "Protective case for Nintendo Switch, relevant."
+      },
+      {
+        "item_id": "B074NJWFXH",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not play PlayStation games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1134,
+    "completion_tokens": 161
+  }
+}

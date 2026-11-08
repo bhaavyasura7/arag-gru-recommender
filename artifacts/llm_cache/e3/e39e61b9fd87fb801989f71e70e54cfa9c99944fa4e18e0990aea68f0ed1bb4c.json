@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01NBDG49R",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Nintendo systems, not games."
+      },
+      {
+        "item_id": "B001ELJFPA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games, not FPS."
+      },
+      {
+        "item_id": "B006YDPU48",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Dark Souls series."
+      },
+      {
+        "item_id": "B00ZDNNRB8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Xbox controller, user prefers Nintendo."
+      },
+      {
+        "item_id": "B07KZ6QJTL",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PS4 accessory, user prefers Nintendo systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1947,
+    "completion_tokens": 156
+  }
+}

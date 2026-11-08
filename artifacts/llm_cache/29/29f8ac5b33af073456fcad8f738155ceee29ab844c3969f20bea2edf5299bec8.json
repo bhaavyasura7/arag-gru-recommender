@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The user seeks highly-rated action games, but the candidates primarily include accessories and non-action titles. The most relevant product, a DLC for Borderlands 2, aligns with the user's interest in action-adventure games, while other items do not meet the user's current intent."
+  },
+  "usage": {
+    "prompt_tokens": 783,
+    "completion_tokens": 58
+  }
+}

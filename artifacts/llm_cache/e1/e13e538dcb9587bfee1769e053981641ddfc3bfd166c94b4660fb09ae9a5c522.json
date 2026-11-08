@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001NJ293I",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with LEGO or platform preferences."
+      },
+      {
+        "item_id": "B007UNC2GA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game; limited interest."
+      },
+      {
+        "item_id": "B077GTT8VH",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS4 game; aligns with gaming interest."
+      },
+      {
+        "item_id": "B009AYQRJA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Strategy game; different genre preference."
+      },
+      {
+        "item_id": "B002GCJOC0",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory; not a game, limited relevance."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1263,
+    "completion_tokens": 154
+  }
+}

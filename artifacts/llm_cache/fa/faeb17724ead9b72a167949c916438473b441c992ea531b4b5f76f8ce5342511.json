@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00CSIB3PS",
+      "B07CZN97BH",
+      "B09Z25LT2D",
+      "B18D4ZTKQG",
+      "B004COHWLA",
+      "B09BQZMJ1P",
+      "B00V0RAW0A",
+      "B01IBJ46J2",
+      "B12CZN97BH",
+      "B07DNZCSBT",
+      "B0BL3JVHPD",
+      "B002G1TU7U",
+      "B002YD95I4",
+      "B00V5D3OHC",
+      "B071YR1V9D",
+      "B005SWVR2A",
+      "B00026UZ1Q",
+      "B096DPZ8PL",
+      "B01J4ZTKQG",
+      "B07YM4DGWK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00CSIB3PS",
+        "reason": "Includes popular racing game bundle"
+      },
+      {
+        "item_id": "B07CZN97BH",
+        "reason": "Compatible with Xbox One and Wii"
+      },
+      {
+        "item_id": "B09Z25LT2D",
+        "reason": "Cooling fan for Xbox Series X"
+      },
+      {
+        "item_id": "B18D4ZTKQG",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B004COHWLA",
+        "reason": "Wii game aligns with interests"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3733,
+    "completion_tokens": 328
+  }
+}

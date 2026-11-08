@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002QF5I2W",
+      "B07Y5Y7F56",
+      "B08PQD4RVQ",
+      "B007BK7J2Y",
+      "B00062VFEW",
+      "B003TO5QYY",
+      "B11KSCWHBO",
+      "B006ZO7TJU",
+      "B00SEFY6I0",
+      "B07XNSVF4P",
+      "B0C58QPSJ5",
+      "B0BMPMTNFP",
+      "B0C6MBDYVQ",
+      "B089SDDFR5",
+      "B0C6MBDYVQ",
+      "B000035XMJ",
+      "B009PJ9L3O",
+      "B01EBDB28U",
+      "B07FFL8ZQL",
+      "B008SIZFPG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002QF5I2W",
+        "reason": "Protective case for Nintendo DSi"
+      },
+      {
+        "item_id": "B07Y5Y7F56",
+        "reason": "Crystal case for PlayStation Vita"
+      },
+      {
+        "item_id": "B08PQD4RVQ",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B007BK7J2Y",
+        "reason": "Compatible case for PlayStation Vita"
+      },
+      {
+        "item_id": "B00062VFEW",
+        "reason": "PC game not aligned with interests"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3656,
+    "completion_tokens": 341
+  }
+}

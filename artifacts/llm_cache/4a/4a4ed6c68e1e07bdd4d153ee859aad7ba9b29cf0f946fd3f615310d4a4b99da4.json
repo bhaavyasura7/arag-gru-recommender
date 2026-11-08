@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08F97Q8HS",
+      "B00001X50M",
+      "B001EYUQTQ",
+      "B077DTWYV8",
+      "B14GMV1X1K",
+      "B003IOGPAO",
+      "B000HCQK0A",
+      "B07DPK5NPD",
+      "B0995GXFV4",
+      "B00RUZPKYY",
+      "B00HVBPRUO",
+      "B018QH6VVA",
+      "B094CN9YLY",
+      "B20EADTVL2",
+      "B00EQNP8W2",
+      "B002XVUT3M",
+      "B000HDKZE6",
+      "B0819DYM8Q",
+      "B07GMV1X1K",
+      "B00EADTVL2",
+      "B00RUZPKYY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08F97Q8HS",
+        "reason": "Mario-themed multiplayer game"
+      },
+      {
+        "item_id": "B00001X50M",
+        "reason": "Popular multiplayer shooter"
+      },
+      {
+        "item_id": "B001EYUQTQ",
+        "reason": "Highly rated multiplayer game"
+      },
+      {
+        "item_id": "B077DTWYV8",
+        "reason": "Essential gaming headset"
+      },
+      {
+        "item_id": "B14GMV1X1K",
+        "reason": "Fun multiplayer experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3767,
+    "completion_tokens": 330
+  }
+}

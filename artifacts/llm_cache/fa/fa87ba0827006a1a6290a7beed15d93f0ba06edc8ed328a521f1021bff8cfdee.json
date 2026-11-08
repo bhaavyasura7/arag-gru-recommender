@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000TLU67W",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers newer gaming systems."
+      },
+      {
+        "item_id": "B001C6GVI6",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no PlayStation 2 interest."
+      },
+      {
+        "item_id": "B000EHPQLC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern gaming experiences."
+      },
+      {
+        "item_id": "B07P5WJ7BC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has Xbox gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1324,
+    "completion_tokens": 160
+  }
+}

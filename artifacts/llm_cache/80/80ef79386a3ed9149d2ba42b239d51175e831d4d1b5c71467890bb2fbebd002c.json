@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08L6CZ6N3",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers games, not accessories."
+      },
+      {
+        "item_id": "B07BFV8GYY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Nintendo Switch, user has interest."
+      },
+      {
+        "item_id": "B08BF4JBB9",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys racing games, matches interests."
+      },
+      {
+        "item_id": "B07GMXHGZT",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Headset for gaming, not directly a game."
+      },
+      {
+        "item_id": "B0000A0O28",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys GameCube games, highly relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 165
+  }
+}

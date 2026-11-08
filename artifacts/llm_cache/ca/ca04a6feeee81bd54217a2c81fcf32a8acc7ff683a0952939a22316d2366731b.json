@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B005TH6BD4",
+      "B00B2A0STU",
+      "B07W17QSK8",
+      "B0B9L7RQGL",
+      "B0C3CTQ41Z",
+      "B0B81THKF3",
+      "B008FJQV1U",
+      "B005ZPAI0M",
+      "B002O7HFDC",
+      "B071P87W4V",
+      "B079RZ8VCL",
+      "B0037HPS6Y",
+      "B000AMJV44",
+      "B07XJY1LJ1",
+      "B07549RH4C",
+      "B0BHYS16BM",
+      "B005TH6BD4",
+      "B08XZ64Q32",
+      "B0B9L7RQGL",
+      "B0C3CTQ41Z",
+      "B07GFH462T"
+    ],
+    "reasons": [
+      {
+        "item_id": "B005TH6BD4",
+        "reason": "Engaging action-adventure gameplay"
+      },
+      {
+        "item_id": "B00B2A0STU",
+        "reason": "Popular RPG with immersive story"
+      },
+      {
+        "item_id": "B07W17QSK8",
+        "reason": "Limited edition RPG experience"
+      },
+      {
+        "item_id": "B0B9L7RQGL",
+        "reason": "Protective case for gaming device"
+      },
+      {
+        "item_id": "B0C3CTQ41Z",
+        "reason": "Enhances controller functionality"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3576,
+    "completion_tokens": 347
+  }
+}

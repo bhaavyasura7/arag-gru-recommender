@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001QCWRZC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games only."
+      },
+      {
+        "item_id": "B0765TZVMD",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related to Super Mario, user interest."
+      },
+      {
+        "item_id": "B01KX8ETK0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in soccer games."
+      },
+      {
+        "item_id": "B00002SWA8",
+        "label": "support",
+        "score": 6,
+        "rationale": "Nintendo 64 game aligns with interests."
+      },
+      {
+        "item_id": "B00BN5T30E",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not play PC games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1255,
+    "completion_tokens": 161
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BDF39JJP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user history."
+      },
+      {
+        "item_id": "B07QV5NPTF",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Repair parts, not gaming accessories."
+      },
+      {
+        "item_id": "B00UN0DDLK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Skin stickers, not functional gaming gear."
+      },
+      {
+        "item_id": "B07Z4YKNSL",
+        "label": "support",
+        "score": 7,
+        "rationale": "DIY kit for gaming, matches interests."
+      },
+      {
+        "item_id": "B00002QUKJ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Old controller, less relevant to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 156
+  }
+}

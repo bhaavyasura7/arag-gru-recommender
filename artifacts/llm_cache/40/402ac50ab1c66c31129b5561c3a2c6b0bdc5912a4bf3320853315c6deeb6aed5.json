@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07LDGV7ZL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to video game preferences."
+      },
+      {
+        "item_id": "B004Q4PECU",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar to previous Nintendo DS games."
+      },
+      {
+        "item_id": "B005669IE2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Dance games not aligned with interests."
+      },
+      {
+        "item_id": "B0026IZU68",
+        "label": "support",
+        "score": 6,
+        "rationale": "Music game aligns with gaming interests."
+      },
+      {
+        "item_id": "B003VUO6H4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Console not directly related to preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1243,
+    "completion_tokens": 153
+  }
+}

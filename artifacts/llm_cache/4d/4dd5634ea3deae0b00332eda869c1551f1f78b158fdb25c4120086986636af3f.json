@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09K77F43Z",
+      "B09SHJY9SD",
+      "B099RDW9V8",
+      "B06WVDMRNZ",
+      "B08R3B4RBN",
+      "B001KC03UO",
+      "B0030GBU32",
+      "B01AUDYZHA",
+      "B005VA5D24",
+      "B07D1X681S",
+      "B07VK41184",
+      "B00076OMOW",
+      "B08P9N8JXP",
+      "B0BD4B49VN",
+      "B06XD1WF8G",
+      "B0050JNR42",
+      "B0055A7S8W",
+      "B07X7HJ3QF",
+      "B14D1X681S",
+      "B08R3B4RBN"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09K77F43Z",
+        "reason": "Compatible with classic gaming"
+      },
+      {
+        "item_id": "B099RDW9V8",
+        "reason": "PlayStation controller for classic games"
+      },
+      {
+        "item_id": "B06WVDMRNZ",
+        "reason": "PlayStation accessory for enhanced experience"
+      },
+      {
+        "item_id": "B08R3B4RBN",
+        "reason": "Wireless controller for multiple systems"
+      },
+      {
+        "item_id": "B09SHJY9SD",
+        "reason": "Protective case for gaming console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3471,
+    "completion_tokens": 333
+  }
+}

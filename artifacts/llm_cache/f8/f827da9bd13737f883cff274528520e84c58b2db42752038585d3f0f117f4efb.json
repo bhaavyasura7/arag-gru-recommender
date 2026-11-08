@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0728H6KPV",
+      "B07R58MNGL",
+      "B07GDGBPCJ",
+      "B08F97Q8HS",
+      "B09F1F1F1F",
+      "B07QQ8N7LL",
+      "B00005U8TQ",
+      "B003NSLGW2",
+      "B07X1HF3V6",
+      "B00BGAA3S2",
+      "B07DDD9CPN",
+      "B0006JMLN4",
+      "B00FA1CLEW",
+      "B076B995TL",
+      "B00CJ9OTNE",
+      "B08CW2M37L",
+      "B001KC02Y6",
+      "B00ZD99YXC",
+      "B00FA1CLEW",
+      "B07MPSFJG3"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0728H6KPV",
+        "reason": "High-quality charger for Switch"
+      },
+      {
+        "item_id": "B07R58MNGL",
+        "reason": "Durable screen protector for Switch"
+      },
+      {
+        "item_id": "B07GDGBPCJ",
+        "reason": "Compact stand for Nintendo Switch"
+      },
+      {
+        "item_id": "B08F97Q8HS",
+        "reason": "Popular game for Nintendo Switch"
+      },
+      {
+        "item_id": "B09F1F1F1F",
+        "reason": "Essential gaming headset for consoles"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3636,
+    "completion_tokens": 330
+  }
+}

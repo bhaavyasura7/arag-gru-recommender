@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B075YP1CTH",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B09ZY72MQ1",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo, not PlayStation."
+      },
+      {
+        "item_id": "B094CY44XW",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports Nintendo Switch usage."
+      },
+      {
+        "item_id": "B004DNWOBI",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B07SGZSRRM",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PC game, user prefers console games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1212,
+    "completion_tokens": 159
+  }
+}

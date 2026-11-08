@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07QPXBJVD",
+      "B15C3JYGZH",
+      "B08JM2R8HZ",
+      "B08JWMJSB6",
+      "B07MDM62W6",
+      "B0030GWIGA",
+      "B000035XGN",
+      "B002FQJUQM",
+      "B0C47NXVG2",
+      "B09HY7L5Q4",
+      "B09BRN2HJK",
+      "B091FC8N2W",
+      "B07WS6ZFTG",
+      "B082S5ZGXQ",
+      "B0BHN77JGY",
+      "B01K53ONWW",
+      "B08QRCW6SN",
+      "B07C9KFCYQ",
+      "B0BHN77JGY",
+      "B09C3JYGZH",
+      "B09HY7L5Q4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07QPXBJVD",
+        "reason": "Nintendo Switch controller"
+      },
+      {
+        "item_id": "B15C3JYGZH",
+        "reason": "Wireless Switch controller"
+      },
+      {
+        "item_id": "B08JM2R8HZ",
+        "reason": "Compact gaming keyboard"
+      },
+      {
+        "item_id": "B08JWMJSB6",
+        "reason": "Customizable Xbox controller"
+      },
+      {
+        "item_id": "B07MDM62W6",
+        "reason": "Arcade joystick for retro gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3844,
+    "completion_tokens": 336
+  }
+}

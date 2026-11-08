@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07ZKW2285",
+        "label": "support",
+        "score": 8,
+        "rationale": "High-quality headset for gaming."
+      },
+      {
+        "item_id": "B00Z94K5R0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS3 accessory, not directly gaming."
+      },
+      {
+        "item_id": "B013VMUMHY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not relevant to user's interests."
+      },
+      {
+        "item_id": "B00IGCK71G",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Unrelated to video gaming."
+      },
+      {
+        "item_id": "B076HFWFDY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system accessory, limited relevance."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1345,
+    "completion_tokens": 153
+  }
+}

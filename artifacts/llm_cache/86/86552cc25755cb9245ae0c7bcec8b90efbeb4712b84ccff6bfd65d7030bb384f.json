@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00501IEHK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with gaming preferences."
+      },
+      {
+        "item_id": "B0012IWRC8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Golf game, different genre than favorites."
+      },
+      {
+        "item_id": "B078RJ1KZ6",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming headset, enhances gaming experience."
+      },
+      {
+        "item_id": "B003IQ15YI",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a video game, unrelated content."
+      },
+      {
+        "item_id": "B005U9KHJA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Sports game, less appealing than favorites."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1263,
+    "completion_tokens": 156
+  }
+}

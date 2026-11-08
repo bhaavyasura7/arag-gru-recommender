@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B017LKMR5W",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for PlayStation, not GameCube."
+      },
+      {
+        "item_id": "B07D53QSMK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Nintendo Switch, user interest."
+      },
+      {
+        "item_id": "B0001NYK1G",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC headset, user prefers console games."
+      },
+      {
+        "item_id": "B07YBXFF5C",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B01N6QKT7H",
+        "label": "support",
+        "score": 8,
+        "rationale": "Joy-Con for Nintendo Switch, user interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1388,
+    "completion_tokens": 162
+  }
+}

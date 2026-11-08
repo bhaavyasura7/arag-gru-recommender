@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00IA7V81A",
+      "B13YBWT3PK",
+      "B01MT1DCIV",
+      "B005D7G3LA",
+      "B00Z9TM72Q",
+      "B007VYW5K6",
+      "B00006IKB6",
+      "B0000488VP",
+      "B00005B70U",
+      "B00C1TTF86",
+      "B082N7B2DZ",
+      "B01LW6SOV9",
+      "B000UW21A0",
+      "B07N1XKY1L",
+      "B001T0HVGQ",
+      "B07YBWT3PK",
+      "B01FSKACPY",
+      "B098815CMR",
+      "B000L59D9HG",
+      "B00006IKB6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00IA7V81A",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B13YBWT3PK",
+        "reason": "Fast external SSD for gaming"
+      },
+      {
+        "item_id": "B01MT1DCIV",
+        "reason": "Performance thumb grips for controllers"
+      },
+      {
+        "item_id": "B005D7G3LA",
+        "reason": "Improves controller grip and comfort"
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Popular game with immersive experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3891,
+    "completion_tokens": 327
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00004NS11",
+      "B07TD17MTK",
+      "B09VP9LKJ2",
+      "B0B6GM69MS",
+      "B13DHS8SGT",
+      "B00196WC4G",
+      "B07NDT3FXD",
+      "B0BJTP1NHC",
+      "B07BLWZR3G",
+      "B09M6YFK7Y",
+      "B0BK3KGRTS",
+      "B00BSVTVZ0",
+      "B00030CKFU",
+      "B016MC8C68",
+      "B0048QXD9C",
+      "B01KGFQKUW",
+      "B0BB79GLD4",
+      "B09572TDFW",
+      "B01DVAX66A",
+      "B0DHS8SGT"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00004NS11",
+        "reason": "Popular game for handheld consoles"
+      },
+      {
+        "item_id": "B07TD17MTK",
+        "reason": "Wireless controller for gaming"
+      },
+      {
+        "item_id": "B09VP9LKJ2",
+        "reason": "Screen protector for Switch"
+      },
+      {
+        "item_id": "B0B6GM69MS",
+        "reason": "Compatible wireless controller"
+      },
+      {
+        "item_id": "B13DHS8SGT",
+        "reason": "Digital game for 3DS"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3282,
+    "completion_tokens": 323
+  }
+}

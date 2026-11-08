@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09NCWP9HH",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC gaming accessory, not console games."
+      },
+      {
+        "item_id": "B01MG2OG11",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "N64 accessory, user prefers modern consoles."
+      },
+      {
+        "item_id": "B004UMAPQS",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "3DS game, user prefers Wii U and PS4."
+      },
+      {
+        "item_id": "B09H5R5C1R",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Game card case, not directly related."
+      },
+      {
+        "item_id": "B00K3PNUEA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers console games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1321,
+    "completion_tokens": 169
+  }
+}

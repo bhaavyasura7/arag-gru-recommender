@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00ZMBLKPG",
+      "B072BX7H6Q",
+      "B0017KIBAI",
+      "B00ECOGM52",
+      "B00CSIB3PS",
+      "B0050SXQ12",
+      "B00QU506MQ",
+      "B07361T7KP",
+      "B01GY35W22",
+      "B001G6063I",
+      "B001ELJFMS",
+      "B00AAS888S",
+      "B0017KIBAI",
+      "B07NWGSZSJ",
+      "B01D8H09LQ",
+      "B002JTX8OK",
+      "B0CB7JB1V6",
+      "B00X8WTL5M",
+      "B007WPM8WO",
+      "B01CHQ7YIA",
+      "B01D8H09LQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00ZMBLKPG",
+        "reason": "Popular Xbox One game"
+      },
+      {
+        "item_id": "B072BX7H6Q",
+        "reason": "High-quality racing game"
+      },
+      {
+        "item_id": "B0017KIBAI",
+        "reason": "Compatible GameCube controller"
+      },
+      {
+        "item_id": "B00ECOGM52",
+        "reason": "Fun Wii game with creation"
+      },
+      {
+        "item_id": "B00CSIB3PS",
+        "reason": "Includes Xbox 360 console bundle"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3845,
+    "completion_tokens": 328
+  }
+}

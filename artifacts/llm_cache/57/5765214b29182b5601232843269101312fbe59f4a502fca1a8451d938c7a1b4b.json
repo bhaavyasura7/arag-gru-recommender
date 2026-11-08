@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "classic video games",
+      "gaming accessories",
+      "role-playing games",
+      "nostalgic gaming",
+      "multiplayer experiences"
+    ],
+    "current_intent": "looking for more gaming gear or classic games",
+    "avoid": [
+      "mobile games",
+      "non-gaming products",
+      "low-quality accessories"
+    ],
+    "summary": "User enjoys classic video games and high-quality gaming accessories, seeking to enhance their gaming experience with nostalgic titles and reliable gear."
+  },
+  "usage": {
+    "prompt_tokens": 367,
+    "completion_tokens": 82
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09K6FVY86",
+      "B076C7M7ZR",
+      "B0009WAEK0",
+      "B0B8DG8YRM",
+      "B019PLMS72",
+      "B00005RKXL",
+      "B000RO0RO8",
+      "B07Q3THC6R",
+      "B00008GKFZ",
+      "B00006RHLF",
+      "B07T9MNFD3",
+      "B06WW7B61X",
+      "B08H2CJFSS",
+      "B005V0VI8M",
+      "B0714FFZD8",
+      "B0B5LX9RQV",
+      "B000COQHRQI",
+      "B0009WAEK0",
+      "B00006RHLF",
+      "B001E3VKFG",
+      "B09THKB76B"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09K6FVY86",
+        "reason": "Engaging multiplayer action"
+      },
+      {
+        "item_id": "B076C7M7ZR",
+        "reason": "High-quality gaming accessory"
+      },
+      {
+        "item_id": "B0009WAEK0",
+        "reason": "Classic multiplayer game"
+      },
+      {
+        "item_id": "B0B8DG8YRM",
+        "reason": "Enhances PS5 multiplayer experience"
+      },
+      {
+        "item_id": "B019PLMS72",
+        "reason": "Useful for multiplayer gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2876,
+    "completion_tokens": 333
+  }
+}

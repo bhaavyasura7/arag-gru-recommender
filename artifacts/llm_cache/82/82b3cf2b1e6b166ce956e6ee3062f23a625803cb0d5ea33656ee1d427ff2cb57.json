@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B06XFYYQ4Q",
+      "B08RYF78ZV",
+      "B00K3T531O",
+      "B11GRG448X",
+      "B12G241785",
+      "B001D7AGIU",
+      "B001EYUTU2",
+      "B001EYUP60",
+      "B015QM2S60",
+      "B00V5B8VYU",
+      "B00005UEOP",
+      "B0018XFQHK",
+      "B002MUB104",
+      "B000GA6YF4",
+      "B08Q7Z1DYV",
+      "B07VYK5L87",
+      "B19GRG448X",
+      "B08RYF78ZV",
+      "B07G241785",
+      "B09JS2H1NH"
+    ],
+    "reasons": [
+      {
+        "item_id": "B06XFYYQ4Q",
+        "reason": "High-quality screen protector"
+      },
+      {
+        "item_id": "B08RYF78ZV",
+        "reason": "Dual controller charging stand"
+      },
+      {
+        "item_id": "B00K3T531O",
+        "reason": "PS4 controller skin"
+      },
+      {
+        "item_id": "B11GRG448X",
+        "reason": "PS4 controller grips"
+      },
+      {
+        "item_id": "B12G241785",
+        "reason": "PS4 controller skin"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3246,
+    "completion_tokens": 315
+  }
+}

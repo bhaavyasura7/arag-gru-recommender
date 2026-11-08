@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B59QM13V",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers games, not accessories."
+      },
+      {
+        "item_id": "B001CLG6T0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not aligned with user's game preferences."
+      },
+      {
+        "item_id": "B00XEG51EW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, less relevant."
+      },
+      {
+        "item_id": "B00NQ4N19Y",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular game, aligns with user interests."
+      },
+      {
+        "item_id": "B07F8RHBQX",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Keyboard not relevant to gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1408,
+    "completion_tokens": 159
+  }
+}

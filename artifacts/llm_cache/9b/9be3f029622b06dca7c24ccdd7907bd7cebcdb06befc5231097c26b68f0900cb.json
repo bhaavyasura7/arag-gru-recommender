@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07YBWT3PK",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox One games."
+      },
+      {
+        "item_id": "B001EYUTC0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic games may not match preferences."
+      },
+      {
+        "item_id": "B002JTX7KA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers console over PC games."
+      },
+      {
+        "item_id": "B010N0XTTU",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B000FNH6OK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user prefers consoles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2496,
+    "completion_tokens": 149
+  }
+}

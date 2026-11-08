@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BDJK2R16",
+        "label": "support",
+        "score": 9,
+        "rationale": "Matches user's Nintendo Switch interest."
+      },
+      {
+        "item_id": "B07K13K6BY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Aligns with Nintendo Switch accessories."
+      },
+      {
+        "item_id": "B07LGQPDBQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Fits user's Nintendo Switch controller preference."
+      },
+      {
+        "item_id": "B09LTYXWYD",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances Nintendo Switch gaming experience."
+      },
+      {
+        "item_id": "B08P83HKQT",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to Nintendo but not a controller."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1691,
+    "completion_tokens": 152
+  }
+}

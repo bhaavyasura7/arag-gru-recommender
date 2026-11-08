@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004HD55VK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B00WOK8Z74",
+        "label": "support",
+        "score": 8,
+        "rationale": "Action-adventure aligns with user interests."
+      },
+      {
+        "item_id": "B00009WAUO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system not favored by user."
+      },
+      {
+        "item_id": "B00F27JGVA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game, less relevant."
+      },
+      {
+        "item_id": "B001ELJE4W",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Music game, less aligned with preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2680,
+    "completion_tokens": 156
+  }
+}

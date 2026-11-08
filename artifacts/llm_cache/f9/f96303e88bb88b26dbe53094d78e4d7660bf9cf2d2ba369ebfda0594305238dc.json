@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000NI8WEA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Wii accessory, not directly relevant."
+      },
+      {
+        "item_id": "B0721GGGS9",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system, not in user history."
+      },
+      {
+        "item_id": "B0BTNG1QFB",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Nintendo Switch, user interest."
+      },
+      {
+        "item_id": "B07TCPVHTM",
+        "label": "support",
+        "score": 7,
+        "rationale": "Screen protector for Nintendo Switch Lite."
+      },
+      {
+        "item_id": "B00ZQB28XK",
+        "label": "support",
+        "score": 6,
+        "rationale": "PlayStation 4 game, aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1689,
+    "completion_tokens": 158
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09CHLM157",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to video games."
+      },
+      {
+        "item_id": "B08DQDRCGH",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming mouse enhances video game experience."
+      },
+      {
+        "item_id": "B010G4S060",
+        "label": "support",
+        "score": 8,
+        "rationale": "Improves gameplay for Xbox One games."
+      },
+      {
+        "item_id": "B003LO2GBS",
+        "label": "support",
+        "score": 6,
+        "rationale": "Adventure game aligns with user interests."
+      },
+      {
+        "item_id": "B07WXKQWTV",
+        "label": "support",
+        "score": 9,
+        "rationale": "Retro console appeals to nostalgic gamers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1342,
+    "completion_tokens": 151
+  }
+}

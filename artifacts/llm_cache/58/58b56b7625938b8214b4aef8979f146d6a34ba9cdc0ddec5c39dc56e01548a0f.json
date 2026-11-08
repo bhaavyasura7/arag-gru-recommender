@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0149OXR0W",
+      "B00005NZ1M",
+      "B08DMQHH8M",
+      "B07436WM6M",
+      "B14OZHDWO",
+      "B08CT3S3YT",
+      "B00004T4XN",
+      "B0097662FK",
+      "B00260GS1M",
+      "B003V1WHOM",
+      "B002ISO73S",
+      "B00KJJ3QOY",
+      "B07TDW7ZBG",
+      "B0199OXR0W",
+      "B08NCZ9RGN",
+      "B0028Y4PVQ",
+      "B00002SFLM",
+      "B07QDZWXXR",
+      "B08DMQHH8M",
+      "B000OZHDWO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0149OXR0W",
+        "reason": "Personalized Xbox One controller buttons"
+      },
+      {
+        "item_id": "B00005NZ1M",
+        "reason": "Exclusive Xbox game for gamers"
+      },
+      {
+        "item_id": "B08DMQHH8M",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B07436WM6M",
+        "reason": "High-quality protective case for Switch"
+      },
+      {
+        "item_id": "B14OZHDWO",
+        "reason": "Portable case for Xbox 360 controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3614,
+    "completion_tokens": 326
+  }
+}

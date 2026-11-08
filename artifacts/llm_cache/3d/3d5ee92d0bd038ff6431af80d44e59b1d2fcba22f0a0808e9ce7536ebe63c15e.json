@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming",
+      "PC accessories",
+      "RGB peripherals",
+      "gaming mice",
+      "video games"
+    ],
+    "current_intent": "looking for a new gaming mouse or related accessories",
+    "avoid": [
+      "non-gaming products",
+      "low DPI mice",
+      "wired peripherals without RGB"
+    ],
+    "summary": "User is a gamer focused on high-performance PC accessories, particularly gaming mice with RGB features."
+  },
+  "usage": {
+    "prompt_tokens": 333,
+    "completion_tokens": 73
+  }
+}

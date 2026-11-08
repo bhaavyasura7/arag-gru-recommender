@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00P7Y4618",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Keyboard not directly related to games."
+      },
+      {
+        "item_id": "B095WDDH4N",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller for Xbox, user prefers Nintendo."
+      },
+      {
+        "item_id": "B07V8YSBFG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Roblox not aligned with user's interests."
+      },
+      {
+        "item_id": "B0721GGGS9",
+        "label": "support",
+        "score": 8,
+        "rationale": "Classic Nintendo system matches user preference."
+      },
+      {
+        "item_id": "B08SF1S7WG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game or console."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1334,
+    "completion_tokens": 159
+  }
+}

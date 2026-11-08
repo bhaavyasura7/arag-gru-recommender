@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001DI6O6C",
+      "B19L7WGCFM",
+      "B001CLG6T0",
+      "B004L9BR8K",
+      "B00NQ4N19Y",
+      "B00XEG51EW",
+      "B07CJLG89B",
+      "B08R74DHMT",
+      "B0B59QM13V",
+      "B07F8RHBQX",
+      "B001HUHB54",
+      "B002GDFCKW",
+      "B00699GHN0",
+      "B00Q3XLL2E",
+      "B001CLG6T0",
+      "B07GZ8PH9Y",
+      "B001DI6O6C",
+      "B00NQ4N19Y",
+      "B001DI6O6C",
+      "B001DI6O6C"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001DI6O6C",
+        "reason": "Family-friendly adventure game"
+      },
+      {
+        "item_id": "B19L7WGCFM",
+        "reason": "Engaging simulation gameplay"
+      },
+      {
+        "item_id": "B001CLG6T0",
+        "reason": "Fun puzzle-solving mechanics"
+      },
+      {
+        "item_id": "B004L9BR8K",
+        "reason": "Family-friendly sports game"
+      },
+      {
+        "item_id": "B00NQ4N19Y",
+        "reason": "Popular franchise title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3749,
+    "completion_tokens": 330
+  }
+}

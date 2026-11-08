@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B088DCPM2P",
+      "B0046II3KQ",
+      "B07ZT88CVP",
+      "B14Z8F7LTQ",
+      "B0948WCYVF",
+      "B01KLOSPPG",
+      "B07YFSJW46",
+      "B00IZT5Y6S",
+      "B004A16RN4",
+      "B07DPJPJNK",
+      "B00174PLDO",
+      "B0CDK8Q5T7",
+      "B09JKQG7HP",
+      "B09ZB6NG7G",
+      "B07HDJQDXB",
+      "B00006LU9E",
+      "B19AELUUIM",
+      "B07DPJPJNK",
+      "B004A16RN4",
+      "B07Z8F7LTQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B088DCPM2P",
+        "reason": "Anime-themed fighting game"
+      },
+      {
+        "item_id": "B0046II3KQ",
+        "reason": "Fighting game accessory"
+      },
+      {
+        "item_id": "B07ZT88CVP",
+        "reason": "Enhanced controller for fighting games"
+      },
+      {
+        "item_id": "B0948WCYVF",
+        "reason": "Anime-themed Switch skin"
+      },
+      {
+        "item_id": "B01KLOSPPG",
+        "reason": "Controller thumbsticks for better gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3068,
+    "completion_tokens": 326
+  }
+}

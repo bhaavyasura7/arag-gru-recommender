@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08B1WJHVD",
+      "B096XMZYGD",
+      "B08XQMP8FY",
+      "B001ELJFGO",
+      "B007CM0K86",
+      "B00004YUWA",
+      "B001EYUSC6",
+      "B073K6WMJ9",
+      "B003URSUSE",
+      "B00005BW7Q",
+      "B00005QIQM",
+      "B001G6062O",
+      "B20HM1XPN4",
+      "B002I0JBVY",
+      "B00006FWTW",
+      "B001EYUSC6",
+      "B007BUA0AM",
+      "B00000I1BF",
+      "B07F6WPGN5",
+      "B001G6062O"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08B1WJHVD",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B096XMZYGD",
+        "reason": "Rechargeable battery pack for controllers"
+      },
+      {
+        "item_id": "B08XQMP8FY",
+        "reason": "Popular game with high ratings"
+      },
+      {
+        "item_id": "B001ELJFGO",
+        "reason": "Classic game with strong narrative"
+      },
+      {
+        "item_id": "B007CM0K86",
+        "reason": "Highly rated survival-action game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3796,
+    "completion_tokens": 316
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003Z815RG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers action-oriented games."
+      },
+      {
+        "item_id": "B00KL5VMD8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00006JBSB",
+        "label": "support",
+        "score": 7,
+        "rationale": "Action-adventure aligns with interests."
+      },
+      {
+        "item_id": "B082VXYF8F",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not a video game."
+      },
+      {
+        "item_id": "B000035XK5",
+        "label": "support",
+        "score": 6,
+        "rationale": "Cartoon-based game fits user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 902,
+    "completion_tokens": 152
+  }
+}

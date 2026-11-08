@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00IXMF5CU",
+      "B0141Z8D8K",
+      "B000UODATY",
+      "B14HCFPMJY",
+      "B00BQVXVYY",
+      "B00BZS9JV2",
+      "B001EYUO02",
+      "B002I090AG",
+      "B0051PLQ8E",
+      "B00Z9TKRH8",
+      "B07YBXNWXL",
+      "B07MGMKCS8",
+      "B00BGA9WK2",
+      "B00HVBPRUO",
+      "B08R8TMGN1",
+      "B00BGA9WK2",
+      "B00BZS9JV2",
+      "B00BQVXVYY",
+      "B002XVUT3M",
+      "B00HVBPRUO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00IXMF5CU",
+        "reason": "Popular action game on Xbox 360"
+      },
+      {
+        "item_id": "B000UODATY",
+        "reason": "Essential accessory for Xbox 360"
+      },
+      {
+        "item_id": "B14HCFPMJY",
+        "reason": "Highly rated action game"
+      },
+      {
+        "item_id": "B00BQVXVYY",
+        "reason": "Cooperative gameplay experience"
+      },
+      {
+        "item_id": "B0051PLQ8E",
+        "reason": "Fun multiplayer game collection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3613,
+    "completion_tokens": 326
+  }
+}

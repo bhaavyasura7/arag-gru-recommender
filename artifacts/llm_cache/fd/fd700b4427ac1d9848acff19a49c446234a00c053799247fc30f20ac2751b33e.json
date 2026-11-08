@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0002MIE0O",
+      "B001MS4JCE",
+      "B078JK6B2T",
+      "B10BW131CKM",
+      "B08L74DB2M",
+      "B08Y17BR4J",
+      "B07BF3KC6Y",
+      "B07TZ6QV3L",
+      "B00452V21K",
+      "B08F6R3RLC",
+      "B08QW3Y3D6",
+      "B00I9RA5AQ",
+      "B07FNF24S2",
+      "B012K48C6EK",
+      "B00004NHFM",
+      "B002MUB0XW",
+      "B07JGH3K3",
+      "B015ZWKLWO",
+      "B08L74DB2M",
+      "B078JK6B2T"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0002MIE0O",
+        "reason": "Popular Mario game title"
+      },
+      {
+        "item_id": "B001MS4JCE",
+        "reason": "Classic Nintendo Game Boy title"
+      },
+      {
+        "item_id": "B078JK6B2T",
+        "reason": "Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B10BW131CKM",
+        "reason": "Retro Nintendo console"
+      },
+      {
+        "item_id": "B08L74DB2M",
+        "reason": "Nintendo Switch game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3121,
+    "completion_tokens": 324
+  }
+}

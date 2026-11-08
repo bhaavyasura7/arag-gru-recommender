@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00CW9QZ88",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different Nintendo system."
+      },
+      {
+        "item_id": "B001G7PTAC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PlayStation game, not Nintendo."
+      },
+      {
+        "item_id": "B0029MAXVS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PlayStation game, not Nintendo."
+      },
+      {
+        "item_id": "B08NW7QQH8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox accessory, not Nintendo."
+      },
+      {
+        "item_id": "B00O65I2VY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox controller, not Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1321,
+    "completion_tokens": 159
+  }
+}

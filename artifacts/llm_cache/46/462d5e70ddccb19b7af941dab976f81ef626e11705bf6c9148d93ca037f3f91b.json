@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B078YF9KW1",
+        "label": "support",
+        "score": 7,
+        "rationale": "MMORPGs align with user interests."
+      },
+      {
+        "item_id": "B08ZTZ7YLH",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Survival elements may appeal slightly."
+      },
+      {
+        "item_id": "B000WKUNIW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Generic RPG, less specific appeal."
+      },
+      {
+        "item_id": "B000RWHR5W",
+        "label": "support",
+        "score": 6,
+        "rationale": "Includes RPG elements user enjoys."
+      },
+      {
+        "item_id": "1616615435",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Warhammer RPG likely not user preference."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2102,
+    "completion_tokens": 153
+  }
+}

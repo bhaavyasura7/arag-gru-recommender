@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0923KC2MD",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to gaming interests."
+      },
+      {
+        "item_id": "B08PYLLR21",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to gaming interests."
+      },
+      {
+        "item_id": "B07DK19C7N",
+        "label": "support",
+        "score": 9,
+        "rationale": "Matches user interest in Xbox One games."
+      },
+      {
+        "item_id": "B07TB5W9YP",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Low quality game, unlikely to interest."
+      },
+      {
+        "item_id": "B00006JC3V",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Older game, less relevant to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 938,
+    "completion_tokens": 157
+  }
+}

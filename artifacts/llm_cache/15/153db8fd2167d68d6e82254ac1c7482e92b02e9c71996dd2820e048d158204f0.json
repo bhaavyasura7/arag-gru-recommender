@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00NHV0XV0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not directly related to games."
+      },
+      {
+        "item_id": "B07ZJ6RY1W",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gift card for Nintendo Switch games."
+      },
+      {
+        "item_id": "B09TN8X89W",
+        "label": "support",
+        "score": 7,
+        "rationale": "Accessories for Nintendo Switch console."
+      },
+      {
+        "item_id": "B003Z0BRDQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B006VR663G",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Wii U game, user prefers Switch and PS4."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1294,
+    "completion_tokens": 163
+  }
+}

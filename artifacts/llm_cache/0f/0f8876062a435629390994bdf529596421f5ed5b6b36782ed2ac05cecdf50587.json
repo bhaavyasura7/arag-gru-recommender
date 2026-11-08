@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09GXTZ9ZT",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B00QI2WPJ8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers video games, not keyboards."
+      },
+      {
+        "item_id": "B005ZHS8HK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B0BLSF9HD6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game or amiibo."
+      },
+      {
+        "item_id": "B07H1SW5T3",
+        "label": "support",
+        "score": 7,
+        "rationale": "Related to Nintendo Switch accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1101,
+    "completion_tokens": 159
+  }
+}

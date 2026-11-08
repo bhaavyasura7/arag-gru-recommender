@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000MWWN7O",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers action games, not accessories."
+      },
+      {
+        "item_id": "B075QNN8MV",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PS4 games, action genre."
+      },
+      {
+        "item_id": "B002EAYCHG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Star Trek is unrelated to user interests."
+      },
+      {
+        "item_id": "B00TAAA42U",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Family game doesn't match user's preferences."
+      },
+      {
+        "item_id": "B000RO5JH8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Sims game is not action-oriented."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 902,
+    "completion_tokens": 163
+  }
+}

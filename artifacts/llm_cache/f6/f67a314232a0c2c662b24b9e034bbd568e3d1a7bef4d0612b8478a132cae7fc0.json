@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00ZJRHSRW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's game preferences."
+      },
+      {
+        "item_id": "B001G7PSFS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action/adventure games."
+      },
+      {
+        "item_id": "B00HKPSVIG",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo products."
+      },
+      {
+        "item_id": "B0795GHTBC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00KXAI6MQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes family-friendly games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1423,
+    "completion_tokens": 149
+  }
+}

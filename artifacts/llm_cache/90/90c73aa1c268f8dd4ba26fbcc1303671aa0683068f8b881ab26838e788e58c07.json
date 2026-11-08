@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000E3UV8O",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox, not PSP."
+      },
+      {
+        "item_id": "B06ZYTHKR7",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no PS4 games."
+      },
+      {
+        "item_id": "B075XJCGYX",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Charger for different console, not Xbox."
+      },
+      {
+        "item_id": "B01EWTY3D4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PC game, user prefers Xbox titles."
+      },
+      {
+        "item_id": "B075SRFWVG",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox One game aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 162
+  }
+}

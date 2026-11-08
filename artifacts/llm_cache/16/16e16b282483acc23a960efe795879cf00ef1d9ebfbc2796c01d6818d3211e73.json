@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B004HD55VK",
+      "B007W8S2MG",
+      "B006W8S2MG",
+      "B078GHDJW4",
+      "B11QRRLCKD",
+      "B11QRRLCKD",
+      "B001AATQ0Y",
+      "B072K63ZPD",
+      "B00Z8EBXSQ",
+      "B003IU1AHQ",
+      "B003L77YKS",
+      "B003VUNWW4",
+      "B001TOQ8WU",
+      "B0894RCSV4",
+      "B0BGB7VPGK",
+      "B007W8S2MG",
+      "B001AATQ0Y",
+      "B075MJLB5B",
+      "B07624RBWB",
+      "B0BJKR3LJJ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004HD55VK",
+        "reason": "Popular action-adventure game"
+      },
+      {
+        "item_id": "B007W8S2MG",
+        "reason": "Classic Xbox action-adventure"
+      },
+      {
+        "item_id": "B078GHDJW4",
+        "reason": "Essential gaming keyboard"
+      },
+      {
+        "item_id": "B00Z8EBXSQ",
+        "reason": "High-quality Xbox controller"
+      },
+      {
+        "item_id": "B11QRRLCKD",
+        "reason": "Fun DIY arcade kit"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3509,
+    "completion_tokens": 317
+  }
+}

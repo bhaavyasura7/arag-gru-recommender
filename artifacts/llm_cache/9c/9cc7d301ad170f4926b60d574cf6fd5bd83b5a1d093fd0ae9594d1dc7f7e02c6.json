@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01NASUGOS",
+      "B08RCPY43H",
+      "B12X1QYHW",
+      "B075PVMFY6",
+      "B06LFY75F9",
+      "B08MY26TSX",
+      "B000HKN3ES",
+      "B017WJYX3Q",
+      "B001DW7IFE",
+      "B00002SVBV",
+      "B003BLLGBM",
+      "B09QLFHL1D",
+      "B09QKZCGXL",
+      "B00740NUVU",
+      "B002X2P562",
+      "B0000A03AE",
+      "B009WDS8E6",
+      "B08K2GL19F",
+      "B000HKN3ES",
+      "B000HKN3ES",
+      "B000HKN3ES"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01NASUGOS",
+        "reason": "Popular controller for PlayStation 4"
+      },
+      {
+        "item_id": "B08RCPY43H",
+        "reason": "High-quality gaming headset for consoles"
+      },
+      {
+        "item_id": "B12X1QYHW",
+        "reason": "Thumb grips enhance Nintendo gameplay"
+      },
+      {
+        "item_id": "B075PVMFY6",
+        "reason": "Racing game with immersive experience"
+      },
+      {
+        "item_id": "B06LFY75F9",
+        "reason": "Essential adapter for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3026,
+    "completion_tokens": 330
+  }
+}

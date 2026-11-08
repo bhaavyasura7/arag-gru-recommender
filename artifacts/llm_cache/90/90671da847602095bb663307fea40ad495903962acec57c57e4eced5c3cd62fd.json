@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00H2W0DIS",
+      "B015O2T0G8",
+      "B12XFYYQ4Q",
+      "B00YGCCASI",
+      "B00E290JRE",
+      "B00ZQB28XK",
+      "B001EYUSHQ",
+      "B00308JV6I",
+      "B0009YDS0Q",
+      "B0000503MO",
+      "B0006ZJPSC",
+      "B000J42FNW",
+      "B009S4JTTC",
+      "B014N4RTS4",
+      "B0721GGGS9",
+      "B001EYUY3Y",
+      "B00KUZEFBK",
+      "B0009YDS0Q",
+      "B0051U7BZG",
+      "B0006ZJPSC",
+      "B000J42FNW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00H2W0DIS",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B015O2T0G8",
+        "reason": "Premium gaming controller"
+      },
+      {
+        "item_id": "B12XFYYQ4Q",
+        "reason": "Nintendo Switch screen protector"
+      },
+      {
+        "item_id": "B00YGCCASI",
+        "reason": "Thumb grips for controllers"
+      },
+      {
+        "item_id": "B00E290JRE",
+        "reason": "Gaming mouse for precision"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3775,
+    "completion_tokens": 324
+  }
+}

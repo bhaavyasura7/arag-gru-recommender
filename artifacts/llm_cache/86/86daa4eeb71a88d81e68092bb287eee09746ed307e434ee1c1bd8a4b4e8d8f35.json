@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0009FZQYQ",
+      "B00003IEGA",
+      "B00FE6OR2M",
+      "B000FEWSTW",
+      "B00004ZBOG",
+      "B00000K4ML",
+      "B00004NHKN",
+      "B008R7O12G",
+      "B00002S6GV",
+      "B0007SN2OQ",
+      "B0027FFREA",
+      "B0085QG4JM",
+      "B0002LWVSQ",
+      "B0000DBK2H",
+      "B000AOAI3K",
+      "B0007VEW7O",
+      "B00AMKTR48",
+      "B000099SI2",
+      "B00005YTY7",
+      "B00005ME2J"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0009FZQYQ",
+        "reason": "Popular strategy game collection"
+      },
+      {
+        "item_id": "B00003IEGA",
+        "reason": "Includes classic strategy games"
+      },
+      {
+        "item_id": "B00FE6OR2M",
+        "reason": "Unique battle-themed strategy game"
+      },
+      {
+        "item_id": "B000FEWSTW",
+        "reason": "Classic strategy game nostalgia"
+      },
+      {
+        "item_id": "B00004ZBOG",
+        "reason": "Engaging battlefield strategy game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2291,
+    "completion_tokens": 315
+  }
+}

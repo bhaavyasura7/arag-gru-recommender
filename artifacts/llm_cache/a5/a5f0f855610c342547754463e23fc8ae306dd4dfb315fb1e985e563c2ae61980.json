@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000069TAC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B0000302P8",
+        "label": "support",
+        "score": 7,
+        "rationale": "Flight simulation aligns with gaming interest."
+      },
+      {
+        "item_id": "B0006TNCP0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system, not a strong match."
+      },
+      {
+        "item_id": "B0007KWOR0",
+        "label": "support",
+        "score": 6,
+        "rationale": "Aircraft combat matches gaming preferences."
+      },
+      {
+        "item_id": "B00005US8K",
+        "label": "support",
+        "score": 8,
+        "rationale": "Fighter jets and missions align well."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 960,
+    "completion_tokens": 149
+  }
+}

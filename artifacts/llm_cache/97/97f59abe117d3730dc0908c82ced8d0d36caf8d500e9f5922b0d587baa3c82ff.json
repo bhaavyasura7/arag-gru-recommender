@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00005NN7H",
+      "B07C9BL3KM",
+      "B081D2VMF8",
+      "B00BWFLSO4",
+      "B09MP7ZZZP",
+      "B0791JHH78",
+      "B06ZZLNC88",
+      "B085C6QF3G",
+      "B08GPDDZX1",
+      "B08K3NMS19",
+      "B000063TQU",
+      "B0017XBO8G",
+      "B08CDQJQLD",
+      "B001CZH71M",
+      "B088WY3J3V",
+      "B0CDGT413D",
+      "B07WWSVDQZ",
+      "B08CDQJQLD",
+      "B009AWC30Y",
+      "B000063TQU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00005NN7H",
+        "reason": "Zombie-themed game experience"
+      },
+      {
+        "item_id": "B07C9BL3KM",
+        "reason": "Engaging narrative-driven gameplay"
+      },
+      {
+        "item_id": "B081D2VMF8",
+        "reason": "Action-adventure elements present"
+      },
+      {
+        "item_id": "B00BWFLSO4",
+        "reason": "Interactive storytelling focus"
+      },
+      {
+        "item_id": "B09MP7ZZZP",
+        "reason": "Potential for engaging gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3279,
+    "completion_tokens": 322
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B013HSWF40",
+      "B00Z8EBXSQ",
+      "B003O3EFY2",
+      "B0009YDS0Q",
+      "B01MT1NE7T",
+      "B01MQ0BGOL",
+      "B07DL79BR6",
+      "B00HRH79H6",
+      "B08V1QTP6X",
+      "B00FA1CLEW",
+      "B001E91OLK",
+      "B000067FDY",
+      "B002BSA388",
+      "B001QCWSGU",
+      "B000ZK7ZOE",
+      "B00ZS1S4XG",
+      "B09KBYSSGM",
+      "B00TPM6JNG",
+      "B00HRH79H6",
+      "B00ZS1S4XG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B013HSWF40",
+        "reason": "High DPI and RGB lighting"
+      },
+      {
+        "item_id": "B00Z8EBXSQ",
+        "reason": "Gaming controller, not preferred"
+      },
+      {
+        "item_id": "B003O3EFY2",
+        "reason": "Not a gaming mouse or keyboard"
+      },
+      {
+        "item_id": "B0009YDS0Q",
+        "reason": "Not a gaming mouse or keyboard"
+      },
+      {
+        "item_id": "B01MT1NE7T",
+        "reason": "Not a gaming mouse or keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3687,
+    "completion_tokens": 328
+  }
+}

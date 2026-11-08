@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01L91OUHM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo Switch games."
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show Xbox interest."
+      },
+      {
+        "item_id": "B00E8CF268",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not console specific."
+      },
+      {
+        "item_id": "B002CZ918S",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo systems."
+      },
+      {
+        "item_id": "B073ZC8RNW",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports Nintendo 64 accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1445,
+    "completion_tokens": 156
+  }
+}

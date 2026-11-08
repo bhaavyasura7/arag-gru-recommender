@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B098X9ZQLR",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Basic headset, lacks advanced features."
+      },
+      {
+        "item_id": "B0BKH24FYQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with multiple gaming platforms."
+      },
+      {
+        "item_id": "B0C7PPFR3Y",
+        "label": "support",
+        "score": 8,
+        "rationale": "Surround sound and multi-platform compatibility."
+      },
+      {
+        "item_id": "B0998YGFTN",
+        "label": "support",
+        "score": 8,
+        "rationale": "7.1 surround sound, compatible with consoles."
+      },
+      {
+        "item_id": "B08PCJY2VJ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Noise cancelling, compatible with major consoles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3108,
+    "completion_tokens": 160
+  }
+}

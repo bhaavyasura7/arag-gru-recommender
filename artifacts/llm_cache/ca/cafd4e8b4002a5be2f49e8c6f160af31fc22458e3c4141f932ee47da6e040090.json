@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0009F79BE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, but genre unclear."
+      },
+      {
+        "item_id": "B001VMATDE",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar genre to user favorites."
+      },
+      {
+        "item_id": "B00004T009",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, but genre not aligned."
+      },
+      {
+        "item_id": "B0009MUK2C",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PC game, genre unknown."
+      },
+      {
+        "item_id": "B002JCS5J0",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "PC game, genre not appealing."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 535,
+    "completion_tokens": 149
+  }
+}

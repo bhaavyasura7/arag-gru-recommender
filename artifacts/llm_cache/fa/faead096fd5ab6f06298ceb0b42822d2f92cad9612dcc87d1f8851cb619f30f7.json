@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09GYN7T42",
+      "B0086VPUHI",
+      "B01I59OFDU",
+      "B00004R9AL",
+      "B00AEL9MFE",
+      "B07DK1XZ4M",
+      "B000N5Z2L4",
+      "B00004R9AL",
+      "B00DROFY6Q",
+      "B0BQMYZHV2",
+      "B01EPP8X18",
+      "B003VUO6H4",
+      "B00BGA9X9W",
+      "B0B674L9F8",
+      "B00AYBVB44",
+      "B00009WAVE",
+      "B00127S3A4",
+      "B09TH6Y876",
+      "B0079V2XFS",
+      "B08MLJ4M9Z"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09GYN7T42",
+        "reason": "High-DPI gaming mouse"
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "reason": "Popular Xbox game"
+      },
+      {
+        "item_id": "B01I59OFDU",
+        "reason": "Quality horror game"
+      },
+      {
+        "item_id": "B00004R9AL",
+        "reason": "Essential Xbox membership"
+      },
+      {
+        "item_id": "B00AEL9MFE",
+        "reason": "High-quality gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3776,
+    "completion_tokens": 323
+  }
+}

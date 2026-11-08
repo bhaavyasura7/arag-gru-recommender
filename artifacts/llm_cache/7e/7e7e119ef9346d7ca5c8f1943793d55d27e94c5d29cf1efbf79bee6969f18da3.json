@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B093719JRF",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR gaming not previously indicated."
+      },
+      {
+        "item_id": "B097MXJ1BW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern consoles, not legacy."
+      },
+      {
+        "item_id": "B00005C7P7",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in retro games."
+      },
+      {
+        "item_id": "B00328I0BS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, but not aligned with history."
+      },
+      {
+        "item_id": "B01MZ4VLXE",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports Xbox One gaming setup."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 160
+  }
+}

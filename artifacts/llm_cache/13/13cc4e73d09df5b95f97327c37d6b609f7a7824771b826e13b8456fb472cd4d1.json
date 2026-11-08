@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08N7PX4WX",
+      "B08N7VJBH6",
+      "B0001JXACA",
+      "B000AYH89M",
+      "B000062SSO",
+      "B005GISQQG",
+      "B000GPVUOY",
+      "B0000K1VA",
+      "B001EYUPVA",
+      "B0194V7SNP",
+      "B0000ZUGZ4",
+      "B0051D8PGM",
+      "B0000ZUGZ4",
+      "B000AYH89M",
+      "B0000K1VA",
+      "B0000ZUGZ4",
+      "B000AYH89M",
+      "B0000K1VA",
+      "B0000ZUGZ4",
+      "B000AYH89M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08N7PX4WX",
+        "reason": "Comfort grip for Nintendo Switch"
+      },
+      {
+        "item_id": "B08N7VJBH6",
+        "reason": "Creative Mario game experience"
+      },
+      {
+        "item_id": "B0001JXACA",
+        "reason": "Classic Mario puzzle gameplay"
+      },
+      {
+        "item_id": "B000AYH89M",
+        "reason": "Collection of classic space games"
+      },
+      {
+        "item_id": "B000062SSO",
+        "reason": "Ergonomic joystick for PC gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3753,
+    "completion_tokens": 319
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "content": {
+    "ranking": [
+      "B001G7PSOE",
+      "B00YOGZFCO",
+      "B0028Y4PUW",
+      "B01M26YUKO",
+      "B00ZHQ39F0",
+      "B08GS7MG3W",
+      "B08JHP4Q82",
+      "B001EYUSC6",
+      "B07P9VKCF6",
+      "B07NYFBLTS",
+      "B0192QR94M",
+      "B0785SFKYF",
+      "B0033PSLY6",
+      "B001AZFSGA",
+      "B0050SYZ2G",
+      "B07JVQLSLY",
+      "B12",
+      "B12",
+      "B12",
+      "B12"
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3482,
+    "completion_tokens": 136
+  }
+}

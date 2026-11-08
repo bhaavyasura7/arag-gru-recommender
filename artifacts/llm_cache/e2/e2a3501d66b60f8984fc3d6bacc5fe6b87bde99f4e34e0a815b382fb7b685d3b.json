@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07FM4GCRH",
+      "B18B00004TBA7",
+      "B00020DGMC",
+      "B00002ST7X",
+      "B00004TBA7",
+      "B003LO2GBS",
+      "B07WXKQWTV",
+      "B09CHLM157",
+      "B08DQDRCGH",
+      "B010G4S060",
+      "B00004TBA7",
+      "B07CGCL449",
+      "B08R2CZ9VD",
+      "B01DVKAMDK",
+      "B07VYWG25L",
+      "B093D8HRDT",
+      "B00020DGMC",
+      "B00004TBA7",
+      "B07CGCL449",
+      "B08R2CZ9VD"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07FM4GCRH",
+        "reason": "Nostalgic sports game experience"
+      },
+      {
+        "item_id": "B18B00004TBA7",
+        "reason": "Classic retro baseball game"
+      },
+      {
+        "item_id": "B00020DGMC",
+        "reason": "Access to Xbox Live games"
+      },
+      {
+        "item_id": "B00002ST7X",
+        "reason": "Compatible with retro gaming"
+      },
+      {
+        "item_id": "B00004TBA7",
+        "reason": "Classic PC game for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3633,
+    "completion_tokens": 316
+  }
+}

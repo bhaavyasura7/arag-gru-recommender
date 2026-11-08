@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00002STS4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games only."
+      },
+      {
+        "item_id": "B091BXWB7Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset is compatible with gaming systems."
+      },
+      {
+        "item_id": "B098JXY9R6",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports Nintendo Switch usage."
+      },
+      {
+        "item_id": "B0BTDD6Z24",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's gaming preferences."
+      },
+      {
+        "item_id": "B07N7HPG82",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Wii U, user owns Wii U."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1473,
+    "completion_tokens": 159
+  }
+}

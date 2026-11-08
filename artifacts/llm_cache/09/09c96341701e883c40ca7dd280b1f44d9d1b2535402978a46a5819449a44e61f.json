@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo games",
+      "game accessories",
+      "family-friendly games",
+      "platformers",
+      "collectible games"
+    ],
+    "current_intent": "Looking for more Nintendo game accessories or titles.",
+    "avoid": [
+      "violent games",
+      "non-Nintendo products",
+      "complex strategy games"
+    ],
+    "summary": "The user enjoys Nintendo games and accessories, particularly family-friendly titles, and is currently seeking additional products related to their gaming interests."
+  },
+  "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 96
+  }
+}

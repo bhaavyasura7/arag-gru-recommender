@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0030MEITE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Transformers not in user history."
+      },
+      {
+        "item_id": "B00002ST27",
+        "label": "support",
+        "score": 7,
+        "rationale": "Mario games align with user interests."
+      },
+      {
+        "item_id": "B00WHHEFO6",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B001E91OFQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Resident Evil differs from user preferences."
+      },
+      {
+        "item_id": "B078RJ1KZ6",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Headset, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1284,
+    "completion_tokens": 148
+  }
+}

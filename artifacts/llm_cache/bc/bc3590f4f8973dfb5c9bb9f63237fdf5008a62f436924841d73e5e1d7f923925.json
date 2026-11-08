@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00GCPB0OM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B001DZF36M",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Nintendo interests and games."
+      },
+      {
+        "item_id": "B071GPJSBL",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo amiibo and accessories."
+      },
+      {
+        "item_id": "B000034DEB",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no wrestling game history."
+      },
+      {
+        "item_id": "B00005NCER",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User prefers newer systems over Game Boy."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1466,
+    "completion_tokens": 151
+  }
+}

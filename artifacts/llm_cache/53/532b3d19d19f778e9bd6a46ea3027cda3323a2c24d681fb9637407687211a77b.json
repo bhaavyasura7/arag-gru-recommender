@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B075VJ6NLZ",
+      "B072XQNF39",
+      "B0BJV8Y6C4",
+      "B015KJAQKO",
+      "B009MFU9A0",
+      "B19B295DSPW",
+      "B00004TNU6",
+      "B00008XKZ3",
+      "B003JBHG7C",
+      "B000035XH4",
+      "B00005RQRH",
+      "B004HH81S0",
+      "B000093HZ0",
+      "B0099F1NZI",
+      "B00153CNX8",
+      "B00008XKZ3",
+      "B0BGBQG3LR",
+      "B00FQSE9VW",
+      "B00004TNU6",
+      "B000035XH4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B075VJ6NLZ",
+        "reason": "Engaging Nintendo Switch skin"
+      },
+      {
+        "item_id": "B072XQNF39",
+        "reason": "Popular Pokémon title"
+      },
+      {
+        "item_id": "B0BJV8Y6C4",
+        "reason": "Family multiplayer accessories"
+      },
+      {
+        "item_id": "B015KJAQKO",
+        "reason": "Batman-themed controller skin"
+      },
+      {
+        "item_id": "B009MFU9A0",
+        "reason": "Protective cover for Xbox controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3270,
+    "completion_tokens": 323
+  }
+}

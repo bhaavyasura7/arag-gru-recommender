@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B095P7MX81",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Compatible but not directly related."
+      },
+      {
+        "item_id": "B0BQRQH324",
+        "label": "support",
+        "score": 7,
+        "rationale": "Directly compatible with Xbox One."
+      },
+      {
+        "item_id": "B07XQ1CVX2",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox 360, user history."
+      },
+      {
+        "item_id": "B08CVPTM7R",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox 360, user history."
+      },
+      {
+        "item_id": "B08CGY232D",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with Xbox One, user interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 158
+  }
+}

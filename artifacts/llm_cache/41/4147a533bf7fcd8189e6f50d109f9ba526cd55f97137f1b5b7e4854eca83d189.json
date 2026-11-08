@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0719W8QL3",
+      "B06X6KDQ98",
+      "B087LSSNG1",
+      "B001EYUQ4G",
+      "B00004S9AA",
+      "B01GY3628A",
+      "B004WLRR0E",
+      "B08CG1GDR2",
+      "B017QU5G1O",
+      "B003ZSN600",
+      "B0050SW1WW",
+      "B00OYPWRHQ",
+      "B00GM5T8PK",
+      "B01M6C7YE8",
+      "B07X6KDQ98",
+      "B00DJRLDMU",
+      "B00O65I2VY",
+      "B09M6YFK7Y",
+      "B07SSZGYNR",
+      "B08CG1GDR2",
+      "B00004S9AA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0719W8QL3",
+        "reason": "Popular Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B06X6KDQ98",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B087LSSNG1",
+        "reason": "Highly rated RPG for Switch"
+      },
+      {
+        "item_id": "B001EYUQ4G",
+        "reason": "Classic Nintendo accessory"
+      },
+      {
+        "item_id": "B00004S9AA",
+        "reason": "Compatible with Nintendo 64 games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3877,
+    "completion_tokens": 335
+  }
+}

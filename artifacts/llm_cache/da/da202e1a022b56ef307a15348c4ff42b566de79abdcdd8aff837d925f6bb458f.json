@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08MBKGJVY",
+      "B19F89RP86",
+      "B00005T7ZM",
+      "B0009IO662",
+      "B01FSGFB68",
+      "B000CR27OS",
+      "B000LXYHARI",
+      "B08TSTKGQT",
+      "B01CBQI3M2",
+      "B01EBM5110",
+      "B09PD9N1DT",
+      "B00005T7ZM",
+      "B0130DF8PA",
+      "B09F89RP86",
+      "B000CR27OS",
+      "B08YYM331M",
+      "B0132MIUB8",
+      "B0975J9QQW",
+      "B08TSTKGQT",
+      "B0009IO662"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08MBKGJVY",
+        "reason": "Directly related to Kingdom Hearts"
+      },
+      {
+        "item_id": "B19F89RP86",
+        "reason": "Accessory for PlayStation controllers"
+      },
+      {
+        "item_id": "B00005T7ZM",
+        "reason": "Classic game for PlayStation"
+      },
+      {
+        "item_id": "B0009IO662",
+        "reason": "Memory card for legacy systems"
+      },
+      {
+        "item_id": "B01FSGFB68",
+        "reason": "Wii accessory for retro gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2879,
+    "completion_tokens": 312
+  }
+}

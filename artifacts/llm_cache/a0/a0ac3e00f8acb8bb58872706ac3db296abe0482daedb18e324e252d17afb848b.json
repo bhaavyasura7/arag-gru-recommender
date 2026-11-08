@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00002DHEV",
+      "B00009WAW7",
+      "B005B8DRVU",
+      "B003UT9XI8",
+      "B001EYUWGI",
+      "B00AMA4L4E",
+      "B0050SZ7D2",
+      "B006VR663G",
+      "B00DBKSN8M",
+      "B0050SW1WW",
+      "B00GGUVI5Y",
+      "B00BHRD4BM",
+      "B072FRJWQH",
+      "B001ELJFFU",
+      "B00Z5T2SFW",
+      "B00BHRD4BM",
+      "B00AMA4L4E",
+      "B00GGUVI5Y",
+      "B00BHRD4BM",
+      "B00AMA4L4E"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00002DHEV",
+        "reason": "Classic console for nostalgic gaming"
+      },
+      {
+        "item_id": "B00009WAW7",
+        "reason": "Classic sports game experience"
+      },
+      {
+        "item_id": "B005B8DRVU",
+        "reason": "Classic multiplayer fighting game"
+      },
+      {
+        "item_id": "B003UT9XI8",
+        "reason": "Multiplayer racing experience"
+      },
+      {
+        "item_id": "B001EYUWGI",
+        "reason": "Classic tennis game with multiplayer"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3364,
+    "completion_tokens": 318
+  }
+}

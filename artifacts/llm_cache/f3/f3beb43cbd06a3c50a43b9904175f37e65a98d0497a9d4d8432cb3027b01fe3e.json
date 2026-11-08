@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07JFTWDY9",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances Nintendo Switch gaming experience."
+      },
+      {
+        "item_id": "B085751BTH",
+        "label": "support",
+        "score": 6,
+        "rationale": "Classic games appeal to retro gaming interest."
+      },
+      {
+        "item_id": "B07XZS4NB9",
+        "label": "support",
+        "score": 8,
+        "rationale": "Pro controller enhances Nintendo Switch gameplay."
+      },
+      {
+        "item_id": "B00GHQZVM8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B083988ZPV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "General accessory, not specific to gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1215,
+    "completion_tokens": 153
+  }
+}

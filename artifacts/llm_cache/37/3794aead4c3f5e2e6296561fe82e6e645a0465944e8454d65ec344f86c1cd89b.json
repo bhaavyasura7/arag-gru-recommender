@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002YGSAJ6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Zombie game, but not highly rated."
+      },
+      {
+        "item_id": "B0BN6XTQYV",
+        "label": "support",
+        "score": 8,
+        "rationale": "Action-packed, aligns with gaming interests."
+      },
+      {
+        "item_id": "B00WV89IXO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older game, less relevant now."
+      },
+      {
+        "item_id": "B00U2NAN0C",
+        "label": "support",
+        "score": 7,
+        "rationale": "Zombie theme, co-op gameplay preferred."
+      },
+      {
+        "item_id": "B09H2SG9MD",
+        "label": "support",
+        "score": 8,
+        "rationale": "Zombie shooter, matches user preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2522,
+    "completion_tokens": 158
+  }
+}

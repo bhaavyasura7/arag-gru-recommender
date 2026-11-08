@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUQT6",
+      "B000OCXK6A",
+      "B000N5Z2L4",
+      "B0017R5SYI",
+      "B006ZQ85YG",
+      "B08N7PX4WX",
+      "B001EYUVHS",
+      "B01MG6DORB",
+      "B002BG1PXM",
+      "B00HGLLRV2",
+      "B001TKK3NE",
+      "B0031SWWPO",
+      "B00005NFN4",
+      "B00005QEFD",
+      "B001EYUQEQ",
+      "B01ASZ676M",
+      "B001EYUT70",
+      "B005OGLHM0",
+      "B01MG6DORB",
+      "B001EYUQEQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUQT6",
+        "reason": "Popular first-person shooter title"
+      },
+      {
+        "item_id": "B000OCXK6A",
+        "reason": "Team-based multiplayer FPS experience"
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "reason": "Essential for online multiplayer gaming"
+      },
+      {
+        "item_id": "B0017R5SYI",
+        "reason": "Compatible controller for Xbox FPS"
+      },
+      {
+        "item_id": "B006ZQ85YG",
+        "reason": "Performance controller for Xbox games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3576,
+    "completion_tokens": 318
+  }
+}

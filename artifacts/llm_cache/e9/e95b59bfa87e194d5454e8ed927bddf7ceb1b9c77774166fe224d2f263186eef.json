@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07D5M7SNW",
+      "B18D3N7JTY",
+      "B18D3N7JTY",
+      "B00BGA9X9W",
+      "B12C3KYVDWT",
+      "B00ANZR7X0",
+      "B0029F2FB6",
+      "B00E8CF268",
+      "B00KG3W8X8",
+      "B004DI5H26",
+      "B00EV0CQZC",
+      "B00ZK695U",
+      "B00MAFXR8",
+      "B00D5M7SNW",
+      "B07MWB5YJW",
+      "B07T4JL1BM",
+      "B00KG3W8X8",
+      "B00BGA9X9W",
+      "B00E8CF268",
+      "B00D5M7SNW",
+      "B00KG3W8X8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07D5M7SNW",
+        "reason": "Renewed PS4 console for gaming"
+      },
+      {
+        "item_id": "B00BGA9X9W",
+        "reason": "Essential PS4 controller upgrade"
+      },
+      {
+        "item_id": "B00EV0CQZC",
+        "reason": "Wired headset for PS4 gaming"
+      },
+      {
+        "item_id": "B00ANZR7X0",
+        "reason": "HD remastered Hitman trilogy"
+      },
+      {
+        "item_id": "B00E8CF268",
+        "reason": "Ergonomic gaming mouse for PC"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3939,
+    "completion_tokens": 360
+  }
+}

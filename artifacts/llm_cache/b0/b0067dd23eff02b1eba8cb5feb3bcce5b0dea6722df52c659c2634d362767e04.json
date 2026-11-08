@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00WU7V5MS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Xbox, not directly relevant."
+      },
+      {
+        "item_id": "B00CIBAZOU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Horror game, user prefers different genres."
+      },
+      {
+        "item_id": "B0BMXG6T3Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Battery pack for VR, not user’s focus."
+      },
+      {
+        "item_id": "B09LBH3FVP",
+        "label": "support",
+        "score": 7,
+        "rationale": "Animal Crossing aligns with user’s interests."
+      },
+      {
+        "item_id": "B07582T4S3",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS4 skin, user has no PS4 games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1385,
+    "completion_tokens": 167
+  }
+}

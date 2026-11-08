@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008FJQV1U",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers video games, not accessories."
+      },
+      {
+        "item_id": "B00B2A0STU",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys action games like Fallout."
+      },
+      {
+        "item_id": "B002O7HFDC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not play Atari games."
+      },
+      {
+        "item_id": "B0BHYS16BM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User may like management games."
+      },
+      {
+        "item_id": "B0B9L7RQGL",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers games over protective cases."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1090,
+    "completion_tokens": 161
+  }
+}

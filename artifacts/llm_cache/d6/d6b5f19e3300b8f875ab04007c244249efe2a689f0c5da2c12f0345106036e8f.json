@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B004HILZUA",
+      "B19N07OX04",
+      "B07PRPHJJT",
+      "B00I9CPD12",
+      "B07VJRZ62R",
+      "B08VHJX37Y",
+      "B00K80NODC",
+      "B00P08NTVE",
+      "B00BIPLANW",
+      "B00NERNNQO",
+      "B08YNL3HZV",
+      "B003FSSMZY",
+      "B00002S655",
+      "B00004W4WO",
+      "B01KBDV0D6",
+      "B000TXZD6O",
+      "B007TE4RAE",
+      "B00XPRG26Q",
+      "B08YNL3HZV",
+      "B00004W4WO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004HILZUA",
+        "reason": "Crash Bandicoot game is a favorite"
+      },
+      {
+        "item_id": "B07PRPHJJT",
+        "reason": "Charging grip for Nintendo Switch"
+      },
+      {
+        "item_id": "B19N07OX04",
+        "reason": "High-quality Xbox One skin"
+      },
+      {
+        "item_id": "B00I9CPD12",
+        "reason": "Classic console for nostalgic gamers"
+      },
+      {
+        "item_id": "B07VJRZ62R",
+        "reason": "Popular Nintendo Switch console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3144,
+    "completion_tokens": 324
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00005LZNI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B09WR3DBT3",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related to PS5 accessories, user owns PS5."
+      },
+      {
+        "item_id": "B00004S99X",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Game Boy not aligned with interests."
+      },
+      {
+        "item_id": "B07SNN8GV5",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Xbox game, user prefers PlayStation products."
+      },
+      {
+        "item_id": "B00DC7G2W8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Wii U game, not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1503,
+    "completion_tokens": 170
+  }
+}

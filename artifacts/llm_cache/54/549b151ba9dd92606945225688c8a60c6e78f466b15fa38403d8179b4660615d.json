@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00I9RAW8G",
+      "B0000AI1KK",
+      "B007QJ5L4L4",
+      "B002HJQSQW",
+      "B00KRSXHT6",
+      "B01L0CV6OK",
+      "B0741C75T3",
+      "B08MBMZKVH",
+      "B00JY7GMS4",
+      "B0002A6CQ4",
+      "B003BYQ79U",
+      "B00IN6PETA",
+      "B07YKV1MKC",
+      "B09J4MQ7HT",
+      "B01DPVP3ZM",
+      "B07QJ5L4L4",
+      "B008EMXQQG",
+      "B00KRSXHT6",
+      "B0741C75T3",
+      "B00I9RAW8G",
+      "B00JY7GMS4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0000AI1KK",
+        "reason": "Strong narrative horror experience"
+      },
+      {
+        "item_id": "B002HJQSQ4",
+        "reason": "Classic horror game with depth"
+      },
+      {
+        "item_id": "B003BYQ79U",
+        "reason": "Engaging space simulation experience"
+      },
+      {
+        "item_id": "B00I9RAW8G",
+        "reason": "Customization for gaming console"
+      },
+      {
+        "item_id": "B01L0CV6OK",
+        "reason": "Popular quiz game for fun"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3392,
+    "completion_tokens": 342
+  }
+}

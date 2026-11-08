@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07KF4PPGP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Older game, not directly related."
+      },
+      {
+        "item_id": "B089QHT98J",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming mouse fits gaming interest."
+      },
+      {
+        "item_id": "B01GW3H3U8",
+        "label": "support",
+        "score": 8,
+        "rationale": "Controller enhances gaming experience."
+      },
+      {
+        "item_id": "B005HI2JCC",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not related to video games."
+      },
+      {
+        "item_id": "B000BYQDLU",
+        "label": "support",
+        "score": 6,
+        "rationale": "Gaming mouse relevant for PC gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1091,
+    "completion_tokens": 150
+  }
+}

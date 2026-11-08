@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002ELCUHY",
+      "B00009R8Z1",
+      "B00005Y1NH",
+      "B00005V5N0",
+      "B000069T96",
+      "B07BGGSHCW",
+      "B09GLN64K6",
+      "B07TSZV2VS",
+      "B07P9K1KVW",
+      "B0060RP14M",
+      "B006ZO8LG0",
+      "B07FSJPL5C",
+      "B07KN2N17R",
+      "B00006IKBL",
+      "B00005KG5U",
+      "B0B8T8B2WK",
+      "B0BYYQWJ9S",
+      "B001EYUTHU",
+      "B07SZXMTT7",
+      "B09J1DF3YY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002ELCUHY",
+        "reason": "Top sports video game available"
+      },
+      {
+        "item_id": "B00009R8Z1",
+        "reason": "Popular football game title"
+      },
+      {
+        "item_id": "B00005Y1NH",
+        "reason": "NASCAR game aligns with sports interest"
+      },
+      {
+        "item_id": "B00005V5N0",
+        "reason": "Wrestling game matches user preference"
+      },
+      {
+        "item_id": "B000069T96",
+        "reason": "Legacy game with sports elements"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3639,
+    "completion_tokens": 328
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "PlayStation 2 games",
+      "Action-adventure titles",
+      "Collector's editions",
+      "Single-player experiences",
+      "Classic video games"
+    ],
+    "current_intent": "Looking for more PlayStation 2 games to enjoy.",
+    "avoid": [
+      "Multiplayer games",
+      "Mobile games",
+      "Low-rated titles"
+    ],
+    "summary": "User enjoys classic PlayStation 2 action-adventure games and seeks similar titles, favoring high-quality single-player experiences."
+  },
+  "usage": {
+    "prompt_tokens": 577,
+    "completion_tokens": 86
+  }
+}

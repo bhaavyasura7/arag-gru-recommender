@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07JDDF9DW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B00UR5YF2C",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not relevant to gaming preferences."
+      },
+      {
+        "item_id": "B011611MK8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00006IKBJ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Racing game aligns with interests."
+      },
+      {
+        "item_id": "B07QGC6Y9S",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a game, irrelevant accessory."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 934,
+    "completion_tokens": 156
+  }
+}

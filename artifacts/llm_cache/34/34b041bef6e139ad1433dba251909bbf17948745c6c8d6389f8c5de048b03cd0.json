@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001QCWSHO",
+      "B001ET07O0",
+      "B001EYUPBU",
+      "B0721GGGS9",
+      "B001EYUNOO",
+      "B002IGTPK0",
+      "B001PO2BJI",
+      "B001EYUNOO",
+      "B002QXSF9M",
+      "B00F6YD26Y",
+      "B002I0GKA4",
+      "B07R21FJD8",
+      "B00BN5T30E",
+      "B00KQXKUFQ",
+      "B00MAPYKPO",
+      "B00Z9TL6KA",
+      "B00JTX7KA",
+      "B00WNV98X5",
+      "B00N8T31YC",
+      "B00F6YD26Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001QCWSHO",
+        "reason": "Compatible with Mario Kart games"
+      },
+      {
+        "item_id": "B001ET07O0",
+        "reason": "Popular Wii shooter game"
+      },
+      {
+        "item_id": "B001EYUPBU",
+        "reason": "Classic Nintendo horror game"
+      },
+      {
+        "item_id": "B0721GGGS9",
+        "reason": "Includes classic Nintendo games"
+      },
+      {
+        "item_id": "B002IGTPK0",
+        "reason": "Nintendo DSi bundle with games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3897,
+    "completion_tokens": 314
+  }
+}

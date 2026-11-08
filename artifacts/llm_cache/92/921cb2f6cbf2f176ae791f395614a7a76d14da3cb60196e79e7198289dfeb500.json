@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00DC7G2W8",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo games."
+      },
+      {
+        "item_id": "B00BRQN2EM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, but Xbox 360 compatible."
+      },
+      {
+        "item_id": "B001ELJE88",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Xbox 360 games."
+      },
+      {
+        "item_id": "B00KVOVBGM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers older consoles."
+      },
+      {
+        "item_id": "B00Z9TMBOU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different console, but similar gameplay."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1246,
+    "completion_tokens": 152
+  }
+}

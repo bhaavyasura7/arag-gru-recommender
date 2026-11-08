@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002MUB104",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not word games."
+      },
+      {
+        "item_id": "B008N04RR6",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Unrelated to user's gaming preferences."
+      },
+      {
+        "item_id": "B008GW57JS",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "No specific interest in strategy games noted."
+      },
+      {
+        "item_id": "B09JS2H1NH",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys gaming accessories for controllers."
+      },
+      {
+        "item_id": "B08RYF78ZV",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports user's PS5 gaming setup."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1078,
+    "completion_tokens": 157
+  }
+}

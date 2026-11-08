@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002RRLQIO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Keyboard not directly related to games."
+      },
+      {
+        "item_id": "B01GOK34SO",
+        "label": "support",
+        "score": 7,
+        "rationale": "Remote enhances Xbox One gaming experience."
+      },
+      {
+        "item_id": "B003171CEW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Baseball game not aligned with interests."
+      },
+      {
+        "item_id": "B003RS1AIS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Music game accessory, not a direct interest."
+      },
+      {
+        "item_id": "B01FZ884E0",
+        "label": "support",
+        "score": 8,
+        "rationale": "Headset enhances gaming experience."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1312,
+    "completion_tokens": 153
+  }
+}

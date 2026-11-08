@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00LV416KC",
+      "B085G42RXJ",
+      "B08C2MT145",
+      "B01K1CC4R8",
+      "B07467QH6M",
+      "B08H9CVSS9",
+      "B07D122T41",
+      "B000N45SO6",
+      "B00005AG2L",
+      "B08DMWF4MX",
+      "B07L3SV188",
+      "B0BHZ58XMH",
+      "B00M1RSYUI",
+      "B006ZN64CY",
+      "B000PKU2N0",
+      "B000RO39AW",
+      "B00005AG2L",
+      "B07HGT7JC8",
+      "B000N45SO6",
+      "B094Q6C3L9"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00LV416KC",
+        "reason": "Engaging multiplayer action game"
+      },
+      {
+        "item_id": "B085G42RXJ",
+        "reason": "Action-packed roguevania experience"
+      },
+      {
+        "item_id": "B08C2MT145",
+        "reason": "Enhances controller precision"
+      },
+      {
+        "item_id": "B01K1CC4R8",
+        "reason": "Classic RPG with new adventures"
+      },
+      {
+        "item_id": "B07467QH6M",
+        "reason": "Online multiplayer hack-and-slash"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3325,
+    "completion_tokens": 321
+  }
+}

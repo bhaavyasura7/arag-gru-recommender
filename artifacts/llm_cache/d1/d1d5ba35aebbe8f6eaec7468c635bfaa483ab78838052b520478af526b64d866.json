@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08B1WJHVD",
+      "B096XMZYGD",
+      "B08XQMP8FY",
+      "B001ELJFGO",
+      "B013BUA0AM",
+      "B00004YUWA",
+      "B00005BW7Q",
+      "B007CM0K86",
+      "B073K6WMJ9",
+      "B001G6062O",
+      "B00006FWTW",
+      "B002I0JBVY",
+      "B001EYUSC6",
+      "B00005QIQM",
+      "B00000I1BF",
+      "B0050SVPCO",
+      "B007BUA0AM",
+      "B001EYUSC6",
+      "B00005BW7Q",
+      "B00004YUWA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08B1WJHVD",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B096XMZYGD",
+        "reason": "Rechargeable battery pack for controllers"
+      },
+      {
+        "item_id": "B08XQMP8FY",
+        "reason": "Popular game with premium features"
+      },
+      {
+        "item_id": "B001ELJFGO",
+        "reason": "Classic game with strong narrative"
+      },
+      {
+        "item_id": "B013BUA0AM",
+        "reason": "Premium edition with collectibles"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3801,
+    "completion_tokens": 313
+  }
+}

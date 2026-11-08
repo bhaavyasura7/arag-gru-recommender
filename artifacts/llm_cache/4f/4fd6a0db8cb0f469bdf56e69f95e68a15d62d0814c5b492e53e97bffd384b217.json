@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B091CQP4CS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to gaming accessories."
+      },
+      {
+        "item_id": "B092SFJSNM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Smartwatch not directly related to gaming."
+      },
+      {
+        "item_id": "B08RN3KF36",
+        "label": "support",
+        "score": 8,
+        "rationale": "Mechanical keyboard matches gaming interest."
+      },
+      {
+        "item_id": "B013HWV56U",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Board game not related to user interests."
+      },
+      {
+        "item_id": "B07GN3R9G2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Lego pack unrelated to gaming hardware."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1080,
+    "completion_tokens": 158
+  }
+}

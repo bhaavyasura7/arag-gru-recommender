@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09JSKBZKX",
+      "B00N4OBCRY",
+      "B06ZXY893M",
+      "B092JGBB69",
+      "B0722XDQVG",
+      "B0C27DZY6H",
+      "B07TM4DWXJ",
+      "B085VN6HGW",
+      "B07Q7PTGHM",
+      "B07Q7QGDR1",
+      "B07NNT23Q3",
+      "B07RWDRGH4",
+      "B07RWWWF59",
+      "B08RHJCGJJ",
+      "B08QF4SVWP",
+      "B07MF1YFX6",
+      "B07NWK4GXX",
+      "B07Q7PTGHM",
+      "B07Q7QGDR1",
+      "B07QWZXN83",
+      "B0BZYJPYMF"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09JSKBZKX",
+        "reason": "High-quality RGB mechanical keyboard"
+      },
+      {
+        "item_id": "B00N4OBCRY",
+        "reason": "Top-tier gaming keyboard features"
+      },
+      {
+        "item_id": "B06ZXY893M",
+        "reason": "Durable with programmable macros"
+      },
+      {
+        "item_id": "B092JGBB69",
+        "reason": "Customizable RGB lighting options"
+      },
+      {
+        "item_id": "B0722XDQVG",
+        "reason": "Responsive mechanical switches"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3939,
+    "completion_tokens": 337
+  }
+}

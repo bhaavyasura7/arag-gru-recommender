@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01M6C7YE8",
+      "B004AYCNQ6",
+      "B07YW3W8TK",
+      "B001R2VW70",
+      "B16MG8P418",
+      "B001EYUY70",
+      "B002JTX5SO",
+      "B0050SVDQ2",
+      "B00IAVDQCK",
+      "B005YR308S",
+      "B0013LTP6U",
+      "B002I0EMBI",
+      "B0784BTZBR",
+      "B005JQNEO4",
+      "B0084A97Y8",
+      "B00QU93WW8",
+      "B001ELJFGE",
+      "B002I0JMB8",
+      "B0013LTP6U",
+      "B007U87E8Q"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01M6C7YE8",
+        "reason": "Highly rated action-adventure game"
+      },
+      {
+        "item_id": "B004AYCNQ6",
+        "reason": "Classic RTS with multiplayer support"
+      },
+      {
+        "item_id": "B07YW3W8TK",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B001R2VW70",
+        "reason": "Improves gaming control and comfort"
+      },
+      {
+        "item_id": "B16MG8P418",
+        "reason": "Innovative controller for PC games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3597,
+    "completion_tokens": 324
+  }
+}

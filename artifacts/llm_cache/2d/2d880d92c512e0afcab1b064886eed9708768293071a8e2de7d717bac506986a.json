@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001AI7CF2",
+      "B00VX73DD0",
+      "B06XKXQW4",
+      "B006Z9TIM3Y",
+      "B00Z9TIM3Y",
+      "B00DYJGDYQ",
+      "B00SHXKC8M",
+      "B003IPCF02",
+      "B01I3E7XAO",
+      "B01KXB7SZ0",
+      "B003NSLGW2",
+      "B00O9JLBOC",
+      "B001ENPDJA",
+      "B00DBDPOZ4",
+      "B0029LJIFG",
+      "B00I59OC92",
+      "B00VX73DD0",
+      "B0C89J78ZW",
+      "B01I59OC92",
+      "B00SHXKC8M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001AI7CF2",
+        "reason": "Essential Nintendo accessory for gaming"
+      },
+      {
+        "item_id": "B00VX73DD0",
+        "reason": "Perfect for organizing Nintendo games"
+      },
+      {
+        "item_id": "B06XKXQW4",
+        "reason": "Customizable Joy-Con case for Switch"
+      },
+      {
+        "item_id": "B00Z9TIM3Y",
+        "reason": "Enhances gaming experience with quality"
+      },
+      {
+        "item_id": "B00DYJGDYQ",
+        "reason": "Popular game in Nintendo universe"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3599,
+    "completion_tokens": 331
+  }
+}

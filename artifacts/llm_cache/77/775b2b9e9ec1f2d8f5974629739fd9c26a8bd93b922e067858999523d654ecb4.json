@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo Switch games",
+      "Retro gaming accessories",
+      "Action-adventure games",
+      "Multiplayer experiences",
+      "Game adaptations"
+    ],
+    "current_intent": "Looking for new Nintendo Switch games or accessories.",
+    "avoid": [
+      "Low-rated games",
+      "Non-Nintendo products",
+      "Overly complex games"
+    ],
+    "summary": "User enjoys Nintendo Switch and retro games, seeking new titles or accessories to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 568,
+    "completion_tokens": 79
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B31PJLCN",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR gaming not in user history."
+      },
+      {
+        "item_id": "B00DC7G2W8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation over Nintendo."
+      },
+      {
+        "item_id": "B001O1OBFY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation over Nintendo."
+      },
+      {
+        "item_id": "B073K6WMJ9",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation over Nintendo."
+      },
+      {
+        "item_id": "B07HPF7PRT",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's PlayStation systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1382,
+    "completion_tokens": 161
+  }
+}

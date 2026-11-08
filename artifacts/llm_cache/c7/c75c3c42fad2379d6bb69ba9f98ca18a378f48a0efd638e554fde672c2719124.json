@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07Q6PZGB6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC gaming accessories, not console games."
+      },
+      {
+        "item_id": "B07H7NS9ZK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC gaming mouse, not console games."
+      },
+      {
+        "item_id": "B003VPRB6W",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Pet simulation, not user’s interest."
+      },
+      {
+        "item_id": "B004HCI95K",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo DS game aligns with interests."
+      },
+      {
+        "item_id": "B0BH9SL6T5",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox controller accessory matches user’s console."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1302,
+    "completion_tokens": 163
+  }
+}

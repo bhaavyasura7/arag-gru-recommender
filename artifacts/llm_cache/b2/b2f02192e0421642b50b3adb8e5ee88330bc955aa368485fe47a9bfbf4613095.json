@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B005T4S0OA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre than user's interests."
+      },
+      {
+        "item_id": "B00004ZBQJ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Military strategy not aligned with preferences."
+      },
+      {
+        "item_id": "B006C4B9I0",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo 3DS aligns with user's gaming history."
+      },
+      {
+        "item_id": "B08G8BYXR3",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game, less relevant."
+      },
+      {
+        "item_id": "B00H8NKMJG",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Headset not directly related to games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 162
+  }
+}

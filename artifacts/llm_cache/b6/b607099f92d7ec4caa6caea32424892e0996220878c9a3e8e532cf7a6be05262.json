@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B06XDJCGNG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers games, not accessories."
+      },
+      {
+        "item_id": "B09BF2JGZK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Stylus for older systems, not relevant."
+      },
+      {
+        "item_id": "B09QPGNV4Q",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Headphones not directly related to gaming."
+      },
+      {
+        "item_id": "B009SS7MO2",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has interest in PlayStation systems."
+      },
+      {
+        "item_id": "B08XTDB7W4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming mouse aligns with gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1256,
+    "completion_tokens": 157
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07ZHZBYCJ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances PC gaming experience significantly."
+      },
+      {
+        "item_id": "B005GISPMQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PC games, not PS2."
+      },
+      {
+        "item_id": "B002BRZ8BQ",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no Xbox gaming history."
+      },
+      {
+        "item_id": "B00NA6LH58",
+        "label": "support",
+        "score": 8,
+        "rationale": "PC RPG aligns with user interests."
+      },
+      {
+        "item_id": "B06ZZ6FGGL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not directly related to gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1217,
+    "completion_tokens": 156
+  }
+}

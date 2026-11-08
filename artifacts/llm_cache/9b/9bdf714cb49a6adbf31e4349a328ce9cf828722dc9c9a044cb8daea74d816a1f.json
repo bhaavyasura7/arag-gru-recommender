@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUTFM",
+      "B07WSHFS8P",
+      "B0019FEZ1K",
+      "B006HPLI7Q",
+      "B00MEW4HEM",
+      "B00092A71Q",
+      "B002CZP84Y",
+      "B07VPX499V",
+      "B08NXLLGFB",
+      "B09YH6F1PY",
+      "B0BMT86P17",
+      "B099ZCQTJ7",
+      "B07TB5W9YP",
+      "B000J0NV16",
+      "B003QPIDW8",
+      "B00LSR51IA",
+      "B09H7L4WJY",
+      "B00ZA1EEQU",
+      "B0BXKSB527",
+      "B07VPX499V"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUTFM",
+        "reason": "Popular sports game for Xbox 360"
+      },
+      {
+        "item_id": "B07WSHFS8P",
+        "reason": "Collector's edition for Xbox 360"
+      },
+      {
+        "item_id": "B0019FEZ1K",
+        "reason": "Classic RPG on PlayStation 2"
+      },
+      {
+        "item_id": "B006HPLI7Q",
+        "reason": "Essential headset for Xbox 360"
+      },
+      {
+        "item_id": "B00MEW4HEM",
+        "reason": "Custom controller shell for Xbox One"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3405,
+    "completion_tokens": 332
+  }
+}

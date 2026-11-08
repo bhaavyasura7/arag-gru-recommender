@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008XN0F3S",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys open world RPGs."
+      },
+      {
+        "item_id": "B0009FZQYQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User's interest in strategy games unclear."
+      },
+      {
+        "item_id": "B00008Z4FZ",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likes space-themed strategy games."
+      },
+      {
+        "item_id": "B07VPXDHXL",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User prefers video games over RPG accessories."
+      },
+      {
+        "item_id": "B084H5J2TP",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys player-driven story RPGs."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2124,
+    "completion_tokens": 158
+  }
+}

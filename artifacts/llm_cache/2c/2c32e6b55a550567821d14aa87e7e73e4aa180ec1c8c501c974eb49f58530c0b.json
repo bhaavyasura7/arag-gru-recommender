@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08F4D36D9",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers racing games, not RPGs."
+      },
+      {
+        "item_id": "B004HKJCRQ",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers modern consoles, not PSP."
+      },
+      {
+        "item_id": "B0050SZ7IC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller accessory, not a game."
+      },
+      {
+        "item_id": "B008U2XILI",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox, user plays Xbox games."
+      },
+      {
+        "item_id": "B07YBXNPSZ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers racing games, not action-adventure."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1297,
+    "completion_tokens": 167
+  }
+}

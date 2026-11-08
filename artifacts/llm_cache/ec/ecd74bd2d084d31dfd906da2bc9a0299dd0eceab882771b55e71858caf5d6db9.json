@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002BU0DPE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not directly related to games."
+      },
+      {
+        "item_id": "B00004WFVZ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar flight combat theme as user likes."
+      },
+      {
+        "item_id": "B074ZZ933M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User shows no interest in sports games."
+      },
+      {
+        "item_id": "B095WLSXHG",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory not related to user interests."
+      },
+      {
+        "item_id": "B000ARW4RU",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in simulation games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1201,
+    "completion_tokens": 157
+  }
+}

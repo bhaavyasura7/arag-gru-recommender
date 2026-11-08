@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00WV89IXO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user's preferences."
+      },
+      {
+        "item_id": "B004USOOAK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "No strong interest in shooting games."
+      },
+      {
+        "item_id": "B0036S4Q6C",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Wii gun not relevant to user."
+      },
+      {
+        "item_id": "B008GW5V9E",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC shooter pack not a priority."
+      },
+      {
+        "item_id": "B0006JF6IQ",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Legacy system game unlikely to interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2074,
+    "completion_tokens": 152
+  }
+}

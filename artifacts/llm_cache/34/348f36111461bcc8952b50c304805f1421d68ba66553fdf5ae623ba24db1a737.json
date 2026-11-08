@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00YGCCASI",
+      "B015O2T0G8",
+      "B12XFYYQ4Q",
+      "B00308JV6I",
+      "B0000503MO",
+      "B0009YDS0Q",
+      "B001EYUSHQ",
+      "B00E290JRE",
+      "B00H2W0DIS",
+      "B00ZQB28XK",
+      "B00KUZEFBK",
+      "B014N4RTS4",
+      "B0006ZJPSC",
+      "B000J42FNW",
+      "B009S4JTTC",
+      "B0721GGGS9",
+      "B001EYUY3Y",
+      "B0009YDS0Q",
+      "B0051U7BZG",
+      "B0000503MO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00YGCCASI",
+        "reason": "High-quality controller grips"
+      },
+      {
+        "item_id": "B015O2T0G8",
+        "reason": "Premium gaming headset"
+      },
+      {
+        "item_id": "B12XFYYQ4Q",
+        "reason": "Wireless gaming keyboard"
+      },
+      {
+        "item_id": "B00308JV6I",
+        "reason": "Popular action game"
+      },
+      {
+        "item_id": "B0000503MO",
+        "reason": "Classic racing game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3769,
+    "completion_tokens": 309
+  }
+}

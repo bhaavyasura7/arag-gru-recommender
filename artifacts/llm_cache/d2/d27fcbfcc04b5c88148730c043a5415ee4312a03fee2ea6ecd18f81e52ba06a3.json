@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07V693FF7",
+      "B00006FWU7",
+      "B001EYUXWQ",
+      "B003Q9RGRW",
+      "B004ZCPL26",
+      "B002JTX9X0",
+      "B0086VPUHI",
+      "B007CSCWVI",
+      "B00DB2BI00",
+      "B003O6FV8S",
+      "B00CJ9OTNE",
+      "B00DE2W5XG",
+      "B0154OZU4M",
+      "B00K0NV5J2",
+      "B00G6V8KPM",
+      "B00G6V8KPM",
+      "B00K0NV5J2",
+      "B003EUPCZG",
+      "B00DB2BI00",
+      "B00K0NV5J2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07V693FF7",
+        "reason": "Retro gaming accessory for Sega"
+      },
+      {
+        "item_id": "B00006FWU7",
+        "reason": "Classic racing game for Xbox"
+      },
+      {
+        "item_id": "B001EYUXWQ",
+        "reason": "Popular horror game on Xbox 360"
+      },
+      {
+        "item_id": "B003Q9RGRW",
+        "reason": "Useful chatpad for Xbox 360"
+      },
+      {
+        "item_id": "B004ZCPL26",
+        "reason": "Action game for PlayStation 3"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3774,
+    "completion_tokens": 334
+  }
+}

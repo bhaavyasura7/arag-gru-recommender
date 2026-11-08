@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07H4MPJ5X",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances Xbox gaming experience."
+      },
+      {
+        "item_id": "B07Z4YKVR8",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with PC and consoles."
+      },
+      {
+        "item_id": "B08FHZ945D",
+        "label": "support",
+        "score": 6,
+        "rationale": "RGB features match user's preferences."
+      },
+      {
+        "item_id": "B000P57T8Q",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming interests."
+      },
+      {
+        "item_id": "B073VSRM16",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo Switch accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1407,
+    "completion_tokens": 154
+  }
+}

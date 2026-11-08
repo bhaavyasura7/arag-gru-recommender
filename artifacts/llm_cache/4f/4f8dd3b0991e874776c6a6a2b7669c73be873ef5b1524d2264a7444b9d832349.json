@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01MYUCFBK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products only."
+      },
+      {
+        "item_id": "B001EYUSJ4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products only."
+      },
+      {
+        "item_id": "B00BHRD4BM",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related to Nintendo amiibo collection."
+      },
+      {
+        "item_id": "B00YSAXP0U",
+        "label": "support",
+        "score": 8,
+        "rationale": "Supports Nintendo amiibo display needs."
+      },
+      {
+        "item_id": "B07GX8YS78",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly related to Super Smash Bros."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1136,
+    "completion_tokens": 155
+  }
+}

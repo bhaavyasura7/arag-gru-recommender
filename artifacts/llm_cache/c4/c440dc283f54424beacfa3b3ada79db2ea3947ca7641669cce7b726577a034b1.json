@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B087M2X1HY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox 360 interests."
+      },
+      {
+        "item_id": "B07BBQ5DN1",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has Xbox One interests."
+      },
+      {
+        "item_id": "B07D6JGQK7",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox 360 interests."
+      },
+      {
+        "item_id": "B07GQPWR34",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has Xbox One interests."
+      },
+      {
+        "item_id": "B0819DMJ8D",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox 360 interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1568,
+    "completion_tokens": 153
+  }
+}

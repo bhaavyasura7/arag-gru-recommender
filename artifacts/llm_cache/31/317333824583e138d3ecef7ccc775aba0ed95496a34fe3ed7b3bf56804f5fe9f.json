@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B10H5R5C1R",
+      "B00K3PNUEA",
+      "B01J4K1082",
+      "B0759BV9DJ",
+      "B09HBMCM1B",
+      "B00HRS5VD4",
+      "B00ITE71U6",
+      "B004UMAPQS",
+      "B09NCWP9HH",
+      "B00YDV70NW",
+      "B000NKWO8S",
+      "B00ENZRF1K",
+      "B001AW16QE",
+      "B00KZ0LS7Y",
+      "B07DCYSZ1Q",
+      "B00K3PNUEA",
+      "B00HRS5VD4",
+      "B00ITE71U6",
+      "B00K3PNUEA",
+      "B00K3PNUEA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09H5R5C1R",
+        "reason": "Action-adventure game with customization"
+      },
+      {
+        "item_id": "B0759BV9DJ",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B01J4K1082",
+        "reason": "Console game in action genre"
+      },
+      {
+        "item_id": "B004UMAPQS",
+        "reason": "Platformer game experience"
+      },
+      {
+        "item_id": "B00HRS5VD4",
+        "reason": "Charger for console gaming accessories"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3228,
+    "completion_tokens": 330
+  }
+}

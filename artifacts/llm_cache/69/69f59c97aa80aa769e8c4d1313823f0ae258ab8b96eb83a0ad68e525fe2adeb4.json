@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B008B3QCJQ",
+      "B004I1RT1A",
+      "B00005V8TC",
+      "B00029P9I2",
+      "B000BZ6BPW",
+      "B0044DFHVQ",
+      "B09LTV2PN4",
+      "B07CJGDZJ5",
+      "B09FPFZJ8L",
+      "B07S7BY9MV",
+      "B0029D57NG",
+      "B01ICSN76U",
+      "B075NB5DM6",
+      "B093Y94G53",
+      "B0B2X6WCTZ",
+      "B00IG6L4R8",
+      "B000EA8UJY",
+      "B01DI8FRSK",
+      "B07VLCS2MK",
+      "B09BMRBBYR"
+    ],
+    "reasons": [
+      {
+        "item_id": "B008B3QCJQ",
+        "reason": "Engaging RPG gameplay"
+      },
+      {
+        "item_id": "B004I1RT1A",
+        "reason": "Unique RPG story elements"
+      },
+      {
+        "item_id": "B00005V8TC",
+        "reason": "Fun building mechanics"
+      },
+      {
+        "item_id": "B00029P9I2",
+        "reason": "Nostalgic urban simulation"
+      },
+      {
+        "item_id": "B000BZ6BPW",
+        "reason": "Team-based gameplay experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3522,
+    "completion_tokens": 324
+  }
+}

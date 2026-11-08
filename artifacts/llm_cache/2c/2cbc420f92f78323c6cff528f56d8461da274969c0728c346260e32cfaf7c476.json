@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "strategy video games",
+      "gaming accessories",
+      "Xbox gaming",
+      "wireless gaming headsets",
+      "multiplayer experiences"
+    ],
+    "current_intent": "looking for new gaming accessories or games for Xbox.",
+    "avoid": [
+      "discontinued products",
+      "low-rated games",
+      "non-wireless accessories"
+    ],
+    "summary": "User enjoys strategy games and high-quality gaming accessories, particularly for Xbox, and seeks new items to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 292,
+    "completion_tokens": 84
+  }
+}

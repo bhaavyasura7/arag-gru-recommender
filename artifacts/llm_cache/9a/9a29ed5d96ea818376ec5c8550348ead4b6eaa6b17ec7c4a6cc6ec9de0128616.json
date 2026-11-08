@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B085Y9WH8P",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B00BHRD4BM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games."
+      },
+      {
+        "item_id": "B00DC7G2W8",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Nintendo racing games."
+      },
+      {
+        "item_id": "B00KWOSQC8",
+        "label": "support",
+        "score": 9,
+        "rationale": "User loves Pokémon games."
+      },
+      {
+        "item_id": "B00BWBTJ4Y",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not relevant to user's game preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1107,
+    "completion_tokens": 151
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00F4N0GXO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B079BBHDMM",
+        "label": "support",
+        "score": 8,
+        "rationale": "Headset enhances gaming experience."
+      },
+      {
+        "item_id": "B00OMBGAF2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system, user prefers newer consoles."
+      },
+      {
+        "item_id": "B004KEMI66",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory for older Xbox system."
+      },
+      {
+        "item_id": "B005N2CTPO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user's gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1077,
+    "completion_tokens": 153
+  }
+}

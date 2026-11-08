@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07869V1JT",
+      "B0019N6RG8",
+      "B14J47HCSC",
+      "B000Q6J51S",
+      "B002JTX9XK",
+      "B003R7JXMO",
+      "B004Y98Q04",
+      "B006HZA7Y6",
+      "B01MXLEYZ8",
+      "B01DPS4QQ2",
+      "B002I0J51U",
+      "B00C2PJTKS",
+      "B07X649B77",
+      "B008FWZZ9Q",
+      "B005UUO9CK",
+      "B00J5C3Z10",
+      "B01DPS4QQ2",
+      "B001QCWS6A",
+      "B00C2PJTKS",
+      "B002I0J51U"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07869V1JT",
+        "reason": "Family-friendly multiplayer experience"
+      },
+      {
+        "item_id": "B0019N6RG8",
+        "reason": "Fun and interactive gameplay"
+      },
+      {
+        "item_id": "B14J47HCSC",
+        "reason": "Strong female characters featured"
+      },
+      {
+        "item_id": "B000Q6J51S",
+        "reason": "Engaging story and characters"
+      },
+      {
+        "item_id": "B002JTX9XK",
+        "reason": "Creative gameplay with customization"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3964,
+    "completion_tokens": 324
+  }
+}

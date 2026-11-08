@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004ZCPKDG",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Wii games and accessories."
+      },
+      {
+        "item_id": "B00884S5N4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers family-friendly games."
+      },
+      {
+        "item_id": "B0025QWPYQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, mixed relevance."
+      },
+      {
+        "item_id": "B00004YUWA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but PS2 interest noted."
+      },
+      {
+        "item_id": "B002IT33S2",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances Wii gaming experience, user interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 158
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07PF9D8VC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to PS2 games."
+      },
+      {
+        "item_id": "B000CR27OS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B09F89RP86",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS4 accessory, user prefers PS2."
+      },
+      {
+        "item_id": "B082MR4YSF",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no Xbox interest."
+      },
+      {
+        "item_id": "B00LXYHARI",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Wii U accessory, not PS2 related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 159
+  }
+}

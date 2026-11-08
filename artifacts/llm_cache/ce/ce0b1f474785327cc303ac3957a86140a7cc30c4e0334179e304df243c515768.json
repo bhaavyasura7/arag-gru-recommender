@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000U34SZA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming accessories, not games."
+      },
+      {
+        "item_id": "B004IK89G0",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming accessories, not games."
+      },
+      {
+        "item_id": "B001E56K5Y",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming accessories, not games."
+      },
+      {
+        "item_id": "B0731QNDY6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming accessories, not games."
+      },
+      {
+        "item_id": "B001E90A10",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming accessories, not games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1365,
+    "completion_tokens": 167
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B071WBRCYJ",
+      "B05CQRJAUA",
+      "B088FTCCVB",
+      "B0BHFF5GH8",
+      "B06FAN4M3S",
+      "B0C2TWDSLR",
+      "B08LLB291G",
+      "B004LNJ1FC",
+      "B004393I0I",
+      "B000SDFFP4",
+      "B07TD5YXGM",
+      "B095GLBYBC",
+      "B07QWWCC4L",
+      "B08TVHZLPL",
+      "B000F4MEKU",
+      "B0768GM4V4",
+      "B09QLXS17G",
+      "B004JHY3ZI",
+      "B07BZLS6D7",
+      "B00FAN4M3S",
+      "B0BF4SVFWL"
+    ],
+    "reasons": [
+      {
+        "item_id": "B071WBRCYJ",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B05CQRJAUA",
+        "reason": "Engaging story-driven game"
+      },
+      {
+        "item_id": "B088FTCCVB",
+        "reason": "Ergonomic gaming keyboard and mouse"
+      },
+      {
+        "item_id": "B0BHFF5GH8",
+        "reason": "PS5 console mount for space-saving"
+      },
+      {
+        "item_id": "B06FAN4M3S",
+        "reason": "Comfortable optical gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3733,
+    "completion_tokens": 334
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B072K63ZPD",
+      "B11QRRLCKD",
+      "B003IU1AHQ",
+      "B007W8S2MG",
+      "B001AATQ0Y",
+      "B003L77YKS",
+      "B0000A1OG8",
+      "B078GHDJW4",
+      "B00Z8EBXSQ",
+      "B003VUNWW4",
+      "B004HD55VK",
+      "B007W8S2MG",
+      "B0894RCSV4",
+      "B001TOQ8WU",
+      "B003IU1AHQ",
+      "B001AATQ0Y",
+      "B075MJLB5B",
+      "B0BGB7VPGK",
+      "B07624RBWB",
+      "B001AATQ0Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B072K63ZPD",
+        "reason": "Popular multiplayer shooter experience"
+      },
+      {
+        "item_id": "B11QRRLCKD",
+        "reason": "DIY arcade kit for gaming fun"
+      },
+      {
+        "item_id": "B003IU1AHQ",
+        "reason": "Classic action-adventure gameplay"
+      },
+      {
+        "item_id": "B007W8S2MG",
+        "reason": "Immersive RPG with deep story"
+      },
+      {
+        "item_id": "B001AATQ0Y",
+        "reason": "Adapter for PlayStation controllers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3500,
+    "completion_tokens": 323
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B003YMMMFM",
+      "B07YPCJWF2",
+      "B0002D6A4K",
+      "B08WKCZVML",
+      "B01N3N6MX8",
+      "B002MB0BUO",
+      "B01J4JWNG6",
+      "B00BPL60QQ",
+      "B07MLHGGGL",
+      "B07YDZJ4GP",
+      "B09JCNG557",
+      "B0041JIQRK",
+      "B003Z815RG",
+      "B00006JBSB",
+      "B000035XK5",
+      "B0867C7KKJ",
+      "B01C3GSH6W",
+      "B09CVCZYGX",
+      "B082VXYF8F",
+      "B01N3N6MX8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B003YMMMFM",
+        "reason": "Highly rated classic shooter"
+      },
+      {
+        "item_id": "B07YPCJWF2",
+        "reason": "Popular remastered shooter"
+      },
+      {
+        "item_id": "B0002D6A4K",
+        "reason": "Classic FPS experience"
+      },
+      {
+        "item_id": "B08WKCZVML",
+        "reason": "Multiplayer pool game"
+      },
+      {
+        "item_id": "B01N3N6MX8",
+        "reason": "PS4 game storage solution"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3157,
+    "completion_tokens": 322
+  }
+}

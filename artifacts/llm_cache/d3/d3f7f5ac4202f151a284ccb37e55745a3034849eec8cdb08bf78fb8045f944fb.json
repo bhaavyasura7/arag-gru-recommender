@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00005O0I2",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 2 games."
+      },
+      {
+        "item_id": "B00EZIXEIS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not a game, just an accessory."
+      },
+      {
+        "item_id": "B07YBXNWXL",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers PlayStation over Xbox."
+      },
+      {
+        "item_id": "B008VXCPV0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers consoles."
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Grand Theft Auto series."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1136,
+    "completion_tokens": 159
+  }
+}

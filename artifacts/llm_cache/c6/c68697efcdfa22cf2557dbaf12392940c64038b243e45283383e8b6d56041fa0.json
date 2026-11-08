@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00069F92Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers action over adventure games."
+      },
+      {
+        "item_id": "B006C5M5R8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has mixed interest in adventure games."
+      },
+      {
+        "item_id": "B00658TXAY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys various game genres."
+      },
+      {
+        "item_id": "B085X4GYSM",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes Nintendo Switch games."
+      },
+      {
+        "item_id": "B085WPKVD5",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Nintendo-themed products."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1274,
+    "completion_tokens": 149
+  }
+}

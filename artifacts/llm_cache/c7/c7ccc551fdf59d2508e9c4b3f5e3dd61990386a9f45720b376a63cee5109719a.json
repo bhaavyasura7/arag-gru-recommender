@@ -1,0 +1,22 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001",
+        "label": "support",
+        "score": 0,
+        "rationale": "The user has purchased a Nintendo Switch, making this fighting game directly relevant to their console. Fighting games are a popular genre on Switch, and the product is a natural fit for their interests. The score is high due to the strong alignment with the user's existing purchase."
+      },
+      {
+        "item_id": "B002",
+        "label": "neutral",
+        "score": 0,
+        "rationale": "A kitchen blender is unrelated to the Nintendo Switch and does not align with the user's purchase history. There is no direct connection between the Switch and kitchen appliances, so this product is unlikely to be of interest. The score is low due to the lack of relevance."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 568
+  }
+}

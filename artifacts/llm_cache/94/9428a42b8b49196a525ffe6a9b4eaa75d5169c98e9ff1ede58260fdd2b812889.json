@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0BPLX2X7C",
+      "B08TTZGK1N",
+      "B09GPF775B",
+      "B09TH69VNT",
+      "B18D2R12D6",
+      "B09WPXBF43",
+      "B07YFC8D87",
+      "B09L7NMWWM",
+      "B00JVIPSZ4",
+      "B000067QD3",
+      "B00005Q5Q5",
+      "B000FRTTJG",
+      "B017W2U26U",
+      "B003AHPA46",
+      "B07G4YYZ1M",
+      "B00CCEFRQ4",
+      "B0BN885BT8",
+      "B01NA9M7RK",
+      "B000E67D096",
+      "B0776CBM1Q",
+      "B000FRTTJG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BPLX2X7C",
+        "reason": "Racing simulator enhances gaming experience"
+      },
+      {
+        "item_id": "B08TTZGK1N",
+        "reason": "High-quality mechanical keyboard"
+      },
+      {
+        "item_id": "B09GPF775B",
+        "reason": "Organizes gaming accessories neatly"
+      },
+      {
+        "item_id": "B09TH69VNT",
+        "reason": "Custom grips for personalization"
+      },
+      {
+        "item_id": "B0182R12D6",
+        "reason": "Popular PS3 game for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3439,
+    "completion_tokens": 338
+  }
+}

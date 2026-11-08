@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "classic RPGs",
+      "Nintendo games",
+      "nostalgic gaming",
+      "adventure games",
+      "family-friendly titles"
+    ],
+    "current_intent": "looking for more classic Nintendo games to play",
+    "avoid": [
+      "modern AAA titles",
+      "violent games",
+      "complex mechanics"
+    ],
+    "summary": "User enjoys classic Nintendo RPGs and adventure games, seeking similar titles for nostalgic gaming experiences."
+  },
+  "usage": {
+    "prompt_tokens": 298,
+    "completion_tokens": 74
+  }
+}

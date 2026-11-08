@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000035XCC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming accessories, not games."
+      },
+      {
+        "item_id": "B0052556DY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in PS3 games."
+      },
+      {
+        "item_id": "B07B2T5BHW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not need charging cables."
+      },
+      {
+        "item_id": "B0BVVTQ5JP",
+        "label": "support",
+        "score": 9,
+        "rationale": "High-performance gaming mouse matches interests."
+      },
+      {
+        "item_id": "B00HHUSOLI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PC accessories over PS4 cases."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1088,
+    "completion_tokens": 165
+  }
+}

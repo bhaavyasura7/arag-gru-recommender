@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002G9DHGW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B07YBKW93N",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system, not a current interest."
+      },
+      {
+        "item_id": "B09DQD1JBG",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys video games, relevant sequel."
+      },
+      {
+        "item_id": "B0002MCH5M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B08TY2H7RW",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likes video games, relevant content."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1820,
+    "completion_tokens": 159
+  }
+}

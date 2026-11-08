@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07F8RHBQX",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming peripherals."
+      },
+      {
+        "item_id": "B008CRAGMU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has Xbox interest but no history."
+      },
+      {
+        "item_id": "B000088KHA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B000R4GF9Y",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in DS games."
+      },
+      {
+        "item_id": "B07KPP62KC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has Nintendo interest but no Game Boy."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1164,
+    "completion_tokens": 157
+  }
+}

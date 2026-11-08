@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000XPKXJA",
+        "label": "support",
+        "score": 8,
+        "rationale": "User liked Oblivion previously."
+      },
+      {
+        "item_id": "B001FB56KM",
+        "label": "support",
+        "score": 8,
+        "rationale": "User liked Oblivion previously."
+      },
+      {
+        "item_id": "B005FPD0O8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Includes games user may like."
+      },
+      {
+        "item_id": "B00KOOUVN8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Mortal Kombat not in user history."
+      },
+      {
+        "item_id": "B00644IK30",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Includes games user may like."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2132,
+    "completion_tokens": 149
+  }
+}

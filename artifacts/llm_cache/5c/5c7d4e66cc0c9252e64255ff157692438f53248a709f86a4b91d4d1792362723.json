@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00ZD99YXC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B076B995TL",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Wii U controllers."
+      },
+      {
+        "item_id": "B00FA1CLEW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Skylanders not in user's history."
+      },
+      {
+        "item_id": "B08F97Q8HS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo Switch game aligns with interests."
+      },
+      {
+        "item_id": "B003NSLGW2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Analog stick covers not specifically relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 148
+  }
+}

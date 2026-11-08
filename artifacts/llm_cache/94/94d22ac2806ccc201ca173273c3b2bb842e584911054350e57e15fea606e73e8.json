@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B005ZBNUUG",
+      "B000R0SR9E",
+      "B001EYUTFM",
+      "B001FLGEEE",
+      "B17N3ASPNV",
+      "B00005OLWW",
+      "B000035Y78",
+      "B000W9DHUBS",
+      "B0031SWWPO",
+      "B072JYVYCX",
+      "B00K0NV5J2",
+      "B00N3NSUIK",
+      "B074JZPS39",
+      "B00IEZ6H4G",
+      "B00BAWXD7E",
+      "B001ELJFHI",
+      "B077GG9D5D",
+      "B01L1L3F26",
+      "B00W9DHUBS",
+      "B00N3NSUIK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B005ZBNUUG",
+        "reason": "Popular sports game on Xbox 360"
+      },
+      {
+        "item_id": "B000R0SR9E",
+        "reason": "Action-packed horror FPS"
+      },
+      {
+        "item_id": "B001EYUTFM",
+        "reason": "NASCAR racing experience"
+      },
+      {
+        "item_id": "B001FLGEEE",
+        "reason": "Classic strategy game experience"
+      },
+      {
+        "item_id": "B17N3ASPNV",
+        "reason": "Highly rated Xbox 360 title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3799,
+    "completion_tokens": 323
+  }
+}

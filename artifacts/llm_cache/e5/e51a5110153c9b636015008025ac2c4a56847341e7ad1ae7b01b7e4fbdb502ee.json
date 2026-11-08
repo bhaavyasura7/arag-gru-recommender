@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming consoles",
+      "PC gaming accessories",
+      "high-performance peripherals",
+      "racing games",
+      "first-person shooters"
+    ],
+    "current_intent": "looking for high-quality gaming peripherals",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "outdated technology"
+    ],
+    "summary": "The user is a gaming enthusiast focused on high-performance gaming peripherals and enjoys both console and PC gaming."
+  },
+  "usage": {
+    "prompt_tokens": 478,
+    "completion_tokens": 92
+  }
+}

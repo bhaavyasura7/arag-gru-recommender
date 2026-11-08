@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00IAVDPSA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to gaming interests."
+      },
+      {
+        "item_id": "B0BLFYF8K2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC gaming mouse, not console related."
+      },
+      {
+        "item_id": "B00I9TNNE4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Headset aligns with gaming preferences."
+      },
+      {
+        "item_id": "B00J7N6C26",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo game, user prefers PlayStation/Xbox."
+      },
+      {
+        "item_id": "B0BX41XJDW",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Nintendo Switch accessory, not user’s focus."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1319,
+    "completion_tokens": 167
+  }
+}

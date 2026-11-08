@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07Z4YKVR8",
+      "B00H8Z3SRM",
+      "B07H4MPJ5X",
+      "B08FHZ945D",
+      "B07RP898HP",
+      "B00S6ZYRRS",
+      "B08SVZ2D2Y",
+      "B073VSRM16",
+      "B00006RZ7N",
+      "B002GDYO8I",
+      "B077RQP3Y7",
+      "B000P57T8Q",
+      "B08562JHVL",
+      "B00G637CP6",
+      "B00008G943",
+      "B11XQ2BG8K",
+      "B00006RZ7N",
+      "B00LGFD3UM",
+      "B00008G943",
+      "B07XQ2BG8K"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07Z4YKVR8",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B00H8Z3SRM",
+        "reason": "Ergonomic gaming mouse"
+      },
+      {
+        "item_id": "B07H4MPJ5X",
+        "reason": "Customizable Xbox controller mod"
+      },
+      {
+        "item_id": "B08FHZ945D",
+        "reason": "Large RGB mouse pad"
+      },
+      {
+        "item_id": "B07RP898HP",
+        "reason": "Charging dock for PS4 controllers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3342,
+    "completion_tokens": 328
+  }
+}

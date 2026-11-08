@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002MB0BUO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not simulators."
+      },
+      {
+        "item_id": "B01J4JWNG6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no Nintendo console history."
+      },
+      {
+        "item_id": "B00BPL60QQ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not directly related to interests."
+      },
+      {
+        "item_id": "B07MLHGGGL",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Accessory for Switch, not user’s focus."
+      },
+      {
+        "item_id": "B07YPCJWF2",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS4 game aligns with user’s interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 827,
+    "completion_tokens": 163
+  }
+}

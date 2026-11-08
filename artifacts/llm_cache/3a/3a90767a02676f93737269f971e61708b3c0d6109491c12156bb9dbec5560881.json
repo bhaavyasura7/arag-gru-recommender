@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B074JZPS39",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B002I0H79C",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Xbox games."
+      },
+      {
+        "item_id": "B0031SWWPO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform, not a strong interest."
+      },
+      {
+        "item_id": "B077GG9D5D",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with PS4, user likes controllers."
+      },
+      {
+        "item_id": "B00IEZ6H4G",
+        "label": "support",
+        "score": 8,
+        "rationale": "Survival horror aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1686,
+    "completion_tokens": 155
+  }
+}

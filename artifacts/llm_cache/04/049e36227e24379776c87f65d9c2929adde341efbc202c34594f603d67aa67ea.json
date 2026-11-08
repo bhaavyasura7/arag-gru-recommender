@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0BKQ3MC5Y",
+      "B079X463L3",
+      "B17W2X52PK",
+      "B004YHKUXM",
+      "B17MNK2X4D",
+      "B01NAGTKX3",
+      "B00007KE6D",
+      "B0091F8H64",
+      "B000A11EOK",
+      "B0047Y06MW",
+      "B004YHKUXM",
+      "B08D3WYRMJ",
+      "B0767JXPY6",
+      "B000R2YWEQ",
+      "B00007KE6D",
+      "B08GYJ5LQS",
+      "B00CBYN8H0",
+      "B009CCQ7GS",
+      "B00JYE8L9K",
+      "B0047Y06MW",
+      "B000A11EOK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BKQ3MC5Y",
+        "reason": "Essential power supply for Xbox One"
+      },
+      {
+        "item_id": "B079X463L3",
+        "reason": "Custom skin for Xbox controller"
+      },
+      {
+        "item_id": "B17W2X52PK",
+        "reason": "Charging port for PS4 controller"
+      },
+      {
+        "item_id": "B004YHKUXM",
+        "reason": "Power cord for Xbox One"
+      },
+      {
+        "item_id": "B17MNK2X4D",
+        "reason": "General gaming accessory for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3241,
+    "completion_tokens": 342
+  }
+}

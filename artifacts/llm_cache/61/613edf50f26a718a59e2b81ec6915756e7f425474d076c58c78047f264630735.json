@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01B1H2TYA",
+      "B07HQJ5Z9B",
+      "B12B1H2TYA",
+      "B006JKARN0",
+      "B12B1H2TYA",
+      "B0050SZ7IC",
+      "B000X2DP8O",
+      "B00BGA9WK2",
+      "B003BLUA64",
+      "B0032C9V7G",
+      "B000F6W8AE",
+      "B00000JRSB",
+      "B008TOZXJM",
+      "B000BCDELO",
+      "B005OGL766",
+      "B000C1TTF86",
+      "B0BRSZ7VL8",
+      "B0BNKQ861F",
+      "B01CJJHAMU",
+      "B002ACOJTY",
+      "B15B1H2TYA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01B1H2TYA",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B07HQJ5Z9B",
+        "reason": "Programmable RGB gaming mouse"
+      },
+      {
+        "item_id": "B006JKARN0",
+        "reason": "Reliable wired connection"
+      },
+      {
+        "item_id": "B0050SZ7IC",
+        "reason": "Popular gaming title"
+      },
+      {
+        "item_id": "B000X2DP8O",
+        "reason": "Enhances gaming experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3791,
+    "completion_tokens": 332
+  }
+}

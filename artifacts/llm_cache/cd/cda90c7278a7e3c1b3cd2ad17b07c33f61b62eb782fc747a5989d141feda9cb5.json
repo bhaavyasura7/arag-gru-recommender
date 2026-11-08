@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B002IGTPK0",
+      "B07WNV98X5",
+      "B001PO2BJI",
+      "B001ET07O0",
+      "B002I0GKA4",
+      "B002QXSF9M",
+      "B0721GGGS9",
+      "B00F6YD26Y",
+      "B001EYUPBU",
+      "B00BN5T30E",
+      "B00MAPYKPO",
+      "B00KQXKUFQ",
+      "B001EYUNOO",
+      "B00Z9TL6KA",
+      "B001QCWSHO",
+      "B00J8Z8Z8A",
+      "B00D8Z8Z8A",
+      "B00D8Z8Z8B",
+      "B00D8Z8Z8C",
+      "B00D8Z8Z8D",
+      "B00D8Z8Z8E"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002IGTPK0",
+        "reason": "Nintendo DSi bundle is appealing"
+      },
+      {
+        "item_id": "B07WNV98X5",
+        "reason": "Compatible case for Nintendo Switch"
+      },
+      {
+        "item_id": "B001PO2BJI",
+        "reason": "Mario Kart racing wheel enhances gameplay"
+      },
+      {
+        "item_id": "B001ET07O0",
+        "reason": "Popular zombie shooter on Wii"
+      },
+      {
+        "item_id": "B002I0GKA4",
+        "reason": "Resident Evil game for Nintendo systems"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3887,
+    "completion_tokens": 348
+  }
+}

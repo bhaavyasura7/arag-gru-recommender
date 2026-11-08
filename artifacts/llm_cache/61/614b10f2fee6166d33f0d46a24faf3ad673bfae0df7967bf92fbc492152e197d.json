@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07WCV1J99",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different console type"
+      },
+      {
+        "item_id": "B0056JGBVC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences"
+      },
+      {
+        "item_id": "B000NDFFFE",
+        "label": "support",
+        "score": 8,
+        "rationale": "Fighting game aligns with user interests"
+      },
+      {
+        "item_id": "B001QCWSB0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Puzzle game, not a strong match"
+      },
+      {
+        "item_id": "B07Q2TP1X1",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Controller for a different console type"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1129,
+    "completion_tokens": 153
+  }
+}

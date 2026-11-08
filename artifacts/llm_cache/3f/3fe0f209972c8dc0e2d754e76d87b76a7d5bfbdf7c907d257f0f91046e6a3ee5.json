@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B06ZXY893M",
+        "label": "support",
+        "score": 8,
+        "rationale": "User prefers RGB gaming peripherals."
+      },
+      {
+        "item_id": "B07TM4DWXJ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compact RGB keyboard aligns with interests."
+      },
+      {
+        "item_id": "B07NNT23Q3",
+        "label": "support",
+        "score": 6,
+        "rationale": "Combo includes RGB mouse, matches preferences."
+      },
+      {
+        "item_id": "B00N4OBCRY",
+        "label": "support",
+        "score": 9,
+        "rationale": "High-end RGB keyboard fits user profile."
+      },
+      {
+        "item_id": "B085VN6HGW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Standard RGB keyboard, less specific appeal."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1546,
+    "completion_tokens": 155
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "PlayStation gaming",
+      "first-person shooters",
+      "multiplayer games",
+      "gaming accessories",
+      "collector's editions"
+    ],
+    "current_intent": "Looking for new gaming accessories or titles.",
+    "avoid": [
+      "low-rated games",
+      "non-gaming products",
+      "outdated consoles"
+    ],
+    "summary": "The user is a dedicated gamer focused on PlayStation and first-person shooters, seeking new accessories or games to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 352,
+    "completion_tokens": 99
+  }
+}

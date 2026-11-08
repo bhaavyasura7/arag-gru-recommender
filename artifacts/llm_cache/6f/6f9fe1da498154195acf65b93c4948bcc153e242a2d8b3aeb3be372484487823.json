@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001P5HPNY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not aligned with user preferences."
+      },
+      {
+        "item_id": "B00000I1BY",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys horror and survival themes."
+      },
+      {
+        "item_id": "B007PIR5WQ",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likes survival horror gameplay."
+      },
+      {
+        "item_id": "B007VX0AW2",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Unfamiliar genre for the user."
+      },
+      {
+        "item_id": "B074T7MTFS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre than user typically enjoys."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1991,
+    "completion_tokens": 150
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00U1WN17G",
+      "B06DWTIE3A",
+      "B08YL1MFXK",
+      "B14SWT2FV4",
+      "B076CPCLZV",
+      "B09NLPKB9J",
+      "B07WNPCPCH",
+      "B00W1E4PHC",
+      "B00KNBR59U",
+      "B07QFR15LL",
+      "B010EHA760",
+      "B014GEF2JE",
+      "B08B8DH74Q",
+      "B07SWT2FV4",
+      "B07MFQFGC4",
+      "B0071NK9SC",
+      "B004GWZJKE",
+      "B12TD1WPQ",
+      "B00U1WN17G",
+      "B07WNPCPCH",
+      "B01DWTIE3A"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00U1WN17G",
+        "reason": "Renewed Xbox One console available"
+      },
+      {
+        "item_id": "B06DWTIE3A",
+        "reason": "Custom Xbox controller for gaming"
+      },
+      {
+        "item_id": "B08YL1MFXK",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B14SWT2FV4",
+        "reason": "Popular Xbox game available"
+      },
+      {
+        "item_id": "B076CPCLZV",
+        "reason": "Comfortable gaming controller option"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3137,
+    "completion_tokens": 335
+  }
+}

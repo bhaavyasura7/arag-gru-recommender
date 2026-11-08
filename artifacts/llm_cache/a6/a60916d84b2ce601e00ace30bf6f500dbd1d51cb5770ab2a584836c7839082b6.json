@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01GOK1HB0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS4 accessory, user prefers Xbox products."
+      },
+      {
+        "item_id": "B08NYQYMS5",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox controllers, needs charging dock."
+      },
+      {
+        "item_id": "B00DDLJI9W",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Keyboard not directly related to user's interests."
+      },
+      {
+        "item_id": "B083PTPWDR",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Portable SNES player, user prefers modern consoles."
+      },
+      {
+        "item_id": "B00KZLHTAI",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Wii U accessory, user prefers Nintendo Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1906,
+    "completion_tokens": 163
+  }
+}

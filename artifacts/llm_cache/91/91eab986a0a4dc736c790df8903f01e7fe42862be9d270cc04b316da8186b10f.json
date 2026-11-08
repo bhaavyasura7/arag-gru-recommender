@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09QKTJM5X",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PC gaming accessories."
+      },
+      {
+        "item_id": "B00793RTHI",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not relevant to user's gaming platform."
+      },
+      {
+        "item_id": "B00376AVEE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy system, not PC gaming."
+      },
+      {
+        "item_id": "B08MMSW147",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with PC, aligns with headset interest."
+      },
+      {
+        "item_id": "B09BZZZVPV",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Designed for PlayStation, not PC."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1391,
+    "completion_tokens": 161
+  }
+}

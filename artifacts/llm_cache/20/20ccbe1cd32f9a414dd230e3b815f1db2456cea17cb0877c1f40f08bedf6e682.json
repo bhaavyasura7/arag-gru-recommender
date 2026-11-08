@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00KUZ1K8Q",
+      "B09SH69BQX",
+      "B07NRH6Q2L",
+      "B09SH69BQX",
+      "B001NJ293I",
+      "B002GCJOC0",
+      "B077GTT8VH",
+      "B00005NZ1Q",
+      "B001EYUNO4",
+      "B00005QIR5",
+      "B000PE17ZI",
+      "B007UNC2GA",
+      "B009AYQRJA",
+      "B00005NZ1Q",
+      "B0C1BNQ92Z",
+      "B0C9JDF5J6",
+      "B08NJTHY3G",
+      "B01GW3H7DQ",
+      "B00005NZ1Q",
+      "B00005NZ1Q",
+      "B00005NZ1Q"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KUZ1K8Q",
+        "reason": "Creative multiplayer platformer"
+      },
+      {
+        "item_id": "B09SH69BQX",
+        "reason": "Family-friendly crafting game"
+      },
+      {
+        "item_id": "B07NRH6Q2L",
+        "reason": "Engaging LEGO-like gameplay"
+      },
+      {
+        "item_id": "B001NJ293I",
+        "reason": "Multiplayer battles available"
+      },
+      {
+        "item_id": "B002GCJOC0",
+        "reason": "Accessory for family gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3896,
+    "completion_tokens": 326
+  }
+}

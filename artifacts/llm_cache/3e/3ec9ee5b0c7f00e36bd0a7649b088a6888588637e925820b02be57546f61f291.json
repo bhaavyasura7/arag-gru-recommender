@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004QIY0Y4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games only."
+      },
+      {
+        "item_id": "B00BHRD4BM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not play PS4 games."
+      },
+      {
+        "item_id": "B0009E3U4K",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games over PC."
+      },
+      {
+        "item_id": "B0013E9HP6",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys Nintendo games like Switch."
+      },
+      {
+        "item_id": "B00TCKNYNE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not play PlayStation Vita."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1123,
+    "completion_tokens": 164
+  }
+}

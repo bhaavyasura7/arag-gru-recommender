@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002JTX87C",
+      "B00ZMBLKPG",
+      "B00GR5B5X8",
+      "B000AYFPKQ",
+      "B000GA6YFO",
+      "B00FKLMWXW",
+      "B00TXOD7ZY",
+      "B00WNO48EA",
+      "B00BLS4EPC",
+      "B00FC4DPBD",
+      "B0BCKN6Y4X",
+      "B07D5JKKQB",
+      "B01MTR9LON",
+      "B0B1VCPZ7D",
+      "B07YXL4ZKS",
+      "B000HJOTT2",
+      "B000AYFPKQ",
+      "B0BG5CGFN8",
+      "B00GR5B5X8",
+      "B00TXOD7ZY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002JTX87C",
+        "reason": "Scooby-Doo game aligns with interests"
+      },
+      {
+        "item_id": "B00ZMBLKPG",
+        "reason": "Classic game from a popular franchise"
+      },
+      {
+        "item_id": "B00GR5B5X8",
+        "reason": "PC game with nostalgic appeal"
+      },
+      {
+        "item_id": "B000AYFPKQ",
+        "reason": "Classic collection of adventure games"
+      },
+      {
+        "item_id": "B000GA6YFO",
+        "reason": "Legacy game from a popular show"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3636,
+    "completion_tokens": 333
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00644IK30",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Includes mixed games, some interest."
+      },
+      {
+        "item_id": "B00KOOUVN8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Fighting game, less aligned with RPGs."
+      },
+      {
+        "item_id": "B002LVU0WY",
+        "label": "support",
+        "score": 6,
+        "rationale": "User liked Far Cry 2 previously."
+      },
+      {
+        "item_id": "B005FPD0O8",
+        "label": "support",
+        "score": 7,
+        "rationale": "Includes popular titles like Skyrim."
+      },
+      {
+        "item_id": "B000OM8W86",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Action game, less relevant to RPGs."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2094,
+    "completion_tokens": 155
+  }
+}

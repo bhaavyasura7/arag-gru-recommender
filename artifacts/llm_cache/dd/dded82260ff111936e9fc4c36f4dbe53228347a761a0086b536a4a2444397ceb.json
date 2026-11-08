@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09Y21MG98",
+      "B01MTST9VG",
+      "B09RNK4H6Z",
+      "B01DVF2TI6",
+      "B00GXHJ14A",
+      "B09QVJDVHN",
+      "B07P5LZZNN",
+      "B08HJKYBG9",
+      "B003TL4T9U",
+      "B00005B8G8",
+      "B00SLBGQX0",
+      "B00005V95P",
+      "B00134YRQU",
+      "B08D9J9G1D",
+      "B00161IYDC",
+      "B00B3YNOSW",
+      "B007OWQCE0",
+      "B00G4PEN4Y",
+      "B000BPEL40",
+      "B08D9J9G1D"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09Y21MG98",
+        "reason": "Essential VR charging dock"
+      },
+      {
+        "item_id": "B01MTST9VG",
+        "reason": "Cool Superman controller skin"
+      },
+      {
+        "item_id": "B09RNK4H6Z",
+        "reason": "Improves Xbox One grip"
+      },
+      {
+        "item_id": "B01DVF2TI6",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B00GXHJ14A",
+        "reason": "Classic PC game nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3642,
+    "completion_tokens": 326
+  }
+}

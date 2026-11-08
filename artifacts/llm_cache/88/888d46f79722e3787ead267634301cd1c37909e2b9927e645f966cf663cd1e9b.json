@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07KLZK9BR",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes gaming keyboards."
+      },
+      {
+        "item_id": "B000WHCFT0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B07BHW5PX3",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys Pokémon games."
+      },
+      {
+        "item_id": "B07N73MQZ1",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User focuses on Nintendo Switch."
+      },
+      {
+        "item_id": "B0007SKSF2",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User prefers console over PC games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1565,
+    "completion_tokens": 146
+  }
+}

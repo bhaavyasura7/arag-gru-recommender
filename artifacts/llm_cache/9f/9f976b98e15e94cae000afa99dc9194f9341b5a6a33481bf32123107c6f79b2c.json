@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00BQVXSSS",
+      "B20H0TJM70",
+      "B078WKY7F6",
+      "B07C9W9FK4",
+      "B000Q0ASEW",
+      "B005669IE2",
+      "B000GA8U9W",
+      "B00004S9AC",
+      "B005QP3MGI",
+      "B000MI0W3U",
+      "B004GEBB2W",
+      "B06Y626MDF",
+      "B00HX1UXD8",
+      "B0C5K4M7WJ",
+      "B0012RCNTG",
+      "B008B6OC5O",
+      "B00DOD52QW",
+      "B005QP3MGI",
+      "B000GA8U9W",
+      "B00004S9AC",
+      "B002KJ02ZC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00BQVXSSS",
+        "reason": "Popular wrestling game series"
+      },
+      {
+        "item_id": "B01H0TJM70",
+        "reason": "Highly rated Spider-Man game"
+      },
+      {
+        "item_id": "B078WKY7F6",
+        "reason": "Essential charger for Switch"
+      },
+      {
+        "item_id": "B07C9W9FK4",
+        "reason": "Useful Xbox One accessory"
+      },
+      {
+        "item_id": "B000Q0ASEW",
+        "reason": "Strategic card game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3762,
+    "completion_tokens": 339
+  }
+}

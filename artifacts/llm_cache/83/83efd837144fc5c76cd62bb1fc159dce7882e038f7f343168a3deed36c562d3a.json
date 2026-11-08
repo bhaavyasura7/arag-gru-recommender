@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action-adventure games",
+      "multiplayer gaming",
+      "Sony PlayStation titles",
+      "Xbox accessories",
+      "digital game subscriptions"
+    ],
+    "current_intent": "looking for new video games or gaming accessories",
+    "avoid": [
+      "puzzle games",
+      "mobile games",
+      "non-gaming products"
+    ],
+    "summary": "User enjoys action-adventure video games and gaming accessories, particularly for Xbox and PlayStation, and is currently seeking new gaming experiences."
+  },
+  "usage": {
+    "prompt_tokens": 300,
+    "completion_tokens": 85
+  }
+}

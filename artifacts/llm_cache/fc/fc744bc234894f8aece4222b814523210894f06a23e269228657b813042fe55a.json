@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "classic video games",
+      "retro gaming",
+      "PSP titles",
+      "pinball games",
+      "humorous gameplay"
+    ],
+    "current_intent": "looking for more classic video games to enjoy",
+    "avoid": [
+      "modern AAA titles",
+      "sports games",
+      "realistic simulations"
+    ],
+    "summary": "User enjoys classic and retro video games, particularly humorous and unique titles, and is currently seeking similar gaming experiences."
+  },
+  "usage": {
+    "prompt_tokens": 280,
+    "completion_tokens": 78
+  }
+}

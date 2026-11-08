@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00004Z319",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a legacy system, not a game."
+      },
+      {
+        "item_id": "B000UF6YKK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Puzzle game, not aligned with user interests."
+      },
+      {
+        "item_id": "B00CEX1CBM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Legacy system game, not highly relevant."
+      },
+      {
+        "item_id": "B01DAY7L54",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Controller for Xbox, not a game."
+      },
+      {
+        "item_id": "B00KAIYRE2",
+        "label": "support",
+        "score": 8,
+        "rationale": "PS3 console with game, aligns well."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 828,
+    "completion_tokens": 162
+  }
+}

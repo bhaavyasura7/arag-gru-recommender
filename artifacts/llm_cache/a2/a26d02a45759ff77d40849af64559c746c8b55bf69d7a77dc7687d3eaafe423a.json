@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00EP17RGK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to Nintendo but not a game."
+      },
+      {
+        "item_id": "B002TJZUAU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Nintendo DS, not a game."
+      },
+      {
+        "item_id": "B000HX1P5E",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, not aligned with console interests."
+      },
+      {
+        "item_id": "B0006RH9XI",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Children's book, not a video game."
+      },
+      {
+        "item_id": "B000E7623I",
+        "label": "support",
+        "score": 7,
+        "rationale": "Game for Nintendo, aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1052,
+    "completion_tokens": 163
+  }
+}

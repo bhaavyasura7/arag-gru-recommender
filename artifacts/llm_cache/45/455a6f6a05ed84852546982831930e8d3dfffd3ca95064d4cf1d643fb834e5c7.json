@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00B1NDDHM",
+        "label": "support",
+        "score": 10,
+        "rationale": "Same game, different platform."
+      },
+      {
+        "item_id": "B07XB8R5LK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different game, different platform."
+      },
+      {
+        "item_id": "B00EZI9DYW",
+        "label": "support",
+        "score": 9,
+        "rationale": "Same game series, different platform."
+      },
+      {
+        "item_id": "B00BF154CC",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related game in the same series."
+      },
+      {
+        "item_id": "B018O5F7A0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different game, same franchise."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 687,
+    "completion_tokens": 153
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00HNFMEC2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not directly related."
+      },
+      {
+        "item_id": "B00004SVW2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, user prefers modern games."
+      },
+      {
+        "item_id": "B00GTASGW4",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PS4 accessory, user prefers Xbox and PC."
+      },
+      {
+        "item_id": "B08GZY2XBD",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Wii controller, user prefers Xbox and PC."
+      },
+      {
+        "item_id": "B004NBZBM4",
+        "label": "support",
+        "score": 8,
+        "rationale": "PC game, aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1007,
+    "completion_tokens": 165
+  }
+}

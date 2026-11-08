@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0714FFZD8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Party game, not aligned with history."
+      },
+      {
+        "item_id": "B004FEJ8ZA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Casual pet game, not action-oriented."
+      },
+      {
+        "item_id": "B004LLHFAW",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar action genre, strong multiplayer focus."
+      },
+      {
+        "item_id": "B007VYW5K6",
+        "label": "support",
+        "score": 7,
+        "rationale": "First-person shooter, aligns with interests."
+      },
+      {
+        "item_id": "B00HS7L4XU",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Controller accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1160,
+    "completion_tokens": 158
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01HCD4G2U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers PlayStation games."
+      },
+      {
+        "item_id": "B00KVP76G0",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has PlayStation 4 accessories."
+      },
+      {
+        "item_id": "B009VUHVPM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Skylanders not in user history."
+      },
+      {
+        "item_id": "B007X5103Q",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers console over PC games."
+      },
+      {
+        "item_id": "B0050SVOXE",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User focuses on PlayStation and Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1441,
+    "completion_tokens": 155
+  }
+}

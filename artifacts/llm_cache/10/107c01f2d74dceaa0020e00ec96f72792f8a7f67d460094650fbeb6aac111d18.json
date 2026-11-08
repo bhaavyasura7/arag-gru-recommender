@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0B59QM13V",
+      "B10L7WGCFM",
+      "B001DI6O6C",
+      "B001HUHB54",
+      "B07F8RHBQX",
+      "B004L9BR8K",
+      "B09L7WGCFM",
+      "B00NQ4N19Y",
+      "B001CLG6T0",
+      "B07CJLG89B",
+      "B002GDFCKW",
+      "B00XEG51EW",
+      "B00699GHN0",
+      "B08R74DHMT",
+      "B001CLG6T0",
+      "B01B0SOG8M",
+      "B00Q3XLL2E",
+      "B07GZ8PH9Y",
+      "B001DI6O6C",
+      "B00NQ4N19Y",
+      "B001CLG6T0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0B59QM13V",
+        "reason": "Cute carrying case for Switch"
+      },
+      {
+        "item_id": "B10L7WGCFM",
+        "reason": "Fun Toy Story activities"
+      },
+      {
+        "item_id": "B001DI6O6C",
+        "reason": "Engaging customizable gameplay"
+      },
+      {
+        "item_id": "B001HUHB54",
+        "reason": "Magical adventures for kids"
+      },
+      {
+        "item_id": "B07F8RHBQX",
+        "reason": "Compact gaming keyboard for PC"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3748,
+    "completion_tokens": 343
+  }
+}

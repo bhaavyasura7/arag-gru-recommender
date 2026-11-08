@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003IMAML4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre, not strategy-based."
+      },
+      {
+        "item_id": "B06XS35SSM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Tactical RPG, different from strategy games."
+      },
+      {
+        "item_id": "B00MCLFZ1Y",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Sports game, not strategy-focused."
+      },
+      {
+        "item_id": "B07YQNCM8K",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B004G5YI3U",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar genre, strong narrative focus."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1250,
+    "completion_tokens": 159
+  }
+}

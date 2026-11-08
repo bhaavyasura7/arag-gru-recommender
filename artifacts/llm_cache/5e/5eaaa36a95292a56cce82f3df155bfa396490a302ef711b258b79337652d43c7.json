@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002GJMGNM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B07YN82X3B",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse not directly related to interests."
+      },
+      {
+        "item_id": "B000AXRIU2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games over adventure."
+      },
+      {
+        "item_id": "B01HNXGKT6",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Nintendo Switch, user interests."
+      },
+      {
+        "item_id": "B00C1TTF86",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PlayStation games, similar genre."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1751,
+    "completion_tokens": 162
+  }
+}

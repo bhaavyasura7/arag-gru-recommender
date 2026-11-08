@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00002ST5J",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation and Xbox games."
+      },
+      {
+        "item_id": "B0BC7HHK71",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in Nintendo."
+      },
+      {
+        "item_id": "B08H1ZNKW9",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation and Xbox consoles."
+      },
+      {
+        "item_id": "B00006B0NR",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation and Xbox games."
+      },
+      {
+        "item_id": "B0BW99BHSX",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no interest in Xbox accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1169,
+    "completion_tokens": 168
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B013HSWF40",
+      "B00Z8EBXSQ",
+      "B003O3EFY2",
+      "B01MT1NE7T",
+      "B01MQ0BGOL",
+      "B07DL79BR6",
+      "B00HRH79H6",
+      "B000067FDY",
+      "B001QCWSGU",
+      "B002BSA388",
+      "B09KBYSSGM",
+      "B0009YDS0Q",
+      "B00ZS1S4XG",
+      "B000ZK7ZOE",
+      "B08V1QTP6X",
+      "B00TPM6JNG",
+      "B001E91OLK",
+      "B00FA1CLEW",
+      "B00HRH79H6",
+      "B0009YDS0Q"
+    ],
+    "reasons": [
+      {
+        "item_id": "B013HSWF40",
+        "reason": "High DPI gaming mouse"
+      },
+      {
+        "item_id": "B00Z8EBXSQ",
+        "reason": "Popular gaming controller"
+      },
+      {
+        "item_id": "B003O3EFY2",
+        "reason": "Retro gaming system"
+      },
+      {
+        "item_id": "B01MT1NE7T",
+        "reason": "Cooling stand for PS4"
+      },
+      {
+        "item_id": "B01MQ0BGOL",
+        "reason": "Phone clip for PS4 controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3678,
+    "completion_tokens": 319
+  }
+}

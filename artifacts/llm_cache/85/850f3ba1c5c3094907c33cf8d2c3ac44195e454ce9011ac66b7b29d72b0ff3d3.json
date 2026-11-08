@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001DNGCN2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B00ANHBJBY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Wii U controller, not Xbox."
+      },
+      {
+        "item_id": "B005GISPMQ",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PlayStation 2 game, not Xbox."
+      },
+      {
+        "item_id": "B07X5X5KF9",
+        "label": "support",
+        "score": 7,
+        "rationale": "PlayStation 4 game, action RPG."
+      },
+      {
+        "item_id": "B019EWMXWC",
+        "label": "support",
+        "score": 6,
+        "rationale": "PlayStation 4 game, action-adventure."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 162
+  }
+}

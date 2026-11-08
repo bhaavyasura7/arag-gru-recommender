@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00ICQ8FNS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Useful accessory for PlayStation 4 users."
+      },
+      {
+        "item_id": "B07CRPJSBJ",
+        "label": "support",
+        "score": 9,
+        "rationale": "High-quality headset for PlayStation gaming."
+      },
+      {
+        "item_id": "B09TYWJCQN",
+        "label": "support",
+        "score": 7,
+        "rationale": "Popular game for Nintendo Switch users."
+      },
+      {
+        "item_id": "B000AQ6918",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not a game, but related to PlayStation."
+      },
+      {
+        "item_id": "B0002ANSZC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, not aligned with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1052,
+    "completion_tokens": 160
+  }
+}

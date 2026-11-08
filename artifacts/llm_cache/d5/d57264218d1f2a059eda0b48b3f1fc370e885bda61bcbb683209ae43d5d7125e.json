@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00004UFM2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B07X56VM5R",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar RPG elements to Okami."
+      },
+      {
+        "item_id": "B000CIUAH8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not aligned with interests."
+      },
+      {
+        "item_id": "B0006HB6H8",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Classic arcade games, not user preference."
+      },
+      {
+        "item_id": "B008BLF5ZU",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Casual game, unlike user's preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 986,
+    "completion_tokens": 156
+  }
+}

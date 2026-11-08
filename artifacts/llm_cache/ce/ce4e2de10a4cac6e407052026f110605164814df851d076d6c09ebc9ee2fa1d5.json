@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000ZK695U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS3 game, user has mixed interest."
+      },
+      {
+        "item_id": "B002I0HCNI",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox game, user prefers PlayStation."
+      },
+      {
+        "item_id": "B00KG3W8X8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PC game, not aligned with user history."
+      },
+      {
+        "item_id": "B004DI5H26",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS3 game, user enjoys sports games."
+      },
+      {
+        "item_id": "B07R4TZBFF",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox accessory, user prefers PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2203,
+    "completion_tokens": 167
+  }
+}

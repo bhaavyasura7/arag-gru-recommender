@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B079RZ8VCL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, user prefers Xbox."
+      },
+      {
+        "item_id": "B0037HPS6Y",
+        "label": "support",
+        "score": 8,
+        "rationale": "Same platform, user enjoys Xbox games."
+      },
+      {
+        "item_id": "B00L002JZ8",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00005AQRE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different platform, user prefers Xbox."
+      },
+      {
+        "item_id": "B07W17QSK8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1023,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00E4KN6P8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for gaming, not a game."
+      },
+      {
+        "item_id": "B086ZGXL7J",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Keyboard for gaming, not a game."
+      },
+      {
+        "item_id": "B00006CRUN",
+        "label": "support",
+        "score": 10,
+        "rationale": "Directly related to The Sims series."
+      },
+      {
+        "item_id": "B000035Y10",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but still a video game."
+      },
+      {
+        "item_id": "B081J6RMT9",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different game, not related to user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1005,
+    "completion_tokens": 158
+  }
+}

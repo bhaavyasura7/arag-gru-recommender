@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08F5GG58Q",
+      "B000035XCC",
+      "B0BLKG8YZQ",
+      "B001LRQ9GA",
+      "B000NXMIYK",
+      "B0012EYSW4",
+      "B0002W30DK",
+      "B00009QI4O",
+      "B07J6PVSRG",
+      "B07YQQL7G5",
+      "B0050SWNZW",
+      "B09ZQ3M3BS",
+      "B0B6CWTL8P",
+      "B00ID0VZ4E",
+      "B07THJZG59",
+      "B095XCYD2M",
+      "B0BLZD87H5",
+      "B001EYUPY2",
+      "B0002W30DK",
+      "B07KN1Z5GT",
+      "B07THJZG59"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08F5GG58Q",
+        "reason": "Includes many classic games"
+      },
+      {
+        "item_id": "B000035XCC",
+        "reason": "Nostalgic classic title"
+      },
+      {
+        "item_id": "B0BLKG8YZQ",
+        "reason": "Enhances Mario Kart experience"
+      },
+      {
+        "item_id": "B001LRQ9GA",
+        "reason": "Classic fighting game nostalgia"
+      },
+      {
+        "item_id": "B000NXMIYK",
+        "reason": "Includes classic Postal games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3707,
+    "completion_tokens": 333
+  }
+}

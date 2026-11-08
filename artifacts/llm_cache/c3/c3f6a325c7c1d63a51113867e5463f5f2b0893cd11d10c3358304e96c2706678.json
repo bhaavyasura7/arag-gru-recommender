@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07TDW7ZBG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's console preferences."
+      },
+      {
+        "item_id": "B0199OXR0W",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox products, not Nintendo."
+      },
+      {
+        "item_id": "B07QDZWXXR",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy system not aligned with user's interests."
+      },
+      {
+        "item_id": "B094HXNG6K",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly enhances user's Xbox One controller."
+      },
+      {
+        "item_id": "B0089VLF2O",
+        "label": "support",
+        "score": 7,
+        "rationale": "Useful accessory for Xbox 360 controller."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1044,
+    "completion_tokens": 161
+  }
+}

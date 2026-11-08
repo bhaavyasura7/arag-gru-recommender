@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07P2J6HSR",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys action RPGs and platformers."
+      },
+      {
+        "item_id": "B008DBO4UK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not directly related to gameplay."
+      },
+      {
+        "item_id": "B071NFKBP7",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not directly related to gameplay."
+      },
+      {
+        "item_id": "B000E7ORP8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for legacy system, less relevant."
+      },
+      {
+        "item_id": "B006HZA8EA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User dislikes fighting games, low interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1376,
+    "completion_tokens": 161
+  }
+}

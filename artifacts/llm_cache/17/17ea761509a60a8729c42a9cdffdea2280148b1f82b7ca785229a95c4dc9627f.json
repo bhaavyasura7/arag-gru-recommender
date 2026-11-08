@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00OBZNI0O",
+      "B009NPA81O",
+      "B07P6MD9B7",
+      "B00DUARDFC",
+      "B00U33Q940",
+      "B16MG6DORB",
+      "B00503E8S2",
+      "B00K0NV5J2",
+      "B00MF9NR3Y",
+      "B001T0HVGQ",
+      "B0054U4A4I",
+      "B00U33Q940",
+      "B087SHFL9B",
+      "B006JKASAC",
+      "B00000DMAT",
+      "B0087ACBAW",
+      "B017C6OK7S",
+      "B073ZF737B",
+      "B0054U4A4I",
+      "B0BZHKCD7D"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00OBZNI0O",
+        "reason": "Highly rated PS4 exclusive"
+      },
+      {
+        "item_id": "B009NPA81O",
+        "reason": "Popular Marvel franchise"
+      },
+      {
+        "item_id": "B07P6MD9B7",
+        "reason": "Engaging LEGO gameplay"
+      },
+      {
+        "item_id": "B00DUARDFC",
+        "reason": "Star Wars action-adventure"
+      },
+      {
+        "item_id": "B00U33Q940",
+        "reason": "Great for gaming and streaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3503,
+    "completion_tokens": 321
+  }
+}

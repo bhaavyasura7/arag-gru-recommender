@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo 3DS games",
+      "Mario franchise",
+      "game accessories",
+      "strategy RPGs",
+      "platformers"
+    ],
+    "current_intent": "Looking for new Nintendo 3DS games to play.",
+    "avoid": [
+      "low-quality games",
+      "non-Nintendo products",
+      "games with poor reviews"
+    ],
+    "summary": "User enjoys Nintendo 3DS games, particularly Mario titles, and seeks quality gaming experiences while avoiding poorly rated products."
+  },
+  "usage": {
+    "prompt_tokens": 319,
+    "completion_tokens": 84
+  }
+}

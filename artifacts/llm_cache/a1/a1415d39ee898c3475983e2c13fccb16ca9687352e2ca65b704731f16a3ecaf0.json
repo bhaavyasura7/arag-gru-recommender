@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01FN45IXQ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's preferred consoles."
+      },
+      {
+        "item_id": "B0090QQL2Q",
+        "label": "support",
+        "score": 7,
+        "rationale": "Xbox 360 skin matches user's console."
+      },
+      {
+        "item_id": "B08NH9JLYX",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming accessories align with user's interests."
+      },
+      {
+        "item_id": "B07X2LNHGB",
+        "label": "support",
+        "score": 6,
+        "rationale": "PS4 game fits user's gaming preference."
+      },
+      {
+        "item_id": "B0836BR7MP",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Switch accessories not in user's history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1212,
+    "completion_tokens": 155
+  }
+}

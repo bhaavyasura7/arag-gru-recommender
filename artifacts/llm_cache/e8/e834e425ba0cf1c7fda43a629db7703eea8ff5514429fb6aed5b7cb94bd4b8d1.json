@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000063TQU",
+      "B00BWFLSO4",
+      "B07C9BL3KM",
+      "B0791JHH78",
+      "B08GPDDZX1",
+      "B081D2VMF8",
+      "B06ZZLNC88",
+      "B085C6QF3G",
+      "B08K3NMS19",
+      "B08CDQJQLD",
+      "B001CZH71M",
+      "B0017XBO8G",
+      "B09MP7ZZZP",
+      "B07WWSVDQZ",
+      "B0CDGT413D",
+      "B00005NN7H",
+      "B009AWC30Y",
+      "B12WWSVDQZ",
+      "B088WY3J3V",
+      "B000063TQU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000063TQU",
+        "reason": "Engaging zombie-themed game"
+      },
+      {
+        "item_id": "B00BWFLSO4",
+        "reason": "Narrative-driven gameplay"
+      },
+      {
+        "item_id": "B07C9BL3KM",
+        "reason": "Action-adventure elements"
+      },
+      {
+        "item_id": "B0791JHH78",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B08GPDDZX1",
+        "reason": "Useful for streaming gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3285,
+    "completion_tokens": 319
+  }
+}

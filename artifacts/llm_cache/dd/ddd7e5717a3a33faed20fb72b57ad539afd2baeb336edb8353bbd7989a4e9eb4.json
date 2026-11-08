@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01FCLK7CC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Action RPG, not a strong preference"
+      },
+      {
+        "item_id": "B00TV0XUUC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar to previous, not highly rated"
+      },
+      {
+        "item_id": "B00NU9TQLM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, mixed reviews in history"
+      },
+      {
+        "item_id": "B000OM8W86",
+        "label": "support",
+        "score": 6,
+        "rationale": "Action game, aligns with user interests"
+      },
+      {
+        "item_id": "B000OL6S9C",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, user prefers RPGs"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1788,
+    "completion_tokens": 153
+  }
+}

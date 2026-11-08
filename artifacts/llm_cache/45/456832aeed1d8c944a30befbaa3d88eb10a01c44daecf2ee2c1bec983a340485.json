@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B087SN6TC5",
+      "B071XXRQ7L",
+      "B01EFVAOF0",
+      "B06XR5TW2B",
+      "B17D3NIVRS",
+      "B0038JVJ9G",
+      "B002C741S6",
+      "B003C1PVCQ",
+      "B0026ZQBGO",
+      "B0035FYXSC",
+      "B008B9IJF0",
+      "B12D3NIVRS",
+      "B08DDLL1NB",
+      "B08GPGL3ZP",
+      "B01N6SW518",
+      "B0725W7Q58",
+      "B0035FYXSC",
+      "B0038JVJ9G",
+      "B0009OO6XO",
+      "B12D3NIVRS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087SN6TC5",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B071XXRQ7L",
+        "reason": "Essential Switch accessory"
+      },
+      {
+        "item_id": "B01EFVAOF0",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B06XR5TW2B",
+        "reason": "LED buttons for gaming"
+      },
+      {
+        "item_id": "B17D3NIVRS",
+        "reason": "Engaging PS4 survival game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3704,
+    "completion_tokens": 319
+  }
+}

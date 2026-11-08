@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01N5CUJ4P",
+      "B01LY6330J",
+      "B01N6EAVMA",
+      "B00B1NDDHM",
+      "B00EZI9DYW",
+      "B00BF154CC",
+      "B018O5F7A0",
+      "B07P6DDN8F",
+      "B00DTT4M76",
+      "B00YQDHTF6",
+      "B00HEQXYSI",
+      "B00HLJHL82",
+      "B00YQDHAMS",
+      "B00DQWIFNS",
+      "B002XCBTP8",
+      "B00BF154CC",
+      "B078HXR3Z9",
+      "B072ZPTQYB",
+      "B00EZI9DYW",
+      "B013D0H7KE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01N5CUJ4P",
+        "reason": "Complete Ezio story collection"
+      },
+      {
+        "item_id": "B01LY6330J",
+        "reason": "Enhanced graphics and content"
+      },
+      {
+        "item_id": "B01N6EAVMA",
+        "reason": "Includes all single-player campaigns"
+      },
+      {
+        "item_id": "B00B1NDDHM",
+        "reason": "Classic Ezio trilogy on PS3"
+      },
+      {
+        "item_id": "B00EZI9DYW",
+        "reason": "Full trilogy for Xbox 360"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2066,
+    "completion_tokens": 333
+  }
+}

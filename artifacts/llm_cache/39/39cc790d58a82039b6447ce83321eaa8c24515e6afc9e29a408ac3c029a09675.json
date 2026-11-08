@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002I0J51U",
+      "B001EYUQTQ",
+      "B00ZQB28XK",
+      "B07P26L5GD",
+      "B06WRRWHDJ",
+      "B004G5YI3U",
+      "B003INEQ0G",
+      "B00MAM0ALA",
+      "B001EYUR54",
+      "B07VQ9Q7X3",
+      "B09C4DLF4P",
+      "B087NNPYP3",
+      "B06ZZCCDP7",
+      "B0053BCO00",
+      "B07624RBWB",
+      "B00DTY9B0O",
+      "B09P9SNP51",
+      "B08FJ3FQ3D",
+      "B00004SVSZ",
+      "B004G5YI3U"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002I0J51U",
+        "reason": "Top choice for motion gaming"
+      },
+      {
+        "item_id": "B001EYUQTQ",
+        "reason": "Popular PS3 game for action"
+      },
+      {
+        "item_id": "B00ZQB28XK",
+        "reason": "Classic PS3 game experience"
+      },
+      {
+        "item_id": "B07P26L5GD",
+        "reason": "Latest fighting game for PS4"
+      },
+      {
+        "item_id": "B06WRRWHDJ",
+        "reason": "Highly rated Zelda game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 331
+  }
+}

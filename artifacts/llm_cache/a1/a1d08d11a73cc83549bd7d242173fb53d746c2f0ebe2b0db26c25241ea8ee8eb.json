@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09H3CXTVQ",
+      "B0143JBNVG",
+      "B005UUO9CK",
+      "B01EZAA2ZI",
+      "B086M4DQ7R",
+      "B0000ZUA8W",
+      "B005EOP1XI",
+      "B00BY92RC0",
+      "B00F3DGF76",
+      "B07G22JS2N",
+      "B003O6E6SO",
+      "B00BSOW69K",
+      "B07Q1GSWB3",
+      "B0B7SDKV8G",
+      "B016K0KS3M",
+      "B08DJ9L8FZ",
+      "B01B7KCVRQ",
+      "B005EOP1XI",
+      "B00B0SWB9Y",
+      "B07QNGN95V"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09H3CXTVQ",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B0143JBNVG",
+        "reason": "Carrying case for Nintendo Switch Lite"
+      },
+      {
+        "item_id": "B005UUO9CK",
+        "reason": "Fun multiplayer game experience"
+      },
+      {
+        "item_id": "B01EZAA2ZI",
+        "reason": "Family-friendly game content"
+      },
+      {
+        "item_id": "B086M4DQ7R",
+        "reason": "Compatible headset for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3180,
+    "completion_tokens": 331
+  }
+}

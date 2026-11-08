@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B009SSJATW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Adventure game, not user preferred genre."
+      },
+      {
+        "item_id": "B000BY5XAW",
+        "label": "support",
+        "score": 7,
+        "rationale": "PC game aligns with user's interests."
+      },
+      {
+        "item_id": "B005C9V7YW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, but not user favorites."
+      },
+      {
+        "item_id": "B000AQADLU",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PC game, less relevant to user."
+      },
+      {
+        "item_id": "B01M0J6X90",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular franchise, aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1570,
+    "completion_tokens": 155
+  }
+}

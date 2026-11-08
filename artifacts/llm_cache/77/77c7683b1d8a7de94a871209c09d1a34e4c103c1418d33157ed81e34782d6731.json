@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00KVQYJR8",
+      "B13JDJYPD8",
+      "B00ZKZYKMO",
+      "B0759BV9DJ",
+      "B006JKARN0",
+      "B01BEELH1G",
+      "B07C3PV1PX",
+      "B07FZSTLBQ",
+      "B12MXX3J8",
+      "B003O6G114",
+      "B01CVOMWXU",
+      "B07NDNLSYH",
+      "B000MHRESW",
+      "B07DPK5NPD",
+      "B004G5YI3U",
+      "B0009P75HM",
+      "B07HYY6HNW",
+      "B19JDJYPD8",
+      "B000MHRESW",
+      "B07DPK5NPD"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KVQYJR8",
+        "reason": "Popular platformer game"
+      },
+      {
+        "item_id": "B13JDJYPD8",
+        "reason": "Action-adventure with exploration"
+      },
+      {
+        "item_id": "B00ZKZYKMO",
+        "reason": "Engaging multiplayer battles"
+      },
+      {
+        "item_id": "B0759BV9DJ",
+        "reason": "Fishing game with customization"
+      },
+      {
+        "item_id": "B006JKARN0",
+        "reason": "Classic racing game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3530,
+    "completion_tokens": 321
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008L3UUPS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "N64 controller not directly related."
+      },
+      {
+        "item_id": "B07MSWGSJY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Sega accessory, not Nintendo."
+      },
+      {
+        "item_id": "B001CZG42U",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PSP battery, unrelated to user's interests."
+      },
+      {
+        "item_id": "B01C48EA1A",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, but narrative interest."
+      },
+      {
+        "item_id": "B004K6LQAS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports Nintendo 3DS games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1287,
+    "completion_tokens": 157
+  }
+}

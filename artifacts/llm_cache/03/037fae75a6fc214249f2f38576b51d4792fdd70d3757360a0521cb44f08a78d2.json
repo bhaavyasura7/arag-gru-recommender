@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01ARAGJJS",
+      "B16KXXJQJS",
+      "B09NDJXKQ8",
+      "B08TQQ6Y1R",
+      "B00005NODC",
+      "B000FIS7ZC",
+      "B000035XIH",
+      "B00005BYKH",
+      "B01N0T0NM7",
+      "B007736908",
+      "B08CZHH6RJ",
+      "B001G56I86",
+      "B002U0KBT8",
+      "B00A8OGS04",
+      "B001VMQD8O",
+      "B08JLHDXWY",
+      "B001EYUVEQ",
+      "B0B927VQFK",
+      "B0002VKR78",
+      "B001G56I86",
+      "B001VMQD8O"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01ARAGJJS",
+        "reason": "Enhances music game experience"
+      },
+      {
+        "item_id": "B16KXXJQJS",
+        "reason": "Improves racing simulation setup"
+      },
+      {
+        "item_id": "B09NDJXKQ8",
+        "reason": "High precision gaming mouse"
+      },
+      {
+        "item_id": "B08TQQ6Y1R",
+        "reason": "Compatible Wii controllers"
+      },
+      {
+        "item_id": "B00005NODC",
+        "reason": "Organizes gaming accessories"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3340,
+    "completion_tokens": 329
+  }
+}

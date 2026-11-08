@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08RD53FSV",
+      "B06WP2PNJT",
+      "B16JP2FT27",
+      "B001ELJFM8",
+      "B001EYUX3K",
+      "B075R4TBR2",
+      "B0009LSNE0",
+      "B00004U5R7",
+      "B000HLJFOE",
+      "B000A0I9S0",
+      "B06XPBGRC1",
+      "B084BKJF4C",
+      "B001EYUNK8",
+      "B0127IZ8XG",
+      "B0C5X42S6H",
+      "B07DKS65GY",
+      "B0009LSNE0",
+      "B001EYUX3K",
+      "B00004U5R7",
+      "B000HLJFOE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08RD53FSV",
+        "reason": "Versatile controller for multiple systems"
+      },
+      {
+        "item_id": "B06WP2PNJT",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B16JP2FT27",
+        "reason": "Popular game for Nintendo Switch"
+      },
+      {
+        "item_id": "B001ELJFM8",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B001EYUX3K",
+        "reason": "Engaging flight simulation game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3614,
+    "completion_tokens": 321
+  }
+}

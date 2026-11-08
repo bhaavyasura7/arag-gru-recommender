@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B06ZZLNC88",
+      "B0791JHH78",
+      "B081D2VMF8",
+      "B00K0NV5J2",
+      "B085C6QF3G",
+      "B08GPDDZX1",
+      "B07WWSVDQZ",
+      "B09MP7ZZZP",
+      "B000063TQU",
+      "B08K3NMS19",
+      "B07C9BL3KM",
+      "B08CDQJQLD",
+      "B001CZH71M",
+      "B00B5JIHKU",
+      "B088WY3J3V",
+      "B0017XBO8G",
+      "B00005NN7H",
+      "B009AWC30Y",
+      "B0CDGT413D",
+      "B08GPDDZX1"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00K0NV5J2",
+        "reason": "Narrative-driven zombie expansion"
+      },
+      {
+        "item_id": "B081D2VMF8",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B085C6QF3G",
+        "reason": "Classic controller for nostalgia"
+      },
+      {
+        "item_id": "B088WY3J3V",
+        "reason": "Wireless controller for Switch"
+      },
+      {
+        "item_id": "B06ZZLNC88",
+        "reason": "Improves gameplay with steering wheel"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3287,
+    "completion_tokens": 328
+  }
+}

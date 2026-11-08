@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B096MMH5KG",
+      "B09BVQ8TND",
+      "B091CH1R3W",
+      "B09PHKJCF3",
+      "B09GYDWLCM",
+      "B16PHKJCF3",
+      "B07KLZK9BR",
+      "B16PHKJCF3",
+      "B0002TY096",
+      "B0007SKSF2",
+      "B003RWSIIY",
+      "B08GQNLK7F",
+      "B07HYBZ427",
+      "B0040EJLSY",
+      "B001EHD9CO",
+      "B08CLP4DWM",
+      "B19KI2I100",
+      "B006T9Y9NK",
+      "B07BHW5PX3",
+      "B12EHD9CO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B096MMH5KG",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B09BVQ8TND",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B091CH1R3W",
+        "reason": "RGB backlit mechanical keyboard"
+      },
+      {
+        "item_id": "B09PHKJCF3",
+        "reason": "Gaming mouse with great features"
+      },
+      {
+        "item_id": "B09GYDWLCM",
+        "reason": "Large RGB gaming mouse pad"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3939,
+    "completion_tokens": 323
+  }
+}

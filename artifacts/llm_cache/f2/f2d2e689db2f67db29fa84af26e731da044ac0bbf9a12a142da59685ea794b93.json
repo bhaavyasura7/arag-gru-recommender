@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00009ZVI2",
+      "B0088TN73M",
+      "B001G7PTAC",
+      "B08D67XHWH",
+      "B00HKPSVIG",
+      "B001G7PSFS",
+      "B00ZJRHSRW",
+      "B00DTY9B0O",
+      "B000G6SPHI",
+      "B0795GHTBC",
+      "B01N3ASPNV",
+      "B00VUCGB7I",
+      "B016P6KIFY",
+      "B00KVOVBGM",
+      "B06XSMSL45",
+      "B00KXAI6MQ",
+      "B00DTY9B0O",
+      "B00HKPSVIG",
+      "B00VUCGB7I",
+      "B00ZJRHSRW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00009ZVI2",
+        "reason": "Classic Nintendo game experience"
+      },
+      {
+        "item_id": "B0088TN73M",
+        "reason": "Nostalgic action-adventure title"
+      },
+      {
+        "item_id": "B001G7PTAC",
+        "reason": "Compatible with classic Nintendo"
+      },
+      {
+        "item_id": "B08D67XHWH",
+        "reason": "Accessory for nostalgic gaming"
+      },
+      {
+        "item_id": "B00HKPSVIG",
+        "reason": "Classic Nintendo handheld console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3716,
+    "completion_tokens": 321
+  }
+}

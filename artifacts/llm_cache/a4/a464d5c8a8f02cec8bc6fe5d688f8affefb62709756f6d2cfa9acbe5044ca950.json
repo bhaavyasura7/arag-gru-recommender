@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00D424FSE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user history."
+      },
+      {
+        "item_id": "B094VSX6LJ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for different Nintendo system."
+      },
+      {
+        "item_id": "B00JC5Y9LK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PlayStation accessory, user prefers PC."
+      },
+      {
+        "item_id": "B08TBXXCZW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PlayStation 5 accessory, user prefers PC."
+      },
+      {
+        "item_id": "B08T9KZQZ6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PlayStation 5 accessory, user prefers PC."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1163,
+    "completion_tokens": 161
+  }
+}

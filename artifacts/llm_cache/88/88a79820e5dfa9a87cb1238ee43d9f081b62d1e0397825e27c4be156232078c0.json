@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "LEGO video games",
+      "family-friendly games",
+      "creative gameplay",
+      "multiplayer experiences",
+      "platformers"
+    ],
+    "current_intent": "Looking for more engaging LEGO or family-friendly video games.",
+    "avoid": [
+      "violent games",
+      "complex strategy games",
+      "single-player only games"
+    ],
+    "summary": "User enjoys LEGO and family-oriented video games, seeking similar titles for fun and creativity."
+  },
+  "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 76
+  }
+}

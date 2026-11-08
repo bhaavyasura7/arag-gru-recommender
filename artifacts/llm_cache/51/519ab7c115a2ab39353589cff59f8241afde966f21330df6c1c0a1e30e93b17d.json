@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08MBKGJVY",
+      "B19F89RP86",
+      "B00005T7ZM",
+      "B000CR27OS",
+      "B01CBQI3M2",
+      "B0009IO662",
+      "B001EYUXC6",
+      "B00HY37AS6",
+      "B08TSTKGQT",
+      "B0130DF8PA",
+      "B09PD9N1DT",
+      "B082MR4YSF",
+      "B00LXYHARI",
+      "B09F89RP86",
+      "B00005T7ZM",
+      "B000CR27OS",
+      "B08YYM331M",
+      "B0132MIUB8",
+      "B0975J9QQW",
+      "B08TSTKGQT",
+      "B01FSGFB68"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08MBKGJVY",
+        "reason": "Directly related to Kingdom Hearts"
+      },
+      {
+        "item_id": "B19F89RP86",
+        "reason": "Accessory for PlayStation controllers"
+      },
+      {
+        "item_id": "B00005T7ZM",
+        "reason": "Retro PlayStation game"
+      },
+      {
+        "item_id": "B000CR27OS",
+        "reason": "Expansion pack for The Sims 2"
+      },
+      {
+        "item_id": "B01CBQI3M2",
+        "reason": "Controller skin for Xbox One"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2878,
+    "completion_tokens": 323
+  }
+}

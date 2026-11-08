@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07Z4D3W81",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Remote for Xbox, not a game."
+      },
+      {
+        "item_id": "B08N1C8SD8",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming keyboard and mouse for PC."
+      },
+      {
+        "item_id": "B07ZHW123N",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Keycap set, not a gaming device."
+      },
+      {
+        "item_id": "B07Q3DHPC2",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Wii adapter, unrelated to user history."
+      },
+      {
+        "item_id": "B08BY7Z916",
+        "label": "support",
+        "score": 6,
+        "rationale": "Xbox controller accessory, relevant to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1289,
+    "completion_tokens": 161
+  }
+}

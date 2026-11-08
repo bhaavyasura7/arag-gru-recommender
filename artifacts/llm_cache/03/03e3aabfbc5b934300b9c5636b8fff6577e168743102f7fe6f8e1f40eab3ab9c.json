@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00Z9TKRH8",
+      "B00P1OYN0S",
+      "B073ZC8RNW",
+      "B10E8CF268",
+      "B002CZ918S",
+      "B00RU5M6FK",
+      "B00242KDGS",
+      "B01GW8VG7O",
+      "B01L91OUHM",
+      "B00A6IPHXQ",
+      "B01MSWGT4C",
+      "B004HD55VK",
+      "B00VRSTQ72",
+      "B00E8CF268",
+      "B00CJ9OTNE",
+      "B01HV9WE0Q",
+      "B000N5Z2L4",
+      "B00ZS1SRO2",
+      "B01L91OUHM",
+      "B00E8CF268",
+      "B00Z9TKRH8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00Z9TKRH8",
+        "reason": "Popular Nintendo game for Wii U"
+      },
+      {
+        "item_id": "B00P1OYN0S",
+        "reason": "Essential accessory for N64 games"
+      },
+      {
+        "item_id": "B073ZC8RNW",
+        "reason": "High-quality N64 controller extension"
+      },
+      {
+        "item_id": "B10E8CF268",
+        "reason": "Useful gaming mouse for PC"
+      },
+      {
+        "item_id": "B002CZ918S",
+        "reason": "Classic game for nostalgic players"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3643,
+    "completion_tokens": 337
+  }
+}

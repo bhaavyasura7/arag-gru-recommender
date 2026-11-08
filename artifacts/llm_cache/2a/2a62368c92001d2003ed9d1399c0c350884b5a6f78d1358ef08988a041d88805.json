@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08XQM1QHW",
+      "B002I08CJG",
+      "B07NY3JTXK",
+      "B00XY2UYUW",
+      "B07213YKCX",
+      "B00RZ7TC6Y",
+      "B00004SVSS",
+      "B06X9898LZ",
+      "B0BMWQLF3V",
+      "B08N6NT1BW",
+      "B0BWD2QV4N",
+      "B00WUZUP3U",
+      "B072FRJWQH",
+      "B001H4NMNA",
+      "B00DC7G0GG",
+      "B00XY2UYUW",
+      "B013QFQR9S",
+      "B09VZMN1DL",
+      "B00005LOW9",
+      "B06X9898LZ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08XQM1QHW",
+        "reason": "Classic action-adventure game"
+      },
+      {
+        "item_id": "B002I08CJG",
+        "reason": "Co-op gameplay available"
+      },
+      {
+        "item_id": "B07NY3JTXK",
+        "reason": "Animal Crossing collectible cards"
+      },
+      {
+        "item_id": "B00XY2UYUW",
+        "reason": "Engaging multiplayer racing game"
+      },
+      {
+        "item_id": "B07213YKCX",
+        "reason": "Popular Pokémon games included"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3669,
+    "completion_tokens": 323
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000021Y30",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo games."
+      },
+      {
+        "item_id": "B071YVC3NJ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B001EYUU2O",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes Xbox games."
+      },
+      {
+        "item_id": "B00BGA9X9W",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Controller, not a game."
+      },
+      {
+        "item_id": "B01LXBBP9S",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys Xbox RPGs."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1247,
+    "completion_tokens": 145
+  }
+}

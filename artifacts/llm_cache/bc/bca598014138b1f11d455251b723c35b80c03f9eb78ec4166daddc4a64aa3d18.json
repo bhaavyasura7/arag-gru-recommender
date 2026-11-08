@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00MXRHZ5Q",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers family-friendly games."
+      },
+      {
+        "item_id": "B001EHD9GA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers non-horror games."
+      },
+      {
+        "item_id": "B0BDWVBWC9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B005FYJA52",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Mario games."
+      },
+      {
+        "item_id": "B00PY6MSTQ",
+        "label": "support",
+        "score": 9,
+        "rationale": "User likes Nintendo handhelds."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1256,
+    "completion_tokens": 151
+  }
+}

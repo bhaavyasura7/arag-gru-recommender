@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000FQ9QVI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers narrative-driven games."
+      },
+      {
+        "item_id": "B000VJRU44",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Focus on fitness, not gaming."
+      },
+      {
+        "item_id": "B006MQH644",
+        "label": "support",
+        "score": 7,
+        "rationale": "Includes titles similar to user interests."
+      },
+      {
+        "item_id": "B00KIWEMIG",
+        "label": "support",
+        "score": 6,
+        "rationale": "Open-world gameplay aligns with preferences."
+      },
+      {
+        "item_id": "B0001AO01Y",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but familiar gameplay style."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 154
+  }
+}

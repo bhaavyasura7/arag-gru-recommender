@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0011E4J2Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Wii accessory, not directly related."
+      },
+      {
+        "item_id": "B07BW77M9V",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo Switch game aligns with interests."
+      },
+      {
+        "item_id": "B0018BEGBE",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo DS game fits user preferences."
+      },
+      {
+        "item_id": "B06XP1WRGC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Toy figure, not a video game."
+      },
+      {
+        "item_id": "B06ZXXHMS7",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game differs from user's console focus."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1260,
+    "completion_tokens": 159
+  }
+}

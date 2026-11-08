@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0000A0O28",
+      "B013K8N1TCR",
+      "B07DNMPB2Q",
+      "B0001NYK1G",
+      "B07D53QSMK",
+      "B003O680ZY",
+      "B002JTX7SM",
+      "B072V478NR",
+      "B01N6QKT7H",
+      "B00WW0D54E",
+      "B01GW3GSVS",
+      "B00006LELH",
+      "B018N1K1G",
+      "B0001NYK1G",
+      "B00K5I323O",
+      "B003VUO6H4",
+      "B07YBXFF5C",
+      "B00CPBZCIM",
+      "B0001NYK1G",
+      "B0001NYK1G",
+      "B0001NYK1G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0000A0O28",
+        "reason": "Nostalgic multiplayer fun"
+      },
+      {
+        "item_id": "B013K8N1TCR",
+        "reason": "Engaging cartoon-themed gameplay"
+      },
+      {
+        "item_id": "B07DNMPB2Q",
+        "reason": "Co-op play with friends"
+      },
+      {
+        "item_id": "B0001NYK1G",
+        "reason": "Comfortable for long sessions"
+      },
+      {
+        "item_id": "B07D53QSMK",
+        "reason": "Enhances Joy-Con grip"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3543,
+    "completion_tokens": 343
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0053B5RGI",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo games."
+      },
+      {
+        "item_id": "B003V1WHOM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console over PC games."
+      },
+      {
+        "item_id": "B00YXO5V3U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not directly related to games."
+      },
+      {
+        "item_id": "B002JTX72S",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has PS3 games, needs controller."
+      },
+      {
+        "item_id": "B00E1L2Z52",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers console games over PC."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1314,
+    "completion_tokens": 160
+  }
+}

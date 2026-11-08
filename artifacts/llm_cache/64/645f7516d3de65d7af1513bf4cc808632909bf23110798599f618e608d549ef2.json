@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0782336XD",
+      "B08B3DS362",
+      "B0058TGQKG",
+      "B001IK9AZM",
+      "B18D3D2D2",
+      "B006ZNGOJC",
+      "B005GAV9HC",
+      "B003G2Z4VY",
+      "B076M9SMZ8",
+      "B085QFH3HW",
+      "B008RYSO8G",
+      "B096MR6JYY",
+      "B074V1PGGB",
+      "B088DGJ765",
+      "B07GD2997C",
+      "B00E9CU7E4",
+      "B0BFWQ2HC6",
+      "B10E9CU7E4",
+      "B12E9CU7E4",
+      "B13E9CU7E4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0782336XD",
+        "reason": "Fits user’s collectible accessory interest"
+      },
+      {
+        "item_id": "B08B3DS362",
+        "reason": "Compatible with retro gaming systems"
+      },
+      {
+        "item_id": "B0058TGQKG",
+        "reason": "Useful for legacy gaming devices"
+      },
+      {
+        "item_id": "B001IK9AZM",
+        "reason": "Accessory for Xbox 360 console"
+      },
+      {
+        "item_id": "B006ZNGOJC",
+        "reason": "Retro-themed gaming experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4018,
+    "completion_tokens": 326
+  }
+}

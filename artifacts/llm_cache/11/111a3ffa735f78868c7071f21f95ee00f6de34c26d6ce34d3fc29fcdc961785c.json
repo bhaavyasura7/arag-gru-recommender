@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUQMI",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo DS games."
+      },
+      {
+        "item_id": "B0BDWVBWC9",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo, not PlayStation."
+      },
+      {
+        "item_id": "B000BHEQ1G",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in PC games."
+      },
+      {
+        "item_id": "B00E4MQODC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse not directly related."
+      },
+      {
+        "item_id": "B000A7I71C",
+        "label": "support",
+        "score": 7,
+        "rationale": "Supports legacy Nintendo systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1098,
+    "completion_tokens": 156
+  }
+}

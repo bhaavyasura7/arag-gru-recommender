@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B085BTBQ9W",
+      "B17MGT3FYX",
+      "B17VF4TK4",
+      "B09T3CW2XZ",
+      "B17KDFB86",
+      "B12PBBFVMK",
+      "B0002VKQGK",
+      "B000AYTQ7O",
+      "B00000JRSB",
+      "B07VWTPPW7",
+      "B07RCVHCHW",
+      "B09GFL9F5J",
+      "B0719MBBBH",
+      "B002CMOMBC",
+      "B07MGT3FYX",
+      "B07T7RYQ3P",
+      "B086VF4TK4",
+      "B000AYTQ7O",
+      "B09MHHKXKL",
+      "B07VWTPPW7"
+    ],
+    "reasons": [
+      {
+        "item_id": "B085BTBQ9W",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B17MGT3FYX",
+        "reason": "PS4 carrying case"
+      },
+      {
+        "item_id": "B17VF4TK4",
+        "reason": "RGB gaming headset"
+      },
+      {
+        "item_id": "B09T3CW2XZ",
+        "reason": "Compact RGB keyboard"
+      },
+      {
+        "item_id": "B17KDFB86",
+        "reason": "Versatile arcade joystick"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3742,
+    "completion_tokens": 317
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B079MRDY5V",
+      "B08WZKMTF9",
+      "B00VILBF0Y",
+      "B075S7L98K",
+      "B08TWFYSR2",
+      "B07FY95X44",
+      "B09WV9MQCK",
+      "B07GJX6DYQ",
+      "B004CVQ0JI",
+      "B09BF2JGZK",
+      "B09QPGNV4Q",
+      "B08XTDB7W4",
+      "B002RL8K3E",
+      "B073QN2M8S",
+      "B06XDJCGNG",
+      "B004E0G7ZY",
+      "B19SS7MO2",
+      "B08TWFYSR2",
+      "B087C4QLPV",
+      "B09WV9MQCK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B079MRDY5V",
+        "reason": "Popular fighting game title"
+      },
+      {
+        "item_id": "B08WZKMTF9",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B00VILBF0Y",
+        "reason": "Premium wireless headset"
+      },
+      {
+        "item_id": "B075S7L98K",
+        "reason": "Useful Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B08TWFYSR2",
+        "reason": "Cooling stand for Xbox Series X"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3699,
+    "completion_tokens": 327
+  }
+}

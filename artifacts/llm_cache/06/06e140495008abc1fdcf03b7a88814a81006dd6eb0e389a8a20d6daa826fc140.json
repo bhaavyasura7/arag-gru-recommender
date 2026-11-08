@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B071XXXK2X",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances Joy-Con battery life for gaming."
+      },
+      {
+        "item_id": "B002JTX8AO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation game, user prefers Nintendo."
+      },
+      {
+        "item_id": "B087NNPYP3",
+        "label": "support",
+        "score": 9,
+        "rationale": "Highly rated Nintendo Switch game."
+      },
+      {
+        "item_id": "B00000K1VA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy PlayStation game, not Nintendo."
+      },
+      {
+        "item_id": "B09LTXBY4M",
+        "label": "support",
+        "score": 7,
+        "rationale": "Adapter for Nintendo Switch controllers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 157
+  }
+}

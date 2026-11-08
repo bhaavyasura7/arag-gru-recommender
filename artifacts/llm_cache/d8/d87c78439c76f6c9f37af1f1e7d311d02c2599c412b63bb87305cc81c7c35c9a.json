@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07CRPJSBJ",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN",
+      "B12TYWJCQN"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07CRPJSBJ",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B12TYWJCQN",
+        "reason": "Popular Nintendo game"
+      },
+      {
+        "item_id": "B12TYWJCQN",
+        "reason": "Popular Nintendo game"
+      },
+      {
+        "item_id": "B12TYWJCQN",
+        "reason": "Popular Nintendo game"
+      },
+      {
+        "item_id": "B12TYWJCQN",
+        "reason": "Popular Nintendo game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3702,
+    "completion_tokens": 303
+  }
+}

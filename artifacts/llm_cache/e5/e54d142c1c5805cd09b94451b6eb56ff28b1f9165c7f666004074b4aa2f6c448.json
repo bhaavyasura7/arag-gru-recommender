@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09MKF6N7V",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "not related to user's interests"
+      },
+      {
+        "item_id": "B0026ZQBGO",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "not a Nintendo Switch game"
+      },
+      {
+        "item_id": "B087SN6TC5",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo Switch game, aligns with interests"
+      },
+      {
+        "item_id": "B008B9IJF0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "accessory, not directly related to games"
+      },
+      {
+        "item_id": "B071XXRQ7L",
+        "label": "support",
+        "score": 7,
+        "rationale": "protective accessory for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1124,
+    "completion_tokens": 149
+  }
+}

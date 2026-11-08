@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B14D93X3QW",
+      "B0055ES7OW",
+      "B00005LLSS",
+      "B0BNKXX9SP",
+      "B005R40DTM",
+      "B008MXPKP2",
+      "B005UFVLJ4",
+      "B016A9B5HG",
+      "B0876KN5WH",
+      "B0BBLB1DJN",
+      "B001D93X3QW",
+      "B007EJYOMU",
+      "B000ZEV3U2",
+      "B012I0JZTW",
+      "B01GU9NV0A",
+      "B08ZC8669L",
+      "B004BDJZCG",
+      "B09CDKVCR7",
+      "B01D93X3QW",
+      "B000VL2VQO",
+      "B0BBLB1DJN"
+    ],
+    "reasons": [
+      {
+        "item_id": "B14D93X3QW",
+        "reason": "Popular Xbox controller accessory"
+      },
+      {
+        "item_id": "B0055ES7OW",
+        "reason": "Essential Kinect sensor mount"
+      },
+      {
+        "item_id": "B00005LLSS",
+        "reason": "Game enhancement tool for PS2"
+      },
+      {
+        "item_id": "B0BNKXX9SP",
+        "reason": "New Amiibo cards for Zelda"
+      },
+      {
+        "item_id": "B005R40DTM",
+        "reason": "Engaging detective story game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3508,
+    "completion_tokens": 338
+  }
+}

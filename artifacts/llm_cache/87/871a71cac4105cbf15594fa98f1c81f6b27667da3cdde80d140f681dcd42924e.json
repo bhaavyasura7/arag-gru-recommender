@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00DOD51UY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B003INEQ2O",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers Nintendo."
+      },
+      {
+        "item_id": "B07FB23CTG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox game, user prefers Nintendo."
+      },
+      {
+        "item_id": "B00BN5T30E",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers Nintendo."
+      },
+      {
+        "item_id": "B00JS9XVNM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1247,
+    "completion_tokens": 158
+  }
+}

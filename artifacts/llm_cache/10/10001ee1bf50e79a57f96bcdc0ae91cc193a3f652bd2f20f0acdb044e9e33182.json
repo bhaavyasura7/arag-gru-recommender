@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action RPGs",
+      "immersive VR experiences",
+      "high-quality gaming headsets",
+      "PlayStation exclusives",
+      "subscription gaming services"
+    ],
+    "current_intent": "looking for new immersive games or accessories for PlayStation.",
+    "avoid": [
+      "low-quality games",
+      "non-gaming accessories",
+      "mobile games"
+    ],
+    "summary": "The user enjoys high-quality action RPGs and immersive gaming experiences, particularly on PlayStation, and is currently seeking new games or accessories to enhance their gaming setup."
+  },
+  "usage": {
+    "prompt_tokens": 332,
+    "completion_tokens": 112
+  }
+}

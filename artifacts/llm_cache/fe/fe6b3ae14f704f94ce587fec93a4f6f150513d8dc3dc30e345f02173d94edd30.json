@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUWN6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers RPGs, not action games."
+      },
+      {
+        "item_id": "B0BW3SYR17",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, mixed relevance."
+      },
+      {
+        "item_id": "B001EYUO5M",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Bowling game, not aligned with interests."
+      },
+      {
+        "item_id": "B000A6K6D0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Fighting game, diverges from RPG preference."
+      },
+      {
+        "item_id": "B0CDPNFHPK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR accessory, not directly related to games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1291,
+    "completion_tokens": 172
+  }
+}

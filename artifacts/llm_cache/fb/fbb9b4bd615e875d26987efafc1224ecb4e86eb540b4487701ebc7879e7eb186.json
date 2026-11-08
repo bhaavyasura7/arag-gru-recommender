@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0838VV8LP",
+      "B08L95SSL9",
+      "B07XNYGW3N",
+      "B08BCHJNWL",
+      "B14M01F3DV",
+      "B14M01F3DV",
+      "B14M01F3DV",
+      "B14M01F3DV",
+      "B14M01F3DV",
+      "B14M01F3DV",
+      "B14M01F3DV",
+      "B14M01F3DV",
+      "B14M01F3DV",
+      "B14M01F3DV",
+      "B14M01F3DV",
+      "B14M01F3DV",
+      "B14M01F3DV",
+      "B14M01F3DV",
+      "B14M01F3DV",
+      "B14M01F3DV"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0838VV8LP",
+        "reason": "Joycon repair kit for Nintendo Switch"
+      },
+      {
+        "item_id": "B08L95SSL9",
+        "reason": "Charging stand for Nintendo Switch"
+      },
+      {
+        "item_id": "B07XNYGW3N",
+        "reason": "Storage case for Nintendo Switch Lite"
+      },
+      {
+        "item_id": "B08BCHJNWL",
+        "reason": "Cute game card storage case"
+      },
+      {
+        "item_id": "B14M01F3DV",
+        "reason": "Thumb grips for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3147,
+    "completion_tokens": 334
+  }
+}

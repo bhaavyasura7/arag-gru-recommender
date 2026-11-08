@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002I0J51U",
+        "label": "support",
+        "score": 9,
+        "rationale": "Matches interest in PS3 Move controllers."
+      },
+      {
+        "item_id": "B06ZZCCDP7",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox One game, user prefers PS3."
+      },
+      {
+        "item_id": "B003INEQ0G",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox 360 game, user prefers PS3."
+      },
+      {
+        "item_id": "B00MAM0ALA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox 360 game, user prefers PS3."
+      },
+      {
+        "item_id": "B09P9SNP51",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Nintendo Switch accessories, not PS3 related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1174,
+    "completion_tokens": 169
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B087NN6GRF",
+      "B14CNGFVG9",
+      "B14VB7GK9H",
+      "B07XW748TW",
+      "B000K12ZE8",
+      "B07C97R648",
+      "B00004ZBOG",
+      "B000035XO4",
+      "B000035XPD",
+      "B00C3DF930",
+      "B00ARSHY68",
+      "B005IHBR2K",
+      "B000U8DTGY",
+      "B08GC34ZB6",
+      "B07DNVF8FR",
+      "B000035XPD",
+      "B000K12ZE8",
+      "B08CNGFVG9",
+      "B07VB7GK9H",
+      "B00GLB0ZFW",
+      "B001EYUXA8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087NN6GRF",
+        "reason": "New Nintendo Switch game"
+      },
+      {
+        "item_id": "B14CNGFVG9",
+        "reason": "Protective case for Switch"
+      },
+      {
+        "item_id": "B14VB7GK9H",
+        "reason": "Switch Lite protective case"
+      },
+      {
+        "item_id": "B07XW748TW",
+        "reason": "Bluetooth adapter for Switch"
+      },
+      {
+        "item_id": "B000K12ZE8",
+        "reason": "Power solution for handhelds"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3510,
+    "completion_tokens": 323
+  }
+}

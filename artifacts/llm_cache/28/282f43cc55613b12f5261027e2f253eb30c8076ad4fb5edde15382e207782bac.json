@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0056YAGUE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B09GM4283G",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with PlayStation, user likes headsets."
+      },
+      {
+        "item_id": "B01N7WNV5M",
+        "label": "support",
+        "score": 6,
+        "rationale": "High-quality headset, aligns with gaming interests."
+      },
+      {
+        "item_id": "B003ZHXHUA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Useful accessory, but not a direct interest."
+      },
+      {
+        "item_id": "B00F27JDTU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in PlayStation Vita."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1264,
+    "completion_tokens": 164
+  }
+}

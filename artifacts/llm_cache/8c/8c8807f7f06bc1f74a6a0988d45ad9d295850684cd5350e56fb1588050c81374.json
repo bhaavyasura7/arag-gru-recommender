@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07XKZ7VKL",
+      "B0788L9WJ1",
+      "B09V25XG1G",
+      "B07WS6ZFTG",
+      "B0009Z3MQ0",
+      "B000TLU67W",
+      "B07PZ8NZSZ",
+      "B001EYUS2G",
+      "B07GRP33YM",
+      "B002L8W5V6",
+      "B00L3LQ1FI",
+      "B07SCYRBRL",
+      "B001QCWSJ2",
+      "B0061PAZUS",
+      "B07J3P1GJM",
+      "B000GG5JO0",
+      "B01CR058OS",
+      "B07NSSHPFN",
+      "B0009Z3MQ0",
+      "B07GRP33YM",
+      "B000TLU67W"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07XKZ7VKL",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B0788L9WJ1",
+        "reason": "Multi-platform compatibility"
+      },
+      {
+        "item_id": "B09V25XG1G",
+        "reason": "Retro-style controller"
+      },
+      {
+        "item_id": "B07WS6ZFTG",
+        "reason": "Powerful console for gaming"
+      },
+      {
+        "item_id": "B0009Z3MQ0",
+        "reason": "Classic gaming accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3762,
+    "completion_tokens": 337
+  }
+}

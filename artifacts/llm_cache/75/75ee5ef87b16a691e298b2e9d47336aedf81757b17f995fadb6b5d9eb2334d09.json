@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08D3WYRMJ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B07QX272PV",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC controller, not directly relevant."
+      },
+      {
+        "item_id": "B075VJ2K98",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly compatible with Xbox One."
+      },
+      {
+        "item_id": "1589942914",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Board game, not video game related."
+      },
+      {
+        "item_id": "B00CBYN8H0",
+        "label": "support",
+        "score": 7,
+        "rationale": "Power cord for Xbox One accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1304,
+    "completion_tokens": 155
+  }
+}

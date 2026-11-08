@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002YGS5IM",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar multiplayer fun as user games."
+      },
+      {
+        "item_id": "B07DTL22BC",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B0BMLPN46D",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Keyboard, not directly related to games."
+      },
+      {
+        "item_id": "B005ADFSLS",
+        "label": "support",
+        "score": 6,
+        "rationale": "Similar genre and platform as user games."
+      },
+      {
+        "item_id": "B00008DHNP",
+        "label": "support",
+        "score": 5,
+        "rationale": "Adventure game aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 150
+  }
+}

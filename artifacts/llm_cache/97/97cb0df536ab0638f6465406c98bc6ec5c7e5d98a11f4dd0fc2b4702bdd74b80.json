@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000FRV2UK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different Zelda game, not on Wii U."
+      },
+      {
+        "item_id": "B08L74DB2M",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo, not PlayStation."
+      },
+      {
+        "item_id": "B00KR2C0RC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo, not PlayStation."
+      },
+      {
+        "item_id": "B004XDCJ4A",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Wii, aligns with interests."
+      },
+      {
+        "item_id": "B019WRM1IA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo, not Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1676,
+    "completion_tokens": 164
+  }
+}

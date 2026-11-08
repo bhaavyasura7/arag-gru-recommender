@@ -1,0 +1,30 @@
+{
+  "content": {
+    "ranking": [
+      "B00ZMBLKPG",
+      "B07361T7KP",
+      "B072BX7H6Q",
+      "B0050SXQ12",
+      "B00QU506MQ",
+      "B01GY35W22",
+      "B00ECOGM52",
+      "B0CB7JB1V6",
+      "B0017KIBAI",
+      "B001G6063I",
+      "B001ELJFMS",
+      "B00X8WTL5M",
+      "B00AAS888S",
+      "B0017KIBAI",
+      "B0017KIBAI",
+      "B0017KIBAI",
+      "B0017KIBAI",
+      "B0017KIBAI",
+      "B0017KIBAI",
+      "B0017KIBAI"
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3727,
+    "completion_tokens": 147
+  }
+}

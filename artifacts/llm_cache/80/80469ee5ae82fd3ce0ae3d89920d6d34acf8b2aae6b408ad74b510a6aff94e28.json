@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00007M9SH",
+      "B004GEBB2W",
+      "B001D7T2US",
+      "B00006418I",
+      "B001ELJEGU",
+      "B002XH972U",
+      "B007W8S2MG",
+      "B0046A8IRC",
+      "B00LV8IL5Q",
+      "B017W175Y8",
+      "B00KCCNMYW",
+      "B001F8188Y",
+      "B002LH4UB0",
+      "B074MMGR8F",
+      "B004RMK5QG",
+      "B0001VNNE8",
+      "B00B1N07QM",
+      "B00LV8IL5Q",
+      "B0046A8IRC",
+      "B001EYUQT6",
+      "B07VLCRZ21"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00007M9SH",
+        "reason": "Engaging narrative and puzzles"
+      },
+      {
+        "item_id": "B004GEBB2W",
+        "reason": "Classic PC puzzle experience"
+      },
+      {
+        "item_id": "B001D7T2US",
+        "reason": "Fun single-player bowling game"
+      },
+      {
+        "item_id": "B00006418I",
+        "reason": "Classic controller for retro games"
+      },
+      {
+        "item_id": "B001ELJEGU",
+        "reason": "Tactical gameplay with strategy elements"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3671,
+    "completion_tokens": 329
+  }
+}

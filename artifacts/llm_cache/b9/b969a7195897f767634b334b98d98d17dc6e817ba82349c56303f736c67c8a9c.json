@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07X3HFSC2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers Nintendo DS games."
+      },
+      {
+        "item_id": "B08NT6NMZ3",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no VR gaming history."
+      },
+      {
+        "item_id": "B0006GSF7S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B018D6J6JI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no amiibo experience."
+      },
+      {
+        "item_id": "B09ZDGD6VS",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys gaming accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1191,
+    "completion_tokens": 152
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "racing games",
+      "gaming accessories",
+      "Playstation 3",
+      "cell phone accessories"
+    ],
+    "current_intent": "looking for new gaming experiences or accessories",
+    "avoid": [
+      "low-quality games",
+      "non-gaming electronics",
+      "overpriced items"
+    ],
+    "summary": "User enjoys video games, particularly racing titles, and seeks quality gaming accessories, while avoiding low-quality or overpriced products."
+  },
+  "usage": {
+    "prompt_tokens": 315,
+    "completion_tokens": 80
+  }
+}

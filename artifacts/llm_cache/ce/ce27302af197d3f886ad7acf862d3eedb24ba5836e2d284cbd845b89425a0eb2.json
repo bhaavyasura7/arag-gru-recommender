@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0006D3684",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user prefers Xbox titles."
+      },
+      {
+        "item_id": "B011L4D3BG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B005FPDJP8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not directly related to gaming."
+      },
+      {
+        "item_id": "B00DQAJG4C",
+        "label": "support",
+        "score": 8,
+        "rationale": "Relevant to Xbox gaming experience."
+      },
+      {
+        "item_id": "B00L2Q5KWE",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly matches user's Xbox console interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 159
+  }
+}

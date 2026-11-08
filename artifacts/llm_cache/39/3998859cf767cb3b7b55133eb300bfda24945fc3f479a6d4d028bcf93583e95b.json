@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000069AT5",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user prefers PlayStation."
+      },
+      {
+        "item_id": "B00C1TTF86",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation 3, user has PlayStation 4."
+      },
+      {
+        "item_id": "B075VJD5H5",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox accessory, user prefers PlayStation."
+      },
+      {
+        "item_id": "B00004R9IK",
+        "label": "support",
+        "score": 7,
+        "rationale": "PlayStation game, aligns with user interests."
+      },
+      {
+        "item_id": "B004SZ9NVU",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Atari game, not aligned with user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 961,
+    "completion_tokens": 167
+  }
+}

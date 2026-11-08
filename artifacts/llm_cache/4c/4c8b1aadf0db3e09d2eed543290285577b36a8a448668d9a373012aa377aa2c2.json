@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0000A1OG8",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys action-adventure games."
+      },
+      {
+        "item_id": "B0894RCSV4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller not specific to user's consoles."
+      },
+      {
+        "item_id": "B00A8306C6",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes tactical shooter games."
+      },
+      {
+        "item_id": "B0BGB7VPGK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR accessory not in user history."
+      },
+      {
+        "item_id": "B001TOQ8WU",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys RPGs and Nintendo games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1318,
+    "completion_tokens": 154
+  }
+}

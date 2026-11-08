@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002I0EMBI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, genre not preferred."
+      },
+      {
+        "item_id": "B0784BTZBR",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, multiplayer focus."
+      },
+      {
+        "item_id": "B001ELJFGE",
+        "label": "support",
+        "score": 7,
+        "rationale": "Co-op gameplay aligns with interests."
+      },
+      {
+        "item_id": "B005YR308S",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, narrative focus."
+      },
+      {
+        "item_id": "B001R2VW70",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1249,
+    "completion_tokens": 145
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09V5R5LSZ",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Halo series games."
+      },
+      {
+        "item_id": "B0883P3VSH",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not directly related to games."
+      },
+      {
+        "item_id": "B000ARPXU0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older console, less relevant to user."
+      },
+      {
+        "item_id": "B08MBKBH6G",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox, user has Xbox games."
+      },
+      {
+        "item_id": "B0BLFYF8K2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not specific to user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1450,
+    "completion_tokens": 161
+  }
+}

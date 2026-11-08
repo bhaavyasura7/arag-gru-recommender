@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0B7G4RC16",
+      "B083TB41MX",
+      "B083W4BFQ2",
+      "B083TD2H3K",
+      "B09SHF5XL1",
+      "B013GMXA2I",
+      "B08HM53C9J",
+      "B083TD2H3K",
+      "B07RCYJFHK",
+      "B07XF2G95N",
+      "B07YNHSV65",
+      "B07YNJBDK3",
+      "B07HMK2Z57",
+      "B0748MPHVX",
+      "B07F39NFG7",
+      "B07QVB415H",
+      "B07RCZY66V",
+      "B07Y2MBBT9",
+      "B07HMK2Z57",
+      "B07F39NFG7",
+      "B07YNHSV65"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0B7G4RC16",
+        "reason": "Wireless, high-quality sound"
+      },
+      {
+        "item_id": "B083TB41MX",
+        "reason": "Comfortable, durable, wireless"
+      },
+      {
+        "item_id": "B083W4BFQ2",
+        "reason": "Excellent sound, long-lasting comfort"
+      },
+      {
+        "item_id": "B083TD2H3K",
+        "reason": "High-quality audio, comfortable design"
+      },
+      {
+        "item_id": "B09SHF5XL1",
+        "reason": "Best-selling gaming headset brand"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4601,
+    "completion_tokens": 340
+  }
+}

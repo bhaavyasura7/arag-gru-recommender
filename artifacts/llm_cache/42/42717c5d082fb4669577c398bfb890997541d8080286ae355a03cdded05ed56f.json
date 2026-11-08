@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B001QCWSHO",
+      "B001ET07O0",
+      "B001EYUPBU",
+      "B002IGTPK0",
+      "B0721GGGS9",
+      "B001EYUNOO",
+      "B00F6YD26Y",
+      "B001PO2BJI",
+      "B002QXSF9M",
+      "B07R21FJD8",
+      "B00BN5T30E",
+      "B00KQXKUFQ",
+      "B00MAPYKPO",
+      "B002I0GKA4",
+      "B00Z9TL6KA",
+      "B00F6YD26Y",
+      "B01N7XUY14",
+      "B07WNV98X5",
+      "B002JTX7KA",
+      "B00BN5T30E",
+      "B00KQXKUFQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001QCWSHO",
+        "reason": "Popular Wii shooting game"
+      },
+      {
+        "item_id": "B001ET07O0",
+        "reason": "Classic Nintendo Wii title"
+      },
+      {
+        "item_id": "B001EYUPBU",
+        "reason": "Engaging horror game for PS3"
+      },
+      {
+        "item_id": "B002IGTPK0",
+        "reason": "Nintendo DSi bundle with games"
+      },
+      {
+        "item_id": "B0721GGGS9",
+        "reason": "Includes classic Nintendo games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3885,
+    "completion_tokens": 329
+  }
+}

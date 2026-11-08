@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0050SXI6K",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre and nostalgia factor."
+      },
+      {
+        "item_id": "B0028Y4PUW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but popular game series."
+      },
+      {
+        "item_id": "B08B1WJHVD",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not directly related to games."
+      },
+      {
+        "item_id": "B07NQDVZP7",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar RPG elements and strategy gameplay."
+      },
+      {
+        "item_id": "B09MGJXGBF",
+        "label": "support",
+        "score": 9,
+        "rationale": "Highly acclaimed adventure game, similar style."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1288,
+    "completion_tokens": 159
+  }
+}

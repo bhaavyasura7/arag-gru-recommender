@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming accessories",
+      "controller stands",
+      "gaming keyboards",
+      "racing wheels",
+      "video game storage"
+    ],
+    "current_intent": "looking for high-quality gaming peripherals",
+    "avoid": [
+      "cheap products",
+      "non-compatible items",
+      "low-rated accessories"
+    ],
+    "summary": "The user is a dedicated gamer focused on enhancing their gaming setup with premium accessories and storage solutions."
+  },
+  "usage": {
+    "prompt_tokens": 542,
+    "completion_tokens": 87
+  }
+}

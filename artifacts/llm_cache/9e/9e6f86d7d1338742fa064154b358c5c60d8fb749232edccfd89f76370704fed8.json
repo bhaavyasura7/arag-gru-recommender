@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming mice",
+      "programmable buttons",
+      "RGB lighting",
+      "wireless controllers",
+      "screen protectors"
+    ],
+    "current_intent": "looking for a high-performance gaming mouse",
+    "avoid": [
+      "low DPI",
+      "non-gaming peripherals",
+      "poor build quality"
+    ],
+    "summary": "User is a gamer focused on high-quality, customizable gaming mice with RGB features and is currently seeking an advanced model."
+  },
+  "usage": {
+    "prompt_tokens": 538,
+    "completion_tokens": 78
+  }
+}

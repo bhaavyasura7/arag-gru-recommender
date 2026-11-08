@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B088DCPM2P",
+      "B0BVVTQ5JP",
+      "B00KCCNMYW",
+      "B004R1QUIO",
+      "B00FEOUDUE",
+      "B0091XHZW8",
+      "B00006LELI",
+      "B00A8V4QG0",
+      "B001AI7CF2",
+      "B001EYUUHY",
+      "B00ZP9XO9U",
+      "B07M91JJCB",
+      "B000U90SGC",
+      "B013P0HW7K",
+      "B0874G43WS",
+      "B00HX1UXD8",
+      "B07982R9BZ",
+      "B009LGO88E",
+      "B00FEOUDUE",
+      "B00004XOWT"
+    ],
+    "reasons": [
+      {
+        "item_id": "B088DCPM2P",
+        "reason": "Anime-themed fighting game"
+      },
+      {
+        "item_id": "B0BVVTQ5JP",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B00KCCNMYW",
+        "reason": "Popular multiplayer RPG"
+      },
+      {
+        "item_id": "B004R1QUIO",
+        "reason": "Co-op gameplay experience"
+      },
+      {
+        "item_id": "B00FEOUDUE",
+        "reason": "Engaging tactical gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3774,
+    "completion_tokens": 318
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00JIU9D9M",
+      "B14F1T77ZA",
+      "B14F1T77ZA",
+      "B07YSNQSWF",
+      "B01MT1DCIV",
+      "B14F1T77ZA",
+      "B07JYKX62T",
+      "B01N6ZNSUQ",
+      "B14F1T77ZA",
+      "B086SCNV9K",
+      "B07BSWYMPV",
+      "B0785KCMBB",
+      "B0066DEDYO",
+      "B006VR6BHM",
+      "B08NB2MD6N",
+      "B07JYKX62T",
+      "B07BSWYMPV",
+      "B00634MLMW",
+      "B00017X22U",
+      "B01F1T77ZA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00JIU9D9M",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B01MT1DCIV",
+        "reason": "Performance thumb grips for controllers"
+      },
+      {
+        "item_id": "B07YSNQSWF",
+        "reason": "Portable gaming mouse"
+      },
+      {
+        "item_id": "B07JYKX62T",
+        "reason": "Controller button replacement set"
+      },
+      {
+        "item_id": "B01N6ZNSUQ",
+        "reason": "Popular racing game for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3330,
+    "completion_tokens": 325
+  }
+}

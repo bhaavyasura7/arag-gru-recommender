@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming accessories",
+      "Xbox One products",
+      "controller chargers",
+      "gaming headsets",
+      "silicone covers"
+    ],
+    "current_intent": "looking for new gaming accessories for Xbox One",
+    "avoid": [
+      "low-quality products",
+      "overpriced items",
+      "non-gaming related accessories"
+    ],
+    "summary": "User is a gamer focused on Xbox One accessories, seeking reliable and affordable products to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 351,
+    "completion_tokens": 79
+  }
+}

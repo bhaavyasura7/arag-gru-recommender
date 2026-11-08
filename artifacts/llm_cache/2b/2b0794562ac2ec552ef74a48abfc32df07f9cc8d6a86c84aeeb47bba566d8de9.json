@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B082X1QYHW",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Nintendo Switch controllers."
+      },
+      {
+        "item_id": "B003BLLGBM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Atari product, not relevant to user."
+      },
+      {
+        "item_id": "B017WJYX3Q",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo 3DS game aligns with interests."
+      },
+      {
+        "item_id": "B001DW7IFE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Sega game, not aligned with user history."
+      },
+      {
+        "item_id": "B08RCPY43H",
+        "label": "support",
+        "score": 9,
+        "rationale": "Multi-platform, includes Xbox and Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 979,
+    "completion_tokens": 162
+  }
+}

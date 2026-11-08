@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0050SW1WW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B074MYLP9C",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's Nintendo Switch."
+      },
+      {
+        "item_id": "B001EYUQ4G",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no Xbox history."
+      },
+      {
+        "item_id": "B08CG1GDR2",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys basketball games."
+      },
+      {
+        "item_id": "B003ZSN600",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no Xbox history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 148
+  }
+}

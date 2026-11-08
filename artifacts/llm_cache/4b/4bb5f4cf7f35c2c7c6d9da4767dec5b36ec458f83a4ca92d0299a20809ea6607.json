@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0050SXI6K",
+      "B004QEWVLC",
+      "B004QEV0MI",
+      "B00000K3X9",
+      "B17NQDVZP7",
+      "B06XXLZFWX",
+      "B08B1WJHVD",
+      "B001ELJEH4",
+      "B0094X221O",
+      "B07NVYR56H",
+      "B003L20IPQ",
+      "B20BRM3S4Z6",
+      "B06XCNKQ1T",
+      "B07NQDVZP7",
+      "B0028Y4PUW",
+      "B09MGJXGBF",
+      "B085C35DFV",
+      "B09K3ZY6BR",
+      "B08B1WJHVD",
+      "B07NVYR56H",
+      "B06XXLZFWX"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0050SXI6K",
+        "reason": "Classic action RPG collection"
+      },
+      {
+        "item_id": "B004QEWVLC",
+        "reason": "PlayStation classic action RPG"
+      },
+      {
+        "item_id": "B004QEV0MI",
+        "reason": "Action-packed multiplayer experience"
+      },
+      {
+        "item_id": "B00000K3X9",
+        "reason": "Classic adventure game nostalgia"
+      },
+      {
+        "item_id": "B17NQDVZP7",
+        "reason": "Fantasy RPG with deep narrative"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3945,
+    "completion_tokens": 342
+  }
+}

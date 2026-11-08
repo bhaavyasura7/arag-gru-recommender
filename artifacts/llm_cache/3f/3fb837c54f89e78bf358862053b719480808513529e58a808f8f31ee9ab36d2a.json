@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00CJ9OTNE",
+      "B15WPGS8O",
+      "B00ZM6I932",
+      "B077DTWYV8",
+      "B00ZQB28XK",
+      "B001EHD92Y",
+      "B00503E8S2",
+      "B00I7NA43U",
+      "B000YDIYFG",
+      "B00DB2BI8M",
+      "B00GM5WGNQ",
+      "B00HCFPMJY",
+      "B00008KU9Z",
+      "B00000JIUG",
+      "B0041G5EU0",
+      "B000GPW2QO",
+      "B007WPGS8O",
+      "B0B7125T7V",
+      "B00008KU9Z",
+      "B000YDIYFG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00CJ9OTNE",
+        "reason": "Popular multiplayer shooter franchise"
+      },
+      {
+        "item_id": "B007WPGS8O",
+        "reason": "Intense action RPG gameplay"
+      },
+      {
+        "item_id": "B00ZM6I932",
+        "reason": "Epic sci-fi RPG adventure"
+      },
+      {
+        "item_id": "B077DTWYV8",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B00ZQB28XK",
+        "reason": "Open world exploration and combat"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3798,
+    "completion_tokens": 321
+  }
+}

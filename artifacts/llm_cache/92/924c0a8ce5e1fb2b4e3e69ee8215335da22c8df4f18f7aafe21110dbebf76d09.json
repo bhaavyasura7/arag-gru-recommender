@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0086UK7I6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not directly related."
+      },
+      {
+        "item_id": "B0891125KY",
+        "label": "support",
+        "score": 8,
+        "rationale": "PlayStation 4 console aligns with interests."
+      },
+      {
+        "item_id": "B07BMD2M71",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming headset enhances gaming experience."
+      },
+      {
+        "item_id": "B00FTB3FCU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "DLC for a game, not a full game."
+      },
+      {
+        "item_id": "B00006HZ0N",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PC game, less relevant to user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 159
+  }
+}

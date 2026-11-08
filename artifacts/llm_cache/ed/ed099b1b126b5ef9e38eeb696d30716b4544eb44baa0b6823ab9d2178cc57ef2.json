@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07MPSFJG3",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Xbox One games."
+      },
+      {
+        "item_id": "B00EN9Q8G4",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox One gaming interest."
+      },
+      {
+        "item_id": "B01E10MWDW",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likes Xbox One music games."
+      },
+      {
+        "item_id": "B00GKU3EU2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game not aligned with user interests."
+      },
+      {
+        "item_id": "B00KVQYJR8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PlayStation 4 game, user prefers Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1375,
+    "completion_tokens": 162
+  }
+}

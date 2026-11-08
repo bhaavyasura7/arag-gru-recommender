@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B077P86XVV",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not related to video games."
+      },
+      {
+        "item_id": "B07Y1G7GJY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Relevant accessory for Nintendo Switch games."
+      },
+      {
+        "item_id": "B08X2RRS88",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "General power supply, not game-specific."
+      },
+      {
+        "item_id": "B004X0TDB0",
+        "label": "support",
+        "score": 7,
+        "rationale": "Related to video games, Transformers theme."
+      },
+      {
+        "item_id": "B00009WAW7",
+        "label": "support",
+        "score": 9,
+        "rationale": "NHL game matches user's gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1102,
+    "completion_tokens": 159
+  }
+}

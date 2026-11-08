@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B092PR7W4G",
+      "B00B1N07QM",
+      "B10H1GZQXT",
+      "B0799JJ6ST",
+      "B003EV6YKW",
+      "B00069EVOG",
+      "B00004SVOO",
+      "B001ELJPJQ",
+      "B004W4BOSW",
+      "B00F9RGFAI",
+      "B00005UOI3",
+      "B00005O62C",
+      "B00000IXFW",
+      "B001VE431Q",
+      "B07ZZZNJ77",
+      "B0BVTTXYK4",
+      "B00005UOI3",
+      "B07CQBN7GD",
+      "B00273JKXQ",
+      "B001VE431Q"
+    ],
+    "reasons": [
+      {
+        "item_id": "B092PR7W4G",
+        "reason": "RGB mouse pad enhances gaming setup"
+      },
+      {
+        "item_id": "B00B1N07QM",
+        "reason": "Mechanical keypad for gaming efficiency"
+      },
+      {
+        "item_id": "B08H1GZQXT",
+        "reason": "RGB mat with wireless charging feature"
+      },
+      {
+        "item_id": "B0799JJ6ST",
+        "reason": "Backlit keyboard for gaming aesthetics"
+      },
+      {
+        "item_id": "B003EV6YKW",
+        "reason": "High-performance gaming mouse alternative"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3270,
+    "completion_tokens": 322
+  }
+}

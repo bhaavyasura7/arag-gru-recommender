@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B018K6KV68",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not directly related to interests."
+      },
+      {
+        "item_id": "B077SN7QN3",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products, not Xbox."
+      },
+      {
+        "item_id": "B07ZHZBYCJ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC accessory, user focused on consoles."
+      },
+      {
+        "item_id": "B07624RBWB",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports Nintendo Switch gaming."
+      },
+      {
+        "item_id": "B00GOZSR96",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PlayStation 4 game, user prefers older systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1307,
+    "completion_tokens": 158
+  }
+}

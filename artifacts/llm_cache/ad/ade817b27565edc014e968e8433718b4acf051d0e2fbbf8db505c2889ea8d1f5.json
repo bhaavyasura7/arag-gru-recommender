@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00KVP76G0",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has interest in gaming controllers."
+      },
+      {
+        "item_id": "B002WTC4VA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not casual."
+      },
+      {
+        "item_id": "B00NOD0OTW",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PlayStation 4 games."
+      },
+      {
+        "item_id": "B001EYURK4",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B00W9DHUBS",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has interest in Star Wars games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1341,
+    "completion_tokens": 159
+  }
+}

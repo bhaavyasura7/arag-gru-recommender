@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00WMMUDR4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B0797SKVN5",
+        "label": "support",
+        "score": 7,
+        "rationale": "Useful accessory for Nintendo Switch gaming."
+      },
+      {
+        "item_id": "B0B8YWLH4Z",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with user's gaming devices."
+      },
+      {
+        "item_id": "B00EIN266Q",
+        "label": "support",
+        "score": 8,
+        "rationale": "Classic games appeal to user's interests."
+      },
+      {
+        "item_id": "B00FWWY1V0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Focus on Call of Duty, user disliked it."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1333,
+    "completion_tokens": 160
+  }
+}

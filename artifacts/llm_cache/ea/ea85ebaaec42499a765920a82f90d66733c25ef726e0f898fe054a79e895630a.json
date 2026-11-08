@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B013G0PN9S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo Switch accessories."
+      },
+      {
+        "item_id": "B07VB7GK9H",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Nintendo Switch interests."
+      },
+      {
+        "item_id": "B00ARSHY68",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User does not show Wii interest."
+      },
+      {
+        "item_id": "B001EYUXA8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game interest is unclear."
+      },
+      {
+        "item_id": "B07K2FNLWG",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox One interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1520,
+    "completion_tokens": 153
+  }
+}

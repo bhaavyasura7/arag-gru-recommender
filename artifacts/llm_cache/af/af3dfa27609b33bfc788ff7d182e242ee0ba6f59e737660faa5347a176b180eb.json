@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000EDGK7A",
+      "B006JH6ADY",
+      "B09TXR8F3C",
+      "B09CZ2Y65N",
+      "B000065DGH",
+      "B00KIWEMIG",
+      "B00CXVLY9A",
+      "B0034ZOAO0",
+      "B00C9DL1HC",
+      "B00L4SD1F8",
+      "B003YDXER6",
+      "B004IK89F6",
+      "B004RMK57U",
+      "B0088TN5FM",
+      "B07DFNKHFG",
+      "B003ZDOFF0",
+      "B09TXR8F3C",
+      "B00KIWEMIG",
+      "B00CXVLY9A",
+      "B004IK89F6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000EDGK7A",
+        "reason": "Nintendo accessory for portability"
+      },
+      {
+        "item_id": "B006JH6ADY",
+        "reason": "Stylus pack for Nintendo systems"
+      },
+      {
+        "item_id": "B09TXR8F3C",
+        "reason": "Wireless controller for PS4"
+      },
+      {
+        "item_id": "B09CZ2Y65N",
+        "reason": "Customizable Xbox controller upgrade"
+      },
+      {
+        "item_id": "B000065DGH",
+        "reason": "Rechargeable kit for Xbox 360"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3790,
+    "completion_tokens": 327
+  }
+}

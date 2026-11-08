@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01N9KN4OC",
+      "B01GHFKR18",
+      "B003RRXW0I",
+      "B0863MT183",
+      "B07F89LW78",
+      "B0951P2ZLM",
+      "B00UA9X9Z4",
+      "B07CJCQ1ZF",
+      "B000069T7L",
+      "B000059S8B",
+      "B002MUB0UK",
+      "B00019069K",
+      "B00292BQL4",
+      "B00HTK0ML6",
+      "B00IG3GP84",
+      "B08W1W5VMF",
+      "B00XUZFGWE",
+      "B00UA9X9Z4",
+      "B08CZMWHT4",
+      "B00IG3GP84"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01N9KN4OC",
+        "reason": "Includes multiplayer and DLC"
+      },
+      {
+        "item_id": "B01GHFKR18",
+        "reason": "Action-adventure with multiplayer"
+      },
+      {
+        "item_id": "B003RRXW0I",
+        "reason": "Engaging multiplayer music game"
+      },
+      {
+        "item_id": "B0863MT183",
+        "reason": "Enhances VR gaming experience"
+      },
+      {
+        "item_id": "B07F89LW78",
+        "reason": "Portable for multiplayer gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3527,
+    "completion_tokens": 320
+  }
+}

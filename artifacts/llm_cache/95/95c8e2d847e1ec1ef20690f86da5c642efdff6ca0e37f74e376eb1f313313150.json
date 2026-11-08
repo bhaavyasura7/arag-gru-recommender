@@ -1,0 +1,30 @@
+{
+  "content": {
+    "ranking": [
+      "B000ERVMI8",
+      "B00BAQXJMO",
+      "B0015MMN6G",
+      "B074NJWFXH",
+      "B000094OT8",
+      "B00008RUYZ",
+      "B0001B15RA",
+      "B003INEQ2O",
+      "B000DOD51UY",
+      "B0086VPUHI",
+      "B004S5MB1O",
+      "B00DV16N6U",
+      "B0001B15RA",
+      "B007FB23CTG",
+      "B001G60LBK",
+      "B000094OT8",
+      "B0001B15RA",
+      "B0001B15RA",
+      "B0001B15RA",
+      "B0001B15RA"
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3480,
+    "completion_tokens": 144
+  }
+}

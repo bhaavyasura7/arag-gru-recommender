@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B005ZBNUUG",
+      "B001EYUTFM",
+      "B001FLGEEE",
+      "B000R0SR9E",
+      "B001ELJFHI",
+      "B001I0H79C",
+      "B00005OLWW",
+      "B000035Y78",
+      "B00N3NSUIK",
+      "B000K0NV5J2",
+      "B00BAWXD7E",
+      "B0031SWWPO",
+      "B072JYVYCX",
+      "B00IEZ6H4G",
+      "B074JZPS39",
+      "B01N3ASPNV",
+      "B00W9DHUBS",
+      "B00K0NV5J2",
+      "B01L1L3F26",
+      "B077GG9D5D"
+    ],
+    "reasons": [
+      {
+        "item_id": "B005ZBNUUG",
+        "reason": "Popular sports game on Xbox 360"
+      },
+      {
+        "item_id": "B001EYUTFM",
+        "reason": "Essential racing game for Xbox 360"
+      },
+      {
+        "item_id": "B001FLGEEE",
+        "reason": "Engaging multiplayer strategy game"
+      },
+      {
+        "item_id": "B000R0SR9E",
+        "reason": "Action-packed horror FPS experience"
+      },
+      {
+        "item_id": "B001ELJFHI",
+        "reason": "Classic multiplayer action game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3856,
+    "completion_tokens": 324
+  }
+}

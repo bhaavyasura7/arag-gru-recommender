@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The user seeks sports video games, particularly in football and wrestling genres. Relevant candidates include titles like NBA 10 and NASCAR Revolution, which align with the user's interests in multiplayer sports experiences. Other candidates, like Call of Duty, are less relevant due to the user's preference for sports-focused gameplay."
+  },
+  "usage": {
+    "prompt_tokens": 1835,
+    "completion_tokens": 62
+  }
+}

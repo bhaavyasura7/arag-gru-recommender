@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action video games",
+      "military strategy games",
+      "horror-themed games",
+      "first-person shooters",
+      "cooperative gameplay"
+    ],
+    "current_intent": "looking for engaging action games to play",
+    "avoid": [
+      "puzzle games",
+      "sports games",
+      "slow-paced games"
+    ],
+    "summary": "User enjoys action and military-themed video games, particularly first-person shooters, and seeks new titles in this genre."
+  },
+  "usage": {
+    "prompt_tokens": 339,
+    "completion_tokens": 80
+  }
+}

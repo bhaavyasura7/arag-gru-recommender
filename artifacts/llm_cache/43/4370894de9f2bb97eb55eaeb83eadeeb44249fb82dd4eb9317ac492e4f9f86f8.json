@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B06XKGYP2X",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Skin for PS4, user prefers controllers."
+      },
+      {
+        "item_id": "B0011FWCQI",
+        "label": "support",
+        "score": 7,
+        "rationale": "Racing wheel for PS3, matches interests."
+      },
+      {
+        "item_id": "B0BKTKFSQW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Keyboard not related to gaming consoles."
+      },
+      {
+        "item_id": "B0BP3QB1YP",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC controller, user prefers console accessories."
+      },
+      {
+        "item_id": "B00RX9G51E",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Keyboard not relevant to user's history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2149,
+    "completion_tokens": 165
+  }
+}

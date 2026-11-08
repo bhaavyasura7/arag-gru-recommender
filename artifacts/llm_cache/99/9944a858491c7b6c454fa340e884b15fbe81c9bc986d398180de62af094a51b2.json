@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08G4FDHT7",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Keyboard not directly related to consoles."
+      },
+      {
+        "item_id": "B00E4QOE30",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox games, not Sims."
+      },
+      {
+        "item_id": "B08HQMDH97",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Nintendo Switch."
+      },
+      {
+        "item_id": "B01N3ASPNV",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Nintendo Switch."
+      },
+      {
+        "item_id": "B089QYP649",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Headset for PlayStation, not Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1395,
+    "completion_tokens": 163
+  }
+}

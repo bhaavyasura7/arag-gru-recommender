@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07VHHPJBV",
+      "B16MECTTC6",
+      "B0B1M6YPLY",
+      "B088WQVJY4",
+      "B0BG2BQ8BV",
+      "B01BZZCFFQ",
+      "B003XX4462",
+      "B001EYUY0W",
+      "B00005EBC4",
+      "B0026MS1XS",
+      "B00PRJ7JN0",
+      "B01DJFM3OI",
+      "B0BDY26LSF",
+      "B0AUXRCPI",
+      "B01MECTTC6",
+      "B004TKC7BM",
+      "B0B1M6YPLY",
+      "B0BDY26LSF",
+      "B07YDQZR2Z",
+      "B091G6TPDW",
+      "B09HZC194X"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07VHHPJBV",
+        "reason": "High DPI and RGB lighting"
+      },
+      {
+        "item_id": "B16MECTTC6",
+        "reason": "Programmable buttons and ergonomic"
+      },
+      {
+        "item_id": "B0B1M6YPLY",
+        "reason": "Mobile gaming clip for Xbox"
+      },
+      {
+        "item_id": "B088WQVJY4",
+        "reason": "Bluetooth adapter for gaming"
+      },
+      {
+        "item_id": "B0BG2BQ8BV",
+        "reason": "Thumb grip caps for controllers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3723,
+    "completion_tokens": 334
+  }
+}

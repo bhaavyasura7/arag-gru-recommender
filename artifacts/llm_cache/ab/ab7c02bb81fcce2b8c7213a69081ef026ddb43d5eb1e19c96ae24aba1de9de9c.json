@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00YTUZF34",
+      "B15XAGZM6",
+      "B00J48C36S",
+      "B0883P3VSH",
+      "B00A878J5I",
+      "B001EYUNYY",
+      "B00GN67PJ4",
+      "B0C3QFBBH5",
+      "B001262U54",
+      "B00DU2CHE2",
+      "B09ZTW259L",
+      "B09PTBF78B",
+      "B0016Q00FC",
+      "B00K01ZU18",
+      "B0BYHMDYZN",
+      "B002BSA298",
+      "B00KRXAGE",
+      "B073TYDXLC",
+      "B017XAGZM6",
+      "B0016Q00FC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00YTUZF34",
+        "reason": "Popular immersive RPG experience"
+      },
+      {
+        "item_id": "B15XAGZM6",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B00J48C36S",
+        "reason": "Action RPG with co-op gameplay"
+      },
+      {
+        "item_id": "B0883P3VSH",
+        "reason": "Compatible with PlayStation"
+      },
+      {
+        "item_id": "B00A878J5I",
+        "reason": "Useful accessory for gaming setup"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3868,
+    "completion_tokens": 315
+  }
+}

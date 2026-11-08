@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00007BGQT",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user preferences."
+      },
+      {
+        "item_id": "B079KJZMLN",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre and style than preferred."
+      },
+      {
+        "item_id": "B00AFVN128",
+        "label": "support",
+        "score": 7,
+        "rationale": "Accessory for Xbox 360, user owns Xbox."
+      },
+      {
+        "item_id": "B08ZCKRLYK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR accessory, not in user history."
+      },
+      {
+        "item_id": "B07VGBLL2J",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a video game product."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2503,
+    "completion_tokens": 157
+  }
+}

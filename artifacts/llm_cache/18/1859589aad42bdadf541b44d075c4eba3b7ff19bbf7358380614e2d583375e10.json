@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The user seeks engaging, narrative-driven video games, avoiding poorly rated titles and generic action games. Relevant candidates include story-rich experiences like 'Star Wars Knights of the Old Republic' and 'Resident Evil 4', which align with their interests in horror and action-adventure genres, emphasizing strong narratives and immersive gameplay."
+  },
+  "usage": {
+    "prompt_tokens": 2048,
+    "completion_tokens": 66
+  }
+}

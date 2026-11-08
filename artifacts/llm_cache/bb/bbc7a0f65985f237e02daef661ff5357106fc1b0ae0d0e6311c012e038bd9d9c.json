@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00G6DYCSG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming accessories, not hunting."
+      },
+      {
+        "item_id": "B07LF7ZKXL",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo Switch."
+      },
+      {
+        "item_id": "B08TWHP4W1",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming keyboard aligns with gaming interests."
+      },
+      {
+        "item_id": "B09TTFCT4S",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Xbox accessory, not directly relevant."
+      },
+      {
+        "item_id": "B00YOB92UU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Tablet stand, not a primary interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 157
+  }
+}

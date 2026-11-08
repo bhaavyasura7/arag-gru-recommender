@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B079MRDY5V",
+      "B00EQNP8F4",
+      "B00YQ74LVM",
+      "B00N2KKSNO",
+      "B001ELJFGE",
+      "B001E91OLK",
+      "B003QCJLQI",
+      "B007IPZFDW",
+      "B001E91OLK",
+      "B004I1JTEK",
+      "B003VH5Z2C",
+      "B0073ESZ58",
+      "B06XHVJY3T",
+      "B004LLHFAW",
+      "B00DU2CHE2",
+      "B0029F2FB6",
+      "B00005C9F6",
+      "B00Z9TM1KY",
+      "B0073ESZ58",
+      "B007IPZFDW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B079MRDY5V",
+        "reason": "Popular fighting game title"
+      },
+      {
+        "item_id": "B00EQNP8F4",
+        "reason": "Essential for multiplayer gaming"
+      },
+      {
+        "item_id": "B00YQ74LVM",
+        "reason": "Nintendo console for classic games"
+      },
+      {
+        "item_id": "B00N2KKSNO",
+        "reason": "Action-packed open-world gameplay"
+      },
+      {
+        "item_id": "B001ELJFGE",
+        "reason": "Co-op gameplay experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3759,
+    "completion_tokens": 319
+  }
+}

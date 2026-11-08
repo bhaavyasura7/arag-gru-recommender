@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0B4GGGKVD",
+      "B07GQGKZXK",
+      "B001G7PSIU",
+      "B001QCWRZC",
+      "B00BGAA0SU",
+      "B0050FDE4E",
+      "B003OAE79S",
+      "B0B9MJK753",
+      "B076J9TNCD",
+      "B00002EPZ2",
+      "B007CM0K86",
+      "B08GMTJYXJ",
+      "B0053B7ICO",
+      "B06ZXXH1TT",
+      "B0BGB7VPGK",
+      "B002SCQ624",
+      "B000MJB1WU",
+      "B00NW6T6CC",
+      "B0B4GGGKVD",
+      "B0B9MJK753"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0B4GGGKVD",
+        "reason": "New action-adventure game"
+      },
+      {
+        "item_id": "B07GQGKZXK",
+        "reason": "Console bundle with popular games"
+      },
+      {
+        "item_id": "B001G7PSIU",
+        "reason": "Action-packed gameplay"
+      },
+      {
+        "item_id": "B001QCWRZC",
+        "reason": "Highly rated RPG experience"
+      },
+      {
+        "item_id": "B00BGAA0SU",
+        "reason": "Popular superhero game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3818,
+    "completion_tokens": 318
+  }
+}

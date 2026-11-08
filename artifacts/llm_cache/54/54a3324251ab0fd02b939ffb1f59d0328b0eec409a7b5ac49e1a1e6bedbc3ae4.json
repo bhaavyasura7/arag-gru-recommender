@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002ELCUHY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys NBA games."
+      },
+      {
+        "item_id": "B07FSJPL5C",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B07SZXMTT7",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers sports games."
+      },
+      {
+        "item_id": "B07PTPMYWM",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not related to video games."
+      },
+      {
+        "item_id": "B09J1DF3YY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Uncertain game quality."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 146
+  }
+}

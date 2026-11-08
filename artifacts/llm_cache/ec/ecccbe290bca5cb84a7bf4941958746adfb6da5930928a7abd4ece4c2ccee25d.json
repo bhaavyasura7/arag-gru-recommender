@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004HW7LAO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B00WUZUP3U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has mixed interest in gaming systems."
+      },
+      {
+        "item_id": "B002BSC4ZS",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no Nintendo system history."
+      },
+      {
+        "item_id": "B002TDIEDG",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers console games over handheld."
+      },
+      {
+        "item_id": "B0001NYK1G",
+        "label": "support",
+        "score": 7,
+        "rationale": "User plays PC games, headset is relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1300,
+    "completion_tokens": 161
+  }
+}

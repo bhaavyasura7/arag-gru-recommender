@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000B6MLS2",
+      "B001FRTK4O",
+      "B007RFZFNQT",
+      "B013WRM1IA",
+      "B000FRV2UK",
+      "B017WRM1IA",
+      "B075ZPGMJT",
+      "B009D3HSTG",
+      "B001EYUU3I",
+      "B001FRTK4O",
+      "B004WIOH4G",
+      "B0046XSJM8",
+      "B00GIK3YAO",
+      "B00AEX81SG",
+      "B00D9EPI38",
+      "B00ZE3616K",
+      "B06XHS6534",
+      "B0030H8I4K",
+      "B001FRTK4O",
+      "B0046XSJM8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000B6MLS2",
+        "reason": "Rechargeable kit for Xbox 360"
+      },
+      {
+        "item_id": "B001FRTK4O",
+        "reason": "Essential controller for Xbox 360"
+      },
+      {
+        "item_id": "B007RFZFNQT",
+        "reason": "Repair kit for Nintendo Switch"
+      },
+      {
+        "item_id": "B013WRM1IA",
+        "reason": "Replacement joystick for Joy-Con"
+      },
+      {
+        "item_id": "B000FRV2UK",
+        "reason": "Classic Zelda game for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3659,
+    "completion_tokens": 325
+  }
+}

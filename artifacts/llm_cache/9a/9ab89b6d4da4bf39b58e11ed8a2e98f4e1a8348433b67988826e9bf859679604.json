@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001AI7CF2",
+      "B00VX73DD0",
+      "B06YBXFDYN",
+      "B003NSLGW2",
+      "B073XKXQW4",
+      "B00SHXKC8M",
+      "B003IPCF02",
+      "B00DYJGDYQ",
+      "B01I3E7XAO",
+      "B0C89J78ZW",
+      "B00O9JLBOC",
+      "B001ENPDJA",
+      "B00Z9TIM3Y",
+      "B00DBDPOZ4",
+      "B0029LJIFG",
+      "B01KXB7SZ0",
+      "B00I59OC92",
+      "B00VX73DD0",
+      "B00004SVS7",
+      "B01I59OC92"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001AI7CF2",
+        "reason": "Directly enhances Nintendo gaming experience"
+      },
+      {
+        "item_id": "B00VX73DD0",
+        "reason": "Organizes Nintendo game cards effectively"
+      },
+      {
+        "item_id": "B073XKXQW4",
+        "reason": "Customizes Joy-Con controllers easily"
+      },
+      {
+        "item_id": "B003NSLGW2",
+        "reason": "Improves grip for better control"
+      },
+      {
+        "item_id": "B00SHXKC8M",
+        "reason": "Quality gaming accessory for Nintendo"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3607,
+    "completion_tokens": 329
+  }
+}

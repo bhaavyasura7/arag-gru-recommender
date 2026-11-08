@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00QRDQ9HM",
+      "B07KCBHDLX",
+      "B20BWLYVKFC",
+      "B072TXNJV2",
+      "B00FMNNQAQ",
+      "B00BGA9X9W",
+      "B001EYUS2Q",
+      "B005YVTHT0",
+      "B12LWJB4QT",
+      "B001B1W3HA",
+      "B0078J0O34",
+      "B00BSWYN2K",
+      "B06XPX5XLY",
+      "B0BLRV59MP",
+      "B00XXSO1YW",
+      "B001B1W3HA",
+      "B00FMNNQAQ",
+      "B00BGA9X9W",
+      "B001EYUS2Q",
+      "B005YVTHT0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00QRDQ9HM",
+        "reason": "Popular tactical RPG for 3DS"
+      },
+      {
+        "item_id": "B07KCBHDLX",
+        "reason": "Enhances Xbox controller precision"
+      },
+      {
+        "item_id": "B20BWLYVKFC",
+        "reason": "Essential charger for Xbox controllers"
+      },
+      {
+        "item_id": "B072TXNJV2",
+        "reason": "Comfortable gaming headset for Xbox"
+      },
+      {
+        "item_id": "B00FMNNQAQ",
+        "reason": "High-quality PS4 controller option"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3876,
+    "completion_tokens": 325
+  }
+}

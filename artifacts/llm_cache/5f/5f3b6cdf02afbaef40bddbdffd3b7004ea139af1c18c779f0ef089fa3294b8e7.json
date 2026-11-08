@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09FT35L2H",
+      "B078KJHNNL",
+      "B08R7QCNBY",
+      "B001KC014W",
+      "B11L3TYBBC",
+      "B07CNZJH97",
+      "B07YWHC9L4",
+      "B07H44FVB2",
+      "B096XMZYGD",
+      "B07RZTX6VR",
+      "B07L5TX5TH",
+      "B01AX9COKQ",
+      "B00423JHCS",
+      "B0036CESCK",
+      "B07C2H3RD8",
+      "B09L3TYBBC",
+      "B07H44FVB2",
+      "B07CNZJH97",
+      "B07YWHC9L4",
+      "B01LX4I8H8",
+      "B00005QZVC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09FT35L2H",
+        "reason": "High-quality customizable keyboard"
+      },
+      {
+        "item_id": "B078KJHNNL",
+        "reason": "Premium racing wheel experience"
+      },
+      {
+        "item_id": "B08R7QCNBY",
+        "reason": "Essential PS4 power supply"
+      },
+      {
+        "item_id": "B001KC014W",
+        "reason": "Fun mini-golf game"
+      },
+      {
+        "item_id": "B11L3TYBBC",
+        "reason": "Rechargeable PS4 controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3542,
+    "completion_tokens": 336
+  }
+}

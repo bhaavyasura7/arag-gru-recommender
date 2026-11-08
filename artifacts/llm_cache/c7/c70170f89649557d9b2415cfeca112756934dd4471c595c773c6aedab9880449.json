@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B003JKK60C",
+      "B00HCRMWN2",
+      "B005Z9GNSE",
+      "B00457X0YM",
+      "B11MU57Z02",
+      "B007B64TCQ",
+      "B001MBP678",
+      "B0038K69UO",
+      "B11NY2YJSH",
+      "B0BTHS5YRW",
+      "B00CQ35C1Q",
+      "B07Z427CPZ",
+      "B09F2MS59L",
+      "B0B9GZ58RB",
+      "B08HK5MSB7",
+      "B095RQGSFK",
+      "B07NY2YJSH",
+      "B0BTHS5YRW",
+      "B0038K69UO",
+      "B083QCMGZ7"
+    ],
+    "reasons": [
+      {
+        "item_id": "B003JKK60C",
+        "reason": "Best retro controller option"
+      },
+      {
+        "item_id": "B00HCRMWN2",
+        "reason": "Popular retro game title"
+      },
+      {
+        "item_id": "B005Z9GNSE",
+        "reason": "Compatible with PS3"
+      },
+      {
+        "item_id": "B00457X0YM",
+        "reason": "Legacy gaming mouse"
+      },
+      {
+        "item_id": "B11MU57Z02",
+        "reason": "Classic game with nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3569,
+    "completion_tokens": 320
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "PlayStation consoles",
+      "Gaming accessories",
+      "Cooling solutions",
+      "Controller enhancements",
+      "Video game bundles"
+    ],
+    "current_intent": "Looking for cooling solutions for PlayStation 4.",
+    "avoid": [
+      "Xbox products",
+      "Low-rated accessories",
+      "Non-gaming items"
+    ],
+    "summary": "User is a dedicated PlayStation gamer focused on enhancing their gaming setup with cooling solutions and accessories."
+  },
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 75
+  }
+}

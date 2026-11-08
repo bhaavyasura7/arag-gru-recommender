@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07VC1MKNZ",
+      "B07WSX9PCJ",
+      "B18NTML8NR",
+      "B07KF4PPGP",
+      "B18G84D29",
+      "B07CHXF76P",
+      "B000ASBIEO",
+      "B09DPHZGSZ",
+      "B0876TD8RT",
+      "B000BYQDLU",
+      "B005HI2JCC",
+      "B08QXBCP8F",
+      "B07TV7P3GP",
+      "B0007KTBDK",
+      "B08NTML8NR",
+      "B12GW3H3U8",
+      "B07WGJ72KT",
+      "B089QHT98J",
+      "B12GW3H3U8",
+      "B07KF4PPGP"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07VC1MKNZ",
+        "reason": "Popular Xbox controller for gaming"
+      },
+      {
+        "item_id": "B07WSX9PCJ",
+        "reason": "Essential accessory for Xbox gaming"
+      },
+      {
+        "item_id": "B08NTML8NR",
+        "reason": "Retro console with classic games"
+      },
+      {
+        "item_id": "B07KF4PPGP",
+        "reason": "Classic Nintendo game cartridge"
+      },
+      {
+        "item_id": "B0876TD8RT",
+        "reason": "Wii remote for multiplayer gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3436,
+    "completion_tokens": 323
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B017LKMR5W",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has multiple PS4 accessories."
+      },
+      {
+        "item_id": "B00NEU3Z1Y",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in Skylanders."
+      },
+      {
+        "item_id": "B005A0MBR0",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Xbox 360 racing games."
+      },
+      {
+        "item_id": "B007K6IVOY",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likes Naruto games on Xbox 360."
+      },
+      {
+        "item_id": "B09Y2WV4B7",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no specific interest in PS5 accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2520,
+    "completion_tokens": 165
+  }
+}

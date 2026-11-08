@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00DTT4M76",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys various video games."
+      },
+      {
+        "item_id": "B0B6GM69MS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Controller for older systems, not preferred."
+      },
+      {
+        "item_id": "B0010SDDVY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B07YCM34PZ",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has Nintendo Switch interest."
+      },
+      {
+        "item_id": "B009ENRWIM",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User hasn't shown interest in 3DS."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1010,
+    "completion_tokens": 157
+  }
+}

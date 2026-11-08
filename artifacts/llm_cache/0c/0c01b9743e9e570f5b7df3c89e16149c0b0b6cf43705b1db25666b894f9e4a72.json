@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00776UHG2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Skylanders not in user history."
+      },
+      {
+        "item_id": "B00005KG5U",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Targeted at younger children."
+      },
+      {
+        "item_id": "B0017DE4HY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys simulation games."
+      },
+      {
+        "item_id": "B002GHHJQI",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes adventure and puzzle games."
+      },
+      {
+        "item_id": "B094VF2SC6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Controller not directly related to games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1227,
+    "completion_tokens": 149
+  }
+}

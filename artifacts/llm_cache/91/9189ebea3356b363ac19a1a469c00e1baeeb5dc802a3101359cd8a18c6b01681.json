@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0CB7JB1V6",
+      "B07JXV1FYY",
+      "B0117Y1LBY",
+      "B03DLJL3N4",
+      "B0002XL3BA",
+      "B0BKS1LJVL",
+      "B001EYUWOU",
+      "B001E8WQKY",
+      "B00005NN5G",
+      "B001EYUW72",
+      "B07RFZFNQT",
+      "B07J34VHLT",
+      "B004IWRNTC",
+      "B001EYUWOU",
+      "B000K9OP2A",
+      "B00AY1ALVS",
+      "B00MOQWBQ4",
+      "B0086VPUHI",
+      "B07DLJL3N4",
+      "B07J34VHLT"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0CB7JB1V6",
+        "reason": "High-performance wireless controller"
+      },
+      {
+        "item_id": "B07JXV1FYY",
+        "reason": "Nintendo 3DS game remake"
+      },
+      {
+        "item_id": "B0117Y1LBY",
+        "reason": "Unique gaming collectible edition"
+      },
+      {
+        "item_id": "B03DLJL3N4",
+        "reason": "Wall mount for Switch"
+      },
+      {
+        "item_id": "B0002XL3BA",
+        "reason": "Classic game with high ratings"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3681,
+    "completion_tokens": 324
+  }
+}

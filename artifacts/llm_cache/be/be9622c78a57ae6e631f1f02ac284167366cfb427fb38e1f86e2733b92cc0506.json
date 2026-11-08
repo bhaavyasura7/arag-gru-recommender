@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07S91X6W5",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches interest in PC gaming accessories."
+      },
+      {
+        "item_id": "B0BGHVSYF3",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo, not Xbox accessories."
+      },
+      {
+        "item_id": "B001C0L7PO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B00001SHM5",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Chess game, not a primary interest."
+      },
+      {
+        "item_id": "B009QX7TJC",
+        "label": "support",
+        "score": 7,
+        "rationale": "Relevant to user's interest in Nintendo games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 163
+  }
+}

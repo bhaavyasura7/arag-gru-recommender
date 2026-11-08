@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00VR33XVC",
+      "B085751BTH",
+      "B00000DMAG",
+      "B001EYUOAW",
+      "B093GVW6WD",
+      "B12YF64SVV",
+      "B07JFTWDY9",
+      "B000F1UIPG",
+      "B0000DJX7H",
+      "B0057ETTZG",
+      "B07XZS4NB9",
+      "B07T8JGPTT",
+      "B07YF64SVV",
+      "B006VE454Q",
+      "B00BIIE3B0",
+      "B07VQ6YNQZ",
+      "B09BJL9B8C",
+      "B08M3BS9ZT",
+      "B09YYHSK2V",
+      "B07T8JGPTT"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00VR33XVC",
+        "reason": "Includes classic Zelda game"
+      },
+      {
+        "item_id": "B085751BTH",
+        "reason": "Retro console with built-in games"
+      },
+      {
+        "item_id": "B00000DMAG",
+        "reason": "Classic RPG with nostalgic graphics"
+      },
+      {
+        "item_id": "B001EYUOAW",
+        "reason": "Fun retro theme park simulation"
+      },
+      {
+        "item_id": "B093GVW6WD",
+        "reason": "Protective case for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3598,
+    "completion_tokens": 323
+  }
+}

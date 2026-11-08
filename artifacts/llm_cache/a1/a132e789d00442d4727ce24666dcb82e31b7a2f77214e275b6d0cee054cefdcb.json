@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B012F20ZY6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation games."
+      },
+      {
+        "item_id": "B00ZOMOJRE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in amiibo."
+      },
+      {
+        "item_id": "B01MYUCFBK",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 4 games."
+      },
+      {
+        "item_id": "B003RRTXLA",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has PlayStation 3 games."
+      },
+      {
+        "item_id": "B01IC2A28C",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers PlayStation over Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1381,
+    "completion_tokens": 159
+  }
+}

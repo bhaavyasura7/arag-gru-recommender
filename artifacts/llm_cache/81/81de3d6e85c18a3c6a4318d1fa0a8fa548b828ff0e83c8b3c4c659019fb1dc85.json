@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B075VJ6NLZ",
+      "B0BJV8Y6C4",
+      "B072XQNF39",
+      "B00004TNU6",
+      "B003JBHG7C",
+      "B015KJAQKO",
+      "B0B295DSPW",
+      "B0771CRS1S",
+      "B00008XKZ3",
+      "B009MFU9A0",
+      "B000093HZ0",
+      "B004HH81S0",
+      "B00005RQRH",
+      "B00153CNX8",
+      "B000035XH4",
+      "B0099F1NZI",
+      "B00004TNU6",
+      "B00008XKZ3",
+      "B000035XH4",
+      "B003JBHG7C"
+    ],
+    "reasons": [
+      {
+        "item_id": "B075VJ6NLZ",
+        "reason": "Nintendo Switch skin design"
+      },
+      {
+        "item_id": "B0BJV8Y6C4",
+        "reason": "Compatible with Nintendo Switch"
+      },
+      {
+        "item_id": "B072XQNF39",
+        "reason": "Engaging multiplayer sports kit"
+      },
+      {
+        "item_id": "B00004TNU6",
+        "reason": "Classic Nintendo console"
+      },
+      {
+        "item_id": "B003JBHG7C",
+        "reason": "Action-adventure gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3223,
+    "completion_tokens": 319
+  }
+}

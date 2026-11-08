@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002L8W5V6",
+      "B001EYUXXK",
+      "B00DC7G2W8",
+      "B004LLHFAW",
+      "B003V1WHOM",
+      "B001EYUPQU",
+      "B06XRR1K4F",
+      "B00YXO5V3U",
+      "B002XH972U",
+      "B00BRQN2EM",
+      "B00E1L2Z52",
+      "B00KVOVBGM",
+      "B00BGA9X9W",
+      "B00Z9TMBOU",
+      "B00DC7G2W8",
+      "B001ELJE88",
+      "B00BGA9X9W",
+      "B00YXO5V3U",
+      "B00E1L2Z52",
+      "B00DC7G2W8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002L8W5V6",
+        "reason": "Gamecube controller for retro gaming"
+      },
+      {
+        "item_id": "B001EYUXXK",
+        "reason": "Classic horror game for PS2"
+      },
+      {
+        "item_id": "B00DC7G2W8",
+        "reason": "Multiplayer racing game for nostalgia"
+      },
+      {
+        "item_id": "B004LLHFAW",
+        "reason": "Carrying case for Nintendo systems"
+      },
+      {
+        "item_id": "B003V1WHOM",
+        "reason": "Fantasy strategy game with retro feel"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3797,
+    "completion_tokens": 342
+  }
+}

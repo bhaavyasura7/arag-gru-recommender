@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0BDJK2R16",
+      "B09LTYXWYD",
+      "B07K13K6BY",
+      "B07LGQPDBQ",
+      "B0B3H89N8B",
+      "B0BCHWZX95",
+      "B08PSV5GQL",
+      "B08MZXNCHT",
+      "B08NP2MJBK",
+      "B07KRKYGL4",
+      "B095WGNZ4Y",
+      "B082HLLL49",
+      "B082HLQBM3",
+      "B07WVSSGMP",
+      "B08P83HKQT",
+      "B0BWYFTJSM",
+      "B07L2ZKR81",
+      "B0B3H89N8B",
+      "B08N4J3VYN",
+      "B07L2ZKR81",
+      "B08PSV5GQL"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BDJK2R16",
+        "reason": "Popular wireless controller for Switch"
+      },
+      {
+        "item_id": "B09LTYXWYD",
+        "reason": "Feature-rich pro controller"
+      },
+      {
+        "item_id": "B07K13K6BY",
+        "reason": "Retro design appeals to gamers"
+      },
+      {
+        "item_id": "B07LGQPDBQ",
+        "reason": "Classic Mario design, great features"
+      },
+      {
+        "item_id": "B0B3H89N8B",
+        "reason": "Cuphead themed, multiplayer friendly"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3507,
+    "completion_tokens": 346
+  }
+}

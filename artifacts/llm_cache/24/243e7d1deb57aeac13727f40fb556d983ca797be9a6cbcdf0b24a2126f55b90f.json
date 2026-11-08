@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00AQF345C",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not aligned with interests."
+      },
+      {
+        "item_id": "B07R5CFSVN",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Horror theme, but not action-adventure."
+      },
+      {
+        "item_id": "B0046ZQ022",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Specific to Final Fantasy, not user history."
+      },
+      {
+        "item_id": "B00YJJ0OQS",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox, aligns with gaming."
+      },
+      {
+        "item_id": "B004WIOH4G",
+        "label": "support",
+        "score": 6,
+        "rationale": "Fighting game, aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1311,
+    "completion_tokens": 162
+  }
+}

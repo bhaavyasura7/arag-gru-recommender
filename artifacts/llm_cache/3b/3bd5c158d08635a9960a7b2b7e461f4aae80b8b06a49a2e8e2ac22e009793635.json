@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B04L9Z33MH",
+      "B01KWLKKQU",
+      "B07ZHZBYCJ",
+      "B0725KSRJ8",
+      "B001EYUPOC",
+      "B001EYUQBO",
+      "B00CMQTVUA",
+      "B09QVJDVHN",
+      "B075S5BLY2",
+      "B0011E4J7O",
+      "B000NKPE4E",
+      "B005GISPMQ",
+      "B0011E4J7O",
+      "B06ZZ6FGGL",
+      "B0140Z6SZQ",
+      "B00H727K20",
+      "B09ZJF8VR1",
+      "B0011E4J7O",
+      "B077TB64KB",
+      "B00CMQTVUA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01KWLKKQU",
+        "reason": "Best for PC gaming accessories"
+      },
+      {
+        "item_id": "B07ZHZBYCJ",
+        "reason": "High-quality gaming keypad"
+      },
+      {
+        "item_id": "B0725KSRJ8",
+        "reason": "Versatile gaming headset"
+      },
+      {
+        "item_id": "B001EYUPOC",
+        "reason": "Classic retro game"
+      },
+      {
+        "item_id": "B001EYUQBO",
+        "reason": "Engaging WWII gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3680,
+    "completion_tokens": 317
+  }
+}

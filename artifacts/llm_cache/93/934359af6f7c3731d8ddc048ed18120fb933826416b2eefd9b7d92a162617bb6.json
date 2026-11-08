@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B013Q0Y7YU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers PC gaming, not PS4."
+      },
+      {
+        "item_id": "B08TT2D7J5",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR gaming not indicated in history."
+      },
+      {
+        "item_id": "B09C837PCK",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has Nintendo Switch accessories."
+      },
+      {
+        "item_id": "B01MR0SRC4",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "No interest in gaming gloves shown."
+      },
+      {
+        "item_id": "B00S5YPDUK",
+        "label": "support",
+        "score": 5,
+        "rationale": "Related to Nintendo systems, user interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1114,
+    "completion_tokens": 156
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000UYC60S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B097B85RPL",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming accessories."
+      },
+      {
+        "item_id": "B07JYNTYTY",
+        "label": "support",
+        "score": 7,
+        "rationale": "User plays Nintendo Switch games."
+      },
+      {
+        "item_id": "B09CQ1C54Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User may need a headset for gaming."
+      },
+      {
+        "item_id": "B003O6EE4U",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has Xbox 360 gaming interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1173,
+    "completion_tokens": 153
+  }
+}

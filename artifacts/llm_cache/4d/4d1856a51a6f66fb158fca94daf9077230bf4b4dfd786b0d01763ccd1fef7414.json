@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07MCJ6HNK",
+      "B01GY35AOM",
+      "B004QGYJ8S",
+      "B07FVFL696",
+      "B08FZLLXU4",
+      "B0017HPSIO",
+      "B00ZQB28XK",
+      "B07D43RHG7",
+      "B07D4CMKT4",
+      "B00GGUN3FW",
+      "B0052U2IEO",
+      "B07H8MM4X6",
+      "B091PVG74G",
+      "B003L139O4",
+      "B00OBAQDRO",
+      "B07F3GF285",
+      "B0BC88SFTJ",
+      "B016BGLVOK",
+      "B00GGUN3FW",
+      "B00ZQB28XK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07MCJ6HNK",
+        "reason": "Strong narrative and RPG elements"
+      },
+      {
+        "item_id": "B01GY35AOM",
+        "reason": "Classic RPG with engaging story"
+      },
+      {
+        "item_id": "B004QGYJ8S",
+        "reason": "Classic game with rich lore"
+      },
+      {
+        "item_id": "B07FVFL696",
+        "reason": "Fantasy setting with adventure"
+      },
+      {
+        "item_id": "B08FZLLXU4",
+        "reason": "Engaging RPG gameplay experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3556,
+    "completion_tokens": 324
+  }
+}

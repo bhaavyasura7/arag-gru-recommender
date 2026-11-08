@@ -1,0 +1,18 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming peripherals",
+      "Nintendo controllers",
+      "controller adapters"
+    ],
+    "current_intent": "seeking retro gaming accessories for older consoles compatible with modern systems",
+    "avoid": [
+      "non-Nintendo gaming hardware"
+    ],
+    "summary": "A retro gaming enthusiast focused on Nintendo consoles, interested in controllers and adapters to connect vintage hardware to modern systems. Likely looking for additional classic controllers or compatibility solutions. Purchases indicate a preference for Nintendo peripherals over other platforms."
+  },
+  "usage": {
+    "prompt_tokens": 385,
+    "completion_tokens": 826
+  }
+}

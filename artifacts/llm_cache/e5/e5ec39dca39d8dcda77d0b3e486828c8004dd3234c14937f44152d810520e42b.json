@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0042X9M0K",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B08YY7VMTB",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers video games, not accessories."
+      },
+      {
+        "item_id": "B00KWOSQC8",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys Pokémon games highly."
+      },
+      {
+        "item_id": "B0028A6VDU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not aligned with interests."
+      },
+      {
+        "item_id": "B0719GHHQP",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers games, not console skins."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 159
+  }
+}

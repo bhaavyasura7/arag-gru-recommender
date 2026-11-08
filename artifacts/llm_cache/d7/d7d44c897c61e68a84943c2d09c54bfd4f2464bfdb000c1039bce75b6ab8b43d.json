@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00008YGQI",
+      "B004YIM3OU",
+      "B00002R29G",
+      "B000ANY9QS",
+      "B07DLLXF58",
+      "B09TXR8F3C",
+      "B09XB66KBD",
+      "B00B5QGJ5S",
+      "B00EIWTFQ6",
+      "B00GT3PG56",
+      "B01LEWV79K",
+      "B003UVADAS",
+      "B00FDTKEPE",
+      "B0BX8HN93J",
+      "B0BQ2LM1KL",
+      "B096RYM5PM",
+      "B07W924264",
+      "B00B7UHWB2",
+      "B09TVDJW2B",
+      "B00B5QGJ5S",
+      "B00EIWTFQ6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00008YGQI",
+        "reason": "Nostalgic Nintendo GameCube title"
+      },
+      {
+        "item_id": "B004YIM3OU",
+        "reason": "Protective case for Nintendo 3DS"
+      },
+      {
+        "item_id": "B00002R29G",
+        "reason": "Classic wrestling game on Nintendo 64"
+      },
+      {
+        "item_id": "B000ANY9QS",
+        "reason": "Narnia game for nostalgic gamers"
+      },
+      {
+        "item_id": "B07DLLXF58",
+        "reason": "High-quality gaming headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3498,
+    "completion_tokens": 334
+  }
+}

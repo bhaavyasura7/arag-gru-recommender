@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00A3BOFS4",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Mario games on Nintendo."
+      },
+      {
+        "item_id": "B00452V21K",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo, not Xbox."
+      },
+      {
+        "item_id": "B00004NHFM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC flight sim not aligned with interests."
+      },
+      {
+        "item_id": "B0BW131CKM",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes retro Nintendo gaming."
+      },
+      {
+        "item_id": "B008OLZTWQ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Racing game not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1577,
+    "completion_tokens": 153
+  }
+}

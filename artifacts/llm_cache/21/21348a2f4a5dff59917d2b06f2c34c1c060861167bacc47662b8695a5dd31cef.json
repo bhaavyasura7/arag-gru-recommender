@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00NOD0OTW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre, not Zelda-related."
+      },
+      {
+        "item_id": "B00LEB790S",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Different genre, not Zelda-related."
+      },
+      {
+        "item_id": "B000GHK3TA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but popular simulation game."
+      },
+      {
+        "item_id": "B08DKWPSWN",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, but useful."
+      },
+      {
+        "item_id": "B07V8YSBFG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different game, not Zelda-related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1164,
+    "completion_tokens": 161
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00J5C3Z10",
+      "B19B6CCNKD5",
+      "B00CES8EFY",
+      "B002JTX7LY",
+      "B00ZSDTIGG",
+      "B01GHBJM72",
+      "B0079V4FAY",
+      "B00I5LAGM8",
+      "B0B6CCNKD5",
+      "B00L59D9HG",
+      "B00L4VYOIS",
+      "B08MBG5254",
+      "B0C8WZJM66",
+      "B004IK89G0",
+      "B06XCNKQ1T",
+      "B00N2ROO2S",
+      "B00QGBNLUS",
+      "B08PBQ83ZR",
+      "B00L59D9HG",
+      "B00CES8EFY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00J5C3Z10",
+        "reason": "Co-op gameplay in Paris"
+      },
+      {
+        "item_id": "B002JTX7LY",
+        "reason": "Multiplayer racing experience"
+      },
+      {
+        "item_id": "B00CES8EFY",
+        "reason": "Competitive basketball gameplay"
+      },
+      {
+        "item_id": "B01GHBJM72",
+        "reason": "Action-packed fighting game"
+      },
+      {
+        "item_id": "B00ZSDTIGG",
+        "reason": "Enhanced controller for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4149,
+    "completion_tokens": 329
+  }
+}

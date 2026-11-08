@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00DTT4M76",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Assassin's Creed series."
+      },
+      {
+        "item_id": "B006L57EWU",
+        "label": "support",
+        "score": 9,
+        "rationale": "Includes multiple Assassin's Creed titles."
+      },
+      {
+        "item_id": "B01N5CUJ4P",
+        "label": "support",
+        "score": 10,
+        "rationale": "User rated Ezio Trilogy highly."
+      },
+      {
+        "item_id": "B00HEQXYSI",
+        "label": "support",
+        "score": 7,
+        "rationale": "Brotherhood is part of user favorites."
+      },
+      {
+        "item_id": "B078HXR3Z9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Newer title, user hasn't rated."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 800,
+    "completion_tokens": 157
+  }
+}

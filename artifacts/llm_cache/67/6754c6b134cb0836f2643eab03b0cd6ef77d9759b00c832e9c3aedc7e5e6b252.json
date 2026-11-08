@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B06XSCN9BX",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox accessories, not PlayStation."
+      },
+      {
+        "item_id": "B00BHRD4BM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not play Destiny on PS4."
+      },
+      {
+        "item_id": "B07J27TFCD",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys gaming accessories for PC."
+      },
+      {
+        "item_id": "B01GY35UK6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not play Resident Evil on PS4."
+      },
+      {
+        "item_id": "B00ZDNNRB8",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has Xbox controller, likely interested."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1128,
+    "completion_tokens": 166
+  }
+}

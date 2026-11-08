@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07DKYN13M",
+      "B019IAC2OE",
+      "B000GQ1FVQ",
+      "B00LV416KC",
+      "B19IAC2OE",
+      "B000099T2H",
+      "B002BSH3KE",
+      "B005YR1VP2",
+      "B00005Q8LY",
+      "B003ATG8PO",
+      "B00002EPYE",
+      "B000FII14O",
+      "B07YBX4VQN",
+      "B00008I804",
+      "B000GQ1FVQ",
+      "B000099T2H",
+      "B000FII14O",
+      "B07YQQL7G5",
+      "B016PWS77E",
+      "B002I08VDI",
+      "B08YHH5QDG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07DKYN13M",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B019IAC2OE",
+        "reason": "Engaging multiplayer RPG experience"
+      },
+      {
+        "item_id": "B000GQ1FVQ",
+        "reason": "Classic game with multiplayer options"
+      },
+      {
+        "item_id": "B00LV416KC",
+        "reason": "Action-packed co-op gameplay"
+      },
+      {
+        "item_id": "B000099T2H",
+        "reason": "Legacy title with online multiplayer"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3683,
+    "completion_tokens": 324
+  }
+}

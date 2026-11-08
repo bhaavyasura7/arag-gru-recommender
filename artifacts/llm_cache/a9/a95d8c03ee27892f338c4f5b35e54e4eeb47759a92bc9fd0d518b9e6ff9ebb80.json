@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B006VXXJOE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Zombie theme, but not preferred genre."
+      },
+      {
+        "item_id": "B07SCYR5RK",
+        "label": "support",
+        "score": 8,
+        "rationale": "Zombie game aligns with user interests."
+      },
+      {
+        "item_id": "B01BSQV64I",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Popular shooter, but not zombie-themed."
+      },
+      {
+        "item_id": "B08MBKH5KN",
+        "label": "support",
+        "score": 8,
+        "rationale": "Zombie game, co-op play matches interests."
+      },
+      {
+        "item_id": "B0BFDJ1S64",
+        "label": "support",
+        "score": 8,
+        "rationale": "Zombie game with co-op, user enjoys zombies."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2740,
+    "completion_tokens": 159
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08N7PZK77",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo Switch controller matches gaming interest."
+      },
+      {
+        "item_id": "B0BHX56VWX",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse not directly related to consoles."
+      },
+      {
+        "item_id": "B001EYUQT6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B09JYH4F31",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset is useful but not console-specific."
+      },
+      {
+        "item_id": "B071JPNC4C",
+        "label": "support",
+        "score": 9,
+        "rationale": "Nintendo Switch Pro Controller aligns perfectly."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1289,
+    "completion_tokens": 162
+  }
+}

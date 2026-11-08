@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00503E8S2",
+      "B004LLHFAW",
+      "B007CM0K86",
+      "B001EHD9GA",
+      "B16P6KIFY",
+      "B00CSIB3PS",
+      "B0714FFZD8",
+      "B09LYGV4RT",
+      "B003RRXW0I",
+      "B004FEJ8ZA",
+      "B00004SVYF",
+      "B084QDTVC6",
+      "B001YV3K2Y",
+      "B007VYW5K6",
+      "B0032C9V7G",
+      "B08F4C6HCD",
+      "B01MTAVRDY",
+      "B00001LC25",
+      "B01N3ASPNV",
+      "B004LLHFAW",
+      "B00HS7L4XU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00503E8S2",
+        "reason": "Popular multiplayer FPS experience"
+      },
+      {
+        "item_id": "B004LLHFAW",
+        "reason": "Engaging multiplayer vehicular warfare"
+      },
+      {
+        "item_id": "B007CM0K86",
+        "reason": "Immersive action-adventure narrative"
+      },
+      {
+        "item_id": "B001EHD9GA",
+        "reason": "Highly rated co-op zombie shooter"
+      },
+      {
+        "item_id": "B16P6KIFY",
+        "reason": "Includes popular action-adventure series"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3774,
+    "completion_tokens": 337
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001ELJFMI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not RPGs."
+      },
+      {
+        "item_id": "B001EYUWIG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User shows no interest in simulation games."
+      },
+      {
+        "item_id": "B001EYUPHO",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys action and adventure games."
+      },
+      {
+        "item_id": "B004AM656M",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes fighting games and anime."
+      },
+      {
+        "item_id": "B00AEL9MNG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User may need gaming accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1298,
+    "completion_tokens": 153
+  }
+}

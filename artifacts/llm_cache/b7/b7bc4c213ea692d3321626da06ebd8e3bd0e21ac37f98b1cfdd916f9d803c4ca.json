@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EHD9JC",
+      "B00F2Y1CH4",
+      "B5F2Y1CH4",
+      "B12HKX4ZV9",
+      "B07MYVF61Y",
+      "B07HJ7FZM4",
+      "B00ZKZYKMO",
+      "B07MRJ12HX",
+      "B009LQMDTU",
+      "B00E8CF268",
+      "B07MV17D3X",
+      "B07YBXJ5FK",
+      "B00UG63VDG",
+      "B07HKX4ZV9",
+      "B07MV17D3X",
+      "B00RSXRLUE",
+      "B07YBXJ5FK",
+      "B07HKX4ZV9",
+      "B00E8CF268",
+      "B07MV17D3X"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EHD9JC",
+        "reason": "Superhero theme and action-packed"
+      },
+      {
+        "item_id": "B00F2Y1CH4",
+        "reason": "Essential gaming accessory for Xbox"
+      },
+      {
+        "item_id": "B12HKX4ZV9",
+        "reason": "Classic action game with strong narrative"
+      },
+      {
+        "item_id": "B07MYVF61Y",
+        "reason": "Multiplayer action game experience"
+      },
+      {
+        "item_id": "B00ZKZYKMO",
+        "reason": "Fun multiplayer shooter experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3841,
+    "completion_tokens": 335
+  }
+}

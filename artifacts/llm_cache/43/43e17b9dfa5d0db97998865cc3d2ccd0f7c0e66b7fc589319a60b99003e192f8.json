@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B017QU5G1O",
+        "label": "support",
+        "score": 8,
+        "rationale": "Charger for Xbox One controllers preferred."
+      },
+      {
+        "item_id": "B0B9MJK753",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox controllers, user interests."
+      },
+      {
+        "item_id": "B003L77YKS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Action game, not directly related to hardware."
+      },
+      {
+        "item_id": "B072KHSYDD",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Nintendo Switch accessory, less relevant."
+      },
+      {
+        "item_id": "B00004WI4D",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PC game, not aligned with user's hardware."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1419,
+    "completion_tokens": 158
+  }
+}

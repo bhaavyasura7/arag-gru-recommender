@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000B6MLS2",
+      "B001FRTK4O",
+      "B007RFZFNQT",
+      "B017WRM1IA",
+      "B001EYUU3I",
+      "B075ZPGMJT",
+      "B000FRV2UK",
+      "B009D3HSTG",
+      "B001FRTK4O",
+      "B004WIOH4G",
+      "B00D9EPI38",
+      "B00AEX81SG",
+      "B0046XSJM8",
+      "B0030H8I4K",
+      "B00GIK3YAO",
+      "B0046XSJM8",
+      "B001FRTK4O",
+      "B00ZE3616K",
+      "B07MRJ12HX",
+      "B06XHS6534"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000B6MLS2",
+        "reason": "Essential for Xbox 360 gaming"
+      },
+      {
+        "item_id": "B001FRTK4O",
+        "reason": "Great for retro gaming upgrades"
+      },
+      {
+        "item_id": "B007RFZFNQT",
+        "reason": "High-quality controller for Xbox"
+      },
+      {
+        "item_id": "B017WRM1IA",
+        "reason": "Perfect for Nintendo Switch repairs"
+      },
+      {
+        "item_id": "B001EYUU3I",
+        "reason": "Classic game for nostalgic players"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3603,
+    "completion_tokens": 323
+  }
+}

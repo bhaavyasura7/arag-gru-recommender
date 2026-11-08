@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B005D7G3LA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00NAW5R0I",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo system aligns with user history."
+      },
+      {
+        "item_id": "B0083GAF9E",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not a strong match."
+      },
+      {
+        "item_id": "B0B5M66PSW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Remaster, but not user’s preferred genre."
+      },
+      {
+        "item_id": "B07P27XFP7",
+        "label": "support",
+        "score": 6,
+        "rationale": "RPG aligns with user’s interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1377,
+    "completion_tokens": 161
+  }
+}

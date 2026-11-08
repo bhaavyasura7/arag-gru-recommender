@@ -1,0 +1,16 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B099YTDMZ3",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo DS games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 697,
+    "completion_tokens": 35
+  }
+}

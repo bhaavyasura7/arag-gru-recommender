@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00917DBUE",
+      "B001ELJFLE",
+      "B07H68BTNJ",
+      "B10W6CTY8B",
+      "B00BG2CSDS",
+      "B10W6CTY8B",
+      "B08R5RM4SF",
+      "B0030ZRUOQ",
+      "B08N5XK81R",
+      "B000KIPDZY",
+      "B00004SW2C",
+      "B00005QIQX",
+      "B00002SVMF",
+      "B01FFC4NVY",
+      "B08S39W8JR",
+      "B07GFH462T",
+      "B07GSKS2K7",
+      "B0165YCDC2",
+      "B08N5XK81R",
+      "B000KIPDZY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00917DBUE",
+        "reason": "Highly rated JRPG experience"
+      },
+      {
+        "item_id": "B001ELJFLE",
+        "reason": "Action-adventure gameplay"
+      },
+      {
+        "item_id": "B07H68BTNJ",
+        "reason": "Compatible with Nintendo Switch"
+      },
+      {
+        "item_id": "B10W6CTY8B",
+        "reason": "Enhances console gaming experience"
+      },
+      {
+        "item_id": "B00BG2CSDS",
+        "reason": "Immersive storytelling elements"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3259,
+    "completion_tokens": 321
+  }
+}

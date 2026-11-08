@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01J4JYIVO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys RPGs but no Diablo history."
+      },
+      {
+        "item_id": "B01A13062W",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys RPGs but no Diablo history."
+      },
+      {
+        "item_id": "B00KAPFOJ2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys RPGs but no Diablo history."
+      },
+      {
+        "item_id": "B00CJ8X25G",
+        "label": "support",
+        "score": 8,
+        "rationale": "User liked Oblivion, similar RPG style."
+      },
+      {
+        "item_id": "B005FDUSTA",
+        "label": "support",
+        "score": 8,
+        "rationale": "User liked Oblivion, similar RPG style."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1938,
+    "completion_tokens": 164
+  }
+}

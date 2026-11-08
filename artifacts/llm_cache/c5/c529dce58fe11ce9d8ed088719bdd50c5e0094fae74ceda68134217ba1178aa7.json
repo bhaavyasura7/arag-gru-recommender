@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B077XFJZKY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox and PlayStation games."
+      },
+      {
+        "item_id": "B0BMLPN46D",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Keyboard not directly related to gaming."
+      },
+      {
+        "item_id": "B08FXLY3F5",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own Nintendo systems."
+      },
+      {
+        "item_id": "B09MR2QDLS",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers action games over visual novels."
+      },
+      {
+        "item_id": "B000B6N2MG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own a PSP."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1346,
+    "completion_tokens": 163
+  }
+}

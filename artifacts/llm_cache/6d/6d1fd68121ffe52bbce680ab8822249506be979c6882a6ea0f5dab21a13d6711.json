@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08YMW63JT",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D",
+      "B20XRMFY4D"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08YMW63JT",
+        "reason": "Custom faceplate for PS5 controller"
+      },
+      {
+        "item_id": "B20XRMFY4D",
+        "reason": "Compatible with Xbox accessories"
+      },
+      {
+        "item_id": "B20XRMFY4D",
+        "reason": "Performance-enhancing accessory"
+      },
+      {
+        "item_id": "B20XRMFY4D",
+        "reason": "Family-friendly game"
+      },
+      {
+        "item_id": "B20XRMFY4D",
+        "reason": "Decorative faceplate for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3205,
+    "completion_tokens": 334
+  }
+}

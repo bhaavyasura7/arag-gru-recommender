@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00F8W9SWQ",
+      "B0BVWPMMCT",
+      "B18MZG427Q",
+      "B001ELJE4W",
+      "B07X56VM5R",
+      "B00HGLLRV2",
+      "B00WOK8Z74",
+      "B004HD55VK",
+      "B00F27JGVA",
+      "B0C3KYVDWT",
+      "B00JA81WQE",
+      "B000GCJ6MK",
+      "B00009WAUO",
+      "B00000K1VE",
+      "B00003031F",
+      "B009DYE3JI",
+      "B073X4RGFP",
+      "B00Y4S5KPY",
+      "B00F8W9SWQ",
+      "B00F27JGVA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00F8W9SWQ",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B0BVWPMMCT",
+        "reason": "Premium gaming headset"
+      },
+      {
+        "item_id": "B08MZG427Q",
+        "reason": "VR accessory for Oculus Quest 2"
+      },
+      {
+        "item_id": "B001ELJE4W",
+        "reason": "Popular gaming title"
+      },
+      {
+        "item_id": "B07X56VM5R",
+        "reason": "Highly rated RPG game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3611,
+    "completion_tokens": 320
+  }
+}

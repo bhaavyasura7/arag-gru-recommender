@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B087NNPYP3",
+      "B071XXXK2X",
+      "B05LTXBY4M",
+      "B19QQ8N7LL",
+      "B002JTX8AO",
+      "B000N5Z2L4",
+      "B000P46NKC",
+      "B00004KHB2",
+      "B000EHD9JW",
+      "B004QIY0Y4",
+      "B002TK1Q3Y",
+      "B00000K1VA",
+      "B0041HROGG",
+      "B002I09286",
+      "B0009E3U4K",
+      "B004QEV0MI",
+      "B000N5Z2L4",
+      "B000P46NKC",
+      "B0013E9HP6",
+      "B00BHRD4BM",
+      "B004QIY0Y4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087NNPYP3",
+        "reason": "Highly rated Nintendo Switch game"
+      },
+      {
+        "item_id": "B071XXXK2X",
+        "reason": "Useful battery pack for Joy-Cons"
+      },
+      {
+        "item_id": "B09LTXBY4M",
+        "reason": "Connects GameCube controllers"
+      },
+      {
+        "item_id": "B07QQ8N7LL",
+        "reason": "Popular Star Wars game"
+      },
+      {
+        "item_id": "B002JTX8AO",
+        "reason": "Classic PlayStation game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3511,
+    "completion_tokens": 335
+  }
+}

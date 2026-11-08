@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B088FH9BXD",
+      "B0B67JB82Z",
+      "B14D3DFKYG",
+      "B07982R9BZ",
+      "B098S7NZSH",
+      "B08LL8GL1Y",
+      "B08F9M2PJ9",
+      "B083FXG17V",
+      "B099HQ1HKC",
+      "B00005OVGD",
+      "B00006IZKN",
+      "B000GV8LTU",
+      "B072XB87XJ",
+      "B006CXMTWQ",
+      "B01G36K1OY",
+      "B0883DFKYG",
+      "B079Z17FVH",
+      "B003WFLGQM",
+      "B08SF95Y76",
+      "B09LV95L1B",
+      "B088FH9BXD"
+    ],
+    "reasons": [
+      {
+        "item_id": "B088FH9BXD",
+        "reason": "Perfect protective case for Switch"
+      },
+      {
+        "item_id": "B0B67JB82Z",
+        "reason": "Joycon grip caps enhance gameplay"
+      },
+      {
+        "item_id": "B14D3DFKYG",
+        "reason": "Cute design for Switch controllers"
+      },
+      {
+        "item_id": "B07982R9BZ",
+        "reason": "Thumb grips improve control"
+      },
+      {
+        "item_id": "B098S7NZSH",
+        "reason": "Storage for game collection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3620,
+    "completion_tokens": 327
+  }
+}

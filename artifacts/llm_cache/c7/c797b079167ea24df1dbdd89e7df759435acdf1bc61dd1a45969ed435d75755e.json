@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000CBZF8Y",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Fight Night series."
+      },
+      {
+        "item_id": "B0001BDON8",
+        "label": "support",
+        "score": 9,
+        "rationale": "User rated Fight Night 2004 highly."
+      },
+      {
+        "item_id": "B000E6DYY4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers PS2 games over PS3."
+      },
+      {
+        "item_id": "B00LNFK4SY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User hasn't shown interest in fighting games."
+      },
+      {
+        "item_id": "B007NNLHWW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User prefers boxing games over UFC."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 154
+  }
+}

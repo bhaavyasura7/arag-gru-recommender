@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003DOSRSW",
+        "label": "support",
+        "score": 8,
+        "rationale": "Action RPG aligns with user preferences."
+      },
+      {
+        "item_id": "B00LPSS2LK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Exploration RPG, but different style."
+      },
+      {
+        "item_id": "B07YBX5FVF",
+        "label": "support",
+        "score": 9,
+        "rationale": "Similar RPG elements to Skyrim."
+      },
+      {
+        "item_id": "B07GB1D7PF",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Console bundle, not a game."
+      },
+      {
+        "item_id": "B016PWS77E",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre, not user’s interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1266,
+    "completion_tokens": 154
+  }
+}

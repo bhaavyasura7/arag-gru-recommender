@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B06XFYYQ4Q",
+      "B08RYF78ZV",
+      "B001D7AGIU",
+      "B00K3T531O",
+      "B08Q7Z1DYV",
+      "B07G241785",
+      "B001EYUTU2",
+      "B001EYUP60",
+      "B015QM2S60",
+      "B00V5B8VYU",
+      "B00005UEOP",
+      "B000MWYEE4",
+      "B002MUB104",
+      "B09GRG448X",
+      "B07VYK5L87",
+      "B19GRG448X",
+      "B008GW57JS",
+      "B008N04RR6",
+      "B0018XFQHK",
+      "B000GA6YF4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B06XFYYQ4Q",
+        "reason": "High-quality screen protector"
+      },
+      {
+        "item_id": "B08RYF78ZV",
+        "reason": "Dual controller charging stand"
+      },
+      {
+        "item_id": "B001D7AGIU",
+        "reason": "Comprehensive accessory pack"
+      },
+      {
+        "item_id": "B00K3T531O",
+        "reason": "Controller skin for PS4"
+      },
+      {
+        "item_id": "B08Q7Z1DYV",
+        "reason": "PS5 controller grip cover"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3254,
+    "completion_tokens": 318
+  }
+}

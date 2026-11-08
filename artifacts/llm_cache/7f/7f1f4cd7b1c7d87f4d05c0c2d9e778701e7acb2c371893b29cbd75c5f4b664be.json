@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001TOQ8UW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different franchise, but still adventure game."
+      },
+      {
+        "item_id": "B087JLL5KP",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not related to gaming experience."
+      },
+      {
+        "item_id": "B004JN0U8Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic game, but not highly relevant."
+      },
+      {
+        "item_id": "B07RB1PM3J",
+        "label": "support",
+        "score": 7,
+        "rationale": "Popular sports game, aligns with gaming interest."
+      },
+      {
+        "item_id": "B00004SVZ0",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Legacy system game, less relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1242,
+    "completion_tokens": 159
+  }
+}

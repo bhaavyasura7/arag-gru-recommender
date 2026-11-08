@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B002G9MHY0",
+      "B0011E4J7O",
+      "B00004SVYE",
+      "B001FWLHPE",
+      "B002I0J8KS",
+      "B0011E4J2Y",
+      "B00XZDQ6O8",
+      "B00KCCNMYW",
+      "B00CQ35C1Q",
+      "B008VQ8HBO",
+      "B00BHRD4BM",
+      "B006VR663G",
+      "B00XZDQ6O8",
+      "B0011E4J2Y",
+      "B00KCCNMYW",
+      "B0011E4J7O",
+      "B00CQ35C1Q",
+      "B00BHRD4BM",
+      "B00004U5VU",
+      "B002I0JZIS",
+      "B0011E4J2Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002G9MHY0",
+        "reason": "Essential tool for controller maintenance"
+      },
+      {
+        "item_id": "B0011E4J7O",
+        "reason": "Rechargeable kit for Xbox 360 controllers"
+      },
+      {
+        "item_id": "B00004SVYE",
+        "reason": "Classic game for retro gaming fans"
+      },
+      {
+        "item_id": "B001FWLHPE",
+        "reason": "Long-lasting battery for Wii Fit"
+      },
+      {
+        "item_id": "B002I0J8KS",
+        "reason": "Replacement cover for Game Boy Advance"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3460,
+    "completion_tokens": 350
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09LRQDMHN",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS5 accessory, user prefers Xbox games."
+      },
+      {
+        "item_id": "B077TB64KB",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Switch game, user prefers Xbox."
+      },
+      {
+        "item_id": "B07FFQN7BY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Switch accessories, user prefers Xbox."
+      },
+      {
+        "item_id": "B001EYUNYE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo DS game, user prefers Xbox."
+      },
+      {
+        "item_id": "B00009WAVL",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Legacy system game, user prefers newer consoles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1420,
+    "completion_tokens": 162
+  }
+}

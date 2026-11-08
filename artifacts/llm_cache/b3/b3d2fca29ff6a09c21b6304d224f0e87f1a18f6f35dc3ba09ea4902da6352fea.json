@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003UVDOA4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B0073PQK7C",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PlayStation 3 games."
+      },
+      {
+        "item_id": "B085LSHNQ5",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has PlayStation 3 game interest."
+      },
+      {
+        "item_id": "B08N4LB3LB",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation, not Switch."
+      },
+      {
+        "item_id": "B00VMU99PE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not relevant to user's gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1136,
+    "completion_tokens": 160
+  }
+}

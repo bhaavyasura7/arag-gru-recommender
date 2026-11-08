@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "0439374391",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user interests."
+      },
+      {
+        "item_id": "B0BTNG1QFB",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances Nintendo Switch gaming experience."
+      },
+      {
+        "item_id": "B07NRSQFSV",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not relevant to user's gaming preferences."
+      },
+      {
+        "item_id": "B000E23W6S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, not aligned with interests."
+      },
+      {
+        "item_id": "B09XDPMZJ6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Keyboard not directly related to gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1691,
+    "completion_tokens": 156
+  }
+}

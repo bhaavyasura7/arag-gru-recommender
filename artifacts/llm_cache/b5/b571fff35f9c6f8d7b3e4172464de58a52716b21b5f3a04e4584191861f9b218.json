@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01N7VUOPH",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "RPG genre, but not action-oriented."
+      },
+      {
+        "item_id": "B0001GSV1S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Classic game, not aligned with interests."
+      },
+      {
+        "item_id": "B07NY3JTXK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Trading cards, not a video game."
+      },
+      {
+        "item_id": "B01J4K4TSU",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar genre, PlayStation 4 platform."
+      },
+      {
+        "item_id": "B00Z9LUDX4",
+        "label": "support",
+        "score": 6,
+        "rationale": "Action-adventure, PlayStation 4 platform."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 978,
+    "completion_tokens": 170
+  }
+}

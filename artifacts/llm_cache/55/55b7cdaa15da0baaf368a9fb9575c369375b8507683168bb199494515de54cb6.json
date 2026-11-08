@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0038MVFYC",
+      "B08KHFBP4S",
+      "B08JJ14GQZ",
+      "B16B0BHX56VWX",
+      "B09C4DPKGF",
+      "B01C48EA1A",
+      "B07WS18ZS3",
+      "B01GW90BTW",
+      "B001EYUU2O",
+      "B001EYUNYY",
+      "B001A4MTGS",
+      "B001EYUQT6",
+      "B09XV52WDK",
+      "B00776UHG2",
+      "B071JPNC4C",
+      "B09JYH4F31",
+      "B076FCM9B5",
+      "B08N7PZK77",
+      "B007VYW5Y2",
+      "B001EYUNYY",
+      "B12B0BHX56VWX"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0038MVFYC",
+        "reason": "Popular family-friendly Pokemon game"
+      },
+      {
+        "item_id": "B08KHFBP4S",
+        "reason": "Ergonomic grip for Nintendo Switch"
+      },
+      {
+        "item_id": "B08JJ14GQZ",
+        "reason": "Cute design, enhances comfort"
+      },
+      {
+        "item_id": "B09C4DPKGF",
+        "reason": "High-quality gaming headset for Switch"
+      },
+      {
+        "item_id": "B16B0BHX56VWX",
+        "reason": "Wireless controller for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4006,
+    "completion_tokens": 344
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000G1O7DE",
+      "B00PJKWN2Y",
+      "B07177727N",
+      "B0B4S2K2ST",
+      "B086LB3ZMG",
+      "B00CIBAZOU",
+      "B001EYUQTQ",
+      "B00IB02RD4",
+      "B07D5G4KXJ",
+      "B07C2M38SB",
+      "B001EYUNNK",
+      "B00K1HF3HM",
+      "B09LTYXWYD",
+      "B01GVE4ZXQ",
+      "B079MRDY5V",
+      "B00638TBJY",
+      "B0BDWVBWC9",
+      "B07F7XWVMQ",
+      "B000066RKC",
+      "B8F7XWVMQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000G1O7DE",
+        "reason": "Essential for PSP gaming storage"
+      },
+      {
+        "item_id": "B00PJKWN2Y",
+        "reason": "Classic horror game experience"
+      },
+      {
+        "item_id": "B07177727N",
+        "reason": "Accessory for Nintendo Switch"
+      },
+      {
+        "item_id": "B0B4S2K2ST",
+        "reason": "Protective cover for PS5"
+      },
+      {
+        "item_id": "B086LB3ZMG",
+        "reason": "Charger for PS4 controllers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3934,
+    "completion_tokens": 329
+  }
+}

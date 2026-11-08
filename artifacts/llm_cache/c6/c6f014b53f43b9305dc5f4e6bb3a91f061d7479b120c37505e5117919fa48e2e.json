@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B071LG2TNK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC gaming headset, not Xbox related."
+      },
+      {
+        "item_id": "B002FGU070",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers console games."
+      },
+      {
+        "item_id": "B08S2YG42Z",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Toys, not relevant to user's interests."
+      },
+      {
+        "item_id": "B0B2P7QWQX",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Mario Kart, user enjoys."
+      },
+      {
+        "item_id": "B002YGS5RI",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Pinball game, not aligned with preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1344,
+    "completion_tokens": 167
+  }
+}

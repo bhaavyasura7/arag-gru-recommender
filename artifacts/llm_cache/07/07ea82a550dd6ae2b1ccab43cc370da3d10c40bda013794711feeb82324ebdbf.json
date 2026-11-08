@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00Z9THPWS",
+      "B00503E8S2",
+      "B001EYUWAO",
+      "B00UBL0ZQC",
+      "B0040J1REA",
+      "B003U7WCEM",
+      "B07MGJXGBF",
+      "B001E8WQJA",
+      "B093GLPLLB",
+      "B006JKARN0",
+      "B00H3SGII0",
+      "B00JM57VDS",
+      "B00KUZ1K8Q",
+      "B00B14LVGK",
+      "B01N5P86A7",
+      "B075CDW965",
+      "B0BDF9WZQQ",
+      "B00Z9THPWS",
+      "B00H3SGII0",
+      "B001EYUY70",
+      "B001E8WQJA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00Z9THPWS",
+        "reason": "Popular Xbox 360 game"
+      },
+      {
+        "item_id": "B00503E8S2",
+        "reason": "Top-rated Xbox 360 game"
+      },
+      {
+        "item_id": "B001EYUWAO",
+        "reason": "Classic sports game"
+      },
+      {
+        "item_id": "B00UBL0ZQC",
+        "reason": "Farming simulation game"
+      },
+      {
+        "item_id": "B0040J1REA",
+        "reason": "Accessory for Xbox 360"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3801,
+    "completion_tokens": 331
+  }
+}

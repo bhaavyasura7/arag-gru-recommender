@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B019ZL8YP8D",
+      "B073X3GHHX",
+      "B12D8H09LQ",
+      "B001C4VU5C",
+      "B00VULDPCI",
+      "B0079V4GK8",
+      "B00BHRD4BM",
+      "B0041SGD44",
+      "B096MMH5KG",
+      "B12D8H09LQ",
+      "B001D8Q5MA",
+      "B00KGW52DM",
+      "B0079V4GK8",
+      "B00Z9TIM3Y",
+      "B00004U5VF",
+      "B000A15K0Y",
+      "B00BHRD4BM",
+      "B001C4VU5C",
+      "B07J6Y2T42",
+      "B0BB6YVNBK",
+      "B008CP6MA2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B096MMH5KG",
+        "reason": "New Nintendo Switch game available"
+      },
+      {
+        "item_id": "B073X3GHHX",
+        "reason": "Customizable Nintendo Switch controller"
+      },
+      {
+        "item_id": "B12D8H09LQ",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B001C4VU5C",
+        "reason": "Popular PC game title"
+      },
+      {
+        "item_id": "B00VULDPCI",
+        "reason": "Engaging game for PC"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3670,
+    "completion_tokens": 341
+  }
+}

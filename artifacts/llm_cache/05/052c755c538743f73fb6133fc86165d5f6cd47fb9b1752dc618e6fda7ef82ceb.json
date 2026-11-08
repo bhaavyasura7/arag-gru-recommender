@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09H41CRHK",
+      "B0BBQQWFPB",
+      "B09CTMDQG9",
+      "B0C6J34WY4",
+      "B0BB9TFBRJ",
+      "B09TDYJBCL",
+      "B07DY2XHGM",
+      "B09KY5T9V4",
+      "B073ZB314P",
+      "B002GHHJRW",
+      "B09B1MQV35",
+      "B0865SV2BK",
+      "B0B93Y6MMP",
+      "B00306MN7E",
+      "B00006FWU1",
+      "B00004TH8D",
+      "B0035V3H38",
+      "B00C2TCCSK",
+      "B078SKMKF5",
+      "B008GW5V9E",
+      "B0BB9TFBRJ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09H41CRHK",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B0BBQQWFPB",
+        "reason": "Unique N64 game for retro fans"
+      },
+      {
+        "item_id": "B09CTMDQG9",
+        "reason": "Premium gaming headset"
+      },
+      {
+        "item_id": "B0C6J34WY4",
+        "reason": "Limited edition vinyl for collectors"
+      },
+      {
+        "item_id": "B0BB9TFBRJ",
+        "reason": "New game for nostalgic console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3209,
+    "completion_tokens": 340
+  }
+}

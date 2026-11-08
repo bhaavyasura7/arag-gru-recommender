@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B082W1M8H1",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not directly related to games."
+      },
+      {
+        "item_id": "B00005BIG7",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers newer games, not legacy."
+      },
+      {
+        "item_id": "B0B4VPT4PJ",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox games, matches interests."
+      },
+      {
+        "item_id": "B00C710794",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Wii controller, user prefers other systems."
+      },
+      {
+        "item_id": "B01GVJURHO",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Xbox, likes gaming accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 953,
+    "completion_tokens": 160
+  }
+}

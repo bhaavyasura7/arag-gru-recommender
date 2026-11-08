@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00NB5R2E8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user preferences."
+      },
+      {
+        "item_id": "B000V08CUO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Shooting gallery game, not preferred genre."
+      },
+      {
+        "item_id": "B002GP6WE0",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different style, not typical for user."
+      },
+      {
+        "item_id": "B00002S7Z2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Shooting game, but not user’s focus."
+      },
+      {
+        "item_id": "B004D8QAAO",
+        "label": "support",
+        "score": 6,
+        "rationale": "Action-oriented, aligns with gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2572,
+    "completion_tokens": 160
+  }
+}

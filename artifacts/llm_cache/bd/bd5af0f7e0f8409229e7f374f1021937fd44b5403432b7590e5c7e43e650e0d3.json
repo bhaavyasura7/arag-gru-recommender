@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0006BK58U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Racing games not in user history."
+      },
+      {
+        "item_id": "B00HLWIS72",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys interactive gaming figures."
+      },
+      {
+        "item_id": "B008VQ8HBO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers less tactical gameplay."
+      },
+      {
+        "item_id": "B004C43FH0",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys simulation and strategy games."
+      },
+      {
+        "item_id": "B00005B8G1",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User has no interest in consoles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1357,
+    "completion_tokens": 151
+  }
+}

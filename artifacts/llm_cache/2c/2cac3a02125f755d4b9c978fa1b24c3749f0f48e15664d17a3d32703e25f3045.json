@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0050SYYTK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox One, not Xbox 360."
+      },
+      {
+        "item_id": "B004VNHVF4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, not directly related to consoles."
+      },
+      {
+        "item_id": "B006QRMR4S",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in Nintendo."
+      },
+      {
+        "item_id": "B01NAGTKX3",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox over PlayStation games."
+      },
+      {
+        "item_id": "B00SBXBQDS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in PlayStation VR."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1334,
+    "completion_tokens": 168
+  }
+}

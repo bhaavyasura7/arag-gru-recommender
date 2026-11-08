@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07C24MS83",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers Xbox, not Switch games."
+      },
+      {
+        "item_id": "B091TKCXX9",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B07X43LX4N",
+        "label": "support",
+        "score": 7,
+        "rationale": "Xbox 360 game aligns with interests."
+      },
+      {
+        "item_id": "B0B7Q1S7GY",
+        "label": "support",
+        "score": 8,
+        "rationale": "External SSD compatible with Xbox."
+      },
+      {
+        "item_id": "B00648XQZ8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not relevant to user's gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1263,
+    "completion_tokens": 157
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00KWOSQC8",
+      "B07BWH4GWB",
+      "B10RZC5JXY",
+      "B08RZC5JXY",
+      "B07J1Z5W3B",
+      "B07P54T1JF",
+      "B00JEYPJGS",
+      "B00HQNYMQ2",
+      "B00005Y1NE",
+      "B000KF0GSQ",
+      "B0006ZB0ZS",
+      "B08V8Z9Y7S",
+      "B003V1WHOM",
+      "B00R55JR4S",
+      "B076G1YC6F",
+      "B07R33CZ92",
+      "B00GD8PO68",
+      "B00EUT0BQU",
+      "B00M4X7HG",
+      "B00M4X7HG",
+      "B00M4X7HG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KWOSQC8",
+        "reason": "Popular Pokémon game for 3DS"
+      },
+      {
+        "item_id": "B07BWH4GWB",
+        "reason": "New WarioWare game for 3DS"
+      },
+      {
+        "item_id": "B07P54T1JF",
+        "reason": "Storage for Nintendo 3DS games"
+      },
+      {
+        "item_id": "B08RZC5JXY",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B08V8Z9Y7S",
+        "reason": "Carrying case for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3368,
+    "completion_tokens": 355
+  }
+}

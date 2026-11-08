@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07WXL4V7L",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user history."
+      },
+      {
+        "item_id": "B002NIK174",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming mouse aligns with PC gaming interest."
+      },
+      {
+        "item_id": "B00LUL99FU",
+        "label": "support",
+        "score": 7,
+        "rationale": "Headset enhances gaming experience for PC."
+      },
+      {
+        "item_id": "B0B6VPBCWJ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Cute design, but not essential for gaming."
+      },
+      {
+        "item_id": "B0BC79QXSC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Focus on Nintendo Switch, not PC."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1672,
+    "completion_tokens": 161
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B087NN6GRF",
+      "B01MR63I6F",
+      "B0053B66KE",
+      "B0044XU27A",
+      "B001E8WQKY",
+      "B000S1MMI4",
+      "B003S9WQAM",
+      "B0013OM528",
+      "B002I08VDI",
+      "B004LQN77M",
+      "B0007PLL06",
+      "B006NRMBF6",
+      "B00K5I323O",
+      "B001E58B1K",
+      "B009VUHVY8",
+      "B003O680ZY",
+      "B00GGURCU4",
+      "B002I0K7DK",
+      "B001F8188Y",
+      "B001E8WQKY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087NN6GRF",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B01MR63I6F",
+        "reason": "High-quality carrying case"
+      },
+      {
+        "item_id": "B0053B66KE",
+        "reason": "Essential Pokémon game"
+      },
+      {
+        "item_id": "B0044XU27A",
+        "reason": "Engaging Xbox 360 game"
+      },
+      {
+        "item_id": "B001E8WQKY",
+        "reason": "Classic Resident Evil title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3707,
+    "completion_tokens": 317
+  }
+}

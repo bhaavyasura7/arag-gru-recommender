@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B007D0RPPS",
+      "B00K1L8B40",
+      "B002DPUJCE",
+      "B077C47BGP",
+      "B000089G5U",
+      "B06VTHT18S",
+      "B00DCUO3SK",
+      "B003L1ADZW",
+      "B09Y1611MW",
+      "B0033ZX7DQ",
+      "B01J4JSI0G",
+      "B003VH5Z2C",
+      "B01A1V6164",
+      "B07NSTTMVB",
+      "B09W2H3JMV",
+      "B003JZT1OY",
+      "B07MZNLL2G",
+      "B096VSJLC9",
+      "B0069A949S",
+      "B01J4JSI0G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B007D0RPPS",
+        "reason": "Highly immersive narrative experience"
+      },
+      {
+        "item_id": "B00K1L8B40",
+        "reason": "Engaging tactical gameplay"
+      },
+      {
+        "item_id": "B002DPUJCE",
+        "reason": "Rich RPG elements and graphics"
+      },
+      {
+        "item_id": "B077C47BGP",
+        "reason": "Innovative VR storytelling"
+      },
+      {
+        "item_id": "B000089G5U",
+        "reason": "Classic adventure with customization"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3902,
+    "completion_tokens": 321
+  }
+}

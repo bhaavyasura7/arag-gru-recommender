@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUNHG",
+      "B0716ZFWWV",
+      "B04HX1QFY",
+      "B00M3D8AQ8",
+      "B07YBX7Y3P",
+      "B005GISQX4",
+      "B0086VPUHI",
+      "B20KTQCA9Y",
+      "B07DK1H3H5",
+      "B0031Q7N1E",
+      "B003O6G114",
+      "B00EZIXEIS",
+      "B008N9NX4U",
+      "B09JDDBX8R",
+      "B00KTORA0K",
+      "B00M3D8AQ8",
+      "B00KTQCA9Y",
+      "B00EZIXEIS",
+      "B008VXCPV0",
+      "B07YBXNWXL"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUNHG",
+        "reason": "Classic game for retro gamers"
+      },
+      {
+        "item_id": "B0716ZFWWV",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B004HX1QFY",
+        "reason": "Essential accessory for Xbox"
+      },
+      {
+        "item_id": "B00M3D8AQ8",
+        "reason": "Popular game with strong reviews"
+      },
+      {
+        "item_id": "B07YBX7Y3P",
+        "reason": "Highly rated Xbox game edition"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3727,
+    "completion_tokens": 326
+  }
+}

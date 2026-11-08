@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B19WLT1C27",
+      "B09P17SD51",
+      "B17W9RG3XS",
+      "B19Z4YKVR8",
+      "B00Z9TM72Q",
+      "B004HD55VK",
+      "B007W5PG5U",
+      "B0036CS9SO",
+      "B008CP6MA2",
+      "B0128UH1VU",
+      "B006ZN65BY",
+      "B0002HDSZ0",
+      "B00BQVXUOA",
+      "B000LSJKAM",
+      "B00936K09S",
+      "B002DLOM6C",
+      "B000BI3SIC",
+      "B00BFKZMHRL",
+      "B001JKTC9A",
+      "B0002HDSZ0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07WLT1C27",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B09P17SD51",
+        "reason": "Enhances PS5 controller performance"
+      },
+      {
+        "item_id": "B01N9RG3XS",
+        "reason": "Compatible with multiple devices"
+      },
+      {
+        "item_id": "B07Z4YKVR8",
+        "reason": "Immersive surround sound experience"
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Popular first-person shooter game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3647,
+    "completion_tokens": 323
+  }
+}

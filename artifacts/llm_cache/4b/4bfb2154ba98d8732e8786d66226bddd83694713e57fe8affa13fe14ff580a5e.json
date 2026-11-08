@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00LV8I30E",
+      "B08YY7VMTB",
+      "B00003GPV6",
+      "B00H2XPX8W",
+      "B004WF32G8",
+      "B09JKDB8D9",
+      "B0028A6VDU",
+      "B0042X9M0K",
+      "B00OVGABF8",
+      "B07N8PLF2Q",
+      "B0719GHHQP",
+      "B09QM5T323",
+      "B00H2XPX8W",
+      "B004D1QC1I",
+      "B000035XUY",
+      "B09ZDP14DG",
+      "B0042X9M0K",
+      "B00KWOSQC8",
+      "B000035XUY",
+      "B0042X9M0K"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00LV8I30E",
+        "reason": "Popular Pokémon title on Nintendo"
+      },
+      {
+        "item_id": "B08YY7VMTB",
+        "reason": "High-quality Nintendo Switch game"
+      },
+      {
+        "item_id": "B00003GPV6",
+        "reason": "Classic Nintendo 64 game"
+      },
+      {
+        "item_id": "B00H2XPX8W",
+        "reason": "Guide for a beloved franchise"
+      },
+      {
+        "item_id": "B004WF32G8",
+        "reason": "Final installment of a classic series"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3393,
+    "completion_tokens": 333
+  }
+}

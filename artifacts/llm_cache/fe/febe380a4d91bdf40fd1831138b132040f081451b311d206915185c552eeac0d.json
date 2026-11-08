@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B003IPCF02",
+      "B00H727K20",
+      "B00NY7H0T0",
+      "B002DY9KCU",
+      "B004GGUAJU",
+      "B004OQML9Y",
+      "B00HVBPRUO",
+      "B07NV7BG67",
+      "B001Q24UAM",
+      "B07K3KHFSY",
+      "B002NNNL1W",
+      "B00005BWH5",
+      "B00005QDPU",
+      "B003L20IQU",
+      "B00BGA9WK2",
+      "B002HJYKG2",
+      "B00H727K20",
+      "B004OQML9Y",
+      "B00HVBPRUO",
+      "B000W5Y49G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B003IPCF02",
+        "reason": "Popular military-themed FPS"
+      },
+      {
+        "item_id": "B00H727K20",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B00NY7H0T0",
+        "reason": "Engaging action-adventure game"
+      },
+      {
+        "item_id": "B002DY9KCU",
+        "reason": "Action-packed Dragon Ball game"
+      },
+      {
+        "item_id": "B004GGUAJU",
+        "reason": "Exciting extreme sports gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3522,
+    "completion_tokens": 317
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004IMGQT0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers sports games, not strategy."
+      },
+      {
+        "item_id": "B09Z9Q6DZC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not directly related to games."
+      },
+      {
+        "item_id": "B0006IGX9S",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Charging cradle, not a game."
+      },
+      {
+        "item_id": "B075B475G5",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS4 accessory, aligns with gaming interest."
+      },
+      {
+        "item_id": "B00005O0I8",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Xbox accessory, user prefers PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 162
+  }
+}

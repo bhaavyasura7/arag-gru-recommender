@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09MFFTCX8",
+      "B09YTV96R7",
+      "B07XG45X73",
+      "B19HCTJC91",
+      "B0B11Z2PYX",
+      "B08GP26H23",
+      "B01DQJYC46",
+      "B07TMF3LMY",
+      "B08H87324H",
+      "B01N0OGLXN",
+      "B004WLRR4K",
+      "B07JVT8VTW",
+      "B001L5TJ1O",
+      "B00BSKXT2C",
+      "B07NV51P8S",
+      "B013989D34",
+      "B00002SUM0",
+      "B007HKIV7K",
+      "B00MF3SD2C",
+      "B01N0OGLXN"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09MFFTCX8",
+        "reason": "Official Nintendo Switch controller"
+      },
+      {
+        "item_id": "B09YTV96R7",
+        "reason": "Cute protective case for Switch"
+      },
+      {
+        "item_id": "B07XG45X73",
+        "reason": "Joy-Con shell for customization"
+      },
+      {
+        "item_id": "B19HCTJC91",
+        "reason": "Popular Switch game bundle"
+      },
+      {
+        "item_id": "B0B11Z2PYX",
+        "reason": "New Xbox game release"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3035,
+    "completion_tokens": 326
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07R1V63Y9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user history."
+      },
+      {
+        "item_id": "B07KHNMRHL",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys RPGs, similar genre."
+      },
+      {
+        "item_id": "B0091P25X0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action RPGs, not hunting."
+      },
+      {
+        "item_id": "B00KQXKULK",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys sports games, FIFA fits."
+      },
+      {
+        "item_id": "B07484YY4L",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game, less relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 163
+  }
+}

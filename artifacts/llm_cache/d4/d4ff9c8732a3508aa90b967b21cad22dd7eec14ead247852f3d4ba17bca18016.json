@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07J1Z5W3B",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B00R55JR4S",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse, not a primary interest."
+      },
+      {
+        "item_id": "B076G1YC6F",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Replacement part, not a game."
+      },
+      {
+        "item_id": "B00KWOSQC8",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly related to Pokémon interest."
+      },
+      {
+        "item_id": "B07BWH4GWB",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo 3DS game aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 159
+  }
+}

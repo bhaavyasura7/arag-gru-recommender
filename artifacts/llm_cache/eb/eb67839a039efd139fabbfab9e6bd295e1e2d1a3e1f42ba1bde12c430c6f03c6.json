@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07TN89FGQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Nintendo Switch games."
+      },
+      {
+        "item_id": "B08LSTKX53",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B00SS12V8W",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Wii and GameCube games."
+      },
+      {
+        "item_id": "B07TXDLL7D",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Bluetooth adapter, not directly gaming."
+      },
+      {
+        "item_id": "B000YSYDOC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1288,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01H6DHITE",
+      "B07K8385XL",
+      "B0031DNM5S",
+      "B003BE6OZW",
+      "B00CY58LMS",
+      "B09J4B5YMB",
+      "B0787STG8T",
+      "B003DKL48G",
+      "B0006TNDAO",
+      "B00354VS8Q",
+      "B00002SX0G",
+      "B09PV6DRNH",
+      "B0007Z70YM",
+      "B09637ZPSF",
+      "B0031DNM5S",
+      "B0031DNM5S",
+      "B0031DNM5S",
+      "B0031DNM5S",
+      "B0031DNM5S",
+      "B0031DNM5S"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01H6DHITE",
+        "reason": "High-quality mechanical gaming keyboard"
+      },
+      {
+        "item_id": "B07K8385XL",
+        "reason": "Wired keyboard for Nintendo Switch"
+      },
+      {
+        "item_id": "B0031DNM5S",
+        "reason": "Gaming headset for immersive experience"
+      },
+      {
+        "item_id": "B003BE6OZW",
+        "reason": "Popular action game for gaming enthusiasts"
+      },
+      {
+        "item_id": "B00CY58LMS",
+        "reason": "Realistic UFC fighting game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3683,
+    "completion_tokens": 325
+  }
+}

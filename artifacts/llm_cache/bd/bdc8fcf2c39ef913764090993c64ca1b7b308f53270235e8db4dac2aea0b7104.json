@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B003L20IQU",
+      "B00H727K20",
+      "B004GGUAJU",
+      "B00NY7H0T0",
+      "B003IPCF02",
+      "B002DY9KCU",
+      "B004OQML9Y",
+      "B07D13QGXM",
+      "B07K3KHFSY",
+      "B00HVBPRUO",
+      "B001Q24UAM",
+      "B002NNNL1W",
+      "B00005BWH5",
+      "B00005QDPU",
+      "B004OQML9Y",
+      "B000W5Y49G",
+      "B002HJYKG2",
+      "B00BGA9WK2",
+      "B0C5K4M7WJ",
+      "B00005BWH5",
+      "B00005QDPU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B003L20IQU",
+        "reason": "Popular first-person shooter"
+      },
+      {
+        "item_id": "B00H727K20",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B004GGUAJU",
+        "reason": "Engaging action gameplay"
+      },
+      {
+        "item_id": "B00NY7H0T0",
+        "reason": "Intense combat experience"
+      },
+      {
+        "item_id": "B003IPCF02",
+        "reason": "Classic military shooter"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3586,
+    "completion_tokens": 324
+  }
+}

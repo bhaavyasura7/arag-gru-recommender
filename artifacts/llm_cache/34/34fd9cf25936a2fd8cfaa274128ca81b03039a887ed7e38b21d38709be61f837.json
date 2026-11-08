@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo 3DS accessories",
+      "Nintendo Switch accessories",
+      "gaming controllers",
+      "wired earbuds",
+      "video game collections"
+    ],
+    "current_intent": "Looking for more gaming accessories and peripherals.",
+    "avoid": [
+      "non-gaming products",
+      "low-quality items",
+      "overpriced accessories"
+    ],
+    "summary": "User is a gaming enthusiast focused on high-quality accessories for Nintendo consoles and gaming peripherals."
+  },
+  "usage": {
+    "prompt_tokens": 505,
+    "completion_tokens": 75
+  }
+}

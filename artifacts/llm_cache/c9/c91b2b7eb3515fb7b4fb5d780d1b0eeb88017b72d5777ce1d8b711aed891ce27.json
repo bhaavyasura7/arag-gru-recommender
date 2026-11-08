@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0006TNDAO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers modern video games."
+      },
+      {
+        "item_id": "B09PV6DRNH",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR gaming not mentioned in history."
+      },
+      {
+        "item_id": "B076XYM9SK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for older system, not preferred."
+      },
+      {
+        "item_id": "B07GVPLS99",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory for PS4, not in user history."
+      },
+      {
+        "item_id": "B09J4B5YMB",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo Switch accessory aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1351,
+    "completion_tokens": 156
+  }
+}

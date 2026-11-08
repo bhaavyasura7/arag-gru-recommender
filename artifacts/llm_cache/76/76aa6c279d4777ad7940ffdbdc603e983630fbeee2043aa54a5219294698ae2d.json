@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0052WG9II",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys action games like Hyrule Warriors."
+      },
+      {
+        "item_id": "B0050SX9I2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Remote control not directly related to gaming."
+      },
+      {
+        "item_id": "B00KUYZ7I6",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has PlayStation Vita games."
+      },
+      {
+        "item_id": "B087NNPYP3",
+        "label": "support",
+        "score": 9,
+        "rationale": "User loves Zelda games and Nintendo Switch."
+      },
+      {
+        "item_id": "B01N7VUOPH",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys RPGs like Steins;Gate."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1935,
+    "completion_tokens": 161
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BFR8WVH4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Wireless headset aligns with gaming interests."
+      },
+      {
+        "item_id": "B0883P3VSH",
+        "label": "support",
+        "score": 9,
+        "rationale": "Turtle Beach headset matches previous purchases."
+      },
+      {
+        "item_id": "B002TK6RBU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Outdated Xbox 360 headset not relevant."
+      },
+      {
+        "item_id": "B08H263NLJ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wired headset with gaming features fits well."
+      },
+      {
+        "item_id": "B07KPGMK62",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Bluetooth headset, less preferred than wired."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2813,
+    "completion_tokens": 161
+  }
+}

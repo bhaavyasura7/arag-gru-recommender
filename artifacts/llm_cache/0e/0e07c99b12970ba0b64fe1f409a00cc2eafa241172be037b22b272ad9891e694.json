@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B088GTV4XS",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming accessories and keyboards."
+      },
+      {
+        "item_id": "B00001QEQD",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Chess game is unrelated to user's interests."
+      },
+      {
+        "item_id": "B0B7WK561Z",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has shown interest in gaming controllers."
+      },
+      {
+        "item_id": "B095KDH8J7",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS5 accessories not relevant to user history."
+      },
+      {
+        "item_id": "B09727BLTT",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has interest in Xbox accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1337,
+    "completion_tokens": 155
+  }
+}

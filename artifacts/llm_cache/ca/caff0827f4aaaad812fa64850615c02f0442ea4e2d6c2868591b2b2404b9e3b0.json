@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0017HPSIO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers action RPGs, not casual games."
+      },
+      {
+        "item_id": "B00ZQB28XK",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys exploration and adventure games."
+      },
+      {
+        "item_id": "B00OBAQDRO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, but relevant."
+      },
+      {
+        "item_id": "B07FVFL696",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Survival elements may appeal, but unclear."
+      },
+      {
+        "item_id": "B091PVG74G",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Headphones are not directly related to gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2317,
+    "completion_tokens": 161
+  }
+}

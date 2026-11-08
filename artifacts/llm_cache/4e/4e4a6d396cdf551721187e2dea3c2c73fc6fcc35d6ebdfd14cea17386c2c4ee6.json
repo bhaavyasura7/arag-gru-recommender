@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0017ZIIK6",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar genre and platform as favorites."
+      },
+      {
+        "item_id": "B0007MZWQS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system, not aligned with user history."
+      },
+      {
+        "item_id": "B08D3XL1KF",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, but RPG elements present."
+      },
+      {
+        "item_id": "B01GY369GA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but sports game interest possible."
+      },
+      {
+        "item_id": "B07624RBWB",
+        "label": "support",
+        "score": 6,
+        "rationale": "Accessory for Nintendo Switch, potential interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1140,
+    "completion_tokens": 156
+  }
+}

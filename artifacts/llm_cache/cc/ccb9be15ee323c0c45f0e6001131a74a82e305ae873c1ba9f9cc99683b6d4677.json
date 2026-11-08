@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUQMI",
+      "B074PKQWB1",
+      "B09BKLWZK6",
+      "B00H9CVO0W",
+      "B077PBNG9B",
+      "B002YX09IY",
+      "B076V8FC1H",
+      "B08ZNCVZRQ",
+      "B07L7LT3Q6",
+      "B08XWFDSP6",
+      "B003YJ4J0Q",
+      "B000059WIQ",
+      "B00030GK56",
+      "B07PPPMBB3",
+      "B005SYWL4Q",
+      "B0C85TJFFH",
+      "B0007V46I4",
+      "B09577GRRZ",
+      "B08ZNCVZRQ",
+      "B0000ZUGY0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUQMI",
+        "reason": "Family-friendly Nintendo DS game"
+      },
+      {
+        "item_id": "B074PKQWB1",
+        "reason": "Engaging family-friendly adventure"
+      },
+      {
+        "item_id": "B09BKLWZK6",
+        "reason": "Fun multiplayer racing game"
+      },
+      {
+        "item_id": "B00H9CVO0W",
+        "reason": "Accessory for Nintendo gaming"
+      },
+      {
+        "item_id": "B077PBNG9B",
+        "reason": "Popular family-friendly title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3026,
+    "completion_tokens": 328
+  }
+}

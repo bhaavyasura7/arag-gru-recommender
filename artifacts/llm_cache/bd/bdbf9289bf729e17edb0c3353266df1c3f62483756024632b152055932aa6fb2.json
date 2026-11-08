@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08616DR2R",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming mouse complements gaming headset use."
+      },
+      {
+        "item_id": "B07BFWLXLS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo Switch game, not Xbox related."
+      },
+      {
+        "item_id": "B001EYUPX8",
+        "label": "support",
+        "score": 9,
+        "rationale": "Xbox 360 game aligns with Xbox interests."
+      },
+      {
+        "item_id": "B001QLC2YY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Nintendo DS game, not relevant to user."
+      },
+      {
+        "item_id": "B00W9DHUBS",
+        "label": "support",
+        "score": 10,
+        "rationale": "Xbox One DLC matches user's gaming platform."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1293,
+    "completion_tokens": 157
+  }
+}

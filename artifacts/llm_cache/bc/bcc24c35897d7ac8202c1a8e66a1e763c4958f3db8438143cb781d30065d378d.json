@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01GY35W22",
+      "B00CJ9OTNE",
+      "B15Z9TL6KA",
+      "B07YBXFF5C",
+      "B01FWN9DOS",
+      "B07H5NGZQ8",
+      "B001NTFATI",
+      "B000006RGR",
+      "B074NDG5MN",
+      "B001ELJEHE",
+      "B00A8E0L4S",
+      "B00CJ9OTNE",
+      "B07NY76QQL",
+      "B00GWX80XS",
+      "B003O0KICS",
+      "B00Z9TL6KA",
+      "B000TLU67W",
+      "B094YHB1QK",
+      "B0B4WMT6DS",
+      "B07F1HTGV1",
+      "B00XR3YBM0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01GY35W22",
+        "reason": "Popular action-adventure multiplayer game"
+      },
+      {
+        "item_id": "B00CJ9OTNE",
+        "reason": "Well-rated multiplayer shooter"
+      },
+      {
+        "item_id": "B15Z9TL6KA",
+        "reason": "Highly rated sports game"
+      },
+      {
+        "item_id": "B07YBXFF5C",
+        "reason": "Great for multiplayer music gaming"
+      },
+      {
+        "item_id": "B01FWN9DOS",
+        "reason": "Popular racing game with multiplayer"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3650,
+    "completion_tokens": 332
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "retro video games",
+      "gaming accessories",
+      "story-driven games",
+      "nostalgic franchises",
+      "multiplayer experiences"
+    ],
+    "current_intent": "looking for new gaming experiences or accessories",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "overly complex games"
+    ],
+    "summary": "User enjoys retro and story-driven video games, seeks new gaming experiences or accessories, and prefers quality over quantity."
+  },
+  "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 81
+  }
+}

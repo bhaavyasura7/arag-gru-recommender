@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00YI6NK7C",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers headsets, not repairs."
+      },
+      {
+        "item_id": "B07TTQ2F51",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, but not directly related."
+      },
+      {
+        "item_id": "B001XCWTSK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User's history shows no interest in casual games."
+      },
+      {
+        "item_id": "B0B41H3YTK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR stand, somewhat related to gaming."
+      },
+      {
+        "item_id": "B0BVFJBM2V",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in Nintendo Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1224,
+    "completion_tokens": 169
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01A13062W",
+      "B00KAPFOJ2",
+      "B01FCLK7CC",
+      "B00KLXU8WG",
+      "B07DX32MSP",
+      "B00TV0XUUC",
+      "B00KLXU8TO",
+      "B00644IK30",
+      "B0011FI52S",
+      "B07NLFDZ39",
+      "B004JSDQPU",
+      "B0044MA3Y8",
+      "B00CM1KX7K",
+      "B005FPD0O8",
+      "B001EWDIGG",
+      "B0069VWDCM",
+      "B00KOOUVN8",
+      "B00MFUW0YC",
+      "B00CTKHXFO",
+      "B00MFUVZH0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01A13062W",
+        "reason": "Top-rated immersive RPG experience"
+      },
+      {
+        "item_id": "B00KAPFOJ2",
+        "reason": "Classic version of a favorite RPG"
+      },
+      {
+        "item_id": "B01FCLK7CC",
+        "reason": "Latest PS4 version of Diablo III"
+      },
+      {
+        "item_id": "B00KLXU8WG",
+        "reason": "Japan import of classic RPG"
+      },
+      {
+        "item_id": "B07DX32MSP",
+        "reason": "Includes all Diablo III content"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2215,
+    "completion_tokens": 324
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08GS7MG3W",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox games."
+      },
+      {
+        "item_id": "B08JHP4Q82",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not Nintendo."
+      },
+      {
+        "item_id": "B082B4HBZ8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in accessories."
+      },
+      {
+        "item_id": "B001EYUSC6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers newer consoles."
+      },
+      {
+        "item_id": "B07P9VKCF6",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys LEGO and Xbox games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 157
+  }
+}

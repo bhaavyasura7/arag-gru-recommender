@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01EBC2E7O",
+      "B0086VPUHI",
+      "B0174R4KYMS",
+      "B07X5X5KF9",
+      "B003MZ23LY",
+      "B001G605V6",
+      "B001EHD8YI",
+      "B001EYUPEC",
+      "B0018RWMSM",
+      "B00320JAX8",
+      "B07WXKQWTV",
+      "B00NEU02JW",
+      "B06WVCWY41",
+      "B097B6JN1W",
+      "B004K6LQ9E",
+      "B00YXO5X4M",
+      "B00O9GW8VK",
+      "B007VTVRFA",
+      "B014R4KYMS",
+      "B001G605V6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01EBC2E7O",
+        "reason": "NASCAR expansion for racing fans"
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B014R4KYMS",
+        "reason": "Highly rated action-adventure game"
+      },
+      {
+        "item_id": "B07X5X5KF9",
+        "reason": "Action-adventure in Middle Earth"
+      },
+      {
+        "item_id": "B003MZ23LY",
+        "reason": "Unique action-adventure gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3586,
+    "completion_tokens": 332
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07CNZJH97",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PS4 and Xbox products."
+      },
+      {
+        "item_id": "B078KJHNNL",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with PS4 and Xbox systems."
+      },
+      {
+        "item_id": "B00005QZVC",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has racing wheel interest."
+      },
+      {
+        "item_id": "B00423JHCS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not relevant to user's gaming preferences."
+      },
+      {
+        "item_id": "B001KC014W",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not aligned with user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1236,
+    "completion_tokens": 155
+  }
+}

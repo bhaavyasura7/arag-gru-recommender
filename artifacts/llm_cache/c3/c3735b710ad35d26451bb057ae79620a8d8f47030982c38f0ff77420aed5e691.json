@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07T6WCM7C",
+      "B07Y7C43P6",
+      "B00US76VKS",
+      "B00U7DREDG",
+      "B01JJFG1XG",
+      "B00009XS6G",
+      "B000067O0D",
+      "B073Z99D25",
+      "B0C6YY17NJ",
+      "B0891XRMGC",
+      "B07MJJL3FH",
+      "B004LM4UMM",
+      "B000R5H7KE",
+      "B004M5ID9O",
+      "B00J1ZSOTE",
+      "B002EE7OKE",
+      "B01JHB3J82",
+      "B00081K4AM",
+      "B09TQZZJ2V",
+      "B00081K4AM",
+      "B000067O0D"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07T6WCM7C",
+        "reason": "High-quality gaming headset alternative"
+      },
+      {
+        "item_id": "B07Y7C43P6",
+        "reason": "Popular game with headset compatibility"
+      },
+      {
+        "item_id": "B00US76VKS",
+        "reason": "Xbox One DLC enhances gaming experience"
+      },
+      {
+        "item_id": "B00U7DREDG",
+        "reason": "Classic game for nostalgic gamers"
+      },
+      {
+        "item_id": "B01JJFG1XG",
+        "reason": "Replacement part for gaming gear"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3313,
+    "completion_tokens": 340
+  }
+}

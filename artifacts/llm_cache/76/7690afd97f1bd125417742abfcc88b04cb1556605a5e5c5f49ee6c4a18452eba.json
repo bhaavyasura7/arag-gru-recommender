@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07XMG1BQL",
+      "B000E3UV8O",
+      "B075SRFWVG",
+      "B07VT2491H",
+      "B087BJ43VS",
+      "B0015FOANW",
+      "B06ZYTHKR7",
+      "B00LLWIVLQ",
+      "B014KXMLXG",
+      "B000038I9O",
+      "B08MBQ51KG",
+      "B075XJCGYX",
+      "B06WW7CD5R",
+      "B0BLYC2YVN",
+      "B07T67S9Y1",
+      "B09322LLZ2",
+      "B00UBL0ZQC",
+      "B19EWTY3D4",
+      "B18EWTY3D4",
+      "B007IVR26E",
+      "B18EWTY3D4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07XMG1BQL",
+        "reason": "Xbox One gaming headset"
+      },
+      {
+        "item_id": "B000E3UV8O",
+        "reason": "Classic war game for Xbox"
+      },
+      {
+        "item_id": "B075SRFWVG",
+        "reason": "Popular game show for Xbox"
+      },
+      {
+        "item_id": "B07VT2491H",
+        "reason": "Gaming headset for Xbox"
+      },
+      {
+        "item_id": "B087BJ43VS",
+        "reason": "Lens cleaner for gaming headsets"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3445,
+    "completion_tokens": 332
+  }
+}

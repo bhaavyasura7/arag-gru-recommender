@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B004HILZUA",
+      "B19N07OX04",
+      "B07PRPHJJT",
+      "B00I9CPD12",
+      "B07VJRZ62R",
+      "B08VHJX37Y",
+      "B00K80NODC",
+      "B00NERNNQO",
+      "B00P08NTVE",
+      "B00BIPLANW",
+      "B00002S655",
+      "B00004W4WO",
+      "B01KBDV0D6",
+      "B08YNL3HZV",
+      "B003FSSMZY",
+      "B07PYH623G",
+      "B000TXZD6O",
+      "B007TE4RAE",
+      "B00XPRG26Q",
+      "B00B3RX24F9",
+      "B00B3RX24F9"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004HILZUA",
+        "reason": "Crash Bandicoot game is popular"
+      },
+      {
+        "item_id": "B07PRPHJJT",
+        "reason": "Charging grip for Nintendo Switch"
+      },
+      {
+        "item_id": "B07VJRZ62R",
+        "reason": "Latest Nintendo console available"
+      },
+      {
+        "item_id": "B00I9CPD12",
+        "reason": "Classic console for retro gaming"
+      },
+      {
+        "item_id": "B08VHJX37Y",
+        "reason": "Customizable gaming keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3142,
+    "completion_tokens": 335
+  }
+}

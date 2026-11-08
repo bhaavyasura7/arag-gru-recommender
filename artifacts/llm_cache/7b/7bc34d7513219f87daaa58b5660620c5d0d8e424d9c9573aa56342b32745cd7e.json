@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B004ZCPQ4O",
+      "B003IMAML4",
+      "B0029ZUPU4",
+      "B11YQNCM8K",
+      "B06XS35SSM",
+      "B07MLB1P21",
+      "B001D7JEJM",
+      "B07WPFV4ZW",
+      "B06XFXSJNG",
+      "B00MCLFZ1Y",
+      "B07HTXK28M",
+      "B004G5YI3U",
+      "B07CHRQC25",
+      "B003O6JKLC",
+      "B07YQNCM8K",
+      "B004GWWW22",
+      "B088TRSGFL",
+      "B005C8NGTW",
+      "B07MLB1P21",
+      "B06XS35SSM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004ZCPQ4O",
+        "reason": "Epic scale strategy gameplay"
+      },
+      {
+        "item_id": "B003IMAML4",
+        "reason": "Tactical combat and strategy"
+      },
+      {
+        "item_id": "B0029ZUPU4",
+        "reason": "Party-based combat system"
+      },
+      {
+        "item_id": "B06XS35SSM",
+        "reason": "Tactical battles with soldiers"
+      },
+      {
+        "item_id": "B07MLB1P21",
+        "reason": "Multiplayer strategy experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3757,
+    "completion_tokens": 319
+  }
+}

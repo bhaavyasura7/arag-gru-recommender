@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00269QLI8",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys first-person shooter games."
+      },
+      {
+        "item_id": "B07FT72M3X",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not directly related to games."
+      },
+      {
+        "item_id": "B001EHD9JW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not user’s preference."
+      },
+      {
+        "item_id": "B00DDILSBG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not RPG."
+      },
+      {
+        "item_id": "B07YBXFF99",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 3 action games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1282,
+    "completion_tokens": 158
+  }
+}

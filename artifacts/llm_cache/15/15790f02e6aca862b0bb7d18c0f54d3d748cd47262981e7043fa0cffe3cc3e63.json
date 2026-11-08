@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BF5VRLHV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming keyboard, not directly related."
+      },
+      {
+        "item_id": "B0BGLVVCR1",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Mouse switches, not a primary interest."
+      },
+      {
+        "item_id": "B000WWNRHE",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo DS game aligns with interests."
+      },
+      {
+        "item_id": "B08D3XL1KF",
+        "label": "support",
+        "score": 8,
+        "rationale": "Super Smash Bros. is highly relevant."
+      },
+      {
+        "item_id": "B09KLTHCFD",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Carrying case, not a game or console."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1259,
+    "completion_tokens": 157
+  }
+}

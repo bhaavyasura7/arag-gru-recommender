@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07FY95X44",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers fighting and action games."
+      },
+      {
+        "item_id": "B075S7L98K",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in accessories."
+      },
+      {
+        "item_id": "B08TWFYSR2",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has Xbox games, needs accessories."
+      },
+      {
+        "item_id": "B09WV9MQCK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has PS5 interest, but no reviews."
+      },
+      {
+        "item_id": "B07GJX6DYQ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User prefers consoles over PC gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1280,
+    "completion_tokens": 163
+  }
+}

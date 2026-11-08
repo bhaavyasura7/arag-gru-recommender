@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action video games",
+      "multiplayer experiences",
+      "controller accessories",
+      "sci-fi themes",
+      "cooperative gameplay"
+    ],
+    "current_intent": "looking for high-quality Xbox 360 controllers and accessories",
+    "avoid": [
+      "low-rated games",
+      "non-gaming products",
+      "overpriced items"
+    ],
+    "summary": "User enjoys action and multiplayer video games, particularly on Xbox 360, and seeks reliable controllers and accessories."
+  },
+  "usage": {
+    "prompt_tokens": 474,
+    "completion_tokens": 82
+  }
+}

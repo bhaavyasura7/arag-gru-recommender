@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000031VUJ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with gaming preferences."
+      },
+      {
+        "item_id": "B07S5VYZ61",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to gaming but not Xbox specific."
+      },
+      {
+        "item_id": "B06XH15HD9",
+        "label": "support",
+        "score": 8,
+        "rationale": "High-quality gaming mouse for PC gaming."
+      },
+      {
+        "item_id": "B08PZ56VDZ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "For PS5, not relevant to Xbox."
+      },
+      {
+        "item_id": "B09DNPP22Q",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with multiple gaming systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1484,
+    "completion_tokens": 158
+  }
+}

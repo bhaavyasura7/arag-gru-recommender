@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "gaming consoles",
+      "game accessories",
+      "simulation games",
+      "nostalgic gaming"
+    ],
+    "current_intent": "looking for more video games or gaming accessories",
+    "avoid": [
+      "mobile games",
+      "non-gaming products",
+      "subscription services"
+    ],
+    "summary": "User enjoys video games, particularly simulation and nostalgic titles, and is currently seeking additional gaming options or accessories."
+  },
+  "usage": {
+    "prompt_tokens": 316,
+    "completion_tokens": 75
+  }
+}

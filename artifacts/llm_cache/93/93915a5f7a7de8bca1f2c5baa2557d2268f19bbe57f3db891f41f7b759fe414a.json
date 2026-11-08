@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B074C49V46",
+      "B00XUZFFBG",
+      "B0036N6E2Q",
+      "B17ZV7GGB3",
+      "B17ZV7GGB3",
+      "B00002JXBC",
+      "B004E0M5H8",
+      "B000R37S00",
+      "B01BFLRNKW",
+      "B000062YCV",
+      "B002BXJ7G2",
+      "B000MWWN7O",
+      "B000RO5JH8",
+      "B0913J86YM",
+      "B091HSSYV9",
+      "B01CDKE9M4",
+      "B000TAAA42U",
+      "B002EAYCHG",
+      "B075QNN8MV",
+      "B000R37S00"
+    ],
+    "reasons": [
+      {
+        "item_id": "B074C49V46",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B00XUZFFBG",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B0036N6E2Q",
+        "reason": "Charging dock for controllers"
+      },
+      {
+        "item_id": "B17ZV7GGB3",
+        "reason": "Compatible with multiple devices"
+      },
+      {
+        "item_id": "B075QNN8MV",
+        "reason": "Remastered action game with DLC"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3212,
+    "completion_tokens": 327
+  }
+}

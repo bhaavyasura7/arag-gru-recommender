@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07NRS4F6G",
+      "B087RS5P1K",
+      "B004TPVHB8",
+      "B01N418KHK",
+      "B09HQK356N",
+      "B00GCB63ZC",
+      "B09CGGNJ56",
+      "B00HQCSHKK",
+      "B07JXV1FYY",
+      "B00GSHYMYO",
+      "B003JKKNLO",
+      "B002DGRUU2",
+      "B007RE6542",
+      "B00JUQMV70",
+      "B005J2HLTC",
+      "B07SKGVHR4",
+      "B00006ZCD0",
+      "B096DZFCR1",
+      "B16DZFCR1",
+      "B07PQ7B1CP"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07NRS4F6G",
+        "reason": "Essential charging dock for Switch"
+      },
+      {
+        "item_id": "B087RS5P1K",
+        "reason": "Joy-Con replacement for Switch"
+      },
+      {
+        "item_id": "B004TPVHB8",
+        "reason": "Protective case for 3DS"
+      },
+      {
+        "item_id": "B01N418KHK",
+        "reason": "Wired controller for NES Classic"
+      },
+      {
+        "item_id": "B09HQK356N",
+        "reason": "Gaming trigger for mobile games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2990,
+    "completion_tokens": 323
+  }
+}

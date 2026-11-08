@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07H57RV43",
+      "B10HDO40JI",
+      "B07FZ95SHS",
+      "B07K53BKLC",
+      "B08BNNHYP9",
+      "B00IAVDOS6",
+      "B00GUSRZMM",
+      "B000KHYKJA",
+      "B000034DC7",
+      "B00305HJKQ",
+      "B07WH3VP41",
+      "B08434HXLG",
+      "B07FX6JXC1",
+      "B07K53BKLC",
+      "B07D8H3VP41",
+      "B00GCBAF8I",
+      "B00JC5Y2L2",
+      "B07678GGFN",
+      "B09V2W72P8",
+      "B0983WH43",
+      "B07D8H3VP41"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07H57RV43",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B10HDO40JI",
+        "reason": "Compatible with multiple platforms"
+      },
+      {
+        "item_id": "B07FZ95SHS",
+        "reason": "Great for immersive gaming"
+      },
+      {
+        "item_id": "B07K53BKLC",
+        "reason": "Wired controller for Xbox One"
+      },
+      {
+        "item_id": "B08BNNHYP9",
+        "reason": "Unique controller skin design"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3260,
+    "completion_tokens": 325
+  }
+}

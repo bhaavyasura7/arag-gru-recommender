@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BY247BZX",
+      "B0BTNG1QFB",
+      "B01DE9DY8S",
+      "B00T55HUO0",
+      "B07QB4TF3F",
+      "B00IG3GPTS",
+      "B08XQM1QHW",
+      "B0721GGGS9",
+      "B14YBWT3PK",
+      "B000LV9N8S",
+      "B004K6LQ9Y",
+      "B000U34SXC",
+      "B00ZQB28XK",
+      "B005TH6BD4",
+      "B07YBWT3PK",
+      "B000NI8WEA",
+      "B000I1JTEK",
+      "B07TCPVHTM",
+      "B00T55HUO0",
+      "B004I1JTEK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BY247BZX",
+        "reason": "User needs Nintendo Switch accessories"
+      },
+      {
+        "item_id": "B0BTNG1QFB",
+        "reason": "Ergonomic controller for Nintendo Switch"
+      },
+      {
+        "item_id": "B01DE9DY8S",
+        "reason": "VR gaming experience for PlayStation"
+      },
+      {
+        "item_id": "B00T55HUO0",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B07QB4TF3F",
+        "reason": "Wireless headset for gaming comfort"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4044,
+    "completion_tokens": 332
+  }
+}

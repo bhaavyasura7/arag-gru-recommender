@@ -1,0 +1,51 @@
+{
+  "content": {
+    "ranking": [
+      "B20XRMFY4D",
+      "B08YMW63JT",
+      "B20BIQN9MQ",
+      "B20MLPKXFG",
+      "B20MHPCV3B",
+      "B20N7Z2BJ",
+      "B20D3QFPS",
+      "B20IJHZ",
+      "B20E5JL05U",
+      "B20CWGGEA",
+      "B20V32QTC",
+      "B20H7VNPS",
+      "B20I8I6JDI",
+      "B20T0HVGQ",
+      "B20KX8ETK0",
+      "B20RMQN6FH",
+      "B20B04SVNO",
+      "B20BKQNJD9",
+      "B20XIRZ12"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08YMW63JT",
+        "reason": "Custom faceplate for PS5 controller"
+      },
+      {
+        "item_id": "B20BIQN9MQ",
+        "reason": "Family-friendly DLC for Dungeons"
+      },
+      {
+        "item_id": "B20MLPKXFG",
+        "reason": "Thumb grips for better control"
+      },
+      {
+        "item_id": "B20MHPCV3B",
+        "reason": "4 port adapter for multiple controllers"
+      },
+      {
+        "item_id": "B20D3QFPS",
+        "reason": "RGB gaming mouse for enhanced gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3211,
+    "completion_tokens": 316
+  }
+}

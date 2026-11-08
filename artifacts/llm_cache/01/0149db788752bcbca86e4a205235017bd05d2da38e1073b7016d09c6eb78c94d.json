@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00005NZ1Q",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers LEGO and creative games."
+      },
+      {
+        "item_id": "B01MAYQ6WR",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game, less relevant."
+      },
+      {
+        "item_id": "B0BDS21NS4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo Switch case, not directly relevant."
+      },
+      {
+        "item_id": "B07NRH6Q2L",
+        "label": "support",
+        "score": 7,
+        "rationale": "RPG and crafting align with interests."
+      },
+      {
+        "item_id": "B00KUZ1K8Q",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar to previous Little Big Planet game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1273,
+    "completion_tokens": 163
+  }
+}

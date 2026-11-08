@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09MR28SYG",
+      "B00006IKBJ",
+      "B00KLH0XMW",
+      "B00005BWH5",
+      "B10MR28SYG",
+      "B000069T08",
+      "B00UR5YF2C",
+      "B07RK2FTHX",
+      "B07JDDF9DW",
+      "B00GM5UUQG",
+      "B07Z37NRV1",
+      "B0BTJ7J9D9",
+      "B09QZZPVCY",
+      "B08QTTFGRN",
+      "B015UVJGNU",
+      "B000ES0HTM",
+      "B00006FXDL",
+      "B07QGC6Y9S",
+      "B00005BWH5",
+      "B07RK2FTHX",
+      "B00006IKBJ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09MR28SYG",
+        "reason": "Horror-themed first-person shooter"
+      },
+      {
+        "item_id": "B00006IKBJ",
+        "reason": "Action-packed combat racing game"
+      },
+      {
+        "item_id": "B00KLH0XMW",
+        "reason": "Includes popular shooter series"
+      },
+      {
+        "item_id": "B00005BWH5",
+        "reason": "Engaging action-adventure gameplay"
+      },
+      {
+        "item_id": "B000069T08",
+        "reason": "Classic action fighting game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2895,
+    "completion_tokens": 328
+  }
+}

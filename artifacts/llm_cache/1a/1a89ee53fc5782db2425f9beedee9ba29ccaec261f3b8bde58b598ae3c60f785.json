@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B072JYVYCX",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, not a strong match."
+      },
+      {
+        "item_id": "B07N2Z9VZX",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation 2 games."
+      },
+      {
+        "item_id": "B01N3ASPNV",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not a game, user prefers video games."
+      },
+      {
+        "item_id": "B01L1L3F26",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game recommendation."
+      },
+      {
+        "item_id": "B001EYUTFM",
+        "label": "support",
+        "score": 6,
+        "rationale": "Racing game aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1781,
+    "completion_tokens": 164
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07ZJ6RY1W",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user history."
+      },
+      {
+        "item_id": "B00HFXSVDI",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related to Xbox 360 gaming experience."
+      },
+      {
+        "item_id": "B074Y4G1TT",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for older PlayStation systems."
+      },
+      {
+        "item_id": "B01N5RJE7E",
+        "label": "support",
+        "score": 6,
+        "rationale": "Relevant for Nintendo Switch users."
+      },
+      {
+        "item_id": "B000E9T8FU",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox, aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1255,
+    "completion_tokens": 158
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B088DCPM2P",
+      "B0046II3KQ",
+      "B07ZT88CVP",
+      "B01KLOSPPG",
+      "B0948WCYVF",
+      "B004A16RN4",
+      "B07YFSJW46",
+      "B07DPJPJNK",
+      "B00IZT5Y6S",
+      "B09JKQG7HP",
+      "B09ZB6NG7G",
+      "B00174PLDO",
+      "B07HDJQDXB",
+      "B00006LU9E",
+      "B19CDK8Q5T7",
+      "B07Z8F7LTQ",
+      "B07DPJPJNK",
+      "B013HTBPYU",
+      "B004A16RN4",
+      "B07YFSJW46"
+    ],
+    "reasons": [
+      {
+        "item_id": "B088DCPM2P",
+        "reason": "New fighting game with anime theme"
+      },
+      {
+        "item_id": "B0046II3KQ",
+        "reason": "Fighting game with multiplayer options"
+      },
+      {
+        "item_id": "B07ZT88CVP",
+        "reason": "Custom controller for enhanced gameplay"
+      },
+      {
+        "item_id": "B01KLOSPPG",
+        "reason": "Thumbsticks for better control"
+      },
+      {
+        "item_id": "B0948WCYVF",
+        "reason": "Anime-themed skin for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3056,
+    "completion_tokens": 327
+  }
+}

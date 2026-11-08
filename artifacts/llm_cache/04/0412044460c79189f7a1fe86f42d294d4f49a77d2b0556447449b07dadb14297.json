@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EGJTEW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers action and horror games."
+      },
+      {
+        "item_id": "B00005ME6O",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys horror games like Resident Evil."
+      },
+      {
+        "item_id": "B074FYJ88V",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory not directly related to interests."
+      },
+      {
+        "item_id": "B09GFM13FS",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Screen protector not related to game preferences."
+      },
+      {
+        "item_id": "B01N9BFM31",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Headset is useful but not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1404,
+    "completion_tokens": 157
+  }
+}

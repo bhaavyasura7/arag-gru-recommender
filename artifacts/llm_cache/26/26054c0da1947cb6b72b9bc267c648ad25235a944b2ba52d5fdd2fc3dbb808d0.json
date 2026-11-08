@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01N90W586",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox 360 accessories interest."
+      },
+      {
+        "item_id": "B094Y1G4F4",
+        "label": "support",
+        "score": 9,
+        "rationale": "User prefers Xbox controllers and accessories."
+      },
+      {
+        "item_id": "B003WEZVJG",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Xbox 360 battery pack interest."
+      },
+      {
+        "item_id": "B01J4JV1GO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User may use multi-platform controllers."
+      },
+      {
+        "item_id": "B00006N5T8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User shows no interest in GameCube."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1548,
+    "completion_tokens": 160
+  }
+}

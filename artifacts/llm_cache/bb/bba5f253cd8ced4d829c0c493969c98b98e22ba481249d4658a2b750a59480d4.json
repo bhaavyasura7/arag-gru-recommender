@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0CBRT4BWW",
+      "B006VO0QUI",
+      "B00NAW5R0I",
+      "B001EYUPHO",
+      "B00ZGG13EA",
+      "B0BLW27Z5W",
+      "B074MMGR8F",
+      "B00KVP78FE",
+      "B008AJETV4",
+      "B00L59D9HG",
+      "B003LDKJEA",
+      "B0B28CMVJV",
+      "B0041RRSP8",
+      "B003QX4F7C",
+      "B00KVP78FE",
+      "B00ZGG13EA",
+      "B003LDKJEA",
+      "B00L59D9HG",
+      "B002RS7NB2",
+      "B00KVP78FE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0CBRT4BWW",
+        "reason": "High-quality Nintendo charger"
+      },
+      {
+        "item_id": "B006VO0QUI",
+        "reason": "Essential PS4 controller accessory"
+      },
+      {
+        "item_id": "B00NAW5R0I",
+        "reason": "Compatible with Nintendo 3DS"
+      },
+      {
+        "item_id": "B001EYUPHO",
+        "reason": "Popular PC game for action lovers"
+      },
+      {
+        "item_id": "B00ZGG13EA",
+        "reason": "Reliable Nintendo AC adapter"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3911,
+    "completion_tokens": 321
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00TV0XUUC",
+      "B01J4JYIVO",
+      "B01A13062W",
+      "B000GW8O64",
+      "B00644IK30",
+      "B005FPD0O8",
+      "B000OM8W86",
+      "B00KAPFOJ2",
+      "B004Y3CF9S",
+      "B00NU9TQLM",
+      "B002LVU0WY",
+      "B006MQH644",
+      "B0009JIID8",
+      "B00KGQ7Q28",
+      "B000CO3IBW",
+      "B00EVTBVRM",
+      "B0044MA3Y8",
+      "B00KOUVN8",
+      "B005FPD0O8",
+      "B0011FI52S",
+      "B00BX96QQM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00TV0XUUC",
+        "reason": "Immersive RPG experience"
+      },
+      {
+        "item_id": "B01J4JYIVO",
+        "reason": "Popular action RPG title"
+      },
+      {
+        "item_id": "B01A13062W",
+        "reason": "Highly rated RPG expansion"
+      },
+      {
+        "item_id": "B000GW8O64",
+        "reason": "Classic RPG with strong narrative"
+      },
+      {
+        "item_id": "B00644IK30",
+        "reason": "Includes classic RPGs and adventures"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1941,
+    "completion_tokens": 328
+  }
+}

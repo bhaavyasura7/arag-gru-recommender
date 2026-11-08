@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358",
+      "B12D0B7HW9358"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0B7HW9358",
+        "reason": "High-quality protective case"
+      },
+      {
+        "item_id": "B12D0B7HW9358",
+        "reason": "Fast charger for Nintendo Switch"
+      },
+      {
+        "item_id": "B12D0B7HW9358",
+        "reason": "Durable Xbox controller skin"
+      },
+      {
+        "item_id": "B12D0B7HW9358",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B12D0B7HW9358",
+        "reason": "Protective case for Switch Lite"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3593,
+    "completion_tokens": 382
+  }
+}

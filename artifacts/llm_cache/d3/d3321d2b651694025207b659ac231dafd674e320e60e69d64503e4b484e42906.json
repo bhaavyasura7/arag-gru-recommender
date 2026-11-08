@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "first-person shooter games",
+      "gaming accessories",
+      "virtual reality",
+      "Xbox gaming",
+      "PlayStation gaming"
+    ],
+    "current_intent": "looking for high-quality gaming peripherals",
+    "avoid": [
+      "low-rated products",
+      "wireless headsets",
+      "non-gaming items"
+    ],
+    "summary": "User enjoys FPS games and VR, but has had poor experiences with certain gaming accessories, seeking reliable and well-reviewed products."
+  },
+  "usage": {
+    "prompt_tokens": 325,
+    "completion_tokens": 80
+  }
+}

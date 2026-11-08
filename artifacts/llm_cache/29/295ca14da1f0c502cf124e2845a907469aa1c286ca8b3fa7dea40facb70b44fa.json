@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000YDIYFG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user’s interests."
+      },
+      {
+        "item_id": "B00CJ9OTNE",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar franchise to user favorites."
+      },
+      {
+        "item_id": "B007WPGS8O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Action game, but different style."
+      },
+      {
+        "item_id": "B077DTWYV8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00ZQB28XK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Exploration game aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1306,
+    "completion_tokens": 151
+  }
+}

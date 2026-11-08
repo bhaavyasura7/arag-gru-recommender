@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000F4MEKU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Legacy system, not current interest."
+      },
+      {
+        "item_id": "B088FTCCVB",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches gaming accessories interest."
+      },
+      {
+        "item_id": "B0BHFF5GH8",
+        "label": "support",
+        "score": 7,
+        "rationale": "Relevant for PS5 gaming setup."
+      },
+      {
+        "item_id": "B01CQRJAUA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not aligned with past game preferences."
+      },
+      {
+        "item_id": "B071WBRCYJ",
+        "label": "support",
+        "score": 9,
+        "rationale": "High interest in gaming headsets."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1430,
+    "completion_tokens": 148
+  }
+}

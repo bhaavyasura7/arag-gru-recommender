@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "gaming accessories",
+      "Nintendo products",
+      "Xbox controllers",
+      "gaming headsets"
+    ],
+    "current_intent": "looking for high-quality gaming gear",
+    "avoid": [
+      "low-rated games",
+      "non-gaming electronics",
+      "overpriced items"
+    ],
+    "summary": "User is a dedicated gamer focused on high-quality video games and accessories, particularly for Nintendo and Xbox platforms."
+  },
+  "usage": {
+    "prompt_tokens": 991,
+    "completion_tokens": 74
+  }
+}

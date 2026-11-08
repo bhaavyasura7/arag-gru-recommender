@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08DV4ZFVQ",
+      "B0BY8X7VVB",
+      "B07JH4R6ZT",
+      "B09V5428B3",
+      "B00B920R9C",
+      "B07VWNN9BZ",
+      "B09YDQRZF8",
+      "B0BDF39JJP",
+      "B07Z3FV3X9",
+      "B0BXSK5V9Q",
+      "B07Z4YKNSL",
+      "B01E57PW7Y",
+      "B01KY9XLPW",
+      "B07NP5J6H5",
+      "B000SHUTXS",
+      "B004Q4PE8E",
+      "B07ZQ7S28B",
+      "B00UN0DDLK",
+      "B07QV5NPTF",
+      "B00002QUKJ",
+      "B07JH4R6ZT"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08DV4ZFVQ",
+        "reason": "High DPI wireless gaming mouse"
+      },
+      {
+        "item_id": "B0BY8X7VVB",
+        "reason": "Adjustable racing wheel stand"
+      },
+      {
+        "item_id": "B07JH4R6ZT",
+        "reason": "Comfortable gaming headset"
+      },
+      {
+        "item_id": "B09V5428B3",
+        "reason": "VR stand for controllers"
+      },
+      {
+        "item_id": "B00B920R9C",
+        "reason": "Modded controller for fast gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3652,
+    "completion_tokens": 349
+  }
+}

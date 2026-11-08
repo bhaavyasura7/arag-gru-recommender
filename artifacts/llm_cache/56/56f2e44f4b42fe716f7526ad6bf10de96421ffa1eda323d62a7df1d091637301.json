@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUNHG",
+      "B07YBXNWXL",
+      "B004HX1QFY",
+      "B0716ZFWWV",
+      "B20KTQCA9Y",
+      "B00EZIXEIS",
+      "B0031Q7N1E",
+      "B003O6G114",
+      "B00M3D8AQ8",
+      "B005GISQX4",
+      "B07DK1H3H5",
+      "B00KTORA0K",
+      "B00KTQCA9Y",
+      "B00EZIXEIS",
+      "B008N9NX4U",
+      "B00M3D8AQ8",
+      "B07YBX7Y3P",
+      "B008VXCPV0",
+      "B0086VPUHI",
+      "B09JDDBX8R"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUNHG",
+        "reason": "Classic game for PlayStation fans"
+      },
+      {
+        "item_id": "B07YBXNWXL",
+        "reason": "Popular action game on Xbox"
+      },
+      {
+        "item_id": "B004HX1QFY",
+        "reason": "Useful accessory for Xbox 360"
+      },
+      {
+        "item_id": "B0716ZFWWV",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B20KTQCA9Y",
+        "reason": "Popular game with great reviews"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3677,
+    "completion_tokens": 326
+  }
+}

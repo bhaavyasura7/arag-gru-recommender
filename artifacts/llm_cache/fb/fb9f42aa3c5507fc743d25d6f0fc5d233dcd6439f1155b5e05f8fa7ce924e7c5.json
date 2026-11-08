@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000QTD05W",
+      "B002BRWU8U",
+      "B001G7PSLC",
+      "B001EYUO5M",
+      "B0721GGGS9",
+      "B0CDPNFHPK",
+      "B001EYUWN6",
+      "B0BW3SYR17",
+      "B002I092YK",
+      "B072V478NR",
+      "B000A6K6D0",
+      "B002G9MHY0",
+      "B9MYVF61Y",
+      "B00DQ5RGOY",
+      "B095WDDH4N",
+      "B08SF1S7WG",
+      "B00P7Y4618",
+      "B07V8YSBFG",
+      "B07MYVF61Y",
+      "B004RMK5QG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000QTD05W",
+        "reason": "Classic Mega Man game"
+      },
+      {
+        "item_id": "B002BRWU8U",
+        "reason": "Classic JRPG on Nintendo DS"
+      },
+      {
+        "item_id": "B001G7PSLC",
+        "reason": "Nostalgic DS game"
+      },
+      {
+        "item_id": "B001EYUO5M",
+        "reason": "Limited edition collectible"
+      },
+      {
+        "item_id": "B0721GGGS9",
+        "reason": "Classic console with multiple games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3739,
+    "completion_tokens": 322
+  }
+}

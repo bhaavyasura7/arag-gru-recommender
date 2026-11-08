@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0718YCJJB",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo Switch game, user prefers 3DS."
+      },
+      {
+        "item_id": "B0002RQ3H0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B0006GBD04",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo games, Pokemon related."
+      },
+      {
+        "item_id": "B00CMQTUSS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Controller accessory, not directly related."
+      },
+      {
+        "item_id": "B0B9WK4HZ1",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Gaming headset, not specific to user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1421,
+    "completion_tokens": 160
+  }
+}

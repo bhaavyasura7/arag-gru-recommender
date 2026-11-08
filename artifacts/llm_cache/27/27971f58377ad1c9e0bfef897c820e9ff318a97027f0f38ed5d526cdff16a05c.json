@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B005GISQ9S",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers PC gaming, not Vita."
+      },
+      {
+        "item_id": "B004Q8L46G",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no PS3 gaming history."
+      },
+      {
+        "item_id": "B003R7JXOM",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User prefers PC games over Wii."
+      },
+      {
+        "item_id": "B006P28VBM",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes PC gaming accessories."
+      },
+      {
+        "item_id": "B0BL3GPY9W",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has positive history with keyboards."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1164,
+    "completion_tokens": 155
+  }
+}

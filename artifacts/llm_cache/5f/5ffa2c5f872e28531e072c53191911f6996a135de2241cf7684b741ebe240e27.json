@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0041G5EU0",
+      "B00002STPS",
+      "B003N18O5Q",
+      "B07HKX4ZV9",
+      "B00009WAUF",
+      "B081SL51F6",
+      "B07D21456Y",
+      "B07BDHQTT6",
+      "B00000INR2",
+      "B07VHHPJBV",
+      "B06XPX5XLY",
+      "B003NSLGW2",
+      "B07HPSFK9V",
+      "B07D21456Y",
+      "B00FR7U15U",
+      "B071G61TRM",
+      "B0050SWNZW",
+      "B00009WAUF",
+      "B07BDHQTT6",
+      "B00W9DHUBS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0041G5EU0",
+        "reason": "Classic Nintendo adventure game"
+      },
+      {
+        "item_id": "B00002STPS",
+        "reason": "Nostalgic platforming experience"
+      },
+      {
+        "item_id": "B003N18O5Q",
+        "reason": "Family-friendly and charming"
+      },
+      {
+        "item_id": "B07HKX4ZV9",
+        "reason": "Fun multiplayer carnival games"
+      },
+      {
+        "item_id": "B00009WAUF",
+        "reason": "Classic Pokémon RPG elements"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4118,
+    "completion_tokens": 317
+  }
+}

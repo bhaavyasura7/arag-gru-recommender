@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008N9NX4U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, not a strong interest."
+      },
+      {
+        "item_id": "B09JDDBX8R",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Xbox One games."
+      },
+      {
+        "item_id": "B00KTORA0K",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform, not a strong interest."
+      },
+      {
+        "item_id": "B073GY1PRY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation 4 games."
+      },
+      {
+        "item_id": "B00KTQCA9Y",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Fitness game, less aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1237,
+    "completion_tokens": 156
+  }
+}

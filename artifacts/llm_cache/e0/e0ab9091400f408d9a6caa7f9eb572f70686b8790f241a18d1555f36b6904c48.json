@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00006IR62",
+      "B00006LELD",
+      "B0002A6CQ4",
+      "B00097CZ5W",
+      "B11BGA9WK2",
+      "B07FMMZTXY",
+      "B0008G2OWS",
+      "B00B2VG52I",
+      "B003VUO6H4",
+      "B00DDILSBG",
+      "B077GG9D5D",
+      "B004GX4864",
+      "B004Q4PECU",
+      "B005669IE2",
+      "B07LDGV7ZL",
+      "B001G7PSTY",
+      "B0777JG5YS",
+      "B00K5N11VY",
+      "B00BGA9WK2",
+      "B003VUO6H4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00006IR62",
+        "reason": "Strong narrative and gameplay"
+      },
+      {
+        "item_id": "B00006LELD",
+        "reason": "Engaging horror experience"
+      },
+      {
+        "item_id": "B0002A6CQ4",
+        "reason": "Deep customization and music"
+      },
+      {
+        "item_id": "B00097CZ5W",
+        "reason": "Car customization features"
+      },
+      {
+        "item_id": "B00DDILSBG",
+        "reason": "Epic fantasy adventure"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3680,
+    "completion_tokens": 312
+  }
+}

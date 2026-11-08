@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B091FC8N2W",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Xbox, not a game."
+      },
+      {
+        "item_id": "B07WS6ZFTG",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox games and consoles."
+      },
+      {
+        "item_id": "B002FQJUQM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo DS game, user prefers Xbox."
+      },
+      {
+        "item_id": "B082S5ZGXQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Action game aligns with user interests."
+      },
+      {
+        "item_id": "B07QPXBJVD",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller for Switch, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2436,
+    "completion_tokens": 156
+  }
+}

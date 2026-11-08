@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "fighting games",
+      "PlayStation titles",
+      "Nintendo Switch games",
+      "multiplayer experiences",
+      "anime-themed games"
+    ],
+    "current_intent": "looking for new fighting games to play",
+    "avoid": [
+      "non-fighting genres",
+      "single-player only games",
+      "low-rated titles"
+    ],
+    "summary": "The user enjoys fighting games across multiple platforms, particularly those with anime themes, and seeks new titles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 371,
+    "completion_tokens": 84
+  }
+}

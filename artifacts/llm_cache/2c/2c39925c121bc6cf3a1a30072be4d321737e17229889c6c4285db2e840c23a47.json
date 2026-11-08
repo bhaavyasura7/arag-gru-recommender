@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00C1TTF86",
+      "B00004R9IK",
+      "B07GRL9Y7B",
+      "B000069AT5",
+      "B075VJD5H5",
+      "B003KMSL9M",
+      "B004SZ9NVU",
+      "B06XPBCJLC",
+      "B00A3J3O4M",
+      "B00HNY9KIO",
+      "B00062W2GW",
+      "B003Z7VSD8",
+      "B002E6XY6U",
+      "B07SRDWVT7",
+      "B07YVH6Y4L",
+      "B08F55D48Y",
+      "B078YR9HP9",
+      "B010WPZ0JS",
+      "B07L4S24SB",
+      "B07R4TZBFF",
+      "B07YVH6Y4L"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00C1TTF86",
+        "reason": "Popular action shooter game"
+      },
+      {
+        "item_id": "B00004R9IK",
+        "reason": "Classic action-adventure title"
+      },
+      {
+        "item_id": "B07GRL9Y7B",
+        "reason": "Immersive VR experience"
+      },
+      {
+        "item_id": "B000069AT5",
+        "reason": "PC game with nostalgic appeal"
+      },
+      {
+        "item_id": "B075VJD5H5",
+        "reason": "Engaging open-world gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3311,
+    "completion_tokens": 340
+  }
+}

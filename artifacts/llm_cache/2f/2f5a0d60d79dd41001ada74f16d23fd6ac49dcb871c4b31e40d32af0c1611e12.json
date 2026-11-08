@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUPOW",
+      "B00F9XE932",
+      "B003Q9RGRW",
+      "B00DC7G2W8",
+      "B00KUYZ7I6",
+      "B00BAQXJU6",
+      "B00720GN7U",
+      "B00FK2X2T4",
+      "B00DCQ5A40",
+      "B001EYUNVC",
+      "B00HHR9STB",
+      "B00503E9FY",
+      "B0013RC1W4",
+      "B00083HJWQ",
+      "B00DC7G2W8",
+      "B08Q1MFHT3",
+      "B017V6YVDC",
+      "B00DCQ5A40",
+      "B00HHR9STB",
+      "B00FK2X2T4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUPOW",
+        "reason": "Popular Xbox action-adventure game"
+      },
+      {
+        "item_id": "B00F9XE932",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B003Q9RGRW",
+        "reason": "Essential Xbox chat accessory"
+      },
+      {
+        "item_id": "B00DC7G2W8",
+        "reason": "Exciting racing game for Xbox"
+      },
+      {
+        "item_id": "B00KUYZ7I6",
+        "reason": "Useful Xbox controller accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3493,
+    "completion_tokens": 332
+  }
+}

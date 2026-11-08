@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00004SVXW",
+      "B000HGMSXY",
+      "B0061YFYDW",
+      "B00019AZAU",
+      "B000TOMGIG",
+      "B00002ST9I",
+      "B00R465V0W",
+      "B09Y5KBDW6",
+      "B01BSQV64I",
+      "B0007L8UJK",
+      "B0009ER38O",
+      "B01KT5JG5U",
+      "B08YR8LFH3",
+      "B01HI273ZW",
+      "B0007L8UJK",
+      "B093H3381T",
+      "B0007L8UJK",
+      "B0007L8UJK",
+      "B0007L8UJK",
+      "B0007L8UJK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00004SVXW",
+        "reason": "Classic Zelda game experience"
+      },
+      {
+        "item_id": "B000HGMSXY",
+        "reason": "Nostalgic NES platformer"
+      },
+      {
+        "item_id": "B0061YFYDW",
+        "reason": "Adventure with puzzle elements"
+      },
+      {
+        "item_id": "B00019AZAU",
+        "reason": "Fun gameplay with nostalgia"
+      },
+      {
+        "item_id": "B000TOMGIG",
+        "reason": "Adventure game with humor"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3578,
+    "completion_tokens": 314
+  }
+}

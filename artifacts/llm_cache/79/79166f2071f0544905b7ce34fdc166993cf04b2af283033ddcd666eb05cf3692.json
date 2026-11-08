@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B15NVVV9R7",
+      "B15Y8CQCXA",
+      "B001EYUQMI",
+      "B076PL1965",
+      "B007OAGLSO",
+      "B004L4G8UC",
+      "B00MAM0ALA",
+      "B005HJJICA",
+      "B086YVBCSM",
+      "B00X8X55I8",
+      "B094YHB1QK",
+      "B00E4MQODC",
+      "B0017QFMJU",
+      "B0BDWVBWC9",
+      "B00005O0I2",
+      "B00IPTUJ8G",
+      "B017QU5KLK",
+      "B00Y8CQCXA",
+      "B000BHEQ1G",
+      "B00X8X55I8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B15NVVV9R7",
+        "reason": "Popular amiibo for Zelda games"
+      },
+      {
+        "item_id": "B15Y8CQCXA",
+        "reason": "Family-friendly soccer game"
+      },
+      {
+        "item_id": "B001EYUQMI",
+        "reason": "Fun racing game for Nintendo DS"
+      },
+      {
+        "item_id": "B076PL1965",
+        "reason": "Protects Nintendo 2DS XL"
+      },
+      {
+        "item_id": "B007OAGLSO",
+        "reason": "Disney game with family appeal"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3582,
+    "completion_tokens": 328
+  }
+}

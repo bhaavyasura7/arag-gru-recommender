@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000059WIQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game, not Nintendo DS related."
+      },
+      {
+        "item_id": "B076V8FC1H",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Headset, not directly related to games."
+      },
+      {
+        "item_id": "B07L7LT3Q6",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Nintendo Switch, user interest."
+      },
+      {
+        "item_id": "B001EYUQMI",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo DS game, matches user history."
+      },
+      {
+        "item_id": "B0C85TJFFH",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "VR accessory, not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1289,
+    "completion_tokens": 159
+  }
+}

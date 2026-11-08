@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00009ZVI2",
+      "B0088TN73M",
+      "B08D67XHWH",
+      "B001G7PSFS",
+      "B00HKPSVIG",
+      "B001G7PTAC",
+      "B00ZJRHSRW",
+      "B00DTY9B0O",
+      "B06XSMSL45",
+      "B00VUCGB7I",
+      "B016P6KIFY",
+      "B0795GHTBC",
+      "B00KXAI6MQ",
+      "B00N3ASPNV",
+      "B00DTY9B0O",
+      "B00G6SPHI",
+      "B00VUCGB7I",
+      "B00HKPSVIG",
+      "B0088TN7NW",
+      "B002L8W5V6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00009ZVI2",
+        "reason": "Classic action-adventure game"
+      },
+      {
+        "item_id": "B0088TN73M",
+        "reason": "Nostalgic classic title"
+      },
+      {
+        "item_id": "B08D67XHWH",
+        "reason": "Wii accessory for classic games"
+      },
+      {
+        "item_id": "B001G7PSFS",
+        "reason": "Compatible with nostalgic gameplay"
+      },
+      {
+        "item_id": "B00HKPSVIG",
+        "reason": "Legacy console for classic games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3774,
+    "completion_tokens": 325
+  }
+}

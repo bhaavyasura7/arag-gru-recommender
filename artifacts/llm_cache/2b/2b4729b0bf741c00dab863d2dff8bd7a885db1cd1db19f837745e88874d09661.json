@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00OVGABF8",
+      "B00KWOSQC8",
+      "B00003GPV6",
+      "B004WF32G8",
+      "B20BP2CMMGJ",
+      "B09JKDB8D9",
+      "B07ZQ7S28B",
+      "B0028A6VDU",
+      "B0042X9M0K",
+      "B000035XUY",
+      "B09QM5T323",
+      "B0719GHHQP",
+      "B004D1QC1I",
+      "B08YY7VMTB",
+      "B00H2XPX8W",
+      "B004WF32G8",
+      "B09ZDP14DG",
+      "B00LV8I30E",
+      "B0042X9M0K",
+      "B00188070G",
+      "B09JKDB8D9"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00OVGABF8",
+        "reason": "Popular Pokémon title"
+      },
+      {
+        "item_id": "B00KWOSQC8",
+        "reason": "Another Pokémon game"
+      },
+      {
+        "item_id": "B00003GPV6",
+        "reason": "Classic Nintendo title"
+      },
+      {
+        "item_id": "B004WF32G8",
+        "reason": "Highly rated action game"
+      },
+      {
+        "item_id": "B20BP2CMMGJ",
+        "reason": "Compatible with Nintendo consoles"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3344,
+    "completion_tokens": 331
+  }
+}

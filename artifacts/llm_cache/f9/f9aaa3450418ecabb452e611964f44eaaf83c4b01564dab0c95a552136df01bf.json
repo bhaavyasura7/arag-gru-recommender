@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "Xbox consoles",
+      "Skylanders series",
+      "limited edition collectibles",
+      "action-adventure games"
+    ],
+    "current_intent": "looking for new video games or accessories for Xbox",
+    "avoid": [
+      "non-gaming products",
+      "PC games",
+      "low-rated games"
+    ],
+    "summary": "User is a dedicated gamer focused on Xbox and Skylanders, seeking new gaming experiences and collectibles."
+  },
+  "usage": {
+    "prompt_tokens": 346,
+    "completion_tokens": 77
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0006TNDAY",
+      "B001EYUS3K",
+      "B087SHFL9B",
+      "B000SLMH02",
+      "B003L77R9Q",
+      "B08T4W5WG2",
+      "B08JXPPFWM",
+      "B07J35GDD9",
+      "B07Y1VZP3K",
+      "B07RRYG7KP",
+      "B072BD8MXJ",
+      "B00N52DN8Q",
+      "B07YSHZPTN",
+      "B08RCZ532X",
+      "B00CEKMYK8",
+      "B07JZ4DG95",
+      "B08JXPPFWM",
+      "B07ZLZ1N6M",
+      "B01CJNUJQK",
+      "B07Y1VZP3K",
+      "B07J35GDD9"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0006TNDAY",
+        "reason": "Classic retro game nostalgia"
+      },
+      {
+        "item_id": "B001EYUS3K",
+        "reason": "Classic platformer from childhood"
+      },
+      {
+        "item_id": "B087SHFL9B",
+        "reason": "Popular franchise, modern twist"
+      },
+      {
+        "item_id": "B000SLMH02",
+        "reason": "Classic NES game experience"
+      },
+      {
+        "item_id": "B003L77R9Q",
+        "reason": "RPG elements in a classic setting"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3311,
+    "completion_tokens": 342
+  }
+}

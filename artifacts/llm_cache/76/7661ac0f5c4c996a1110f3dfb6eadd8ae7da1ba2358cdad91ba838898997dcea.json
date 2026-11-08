@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003IPCF02",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products only."
+      },
+      {
+        "item_id": "B00DYJGDYQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products only."
+      },
+      {
+        "item_id": "B001AI7CF2",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports Nintendo Wii usage."
+      },
+      {
+        "item_id": "B0C89J78ZW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse and keyboard, not console specific."
+      },
+      {
+        "item_id": "B00SHXKC8M",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products only."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1217,
+    "completion_tokens": 157
+  }
+}

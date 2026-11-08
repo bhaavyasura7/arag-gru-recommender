@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B011R4KYMS",
+      "B000ATNFLDY",
+      "B000HAWCFE",
+      "B00002STOQ",
+      "B07D8DPPJN",
+      "B088BVFZG8",
+      "B08LPMVJDJ",
+      "B004CHLNWQ",
+      "B071S7Z6L5",
+      "B001E27DLM",
+      "B009T3EY1A",
+      "B00008URUA",
+      "B00001STOQ",
+      "B07DPK5NPD",
+      "B0014DHIL6",
+      "B00008URUA",
+      "B0050SX1JO",
+      "B071S7Z6L5",
+      "B000HAWCFE",
+      "B001E27DLM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B011R4KYMS",
+        "reason": "Highly rated action-adventure game"
+      },
+      {
+        "item_id": "B000ATNFLDY",
+        "reason": "Precision mouse for gaming"
+      },
+      {
+        "item_id": "B000HAWCFE",
+        "reason": "Classic Zelda collection"
+      },
+      {
+        "item_id": "B00002STOQ",
+        "reason": "Popular RPG with time travel"
+      },
+      {
+        "item_id": "B07D8DPPJN",
+        "reason": "Multiplayer brawler experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4078,
+    "completion_tokens": 312
+  }
+}

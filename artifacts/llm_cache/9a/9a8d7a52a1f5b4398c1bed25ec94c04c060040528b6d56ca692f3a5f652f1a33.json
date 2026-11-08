@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07WGJ72KT",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's game preferences."
+      },
+      {
+        "item_id": "B0007KTBDK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Racing game, but not user’s focus."
+      },
+      {
+        "item_id": "B0876TD8RT",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's Wii U system."
+      },
+      {
+        "item_id": "B07TV7P3GP",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Keyboard accessory, not relevant to user."
+      },
+      {
+        "item_id": "B09X9ZGH8X",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "VR headset case, user shows no interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1172,
+    "completion_tokens": 161
+  }
+}

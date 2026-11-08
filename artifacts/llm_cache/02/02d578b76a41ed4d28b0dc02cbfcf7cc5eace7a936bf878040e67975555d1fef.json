@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B002I0K3CK",
+      "B08MBQ51KG",
+      "B00Z9TL1PU",
+      "B003S9VNWE",
+      "B06ZXXH1TT",
+      "B08LT6PT1X",
+      "B003JBHG7C",
+      "B019WRM1IA",
+      "B07YBX6T95",
+      "B003JBHG7C",
+      "B07BGQ7Q8F",
+      "B00C1TTF86",
+      "B07NPZZSRC",
+      "B0B3N8S98K",
+      "B01I3E7XAO",
+      "B0083ZYFPA",
+      "B07S38KQHS",
+      "B00HVBPRUO",
+      "B08LT6PT1X",
+      "B001QCWSHO",
+      "B07BGQ7Q8F"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002I0K3CK",
+        "reason": "Classic Mario multiplayer experience"
+      },
+      {
+        "item_id": "B08MBQ51KG",
+        "reason": "Nostalgic Nintendo collection"
+      },
+      {
+        "item_id": "B00Z9TL1PU",
+        "reason": "Fun co-op gameplay with Snoopy"
+      },
+      {
+        "item_id": "B003S9VNWE",
+        "reason": "Engaging multiplayer action"
+      },
+      {
+        "item_id": "B06ZXXH1TT",
+        "reason": "Classic RPG with multiplayer mode"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3847,
+    "completion_tokens": 341
+  }
+}

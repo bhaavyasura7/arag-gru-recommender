@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07WHHFW3Y",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern gaming systems."
+      },
+      {
+        "item_id": "B00MV1A5IS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys strategy games but not PC."
+      },
+      {
+        "item_id": "B001GZPZG2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers video games over movies."
+      },
+      {
+        "item_id": "B0000C868M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in billiards."
+      },
+      {
+        "item_id": "B06WD8NCHM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers modern consoles, not retro."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 953,
+    "completion_tokens": 165
+  }
+}

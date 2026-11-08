@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B015QM2S60",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B00V5B8VYU",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not related to gaming consoles."
+      },
+      {
+        "item_id": "B00005UEOP",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Chess game, not user’s focus."
+      },
+      {
+        "item_id": "B001EYUTU2",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys Nintendo sports games."
+      },
+      {
+        "item_id": "B001EYUP60",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Sega game, not user’s preference."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1039,
+    "completion_tokens": 151
+  }
+}

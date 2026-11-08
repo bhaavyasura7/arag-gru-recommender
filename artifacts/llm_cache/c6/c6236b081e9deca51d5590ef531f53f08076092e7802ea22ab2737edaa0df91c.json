@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "retro video game consoles",
+      "classic video games",
+      "Star Wars games",
+      "handheld gaming",
+      "nostalgic gaming experiences"
+    ],
+    "current_intent": "looking for more retro gaming options",
+    "avoid": [
+      "modern gaming consoles",
+      "mobile games",
+      "online multiplayer games"
+    ],
+    "summary": "User enjoys retro gaming, particularly classic consoles and games, and seeks similar nostalgic experiences."
+  },
+  "usage": {
+    "prompt_tokens": 291,
+    "completion_tokens": 75
+  }
+}

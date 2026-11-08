@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00B8SAB8O",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern consoles, not legacy."
+      },
+      {
+        "item_id": "B00NOD0OTW",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation games, highly relevant."
+      },
+      {
+        "item_id": "B01K1CC4R8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern consoles, not legacy."
+      },
+      {
+        "item_id": "B09S6HGYT2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has PS5 interest, but no purchase."
+      },
+      {
+        "item_id": "B09MFFTCX8",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User focuses on PlayStation, not Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1288,
+    "completion_tokens": 173
+  }
+}

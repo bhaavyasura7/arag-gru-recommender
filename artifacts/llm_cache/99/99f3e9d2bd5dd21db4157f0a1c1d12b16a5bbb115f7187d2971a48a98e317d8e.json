@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B076ZPW7R2",
+      "B08BGPTPS2",
+      "B006MBZZSI",
+      "B007FLJCNTX",
+      "B00006LJHF",
+      "B08MVSK2Y4",
+      "B12FLJCNTX",
+      "B001262U54",
+      "B08DKXRH9D",
+      "B00YXOYHVM",
+      "B004EDIO98",
+      "B002JTX9XU",
+      "B078NYPPM9",
+      "B006AKVX1E",
+      "B08BRM3N53",
+      "B07JW5HRN7",
+      "B0051VE6SU",
+      "B07FLJCNTX",
+      "B08L8MF26C",
+      "B001KWE2WE",
+      "B07JW5HRN7"
+    ],
+    "reasons": [
+      {
+        "item_id": "B076ZPW7R2",
+        "reason": "High-quality PS4 action RPG"
+      },
+      {
+        "item_id": "B08BGPTPS2",
+        "reason": "Popular PS4 kart racing game"
+      },
+      {
+        "item_id": "B006MBZZSI",
+        "reason": "Action RPG on PlayStation 3"
+      },
+      {
+        "item_id": "B007FLJCNTX",
+        "reason": "Limited edition PlayStation game"
+      },
+      {
+        "item_id": "B00006LJHF",
+        "reason": "PlayStation exclusive game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3521,
+    "completion_tokens": 330
+  }
+}

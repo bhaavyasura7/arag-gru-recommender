@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0094BM8VK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different game genre than Civilization V"
+      },
+      {
+        "item_id": "B00U33Q940",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not a game, but a media player"
+      },
+      {
+        "item_id": "B07HYCZ68N",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not relevant to user's gaming interests"
+      },
+      {
+        "item_id": "B01GKFPFZS",
+        "label": "support",
+        "score": 7,
+        "rationale": "Xbox One game aligns with interests"
+      },
+      {
+        "item_id": "B00DB2BI00",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1120,
+    "completion_tokens": 152
+  }
+}

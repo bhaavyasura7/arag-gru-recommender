@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00N6HDQ14",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a system user owns."
+      },
+      {
+        "item_id": "B0100SMCT8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Skin for a different Nintendo system."
+      },
+      {
+        "item_id": "B09M8GXRDY",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's Nintendo Switch."
+      },
+      {
+        "item_id": "B096MBBFJS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "For Xbox, not relevant to user."
+      },
+      {
+        "item_id": "B091V1HKFM",
+        "label": "support",
+        "score": 6,
+        "rationale": "Related to user's PlayStation interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1382,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01N9KN4OC",
+      "B003RRXW0I",
+      "B088WWXY6L",
+      "B0951P2ZLM",
+      "B0863MT183",
+      "B00UA9X9Z4",
+      "B01GHFKR18",
+      "B07CJCQ1ZF",
+      "B000069T7L",
+      "B000059S8B",
+      "B002MUB0UK",
+      "B00019069K",
+      "B00XUZFGWE",
+      "B00HTK0ML6",
+      "B08W1W5VMF",
+      "B07F89LW78",
+      "B20",
+      "B00IG3GP84",
+      "B08CZMWHT4",
+      "B00IG3GP84",
+      "B00XUZFGWE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01N9KN4OC",
+        "reason": "Highly engaging multiplayer RPG"
+      },
+      {
+        "item_id": "B003RRXW0I",
+        "reason": "Fun multiplayer music game"
+      },
+      {
+        "item_id": "B088WWXY6L",
+        "reason": "Enhances VR gaming experience"
+      },
+      {
+        "item_id": "B0951P2ZLM",
+        "reason": "Useful for arcade gaming"
+      },
+      {
+        "item_id": "B0863MT183",
+        "reason": "Organizes VR gaming setup"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3530,
+    "completion_tokens": 323
+  }
+}

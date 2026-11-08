@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00F4FKSZI",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to video games."
+      },
+      {
+        "item_id": "B0C3HJ7K8S",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming accessory, not directly relevant."
+      },
+      {
+        "item_id": "B086YJ6L9B",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming accessory for specific console."
+      },
+      {
+        "item_id": "B07TZYK2Z3",
+        "label": "support",
+        "score": 7,
+        "rationale": "Relevant to user's PlayStation interests."
+      },
+      {
+        "item_id": "B0038KQYA4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports user's Nintendo Wii."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 158
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0079V4GK8",
+      "B0123D8UE2C",
+      "B0000A33W7",
+      "B001ISK4GI",
+      "B071G1DTH3",
+      "B000666BWO",
+      "B003GSLGK6",
+      "B001N9USHKJ",
+      "B079C4BCPV",
+      "B081DHKGQB",
+      "B006B7FLKA",
+      "B00269DXXO",
+      "B005ZWIV9A",
+      "B08N11TKK9",
+      "B015D8UE2C",
+      "B0009TTHB0",
+      "B071G1DTH3",
+      "B01N955CE7",
+      "B079C4BCPV",
+      "B006B7FLKA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0079V4GK8",
+        "reason": "Strong narrative and action gameplay"
+      },
+      {
+        "item_id": "B0123D8UE2C",
+        "reason": "Engaging superhero storyline"
+      },
+      {
+        "item_id": "B0000A33W7",
+        "reason": "Action-adventure with Wolverine"
+      },
+      {
+        "item_id": "B001ISK4GI",
+        "reason": "Useful for gaming on PSP"
+      },
+      {
+        "item_id": "B071G1DTH3",
+        "reason": "Popular survival horror collection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3073,
+    "completion_tokens": 321
+  }
+}

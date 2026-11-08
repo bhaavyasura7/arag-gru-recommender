@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01DBTBYC4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's PlayStation 4."
+      },
+      {
+        "item_id": "B002USENAS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's gaming platform."
+      },
+      {
+        "item_id": "B009AFLXJS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Wii U controller, not PlayStation."
+      },
+      {
+        "item_id": "B00C1TTF86",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation 3 game, user has PS4."
+      },
+      {
+        "item_id": "B001ELJDV6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "GameCube controller, not relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1050,
+    "completion_tokens": 166
+  }
+}

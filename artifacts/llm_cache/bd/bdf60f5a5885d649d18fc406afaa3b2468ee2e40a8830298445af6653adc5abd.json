@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Resident Evil series",
+      "Pokémon games",
+      "Nintendo platforms",
+      "Action-adventure games",
+      "Role-playing games"
+    ],
+    "current_intent": "Looking for more engaging video games.",
+    "avoid": [
+      "Low-quality games",
+      "Non-Nintendo titles",
+      "Overpriced items"
+    ],
+    "summary": "The user enjoys high-quality video games, particularly in the Resident Evil and Pokémon franchises, and seeks new titles that offer similar experiences."
+  },
+  "usage": {
+    "prompt_tokens": 333,
+    "completion_tokens": 99
+  }
+}

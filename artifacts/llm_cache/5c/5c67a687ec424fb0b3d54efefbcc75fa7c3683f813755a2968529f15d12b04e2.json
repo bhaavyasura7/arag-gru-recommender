@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0001615P2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation games."
+      },
+      {
+        "item_id": "B07X2LMS7C",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation games."
+      },
+      {
+        "item_id": "B07K3KHFSY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User owns PlayStation 3 controllers."
+      },
+      {
+        "item_id": "B005UKT826",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no PC game history."
+      },
+      {
+        "item_id": "B07L3D7C21",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1302,
+    "completion_tokens": 158
+  }
+}

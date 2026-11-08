@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07GN8YD2H",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming accessories."
+      },
+      {
+        "item_id": "B006YDPU48",
+        "label": "support",
+        "score": 9,
+        "rationale": "User loves Dark Souls series."
+      },
+      {
+        "item_id": "B07D9LZ73R",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has PS4, needs charging solution."
+      },
+      {
+        "item_id": "B001L5U0KI",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not directly related to gaming."
+      },
+      {
+        "item_id": "B01CTNIV7E",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not relevant to gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1774,
+    "completion_tokens": 153
+  }
+}

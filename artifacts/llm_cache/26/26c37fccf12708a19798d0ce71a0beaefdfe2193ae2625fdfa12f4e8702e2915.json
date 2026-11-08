@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0026MS1XS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers gaming mice, not games."
+      },
+      {
+        "item_id": "B0BG2BQ8BV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for gaming controllers, not mice."
+      },
+      {
+        "item_id": "B01BZZCFFQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS4 accessory, not directly relevant."
+      },
+      {
+        "item_id": "B088WQVJY4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Bluetooth adapter, not a gaming mouse."
+      },
+      {
+        "item_id": "B0B1M6YPLY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Mobile clip for Xbox, not a mouse."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1429,
+    "completion_tokens": 163
+  }
+}

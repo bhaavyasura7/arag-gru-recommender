@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08FRMRKXL",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo Switch interests."
+      },
+      {
+        "item_id": "B00004RBOM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers fishing games, not robots."
+      },
+      {
+        "item_id": "B088392982",
+        "label": "support",
+        "score": 7,
+        "rationale": "Charger for user's Nintendo DS systems."
+      },
+      {
+        "item_id": "B00005QBBE",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B004H7QH9U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, but not directly related to interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1255,
+    "completion_tokens": 157
+  }
+}

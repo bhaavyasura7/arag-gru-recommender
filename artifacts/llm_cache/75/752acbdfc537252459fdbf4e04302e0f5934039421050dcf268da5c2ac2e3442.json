@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09W4ZWZFG",
+      "B14B4KCJGLD",
+      "B0CFQ8G288",
+      "B0932RBTTV",
+      "B00DMZDRS2",
+      "B000YJMHVM",
+      "B0007ZIYCE",
+      "B000YQQ1IK",
+      "B000R2XILE",
+      "B00GRN0YQ4",
+      "B006XWV3ZA",
+      "B00DGYJ634",
+      "B00PE7WUP2",
+      "B001EPTCAY",
+      "B000IK412A",
+      "B077DTWYV8",
+      "B000IMUYRY",
+      "B000YJMHVM",
+      "B0007ZIYCE",
+      "B00DMZDRS2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09W4ZWZFG",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B14B4KCJGLD",
+        "reason": "Popular mechanical keyboard"
+      },
+      {
+        "item_id": "B0CFQ8G288",
+        "reason": "Stylish Nintendo Switch case"
+      },
+      {
+        "item_id": "B0932RBTTV",
+        "reason": "Lightweight and durable headset"
+      },
+      {
+        "item_id": "B00DMZDRS2",
+        "reason": "Engaging multiplayer game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3255,
+    "completion_tokens": 319
+  }
+}

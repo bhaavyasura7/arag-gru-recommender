@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B094HXNG6K",
+      "B00005NZ1M",
+      "B20BLLH6FZD",
+      "B0089VLF2O",
+      "B07TDW7ZBG",
+      "B003V1WHOM",
+      "B00004T4XN",
+      "B0097662FK",
+      "B00260GS1M",
+      "B002ISO73S",
+      "B00KJJ3QOY",
+      "B08DMQHH8M",
+      "B07436WM6M",
+      "B08CT3S3YT",
+      "B000OZHDWO",
+      "B0199OXR0W",
+      "B00002SFLM",
+      "B00005NZ1M",
+      "B003V1WHOM",
+      "B08NCZ9RGN"
+    ],
+    "reasons": [
+      {
+        "item_id": "B094HXNG6K",
+        "reason": "Personalized Xbox One controller buttons"
+      },
+      {
+        "item_id": "B00005NZ1M",
+        "reason": "Exclusive Xbox game for gamers"
+      },
+      {
+        "item_id": "B20BLLH6FZD",
+        "reason": "Classic hunting game for Xbox One"
+      },
+      {
+        "item_id": "B0089VLF2O",
+        "reason": "Protective case for Xbox controller"
+      },
+      {
+        "item_id": "B07TDW7ZBG",
+        "reason": "Lightweight gaming mouse for PC"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3629,
+    "completion_tokens": 325
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0017OT20W",
+      "B001DKDANA",
+      "B001E8WQHW",
+      "B005KGKLWG",
+      "B005QWYKOE",
+      "B001REMNT4",
+      "B075VJLKL7",
+      "B08TBYJNBY",
+      "B08TC2FY16",
+      "B07ZVFNHJ2",
+      "B01FMB973M",
+      "B003A5MCTY",
+      "B09QQJM97D",
+      "B06XS4XXFT",
+      "B016VGQ2QM",
+      "B000X1DT22",
+      "B00ZWWM7Q6",
+      "B081D85YY2",
+      "B08TC2FY16",
+      "B07ZVFNHJ2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0017OT20W",
+        "reason": "Classic game for Nintendo systems"
+      },
+      {
+        "item_id": "B001DKDANA",
+        "reason": "Accessory for retro gaming"
+      },
+      {
+        "item_id": "B001E8WQHW",
+        "reason": "Legacy game with nostalgic appeal"
+      },
+      {
+        "item_id": "B005KGKLWG",
+        "reason": "Classic game for Xbox 360"
+      },
+      {
+        "item_id": "B005QWYKOE",
+        "reason": "Includes Nintendo Wii and classic game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3295,
+    "completion_tokens": 315
+  }
+}

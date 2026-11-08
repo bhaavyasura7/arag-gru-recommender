@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00020V4PI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's gaming accessories."
+      },
+      {
+        "item_id": "B07CRX5X9T",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming mouse aligns with gaming interests."
+      },
+      {
+        "item_id": "B00009XS6G",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not a preferred genre based on history."
+      },
+      {
+        "item_id": "B001EYUNFS",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not related to user's gaming preferences."
+      },
+      {
+        "item_id": "B00004S653",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not aligned with user's gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1326,
+    "completion_tokens": 151
+  }
+}

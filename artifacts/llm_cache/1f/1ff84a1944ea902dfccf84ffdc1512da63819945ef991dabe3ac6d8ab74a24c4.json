@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo Switch games",
+      "PlayStation games",
+      "gaming accessories",
+      "amiibo collectibles",
+      "multiplayer games"
+    ],
+    "current_intent": "looking for new Nintendo Switch or PlayStation games",
+    "avoid": [
+      "mobile games",
+      "single-player only games",
+      "low-rated products"
+    ],
+    "summary": "User is a dedicated gamer focused on Nintendo Switch and PlayStation titles, seeking new games and accessories."
+  },
+  "usage": {
+    "prompt_tokens": 747,
+    "completion_tokens": 78
+  }
+}

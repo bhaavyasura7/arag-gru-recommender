@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001QCWQGW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Puzzle game, not action-adventure."
+      },
+      {
+        "item_id": "B001V7QIDY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Points for Xbox, not a game."
+      },
+      {
+        "item_id": "B003VR5PPY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre to Harvest Moon."
+      },
+      {
+        "item_id": "B08MKVBZNQ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B0BTM4SLHL",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for gaming mouse, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1390,
+    "completion_tokens": 154
+  }
+}

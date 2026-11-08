@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0057UCXS0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Japanese import, not in user history."
+      },
+      {
+        "item_id": "B00GQYIAME",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Hidden object game, different genre."
+      },
+      {
+        "item_id": "B07S8DWWNX",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming accessory, relevant to user interests."
+      },
+      {
+        "item_id": "B00005J36X",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Legacy system game, not in user history."
+      },
+      {
+        "item_id": "B002EWD01S",
+        "label": "support",
+        "score": 6,
+        "rationale": "Nintendo DS game, aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1108,
+    "completion_tokens": 157
+  }
+}

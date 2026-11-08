@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002VLSA8K",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user history."
+      },
+      {
+        "item_id": "B00LK2U6RO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B07BFXYTSL",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not relevant to user's PC gaming."
+      },
+      {
+        "item_id": "B08X24L4XC",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "VR accessory, not user preference."
+      },
+      {
+        "item_id": "B01DK0M30G",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming headset aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1048,
+    "completion_tokens": 154
+  }
+}

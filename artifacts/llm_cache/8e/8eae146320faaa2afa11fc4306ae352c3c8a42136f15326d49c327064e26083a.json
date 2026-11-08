@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00BHRD4BM",
+      "B01FWYIYNI",
+      "B07YBXNWXL",
+      "B07DJX3Y47",
+      "B00068O278",
+      "B000FQ9R4E",
+      "B004AYCNRU",
+      "B000B0RWWS",
+      "B0001615P2",
+      "B003UV8OPO",
+      "B07CJMGKNK",
+      "B071X39BX9",
+      "B005UKT826",
+      "B08TG138F1",
+      "B000B6ML3W",
+      "B00068O278",
+      "B07K3KHFSY",
+      "B0001615P2",
+      "B000B0RWWS",
+      "B000B6ML3W"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00BHRD4BM",
+        "reason": "PS4 game expansion for multiplayer"
+      },
+      {
+        "item_id": "B01FWYIYNI",
+        "reason": "PS4 controller charging dock"
+      },
+      {
+        "item_id": "B07YBXNWXL",
+        "reason": "Popular PS4 game title"
+      },
+      {
+        "item_id": "B07DJX3Y47",
+        "reason": "Relevant PS4 game expansion"
+      },
+      {
+        "item_id": "B00068O278",
+        "reason": "PS4 accessory for convenience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3479,
+    "completion_tokens": 320
+  }
+}

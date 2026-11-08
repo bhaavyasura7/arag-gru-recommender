@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "retro gaming",
+      "classic game consoles",
+      "PC gaming accessories",
+      "Nintendo Switch titles",
+      "multiplayer games"
+    ],
+    "current_intent": "looking for more retro games or accessories",
+    "avoid": [
+      "modern AAA titles",
+      "mobile games",
+      "first-person shooters"
+    ],
+    "summary": "User enjoys retro gaming, particularly on Nintendo Switch and PC, and seeks additional classic games or related accessories."
+  },
+  "usage": {
+    "prompt_tokens": 280,
+    "completion_tokens": 76
+  }
+}

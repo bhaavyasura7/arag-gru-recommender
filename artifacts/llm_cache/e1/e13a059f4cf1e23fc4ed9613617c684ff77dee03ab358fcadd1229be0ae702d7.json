@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B013VMRTNY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Star Wars interest, but not a game."
+      },
+      {
+        "item_id": "B00005QIQO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not Mac."
+      },
+      {
+        "item_id": "B0B9PCPSTN",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B00JH15U94",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Skin for PS4, user prefers PS2."
+      },
+      {
+        "item_id": "B000B8KIPI",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly matches PS2 gaming interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 973,
+    "completion_tokens": 162
+  }
+}

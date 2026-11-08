@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09KNG2LHC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Keyboard not directly related to interests."
+      },
+      {
+        "item_id": "B0B96YZCK3",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Switch not in user history."
+      },
+      {
+        "item_id": "B0009Z3MGA",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Pokemon game unrelated to user's interests."
+      },
+      {
+        "item_id": "B00DBDPOZ4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Xbox controller."
+      },
+      {
+        "item_id": "B001F8188Y",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo DS not relevant to user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1277,
+    "completion_tokens": 160
+  }
+}

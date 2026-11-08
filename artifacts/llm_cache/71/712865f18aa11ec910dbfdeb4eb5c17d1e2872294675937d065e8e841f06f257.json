@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B074T8GDTV",
+      "B00GWT8U9Q",
+      "B00N73UUJI",
+      "B17XY9ZL67",
+      "B005J3J3YW",
+      "B11MRROR26",
+      "B00H3YS4YU",
+      "B08VJ9KZ83",
+      "B000CIUAH8",
+      "B0006HB6H8",
+      "B00004UFM2",
+      "B07K3TCCWZ",
+      "B00S2TC8PG",
+      "B00JQSCIKM",
+      "B07XY9ZL67",
+      "B00N73UUJI",
+      "B00H3YS4YU",
+      "B00GWT8U9Q",
+      "B00S2TC8PG",
+      "B00JQSCIKM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B074T8GDTV",
+        "reason": "Classic Nintendo game cartridge"
+      },
+      {
+        "item_id": "B00GWT8U9Q",
+        "reason": "Nintendo DS game"
+      },
+      {
+        "item_id": "B00N73UUJI",
+        "reason": "Nintendo Switch game"
+      },
+      {
+        "item_id": "B07XY9ZL67",
+        "reason": "Compatible Nintendo Switch controller"
+      },
+      {
+        "item_id": "B005J3J3YW",
+        "reason": "Nintendo DS game with collectibles"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2596,
+    "completion_tokens": 327
+  }
+}

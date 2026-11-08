@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00NHV0XV0",
+      "B0015AARJI",
+      "B00Z9TM72Q",
+      "B0090D1D8G",
+      "B001DLVIFQ",
+      "B003MQMD2W",
+      "B005OGPTSS",
+      "B001ELJE1U",
+      "B003Z0BRDQ",
+      "B07C3PV1PX",
+      "B005MICTUE",
+      "B001EYUXLC",
+      "B003R7JXMO",
+      "B00JA81WQE",
+      "B00C1TTF86",
+      "B0029MAXVS",
+      "B006VR663G",
+      "B0041HROGG",
+      "B07ZJ6RY1W",
+      "B00B3Z8Z8G",
+      "B00B3Z8Z8H"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00NHV0XV0",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B0015AARJI",
+        "reason": "Essential PS3 controller"
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Popular PS4 game edition"
+      },
+      {
+        "item_id": "B0090D1D8G",
+        "reason": "Action-adventure game"
+      },
+      {
+        "item_id": "B001DLVIFQ",
+        "reason": "Star Wars action-adventure game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3732,
+    "completion_tokens": 333
+  }
+}

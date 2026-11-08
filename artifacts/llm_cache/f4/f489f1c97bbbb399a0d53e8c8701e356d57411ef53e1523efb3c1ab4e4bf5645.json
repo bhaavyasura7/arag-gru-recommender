@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00VTROHIY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers action games, not simulators."
+      },
+      {
+        "item_id": "B0CHM4DQKZ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with PS4, enhances gaming experience."
+      },
+      {
+        "item_id": "B001G7POMA",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not related to gaming or user interests."
+      },
+      {
+        "item_id": "B08PKTDNWS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Nintendo, not primary interest."
+      },
+      {
+        "item_id": "B06ZZCCDP7",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar genre to user's favorite games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1136,
+    "completion_tokens": 162
+  }
+}

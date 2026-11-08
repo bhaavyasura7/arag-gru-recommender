@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B16Y8JQ453",
+      "B07ZKW2285",
+      "B01N9K8K5G",
+      "B14D82Z4YO",
+      "B00GABTW2",
+      "B07SPGWL9M",
+      "B005M2U08S",
+      "B018EKX1UI",
+      "B09L156YBX",
+      "B07TSGW6T1",
+      "B003QWYX8E",
+      "B000GABTW2",
+      "B01ERBYZI0",
+      "B07424Y38Y",
+      "B12V6R36BD",
+      "B00Z94K5R0",
+      "B013VMUMHY",
+      "B076HFWFDY",
+      "B19V6R36BD",
+      "B00IGCK71G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07ZKW2285",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B01N9K8K5G",
+        "reason": "VR action game experience"
+      },
+      {
+        "item_id": "B14D82Z4YO",
+        "reason": "Essential PS4 controller"
+      },
+      {
+        "item_id": "B00GABTW2",
+        "reason": "Protective case for DS Lite"
+      },
+      {
+        "item_id": "B07SPGWL9M",
+        "reason": "Compatible with multiple systems"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3416,
+    "completion_tokens": 326
+  }
+}

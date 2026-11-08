@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "platformer games",
+      "fishing games",
+      "action-adventure games",
+      "console gaming",
+      "collectible games"
+    ],
+    "current_intent": "looking for new video games to play on console",
+    "avoid": [
+      "mobile games",
+      "puzzle games",
+      "horror games"
+    ],
+    "summary": "User enjoys console video games, particularly platformers and fishing games, and is seeking new titles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 313,
+    "completion_tokens": 82
+  }
+}

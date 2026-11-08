@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00NXJ2TA4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to gaming headsets."
+      },
+      {
+        "item_id": "B01N2G0H1T",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's interests."
+      },
+      {
+        "item_id": "B0BL3GPY9W",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches interest in gaming keyboards."
+      },
+      {
+        "item_id": "B01ABV7WT4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not relevant to gaming hardware."
+      },
+      {
+        "item_id": "B00009WBZ6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to PC games, but not hardware."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1144,
+    "completion_tokens": 162
+  }
+}

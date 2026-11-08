@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07WP2ZYNR",
+      "B07N2Z9VZX",
+      "B07CRX5X9T",
+      "B19ZHZBYCJ",
+      "B07MRJ12HX",
+      "B00020V4PI",
+      "B00WH0WRES",
+      "B0050SZ7IC",
+      "B00004S653",
+      "B00009XS6G",
+      "B003NHRDPW",
+      "B000051WA3",
+      "B071W7FSKN",
+      "B00020V4PI",
+      "B00009XS6G",
+      "B00004S653",
+      "B00020V4PI",
+      "B00020V4PI",
+      "B00020V4PI",
+      "B00020V4PI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07WP2ZYNR",
+        "reason": "High-quality gaming controller"
+      },
+      {
+        "item_id": "B07N2Z9VZX",
+        "reason": "Special edition game bundle"
+      },
+      {
+        "item_id": "B07CRX5X9T",
+        "reason": "Ergonomic gaming mouse"
+      },
+      {
+        "item_id": "B19ZHZBYCJ",
+        "reason": "Customizable gaming keypad"
+      },
+      {
+        "item_id": "B07MRJ12HX",
+        "reason": "Replacement parts for controllers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3858,
+    "completion_tokens": 313
+  }
+}

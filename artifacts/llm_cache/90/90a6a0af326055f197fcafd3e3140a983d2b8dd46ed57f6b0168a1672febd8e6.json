@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B19M1O4Z0M",
+      "B12W51LH1Y",
+      "B19ZNGSFW",
+      "B19R3KWK7X",
+      "B19N29EV8R",
+      "B19X6T3HF",
+      "B19HV6YGK2",
+      "B19MBOXHGC",
+      "B19B6E4U0",
+      "B19G4AOG",
+      "B19W51LH1Y",
+      "B19Z3WF8G8",
+      "B19N1O4Z0M",
+      "B19D6E4U0",
+      "B19Z3WF8G8",
+      "B19M1O4Z0M",
+      "B19N29EV8R",
+      "B19HV6YGK2",
+      "B19D6E4U0",
+      "B19M1O4Z0M",
+      "B19N29EV8R"
+    ],
+    "reasons": [
+      {
+        "item_id": "B12W51LH1Y",
+        "reason": "Affordable N64 controller replacement"
+      },
+      {
+        "item_id": "B19M1O4Z0M",
+        "reason": "Classic PlayStation game"
+      },
+      {
+        "item_id": "B19G4AOG",
+        "reason": "Replacement for GameCube power adapter"
+      },
+      {
+        "item_id": "B19ZNGSFW",
+        "reason": "Compatible with retro consoles"
+      },
+      {
+        "item_id": "B19D6E4U0",
+        "reason": "Classic Commodore game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3557,
+    "completion_tokens": 357
+  }
+}

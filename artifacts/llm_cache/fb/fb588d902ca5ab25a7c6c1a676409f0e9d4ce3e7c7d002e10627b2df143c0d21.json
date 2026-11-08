@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09S5LX9FL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Cooling fan for Xbox Series X."
+      },
+      {
+        "item_id": "B01MRGWQI7",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B00N8O8NT0",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PlayStation Vita, not Xbox related."
+      },
+      {
+        "item_id": "B08X6X4M1S",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PC accessory, not Xbox or PlayStation."
+      },
+      {
+        "item_id": "B00EPWPH8Y",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly related to Xbox 360."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1167,
+    "completion_tokens": 168
+  }
+}

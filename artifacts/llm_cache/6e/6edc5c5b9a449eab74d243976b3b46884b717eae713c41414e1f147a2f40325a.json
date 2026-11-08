@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B087SHFL9B",
+      "B09LVJB9L9",
+      "B07T7YCHFJ",
+      "B20XUZFFBG",
+      "B076WZK364",
+      "B08X6X4M1S",
+      "B09K3ZGD33",
+      "B003VC8TUM",
+      "B0001Q5SL4",
+      "B0BW68XJ23",
+      "B000K0L752",
+      "B00002SU96",
+      "B0007IQG2Q",
+      "B002NBBC8S",
+      "B0001Q5SL4",
+      "B00M9O8N0E",
+      "B00XUZFFBG",
+      "B07MJGYDD7",
+      "B0869FPXN8",
+      "B14T7YCHFJ",
+      "B0001Q5SL4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087SHFL9B",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B09LVJB9L9",
+        "reason": "High-quality screen protector"
+      },
+      {
+        "item_id": "B07T7YCHFJ",
+        "reason": "Useful charging dock sleeve"
+      },
+      {
+        "item_id": "B076WZK364",
+        "reason": "Durable joystick grips"
+      },
+      {
+        "item_id": "B08X6X4M1S",
+        "reason": "RGB gaming keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2918,
+    "completion_tokens": 334
+  }
+}

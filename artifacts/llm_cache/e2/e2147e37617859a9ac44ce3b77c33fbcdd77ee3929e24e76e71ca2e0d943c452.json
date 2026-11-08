@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00DE2W5XG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers older consoles, not PS4."
+      },
+      {
+        "item_id": "B00K0NV5J2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in RPGs."
+      },
+      {
+        "item_id": "B002JTX9X0",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys Nintendo games, likes humor."
+      },
+      {
+        "item_id": "B00KSQHX1K",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers Xbox 360, not Xbox One."
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has mixed interest in action games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1270,
+    "completion_tokens": 170
+  }
+}

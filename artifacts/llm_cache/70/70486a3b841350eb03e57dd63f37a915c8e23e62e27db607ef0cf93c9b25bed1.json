@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00ZM6I932",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, genre not aligned."
+      },
+      {
+        "item_id": "B000ZK9QCS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Same platform, similar action genre."
+      },
+      {
+        "item_id": "B004K66O78",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre, not action-oriented."
+      },
+      {
+        "item_id": "B0BPWPGHXW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00OBZNI0O",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform, not a direct game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1208,
+    "completion_tokens": 155
+  }
+}

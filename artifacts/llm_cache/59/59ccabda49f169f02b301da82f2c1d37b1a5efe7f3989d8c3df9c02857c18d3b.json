@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B096XMZYGD",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox controllers, user interest."
+      },
+      {
+        "item_id": "B07H44FVB2",
+        "label": "support",
+        "score": 7,
+        "rationale": "Xbox controller aligns with user's gaming."
+      },
+      {
+        "item_id": "B0B8NRMVHV",
+        "label": "support",
+        "score": 6,
+        "rationale": "Mechanical keyboard fits gaming preferences."
+      },
+      {
+        "item_id": "B00MXXBFSI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo accessory not relevant to user."
+      },
+      {
+        "item_id": "B094XDKBX2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS5 cover, user has PS5 interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1355,
+    "completion_tokens": 157
+  }
+}

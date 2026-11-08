@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07XQ2BG8K",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers Wii, not Switch Lite."
+      },
+      {
+        "item_id": "B077RQP3Y7",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no PS4 games in history."
+      },
+      {
+        "item_id": "B08SVZ2D2Y",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox accessories in history."
+      },
+      {
+        "item_id": "B00006RZ7N",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User prefers action games, not fantasy."
+      },
+      {
+        "item_id": "B07QMPPLTQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers Wii, not Switch accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1350,
+    "completion_tokens": 164
+  }
+}

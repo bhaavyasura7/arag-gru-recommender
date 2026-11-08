@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00005O0I8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo and PlayStation."
+      },
+      {
+        "item_id": "B075XLGQ4V",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo Switch games."
+      },
+      {
+        "item_id": "B07ST7LY8F",
+        "label": "support",
+        "score": 9,
+        "rationale": "User likes Pokémon and Nintendo Switch."
+      },
+      {
+        "item_id": "B001ELJEGU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in Xbox."
+      },
+      {
+        "item_id": "B008CP6MA2",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers newer PlayStation titles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1352,
+    "completion_tokens": 159
+  }
+}

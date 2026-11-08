@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00VEDAYE4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Generic controller, not highly rated."
+      },
+      {
+        "item_id": "B08HQPP6TV",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wired controller for Xbox, user interest."
+      },
+      {
+        "item_id": "B00003CWH8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo 64 controller, not relevant."
+      },
+      {
+        "item_id": "B0BYJ774BM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Switch controller, user prefers Xbox."
+      },
+      {
+        "item_id": "B000I7GI8I",
+        "label": "support",
+        "score": 6,
+        "rationale": "Xbox controller, fits user gaming needs."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2314,
+    "completion_tokens": 157
+  }
+}

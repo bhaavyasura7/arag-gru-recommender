@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00J5C3Z10",
+      "B19GHBJM72",
+      "B0B6CCNKD5",
+      "B00I5LAGM8",
+      "B0079V4FAY",
+      "B00ZSDTIGG",
+      "B013LDTYI6",
+      "B00CES8EFY",
+      "B00L59D9HG",
+      "B002JTX7LY",
+      "B0C8WZJM66",
+      "B08PBQ83ZR",
+      "B004IK89G0",
+      "B06XCNKQ1T",
+      "B00L4VYOIS",
+      "B08MBG5254",
+      "B00N2ROO2S",
+      "B00QGBNLUS",
+      "B00L59D9HG",
+      "B0C8WZJM66"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00J5C3Z10",
+        "reason": "Popular action-adventure game"
+      },
+      {
+        "item_id": "B01GHBJM72",
+        "reason": "High-energy fighting game"
+      },
+      {
+        "item_id": "B0B6CCNKD5",
+        "reason": "Controller for PlayStation gaming"
+      },
+      {
+        "item_id": "B00I5LAGM8",
+        "reason": "Action-packed stealth gameplay"
+      },
+      {
+        "item_id": "B0079V4FAY",
+        "reason": "Tactical multiplayer experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4138,
+    "completion_tokens": 336
+  }
+}

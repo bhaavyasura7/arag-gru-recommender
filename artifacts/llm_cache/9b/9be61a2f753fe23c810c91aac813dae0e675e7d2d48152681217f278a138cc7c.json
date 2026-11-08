@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000035XCC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user preferences."
+      },
+      {
+        "item_id": "B08F5GG58Q",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Retro games, but not user favorites."
+      },
+      {
+        "item_id": "B0012EYSW4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, different platform preference."
+      },
+      {
+        "item_id": "B001EYUPY2",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Strategy game, not user’s interest."
+      },
+      {
+        "item_id": "B0002W30DK",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PC expansion, diverges from user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 976,
+    "completion_tokens": 160
+  }
+}

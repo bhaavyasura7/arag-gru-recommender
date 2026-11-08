@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07Y8WC3FH",
+      "B08LK9926Y",
+      "B0BQJV18YK",
+      "B0C378F4Y5",
+      "B019NF75FK",
+      "B000KX0FOS",
+      "B00008XL01",
+      "B000S44NV0",
+      "B00002SU2P",
+      "B001EYUPNI",
+      "B01FMQ3LMU",
+      "B07HS49KWM",
+      "B00SNO3R5K",
+      "B077M85FVQ",
+      "B092CZMCLW",
+      "B00SCEKJHK",
+      "B00005JHKD",
+      "B000KX0FOS",
+      "B00X8YAA8C",
+      "B00008XL01"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07Y8WC3FH",
+        "reason": "Supports immersive VR gaming"
+      },
+      {
+        "item_id": "B08LK9926Y",
+        "reason": "Enhances gaming organization"
+      },
+      {
+        "item_id": "B0BQJV18YK",
+        "reason": "Useful for controller storage"
+      },
+      {
+        "item_id": "B0C378F4Y5",
+        "reason": "Customizable gaming keyboard"
+      },
+      {
+        "item_id": "B019NF75FK",
+        "reason": "Improves controller grip"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3407,
+    "completion_tokens": 316
+  }
+}

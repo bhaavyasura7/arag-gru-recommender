@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00005Q5GY",
+      "B00V2LZ45M",
+      "B00CMC7AXY",
+      "B0BSKR3G4F",
+      "B007LS8N6W",
+      "B001P5HPNY",
+      "B007VX0AW2",
+      "B004FYVPRY",
+      "B00EHRSQTY",
+      "B07FDZB863",
+      "B00NP4TWNY",
+      "B07YBXJ5FK",
+      "B079QKM4Q3",
+      "B00FWMWHSO",
+      "B005OOZRIM",
+      "B00004U8KA",
+      "B007PIR5WQ",
+      "B01HY10OUI",
+      "B00000I1BY",
+      "B074T7MTFS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00005Q5GY",
+        "reason": "Classic horror RPG experience"
+      },
+      {
+        "item_id": "B00V2LZ45M",
+        "reason": "Collection of hidden object games"
+      },
+      {
+        "item_id": "B00CMC7AXY",
+        "reason": "Classic horror game pack"
+      },
+      {
+        "item_id": "B0BSKR3G4F",
+        "reason": "Narrative-driven horror adventure"
+      },
+      {
+        "item_id": "B007LS8N6W",
+        "reason": "Chilling hidden object collection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2280,
+    "completion_tokens": 322
+  }
+}

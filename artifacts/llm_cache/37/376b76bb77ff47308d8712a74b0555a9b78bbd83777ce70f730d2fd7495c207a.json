@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01F9B019Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Generic controller, no specific game tie-in."
+      },
+      {
+        "item_id": "B07TQJJLHR",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Dock for Nintendo Switch, not directly relevant."
+      },
+      {
+        "item_id": "B07CPZ3PJG",
+        "label": "support",
+        "score": 8,
+        "rationale": "PlayStation 4 game, aligns with gaming interest."
+      },
+      {
+        "item_id": "B0199OXR0W",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Animal Crossing cards, not related to user history."
+      },
+      {
+        "item_id": "B0088TN73M",
+        "label": "support",
+        "score": 7,
+        "rationale": "Injustice game, superhero theme matches interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1181,
+    "completion_tokens": 167
+  }
+}

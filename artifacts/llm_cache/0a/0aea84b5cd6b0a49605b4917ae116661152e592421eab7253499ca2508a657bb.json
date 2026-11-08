@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01N6ZNSUQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B083JZ45GP",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in console skins."
+      },
+      {
+        "item_id": "B0066DEDYO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not engage with Skylanders."
+      },
+      {
+        "item_id": "B07JYKX62T",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox accessories, not PS4."
+      },
+      {
+        "item_id": "B00017X22U",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not play PlayStation 2 games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1094,
+    "completion_tokens": 170
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0719W8QL3",
+      "B006WLRR0E",
+      "B07X6KDQ98",
+      "B008KGN9DG",
+      "B13M6YFK7Y",
+      "B01GY3628A",
+      "B004WLRR0E",
+      "B00004S9AA",
+      "B00GM5T8PK",
+      "B0050SW1WW",
+      "B074MYLP9C",
+      "B001EYUQ4G",
+      "B00O65I2VY",
+      "B00DJRLDMU",
+      "B087LSSNG1",
+      "B01M6C7YE8",
+      "B00OYPWRHQ",
+      "B00SSZGYNR",
+      "B08CG1GDR2",
+      "B00O65I2VY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0719W8QL3",
+        "reason": "Popular Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B006WLRR0E",
+        "reason": "Compatible with Nintendo systems"
+      },
+      {
+        "item_id": "B07X6KDQ98",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B008KGN9DG",
+        "reason": "Familiar game franchise"
+      },
+      {
+        "item_id": "B13M6YFK7Y",
+        "reason": "Highly rated RPG title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3891,
+    "completion_tokens": 327
+  }
+}

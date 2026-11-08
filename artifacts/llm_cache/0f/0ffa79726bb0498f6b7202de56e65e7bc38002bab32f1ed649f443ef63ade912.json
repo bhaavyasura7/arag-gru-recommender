@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00CJ9OTNE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B00005U8TQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B08CW2M37L",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B002Z01QO2",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys Wii games."
+      },
+      {
+        "item_id": "B07QQ8N7LL",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 152
+  }
+}

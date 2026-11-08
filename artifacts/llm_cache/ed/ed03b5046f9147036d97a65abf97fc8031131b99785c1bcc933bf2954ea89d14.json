@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00004YUWA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Older game, not in user history."
+      },
+      {
+        "item_id": "B00005BW7Q",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not aligned with interests."
+      },
+      {
+        "item_id": "B07F6WPGN5",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo Switch, user prefers PlayStation."
+      },
+      {
+        "item_id": "B007CM0K86",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre, popular among gamers."
+      },
+      {
+        "item_id": "B00006FWTW",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different platform, not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1510,
+    "completion_tokens": 155
+  }
+}

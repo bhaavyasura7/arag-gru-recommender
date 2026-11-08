@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B088FK3GKH",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different Nintendo system."
+      },
+      {
+        "item_id": "B0028T8Z3A",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not related to user's gaming preferences."
+      },
+      {
+        "item_id": "B09TSV6972",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's PlayStation interests."
+      },
+      {
+        "item_id": "B0B3MGVG3W",
+        "label": "support",
+        "score": 6,
+        "rationale": "Replacement parts for Nintendo systems."
+      },
+      {
+        "item_id": "B005LH6PYM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre than user's preferred games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1272,
+    "completion_tokens": 155
+  }
+}

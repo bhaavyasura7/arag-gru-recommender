@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00269QLI8",
+      "B00DDILSBG",
+      "B07YBXFF99",
+      "B17YBX5FVF",
+      "B001EHD9JW",
+      "B000GHLBUA",
+      "B00IEZ6H4G",
+      "B000QSVMRG",
+      "B0009RG88M",
+      "B00LV5XHIK",
+      "B000084318",
+      "B0006GBCZU",
+      "B00ZM6I932",
+      "B07YBX5FVF",
+      "B000FT72M3X",
+      "B00OBZNI0O",
+      "B00XR3YBM0",
+      "B000ZK9QCS",
+      "B004K66O78",
+      "B00DDILSBG",
+      "B0009RG88M"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00269QLI8",
+        "reason": "Popular action-adventure shooter"
+      },
+      {
+        "item_id": "B00DDILSBG",
+        "reason": "Engaging narrative-driven gameplay"
+      },
+      {
+        "item_id": "B07YBXFF99",
+        "reason": "Immersive stealth-action experience"
+      },
+      {
+        "item_id": "B001EHD9JW",
+        "reason": "Classic adventure with nostalgia"
+      },
+      {
+        "item_id": "B00IEZ6H4G",
+        "reason": "Intense survival horror atmosphere"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3878,
+    "completion_tokens": 329
+  }
+}

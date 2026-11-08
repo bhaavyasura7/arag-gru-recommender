@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BL3GPY9W",
+      "B00SVVUOGU",
+      "B20A7ALZ8O",
+      "B00005LABK",
+      "B09DL5PMWL",
+      "B0036F0V4G",
+      "B004DGIYEG",
+      "B0083GAF9E",
+      "B001F8188Y",
+      "B001EYUS80",
+      "B000035Y4P",
+      "B005GISQ9S",
+      "B0B413WD1M",
+      "B006P28VBM",
+      "B003R7JXOM",
+      "B004Q8L46G",
+      "B0088TN73M",
+      "B07X56TZ16",
+      "B0009VXBAQ",
+      "B003R7JXOM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BL3GPY9W",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B00SVVUOGU",
+        "reason": "Popular racing game"
+      },
+      {
+        "item_id": "B20A7ALZ8O",
+        "reason": "Classic Star Wars game"
+      },
+      {
+        "item_id": "B00005LABK",
+        "reason": "Multiplayer action experience"
+      },
+      {
+        "item_id": "B09DL5PMWL",
+        "reason": "Fun golf game with friends"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3527,
+    "completion_tokens": 319
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B9GZ58RB",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to gaming but not directly relevant."
+      },
+      {
+        "item_id": "B07Z427CPZ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with PC, aligns with user interests."
+      },
+      {
+        "item_id": "B09F2MS59L",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for headset, not a controller."
+      },
+      {
+        "item_id": "B08HK5MSB7",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with Xbox, matches gaming interest."
+      },
+      {
+        "item_id": "B083QCMGZ7",
+        "label": "support",
+        "score": 7,
+        "rationale": "Adapter for consoles, aligns with gaming needs."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1452,
+    "completion_tokens": 162
+  }
+}

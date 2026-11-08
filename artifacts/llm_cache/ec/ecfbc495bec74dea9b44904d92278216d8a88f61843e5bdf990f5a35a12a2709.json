@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00NXJ2TA4",
+      "B01N2G0H1T",
+      "B0BL3GPY9W",
+      "B15P2W7NPS",
+      "B07MG4HBMH",
+      "B0B41H3YTK",
+      "B07TTQ2F51",
+      "B00009WBZ6",
+      "B00009YXE0",
+      "B000HFZC5Q",
+      "B001XCWTSK",
+      "B004G45V8C",
+      "B00YI6NK7C",
+      "B07SNKNWD3",
+      "B0BVFJBM2V",
+      "B00KGCPT4O",
+      "B0B1MBB7SZ",
+      "B0006TNCKA",
+      "B07P2W7NPS",
+      "B01ABV7WT4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00NXJ2TA4",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B01N2G0H1T",
+        "reason": "Gaming accessory for PC and consoles"
+      },
+      {
+        "item_id": "B0BL3GPY9W",
+        "reason": "RGB mechanical keyboard"
+      },
+      {
+        "item_id": "B15P2W7NPS",
+        "reason": "Noise-cancelling headset"
+      },
+      {
+        "item_id": "B07MG4HBMH",
+        "reason": "Gaming keyboard and mouse combo"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3077,
+    "completion_tokens": 341
+  }
+}

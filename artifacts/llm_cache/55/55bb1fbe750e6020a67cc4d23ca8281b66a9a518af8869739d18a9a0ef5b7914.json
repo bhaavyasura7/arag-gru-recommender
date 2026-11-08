@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "retro video games",
+      "gaming consoles",
+      "boxing games",
+      "portable gaming",
+      "collectible gaming accessories"
+    ],
+    "current_intent": "looking for retro gaming consoles or accessories",
+    "avoid": [
+      "modern video games",
+      "highly rated games",
+      "non-gaming products"
+    ],
+    "summary": "The user enjoys retro gaming and is interested in consoles and accessories, but dislikes modern games and highly rated titles."
+  },
+  "usage": {
+    "prompt_tokens": 346,
+    "completion_tokens": 95
+  }
+}

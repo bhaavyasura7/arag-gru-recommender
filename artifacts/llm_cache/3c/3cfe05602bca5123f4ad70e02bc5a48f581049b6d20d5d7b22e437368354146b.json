@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07D53QSMK",
+      "B08GYNLVF4",
+      "B14LRLJV28",
+      "B000N5Z2L4",
+      "B17DRY9T7Z",
+      "B005JQNEO4",
+      "B00FM5IY0Q",
+      "B006QZ85PU",
+      "B00MXRHZ5Q",
+      "B000F3AACA",
+      "B000HKGD4A",
+      "B000FJEV06",
+      "B000N5Z2L4",
+      "B000F3AACA",
+      "B000HKGD4A",
+      "B001ELJFN2",
+      "B001EYUW2M",
+      "B0848GXDR8",
+      "B007PX6MFM",
+      "B019CYYSFC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08GYNLVF4",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B14LRLJV28",
+        "reason": "Premium racing wheel for Xbox"
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "reason": "Xbox Live Gold membership"
+      },
+      {
+        "item_id": "B17DRY9T7Z",
+        "reason": "Detachable microphone for gaming"
+      },
+      {
+        "item_id": "B005JQNEO4",
+        "reason": "Classic horror game remastered"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3816,
+    "completion_tokens": 327
+  }
+}

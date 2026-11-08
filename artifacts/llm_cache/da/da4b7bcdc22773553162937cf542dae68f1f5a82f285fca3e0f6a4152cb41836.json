@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004RMK5QG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers PC games, not PlayStation."
+      },
+      {
+        "item_id": "B001D7T2US",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in bowling games."
+      },
+      {
+        "item_id": "B0001VNNE8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game; limited relevance."
+      },
+      {
+        "item_id": "B07VLCRZ21",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User prefers PC games, not Xbox."
+      },
+      {
+        "item_id": "B004GEBB2W",
+        "label": "support",
+        "score": 8,
+        "rationale": "PC game aligns with user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1198,
+    "completion_tokens": 161
+  }
+}

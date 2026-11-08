@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0891DDRYN",
+      "B00Y8CQCXA",
+      "B00GKL905O",
+      "B09WS2QZXT",
+      "B004HO6CQG",
+      "B003JVCA9Q",
+      "B0028Y4PV6",
+      "B000B6MLV4",
+      "B00005LVWM",
+      "B000KRXAGE",
+      "B07CB12726",
+      "B000A0EFHY",
+      "B001DIY25M",
+      "B0BDF9WZQQ",
+      "B07PZ8NZSZ",
+      "B0002ILS1K",
+      "B000I0J4VQ",
+      "B017C6OK7S",
+      "B0002ILS1K",
+      "B00005LVWM",
+      "B000KRXAGE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0891DDRYN",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B00Y8CQCXA",
+        "reason": "Cooling stand for PS4"
+      },
+      {
+        "item_id": "B00GKL905O",
+        "reason": "Retro gaming link cable"
+      },
+      {
+        "item_id": "B09WS2QZXT",
+        "reason": "Popular tactical shooter game"
+      },
+      {
+        "item_id": "B004HO6CQG",
+        "reason": "Classic PS3 game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3677,
+    "completion_tokens": 324
+  }
+}

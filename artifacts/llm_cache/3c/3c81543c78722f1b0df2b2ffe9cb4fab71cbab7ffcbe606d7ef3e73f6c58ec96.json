@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B097B6JN1W",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox games user enjoys."
+      },
+      {
+        "item_id": "B07WXKQWTV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Retro console, not directly related."
+      },
+      {
+        "item_id": "B007VTVRFA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but still a video game."
+      },
+      {
+        "item_id": "B00320JAX8",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different platform, not user’s focus."
+      },
+      {
+        "item_id": "B00NEU02JW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Skylanders not aligned with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1177,
+    "completion_tokens": 158
+  }
+}

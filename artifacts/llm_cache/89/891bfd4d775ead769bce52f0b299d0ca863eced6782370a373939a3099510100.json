@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B009O8OC3K",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox games, not Nintendo."
+      },
+      {
+        "item_id": "B000BQP2RY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a PS2."
+      },
+      {
+        "item_id": "B01J4JWNG6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox games, not Wii U."
+      },
+      {
+        "item_id": "B00IS5Q8C8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox games, not GameCube."
+      },
+      {
+        "item_id": "B00NHDSINS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User may use arcade stick for Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 957,
+    "completion_tokens": 168
+  }
+}

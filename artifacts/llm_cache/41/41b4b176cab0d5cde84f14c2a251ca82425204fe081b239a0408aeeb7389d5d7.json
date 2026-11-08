@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00CXVLY9A",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B004IK89F6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B000OYMYZQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox 360, user interest."
+      },
+      {
+        "item_id": "B000065DGH",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different genre, not directly related."
+      },
+      {
+        "item_id": "B004RMK57U",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 152
+  }
+}

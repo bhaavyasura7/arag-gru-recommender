@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07NKN4VR4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B07YBX6T95",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B0008G1NEI",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B0C1KSD9Q8",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches user's gaming accessory interest."
+      },
+      {
+        "item_id": "B0779JS5JC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1330,
+    "completion_tokens": 151
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B006NZ4ALQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox 360 video games."
+      },
+      {
+        "item_id": "B0919N3H4X",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for VR, not directly relevant."
+      },
+      {
+        "item_id": "B00VF5J6IG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Decal for a different gaming system."
+      },
+      {
+        "item_id": "B07D7PQJRP",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's Xbox One controller."
+      },
+      {
+        "item_id": "B008QRVPQW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Fightstick for different gaming preference."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1014,
+    "completion_tokens": 157
+  }
+}

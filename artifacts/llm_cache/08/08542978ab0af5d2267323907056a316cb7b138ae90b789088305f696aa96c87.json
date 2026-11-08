@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B000EUFCS6",
+      "B06XKGYP2X",
+      "B01FW8BIUA",
+      "B0BKTKFSQW",
+      "B07D5M7SNW",
+      "B0B9GMZ248",
+      "B08S5GWGB8",
+      "B00U0QAIGK",
+      "B00RX9G51E",
+      "B0BXWHLBJJ",
+      "B00D4D2YR2",
+      "B0BP3QB1YP",
+      "B0BQQ8LQM1",
+      "B073P87KFT",
+      "B000U8Z6BA",
+      "B0B9GMZ248",
+      "B008TTPTOQ",
+      "B000D4D2YR2",
+      "B0BKTKFSQW",
+      "B07Z5R87H2",
+      "B0BP3QB1YP"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000EUFCS6",
+        "reason": "Cooling solution for PS4"
+      },
+      {
+        "item_id": "B06XKGYP2X",
+        "reason": "PS4 skin enhances aesthetics"
+      },
+      {
+        "item_id": "B01FW8BIUA",
+        "reason": "Protective skin for PS4"
+      },
+      {
+        "item_id": "B0BKTKFSQW",
+        "reason": "PS4 controller enhancement"
+      },
+      {
+        "item_id": "B07D5M7SNW",
+        "reason": "Renewed PS4 console option"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3687,
+    "completion_tokens": 350
+  }
+}

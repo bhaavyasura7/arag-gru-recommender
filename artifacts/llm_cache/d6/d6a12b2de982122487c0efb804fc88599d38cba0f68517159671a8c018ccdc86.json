@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00Z9TM72Q",
+      "B11TN8X89W",
+      "B0015AARJI",
+      "B003R7JXMO",
+      "B003Z0BRDQ",
+      "B001DLVIFQ",
+      "B005OGPTSS",
+      "B001EYUXLC",
+      "B0041HROGG",
+      "B00NHV0XV0",
+      "B003MQMD2W",
+      "B001ELJE1U",
+      "B07C3PV1PX",
+      "B005MICTUE",
+      "B006VR663G",
+      "B003MQMD2W",
+      "B00JA81WQE",
+      "B0029MAXVS",
+      "B00C1TTF86",
+      "B0015AARJI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Popular PS4 game with action"
+      },
+      {
+        "item_id": "B11TN8X89W",
+        "reason": "Action-adventure on PS4"
+      },
+      {
+        "item_id": "B0015AARJI",
+        "reason": "Essential PS3 controller"
+      },
+      {
+        "item_id": "B003R7JXMO",
+        "reason": "Multiplayer FPS experience"
+      },
+      {
+        "item_id": "B003Z0BRDQ",
+        "reason": "Strategic gameplay on PC"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3782,
+    "completion_tokens": 316
+  }
+}

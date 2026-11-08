@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08B1T61CC",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has PS3 games."
+      },
+      {
+        "item_id": "B079HR59PP",
+        "label": "support",
+        "score": 8,
+        "rationale": "User owns Xbox One games."
+      },
+      {
+        "item_id": "B000RP216O",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own Wii games."
+      },
+      {
+        "item_id": "B08GYRTGNQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own Switch."
+      },
+      {
+        "item_id": "B00DHJLL0Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User plays fighting games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1229,
+    "completion_tokens": 149
+  }
+}

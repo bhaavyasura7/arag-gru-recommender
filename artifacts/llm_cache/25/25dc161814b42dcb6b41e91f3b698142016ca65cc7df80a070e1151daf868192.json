@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07X56TZ16",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers gaming headsets, not games."
+      },
+      {
+        "item_id": "B001EYUS80",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User's history shows no interest in horror."
+      },
+      {
+        "item_id": "B000035Y4P",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers headsets, not RPGs."
+      },
+      {
+        "item_id": "B0083GAF9E",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User's history shows no interest in RPGs."
+      },
+      {
+        "item_id": "B00ZD99YXC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers gaming gear, not toys."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1280,
+    "completion_tokens": 170
+  }
+}

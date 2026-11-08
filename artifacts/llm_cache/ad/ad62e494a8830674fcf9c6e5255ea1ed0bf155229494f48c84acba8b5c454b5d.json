@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B06ZXXH1TT",
+      "B019H5II8Y",
+      "B004W2F1Z0",
+      "B0017ZIIK6",
+      "B00QXJFDZO",
+      "B001ULNO6A",
+      "B00CWV550U",
+      "B001EHD9BK",
+      "B001TEYMRI",
+      "B00EK5TWFA",
+      "B00N3OELPU",
+      "B005669IE2",
+      "B009M72E5Q",
+      "B002BSA388",
+      "B07NLHN52M",
+      "B014U5LD3S",
+      "B000I10PY2",
+      "B082VX16VJ",
+      "B000I10PY2",
+      "B0017ZIIK6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B06ZXXH1TT",
+        "reason": "PlayStation 4 accessory for gaming"
+      },
+      {
+        "item_id": "B019H5II8Y",
+        "reason": "Compatible with multiple platforms"
+      },
+      {
+        "item_id": "B004W2F1Z0",
+        "reason": "Popular online subscription game"
+      },
+      {
+        "item_id": "B0017ZIIK6",
+        "reason": "PlayStation 3 game with multiplayer"
+      },
+      {
+        "item_id": "B00QXJFDZO",
+        "reason": "PlayStation 4 game with action"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3619,
+    "completion_tokens": 329
+  }
+}

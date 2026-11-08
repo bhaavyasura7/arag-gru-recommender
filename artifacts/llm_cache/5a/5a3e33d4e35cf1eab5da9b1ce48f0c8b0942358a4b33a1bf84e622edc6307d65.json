@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07P6MD9B7",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys LEGO games on Xbox One."
+      },
+      {
+        "item_id": "B0054U4A4I",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox One, not Xbox 360."
+      },
+      {
+        "item_id": "B00DUARDFC",
+        "label": "support",
+        "score": 9,
+        "rationale": "User likes LEGO and Marvel games."
+      },
+      {
+        "item_id": "B001T0HVGQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User focuses on Xbox One, not Xbox 360."
+      },
+      {
+        "item_id": "B0BZHKCD7D",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User does not show interest in PS4 accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1330,
+    "completion_tokens": 172
+  }
+}

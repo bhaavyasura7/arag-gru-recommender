@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07DKTTMJ3",
+      "B07DK1P7R5",
+      "B08CDLZNZM",
+      "B08X4WMK3X",
+      "B017G3ZBV6",
+      "B0CC2B8L8H",
+      "B0BN3YRNNV",
+      "B0C4J8C2QJ",
+      "B07Y45483X",
+      "B09TKN6VK",
+      "B005FPDFF2",
+      "B001E27KTM",
+      "B07WTBZNTN",
+      "B07P9Z1829",
+      "B088FBQX49",
+      "B00KQHHDZC",
+      "B00895ALH0",
+      "B6X3LPJJW",
+      "B0BY2C5KLQ",
+      "B07X3LPJJW",
+      "B0C4J8C2QJ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07DKTTMJ3",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B07DK1P7R5",
+        "reason": "Multiplayer action RPG"
+      },
+      {
+        "item_id": "B08CDLZNZM",
+        "reason": "Gaming mouse for enhanced play"
+      },
+      {
+        "item_id": "B08X4WMK3X",
+        "reason": "Backpack for gaming accessories"
+      },
+      {
+        "item_id": "B017G3ZBV6",
+        "reason": "Console skin for personalization"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3788,
+    "completion_tokens": 348
+  }
+}

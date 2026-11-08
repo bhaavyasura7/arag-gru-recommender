@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00DTY9B0O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Xbox game, user prefers PlayStation."
+      },
+      {
+        "item_id": "B001QCWSDI",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Xbox 360 game, user prefers newer titles."
+      },
+      {
+        "item_id": "B006ZQ85YG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller accessory, not a game."
+      },
+      {
+        "item_id": "B00B8SAB8O",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Game storage, not directly related to gaming."
+      },
+      {
+        "item_id": "B00EP2WNKY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PC game, user prefers console games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 163
+  }
+}

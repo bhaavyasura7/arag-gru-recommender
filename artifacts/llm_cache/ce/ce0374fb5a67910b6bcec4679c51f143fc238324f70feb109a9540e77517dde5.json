@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00005ME6O",
+      "B001LX4BMS",
+      "B000068I2T",
+      "B001EGJTEW",
+      "B0001NM4FU",
+      "B074FYJ88V",
+      "B09GFM13FS",
+      "B00IJG6DOY",
+      "B07HRNV5QM",
+      "B08P1N8LDQ",
+      "B01N9BFM31",
+      "B01HA99MOI",
+      "B000E8D0EQ",
+      "B07L8MVVKR",
+      "B000035XCO",
+      "B004RS1SQQ",
+      "B07RC5P99K",
+      "B08SG26GDD",
+      "B00005ME6O",
+      "B000068I2T"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00005ME6O",
+        "reason": "Classic horror aligns with interests"
+      },
+      {
+        "item_id": "B001LX4BMS",
+        "reason": "Classic game with nostalgic appeal"
+      },
+      {
+        "item_id": "B000068I2T",
+        "reason": "Rare classic game for collectors"
+      },
+      {
+        "item_id": "B001EGJTEW",
+        "reason": "Interactive storytelling for families"
+      },
+      {
+        "item_id": "B0001NM4FU",
+        "reason": "Fun activities based on a classic movie"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3282,
+    "completion_tokens": 319
+  }
+}

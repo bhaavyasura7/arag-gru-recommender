@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming headsets",
+      "PlayStation accessories",
+      "digital game memberships",
+      "multiplayer games",
+      "game expansions"
+    ],
+    "current_intent": "looking for new gaming accessories or memberships",
+    "avoid": [
+      "low-quality products",
+      "non-gaming items",
+      "PC gaming gear"
+    ],
+    "summary": "User is a dedicated PlayStation gamer seeking high-quality accessories and digital memberships to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 305,
+    "completion_tokens": 77
+  }
+}

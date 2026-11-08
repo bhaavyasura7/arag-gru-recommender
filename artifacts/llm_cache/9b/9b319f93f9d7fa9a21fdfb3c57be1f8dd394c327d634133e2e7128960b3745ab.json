@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07X649B77",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre and style than interests."
+      },
+      {
+        "item_id": "B00C2PJTKS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre and darker themes."
+      },
+      {
+        "item_id": "B008FWZZ9Q",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Horror genre not aligned with interests."
+      },
+      {
+        "item_id": "B002I0J51U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, mixed relevance."
+      },
+      {
+        "item_id": "B004Y98Q04",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Racing genre differs from user preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1232,
+    "completion_tokens": 163
+  }
+}

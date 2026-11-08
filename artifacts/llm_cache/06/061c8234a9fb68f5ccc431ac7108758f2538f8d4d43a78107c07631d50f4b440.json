@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01N1P0KFI",
+        "label": "support",
+        "score": 9,
+        "rationale": "Matches Xbox One controller accessories."
+      },
+      {
+        "item_id": "B001KC03RC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not related to user's gaming preferences."
+      },
+      {
+        "item_id": "B0BLVVPMWC",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox One consoles."
+      },
+      {
+        "item_id": "B00IR8D374",
+        "label": "support",
+        "score": 7,
+        "rationale": "Useful charging solution for Xbox One."
+      },
+      {
+        "item_id": "B08S6YSDQ7",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Retro console, not aligned with preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1872,
+    "completion_tokens": 154
+  }
+}

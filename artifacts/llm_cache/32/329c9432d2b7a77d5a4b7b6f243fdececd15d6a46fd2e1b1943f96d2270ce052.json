@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0975J9QQW",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not related to video games."
+      },
+      {
+        "item_id": "B00HY37AS6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Japanese game, not PS2 compatible."
+      },
+      {
+        "item_id": "B0130DF8PA",
+        "label": "neutral",
+        "score": 6,
+        "rationale": "PC games, not PS2 related."
+      },
+      {
+        "item_id": "B09PD9N1DT",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "VR accessory, not PS2 related."
+      },
+      {
+        "item_id": "B0009IO662",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible memory card for GameCube."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 932,
+    "completion_tokens": 157
+  }
+}

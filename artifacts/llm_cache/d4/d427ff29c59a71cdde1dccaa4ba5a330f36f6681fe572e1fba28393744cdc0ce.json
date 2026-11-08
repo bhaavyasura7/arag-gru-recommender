@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002B9XB0E",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Generic controller, not game-specific."
+      },
+      {
+        "item_id": "B01HHKDBRO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Replacement part, not a game."
+      },
+      {
+        "item_id": "B0037M5W24",
+        "label": "support",
+        "score": 8,
+        "rationale": "Wii game, aligns with interests."
+      },
+      {
+        "item_id": "B00KWIYPZG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "3DS game, different platform."
+      },
+      {
+        "item_id": "B003IU01LC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PS3 controller, not relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1342,
+    "completion_tokens": 156
+  }
+}

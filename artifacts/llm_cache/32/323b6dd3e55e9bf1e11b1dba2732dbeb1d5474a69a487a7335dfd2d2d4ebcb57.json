@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07K3TCCWZ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B00N73UUJI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre than user's preferences."
+      },
+      {
+        "item_id": "B074T8GDTV",
+        "label": "support",
+        "score": 7,
+        "rationale": "Classic game aligns with user interests."
+      },
+      {
+        "item_id": "B07XY9ZL67",
+        "label": "support",
+        "score": 6,
+        "rationale": "Accessory for Nintendo Switch, user owns one."
+      },
+      {
+        "item_id": "B00S2TC8PG",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not directly related to gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 720,
+    "completion_tokens": 156
+  }
+}

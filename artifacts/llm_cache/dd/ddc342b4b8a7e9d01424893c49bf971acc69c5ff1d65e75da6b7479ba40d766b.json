@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07D5G4KXJ",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Nintendo Switch accessories."
+      },
+      {
+        "item_id": "B00HRW8PRO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User hasn't shown interest in 3DS games."
+      },
+      {
+        "item_id": "B098815CMR",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo Switch games."
+      },
+      {
+        "item_id": "B09TR1LM9H",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User focuses on modern consoles."
+      },
+      {
+        "item_id": "B00O15486W",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers console accessories, not PC."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1482,
+    "completion_tokens": 156
+  }
+}

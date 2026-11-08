@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00Z9TM72Q",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys military-themed video games."
+      },
+      {
+        "item_id": "B01MG8P418",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has PC gaming interest, but no controller."
+      },
+      {
+        "item_id": "B002I0JMB8",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys strategy games like Mass Effect."
+      },
+      {
+        "item_id": "B0013LTP6U",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Casual puzzle games differ from user's interests."
+      },
+      {
+        "item_id": "B005JQNEO4",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys horror games like Silent Hill."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1364,
+    "completion_tokens": 163
+  }
+}

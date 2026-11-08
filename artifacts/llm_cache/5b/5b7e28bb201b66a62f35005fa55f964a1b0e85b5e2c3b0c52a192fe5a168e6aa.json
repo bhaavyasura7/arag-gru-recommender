@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "fighting games",
+      "arcade sticks",
+      "survival games",
+      "action-adventure games",
+      "Nintendo titles"
+    ],
+    "current_intent": "looking for new video games to play",
+    "avoid": [
+      "low-rated games",
+      "sports games",
+      "non-action titles"
+    ],
+    "summary": "The user enjoys action and survival video games, particularly on consoles, and is currently seeking new titles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 354,
+    "completion_tokens": 81
+  }
+}

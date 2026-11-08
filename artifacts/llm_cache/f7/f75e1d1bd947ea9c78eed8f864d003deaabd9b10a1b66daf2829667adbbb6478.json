@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09LMBRTWY",
+      "B11NY115LY",
+      "B20UZXOQW",
+      "B00EJL1IZW",
+      "B0013VC5G2",
+      "B0002VZX86",
+      "B000UZXOQW",
+      "B001EYUQ1Y",
+      "B076MKHK83",
+      "B07KVHH7H4",
+      "B09M8KRMNK",
+      "B06XG1VYPR",
+      "B004HD55VK",
+      "B00LYYN4MM",
+      "B08S2G7WM",
+      "B07NY115LY",
+      "B093KHDF9Y",
+      "B0013VC5G2",
+      "B0002VZX86",
+      "B000UZXOQW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09LMBRTWY",
+        "reason": "Retro gaming with 318 games"
+      },
+      {
+        "item_id": "B11NY115LY",
+        "reason": "Classic games console appeal"
+      },
+      {
+        "item_id": "B20UZXOQW",
+        "reason": "Nostalgic platformer experience"
+      },
+      {
+        "item_id": "B00EJL1IZW",
+        "reason": "Controller shell for Xbox 360"
+      },
+      {
+        "item_id": "B0013VC5G2",
+        "reason": "Cute accessory for Nintendo DS"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3427,
+    "completion_tokens": 325
+  }
+}

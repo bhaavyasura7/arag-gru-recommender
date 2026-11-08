@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B091H1VVZ3",
+      "B0BZNKW237",
+      "B0C65MJ84W",
+      "B08PBHV5KG",
+      "B19JSKBZKX",
+      "B016P6KIFY",
+      "B0792R4Q4J",
+      "B08DD3RZFS",
+      "B004NUJX9M",
+      "B0000E1RBK",
+      "B0009F9X3G",
+      "B00005ME8T",
+      "B00B8ZN4CW",
+      "B002GCFI2K",
+      "B00004U8GK",
+      "B071WR2JYQ",
+      "B0000E1RBK",
+      "B08DD3RZFS",
+      "B0009F9X3G",
+      "B00005ME8T"
+    ],
+    "reasons": [
+      {
+        "item_id": "B091H1VVZ3",
+        "reason": "Popular PS5 game title"
+      },
+      {
+        "item_id": "B0BZNKW237",
+        "reason": "Compatible VR headset accessory"
+      },
+      {
+        "item_id": "B0C65MJ84W",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B08PBHV5KG",
+        "reason": "Switch carrying case for travel"
+      },
+      {
+        "item_id": "B19JSKBZKX",
+        "reason": "RGB mechanical keyboard features"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3413,
+    "completion_tokens": 329
+  }
+}

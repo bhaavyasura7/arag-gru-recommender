@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09NHSVKJK",
+      "B07GMV1X1K",
+      "B00E9B0OMK",
+      "B002L8W5V6",
+      "B15HK5II7O",
+      "B07DK364N4",
+      "B0092AAMWU",
+      "B002Q8HFLG",
+      "B15TR3Q88F",
+      "B00HMCK2ZC",
+      "B00O3JSRHW",
+      "B00DW839FU",
+      "B00DP7CKTE",
+      "B00Q2NT48S",
+      "B007HPNYBS",
+      "B086H9RJ89",
+      "B0735DRQ1Z",
+      "B01HK5II7O",
+      "B00HMCK2ZC",
+      "B00O3JSRHW",
+      "B00DW839FU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09NHSVKJK",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B07GMV1X1K",
+        "reason": "Retro console compatibility"
+      },
+      {
+        "item_id": "B00E9B0OMK",
+        "reason": "Amplified audio for immersion"
+      },
+      {
+        "item_id": "B002L8W5V6",
+        "reason": "Compatible GameCube controller"
+      },
+      {
+        "item_id": "B07DK364N4",
+        "reason": "Replacement for PS4 power supply"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3134,
+    "completion_tokens": 337
+  }
+}

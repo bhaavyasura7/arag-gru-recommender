@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0928XJFJP",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with multiple gaming platforms."
+      },
+      {
+        "item_id": "B07SZ52PQM",
+        "label": "support",
+        "score": 8,
+        "rationale": "Excellent compatibility with gaming consoles."
+      },
+      {
+        "item_id": "B08DY6V5V2",
+        "label": "support",
+        "score": 7,
+        "rationale": "Supports PS4 and Nintendo Switch gaming."
+      },
+      {
+        "item_id": "B07VT2491H",
+        "label": "support",
+        "score": 6,
+        "rationale": "Noise cancelling and compatible with consoles."
+      },
+      {
+        "item_id": "B08LPXBY93",
+        "label": "support",
+        "score": 7,
+        "rationale": "Universal compatibility for gaming headsets."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3019,
+    "completion_tokens": 151
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00EQNP8W2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Xbox Live not directly related to interests."
+      },
+      {
+        "item_id": "B0995GXFV4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre than user's preferences."
+      },
+      {
+        "item_id": "B00RUZPKYY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Similar genre but different gameplay style."
+      },
+      {
+        "item_id": "B08F97Q8HS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar to Mario Kart interest."
+      },
+      {
+        "item_id": "B00421B36S",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Casual game, not aligned with user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1251,
+    "completion_tokens": 157
+  }
+}

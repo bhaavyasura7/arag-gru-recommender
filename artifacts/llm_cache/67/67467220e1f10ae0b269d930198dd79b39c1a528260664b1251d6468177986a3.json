@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00009WAW7",
+      "B002GMQ75W",
+      "B000035XII",
+      "B07Q3DHPC2",
+      "B08N1C8SD8",
+      "B07Z4D3W81",
+      "B08BY7Z916",
+      "B07Y1G7GJY",
+      "B004X0TDB0",
+      "B077P86XVV",
+      "B07VXKQ8W6",
+      "B07TK5QQM7",
+      "B08X2RRS88",
+      "B07SN3B5J4",
+      "B07ZHW123N",
+      "B002WARC7A",
+      "B000066JRA",
+      "B08N1C8SD8",
+      "B077VBYHG7",
+      "B07FSJDRMT"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00009WAW7",
+        "reason": "Classic sports game NHL 2004"
+      },
+      {
+        "item_id": "B002GMQ75W",
+        "reason": "Classic multiplayer fighting game Tekken 6"
+      },
+      {
+        "item_id": "B000035XII",
+        "reason": "Nostalgic platformer Castle of Illusion"
+      },
+      {
+        "item_id": "B07Q3DHPC2",
+        "reason": "Wii HDMI converter for classic games"
+      },
+      {
+        "item_id": "B08N1C8SD8",
+        "reason": "Gaming keyboard for classic gaming setup"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3498,
+    "completion_tokens": 342
+  }
+}

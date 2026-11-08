@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001N74CXK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action and RPG games."
+      },
+      {
+        "item_id": "B09YHBZXBF",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, mixed relevance."
+      },
+      {
+        "item_id": "B007CM0K86",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre, strong narrative focus."
+      },
+      {
+        "item_id": "B06XSMSL45",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Adapter, not directly related to games."
+      },
+      {
+        "item_id": "B004FYSCHK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Mystery genre, less action-oriented."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1280,
+    "completion_tokens": 155
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B075XLGQ4V",
+      "B003O6JKLC",
+      "B07ST7LY8F",
+      "B00005O629",
+      "B07X56RNBY",
+      "B001EHD9JC",
+      "B000641ZC2",
+      "B0049P1ZYW",
+      "B000AB603U",
+      "B000VBIGJU",
+      "B001G7PRK4",
+      "B002I0K6DG",
+      "B07YN82X3B",
+      "B008CP6MA2",
+      "B07N6YNDWS",
+      "B07YBX4VQN",
+      "B00005O0I8",
+      "B001ELJEGU",
+      "B00EQNP8F4",
+      "B00005O629",
+      "B00005O0I8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B075XLGQ4V",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B003O6JKLC",
+        "reason": "Classic Nintendo game"
+      },
+      {
+        "item_id": "B07ST7LY8F",
+        "reason": "New Pokémon games bundle"
+      },
+      {
+        "item_id": "B00005O629",
+        "reason": "Nostalgic Xbox title"
+      },
+      {
+        "item_id": "B07X56RNBY",
+        "reason": "Highly rated PlayStation game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3583,
+    "completion_tokens": 326
+  }
+}

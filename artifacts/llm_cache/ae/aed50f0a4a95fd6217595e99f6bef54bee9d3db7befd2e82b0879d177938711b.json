@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B4GGGKVD",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Marvel game, user prefers different genres."
+      },
+      {
+        "item_id": "B0000E6ECP",
+        "label": "support",
+        "score": 7,
+        "rationale": "Legacy of Kain aligns with user interests."
+      },
+      {
+        "item_id": "B002FUI4NI",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Monster trucks may not match user preferences."
+      },
+      {
+        "item_id": "B001MIZNK6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Interior design game not aligned with interests."
+      },
+      {
+        "item_id": "B00006LJLV",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Japan import may not appeal to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1249,
+    "completion_tokens": 160
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08SWV2QVG",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PS4 accessories and controllers."
+      },
+      {
+        "item_id": "B08QGTF5F2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User may appreciate controller skins."
+      },
+      {
+        "item_id": "B08NDHWSZ4",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has multiple controllers needing grips."
+      },
+      {
+        "item_id": "B0B9X2Y6TT",
+        "label": "support",
+        "score": 9,
+        "rationale": "User frequently buys PS4 controllers."
+      },
+      {
+        "item_id": "B00005S0OE",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system accessory, less relevant now."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2442,
+    "completion_tokens": 158
+  }
+}

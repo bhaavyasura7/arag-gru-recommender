@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00KVP76G0",
+      "B00CSIB3PS",
+      "B014HD55VK",
+      "B19RVCXS61",
+      "B07SBX48TY",
+      "B00DB2BI8M",
+      "B00IAVDOS6",
+      "B00Z9TL6KA",
+      "B07RVCXS61",
+      "B00025ETC8",
+      "B003TQM4DI",
+      "B005OGL766",
+      "B08L6L6KQL",
+      "B00M0UDCN5",
+      "B07WS5R5DP",
+      "B00DB2BI8M",
+      "B0BN2FNKLM",
+      "B00005BIG7",
+      "B07TKK8GH6",
+      "B016P09VFS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KVP76G0",
+        "reason": "High precision controller for PS4"
+      },
+      {
+        "item_id": "B00CSIB3PS",
+        "reason": "Includes Xbox Live Gold subscription"
+      },
+      {
+        "item_id": "B014HD55VK",
+        "reason": "Popular action-adventure game"
+      },
+      {
+        "item_id": "B19RVCXS61",
+        "reason": "Includes many classic games"
+      },
+      {
+        "item_id": "B07SBX48TY",
+        "reason": "Enhanced controller for Xbox One"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3693,
+    "completion_tokens": 319
+  }
+}

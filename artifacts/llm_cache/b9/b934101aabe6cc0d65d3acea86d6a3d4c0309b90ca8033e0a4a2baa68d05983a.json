@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07WNV98X5",
+      "B04G5YI3U",
+      "B07YBX6T95",
+      "B000F1TG0E",
+      "B07RFZFNQT",
+      "B07TJ141Q9",
+      "B0008G1NEI",
+      "B00MQ691WE",
+      "B0079JS5JC",
+      "B0008G1NEI",
+      "B00BGA9WK2",
+      "B00GOZSR96",
+      "B006VB2V54",
+      "B001EYUT70",
+      "B00KIWEMIG",
+      "B00WU99A96",
+      "B073ZNVN2G",
+      "B00BGA9WK2",
+      "B00GOZSR96",
+      "B07ZJ6RY1W"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07WNV98X5",
+        "reason": "Perfect for Nintendo Switch protection"
+      },
+      {
+        "item_id": "B04G5YI3U",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B07YBX6T95",
+        "reason": "Popular RPG with extensive gameplay"
+      },
+      {
+        "item_id": "B000F1TG0E",
+        "reason": "Essential headset for gaming"
+      },
+      {
+        "item_id": "B07RFZFNQT",
+        "reason": "Complete Dark Souls III experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3682,
+    "completion_tokens": 325
+  }
+}

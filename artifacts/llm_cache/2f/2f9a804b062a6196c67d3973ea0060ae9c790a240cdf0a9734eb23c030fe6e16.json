@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00MAM0ALA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different franchise, but still action-oriented."
+      },
+      {
+        "item_id": "B00NW6T6CC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Gaming mouse not relevant to console gaming."
+      },
+      {
+        "item_id": "B07RQP5S8C",
+        "label": "support",
+        "score": 7,
+        "rationale": "Useful accessory for Nintendo Switch gaming."
+      },
+      {
+        "item_id": "B01GW3H3U8",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox, aligns with gaming interests."
+      },
+      {
+        "item_id": "B001H4NMNA",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Outdated system, less relevant to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1218,
+    "completion_tokens": 165
+  }
+}

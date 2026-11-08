@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00ORY7GVG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user interests."
+      },
+      {
+        "item_id": "B007IQI8XU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B07HYW4XMP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B07JHHS6YR",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B017C2U8A0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform, RPG genre."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1276,
+    "completion_tokens": 152
+  }
+}

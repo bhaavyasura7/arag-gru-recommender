@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming mice",
+      "mechanical keyboards",
+      "gaming headsets",
+      "RGB lighting",
+      "controller accessories"
+    ],
+    "current_intent": "looking for high-quality gaming peripherals",
+    "avoid": [
+      "low-quality products",
+      "wired devices",
+      "non-gaming brands"
+    ],
+    "summary": "User is a gaming enthusiast focused on high-performance peripherals, particularly wireless options with RGB features."
+  },
+  "usage": {
+    "prompt_tokens": 502,
+    "completion_tokens": 71
+  }
+}

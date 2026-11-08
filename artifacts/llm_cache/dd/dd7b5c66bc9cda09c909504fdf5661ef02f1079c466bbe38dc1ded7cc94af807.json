@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00V4Y2CQQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B0BFWPF3NZ",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not a video game product."
+      },
+      {
+        "item_id": "B094VFSHGK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a console user may need."
+      },
+      {
+        "item_id": "B000040OEI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre than user's preferences."
+      },
+      {
+        "item_id": "B000OKJHEQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user's gaming history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1230,
+    "completion_tokens": 158
+  }
+}

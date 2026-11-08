@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B077YKTBCH",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console gaming accessories."
+      },
+      {
+        "item_id": "B07VWTPPW7",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own a Nintendo Switch."
+      },
+      {
+        "item_id": "B085BTBQ9W",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming headsets for consoles."
+      },
+      {
+        "item_id": "B000AYTQ7O",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own an Xbox 360."
+      },
+      {
+        "item_id": "B0813CMFFV",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a Nintendo DS Lite."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1203,
+    "completion_tokens": 163
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07K3TCCWZ",
+      "B074T8GDTV",
+      "B17XY9ZL67",
+      "B005J3J3YW",
+      "B000CIUAH8",
+      "B0006HB6H8",
+      "B00004UFM2",
+      "B08VJ9KZ83",
+      "B000VWRH80",
+      "B00JQSCIKM",
+      "B00N73UUJI",
+      "B00GWT8U9Q",
+      "B00S2TC8PG",
+      "B01MRROR26",
+      "B00H3YS4YU",
+      "B00DSSX47Q",
+      "B07XY9ZL67",
+      "B008BLF5ZU",
+      "B00N73UUJI",
+      "B07X56VM5R",
+      "B00H3YS4YU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07K3TCCWZ",
+        "reason": "Nintendo Switch game"
+      },
+      {
+        "item_id": "B074T8GDTV",
+        "reason": "Classic Nintendo title"
+      },
+      {
+        "item_id": "B07XY9ZL67",
+        "reason": "Joy-Con replacement for Switch"
+      },
+      {
+        "item_id": "B005J3J3YW",
+        "reason": "Nintendo DS game"
+      },
+      {
+        "item_id": "B000CIUAH8",
+        "reason": "Puzzle game for Mac"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2596,
+    "completion_tokens": 333
+  }
+}

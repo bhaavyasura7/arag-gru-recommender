@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003O6E6SO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers family-friendly games."
+      },
+      {
+        "item_id": "B005UUO9CK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly aligned with user interests."
+      },
+      {
+        "item_id": "B00B0SWB9Y",
+        "label": "support",
+        "score": 7,
+        "rationale": "Accessory for Nintendo systems is relevant."
+      },
+      {
+        "item_id": "B00BY92RC0",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not a video game, unrelated content."
+      },
+      {
+        "item_id": "B07G22JS2N",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for Xbox, not user’s preference."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1166,
+    "completion_tokens": 160
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0015AARJI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PS4, not PS3."
+      },
+      {
+        "item_id": "B0029MAXVS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PS4 games, not PS3."
+      },
+      {
+        "item_id": "B001ELJE1U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Mac game, not preferred platform."
+      },
+      {
+        "item_id": "B0BLLG2RHT",
+        "label": "support",
+        "score": 8,
+        "rationale": "PS4 game, aligns with user interests."
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS4 game, popular franchise, user likely enjoys."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1229,
+    "completion_tokens": 166
+  }
+}

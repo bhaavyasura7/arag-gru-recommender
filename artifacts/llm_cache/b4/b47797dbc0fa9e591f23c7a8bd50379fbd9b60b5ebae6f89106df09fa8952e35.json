@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "PlayStation consoles",
+      "Action-adventure games",
+      "PC gaming",
+      "First-person shooters",
+      "Open-world exploration"
+    ],
+    "current_intent": "Looking for new video games or consoles to play.",
+    "avoid": [
+      "Discontinued models",
+      "Low-rated games",
+      "Non-action genres"
+    ],
+    "summary": "User enjoys gaming on PlayStation and PC, particularly action-adventure and shooter titles, and is seeking new gaming experiences."
+  },
+  "usage": {
+    "prompt_tokens": 288,
+    "completion_tokens": 83
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00002DHEV",
+      "B00009WAW7",
+      "B003UT9XI8",
+      "B005B8DRVU",
+      "B001ELJFFU",
+      "B00AMA4L4E",
+      "B0050SZ7D2",
+      "B00DBKSN8M",
+      "B0050SW1WW",
+      "B006VR663G",
+      "B072FRJWQH",
+      "B00BHRD4BM",
+      "B00GGUVI5Y",
+      "B01GY35UK6",
+      "B00Z5T2SFW",
+      "B00AMA4L4E",
+      "B00BHRD4BM",
+      "B00Z5T2SFW",
+      "B00AMA4L4E",
+      "B00BHRD4BM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00002DHEV",
+        "reason": "Classic console for nostalgic gaming"
+      },
+      {
+        "item_id": "B00009WAW7",
+        "reason": "Classic multiplayer sports game"
+      },
+      {
+        "item_id": "B003UT9XI8",
+        "reason": "Multiplayer racing experience"
+      },
+      {
+        "item_id": "B005B8DRVU",
+        "reason": "Classic fighting game nostalgia"
+      },
+      {
+        "item_id": "B001ELJFFU",
+        "reason": "Classic arcade shooter experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3375,
+    "completion_tokens": 320
+  }
+}

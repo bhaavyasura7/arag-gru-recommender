@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01N7RYYKK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not related to user's gaming preferences."
+      },
+      {
+        "item_id": "B0BLFYF8K2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC gaming accessory, user prefers consoles."
+      },
+      {
+        "item_id": "B00DC7G3Q8",
+        "label": "neutral",
+        "score": 6,
+        "rationale": "Nintendo 3DS game, user prefers Xbox."
+      },
+      {
+        "item_id": "B003VUO6H4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B01LPNKGGI",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly supports user's Xbox gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1260,
+    "completion_tokens": 164
+  }
+}

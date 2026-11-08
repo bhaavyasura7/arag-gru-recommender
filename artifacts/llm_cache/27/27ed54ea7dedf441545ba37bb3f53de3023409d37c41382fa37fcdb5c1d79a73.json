@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0019FEZ1K",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not similar to user's past games."
+      },
+      {
+        "item_id": "B08NXLLGFB",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B09H7L4WJY",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar horror genre interest."
+      },
+      {
+        "item_id": "B07WSHFS8P",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not related to user's game preferences."
+      },
+      {
+        "item_id": "B003QPIDW8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Wii accessory, user prefers PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1570,
+    "completion_tokens": 156
+  }
+}

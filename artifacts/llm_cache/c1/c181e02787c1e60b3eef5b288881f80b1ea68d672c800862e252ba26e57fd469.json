@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B006V5S2OE",
+      "B09HGWQKV1",
+      "B0BJK32F71",
+      "B08MZXNCHT",
+      "B088GTV4XS",
+      "B11NPL3JJ1",
+      "B07J22DLL7",
+      "B0B7WK561Z",
+      "B095KDH8J7",
+      "B07NPL3JJ1",
+      "B0B7LMB23R",
+      "B06XKHBHN6",
+      "B003ZSH872",
+      "B00001QEQD",
+      "B0008JILX6",
+      "B0028N6TNE",
+      "B07GKL905O",
+      "B086YSDMBJ",
+      "B08VNYNL39",
+      "B07NPL3JJ1"
+    ],
+    "reasons": [
+      {
+        "item_id": "B006V5S2OE",
+        "reason": "High-quality gaming mouse features"
+      },
+      {
+        "item_id": "B09HGWQKV1",
+        "reason": "Essential PS5 controller charger"
+      },
+      {
+        "item_id": "B0BJK32F71",
+        "reason": "Adapter for PS5 gaming peripherals"
+      },
+      {
+        "item_id": "B08MZXNCHT",
+        "reason": "Fun family gaming bundle"
+      },
+      {
+        "item_id": "B088GTV4XS",
+        "reason": "Protective cover for PS5 controllers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4180,
+    "completion_tokens": 331
+  }
+}

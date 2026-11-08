@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "PlayStation games",
+      "Nintendo games",
+      "digital gift cards",
+      "gaming subscriptions",
+      "online multiplayer"
+    ],
+    "current_intent": "Looking for more digital gaming content or subscriptions.",
+    "avoid": [
+      "physical game copies",
+      "non-gaming products",
+      "long-term commitments"
+    ],
+    "summary": "User is a digital gamer focused on PlayStation and Nintendo, seeking gift cards or subscriptions for online gaming."
+  },
+  "usage": {
+    "prompt_tokens": 314,
+    "completion_tokens": 77
+  }
+}

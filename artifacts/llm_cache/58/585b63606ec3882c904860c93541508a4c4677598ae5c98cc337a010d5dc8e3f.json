@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09DC7CSRZ",
+      "B07M8JP8BZ",
+      "B003O68TG4",
+      "B04H7QH9U",
+      "B08FRMRKXL",
+      "B06XBZLXQW",
+      "B08FMVKF7D",
+      "B08HT1X9JM",
+      "B071DWLXND",
+      "B00004RBOM",
+      "B088392982",
+      "B00005QBBE",
+      "B017V6YVDC",
+      "B01NBO0H44",
+      "B079DR8CY6",
+      "B00B0O8DVI",
+      "B000070MQM",
+      "B12DL897C1",
+      "B12DL897C1",
+      "B12DL897C1"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09DC7CSRZ",
+        "reason": "Cute skin for Switch Lite"
+      },
+      {
+        "item_id": "B07M8JP8BZ",
+        "reason": "Charging stand for Switch"
+      },
+      {
+        "item_id": "B003O68TG4",
+        "reason": "Family-friendly puzzle game"
+      },
+      {
+        "item_id": "B08FRMRKXL",
+        "reason": "Portable charging dock"
+      },
+      {
+        "item_id": "B06XBZLXQW",
+        "reason": "Classic controller for N64"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3776,
+    "completion_tokens": 316
+  }
+}

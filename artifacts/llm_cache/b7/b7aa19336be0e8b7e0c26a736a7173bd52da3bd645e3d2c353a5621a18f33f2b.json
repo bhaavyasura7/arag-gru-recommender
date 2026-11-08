@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08F2522ZY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user history."
+      },
+      {
+        "item_id": "B00YSAXP0U",
+        "label": "support",
+        "score": 8,
+        "rationale": "Amiibo case for Nintendo systems."
+      },
+      {
+        "item_id": "B08KZ66KV5",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, not Nintendo related."
+      },
+      {
+        "item_id": "B00D5WDI3G",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Chess software, unrelated to user interests."
+      },
+      {
+        "item_id": "B00GGVTI3W",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Book, not a video game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 953,
+    "completion_tokens": 163
+  }
+}

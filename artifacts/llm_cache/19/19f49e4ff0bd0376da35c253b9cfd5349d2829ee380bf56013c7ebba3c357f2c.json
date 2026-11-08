@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "action RPGs",
+      "multiplayer shooters",
+      "sports games",
+      "open world exploration",
+      "fantasy settings"
+    ],
+    "current_intent": "Looking for new action-packed video games.",
+    "avoid": [
+      "puzzle games",
+      "simulation games",
+      "horror games"
+    ],
+    "summary": "The user enjoys action-oriented video games across various genres, particularly RPGs and sports, and is currently seeking new titles to play."
+  },
+  "usage": {
+    "prompt_tokens": 385,
+    "completion_tokens": 97
+  }
+}

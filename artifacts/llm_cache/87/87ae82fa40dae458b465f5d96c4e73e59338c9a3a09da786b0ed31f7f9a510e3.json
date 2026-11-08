@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00L59D9HG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox products only."
+      },
+      {
+        "item_id": "B01MT1DCIV",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox One controllers."
+      },
+      {
+        "item_id": "B07YBWT3PK",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has Xbox One game interests."
+      },
+      {
+        "item_id": "B01FSKACPY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "For Xbox 360, not Xbox One."
+      },
+      {
+        "item_id": "B098815CMR",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo Switch, not Xbox related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1282,
+    "completion_tokens": 157
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0719W8QL3",
+      "B06X6KDQ98",
+      "B087LSSNG1",
+      "B001EYUQ4G",
+      "B00O65I2VY",
+      "B008KGN9DG",
+      "B004WLRR0E",
+      "B07X6KDQ98",
+      "B01GY3628A",
+      "B0050SW1WW",
+      "B00DJRLDMU",
+      "B01M6C7YE8",
+      "B00GM5T8PK",
+      "B09M6YFK7Y",
+      "B00OYPWRHQ",
+      "B003ZSN600",
+      "B017QU5G1O",
+      "B074MYLP9C",
+      "B00O65I2VY",
+      "B00DJRLDMU",
+      "B08CG1GDR2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0719W8QL3",
+        "reason": "Popular thumb grips for Switch"
+      },
+      {
+        "item_id": "B06X6KDQ98",
+        "reason": "Highly rated Nintendo game"
+      },
+      {
+        "item_id": "B087LSSNG1",
+        "reason": "Definitive edition of a classic RPG"
+      },
+      {
+        "item_id": "B001EYUQ4G",
+        "reason": "Nostalgic accessory for Nintendo 64"
+      },
+      {
+        "item_id": "B00O65I2VY",
+        "reason": "Versatile Xbox controller for PC"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3883,
+    "completion_tokens": 348
+  }
+}

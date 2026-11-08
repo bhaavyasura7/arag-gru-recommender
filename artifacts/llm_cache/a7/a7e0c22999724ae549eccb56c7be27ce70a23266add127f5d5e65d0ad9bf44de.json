@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B003C3YW2E",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to Nintendo Switch."
+      },
+      {
+        "item_id": "B00576U8CC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox 360 game, not Nintendo."
+      },
+      {
+        "item_id": "B09HCFNF3H",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Compatible with multiple gaming systems."
+      },
+      {
+        "item_id": "B07W778FRG",
+        "label": "support",
+        "score": 7,
+        "rationale": "Retro controller for Nintendo systems."
+      },
+      {
+        "item_id": "B078PG53GR",
+        "label": "support",
+        "score": 8,
+        "rationale": "Protective case for Nintendo 3DS systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1367,
+    "completion_tokens": 156
+  }
+}

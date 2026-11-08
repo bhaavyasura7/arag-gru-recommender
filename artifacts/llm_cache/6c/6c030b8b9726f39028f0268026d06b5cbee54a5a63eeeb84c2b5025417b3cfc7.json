@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Xbox consoles",
+      "Kinect games",
+      "Collector's editions",
+      "PlayStation 4",
+      "Nintendo Wii U"
+    ],
+    "current_intent": "Looking for new video games and consoles.",
+    "avoid": [
+      "low-rated games",
+      "discontinued products",
+      "non-console accessories"
+    ],
+    "summary": "The user is a dedicated gamer interested in Xbox and PlayStation consoles, seeking new games and avoiding low-quality or discontinued items."
+  },
+  "usage": {
+    "prompt_tokens": 401,
+    "completion_tokens": 98
+  }
+}

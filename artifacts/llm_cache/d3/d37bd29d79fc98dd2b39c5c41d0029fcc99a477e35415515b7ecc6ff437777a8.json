@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001DKDANA",
+      "B000FVVSZA",
+      "B001EYUQKK",
+      "B001QD4THU",
+      "B000K8ZXK4",
+      "B0BN942894",
+      "B08VMZBVJF",
+      "B000WCQWR6",
+      "B002SSUL5G",
+      "B00CES8EFY",
+      "B00CJ9OTNE",
+      "B0053B7ICO",
+      "B07QPKSVTD",
+      "B01953YZ0S",
+      "B000GHFJB4W",
+      "B00K308KF4",
+      "B12C3KYVDWT",
+      "B000FVVSZA",
+      "B001EYUQTQ",
+      "B00ZC3I5WK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001DKDANA",
+        "reason": "Sega Genesis controller for retro gaming"
+      },
+      {
+        "item_id": "B000FVVSZA",
+        "reason": "Protective filter for Nintendo DS Lite"
+      },
+      {
+        "item_id": "B001EYUQKK",
+        "reason": "Classic game for nostalgic experience"
+      },
+      {
+        "item_id": "B001QD4THU",
+        "reason": "Fighting game controller for Xbox 360"
+      },
+      {
+        "item_id": "B000K8ZXK4",
+        "reason": "Storage case for PSP games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3845,
+    "completion_tokens": 319
+  }
+}

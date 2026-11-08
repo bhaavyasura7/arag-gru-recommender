@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00000DMB3",
+      "B00163ROMW",
+      "B000BOJPRE",
+      "B01LPZM7VI",
+      "B0B9MJK753",
+      "B000ZK9QCS",
+      "B0032C9V7G",
+      "B000DB2BI8M",
+      "B0000AHRPM",
+      "B00267S2A0",
+      "B006JKAS6G",
+      "B01GRY9VIY",
+      "B0044DE88O",
+      "B01GOK34SO",
+      "B0008AHRPM",
+      "B07PFT19MG",
+      "B001EYUPHO",
+      "B00BRQN2EM",
+      "B00DB2BI8M",
+      "B0BZ3LNGXC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00000DMB3",
+        "reason": "Classic Nintendo game"
+      },
+      {
+        "item_id": "B00163ROMW",
+        "reason": "Nintendo DS RPG"
+      },
+      {
+        "item_id": "B000BOJPRE",
+        "reason": "Fun retro gameplay"
+      },
+      {
+        "item_id": "B01LPZM7VI",
+        "reason": "Wireless controller option"
+      },
+      {
+        "item_id": "B0B9MJK753",
+        "reason": "Compatible with multiple controllers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3793,
+    "completion_tokens": 308
+  }
+}

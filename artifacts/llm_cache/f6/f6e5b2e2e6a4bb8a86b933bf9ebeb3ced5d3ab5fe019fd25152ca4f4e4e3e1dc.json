@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00002AH2T",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox and PlayStation games."
+      },
+      {
+        "item_id": "B000UHNHQW",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has interest in PlayStation games."
+      },
+      {
+        "item_id": "B00N8KT35W",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse not directly related to user history."
+      },
+      {
+        "item_id": "B000U1OOB0",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Generic controller, not specific to user preferences."
+      },
+      {
+        "item_id": "B08DXS6DVC",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Keyboard not directly related to gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1218,
+    "completion_tokens": 162
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00PE7WUP2",
+      "B000YQQ1IK",
+      "B0CFQ8G288",
+      "B09W4ZWZFG",
+      "B10DGYJ634",
+      "B000IK412A",
+      "B0007ZIYCE",
+      "B000R2XILE",
+      "B006XWV3ZA",
+      "B00DMZDRS2",
+      "B000IMUYRY",
+      "B001EPTCAY",
+      "B000YJMHVM",
+      "B0932RBTTV",
+      "B077DTWYV8",
+      "B19XX574DQ",
+      "B004DBPSY0",
+      "B00GRN0YQ4",
+      "B0007ZIYCE",
+      "B000YJMHVM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00PE7WUP2",
+        "reason": "Multiplayer game character accessory"
+      },
+      {
+        "item_id": "B0CFQ8G288",
+        "reason": "Nintendo Switch carrying case"
+      },
+      {
+        "item_id": "B09W4ZWZFG",
+        "reason": "Gaming headset for PC"
+      },
+      {
+        "item_id": "B000YQQ1IK",
+        "reason": "Expansion for The Sims 2"
+      },
+      {
+        "item_id": "B10DGYJ634",
+        "reason": "Racing wheel for PlayStation"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3200,
+    "completion_tokens": 317
+  }
+}

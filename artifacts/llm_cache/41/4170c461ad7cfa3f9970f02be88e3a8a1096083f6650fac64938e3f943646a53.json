@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000068I7T",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Japanese import, not in user history."
+      },
+      {
+        "item_id": "B07TF86B47",
+        "label": "support",
+        "score": 7,
+        "rationale": "Fighting game genre aligns with interests."
+      },
+      {
+        "item_id": "B00A3J3NB6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Educational game, not aligned with interests."
+      },
+      {
+        "item_id": "B01HIUXFP6",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00006409H",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Racing game, not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1173,
+    "completion_tokens": 161
+  }
+}

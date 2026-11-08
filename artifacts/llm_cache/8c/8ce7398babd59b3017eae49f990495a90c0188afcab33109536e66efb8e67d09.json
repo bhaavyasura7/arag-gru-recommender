@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01FW8BIUA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Skin for PS4, not a game or accessory."
+      },
+      {
+        "item_id": "B0BQQ8LQM1",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS4 game aligns with gaming interests."
+      },
+      {
+        "item_id": "B08S5GWGB8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC gaming mouse, not directly relevant."
+      },
+      {
+        "item_id": "B07D5M7SNW",
+        "label": "support",
+        "score": 8,
+        "rationale": "Renewed PS4 console matches user history."
+      },
+      {
+        "item_id": "B0BXWHLBJJ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox accessory, user prefers PlayStation products."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2257,
+    "completion_tokens": 167
+  }
+}

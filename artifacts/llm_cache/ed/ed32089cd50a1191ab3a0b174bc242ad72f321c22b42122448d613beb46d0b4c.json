@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00BHRD4BM",
+      "B085LSHNQ5",
+      "B00BO0GYW8",
+      "B08N4LB3LB",
+      "B00VMU99PE",
+      "B003UVDOA4",
+      "B08VRR3XHY",
+      "B09DWF3FYB",
+      "B09PFR67FB",
+      "B0B12N643H",
+      "B0924WDQTT",
+      "B07NQ3FY4K",
+      "B01MS8XOYR",
+      "B0CB9X91BP",
+      "B09325RND4",
+      "B00KE9WN84",
+      "B0073PQK7C",
+      "B08VRR3XHY",
+      "B0948BRTM4",
+      "B0B12N643H"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00BHRD4BM",
+        "reason": "PS4 game expansion pack"
+      },
+      {
+        "item_id": "B085LSHNQ5",
+        "reason": "PS4 gaming headset"
+      },
+      {
+        "item_id": "B00BO0GYW8",
+        "reason": "Popular multiplayer game"
+      },
+      {
+        "item_id": "B08N4LB3LB",
+        "reason": "PS4 accessory bundle"
+      },
+      {
+        "item_id": "B00VMU99PE",
+        "reason": "Retro gaming accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3715,
+    "completion_tokens": 322
+  }
+}

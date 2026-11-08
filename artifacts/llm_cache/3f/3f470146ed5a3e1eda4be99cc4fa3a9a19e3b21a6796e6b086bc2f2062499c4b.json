@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B087SHFL9B",
+      "B04N332TG8",
+      "B0B9BKTP1D",
+      "B0929JM6ZS",
+      "B071WQ28YV",
+      "B01N332TG8",
+      "B07V5LZMTH",
+      "B001QCWRZC",
+      "B00C2PJTKS",
+      "B00DDILSBG",
+      "B07R9PBHP2",
+      "B0154P0BT0",
+      "B087S7PRWB",
+      "B002RRLQIO",
+      "B00F27JGVA",
+      "B00YXO5X4M",
+      "B00C2PJTKS",
+      "B071WQ28YV",
+      "B004RMK5QG",
+      "B00DDILSBG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087SHFL9B",
+        "reason": "High-quality Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B04N332TG8",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B0B9BKTP1D",
+        "reason": "Gaming accessory with protective features"
+      },
+      {
+        "item_id": "B0929JM6ZS",
+        "reason": "Versatile gaming controller option"
+      },
+      {
+        "item_id": "B071WQ28YV",
+        "reason": "Useful thumb grip caps for controllers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3901,
+    "completion_tokens": 327
+  }
+}

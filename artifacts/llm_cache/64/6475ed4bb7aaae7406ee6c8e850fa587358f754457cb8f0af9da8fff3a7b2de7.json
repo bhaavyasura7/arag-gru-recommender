@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "strategy video games",
+      "multiplayer shooters",
+      "Nintendo Switch accessories",
+      "Mario-themed products",
+      "PC gaming"
+    ],
+    "current_intent": "Looking for new strategy or multiplayer games.",
+    "avoid": [
+      "single-player games",
+      "non-gaming products",
+      "low-rated items"
+    ],
+    "summary": "The user enjoys strategy and multiplayer games, particularly on PC and Nintendo Switch, with a preference for Mario-themed accessories."
+  },
+  "usage": {
+    "prompt_tokens": 328,
+    "completion_tokens": 96
+  }
+}

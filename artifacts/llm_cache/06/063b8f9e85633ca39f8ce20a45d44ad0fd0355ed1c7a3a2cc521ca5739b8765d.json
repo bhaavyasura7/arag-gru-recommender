@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00U1WN17G",
+      "B00DBDPOZ4",
+      "B08G4FDHT7",
+      "B01N3ASPNV",
+      "B00W9DHUBS",
+      "B00BI9MDSO",
+      "B00HRH79H6",
+      "B01GH9MVWW",
+      "B00GWWLGK8",
+      "B08RMSFBKM",
+      "B00LV416KC",
+      "B000U34SYQ",
+      "B01MG8P418",
+      "B07QWWCC4L",
+      "B00000I1BE",
+      "B00E4QOE30",
+      "B08HQMDH97",
+      "B0C2CYCX75",
+      "B001EYUY3Y",
+      "B00GWWLGK8",
+      "B00DBDPOZ4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00U1WN17G",
+        "reason": "User seeks new Xbox console"
+      },
+      {
+        "item_id": "B00DBDPOZ4",
+        "reason": "Rechargeable kit for Xbox One"
+      },
+      {
+        "item_id": "B08G4FDHT7",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B01N3ASPNV",
+        "reason": "Hot-swappable mechanical keyboard"
+      },
+      {
+        "item_id": "B00W9DHUBS",
+        "reason": "Star Wars DLC for Xbox One"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4063,
+    "completion_tokens": 340
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09P17SD51",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PS5."
+      },
+      {
+        "item_id": "B0BFKZMHRL",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Wii games, needs HDMI."
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User plays PS3, not PS4."
+      },
+      {
+        "item_id": "B00936K09S",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox 360 accessories."
+      },
+      {
+        "item_id": "B0002HDSZ0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers Wii, not Game Boy."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1485,
+    "completion_tokens": 160
+  }
+}

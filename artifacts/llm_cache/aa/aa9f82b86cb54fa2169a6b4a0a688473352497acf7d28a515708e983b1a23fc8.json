@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B087NN6GRF",
+      "B14CNGFVG9",
+      "B07XW748TW",
+      "B14CNGFVG9",
+      "B14CNGFVG9",
+      "B14CNGFVG9",
+      "B14CNGFVG9",
+      "B14CNGFVG9",
+      "B14CNGFVG9",
+      "B14CNGFVG9",
+      "B14CNGFVG9",
+      "B14CNGFVG9",
+      "B14CNGFVG9",
+      "B14CNGFVG9",
+      "B14CNGFVG9",
+      "B14CNGFVG9",
+      "B14CNGFVG9",
+      "B14CNGFVG9",
+      "B14CNGFVG9",
+      "B14CNGFVG9"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087NN6GRF",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B07XW748TW",
+        "reason": "Enhances audio experience"
+      },
+      {
+        "item_id": "B14CNGFVG9",
+        "reason": "Protects Nintendo Switch"
+      },
+      {
+        "item_id": "B14CNGFVG9",
+        "reason": "Quality accessory for Switch"
+      },
+      {
+        "item_id": "B14CNGFVG9",
+        "reason": "Durable and stylish design"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3560,
+    "completion_tokens": 329
+  }
+}

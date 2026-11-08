@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BF8H4WNC",
+      "B08PDW1Z2G",
+      "B17ZJ6RY1W",
+      "B00196DP9M",
+      "B09CXLEEW",
+      "B08YDM92NR",
+      "B00EZAWU4K",
+      "B00HFXSVDI",
+      "B00NQMKTI2",
+      "B07ZNQNDN5",
+      "B07KB9MDC2",
+      "B0CF82DZ4P",
+      "B08LP8JWJ7",
+      "B00LF7HAXM",
+      "B074Y4G1TT",
+      "B08J6GVCT9",
+      "B009CXLEEW",
+      "B00E9T8FU",
+      "B12N5RJE7E",
+      "B08PDW1Z2G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BF8H4WNC",
+        "reason": "Engaging action RPG experience"
+      },
+      {
+        "item_id": "B08PDW1Z2G",
+        "reason": "Includes popular Nintendo titles"
+      },
+      {
+        "item_id": "B17ZJ6RY1W",
+        "reason": "Classic with immersive storyline"
+      },
+      {
+        "item_id": "B00196DP9M",
+        "reason": "High-quality graphics and adventure"
+      },
+      {
+        "item_id": "B09CXLEEW",
+        "reason": "Enhances gaming experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3788,
+    "completion_tokens": 333
+  }
+}

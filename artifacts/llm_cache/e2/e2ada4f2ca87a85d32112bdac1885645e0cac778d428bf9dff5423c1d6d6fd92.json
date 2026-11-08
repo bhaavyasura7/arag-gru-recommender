@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0001NYK1G",
+      "B01GW3GSVS",
+      "B13D53QSMK",
+      "B0000A0O28",
+      "B003O680ZY",
+      "B07DNMPB2Q",
+      "B018N6QKT7H",
+      "B00006LELH",
+      "B001P1ZE68",
+      "B07YBXFF5C",
+      "B002JTX7SM",
+      "B00WW0D54E",
+      "B072V478NR",
+      "B003VUO6H4",
+      "B00CPBZCIM",
+      "B0001NYK1G",
+      "B07K8N1TCR",
+      "B0001NYK1G",
+      "B0001NYK1G",
+      "B0001NYK1G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0001NYK1G",
+        "reason": "Great for multiplayer gaming"
+      },
+      {
+        "item_id": "B01GW3GSVS",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B13D53QSMK",
+        "reason": "Nostalgic Nintendo accessory"
+      },
+      {
+        "item_id": "B0000A0O28",
+        "reason": "Classic multiplayer fun"
+      },
+      {
+        "item_id": "B003O680ZY",
+        "reason": "Engaging racing with friends"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3537,
+    "completion_tokens": 325
+  }
+}

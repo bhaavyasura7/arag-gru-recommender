@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000HAS44M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers family-friendly games."
+      },
+      {
+        "item_id": "B09N98KJ62",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo devices."
+      },
+      {
+        "item_id": "B00VAZV1KC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B09918MSTF",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar style to user's interests."
+      },
+      {
+        "item_id": "B000GSKUY2",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Not aligned with user's preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 933,
+    "completion_tokens": 150
+  }
+}

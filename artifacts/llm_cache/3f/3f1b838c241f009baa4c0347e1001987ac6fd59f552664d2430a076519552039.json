@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B06XH83ZV6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Xbox accessory, user prefers consoles."
+      },
+      {
+        "item_id": "B0BV64SB7D",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in PS4."
+      },
+      {
+        "item_id": "B000HASW0I",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers consoles, not PSP."
+      },
+      {
+        "item_id": "B08CZH1MPR",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo Switch accessory, aligns with interests."
+      },
+      {
+        "item_id": "B0039BUDHW",
+        "label": "support",
+        "score": 8,
+        "rationale": "DSi XL skins match Nintendo interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1266,
+    "completion_tokens": 161
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DC7G2W8",
+      "B007OAGLSO",
+      "B00MUY0OFU",
+      "B07P77CLG1",
+      "B09NRVRF3J",
+      "B001QCWRZC",
+      "B00BN5T30E",
+      "B00GM5W5H8",
+      "B00ZOMO3K2",
+      "B0765TZVMD",
+      "B003IPCF02",
+      "B00DDILSBG",
+      "B08N7PX4WX",
+      "B00002SWA8",
+      "B004OUGQ9Q",
+      "B08NRVRF3J",
+      "B00FLZEXM",
+      "B00DC7G2W8",
+      "B08N7PX4WX",
+      "B001QCWRZC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DC7G2W8",
+        "reason": "Popular family-friendly racing game"
+      },
+      {
+        "item_id": "B007OAGLSO",
+        "reason": "Engaging Disney-themed adventure"
+      },
+      {
+        "item_id": "B00MUY0OFU",
+        "reason": "Comfortable controller for extended play"
+      },
+      {
+        "item_id": "B07P77CLG1",
+        "reason": "Essential battery pack for Joy-Con"
+      },
+      {
+        "item_id": "B0765TZVMD",
+        "reason": "Collectible kit for Nintendo fans"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3861,
+    "completion_tokens": 333
+  }
+}

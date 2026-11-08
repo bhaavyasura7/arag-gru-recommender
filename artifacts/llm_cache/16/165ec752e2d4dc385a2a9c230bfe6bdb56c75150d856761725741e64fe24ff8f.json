@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B087CR9TR7",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Pokémon games, not shooters."
+      },
+      {
+        "item_id": "B000EDGK7A",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B09CZ2Y65N",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00KIWEMIG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Far Cry is not Pokémon-related."
+      },
+      {
+        "item_id": "B0050SW8AC",
+        "label": "support",
+        "score": 5,
+        "rationale": "Racing game aligns with gaming interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 155
+  }
+}

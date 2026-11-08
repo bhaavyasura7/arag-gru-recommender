@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0145Y8ME2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo over PlayStation."
+      },
+      {
+        "item_id": "B00C85T7F4",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Wii controller experience."
+      },
+      {
+        "item_id": "B08CN85Y8Z",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User's interest in gaming keyboards unclear."
+      },
+      {
+        "item_id": "B01CCTQME4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo over Xbox."
+      },
+      {
+        "item_id": "B08L3FQ5SD",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo over Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 161
+  }
+}

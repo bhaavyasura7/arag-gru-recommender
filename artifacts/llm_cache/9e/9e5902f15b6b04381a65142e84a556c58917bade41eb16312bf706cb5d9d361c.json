@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00009YEJV",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers RPGs, not wrestling games."
+      },
+      {
+        "item_id": "B0BG1FQWS3",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game, mixed relevance."
+      },
+      {
+        "item_id": "B07YBWT3PK",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys open-world RPGs like Fallout."
+      },
+      {
+        "item_id": "B014NCYV00",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for legacy system, limited interest."
+      },
+      {
+        "item_id": "B0B99ZJCNC",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Controller accessory, not directly related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1253,
+    "completion_tokens": 162
+  }
+}

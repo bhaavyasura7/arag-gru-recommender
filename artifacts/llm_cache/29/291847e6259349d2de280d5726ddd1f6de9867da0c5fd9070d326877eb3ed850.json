@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B005D7G3LA",
+      "B003A0VK10",
+      "B001EYUNXK",
+      "B003VWC124",
+      "B00KWIYPZG",
+      "B00L2FGSBM",
+      "B006HZA8EA",
+      "B003IU01LC",
+      "B0037M5W24",
+      "B08DCLV85W",
+      "B00FR7U15U",
+      "B07J3P1GJM",
+      "B0BN41LK4D",
+      "B002B9XB0E",
+      "B00NAW5R0I",
+      "B0083GAF9E",
+      "B003A0VK10",
+      "B00KWIYPZG",
+      "B07P27XFP7",
+      "B00NAW5R0I",
+      "B0037M5W24"
+    ],
+    "reasons": [
+      {
+        "item_id": "B005D7G3LA",
+        "reason": "Engaging simulation strategy game"
+      },
+      {
+        "item_id": "B003A0VK10",
+        "reason": "Historical strategy elements present"
+      },
+      {
+        "item_id": "B001EYUNXK",
+        "reason": "Strong narrative and strategy focus"
+      },
+      {
+        "item_id": "B003VWC124",
+        "reason": "Unique simulation gameplay"
+      },
+      {
+        "item_id": "B00KWIYPZG",
+        "reason": "Adventure with strategic elements"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3804,
+    "completion_tokens": 331
+  }
+}

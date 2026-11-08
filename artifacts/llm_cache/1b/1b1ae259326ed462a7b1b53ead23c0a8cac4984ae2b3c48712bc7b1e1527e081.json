@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00KIWEMIG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to VR or accessories."
+      },
+      {
+        "item_id": "B087SHFL9B",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform, not VR related."
+      },
+      {
+        "item_id": "B006JKAS16",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not VR, different gaming style."
+      },
+      {
+        "item_id": "B006912EXA",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not VR, unrelated to user interests."
+      },
+      {
+        "item_id": "B001EYUOHK",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not VR, different gaming genre."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1294,
+    "completion_tokens": 149
+  }
+}

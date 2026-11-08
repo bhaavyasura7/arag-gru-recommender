@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00CMCBXIW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's gaming preferences."
+      },
+      {
+        "item_id": "B0BDLHBZXV",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Nintendo Switch, user owns one."
+      },
+      {
+        "item_id": "B007RYPZJI",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not aligned with user's gaming interests."
+      },
+      {
+        "item_id": "B01CEY438O",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Plush toy, not a gaming accessory."
+      },
+      {
+        "item_id": "B08TSZ2X54",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR accessory, user prefers console gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1439,
+    "completion_tokens": 157
+  }
+}

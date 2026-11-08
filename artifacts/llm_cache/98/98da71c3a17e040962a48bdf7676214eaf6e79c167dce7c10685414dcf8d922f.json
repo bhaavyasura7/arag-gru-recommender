@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01L1L3F26",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a gaming console."
+      },
+      {
+        "item_id": "B001EYUWRC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different gaming system than user prefers."
+      },
+      {
+        "item_id": "B01B2RWVHY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Wii controller, not user’s preferred console."
+      },
+      {
+        "item_id": "B0191J0RXA",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular RPG on user’s preferred console."
+      },
+      {
+        "item_id": "B001EYUQ8M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different gaming system than user prefers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1225,
+    "completion_tokens": 161
+  }
+}

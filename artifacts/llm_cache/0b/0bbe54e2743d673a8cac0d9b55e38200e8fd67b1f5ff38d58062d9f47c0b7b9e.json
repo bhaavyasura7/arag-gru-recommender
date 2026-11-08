@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00TPJU3BI",
+      "B01MSHGS6Y",
+      "B09W29ZJHY",
+      "B01B1X7CFA",
+      "B000G1O7SE",
+      "B08LB4HJT2",
+      "B000BQP2RY",
+      "B000NA6PUG",
+      "B00002STUG",
+      "B00126Y1W4",
+      "B00IS5Q8C8",
+      "B009O8OC3K",
+      "B00NHDSINS",
+      "B098TBY135",
+      "B01KAQ701K",
+      "B000I9RAW8G",
+      "B001FB6I40",
+      "B00I9RAW8G",
+      "B000G1O7SE",
+      "B000BQP2RY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00TPJU3BI",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B01MSHGS6Y",
+        "reason": "Open-world exploration available"
+      },
+      {
+        "item_id": "B09W29ZJHY",
+        "reason": "Protective case for gaming"
+      },
+      {
+        "item_id": "B01B1X7CFA",
+        "reason": "Collector's edition amiibo card"
+      },
+      {
+        "item_id": "B000G1O7SE",
+        "reason": "Classic game with new content"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3085,
+    "completion_tokens": 327
+  }
+}

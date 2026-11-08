@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B078N2LX9L",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes controllers and gaming accessories."
+      },
+      {
+        "item_id": "B07HZ6N69N",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has positive history with controllers."
+      },
+      {
+        "item_id": "B07CGNL58S",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys various gaming controllers."
+      },
+      {
+        "item_id": "B00KM671KY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "OUYA is less popular among users."
+      },
+      {
+        "item_id": "B00AB56ETU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Mod kits are less relevant to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 152
+  }
+}

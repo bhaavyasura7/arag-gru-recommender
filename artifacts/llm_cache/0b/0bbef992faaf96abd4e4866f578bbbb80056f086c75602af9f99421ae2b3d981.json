@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08HJVDXYB",
+      "B01LY0NFAN",
+      "B07J2SC9ZG",
+      "B18SC46N9J",
+      "B07WTWBLWZ",
+      "B0000C6EDK",
+      "B0012BXJDQ",
+      "B007PIXWMS",
+      "B04MVQCSV5",
+      "B07DCZJ297",
+      "B003P0X5Y0",
+      "B00JH4S69W",
+      "B01NAFZ77D",
+      "B075VK2Z7C",
+      "B08MVQCSV5",
+      "B07Q5WHPSV",
+      "B000P5BSUQ",
+      "B08SC46N9J",
+      "B0793C434Z",
+      "B0B7RQQTXQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08HJVDXYB",
+        "reason": "Joycon replacement for Nintendo Switch"
+      },
+      {
+        "item_id": "B01LY0NFAN",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B07J2SC9ZG",
+        "reason": "Wireless network adapter for Xbox"
+      },
+      {
+        "item_id": "B18SC46N9J",
+        "reason": "Pro controller for Nintendo Switch"
+      },
+      {
+        "item_id": "B07WTWBLWZ",
+        "reason": "Portable gaming controller for PC"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3284,
+    "completion_tokens": 329
+  }
+}

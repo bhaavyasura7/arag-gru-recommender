@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUUZ6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo DS accessory, not directly relevant."
+      },
+      {
+        "item_id": "B001N5CQH6",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS3 skin matches PlayStation interest."
+      },
+      {
+        "item_id": "B01LXK5ZDG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS4 game, user hasn't rated PS4 games."
+      },
+      {
+        "item_id": "B0BXP5VXN8",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Oculus accessory, not in user history."
+      },
+      {
+        "item_id": "B000VIDSUK",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Dreamcast accessory, user prefers PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1518,
+    "completion_tokens": 163
+  }
+}

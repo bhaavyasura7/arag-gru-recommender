@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B006V5S2OE",
+      "B0BJK32F71",
+      "B09HGWQKV1",
+      "B088GTV4XS",
+      "B0B7WK561Z",
+      "B08MZXNCHT",
+      "B07J22DLL7",
+      "B0028N6TNE",
+      "B07NPL3JJ1",
+      "B095KDH8J7",
+      "B0B7LMB23R",
+      "B06XKHBHN6",
+      "B18YSDMBJ",
+      "B08VNYNL39",
+      "B00001QEQD",
+      "B003ZSH872",
+      "B07GKL905O",
+      "B07NPL3JJ1",
+      "B0B7WK561Z",
+      "B07J22DLL7"
+    ],
+    "reasons": [
+      {
+        "item_id": "B006V5S2OE",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B0BJK32F71",
+        "reason": "Adapter for PS5 gaming"
+      },
+      {
+        "item_id": "B09HGWQKV1",
+        "reason": "Efficient PS5 controller charger"
+      },
+      {
+        "item_id": "B088GTV4XS",
+        "reason": "Protective cover for PS5 controllers"
+      },
+      {
+        "item_id": "B0B7WK561Z",
+        "reason": "Cooling fan and charger for PS5"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4194,
+    "completion_tokens": 332
+  }
+}

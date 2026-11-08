@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00ECWJEA4",
+      "B00884S6YW",
+      "B0050SYYEK",
+      "B00DBLBMBQ",
+      "B14G11VW1Z",
+      "B00L3LQ1FI",
+      "B09W56JJX2",
+      "B09PR8NBZZ",
+      "B001EYUPAG",
+      "B00BN5T30E",
+      "B001T0HVGQ",
+      "B00452VGYS",
+      "B00690LYJ6",
+      "B00OZD77OK",
+      "B089GGLKHQ",
+      "B01CGZ4YLW",
+      "B00OYPWRHQ",
+      "B000JVM256",
+      "B074NDG5MN",
+      "B00L3LQ1FI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00ECWJEA4",
+        "reason": "Family-friendly gaming accessory"
+      },
+      {
+        "item_id": "B00884S6YW",
+        "reason": "Protective case for PS Vita"
+      },
+      {
+        "item_id": "B0050SYYEK",
+        "reason": "Fun family-friendly dance game"
+      },
+      {
+        "item_id": "B00DBLBMBQ",
+        "reason": "Engaging story-driven game"
+      },
+      {
+        "item_id": "B14G11VW1Z",
+        "reason": "Enhances gaming experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3669,
+    "completion_tokens": 320
+  }
+}

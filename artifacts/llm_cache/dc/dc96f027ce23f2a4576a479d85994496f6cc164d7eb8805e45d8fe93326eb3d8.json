@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B006QZ85PU",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox video games."
+      },
+      {
+        "item_id": "B001ELJFN2",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes Xbox games, Batman fits."
+      },
+      {
+        "item_id": "B01LRLJV28",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B0BKS1LJVL",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has Xbox, racing wheel enhances experience."
+      },
+      {
+        "item_id": "B00LS268YG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on Xbox, not PlayStation accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1413,
+    "completion_tokens": 161
+  }
+}

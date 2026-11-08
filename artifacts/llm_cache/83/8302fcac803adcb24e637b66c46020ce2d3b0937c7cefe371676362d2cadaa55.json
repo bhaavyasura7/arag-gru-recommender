@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07HYY6HNW",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming mouse enhances gaming experience."
+      },
+      {
+        "item_id": "B003B2BJWW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not relevant to user's console preference."
+      },
+      {
+        "item_id": "B0081FKLLE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a less favored console."
+      },
+      {
+        "item_id": "B000SEU92W",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "AV cable for older PlayStation systems."
+      },
+      {
+        "item_id": "B00ZDNNRB8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox controller not compatible with PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1244,
+    "completion_tokens": 156
+  }
+}

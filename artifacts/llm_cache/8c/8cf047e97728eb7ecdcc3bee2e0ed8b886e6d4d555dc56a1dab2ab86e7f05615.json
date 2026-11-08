@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07VDHJY2J",
+      "B08BNPQRCK",
+      "B07MZPRW6X",
+      "B00B2A0TPS",
+      "B00R10WZHS",
+      "B003RDEUSA",
+      "B015PXH9S2",
+      "B0026775B2",
+      "B00454C276",
+      "B09MMVNMZL",
+      "B09SPVN9PW",
+      "B088TLSVV2",
+      "B00K5GDTNE",
+      "B19HCFNF3H",
+      "B07W778FRG",
+      "B078PG53GR",
+      "B00576U8CC",
+      "B003C3YW2E",
+      "B005OGL4V4",
+      "B00AMRL74E"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07VDHJY2J",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B08BNPQRCK",
+        "reason": "Comfortable Joy-Con grips"
+      },
+      {
+        "item_id": "B07MZPRW6X",
+        "reason": "High-quality Joy-Con grips"
+      },
+      {
+        "item_id": "B00B2A0TPS",
+        "reason": "Guitar Hero repair kit"
+      },
+      {
+        "item_id": "B00R10WZHS",
+        "reason": "Collector's edition game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3480,
+    "completion_tokens": 322
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08JLYSH4B",
+      "B18B4VPT4PJ",
+      "B15C710794",
+      "B086QVLSWY",
+      "B0127JVZE6",
+      "B09FH27KTW",
+      "B084Z4Q9NK",
+      "B00375MX5U",
+      "B00XDSJSGS",
+      "B01ARD1YYK",
+      "B08BLDRTG1",
+      "B01CSG15AM",
+      "B00C710794",
+      "B01GVJURHO",
+      "B00005Y3ZU",
+      "B00005BIG7",
+      "B07C9W9FK4",
+      "B082W1M8H1",
+      "B00K3SX07E",
+      "B0B4VPT4PJ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08JLYSH4B",
+        "reason": "Popular rhythm game accessory"
+      },
+      {
+        "item_id": "B18B4VPT4PJ",
+        "reason": "New strategy game release"
+      },
+      {
+        "item_id": "B15C710794",
+        "reason": "Wii controller set for gaming"
+      },
+      {
+        "item_id": "B086QVLSWY",
+        "reason": "Stylus for creative gameplay"
+      },
+      {
+        "item_id": "B0127JVZE6",
+        "reason": "Quality PS4 controller skin"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3279,
+    "completion_tokens": 320
+  }
+}

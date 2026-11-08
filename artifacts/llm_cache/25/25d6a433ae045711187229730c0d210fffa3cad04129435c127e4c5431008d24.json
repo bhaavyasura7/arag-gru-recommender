@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "1616618698",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Fantasy theme, not user’s preference."
+      },
+      {
+        "item_id": "B00002SUV0",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with video game interests."
+      },
+      {
+        "item_id": "B0000AZVVT",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with video game interests."
+      },
+      {
+        "item_id": "B001IVIZCK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Similar to user’s RPG preferences."
+      },
+      {
+        "item_id": "B000FAMQ3Y",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Action RPG, but less known."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1858,
+    "completion_tokens": 152
+  }
+}

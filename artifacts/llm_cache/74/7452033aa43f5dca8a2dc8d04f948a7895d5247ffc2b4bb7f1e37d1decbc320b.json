@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B7HD8865",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers video games, not accessories."
+      },
+      {
+        "item_id": "B00005ME6O",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys horror games like Resident Evil."
+      },
+      {
+        "item_id": "B00O99EWPM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games over slot machines."
+      },
+      {
+        "item_id": "B00Z9TIGCG",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes Tom Clancy games, similar style."
+      },
+      {
+        "item_id": "B00CSIB3PS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has Xbox games but prefers PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1585,
+    "completion_tokens": 162
+  }
+}

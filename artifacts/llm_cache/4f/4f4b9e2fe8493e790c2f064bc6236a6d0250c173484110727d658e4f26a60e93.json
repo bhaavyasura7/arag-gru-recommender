@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07439W2ZZ",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with Xbox One, user interests."
+      },
+      {
+        "item_id": "B07LFC71DR",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with Xbox One, user interests."
+      },
+      {
+        "item_id": "B08GPG8TCD",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Adapter, not a headset, less relevant."
+      },
+      {
+        "item_id": "B08NJQKTLX",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with Xbox One, user interests."
+      },
+      {
+        "item_id": "B01568PGUO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC gaming headset, less specific to Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1400,
+    "completion_tokens": 159
+  }
+}

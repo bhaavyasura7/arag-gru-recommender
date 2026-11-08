@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00SLBGQX0",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming headset for PC gaming experience."
+      },
+      {
+        "item_id": "B00161IYDC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B007OWQCE0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Membership not directly related to interests."
+      },
+      {
+        "item_id": "B00B3YNOSW",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Puzzle game differs from user's action games."
+      },
+      {
+        "item_id": "B000BPEL40",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Educational game not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 971,
+    "completion_tokens": 156
+  }
+}

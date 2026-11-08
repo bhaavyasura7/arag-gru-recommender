@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "cooperative multiplayer games",
+      "action-adventure titles",
+      "simulation games",
+      "narrative-driven experiences",
+      "classic video games"
+    ],
+    "current_intent": "looking for engaging multiplayer or story-rich games",
+    "avoid": [
+      "sports games",
+      "puzzle games",
+      "mobile games"
+    ],
+    "summary": "User enjoys cooperative and narrative-driven video games, with a preference for classic titles and immersive experiences."
+  },
+  "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 78
+  }
+}

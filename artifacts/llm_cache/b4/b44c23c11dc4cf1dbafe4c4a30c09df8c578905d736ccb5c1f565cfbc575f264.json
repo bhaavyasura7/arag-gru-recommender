@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B12MZ2PX42",
+      "B11MEDEM3R",
+      "B20K7HL1CH",
+      "B06ZZ5N6SH",
+      "B093S1V4GF",
+      "B0039QJKZ8",
+      "B001KW421A",
+      "B001FPX65U",
+      "B000APWZOE",
+      "B0002ATZ7M",
+      "B08268DDKC",
+      "B008S7JREW",
+      "B0054I9ZFE",
+      "B010S32LBE",
+      "B07MZ2PX42",
+      "B07HJ3YRBC",
+      "B005WPG9QC",
+      "B001FPX65U",
+      "B0002FQVBA",
+      "B0002FQVBA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07MZ2PX42",
+        "reason": "Complete Nintendo Switch accessory kit"
+      },
+      {
+        "item_id": "B01MEDEM3R",
+        "reason": "High-quality VR gaming bundle"
+      },
+      {
+        "item_id": "B20K7HL1CH",
+        "reason": "Versatile Nintendo Switch accessories"
+      },
+      {
+        "item_id": "B06ZZ5N6SH",
+        "reason": "Mechanical keyboard for gamers"
+      },
+      {
+        "item_id": "B093S1V4GF",
+        "reason": "Protective case for VR headset"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3429,
+    "completion_tokens": 323
+  }
+}

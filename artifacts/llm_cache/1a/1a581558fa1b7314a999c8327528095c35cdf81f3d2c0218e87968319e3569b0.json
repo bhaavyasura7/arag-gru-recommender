@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000A6U5ZE",
+      "B000HA18HC",
+      "B000HASW0I",
+      "B0039BUDHW",
+      "B000HA18HC",
+      "B001MT4EXM",
+      "B000F08N4GY",
+      "B08CZH1MPR",
+      "B07CZZYYQW",
+      "B07PF86WNG",
+      "B06XH83ZV6",
+      "B0BV64SB7D",
+      "B07WVR6S61",
+      "B07MYYNX6T",
+      "B07FGCW4YS",
+      "B01LZG87OW",
+      "B09H3HDY94",
+      "B07FK3HN18",
+      "B0062DXI3A",
+      "B0BKT496B3"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000A6U5ZE",
+        "reason": "Classic handheld gaming experience"
+      },
+      {
+        "item_id": "B000HA18HC",
+        "reason": "Retro PlayStation accessory"
+      },
+      {
+        "item_id": "B000HASW0I",
+        "reason": "Legacy gaming controller"
+      },
+      {
+        "item_id": "B0039BUDHW",
+        "reason": "Customizable DSi XL skins"
+      },
+      {
+        "item_id": "B001MT4EXM",
+        "reason": "Nostalgic Nintendo DS game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3157,
+    "completion_tokens": 321
+  }
+}

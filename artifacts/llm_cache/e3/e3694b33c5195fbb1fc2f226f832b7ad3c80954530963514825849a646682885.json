@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08B3SLP31",
+      "B0C4F9JGTJ",
+      "B078RJ1KZ6",
+      "B08X6XSC98",
+      "B0012IWRC8",
+      "B017BB905Q",
+      "B003IQ15YI",
+      "B000060NQ4",
+      "B00501IEHK",
+      "B005U9KHJA",
+      "B00001N2MT",
+      "B003N46URC",
+      "B000COFGZI",
+      "B001BH2126",
+      "B0012IWRC8",
+      "B000JPG87A",
+      "B00501IEHK",
+      "B000060NQ4",
+      "B000COFGZI",
+      "B003N46URC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08B3SLP31",
+        "reason": "Wireless headset for immersive gaming"
+      },
+      {
+        "item_id": "B0C4F9JGTJ",
+        "reason": "Low latency gaming headset"
+      },
+      {
+        "item_id": "B078RJ1KZ6",
+        "reason": "Gaming headset with noise cancelling"
+      },
+      {
+        "item_id": "B08X6XSC98",
+        "reason": "Replacement cable for gaming headset"
+      },
+      {
+        "item_id": "B0012IWRC8",
+        "reason": "Multiplayer action game experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3684,
+    "completion_tokens": 317
+  }
+}

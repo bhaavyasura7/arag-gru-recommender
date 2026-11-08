@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B001IK9AZM",
+      "B15E9CU7E4",
+      "B0058TGQKG",
+      "B002H3MSEO",
+      "B0782336XD",
+      "B006ZNGOJC",
+      "B005GAV9HC",
+      "B003G2Z4VY",
+      "B076M9SMZ8",
+      "B085QFH3HW",
+      "B08B3DS362",
+      "B0BFWQ2HC6",
+      "B08DB4D832",
+      "B096MR6JYY",
+      "B074V1PGGB",
+      "B088DGJ765",
+      "B07GD2997C",
+      "B0058TGQKG",
+      "B005GAV9HC",
+      "B008RYSO8G",
+      "B12E9CU7E4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001IK9AZM",
+        "reason": "Retro console skin for Xbox 360"
+      },
+      {
+        "item_id": "B15E9CU7E4",
+        "reason": "Compatible PSP charging cable"
+      },
+      {
+        "item_id": "B0058TGQKG",
+        "reason": "Stylus for Nintendo DSi"
+      },
+      {
+        "item_id": "B002H3MSEO",
+        "reason": "Karaoke mics for retro games"
+      },
+      {
+        "item_id": "B0782336XD",
+        "reason": "Xbox controller silicone cover"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4023,
+    "completion_tokens": 334
+  }
+}

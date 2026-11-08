@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00004U62O",
+      "B00002SVO9",
+      "B00004U62O",
+      "B004WIOH4G",
+      "B007CM0K86",
+      "B00YJJ0OQS",
+      "B00AQF345C",
+      "B00W9DHUBS",
+      "B004IZL5FM",
+      "B00NM9R6GW",
+      "B00DWG1454",
+      "B00R5CFSVN",
+      "B0046ZQ022",
+      "B0088TN73M",
+      "B01LXC1QL0",
+      "B0BHVPZH7R",
+      "B0050SX89W",
+      "B005K1SI8A",
+      "B00N1XKY1L",
+      "B0B3RKNSM6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00004U62O",
+        "reason": "Directly matches retro gaming interest"
+      },
+      {
+        "item_id": "B00002SVO9",
+        "reason": "Classic title from Sega Genesis"
+      },
+      {
+        "item_id": "B004WIOH4G",
+        "reason": "Popular fighting game series"
+      },
+      {
+        "item_id": "B007CM0K86",
+        "reason": "Highly regarded PS3 exclusive"
+      },
+      {
+        "item_id": "B00YJJ0OQS",
+        "reason": "Useful gaming accessory for PS3"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3721,
+    "completion_tokens": 327
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001G605V6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar genre, but different gameplay style."
+      },
+      {
+        "item_id": "B002I08CSW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but engaging gameplay."
+      },
+      {
+        "item_id": "B00KQHHDZC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action RPGs, not sports."
+      },
+      {
+        "item_id": "B079ZV4GX9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic games, but different gameplay experience."
+      },
+      {
+        "item_id": "B07X6481D4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Creative gameplay aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 160
+  }
+}

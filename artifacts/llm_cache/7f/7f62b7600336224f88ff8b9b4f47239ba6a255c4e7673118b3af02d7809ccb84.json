@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B093LB7W5F",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a console user."
+      },
+      {
+        "item_id": "B00001QHYA",
+        "label": "support",
+        "score": 7,
+        "rationale": "Classic game aligns with gaming interests."
+      },
+      {
+        "item_id": "B074Z7B59J",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B072JMHVM4",
+        "label": "support",
+        "score": 6,
+        "rationale": "Unique game experience for PC gamers."
+      },
+      {
+        "item_id": "B07ZJ6YDJT",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "VR accessory, not aligned with history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1149,
+    "completion_tokens": 153
+  }
+}

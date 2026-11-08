@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07KXQS738",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Xbox One, not Xbox 360."
+      },
+      {
+        "item_id": "B0BX8VPN1L",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC headset, user prefers console gaming."
+      },
+      {
+        "item_id": "B00IIHU44E",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox 360 experience."
+      },
+      {
+        "item_id": "B019WRM1IA",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly compatible with Xbox 360."
+      },
+      {
+        "item_id": "B00111SFEU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Designed for PS3, user prefers Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1350,
+    "completion_tokens": 160
+  }
+}

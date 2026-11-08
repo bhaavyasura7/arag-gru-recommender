@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "sports video games",
+      "Pokemon games",
+      "racing games",
+      "music rhythm games",
+      "gaming accessories"
+    ],
+    "current_intent": "Looking for more video games or accessories to enhance gaming experience.",
+    "avoid": [
+      "non-gaming products",
+      "low-rated games",
+      "unrelated genres"
+    ],
+    "summary": "User enjoys video games, especially sports, racing, and music genres, and is currently seeking additional games or accessories."
+  },
+  "usage": {
+    "prompt_tokens": 366,
+    "completion_tokens": 83
+  }
+}

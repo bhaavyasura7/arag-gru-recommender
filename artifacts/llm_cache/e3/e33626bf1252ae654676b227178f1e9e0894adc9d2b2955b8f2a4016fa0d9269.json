@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00134YRQU",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B09Y21MG98",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no VR gaming interest."
+      },
+      {
+        "item_id": "B01MTST9VG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User prefers SNES and PC games."
+      },
+      {
+        "item_id": "B00G4PEN4Y",
+        "label": "support",
+        "score": 7,
+        "rationale": "PC game aligns with user interests."
+      },
+      {
+        "item_id": "B09QVJDVHN",
+        "label": "support",
+        "score": 6,
+        "rationale": "Gaming keyboard fits user gaming needs."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1190,
+    "completion_tokens": 154
+  }
+}

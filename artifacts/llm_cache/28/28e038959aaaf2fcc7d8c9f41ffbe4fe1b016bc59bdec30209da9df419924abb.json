@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00SNO3R5K",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to gaming experience."
+      },
+      {
+        "item_id": "B077M85FVQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC accessory, user prefers consoles."
+      },
+      {
+        "item_id": "B07Y8WC3FH",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances PS4 VR gaming experience."
+      },
+      {
+        "item_id": "B00SCEKJHK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Skin for a different console system."
+      },
+      {
+        "item_id": "B00X8YAA8C",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Older game, not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 998,
+    "completion_tokens": 160
+  }
+}

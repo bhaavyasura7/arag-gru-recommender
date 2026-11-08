@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01LY0NFAN",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming keyboard for PC gamers."
+      },
+      {
+        "item_id": "B07DCZJ297",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset stand, not directly gaming."
+      },
+      {
+        "item_id": "B003P0X5Y0",
+        "label": "support",
+        "score": 7,
+        "rationale": "PC flight game aligns with interests."
+      },
+      {
+        "item_id": "B00JH4S69W",
+        "label": "support",
+        "score": 6,
+        "rationale": "PS3 accessory for existing games."
+      },
+      {
+        "item_id": "B07WTWBLWZ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Portable controller for gaming on multiple devices."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1105,
+    "completion_tokens": 156
+  }
+}

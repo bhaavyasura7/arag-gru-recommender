@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00VULDPCI",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User disliked previous Call of Duty game."
+      },
+      {
+        "item_id": "B00RBVFA92",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys action games but no Marvel history."
+      },
+      {
+        "item_id": "B07JZ4DG95",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User has no interest in hardware accessories."
+      },
+      {
+        "item_id": "B00N34CK5I",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User disliked Call of Duty series."
+      },
+      {
+        "item_id": "B07HC1JR2H",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User may need gaming accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1517,
+    "completion_tokens": 159
+  }
+}

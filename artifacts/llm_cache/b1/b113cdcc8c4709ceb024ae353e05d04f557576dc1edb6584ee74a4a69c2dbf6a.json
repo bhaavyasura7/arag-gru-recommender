@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000LV7PC4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers action games, not word games."
+      },
+      {
+        "item_id": "B000OF0O8Y",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances PS3 gaming experience, user owns PS3."
+      },
+      {
+        "item_id": "B00IZE0332",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Cricket game, user hasn't shown interest."
+      },
+      {
+        "item_id": "B000WMEEAI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Strategy game, user prefers action titles."
+      },
+      {
+        "item_id": "B00F4WM1XS",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Disney Infinity, compatible with PS3."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1470,
+    "completion_tokens": 165
+  }
+}

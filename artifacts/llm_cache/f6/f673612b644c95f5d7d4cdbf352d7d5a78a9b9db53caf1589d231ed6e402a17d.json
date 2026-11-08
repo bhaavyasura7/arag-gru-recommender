@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B072XB87XJ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not directly related to games."
+      },
+      {
+        "item_id": "B006CXMTWQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Generic headset, limited appeal to user."
+      },
+      {
+        "item_id": "B00GM5VNXK",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys similar game genres."
+      },
+      {
+        "item_id": "B079Z17FVH",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes RPGs, Skyrim fits well."
+      },
+      {
+        "item_id": "B003WFLGQM",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys action games like this."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1153,
+    "completion_tokens": 154
+  }
+}

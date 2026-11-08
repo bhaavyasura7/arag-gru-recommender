@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07G21RPY4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to gaming but not core interest."
+      },
+      {
+        "item_id": "B000I6SILY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games, not Xbox."
+      },
+      {
+        "item_id": "B00BGA9WK2",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's preferred gaming platform."
+      },
+      {
+        "item_id": "B00XUYIOX8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "DLC for a racing game, not core interest."
+      },
+      {
+        "item_id": "B0BL3JPS1F",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game, less relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1192,
+    "completion_tokens": 165
+  }
+}

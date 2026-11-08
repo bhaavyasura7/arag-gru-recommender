@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07VFYBMTS",
+      "B00GZ1H07Y",
+      "B01M6CV5IF",
+      "B00DS3MPHM",
+      "B0B38RR7NB",
+      "B10M6CV5IF",
+      "B00SZ1DQFM",
+      "B00IFHTNAI",
+      "B0007U2CX6",
+      "B001ELJDXE",
+      "B001EYUQVE",
+      "B00FUC6T0S",
+      "B00EV4O86I",
+      "B006QRNKOO",
+      "B00DS3MPHM",
+      "B00GZ1H07Y",
+      "B000088KH9",
+      "B0084A97Y8",
+      "B002JTX7PA",
+      "B004NS8UNO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07VFYBMTS",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B00GZ1H07Y",
+        "reason": "Popular pinball game"
+      },
+      {
+        "item_id": "B01M6CV5IF",
+        "reason": "Improved controller features"
+      },
+      {
+        "item_id": "B00DS3MPHM",
+        "reason": "Backlit gaming keyboard"
+      },
+      {
+        "item_id": "B0B38RR7NB",
+        "reason": "Protective case for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3619,
+    "completion_tokens": 321
+  }
+}

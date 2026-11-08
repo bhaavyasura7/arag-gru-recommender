@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07DTLDMXD",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PC games, not accessories."
+      },
+      {
+        "item_id": "B000AY0S3U",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys WWII-themed strategy games."
+      },
+      {
+        "item_id": "0758534531",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but still a PC game."
+      },
+      {
+        "item_id": "B004IPPET0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, but not related to user interests."
+      },
+      {
+        "item_id": "B00J49XYXS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers games, not controller parts."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 923,
+    "completion_tokens": 159
+  }
+}

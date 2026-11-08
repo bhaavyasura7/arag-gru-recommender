@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming accessories",
+      "Xbox and PlayStation games",
+      "gaming headsets",
+      "controller chargers",
+      "game bundles"
+    ],
+    "current_intent": "looking for gaming hardware and software for Xbox and PlayStation.",
+    "avoid": [
+      "low-rated products",
+      "non-gaming items",
+      "overpriced accessories"
+    ],
+    "summary": "User is a gamer focused on Xbox and PlayStation, seeking quality gaming accessories and popular game titles."
+  },
+  "usage": {
+    "prompt_tokens": 497,
+    "completion_tokens": 81
+  }
+}

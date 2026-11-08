@@ -1,0 +1,51 @@
+{
+  "content": {
+    "ranking": [
+      "B08R5PR6SG",
+      "B0BHT94H1N",
+      "B01LZV4MZB",
+      "B01GU9NQMS",
+      "B00FRCX8ZK",
+      "B0B8QR5895",
+      "B08149Z4JV",
+      "B07WXGWPDX",
+      "B01N11GQB4",
+      "B0BVBJGMHM",
+      "B07VVNP9TB",
+      "B0778W12LD",
+      "B089NCV442",
+      "B00001XDTT",
+      "B01J7VKF98",
+      "B0031TKFUM",
+      "B001K7HUWI",
+      "B00478OSYU",
+      "B0BWRPQMMV"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08R5PR6SG",
+        "reason": "High-quality wireless gaming headset"
+      },
+      {
+        "item_id": "B0BHT94H1N",
+        "reason": "Gaming accessory for Nintendo Switch"
+      },
+      {
+        "item_id": "B01LZV4MZB",
+        "reason": "WWE game content for Xbox One"
+      },
+      {
+        "item_id": "B01GU9NQMS",
+        "reason": "Amiibo card for Nintendo games"
+      },
+      {
+        "item_id": "B00FRCX8ZK",
+        "reason": "Soft pouch for gaming devices"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3558,
+    "completion_tokens": 327
+  }
+}

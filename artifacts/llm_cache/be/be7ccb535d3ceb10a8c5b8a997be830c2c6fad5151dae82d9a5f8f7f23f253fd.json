@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming mice",
+      "mechanical keyboards",
+      "VR accessories",
+      "gaming headsets",
+      "video games"
+    ],
+    "current_intent": "looking for high-quality gaming accessories",
+    "avoid": [
+      "low-quality products",
+      "non-gaming brands",
+      "overly complex setups"
+    ],
+    "summary": "User is a gaming enthusiast focused on high-performance peripherals and VR accessories, seeking to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 1013,
+    "completion_tokens": 76
+  }
+}

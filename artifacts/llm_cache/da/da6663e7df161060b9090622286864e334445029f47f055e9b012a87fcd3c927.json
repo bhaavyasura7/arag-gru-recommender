@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09H41CRHK",
+      "B07DY2XHGM",
+      "B0865SV2BK",
+      "B0BBQQWFPB",
+      "B09CTMDQG9",
+      "B09TDYJBCL",
+      "B09KY5T9V4",
+      "B073ZB314P",
+      "B0C6J34WY4",
+      "B002GHHJRW",
+      "B0BB9TFBRJ",
+      "B09B1MQV35",
+      "B0B93Y6MMP",
+      "B00306MN7E",
+      "B00006FWU1",
+      "B00004TH8D",
+      "B0035V3H38",
+      "B078SKMKF5",
+      "B008GW5V9E",
+      "B10C2TCCSK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09H41CRHK",
+        "reason": "High-quality mechanical keyboard"
+      },
+      {
+        "item_id": "B07DY2XHGM",
+        "reason": "Unique controller skin design"
+      },
+      {
+        "item_id": "B0865SV2BK",
+        "reason": "RGB mouse pad for retro gaming"
+      },
+      {
+        "item_id": "B0BBQQWFPB",
+        "reason": "Cooling fan for PS4 upgrade"
+      },
+      {
+        "item_id": "B09CTMDQG9",
+        "reason": "Gaming headset for immersive experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3268,
+    "completion_tokens": 329
+  }
+}

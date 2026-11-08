@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01I59OFDU",
+      "B001EHD9JC",
+      "B00F2Y1CH4",
+      "B5B0ZKZYKMO",
+      "B0BFFJTZNN",
+      "B07HKX4ZV9",
+      "B009LQMDTU",
+      "B07YBXJ5FK",
+      "B00E8CF268",
+      "B07MRJ12HX",
+      "B07HJ7FZM4",
+      "B07MV17D3X",
+      "B00UG63VDG",
+      "B07624RBWB",
+      "B00ZKZYKMO",
+      "B00RSXRLUE",
+      "B07MYVF61Y",
+      "B07K3ZY6BR",
+      "B01541ACLQ",
+      "B0088I6JEW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01I59OFDU",
+        "reason": "Popular action game title"
+      },
+      {
+        "item_id": "B001EHD9JC",
+        "reason": "Superhero action gameplay"
+      },
+      {
+        "item_id": "B00F2Y1CH4",
+        "reason": "Useful gaming accessory"
+      },
+      {
+        "item_id": "B00ZKZYKMO",
+        "reason": "Multiplayer action experience"
+      },
+      {
+        "item_id": "B0BFFJTZNN",
+        "reason": "Enhances gaming setup"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3847,
+    "completion_tokens": 322
+  }
+}

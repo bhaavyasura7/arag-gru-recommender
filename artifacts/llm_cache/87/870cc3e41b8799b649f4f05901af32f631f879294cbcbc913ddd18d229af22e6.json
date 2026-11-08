@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B074FQ84B2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B0BF4XCX9C",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B077SZ1BFW",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre and platform preference."
+      },
+      {
+        "item_id": "B002PY7KN4",
+        "label": "support",
+        "score": 9,
+        "rationale": "Same platform and genre interest."
+      },
+      {
+        "item_id": "B00YJJ0JXQ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre and platform."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1311,
+    "completion_tokens": 149
+  }
+}

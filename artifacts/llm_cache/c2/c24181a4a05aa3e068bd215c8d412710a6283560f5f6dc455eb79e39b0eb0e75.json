@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B079X463L3",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox and PlayStation."
+      },
+      {
+        "item_id": "B00JYE8L9K",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a PS Vita."
+      },
+      {
+        "item_id": "B07W2X52PK",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to Xbox or PlayStation."
+      },
+      {
+        "item_id": "B0047Y06MW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox and PlayStation."
+      },
+      {
+        "item_id": "B004YHKUXM",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Not directly related to gaming consoles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1095,
+    "completion_tokens": 163
+  }
+}

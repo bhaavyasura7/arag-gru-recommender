@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B007D0RPPS",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar genre and high acclaim."
+      },
+      {
+        "item_id": "B09W2H3JMV",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B01J4JSI0G",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B003L1ADZW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Accessory for a different console."
+      },
+      {
+        "item_id": "B096VSJLC9",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Useful accessory for Xbox gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1307,
+    "completion_tokens": 155
+  }
+}

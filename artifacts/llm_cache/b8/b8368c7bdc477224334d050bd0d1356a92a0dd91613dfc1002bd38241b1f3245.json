@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01N3ASPNV",
+      "B007BK7J2Y",
+      "B07S1Q55MB",
+      "B00LV8HZH6",
+      "B19T7CBPZ9",
+      "B00FA1CLEW",
+      "B001G7PSRQ",
+      "B001EYUSFS",
+      "B00Z9TL6KA",
+      "B00M3D8AQ8",
+      "B00IPTUJ8G",
+      "B001EYUQIM",
+      "B00BALK9CM",
+      "B0029F2FB6",
+      "B00N2KKSNO",
+      "B00FA1CLEW",
+      "B01L1Y0TCC",
+      "B09T7CBPZ9",
+      "B001GGS6VW",
+      "B00D8F1D8G",
+      "B00LV8HZH6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01N3ASPNV",
+        "reason": "Protects Nintendo Switch screen"
+      },
+      {
+        "item_id": "B007BK7J2Y",
+        "reason": "Protective case for PS Vita"
+      },
+      {
+        "item_id": "B07S1Q55MB",
+        "reason": "Renewed Nintendo console option"
+      },
+      {
+        "item_id": "B00LV8HZH6",
+        "reason": "Popular PS3 psychological thriller"
+      },
+      {
+        "item_id": "B19T7CBPZ9",
+        "reason": "Gaming keyboard for enhanced play"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3729,
+    "completion_tokens": 347
+  }
+}

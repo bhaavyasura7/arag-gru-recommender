@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00004NS11",
+      "B09VP9LKJ2",
+      "B013MC8C68",
+      "B07TD17MTK",
+      "B0B6GM69MS",
+      "B07NDT3FXD",
+      "B0BB79GLD4",
+      "B0BK3KGRTS",
+      "B00030CKFU",
+      "B00196WC4G",
+      "B07BLWZR3G",
+      "B09M6YFK7Y",
+      "B01KGFQKUW",
+      "B0BJTP1NHC",
+      "B0DHS8SGT",
+      "B0048QXD9C",
+      "B01DVAX66A",
+      "B00BSVTVZ0",
+      "B07DHS8SGT",
+      "B09572TDFW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00004NS11",
+        "reason": "Popular game for handheld consoles"
+      },
+      {
+        "item_id": "B09VP9LKJ2",
+        "reason": "Essential screen protector for Switch"
+      },
+      {
+        "item_id": "B013MC8C68",
+        "reason": "Fast charging cable for Nintendo"
+      },
+      {
+        "item_id": "B07TD17MTK",
+        "reason": "Wireless controller for gaming"
+      },
+      {
+        "item_id": "B0B6GM69MS",
+        "reason": "Compatible controller for multiple systems"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3287,
+    "completion_tokens": 324
+  }
+}

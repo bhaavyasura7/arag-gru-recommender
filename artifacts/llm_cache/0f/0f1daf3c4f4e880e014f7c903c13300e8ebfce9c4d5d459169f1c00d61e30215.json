@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B081GPTC17",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not directly related to games."
+      },
+      {
+        "item_id": "B005GISQX4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers single-player games."
+      },
+      {
+        "item_id": "B0083VTBTY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Headset not a game itself."
+      },
+      {
+        "item_id": "B00MSOIUX0",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Mouse not directly related to interests."
+      },
+      {
+        "item_id": "B005JAT4LC",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys Zelda games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1478,
+    "completion_tokens": 149
+  }
+}

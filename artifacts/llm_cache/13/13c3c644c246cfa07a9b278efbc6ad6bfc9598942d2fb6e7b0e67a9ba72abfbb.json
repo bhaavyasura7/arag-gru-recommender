@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B005HYI8R6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's gaming interests."
+      },
+      {
+        "item_id": "B09MRT69Q4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Xbox, user prefers controllers."
+      },
+      {
+        "item_id": "B09MTDCF5M",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming keyboard aligns with user's interests."
+      },
+      {
+        "item_id": "B07V3683F1",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system accessory, not relevant."
+      },
+      {
+        "item_id": "B0B24YKZTF",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compact gaming keyboard matches user's needs."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1216,
+    "completion_tokens": 159
+  }
+}

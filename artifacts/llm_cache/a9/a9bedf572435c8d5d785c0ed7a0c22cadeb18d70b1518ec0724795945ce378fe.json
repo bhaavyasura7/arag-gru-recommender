@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00GR5B5X8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's gaming preferences."
+      },
+      {
+        "item_id": "B0B1VCPZ7D",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a console user."
+      },
+      {
+        "item_id": "B07YXL4ZKS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo Switch not in user history."
+      },
+      {
+        "item_id": "B00WNO48EA",
+        "label": "support",
+        "score": 7,
+        "rationale": "Call of Duty aligns with gaming interests."
+      },
+      {
+        "item_id": "B01MTR9LON",
+        "label": "support",
+        "score": 6,
+        "rationale": "Charger for PlayStation controllers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1347,
+    "completion_tokens": 161
+  }
+}

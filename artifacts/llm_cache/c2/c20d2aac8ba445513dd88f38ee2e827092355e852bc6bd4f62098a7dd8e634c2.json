@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0B1MBB7SZ",
+      "B07MG4HBMH",
+      "B0BL3GPY9W",
+      "B01N2G0H1T",
+      "B0BVFJBM2V",
+      "B00NXJ2TA4",
+      "B00009WBZ6",
+      "B07TTQ2F51",
+      "B000HFZC5Q",
+      "B00009YXE0",
+      "B004G45V8C",
+      "B07SNKNWD3",
+      "B001XCWTSK",
+      "B00YI6NK7C",
+      "B00KGCPT4O",
+      "B01ABV7WT4",
+      "B0006TNCKA",
+      "B00009WBZ6",
+      "B08FQF4IE8",
+      "B0B41H3YTK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0B1MBB7SZ",
+        "reason": "Noise cancelling for gaming"
+      },
+      {
+        "item_id": "B07MG4HBMH",
+        "reason": "Gaming keyboard and mouse combo"
+      },
+      {
+        "item_id": "B0BL3GPY9W",
+        "reason": "High-quality mechanical keyboard"
+      },
+      {
+        "item_id": "B01N2G0H1T",
+        "reason": "Arcade joystick for gaming"
+      },
+      {
+        "item_id": "B0BVFJBM2V",
+        "reason": "VR stand for headset storage"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3131,
+    "completion_tokens": 340
+  }
+}

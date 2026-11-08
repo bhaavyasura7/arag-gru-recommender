@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00CBL29RS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B017M9IEUY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a video game."
+      },
+      {
+        "item_id": "B00005YXC8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre than preferred games."
+      },
+      {
+        "item_id": "B004ZCPQ4O",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar strategy game genre."
+      },
+      {
+        "item_id": "B07WTSNBXD",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a video game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1092,
+    "completion_tokens": 147
+  }
+}

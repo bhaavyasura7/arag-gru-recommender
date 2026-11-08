@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00003031F",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user prefers modern titles."
+      },
+      {
+        "item_id": "B00000K1VE",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Classic game, user prefers newer games."
+      },
+      {
+        "item_id": "B00Y4S5KPY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming accessory, aligns with user's interests."
+      },
+      {
+        "item_id": "B073X4RGFP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Nintendo Switch, user prefers PC."
+      },
+      {
+        "item_id": "B082R172N3",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Nintendo Switch bag, user focuses on PC gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2614,
+    "completion_tokens": 159
+  }
+}

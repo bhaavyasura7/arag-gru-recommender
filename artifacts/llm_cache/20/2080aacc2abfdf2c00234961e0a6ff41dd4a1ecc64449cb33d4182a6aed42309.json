@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B000H3OBFU",
+      "B002DO87NS",
+      "B01LZ8BG4F",
+      "B00554EXG8",
+      "B000621X5S",
+      "B013J1QRHG",
+      "B00080Q7KY",
+      "B00064X50M",
+      "B002L8W5V6",
+      "B07DFD6HDK",
+      "B0BJWZZ9T1",
+      "B0B49HTMHG",
+      "B008B32ZCE",
+      "B000035XI5",
+      "B000H3OBFU",
+      "B000X70X7HS",
+      "B0038MMAH8",
+      "B00064X50M",
+      "B07YD1TM37",
+      "B06Y5T4V3M",
+      "B20R9PDQHN"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000H3OBFU",
+        "reason": "Popular retro Nintendo game"
+      },
+      {
+        "item_id": "B002DO87NS",
+        "reason": "Engaging Nintendo DS game"
+      },
+      {
+        "item_id": "B01LZ8BG4F",
+        "reason": "Useful accessory for retro consoles"
+      },
+      {
+        "item_id": "B00554EXG8",
+        "reason": "Classic Nintendo fighting game"
+      },
+      {
+        "item_id": "B000621X5S",
+        "reason": "Legacy PlayStation game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3342,
+    "completion_tokens": 331
+  }
+}

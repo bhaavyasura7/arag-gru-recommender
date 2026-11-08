@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00I9RAW8G",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox, not PS4."
+      },
+      {
+        "item_id": "9888001167",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own PS3."
+      },
+      {
+        "item_id": "B0BHKX5FHX",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no DS games in history."
+      },
+      {
+        "item_id": "B00TPJU3BI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys action games, but on Xbox."
+      },
+      {
+        "item_id": "B001FB6I40",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no interest in Nintendo DS."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1304,
+    "completion_tokens": 160
+  }
+}

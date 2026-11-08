@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00J8OH9N0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "GameCube console not in user history."
+      },
+      {
+        "item_id": "B00004U5R7",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B000HLJFOE",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Old PC game, not in user history."
+      },
+      {
+        "item_id": "B000A0I9S0",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Vintage game, user prefers modern titles."
+      },
+      {
+        "item_id": "B06XPBGRC1",
+        "label": "support",
+        "score": 6,
+        "rationale": "Strategy game aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1228,
+    "completion_tokens": 161
+  }
+}

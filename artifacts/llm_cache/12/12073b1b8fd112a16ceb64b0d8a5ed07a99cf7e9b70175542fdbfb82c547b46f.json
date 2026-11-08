@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09K77F43Z",
+      "B099RDW9V8",
+      "B06WVDMRNZ",
+      "B08R3B4RBN",
+      "B00076OMOW",
+      "B001KC03UO",
+      "B0030GBU32",
+      "B01AUDYZHA",
+      "B005VA5D24",
+      "B07D1X681S",
+      "B07VK41184",
+      "B06XD1WF8G",
+      "B0BD4B49VN",
+      "B08P9N8JXP",
+      "B0050JNR42",
+      "B0055A7S8W",
+      "B07X7HJ3QF",
+      "B08SHJY9SD",
+      "B11D1X681S",
+      "B0B3JCL874"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09K77F43Z",
+        "reason": "Classic controller for retro gaming"
+      },
+      {
+        "item_id": "B099RDW9V8",
+        "reason": "Wireless PS3 controller for convenience"
+      },
+      {
+        "item_id": "B06WVDMRNZ",
+        "reason": "PS4 accessory for enhanced experience"
+      },
+      {
+        "item_id": "B08R3B4RBN",
+        "reason": "Wireless controller for multiple devices"
+      },
+      {
+        "item_id": "B00076OMOW",
+        "reason": "Includes classic Atari games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3470,
+    "completion_tokens": 329
+  }
+}

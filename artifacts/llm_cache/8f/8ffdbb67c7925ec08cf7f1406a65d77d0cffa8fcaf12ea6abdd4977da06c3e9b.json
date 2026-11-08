@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07BDHQTT6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Switch, not a game."
+      },
+      {
+        "item_id": "B00002STPS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Classic shooter, not user’s preference."
+      },
+      {
+        "item_id": "B00FR7U15U",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Mobile controller, not a game."
+      },
+      {
+        "item_id": "B06XPX5XLY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Repair kit, not a game."
+      },
+      {
+        "item_id": "B07VHHPJBV",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC gaming mouse, user prefers consoles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1482,
+    "completion_tokens": 156
+  }
+}

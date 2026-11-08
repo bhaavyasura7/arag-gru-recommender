@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001ELJE88",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different franchise, but similar gameplay style."
+      },
+      {
+        "item_id": "B000FJEV06",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Older game, different genre preference."
+      },
+      {
+        "item_id": "B001EBBGTS",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar gameplay, but different franchise."
+      },
+      {
+        "item_id": "B09GHQVX3N",
+        "label": "support",
+        "score": 7,
+        "rationale": "Accessory for Xbox, aligns with interests."
+      },
+      {
+        "item_id": "B01GY35UK6",
+        "label": "support",
+        "score": 8,
+        "rationale": "Survival horror aligns with user preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1161,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00VX73DD0",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches interest in Nintendo 3DS accessories."
+      },
+      {
+        "item_id": "B00004SVS7",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Older game, not directly related."
+      },
+      {
+        "item_id": "B01I59OC92",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different console, not Nintendo."
+      },
+      {
+        "item_id": "B0001Q5SVY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system, not directly relevant."
+      },
+      {
+        "item_id": "B01KXB7SZ0",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PC gaming mouse, not Nintendo related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1188,
+    "completion_tokens": 158
+  }
+}

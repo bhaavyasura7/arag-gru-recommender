@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0719MBBBH",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PlayStation games."
+      },
+      {
+        "item_id": "B00PBBFVMK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming mouse fits user gaming setup."
+      },
+      {
+        "item_id": "B00000JRSB",
+        "label": "support",
+        "score": 8,
+        "rationale": "Classic RPG aligns with user interests."
+      },
+      {
+        "item_id": "B09MHHKXKL",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Wii accessory not relevant to user."
+      },
+      {
+        "item_id": "B09GFL9F5J",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Racing wheel for multiple platforms."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1277,
+    "completion_tokens": 158
+  }
+}

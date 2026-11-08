@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "sports video games",
+      "action-adventure games",
+      "multiplayer experiences",
+      "classic console games",
+      "game accessories"
+    ],
+    "current_intent": "looking for new sports or action games for Xbox 360",
+    "avoid": [
+      "low-rated games",
+      "puzzle games",
+      "non-sports genres"
+    ],
+    "summary": "User enjoys classic sports and action games, primarily on PlayStation 2 and Xbox, and seeks new titles for Xbox 360."
+  },
+  "usage": {
+    "prompt_tokens": 772,
+    "completion_tokens": 88
+  }
+}

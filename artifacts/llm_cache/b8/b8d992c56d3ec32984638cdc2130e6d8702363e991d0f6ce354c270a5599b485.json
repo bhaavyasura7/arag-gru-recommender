@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B013VO5QL4",
+      "B002NIK174",
+      "B00LUL99FU",
+      "B07WXL4V7L",
+      "B0B6VPBCWJ",
+      "B000JJI4Z0",
+      "B0013KOGEC",
+      "B00006LJTL",
+      "B004FONRRK",
+      "B000MNGI9C",
+      "B19C1KV8DZ",
+      "B008ATPG2A",
+      "B003CECLA8",
+      "B002XD1QEG",
+      "B00H0B4BRA",
+      "B081TJS2KS",
+      "B000NIK174",
+      "B00006LJTL",
+      "B002XD1QEG",
+      "B19C1KV8DZ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B013VO5QL4",
+        "reason": "Enhances Xbox controller grip"
+      },
+      {
+        "item_id": "B002NIK174",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B00LUL99FU",
+        "reason": "Comfortable gaming headset"
+      },
+      {
+        "item_id": "B07WXL4V7L",
+        "reason": "Improves controller feel"
+      },
+      {
+        "item_id": "B0B6VPBCWJ",
+        "reason": "Cute and functional thumb grips"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3772,
+    "completion_tokens": 318
+  }
+}

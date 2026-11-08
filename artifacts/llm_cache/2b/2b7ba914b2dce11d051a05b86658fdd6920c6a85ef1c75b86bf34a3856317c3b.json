@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B007HPNYBS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B00O3JSRHW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS Vita game, user prefers Xbox."
+      },
+      {
+        "item_id": "B09TR3Q88F",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo Switch accessories, not Xbox."
+      },
+      {
+        "item_id": "B002Q8HFLG",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "DSi battery, not relevant to user."
+      },
+      {
+        "item_id": "B086H9RJ89",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports Xbox One controller."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 160
+  }
+}

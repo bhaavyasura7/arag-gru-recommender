@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08NST2F9D",
+      "B0B6ZR18LZ",
+      "B09DP9P25T",
+      "B07TP5RLYJ",
+      "B08BCFCXGP",
+      "B07V2B5QYB",
+      "B0C6GDS517",
+      "B09XV1G9Q9",
+      "B09B9WQ4DL",
+      "B0B29GM5RV",
+      "B07XG6S5ZJ",
+      "B07Q5VC6X5",
+      "B07T6FPBKS",
+      "B0967VVXP3",
+      "B09DFY1XD1",
+      "B07PJ3JZGR",
+      "B07S637RW5",
+      "B0BVTSGG9G",
+      "B0B6ZR18LZ",
+      "B07V2B5QYB",
+      "B08BCFCXGP"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08NST2F9D",
+        "reason": "Ultimate controller for Nintendo Switch"
+      },
+      {
+        "item_id": "B0B6ZR18LZ",
+        "reason": "Pro controller with turbo and vibration"
+      },
+      {
+        "item_id": "B09DP9P25T",
+        "reason": "Ergonomic design with motion control"
+      },
+      {
+        "item_id": "B07TP5RLYJ",
+        "reason": "Standard controller for Nintendo Switch"
+      },
+      {
+        "item_id": "B08BCFCXGP",
+        "reason": "Replacement for Joycon with grip"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3616,
+    "completion_tokens": 358
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B004G5YI3U",
+      "B00A63GL4A",
+      "B003O6E9T0",
+      "B12YBXFF5C",
+      "B001EYUNVC",
+      "B00Z9TIM3Y",
+      "B07YBWT3PK",
+      "B07C75CLCD",
+      "B01IFE2OFG",
+      "B000U96L54",
+      "B004JHY3ZI",
+      "B004HKIMK4",
+      "B01GR9ZZTS",
+      "B07K89DFR8",
+      "B001EYUQTQ",
+      "B002JTX7KA",
+      "B000X2H8UA",
+      "B01A5BEBX0",
+      "B000A2R54M",
+      "B004JHY3ZI",
+      "B000X2H8UA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004G5YI3U",
+        "reason": "Rich narrative and immersive gameplay"
+      },
+      {
+        "item_id": "B00A63GL4A",
+        "reason": "Action-adventure with humor and chaos"
+      },
+      {
+        "item_id": "B003O6E9T0",
+        "reason": "Unique immersive experience with Kinect"
+      },
+      {
+        "item_id": "B12YBXFF5C",
+        "reason": "Highly rated action RPG experience"
+      },
+      {
+        "item_id": "B001EYUNVC",
+        "reason": "Classic adventure with strong narrative"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3828,
+    "completion_tokens": 341
+  }
+}

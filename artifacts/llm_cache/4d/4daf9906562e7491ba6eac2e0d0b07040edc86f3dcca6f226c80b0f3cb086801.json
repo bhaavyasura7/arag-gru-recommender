@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00004WFVZ",
+      "B00001LDBV",
+      "B00000K57P",
+      "B002BU0DPE",
+      "B000ARW4RU",
+      "B01953YZ0S",
+      "B074ZZ933M",
+      "B093V61T2N",
+      "B095WLSXHG",
+      "B000S0C2UI",
+      "B00005JHDP",
+      "B001EQD0CO",
+      "B000AY0S3U",
+      "B00005JHDP",
+      "B081LJHQF1",
+      "B089MV3BYN",
+      "B004IPPET0",
+      "B07DTLDMXD",
+      "B00004WFVZ",
+      "B000ARW4RU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00004WFVZ",
+        "reason": "WWII air combat simulation"
+      },
+      {
+        "item_id": "B00001LDBV",
+        "reason": "Classic racing game experience"
+      },
+      {
+        "item_id": "B00000K57P",
+        "reason": "Iconic space combat game"
+      },
+      {
+        "item_id": "B002BU0DPE",
+        "reason": "Enhances gaming audio experience"
+      },
+      {
+        "item_id": "B000ARW4RU",
+        "reason": "Popular music game controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3159,
+    "completion_tokens": 312
+  }
+}

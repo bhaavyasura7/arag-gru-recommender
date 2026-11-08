@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming accessories",
+      "retro gaming",
+      "headphones",
+      "video game consoles",
+      "computer peripherals"
+    ],
+    "current_intent": "looking for gaming accessories or peripherals",
+    "avoid": [
+      "overpriced items",
+      "non-gaming products",
+      "low-quality brands"
+    ],
+    "summary": "User is a gaming enthusiast focused on retro and modern gaming accessories, seeking quality products for an enhanced gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 363,
+    "completion_tokens": 75
+  }
+}

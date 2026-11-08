@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09XB66KBD",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B00GT3PG56",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, but still a video game."
+      },
+      {
+        "item_id": "B01LEWV79K",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Casual game, not aligned with user interests."
+      },
+      {
+        "item_id": "B003UVADAS",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Anime-related, but not Pokémon."
+      },
+      {
+        "item_id": "B079RSQ1H6",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Keyboard unrelated to user's gaming preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1175,
+    "completion_tokens": 156
+  }
+}

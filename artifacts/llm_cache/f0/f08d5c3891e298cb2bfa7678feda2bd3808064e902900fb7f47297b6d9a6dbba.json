@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B014R4KYMS",
+      "B009T3EY1A",
+      "B00008URUA",
+      "B071S7Z6L5",
+      "B00D5SZ04K",
+      "B08LPMVJDJ",
+      "B07D8DPPJN",
+      "B0BL1QQDNY",
+      "B0014DHIL6",
+      "B000HAWCFE",
+      "B001E27DLM",
+      "B004CHLNWQ",
+      "B088BVFZG8",
+      "B00002STOQ",
+      "B0050SX1JO",
+      "B000ATNFLDY",
+      "B07DPK5NPD",
+      "B07RQP5S8C",
+      "B0014DHIL6",
+      "B00008URUA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B014R4KYMS",
+        "reason": "Popular action-adventure game"
+      },
+      {
+        "item_id": "B009T3EY1A",
+        "reason": "Multiplayer brawler experience"
+      },
+      {
+        "item_id": "B00008URUA",
+        "reason": "Classic action RPG"
+      },
+      {
+        "item_id": "B071S7Z6L5",
+        "reason": "Essential for PS4 gaming"
+      },
+      {
+        "item_id": "B00D5SZ04K",
+        "reason": "High-stakes racing gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4021,
+    "completion_tokens": 319
+  }
+}

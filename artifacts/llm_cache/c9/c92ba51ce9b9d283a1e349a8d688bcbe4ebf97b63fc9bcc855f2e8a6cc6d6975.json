@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00CJ9OTNE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre than user's interests."
+      },
+      {
+        "item_id": "B01G6LXS0A",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B07BF2422D",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation, not Xbox."
+      },
+      {
+        "item_id": "B07K3KHFSY",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's PlayStation 3."
+      },
+      {
+        "item_id": "B005DUEPQ2",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly related to user's Skylanders interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 157
+  }
+}

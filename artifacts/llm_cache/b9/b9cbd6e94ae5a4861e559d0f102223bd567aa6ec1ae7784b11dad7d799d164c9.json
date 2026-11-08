@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002QF5I2W",
+      "B007BK7J2Y",
+      "B08PQD4RVQ",
+      "B07FFL8ZQL",
+      "B11KSCWHBO",
+      "B00062VFEW",
+      "B003TO5QYY",
+      "B11EBDB28U",
+      "B00SEFY6I0",
+      "B0C58QPSJ5",
+      "B0BMPMTNFP",
+      "B006ZO7TJU",
+      "B07Y5Y7F56",
+      "B0C6MBDYVQ",
+      "B07XNSVF4P",
+      "B008SIZFPG",
+      "B19PJ9L3O",
+      "B0Z891548",
+      "B0C6MBDYVQ",
+      "B0C58QPSJ5"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002QF5I2W",
+        "reason": "Nintendo DSi case aligns with interests"
+      },
+      {
+        "item_id": "B007BK7J2Y",
+        "reason": "PlayStation Vita case for protection"
+      },
+      {
+        "item_id": "B08PQD4RVQ",
+        "reason": "Nintendo Switch case with unique design"
+      },
+      {
+        "item_id": "B07FFL8ZQL",
+        "reason": "Compatible with Nintendo Switch accessories"
+      },
+      {
+        "item_id": "B11KSCWHBO",
+        "reason": "Custom skin for Xbox enhances style"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3660,
+    "completion_tokens": 341
+  }
+}

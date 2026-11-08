@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B7SDKV8G",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre and platform preference."
+      },
+      {
+        "item_id": "B005EOP1XI",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a game, but a simulation."
+      },
+      {
+        "item_id": "B00F3DGF76",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B07QNGN95V",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with Nintendo Switch games."
+      },
+      {
+        "item_id": "B00BSOW69K",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory for a different console."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 987,
+    "completion_tokens": 159
+  }
+}

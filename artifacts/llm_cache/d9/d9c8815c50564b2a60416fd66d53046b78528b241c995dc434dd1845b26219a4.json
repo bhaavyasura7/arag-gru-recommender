@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000OCXK6A",
+      "B08N7PX4WX",
+      "B001EYUVHS",
+      "B001EYUQT6",
+      "B000N5Z2L4",
+      "B001EYUQEQ",
+      "B0031SWWPO",
+      "B000JGQD7O",
+      "B001TKK3NE",
+      "B001EYUT70",
+      "B001EYUVHS",
+      "B01MG6DORB",
+      "B00HGLLRV2",
+      "B001EYUQT6",
+      "B001EYUQEQ",
+      "B00005NFN4",
+      "B00005QEFD",
+      "B006ZQ85YG",
+      "B002BG1PXM",
+      "B00Z9TJ1VQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000OCXK6A",
+        "reason": "Popular FPS with multiplayer features"
+      },
+      {
+        "item_id": "B08N7PX4WX",
+        "reason": "Enhances gameplay comfort"
+      },
+      {
+        "item_id": "B001EYUVHS",
+        "reason": "Classic FPS title"
+      },
+      {
+        "item_id": "B001EYUQT6",
+        "reason": "Well-known FPS series"
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "reason": "Access to multiplayer gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3567,
+    "completion_tokens": 312
+  }
+}

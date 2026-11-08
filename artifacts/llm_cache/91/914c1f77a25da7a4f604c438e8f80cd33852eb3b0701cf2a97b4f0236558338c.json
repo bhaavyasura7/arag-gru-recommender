@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000GV8LTU",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games, not GameCube."
+      },
+      {
+        "item_id": "B088FH9BXD",
+        "label": "support",
+        "score": 8,
+        "rationale": "Protective case for Nintendo Switch, user owns."
+      },
+      {
+        "item_id": "B09LV95L1B",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Keyboard not relevant to user's gaming."
+      },
+      {
+        "item_id": "B0883DFKYG",
+        "label": "support",
+        "score": 7,
+        "rationale": "Thumb grips for Switch, aligns with interests."
+      },
+      {
+        "item_id": "B07982R9BZ",
+        "label": "support",
+        "score": 6,
+        "rationale": "Thumb grips for Switch Pro, user likely interested."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1659,
+    "completion_tokens": 163
+  }
+}

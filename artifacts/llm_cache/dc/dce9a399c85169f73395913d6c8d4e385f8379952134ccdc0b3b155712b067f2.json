@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008J2RFV8",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar action-oriented gameplay style."
+      },
+      {
+        "item_id": "B0012NO6H2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, but classic adventure game."
+      },
+      {
+        "item_id": "B001OZJE52",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not relevant to user's interests."
+      },
+      {
+        "item_id": "B00004UD3W",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Music games not aligned with preferences."
+      },
+      {
+        "item_id": "B0006NL1HM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Strategy game, less action-focused."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 516,
+    "completion_tokens": 155
+  }
+}

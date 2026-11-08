@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000MZ8QWM",
+      "B08HL8YSWD",
+      "B08DJ9L8FZ",
+      "B0B67PQ6HR",
+      "B0756YV3MK",
+      "B08H8CPSQJ",
+      "B0057UCXS0",
+      "B00005J36X",
+      "B002EWD01S",
+      "B076DF9F12",
+      "B000U5RRX8",
+      "B009O8HH3M",
+      "B07DNDF1D6",
+      "B01M9J5MHK",
+      "B01HPCHQ3O",
+      "B085ZNBWF1",
+      "B07S8DWWNX",
+      "B00GQYIAME",
+      "B01HPCHQ3O",
+      "B00BLTMUYS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000MZ8QWM",
+        "reason": "Directly compatible with Nintendo systems"
+      },
+      {
+        "item_id": "B08HL8YSWD",
+        "reason": "High-quality gaming headset for Nintendo"
+      },
+      {
+        "item_id": "B08DJ9L8FZ",
+        "reason": "Compatible with Nintendo Wii & Wii U"
+      },
+      {
+        "item_id": "B0B67PQ6HR",
+        "reason": "Wireless controller for PS4 and PC"
+      },
+      {
+        "item_id": "B0756YV3MK",
+        "reason": "Gameboy Advance backlight kit"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3299,
+    "completion_tokens": 340
+  }
+}

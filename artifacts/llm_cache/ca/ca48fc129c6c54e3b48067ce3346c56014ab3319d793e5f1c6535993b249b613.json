@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0891125KY",
+      "B07YBX7Y3P",
+      "B06FTB3FCU",
+      "B07BMD2M71",
+      "B15QVDPB7S",
+      "B089SW1D9G",
+      "B08CXRGZGN",
+      "B00M52EP02",
+      "B00OH5VDWI",
+      "B00006HZ0N",
+      "B00005QIQO",
+      "B00JH15U94",
+      "B000B8KIPI",
+      "B08JDWQDFZ",
+      "B01E5XNBXA",
+      "B0086UK7I6",
+      "B00FTB3FCU",
+      "B00M52EP02",
+      "B08CXRGZGN",
+      "B0B9PCPSTN",
+      "B00006HZ0N"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0891125KY",
+        "reason": "Limited edition console appeals greatly"
+      },
+      {
+        "item_id": "B07YBX7Y3P",
+        "reason": "Popular game for Xbox One"
+      },
+      {
+        "item_id": "B06FTB3FCU",
+        "reason": "DLC enhances gaming experience"
+      },
+      {
+        "item_id": "B07BMD2M71",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B15QVDPB7S",
+        "reason": "Essential charging dock for PS5"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3543,
+    "completion_tokens": 337
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001B0BB4M",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys NHL games."
+      },
+      {
+        "item_id": "B07NHNPV12",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes Tom Clancy's games."
+      },
+      {
+        "item_id": "B000056BSY",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older game, less relevant now."
+      },
+      {
+        "item_id": "B07Y2PG4MT",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "NBA game, not user’s interest."
+      },
+      {
+        "item_id": "B00006IKBG",
+        "label": "support",
+        "score": 6,
+        "rationale": "User likes NHL series games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1316,
+    "completion_tokens": 149
+  }
+}

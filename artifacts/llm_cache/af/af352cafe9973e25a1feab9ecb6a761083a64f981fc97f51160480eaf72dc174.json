@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01N33LIXR",
+      "B0C8RZLDCK",
+      "B5D9EPI38",
+      "B0BN1HXJBB",
+      "B00HN9LS48",
+      "B0D9EPI38",
+      "B008MWIALE",
+      "B007YZCE94",
+      "B008OGWH3A",
+      "B004NS8UNO",
+      "B00OAYHIRA",
+      "B00BFOEY4I",
+      "B07KXFB1P8",
+      "B01AVQT95Y",
+      "B09JT1ZKC3",
+      "B00NFXON1Q",
+      "B016S5DC3M",
+      "B00D9EPI38",
+      "B00HN9LS48",
+      "B00OAYHIRA",
+      "B003VUO6H4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01N33LIXR",
+        "reason": "Popular amiibo for retro gaming"
+      },
+      {
+        "item_id": "B0C8RZLDCK",
+        "reason": "Enhances Wii U gameplay experience"
+      },
+      {
+        "item_id": "B5D9EPI38",
+        "reason": "Compatible with Wii U accessories"
+      },
+      {
+        "item_id": "B0BN1HXJBB",
+        "reason": "Useful battery replacement for Wii U"
+      },
+      {
+        "item_id": "B00HN9LS48",
+        "reason": "Essential accessory for Wii U"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3776,
+    "completion_tokens": 340
+  }
+}

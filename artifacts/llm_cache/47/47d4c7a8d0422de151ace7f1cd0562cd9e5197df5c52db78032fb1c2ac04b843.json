@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000ICZ60O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to PS3 games."
+      },
+      {
+        "item_id": "B009ZXJU1I",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers PlayStation."
+      },
+      {
+        "item_id": "B00005BX7K",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Xbox game, not compatible with PS3."
+      },
+      {
+        "item_id": "B014LQHLB4",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Figure, not a game accessory."
+      },
+      {
+        "item_id": "B09LQJHGJK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Joy-Con, racing games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1049,
+    "completion_tokens": 161
+  }
+}

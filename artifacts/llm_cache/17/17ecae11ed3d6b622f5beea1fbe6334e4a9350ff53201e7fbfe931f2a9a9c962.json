@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08YR8LFH3",
+      "B0B5CLRGM9",
+      "B13ZXX71C5",
+      "B01E073CVW",
+      "B08FC4XBY7",
+      "B08TM9QS3J",
+      "B08SKLZNZ4",
+      "B16YHFQK84",
+      "B094Z97FN1",
+      "B09ZK72HQL",
+      "B09QKTK162",
+      "B000GAAXT2",
+      "B08741VJ17",
+      "B01J4KEX9A",
+      "B08BG5DGSC",
+      "B08HSLXCGT",
+      "B004GUSJHQ",
+      "B07GMYXMFT",
+      "B009PJ3AOK",
+      "B08FC4XBY7"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08YR8LFH3",
+        "reason": "Comfortable strap for Oculus Quest"
+      },
+      {
+        "item_id": "B0B5CLRGM9",
+        "reason": "Enhances VR gaming experience"
+      },
+      {
+        "item_id": "B13ZXX71C5",
+        "reason": "Large anti-fatigue VR mat"
+      },
+      {
+        "item_id": "B01E073CVW",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B08FC4XBY7",
+        "reason": "Replacement power cord for convenience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3687,
+    "completion_tokens": 329
+  }
+}

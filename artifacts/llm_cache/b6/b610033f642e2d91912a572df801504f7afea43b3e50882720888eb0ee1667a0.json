@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B005SYWL4Q",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Nintendo DS Lite accessories."
+      },
+      {
+        "item_id": "B08ZNCVZRQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC racing wheel not relevant to user."
+      },
+      {
+        "item_id": "B07BKLWZK6",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Transformers toy unrelated to video games."
+      },
+      {
+        "item_id": "B01L5QXEJG",
+        "label": "support",
+        "score": 7,
+        "rationale": "Game Boy Advance game aligns with interests."
+      },
+      {
+        "item_id": "B077PBNG9B",
+        "label": "support",
+        "score": 9,
+        "rationale": "Popular Zelda game matches user preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 689,
+    "completion_tokens": 160
+  }
+}

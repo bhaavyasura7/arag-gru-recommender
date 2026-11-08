@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B003TEGSXM",
+      "B15D122T41",
+      "B004PBPAWS",
+      "B11CTXH6P2",
+      "B00G94RXCE",
+      "B007DKUB5O",
+      "B08DB8H8M5",
+      "B00005OBQ9",
+      "B001R5CS0W",
+      "B00ORY7GVG",
+      "B00005NCBA",
+      "B017C2U8A0",
+      "B004DNWPO4",
+      "B017D3KOJS",
+      "B00U2GEVPC",
+      "B07HYW4XMP",
+      "B007IQI8XU",
+      "B004LLC4B2",
+      "B00005OBQ9",
+      "B00ABTAZV4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B003TEGSXM",
+        "reason": "Popular family-friendly sports game"
+      },
+      {
+        "item_id": "B15D122T41",
+        "reason": "Engaging multiplayer options"
+      },
+      {
+        "item_id": "B004PBPAWS",
+        "reason": "Family-friendly adventure game"
+      },
+      {
+        "item_id": "B11CTXH6P2",
+        "reason": "Customizable Xbox One accessories"
+      },
+      {
+        "item_id": "B00G94RXCE",
+        "reason": "Interactive gaming figure for kids"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3399,
+    "completion_tokens": 317
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B006OCM0JC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not a video game or accessory."
+      },
+      {
+        "item_id": "B09X1KKVM9",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible controller for PS3/PS4."
+      },
+      {
+        "item_id": "B08BF8C4SK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming headset for PS4 and Switch."
+      },
+      {
+        "item_id": "B0B27QGWZ8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Collectible figure, not a game."
+      },
+      {
+        "item_id": "B01AILTT1G",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Outdated memory card for PS2."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2410,
+    "completion_tokens": 163
+  }
+}

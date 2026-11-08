@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B078SM4YJ9",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not related to user's game preferences."
+      },
+      {
+        "item_id": "B0BLFYF8K2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming accessory, not a game itself."
+      },
+      {
+        "item_id": "B09YZNRQ7N",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly related to Nintendo Switch games."
+      },
+      {
+        "item_id": "B00800VJWU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Skylanders not in user's history."
+      },
+      {
+        "item_id": "B002I0GZ5Y",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Legacy system game, less relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1205,
+    "completion_tokens": 160
+  }
+}

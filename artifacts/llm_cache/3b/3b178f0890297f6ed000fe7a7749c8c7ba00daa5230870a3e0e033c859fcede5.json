@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01IC2A28C",
+      "B006VR663G",
+      "B000A28ENI",
+      "B18HL8YSWD",
+      "B15PJMJ924",
+      "B0002RQ3H0",
+      "B0006GBD04",
+      "B004K6LQAS",
+      "B00PJMJ924",
+      "B099YTDMZ3",
+      "B0BRZZ8YSF",
+      "B001EYUSTY",
+      "B0718YCJJB",
+      "B00KIWEMIG",
+      "B002W8D0EQ",
+      "B00CMQTUSS",
+      "B20B9WK4HZ1",
+      "B00L3UUPS",
+      "B001CZG42U",
+      "B08HL8YSWD"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01IC2A28C",
+        "reason": "Popular Nintendo game bundle"
+      },
+      {
+        "item_id": "B006VR663G",
+        "reason": "Spider-Man game for Nintendo"
+      },
+      {
+        "item_id": "B000A28ENI",
+        "reason": "Classic Mega Man collection"
+      },
+      {
+        "item_id": "B18HL8YSWD",
+        "reason": "New Nintendo Switch game"
+      },
+      {
+        "item_id": "B15PJMJ924",
+        "reason": "Classic Pokémon game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3775,
+    "completion_tokens": 311
+  }
+}

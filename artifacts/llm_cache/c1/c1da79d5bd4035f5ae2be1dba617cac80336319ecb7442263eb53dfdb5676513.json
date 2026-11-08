@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B12F1T77ZA",
+      "B14YSNQSWF",
+      "B17BSWYMPV",
+      "B01MT1DCIV",
+      "B14F1T77ZA",
+      "B07JYKX62T",
+      "B14F1T77ZA",
+      "B01N6ZNSUQ",
+      "B07YSNQSWF",
+      "B08NB2MD6N",
+      "B006VR6BHM",
+      "B00634MLMW",
+      "B0066DEDYO",
+      "B0785KCMBB",
+      "B0894R125K",
+      "B083JZ45GP",
+      "B00017X22U",
+      "B01F1T77ZA",
+      "B00634MLMW",
+      "B0066DEDYO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B12F1T77ZA",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B14YSNQSWF",
+        "reason": "Lightweight wireless gaming mouse"
+      },
+      {
+        "item_id": "B17BSWYMPV",
+        "reason": "Performance thumb grips for controllers"
+      },
+      {
+        "item_id": "B01MT1DCIV",
+        "reason": "Custom aluminum button replacement"
+      },
+      {
+        "item_id": "B14F1T77ZA",
+        "reason": "Reliable controller charging solution"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3378,
+    "completion_tokens": 318
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01H6DHITE",
+      "B003BE6OZW",
+      "B0091KKHJ4",
+      "B0031DNM5S",
+      "B07K8385XL",
+      "B0787STG8T",
+      "B00CY58LMS",
+      "B01L91OUHM",
+      "B0B3N3P3P1",
+      "B003DKL48G",
+      "B0006TNDAO",
+      "B09PV6DRNH",
+      "B076XYM9SK",
+      "B07GVPLS99",
+      "B09J4B5YMB",
+      "B00354VS8Q",
+      "B0007Z70YM",
+      "B00MZYVR88",
+      "B09637ZPSF",
+      "B00002SX0G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01H6DHITE",
+        "reason": "High-quality mechanical gaming keyboard"
+      },
+      {
+        "item_id": "B003BE6OZW",
+        "reason": "Popular gaming title for Xbox"
+      },
+      {
+        "item_id": "B0091KKHJ4",
+        "reason": "Gaming headset for immersive experience"
+      },
+      {
+        "item_id": "B0031DNM5S",
+        "reason": "Next-gen headset for PS3"
+      },
+      {
+        "item_id": "B07K8385XL",
+        "reason": "Keyboard for Nintendo Switch gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3699,
+    "completion_tokens": 321
+  }
+}

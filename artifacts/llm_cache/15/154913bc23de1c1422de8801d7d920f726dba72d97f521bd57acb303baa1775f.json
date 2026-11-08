@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B014278KOO",
+      "B04HSWF40",
+      "B0009YDS0Q",
+      "B07KCBHDLX",
+      "B003O3EFY2",
+      "B00Z8EBXSQ",
+      "B000ZK7ZOE",
+      "B01MT1NE7T",
+      "B01MQ0BGOL",
+      "B08V1QTP6X",
+      "B00HRH79H6",
+      "B00FA1CLEW",
+      "B001E91OLK",
+      "B002BSA388",
+      "B000067FDY",
+      "B09KBYSSGM",
+      "B00TPM6JNG",
+      "B00ZS1S4XG",
+      "B01MT1NE7T",
+      "B0009YDS0Q"
+    ],
+    "reasons": [
+      {
+        "item_id": "B014278KOO",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B04HSWF40",
+        "reason": "RGB lighting features"
+      },
+      {
+        "item_id": "B0009YDS0Q",
+        "reason": "High DPI gaming mouse"
+      },
+      {
+        "item_id": "B07KCBHDLX",
+        "reason": "Replacement thumbsticks for controllers"
+      },
+      {
+        "item_id": "B003O3EFY2",
+        "reason": "Compatible with gaming systems"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3623,
+    "completion_tokens": 316
+  }
+}

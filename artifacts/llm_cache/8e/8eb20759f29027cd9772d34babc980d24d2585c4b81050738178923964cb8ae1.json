@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08616DR2R",
+      "B00W9DHUBS",
+      "B01LD7MR2C",
+      "B07SK575G9",
+      "B001EYUPX8",
+      "B001QLC2YY",
+      "B001EYUNYY",
+      "B07BFWLXLS",
+      "B00EADTVL2",
+      "B07C3PV1PX",
+      "B00005R5PO",
+      "B07STR3G1D",
+      "B005G4CXPK",
+      "B00002STIB",
+      "B00KTORA0K",
+      "B002BZ11EG",
+      "B07CHRQC25",
+      "B00003Z1F1",
+      "B07BFWLXLS",
+      "B001EYUNYY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08616DR2R",
+        "reason": "High DPI ergonomic gaming mouse"
+      },
+      {
+        "item_id": "B00W9DHUBS",
+        "reason": "Popular Xbox One DLC expansion"
+      },
+      {
+        "item_id": "B01LD7MR2C",
+        "reason": "Immersive PS4 motion controllers"
+      },
+      {
+        "item_id": "B07SK575G9",
+        "reason": "Wireless controller for multiple platforms"
+      },
+      {
+        "item_id": "B001EYUPX8",
+        "reason": "Classic Xbox 360 fighting game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3892,
+    "completion_tokens": 318
+  }
+}

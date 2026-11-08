@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004Y3CF9S",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoyed Dead Space series."
+      },
+      {
+        "item_id": "B00NU9TQLM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has mixed interest in action games."
+      },
+      {
+        "item_id": "B0011FI52S",
+        "label": "support",
+        "score": 8,
+        "rationale": "User rated Gears of War 2 highly."
+      },
+      {
+        "item_id": "B006MQH644",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User may like collections but uncertain."
+      },
+      {
+        "item_id": "B000GW8O64",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has mixed feelings on Devil May Cry."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1900,
+    "completion_tokens": 156
+  }
+}

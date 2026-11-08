@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The candidates primarily feature Nintendo games and accessories, appealing to the user's interest in Nintendo-related products. They include classic titles, family-friendly gameplay, and unique interactive experiences, aligning with the user's preference for amiibo collectibles and classic video games while avoiding non-Nintendo and low-rated options."
+  },
+  "usage": {
+    "prompt_tokens": 1306,
+    "completion_tokens": 60
+  }
+}

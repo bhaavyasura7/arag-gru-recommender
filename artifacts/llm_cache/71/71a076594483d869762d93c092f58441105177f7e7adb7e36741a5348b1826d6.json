@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00VR33XVC",
+      "B085751BTH",
+      "B00000DMAG",
+      "B06F1UIPG",
+      "B11YF64SVV",
+      "B093GVW6WD",
+      "B12XZS4NB9",
+      "B001EYUOAW",
+      "B0000DJX7H",
+      "B07YF64SVV",
+      "B07JFTWDY9",
+      "B07T8JGPTT",
+      "B0057ETTZG",
+      "B07VQ6YNQZ",
+      "B08M3BS9ZT",
+      "B006VE454Q",
+      "B00BIIE3B0",
+      "B07XZS4NB9",
+      "B07YF64SVV",
+      "B07T8JGPTT"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00VR33XVC",
+        "reason": "Classic game bundle with Zelda"
+      },
+      {
+        "item_id": "B085751BTH",
+        "reason": "Mini NES with 500 games"
+      },
+      {
+        "item_id": "B00000DMAG",
+        "reason": "Classic RPG with nostalgia"
+      },
+      {
+        "item_id": "B000F1UIPG",
+        "reason": "Fun mini games for DS"
+      },
+      {
+        "item_id": "B11YF64SVV",
+        "reason": "Cooling fan for Switch dock"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3586,
+    "completion_tokens": 322
+  }
+}

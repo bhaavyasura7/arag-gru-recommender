@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00Z7STA42",
+      "B08PQFNP9J",
+      "B08BKWCL86",
+      "B20B25F59PN",
+      "B07XBKJZ38",
+      "B09YDRBZQS",
+      "B20B00EDEA2Z2",
+      "B002TK6R60",
+      "B01M07LUG6",
+      "B002XUKTTM",
+      "B007NDJG98",
+      "B013PZEZFM",
+      "B01M66ZVW0",
+      "B0056FOJF6",
+      "B00GTWHICG",
+      "B00J3KLZAM",
+      "B08N7QBVBJ",
+      "B00014B0GS",
+      "B002XUKTTM",
+      "B00EDEA2Z2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00Z7STA42",
+        "reason": "High-capacity storage for Xbox"
+      },
+      {
+        "item_id": "B08PQFNP9J",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B08BKWCL86",
+        "reason": "Comfortable headset for gaming"
+      },
+      {
+        "item_id": "B20B25F59PN",
+        "reason": "Cute carrying case for Switch"
+      },
+      {
+        "item_id": "B07XBKJZ38",
+        "reason": "Car mount for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2823,
+    "completion_tokens": 327
+  }
+}

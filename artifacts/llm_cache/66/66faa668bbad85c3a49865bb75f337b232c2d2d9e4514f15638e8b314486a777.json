@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00006LELD",
+      "B00006IR62",
+      "B0008G2OWS",
+      "B00B2VG52I",
+      "B15D3D3GG8",
+      "B07FMMZTXY",
+      "B00097CZ5W",
+      "B00K5N11VY",
+      "B003VUO6H4",
+      "B004GX4864",
+      "B004Q4PECU",
+      "B00DDILSBG",
+      "B0777JG5YS",
+      "B0026IZU68",
+      "B07LDGV7ZL",
+      "B005669IE2",
+      "B001G7PSTY",
+      "B00BGA9WK2",
+      "B00B2VG52I",
+      "B003VUO6H4",
+      "B004GX4864"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00006LELD",
+        "reason": "Strong narrative and gameplay"
+      },
+      {
+        "item_id": "B00006IR62",
+        "reason": "Classic RPG with deep story"
+      },
+      {
+        "item_id": "B00B2VG52I",
+        "reason": "Engaging fantasy adventure"
+      },
+      {
+        "item_id": "B15D3D3GG8",
+        "reason": "Post-apocalyptic narrative"
+      },
+      {
+        "item_id": "B07FMMZTXY",
+        "reason": "Unique mech combat experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3680,
+    "completion_tokens": 325
+  }
+}

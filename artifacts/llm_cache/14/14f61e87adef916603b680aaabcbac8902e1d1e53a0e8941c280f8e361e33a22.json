@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0099OUMAQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Nintendo games."
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers family-friendly games."
+      },
+      {
+        "item_id": "B0BMT9B9PX",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has gaming accessories."
+      },
+      {
+        "item_id": "B079C6C1RX",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes retro gaming systems."
+      },
+      {
+        "item_id": "B002I08CSW",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Wii U games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1360,
+    "completion_tokens": 148
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00K5GDTNE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to Nintendo but not Switch."
+      },
+      {
+        "item_id": "B003RDEUSA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PlayStation product, not Nintendo."
+      },
+      {
+        "item_id": "B015PXH9S2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "PlayStation game, not Nintendo."
+      },
+      {
+        "item_id": "B08BNPQRCK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox controller, not Nintendo."
+      },
+      {
+        "item_id": "B07VDHJY2J",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo Switch game, aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1311,
+    "completion_tokens": 158
+  }
+}

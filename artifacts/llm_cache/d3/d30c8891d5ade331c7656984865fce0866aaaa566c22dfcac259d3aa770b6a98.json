@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09N9GGR51",
+      "B20BVFHFP37",
+      "B07R7LC8LY",
+      "B13G7GPS32",
+      "B0BS5GV9VV",
+      "B14PKJ3C7S",
+      "B07FL8NYQH",
+      "B07M9Q5TLJ",
+      "B072F43DLR",
+      "B06XKM5LSX",
+      "B00AE6OPEC",
+      "B000ENMSXU",
+      "B08PKJ3C7S",
+      "B08961BCXD",
+      "B07GQ6NN9M",
+      "B089CJNG33",
+      "B07VBFLNV2",
+      "B07G7GPS32",
+      "B07GQ6NN9M",
+      "B089CJNG33"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09N9GGR51",
+        "reason": "High-quality RGB mechanical keyboard"
+      },
+      {
+        "item_id": "B0BVFHFP37",
+        "reason": "Wireless RGB keyboard and mouse combo"
+      },
+      {
+        "item_id": "B07R7LC8LY",
+        "reason": "Gaming headset with surround sound"
+      },
+      {
+        "item_id": "B13G7GPS32",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B0BS5GV9VV",
+        "reason": "RGB charging station for controllers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2976,
+    "completion_tokens": 327
+  }
+}

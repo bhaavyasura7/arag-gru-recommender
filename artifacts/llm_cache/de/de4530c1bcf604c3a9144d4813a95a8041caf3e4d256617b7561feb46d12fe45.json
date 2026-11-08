@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00T7WSA1I",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to Nintendo but not gaming mouse."
+      },
+      {
+        "item_id": "B00QA2ZI5O",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B07QXNNS8H",
+        "label": "support",
+        "score": 6,
+        "rationale": "Supports Nintendo Switch usage."
+      },
+      {
+        "item_id": "B07Q73Q3KG",
+        "label": "support",
+        "score": 7,
+        "rationale": "Enhances comfort for Nintendo Switch."
+      },
+      {
+        "item_id": "B07WDS6PYC",
+        "label": "support",
+        "score": 6,
+        "rationale": "Ergonomic grip for Nintendo Switch Lite."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 998,
+    "completion_tokens": 157
+  }
+}

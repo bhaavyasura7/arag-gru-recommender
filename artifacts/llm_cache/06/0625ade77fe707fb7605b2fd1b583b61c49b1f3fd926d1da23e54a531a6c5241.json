@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00KQHHDZC",
+        "label": "support",
+        "score": 8,
+        "rationale": "User liked FIFA 14, similar game."
+      },
+      {
+        "item_id": "B0050SYYTK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, but family-friendly."
+      },
+      {
+        "item_id": "B00N3OELPU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming accessory, not a game."
+      },
+      {
+        "item_id": "B082VX16VJ",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory for PS4, user prefers Nintendo."
+      },
+      {
+        "item_id": "B0009IO662",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "GameCube accessory, user has Nintendo games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1146,
+    "completion_tokens": 158
+  }
+}

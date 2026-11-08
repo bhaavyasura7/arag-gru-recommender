@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07VDHJY2J",
+      "B08BNPQRCK",
+      "B07MZPRW6X",
+      "B13MMVNMZL",
+      "B078PG53GR",
+      "B00K5GDTNE",
+      "B003RDEUSA",
+      "B0026775B2",
+      "B00454C276",
+      "B005OGL4V4",
+      "B00B2A0TPS",
+      "B09HCFNF3H",
+      "B19SPVN9PW",
+      "B09SPVN9PW",
+      "B00R10WZHS",
+      "B003C3YW2E",
+      "B00576U8CC",
+      "B09MMVNMZL",
+      "B07W778FRG",
+      "B00AMRL74E"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07VDHJY2J",
+        "reason": "Popular Nintendo Switch game"
+      },
+      {
+        "item_id": "B08BNPQRCK",
+        "reason": "Quality Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B07MZPRW6X",
+        "reason": "Useful Joy-Con grips"
+      },
+      {
+        "item_id": "B13MMVNMZL",
+        "reason": "Ergonomic Switch Lite grip"
+      },
+      {
+        "item_id": "B078PG53GR",
+        "reason": "Protective case for Nintendo devices"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3420,
+    "completion_tokens": 322
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00DUARDFC",
+      "B07P6MD9B7",
+      "B00OBZNI0O",
+      "B18NPA81O",
+      "B00K0NV5J2",
+      "B00U33Q940",
+      "B009NPA81O",
+      "B0054U4A4I",
+      "B00K0NV5J2",
+      "B007MF9NR3Y",
+      "B00U33Q940",
+      "B006JKASAC",
+      "B00000DMAT",
+      "B087SHFL9B",
+      "B00503E8S2",
+      "B001T0HVGQ",
+      "B0054U4A4I",
+      "B00DUARDFC",
+      "B073ZF737B",
+      "B00503E8S2",
+      "B006JKASAC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DUARDFC",
+        "reason": "Popular LEGO Marvel franchise"
+      },
+      {
+        "item_id": "B07P6MD9B7",
+        "reason": "Creative LEGO gameplay experience"
+      },
+      {
+        "item_id": "B00OBZNI0O",
+        "reason": "Highly rated PS4 game"
+      },
+      {
+        "item_id": "B18NPA81O",
+        "reason": "Classic Call of Duty series"
+      },
+      {
+        "item_id": "B00K0NV5J2",
+        "reason": "Expansion for popular RPG"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3499,
+    "completion_tokens": 331
+  }
+}

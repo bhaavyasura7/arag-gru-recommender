@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09NQWKKMJ",
+      "B00TDMBUMI",
+      "B003FMTZSI",
+      "B00CISMP8M",
+      "B20N7QBVBJ",
+      "B00Z9TJZAI",
+      "B003HKS156",
+      "B0079V4GK8",
+      "B001EYUOFM",
+      "B001BQVXP8",
+      "B001EYUTZ2",
+      "B00BGAA3S2",
+      "B0728CJKZS",
+      "B014GWNTCI",
+      "B00RN7QTF8",
+      "B003FMTZSI",
+      "B00CISMP8M",
+      "B00YDV70NW",
+      "B00004WKKC",
+      "B001ELJDUC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09NQWKKMJ",
+        "reason": "Performance thumbsticks for Nintendo Switch"
+      },
+      {
+        "item_id": "B00TDMBUMI",
+        "reason": "Classic Sega Genesis console with games"
+      },
+      {
+        "item_id": "B003FMTZSI",
+        "reason": "Popular sports game for Xbox 360"
+      },
+      {
+        "item_id": "B00CISMP8M",
+        "reason": "High-quality FIFA sports game"
+      },
+      {
+        "item_id": "B20N7QBVBJ",
+        "reason": "Charging stand for Xbox One controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3564,
+    "completion_tokens": 323
+  }
+}

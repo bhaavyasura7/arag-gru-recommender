@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo gaming accessories",
+      "PSP games",
+      "portable gaming cases",
+      "Final Fantasy series",
+      "video game hardware"
+    ],
+    "current_intent": "Looking for more gaming accessories or cases for handheld consoles.",
+    "avoid": [
+      "non-portable gaming items",
+      "low-rated products",
+      "unrelated gaming genres"
+    ],
+    "summary": "User is a handheld gaming enthusiast focused on accessories and games, particularly for Nintendo and PSP systems."
+  },
+  "usage": {
+    "prompt_tokens": 356,
+    "completion_tokens": 82
+  }
+}

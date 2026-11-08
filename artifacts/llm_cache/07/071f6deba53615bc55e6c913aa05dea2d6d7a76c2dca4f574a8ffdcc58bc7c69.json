@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The user seeks action-oriented video games, particularly first-person shooters and multiplayer experiences. Relevant candidates include titles like Call of Duty: Black Ops 2 and Resistance 3, which feature intense gameplay, cooperative modes, and historical or futuristic settings, aligning with the user's interests while avoiding puzzle, sports, and mobile games."
+  },
+  "usage": {
+    "prompt_tokens": 1568,
+    "completion_tokens": 67
+  }
+}

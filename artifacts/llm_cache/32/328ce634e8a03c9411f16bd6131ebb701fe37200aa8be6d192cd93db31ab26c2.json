@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B018CYKIHU",
+      "B000038A6U",
+      "B00HVBPRUO",
+      "B002SUTB28",
+      "B0988533WP",
+      "B0002XL3BA",
+      "B001EYUY8Y",
+      "B001EYUQ8M",
+      "B0009VXBAQ",
+      "B07TC8J6HK",
+      "B00264H2W2",
+      "B0191J0RXA",
+      "B00DDIRERI",
+      "B07YBXP45M",
+      "B01B2RWVHY",
+      "B01L1L3F26",
+      "B06XPX5XLY",
+      "B00BHJ6KY8",
+      "B001EYUWRC",
+      "B00DDIRERI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B018CYKIHU",
+        "reason": "Multiplayer racing game experience"
+      },
+      {
+        "item_id": "B000038A6U",
+        "reason": "Classic arcade games nostalgia"
+      },
+      {
+        "item_id": "B00HVBPRUO",
+        "reason": "Great for multiplayer gaming"
+      },
+      {
+        "item_id": "B002SUTB28",
+        "reason": "Cooperative multiplayer fitness game"
+      },
+      {
+        "item_id": "B0988533WP",
+        "reason": "Fun multiplayer microgames"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3842,
+    "completion_tokens": 314
+  }
+}

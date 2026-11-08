@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09WRHBGW6",
+      "B07MW9Y588",
+      "B094YHB1QK",
+      "B12TX9QKGG",
+      "B08KXHTQHV",
+      "B12HZ6N69N",
+      "B001B5IVHC",
+      "B001ELJFAK",
+      "B00006RHLX",
+      "B000EYF88G",
+      "B00WPKRA7E",
+      "B000G1O7SE",
+      "B07QN3HXRC",
+      "B000AB0S38",
+      "B0836PSJRW",
+      "B08CRWCC3Z",
+      "B074GG1RQQ",
+      "B001ELJFAK",
+      "B00006RHLX",
+      "B000G1O7SE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09WRHBGW6",
+        "reason": "Popular gaming accessory for VR"
+      },
+      {
+        "item_id": "B07MW9Y588",
+        "reason": "Rechargeable battery for Xbox"
+      },
+      {
+        "item_id": "B094YHB1QK",
+        "reason": "New PlayStation controller model"
+      },
+      {
+        "item_id": "B07TX9QKGG",
+        "reason": "High-quality mechanical keyboard"
+      },
+      {
+        "item_id": "B08KXHTQHV",
+        "reason": "Lightweight gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3392,
+    "completion_tokens": 323
+  }
+}

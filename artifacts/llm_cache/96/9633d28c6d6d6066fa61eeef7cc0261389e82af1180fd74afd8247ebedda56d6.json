@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BKQ3MC5Y",
+      "B079X463L3",
+      "B17W2X52PK",
+      "B017QX272PV",
+      "B01NAGTKX3",
+      "B00007KE6D",
+      "B004YHKUXM",
+      "B0047Y06MW",
+      "B0091F8H64",
+      "B08D3WYRMJ",
+      "B000A11EOK",
+      "B000R2YWEQ",
+      "B0767JXPY6",
+      "B00CBYN8H0",
+      "B08GYJ5LQS",
+      "B000A11EOK",
+      "B00007KE6D",
+      "B004YHKUXM",
+      "B009CCQ7GS",
+      "B07MNK2X4D"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BKQ3MC5Y",
+        "reason": "Essential power supply for Xbox One"
+      },
+      {
+        "item_id": "B079X463L3",
+        "reason": "Custom skin for Xbox controller"
+      },
+      {
+        "item_id": "B017QX272PV",
+        "reason": "Charging port for PS4 controller"
+      },
+      {
+        "item_id": "B01NAGTKX3",
+        "reason": "Popular PS4 game collection"
+      },
+      {
+        "item_id": "B00007KE6D",
+        "reason": "Classic Xbox game for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3243,
+    "completion_tokens": 329
+  }
+}

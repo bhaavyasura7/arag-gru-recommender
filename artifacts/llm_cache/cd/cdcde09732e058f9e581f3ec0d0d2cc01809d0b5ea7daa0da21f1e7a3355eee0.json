@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B15NVVV9R7",
+      "B15MAM0ALA",
+      "B16PL1965",
+      "B16HJJICA",
+      "B16OAGLSO",
+      "B16YVBCSM",
+      "B16X8X55I8",
+      "B16Y8CQCXA",
+      "B16QU5KLK",
+      "B16E4MQODC",
+      "B16A7I71C",
+      "B16BHEQ1G",
+      "B16D4MQODC",
+      "B16E4MQODC",
+      "B16F4MQODC",
+      "B16G4MQODC",
+      "B16H4MQODC",
+      "B16I4MQODC",
+      "B16J4MQODC",
+      "B16K4MQODC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B15NVVV9R7",
+        "reason": "Popular amiibo for Zelda games"
+      },
+      {
+        "item_id": "B15MAM0ALA",
+        "reason": "Family-friendly multiplayer game"
+      },
+      {
+        "item_id": "B16PL1965",
+        "reason": "Protects Nintendo 2DS XL"
+      },
+      {
+        "item_id": "B16HJJICA",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B16OAGLSO",
+        "reason": "Fun Disney game for families"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3584,
+    "completion_tokens": 325
+  }
+}

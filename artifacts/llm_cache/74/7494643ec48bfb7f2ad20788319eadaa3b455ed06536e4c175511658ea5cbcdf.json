@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09Z9Q6DZC",
+      "B0006IGX9S",
+      "B075B475G5",
+      "B09R1S45VM",
+      "B01N1Q2N5I",
+      "B00005O0I8",
+      "B08P1KNQ28",
+      "B01N4NUG5R",
+      "B01NAAWIGV",
+      "B07YF64SVV",
+      "B01LRPXFLC",
+      "B002I0JD1C",
+      "B071S1XK21",
+      "B004IMGQT0",
+      "B07HHW8C4V",
+      "B19N4NUG5R",
+      "B072F6WKZS",
+      "B00006JK40",
+      "B09VKTZ7HK",
+      "B00WMMUDR4",
+      "0439591368"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09Z9Q6DZC",
+        "reason": "Portable case for PS5 gaming"
+      },
+      {
+        "item_id": "B0006IGX9S",
+        "reason": "Charging cradle for Nintendo DS"
+      },
+      {
+        "item_id": "B075B475G5",
+        "reason": "Controller grips for PS4"
+      },
+      {
+        "item_id": "B09R1S45VM",
+        "reason": "Protective case for Switch"
+      },
+      {
+        "item_id": "B01N1Q2N5I",
+        "reason": "Replacement shell for PS4 controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3465,
+    "completion_tokens": 347
+  }
+}

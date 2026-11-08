@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00V7Z99L8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PS4 accessories."
+      },
+      {
+        "item_id": "B08R5MYWYJ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no VR gaming history."
+      },
+      {
+        "item_id": "B0BFMNDMNK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not Nintendo Switch."
+      },
+      {
+        "item_id": "B01JM83UO8",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys PlayStation 4 games."
+      },
+      {
+        "item_id": "B01DBU5T24",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Japanese game, uncertain user interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1097,
+    "completion_tokens": 166
+  }
+}

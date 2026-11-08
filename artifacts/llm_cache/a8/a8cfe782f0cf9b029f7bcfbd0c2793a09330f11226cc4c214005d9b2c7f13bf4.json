@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00CJ9OTNE",
+      "B00Z9TL6KA",
+      "B01E10MWDW",
+      "B07YBXFF5C",
+      "B01FWN9DOS",
+      "B07H5NGZQ8",
+      "B01GY35W22",
+      "B074NDG5MN",
+      "B001NTFATI",
+      "B003O0KICS",
+      "B000006RGR",
+      "B001ELJEHE",
+      "B00A8E0L4S",
+      "B00GWX80XS",
+      "B07NY76QQL",
+      "B0B4WMT6DS",
+      "B000TLU67W",
+      "B094YHB1QK",
+      "B07F1HTGV1",
+      "B00XR3YBM0",
+      "B00CJ9OTNE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00CJ9OTNE",
+        "reason": "Popular multiplayer shooter"
+      },
+      {
+        "item_id": "B00Z9TL6KA",
+        "reason": "Engaging sports game"
+      },
+      {
+        "item_id": "B01E10MWDW",
+        "reason": "Great multiplayer experience"
+      },
+      {
+        "item_id": "B07YBXFF5C",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B01FWN9DOS",
+        "reason": "Popular racing game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3659,
+    "completion_tokens": 324
+  }
+}

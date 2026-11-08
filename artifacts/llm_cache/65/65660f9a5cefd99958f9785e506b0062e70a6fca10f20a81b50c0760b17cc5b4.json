@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B000HCU7CC",
+      "B000K5UY2E",
+      "B000FQBF1M",
+      "B08LC4JYDS",
+      "B0BW99BHSX",
+      "B08RN4CSSW",
+      "B01LVTRP7D",
+      "B0BC7HHK71",
+      "B08DCHZY6T",
+      "B07Q6S4XKH",
+      "B00006B0NR",
+      "B00002ST5J",
+      "B00MKYQE3G",
+      "B00Q5ZACVG",
+      "B0030T1U2A",
+      "B0050SWP96",
+      "B08H1ZNKW9",
+      "B0BC7HHK71",
+      "B000EM0M4I",
+      "B08DCHZY6T",
+      "B0BW99BHSX"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000HCU7CC",
+        "reason": "Popular first-person shooter title"
+      },
+      {
+        "item_id": "B000K5UY2E",
+        "reason": "Classic PlayStation game"
+      },
+      {
+        "item_id": "B000FQBF1M",
+        "reason": "Highly rated FPS game"
+      },
+      {
+        "item_id": "B08LC4JYDS",
+        "reason": "Accessory for PS5 controller"
+      },
+      {
+        "item_id": "B0BW99BHSX",
+        "reason": "Custom skin for gaming console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3549,
+    "completion_tokens": 341
+  }
+}

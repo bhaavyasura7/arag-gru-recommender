@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08MBKGJVY",
+      "B001EHD9N8",
+      "B001EYUNYY",
+      "B19F6CY625",
+      "B07WS18ZS3",
+      "B07624RBWB",
+      "B0053B7ICO",
+      "B00000JRSB",
+      "B001NASEX0C",
+      "B0056L328K",
+      "B018JDBWQ0",
+      "B086M4DQ7R",
+      "B00I7NA43U",
+      "B00W9DHUBS",
+      "B001ELJE8I",
+      "B000TTZMCS",
+      "B0056L328K",
+      "B12K1OO5PU",
+      "B08NRVRF3J",
+      "B001EYUNYY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08MBKGJVY",
+        "reason": "Favorite PS2 game series"
+      },
+      {
+        "item_id": "B001EHD9N8",
+        "reason": "Classic RPG nostalgia"
+      },
+      {
+        "item_id": "B001EYUNYY",
+        "reason": "Highly regarded retro title"
+      },
+      {
+        "item_id": "B19F6CY625",
+        "reason": "Accessory for gaming setup"
+      },
+      {
+        "item_id": "B07WS18ZS3",
+        "reason": "Popular game franchise"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3875,
+    "completion_tokens": 310
+  }
+}

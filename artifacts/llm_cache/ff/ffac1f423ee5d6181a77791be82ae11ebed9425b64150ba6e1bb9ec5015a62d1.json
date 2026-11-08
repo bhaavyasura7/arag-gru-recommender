@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "retro video games",
+      "gaming accessories",
+      "PlayStation products",
+      "Nintendo consoles",
+      "gaming hardware"
+    ],
+    "current_intent": "looking for more gaming accessories or retro games",
+    "avoid": [
+      "new generation consoles",
+      "non-gaming products",
+      "high-priced items"
+    ],
+    "summary": "User is a retro gaming enthusiast focused on accessories for older consoles like PlayStation and Nintendo."
+  },
+  "usage": {
+    "prompt_tokens": 356,
+    "completion_tokens": 74
+  }
+}

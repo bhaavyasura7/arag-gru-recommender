@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B087NM8BB6",
+      "B01BF9X6LO",
+      "B0073J8BYS",
+      "B0093G9VOI",
+      "B004APAEL6",
+      "B005C7JOH6",
+      "B004HD55VK",
+      "B008ATWGDM",
+      "B00CJ9OTNE",
+      "B003R7JXMO",
+      "B00YXO5UXG",
+      "B005G4CXPK",
+      "B0C2GKZ4KY",
+      "B0BN942894",
+      "B00DTY9B0O",
+      "B001QVH18Q",
+      "B004HD55VK",
+      "B00CJ9OTNE",
+      "B001G7PRPO",
+      "B0B21751CW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087NM8BB6",
+        "reason": "Engaging platformer with puzzles"
+      },
+      {
+        "item_id": "B01BF9X6LO",
+        "reason": "Family-friendly LEGO adventure"
+      },
+      {
+        "item_id": "B0073J8BYS",
+        "reason": "Classic racing game nostalgia"
+      },
+      {
+        "item_id": "B0093G9VOI",
+        "reason": "Retro gaming experience"
+      },
+      {
+        "item_id": "B004APAEL6",
+        "reason": "Fun simulation with creativity"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3899,
+    "completion_tokens": 315
+  }
+}

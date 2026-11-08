@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09R4K5ZTZ",
+      "B00YJJ0P1C",
+      "B12IC2A28C",
+      "B07624RBWB",
+      "B00DC7G2W8",
+      "B07CRX5X9T",
+      "B07SSZGYNR",
+      "B003RJXVU2",
+      "B003O680ZY",
+      "B0187UFI1U",
+      "B001UW9Z6M",
+      "B000069BD9",
+      "B00XZQ58AI",
+      "B0BLXJC8MZ",
+      "B07YBXFF44",
+      "B076HHZ41Z",
+      "B001TOQ8UW",
+      "B00KSQHX1K",
+      "B00XZQ58AI",
+      "B003RJXVU2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09R4K5ZTZ",
+        "reason": "Popular Nintendo game bundle"
+      },
+      {
+        "item_id": "B00YJJ0P1C",
+        "reason": "Essential Xbox controller"
+      },
+      {
+        "item_id": "B12IC2A28C",
+        "reason": "Highly rated Nintendo controller"
+      },
+      {
+        "item_id": "B07624RBWB",
+        "reason": "Quality Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B00DC7G2W8",
+        "reason": "Popular racing game for Nintendo"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3885,
+    "completion_tokens": 324
+  }
+}

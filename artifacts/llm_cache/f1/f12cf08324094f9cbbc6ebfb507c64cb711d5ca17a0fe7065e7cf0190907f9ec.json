@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B014GEF2JE",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User prefers Xbox, not Nintendo."
+      },
+      {
+        "item_id": "B09NLPKB9J",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox Series controllers."
+      },
+      {
+        "item_id": "B08YL1MFXK",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with Xbox One, great headset."
+      },
+      {
+        "item_id": "B07WNPCPCH",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Nintendo accessory, user prefers Xbox."
+      },
+      {
+        "item_id": "B010EHA760",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "PS Vita game, user prefers Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1165,
+    "completion_tokens": 158
+  }
+}

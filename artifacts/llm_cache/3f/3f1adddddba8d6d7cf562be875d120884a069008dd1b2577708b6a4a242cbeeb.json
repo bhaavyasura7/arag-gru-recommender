@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09MR28SYG",
+      "B0B75WFDS3",
+      "B00KLH0XMW",
+      "B00005BWH5",
+      "B10QZZPVCY",
+      "B000069T08",
+      "B00UR5YF2C",
+      "B07RK2FTHX",
+      "B07Z37NRV1",
+      "B07QGC6Y9S",
+      "B08QTTFGRN",
+      "B015UVJGNU",
+      "B00006FXDL",
+      "B00006IKBJ",
+      "B000ES0HTM",
+      "B00005BWH5",
+      "B09LM9CWX1",
+      "B07JDDF9DW",
+      "B00006FXDL",
+      "B07RK2FTHX"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09MR28SYG",
+        "reason": "Popular horror-themed action game"
+      },
+      {
+        "item_id": "B0B75WFDS3",
+        "reason": "Engaging first-person shooter"
+      },
+      {
+        "item_id": "B00KLH0XMW",
+        "reason": "Includes multiple action-packed games"
+      },
+      {
+        "item_id": "B00005BWH5",
+        "reason": "Adventure with action elements"
+      },
+      {
+        "item_id": "B09QZZPVCY",
+        "reason": "Enhances VR gaming experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2953,
+    "completion_tokens": 319
+  }
+}

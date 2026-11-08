@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "video games",
+      "gaming accessories",
+      "action games",
+      "multiplayer shooters",
+      "dance games"
+    ],
+    "current_intent": "looking for new video games to play",
+    "avoid": [
+      "low-rated games",
+      "non-gaming products",
+      "casual games"
+    ],
+    "summary": "User is a gaming enthusiast focused on action and shooter games, seeking new titles to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 565,
+    "completion_tokens": 75
+  }
+}

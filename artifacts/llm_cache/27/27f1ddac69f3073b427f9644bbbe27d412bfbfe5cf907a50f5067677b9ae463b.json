@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B14Y2WV4B7",
+      "B010N0XTTU",
+      "B0061PAZUS",
+      "B001EHD96U",
+      "B002K8O600",
+      "B000FNH6OK",
+      "B005A0MBR0",
+      "B0079V4GK8",
+      "B017LKMR5W",
+      "B001EYUTC0",
+      "B007K6IVOY",
+      "B08P1NS2X1",
+      "B006W41W82",
+      "B002JTX7KA",
+      "B00YM7AKLG",
+      "B07YBWT3PK",
+      "B0771ZXXV6",
+      "B00NEU3Z1Y",
+      "B004JHJHCC",
+      "B0079V4GK8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B14Y2WV4B7",
+        "reason": "Essential Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B010N0XTTU",
+        "reason": "Useful PlayStation accessory"
+      },
+      {
+        "item_id": "B0061PAZUS",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B001EHD96U",
+        "reason": "Classic action RPG experience"
+      },
+      {
+        "item_id": "B002K8O600",
+        "reason": "Charging stand for Nintendo accessories"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3627,
+    "completion_tokens": 322
+  }
+}

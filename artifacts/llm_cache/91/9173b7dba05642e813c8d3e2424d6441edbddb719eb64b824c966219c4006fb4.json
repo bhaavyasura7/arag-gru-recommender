@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01N332TG8",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo Switch games."
+      },
+      {
+        "item_id": "B07V5LZMTH",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Screen protector not directly related to gaming."
+      },
+      {
+        "item_id": "B00C2PJTKS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox 360 game, not Nintendo Switch."
+      },
+      {
+        "item_id": "B0154P0BT0",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox One accessory, not relevant."
+      },
+      {
+        "item_id": "B07D3MY2VZ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox One game, not Nintendo Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1325,
+    "completion_tokens": 164
+  }
+}

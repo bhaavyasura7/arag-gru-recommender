@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B002JTX87C",
+      "B000AYFPKQ",
+      "B00WNO48EA",
+      "B00GR5B5X8",
+      "B0017W52VC",
+      "B00ZMBLKPG",
+      "B00FKLMWXW",
+      "B001H0NPUY",
+      "B07FC4DPBD",
+      "B0BCKN6Y4X",
+      "B00TXOD7ZY",
+      "B07YXL4ZKS",
+      "B0B1VCPZ7D",
+      "B00BLS4EPC",
+      "B000HJOTT2",
+      "B07D5JKKQB",
+      "B0BG5CGFN8",
+      "B00TXOD7ZY",
+      "B00GR5B5X8",
+      "B00FKLMWXW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B002JTX87C",
+        "reason": "Scooby-Doo game for nostalgia"
+      },
+      {
+        "item_id": "B000AYFPKQ",
+        "reason": "Classic Police Quest collection"
+      },
+      {
+        "item_id": "B00WNO48EA",
+        "reason": "Classic Call of Duty DLC"
+      },
+      {
+        "item_id": "B00GR5B5X8",
+        "reason": "Fun adventure game"
+      },
+      {
+        "item_id": "B0017W52VC",
+        "reason": "Backup software for gaming data"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3635,
+    "completion_tokens": 327
+  }
+}

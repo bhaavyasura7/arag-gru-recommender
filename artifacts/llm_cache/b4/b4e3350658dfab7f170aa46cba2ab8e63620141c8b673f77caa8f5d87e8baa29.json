@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000V6135Y",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Related to Nintendo, not Xbox."
+      },
+      {
+        "item_id": "B0B42BN96R",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo Switch accessory, user prefers Xbox."
+      },
+      {
+        "item_id": "B01DAHAJKA",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has shown interest in PS4 games."
+      },
+      {
+        "item_id": "B089QJ3NKP",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo Switch repair kit, not Xbox related."
+      },
+      {
+        "item_id": "B094F5XGRD",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Oculus Quest 2, user prefers Xbox games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1270,
+    "completion_tokens": 164
+  }
+}

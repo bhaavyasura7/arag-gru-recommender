@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B072BX7H6Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different console, not a strong interest"
+      },
+      {
+        "item_id": "B0050SXQ12",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Dance game, not aligned with interests"
+      },
+      {
+        "item_id": "B00QU506MQ",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Skylanders not in user history"
+      },
+      {
+        "item_id": "B07361T7KP",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, not a strong interest"
+      },
+      {
+        "item_id": "B00ZMBLKPG",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox One game, matches user preferences"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 153
+  }
+}

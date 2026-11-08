@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B005M2U08S",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers action games, not fashion."
+      },
+      {
+        "item_id": "B01N9K8K5G",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PS4 games, VR is appealing."
+      },
+      {
+        "item_id": "B018EKX1UI",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has PS4, needs compatible headset."
+      },
+      {
+        "item_id": "B0011W61HW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Chess is different from user's action games."
+      },
+      {
+        "item_id": "B09L156YBX",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own a Wii U."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1013,
+    "completion_tokens": 166
+  }
+}

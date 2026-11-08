@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07J5P857V",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, not a strong match."
+      },
+      {
+        "item_id": "B00EVWYF0E",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Tactical shooter, not a clear interest."
+      },
+      {
+        "item_id": "B00388YQX8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Historical strategy, user prefers RPGs."
+      },
+      {
+        "item_id": "B07ZKYXMP7",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform, not user’s preference."
+      },
+      {
+        "item_id": "B09JKLMWFH",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Accessory, not a game or interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1265,
+    "completion_tokens": 161
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0006MXSQ0",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Not aligned with user interests."
+      },
+      {
+        "item_id": "B07582RP7X",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B07BGVK9W6",
+        "label": "support",
+        "score": 6,
+        "rationale": "Enhances gaming experience on PC."
+      },
+      {
+        "item_id": "B07PN5XSLV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, but a game."
+      },
+      {
+        "item_id": "B097MG9M1V",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "VR accessories, not directly relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1312,
+    "completion_tokens": 154
+  }
+}

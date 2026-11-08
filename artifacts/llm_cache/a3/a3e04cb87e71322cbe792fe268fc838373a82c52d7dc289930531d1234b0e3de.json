@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07T6FPBKS",
+        "label": "support",
+        "score": 9,
+        "rationale": "Matches interest in Nintendo Switch controllers."
+      },
+      {
+        "item_id": "B0967VVXP3",
+        "label": "support",
+        "score": 10,
+        "rationale": "High compatibility with Nintendo Switch games."
+      },
+      {
+        "item_id": "B09DFY1XD1",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with all Nintendo Switch games."
+      },
+      {
+        "item_id": "B07PJ3JZGR",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Game gun controller, less common interest."
+      },
+      {
+        "item_id": "B07S637RW5",
+        "label": "support",
+        "score": 9,
+        "rationale": "Rechargeable controller for Nintendo Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2319,
+    "completion_tokens": 154
+  }
+}

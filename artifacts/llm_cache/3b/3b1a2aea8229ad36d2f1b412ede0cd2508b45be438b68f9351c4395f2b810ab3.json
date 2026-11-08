@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BVWPMMCT",
+        "label": "support",
+        "score": 8,
+        "rationale": "High-quality gaming headset matches interests."
+      },
+      {
+        "item_id": "B000GCJ6MK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Flight simulator not aligned with gaming preferences."
+      },
+      {
+        "item_id": "B000096L71",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Older flight simulator not relevant."
+      },
+      {
+        "item_id": "B00JA81WQE",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Memory card is useful but not exciting."
+      },
+      {
+        "item_id": "B009DYE3JI",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Legacy console bundle not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2758,
+    "completion_tokens": 158
+  }
+}

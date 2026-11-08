@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00GM5WGNQ",
+      "B0001DLLZE",
+      "B06XYRVKTH",
+      "B07QYV9HF2",
+      "B000Y8YYCI",
+      "B004GBJJ1U",
+      "B00GM5URR8",
+      "B07BGVK9W6",
+      "B00079MUXE",
+      "B000I20TBU",
+      "B0006MXSQ0",
+      "B07582RP7X",
+      "B07PN5XSLV",
+      "B00002STY4",
+      "B097MG9M1V",
+      "B000077W0H",
+      "B097RD75K6",
+      "B001ELJEJM",
+      "B0006MXSQ0",
+      "B07J5VZT5W"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00GM5WGNQ",
+        "reason": "Action-packed shooter experience"
+      },
+      {
+        "item_id": "B0001DLLZE",
+        "reason": "Fast-paced multiplayer air combat"
+      },
+      {
+        "item_id": "B06XYRVKTH",
+        "reason": "Enhances gaming with better grips"
+      },
+      {
+        "item_id": "B07QYV9HF2",
+        "reason": "Mobile controller for shooters"
+      },
+      {
+        "item_id": "B000Y8YYCI",
+        "reason": "Action-oriented powerboating game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3301,
+    "completion_tokens": 322
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07QPXBJVD",
+      "B15C3JYGZH",
+      "B08JM2R8HZ",
+      "B08JWMJSB6",
+      "B000035XGN",
+      "B0030GWIGA",
+      "B002FQJUQM",
+      "B091FC8N2W",
+      "B07WS6ZFTG",
+      "B0C47NXVG2",
+      "B09HY7L5Q4",
+      "B09BRN2HJK",
+      "B07C9KFCYQ",
+      "B0BHN77JGY",
+      "B08QRCW6SN",
+      "B07MDM62W6",
+      "B082S5ZGXQ",
+      "B01K53ONWW",
+      "B09C3JYGZH",
+      "B0BHN77JGY",
+      "B09HY7L5Q4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07QPXBJVD",
+        "reason": "Nintendo Switch controller upgrade"
+      },
+      {
+        "item_id": "B15C3JYGZH",
+        "reason": "Wireless controller for Switch"
+      },
+      {
+        "item_id": "B08JM2R8HZ",
+        "reason": "Compact mechanical gaming keyboard"
+      },
+      {
+        "item_id": "B08JWMJSB6",
+        "reason": "Customizable Xbox controller"
+      },
+      {
+        "item_id": "B000035XGN",
+        "reason": "Classic Nintendo Game Boy title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3843,
+    "completion_tokens": 336
+  }
+}

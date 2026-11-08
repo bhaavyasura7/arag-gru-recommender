@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00Q3XLL2E",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset not directly related to games."
+      },
+      {
+        "item_id": "B00004UBJJ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B08R74DHMT",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo Switch accessories align with interests."
+      },
+      {
+        "item_id": "B001HUHB54",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo DS game matches user preferences."
+      },
+      {
+        "item_id": "B01B0SOG8M",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Xbox 360 skin not relevant to user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1445,
+    "completion_tokens": 159
+  }
+}

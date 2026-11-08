@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00LYYN4MM",
+      "B07WGMMGTT",
+      "B001CZJOSQ",
+      "B00009XS6A",
+      "B0000C6FKA",
+      "B000FUG5VS",
+      "B0010LOT00",
+      "B00006RT6J",
+      "B0000A1HUL",
+      "B000FW3XOS",
+      "B07GLNSK1X",
+      "B08F5TZVHW",
+      "B00L6AVN6I",
+      "B00L6AVN6S",
+      "B009R9NR96",
+      "B0000C6FKA",
+      "B004EJXSPW",
+      "B0000C6FKA",
+      "B07RXW74N5",
+      "B0000C6FKA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00LYYN4MM",
+        "reason": "Diverse racing options available"
+      },
+      {
+        "item_id": "B07WGMMGTT",
+        "reason": "Official NASCAR game with updates"
+      },
+      {
+        "item_id": "B001CZJOSQ",
+        "reason": "Realistic driving experience"
+      },
+      {
+        "item_id": "B00009XS6A",
+        "reason": "Multiple racing styles and modes"
+      },
+      {
+        "item_id": "B0000C6FKA",
+        "reason": "Popular street racing game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2259,
+    "completion_tokens": 323
+  }
+}

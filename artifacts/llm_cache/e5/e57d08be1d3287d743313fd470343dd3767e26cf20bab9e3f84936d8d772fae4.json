@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B001QCWRZC",
+      "B001ELJE5Q",
+      "B0000CDZBC",
+      "B00DBRNBO6",
+      "B008LB6IO2",
+      "B07BW77M9V",
+      "B06XP1WRGC",
+      "B00CEGCN76",
+      "B0BLC7Z3KX",
+      "B08HHRH6QL",
+      "B0000664JH",
+      "B07MXPYS7S",
+      "B0011E4J2Y",
+      "B06ZXXHMS7",
+      "B00XBLQCLQ",
+      "B14BXR3YEC",
+      "B00DBRNBO6",
+      "B08XXWJ787",
+      "B005GISQX4",
+      "B0BRSTY119",
+      "B01BXR3YEC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001QCWRZC",
+        "reason": "Classic RPG with deep customization"
+      },
+      {
+        "item_id": "B001ELJE5Q",
+        "reason": "Nostalgic music game experience"
+      },
+      {
+        "item_id": "B0000CDZBC",
+        "reason": "Multiplayer hack-and-slash RPG"
+      },
+      {
+        "item_id": "B00DBRNBO6",
+        "reason": "Classic soccer game for nostalgia"
+      },
+      {
+        "item_id": "B008LB6IO2",
+        "reason": "Unique blend of action and strategy"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3845,
+    "completion_tokens": 338
+  }
+}

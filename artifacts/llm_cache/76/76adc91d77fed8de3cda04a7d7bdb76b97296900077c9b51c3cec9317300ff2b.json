@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B076C7M7ZR",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not directly related."
+      },
+      {
+        "item_id": "B0009WAEK0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Classic game, not a recent interest."
+      },
+      {
+        "item_id": "B0B8DG8YRM",
+        "label": "support",
+        "score": 7,
+        "rationale": "Accessory for PlayStation 5, relevant."
+      },
+      {
+        "item_id": "B09K6FVY86",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular franchise, aligns with interests."
+      },
+      {
+        "item_id": "B0B5LX9RQV",
+        "label": "support",
+        "score": 6,
+        "rationale": "Switch accessory, matches user preference."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 976,
+    "completion_tokens": 160
+  }
+}

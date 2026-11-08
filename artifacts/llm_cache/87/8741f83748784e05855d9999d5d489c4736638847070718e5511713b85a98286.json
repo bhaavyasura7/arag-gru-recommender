@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Xbox 360 accessories",
+      "Video game hardware",
+      "Sports video games",
+      "Simulation games",
+      "Gaming peripherals"
+    ],
+    "current_intent": "Looking for more Xbox 360 gaming accessories or games.",
+    "avoid": [
+      "PC gaming",
+      "Mobile games",
+      "Non-gaming products"
+    ],
+    "summary": "User is focused on Xbox 360 gaming, particularly accessories and sports or simulation games, indicating a preference for enhancing their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 335,
+    "completion_tokens": 84
+  }
+}

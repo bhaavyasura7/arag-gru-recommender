@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001ELJDU2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern consoles."
+      },
+      {
+        "item_id": "B01LX4I8H8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys music games but not Xbox."
+      },
+      {
+        "item_id": "B00BGA9WK2",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has a PS3, likely enjoys PS4."
+      },
+      {
+        "item_id": "B00GM5TPSA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User may like GTA but prefers newer games."
+      },
+      {
+        "item_id": "B07G4YYZ1M",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has gaming accessories, likely interested."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1251,
+    "completion_tokens": 163
+  }
+}

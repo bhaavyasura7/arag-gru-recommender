@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07KF4PPGP",
+      "B18D8TD8RT",
+      "B13GW3H3U8",
+      "B000ASBIEO",
+      "B07WSX9PCJ",
+      "B000BYQDLU",
+      "B08NTML8NR",
+      "B17GJ72KT",
+      "B09DPHZGSZ",
+      "B0851PXXD2",
+      "B07VC1MKNZ",
+      "B07CHXF76P",
+      "B0007KTBDK",
+      "B07TV7P3GP",
+      "B08QXBCP8F",
+      "B12G84D29",
+      "B0007KTBDK",
+      "B07WGJ72KT",
+      "B000ASBIEO",
+      "B07WSX9PCJ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07KF4PPGP",
+        "reason": "Popular Xbox controller for gaming"
+      },
+      {
+        "item_id": "B18D8TD8RT",
+        "reason": "Wii U remote for multiplayer fun"
+      },
+      {
+        "item_id": "B13GW3H3U8",
+        "reason": "Essential Xbox controller accessory"
+      },
+      {
+        "item_id": "B000ASBIEO",
+        "reason": "Multiplayer racing game for PS2"
+      },
+      {
+        "item_id": "B07WSX9PCJ",
+        "reason": "Classic Xbox game for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3435,
+    "completion_tokens": 329
+  }
+}

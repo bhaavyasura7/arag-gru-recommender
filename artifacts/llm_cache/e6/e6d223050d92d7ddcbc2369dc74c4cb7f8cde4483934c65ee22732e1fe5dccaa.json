@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00004SVUR",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user's interests."
+      },
+      {
+        "item_id": "B0015WNYS2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different gaming system than preferred."
+      },
+      {
+        "item_id": "B004R1QCBY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar to user's flight simulator interest."
+      },
+      {
+        "item_id": "B06W9J89G9",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00000I1BV",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre than user's preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 931,
+    "completion_tokens": 148
+  }
+}

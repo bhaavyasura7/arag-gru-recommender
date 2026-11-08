@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0050SYYEK",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox 360 games."
+      },
+      {
+        "item_id": "B00690LYJ6",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has PlayStation 3 interest."
+      },
+      {
+        "item_id": "B00DBLBMBQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User hasn't shown PS4 interest."
+      },
+      {
+        "item_id": "B0050SVNSU",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User prefers Xbox and PlayStation."
+      },
+      {
+        "item_id": "B089GGLKHQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User hasn't shown Nintendo interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1103,
+    "completion_tokens": 154
+  }
+}

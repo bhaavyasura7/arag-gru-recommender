@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07HYY6HNW",
+        "label": "support",
+        "score": 8,
+        "rationale": "Gaming mouse for PC gaming enthusiasts."
+      },
+      {
+        "item_id": "B000MHRESW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Atari adapter not relevant to user."
+      },
+      {
+        "item_id": "B07NDNLSYH",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Unrelated lingerie product."
+      },
+      {
+        "item_id": "B07FZSTLBQ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Wireless keyboard for gaming setup."
+      },
+      {
+        "item_id": "B00KVQYJR8",
+        "label": "support",
+        "score": 9,
+        "rationale": "Popular game aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1050,
+    "completion_tokens": 155
+  }
+}

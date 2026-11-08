@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0051U7BZG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo and Xbox products."
+      },
+      {
+        "item_id": "B06XFYYQ4Q",
+        "label": "support",
+        "score": 8,
+        "rationale": "User owns Nintendo Switch products."
+      },
+      {
+        "item_id": "B014N4RTS4",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has no 3DS game history."
+      },
+      {
+        "item_id": "B00308JV6I",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User focuses on console games."
+      },
+      {
+        "item_id": "B0000503MO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1283,
+    "completion_tokens": 158
+  }
+}

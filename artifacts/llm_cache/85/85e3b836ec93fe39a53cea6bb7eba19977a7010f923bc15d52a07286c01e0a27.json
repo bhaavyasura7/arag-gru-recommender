@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B072K63ZPD",
+      "B11QRRLCKD",
+      "B003L77YKS",
+      "B007W8S2MG",
+      "B001AATQ0Y",
+      "B078GHDJW4",
+      "B00Z8EBXSQ",
+      "B004HD55VK",
+      "B006W8S2MG",
+      "B003IU1AHQ",
+      "B001TOQ8WU",
+      "B0894RCSV4",
+      "B003VUNWW4",
+      "B00269DXXO",
+      "B001AATQ0Y",
+      "B0BGB7VPGK",
+      "B075MJLB5B",
+      "B0000A1OG8",
+      "B0191F6L1G",
+      "B07624RBWB"
+    ],
+    "reasons": [
+      {
+        "item_id": "B072K63ZPD",
+        "reason": "Popular Xbox controller"
+      },
+      {
+        "item_id": "B11QRRLCKD",
+        "reason": "DIY arcade gaming kit"
+      },
+      {
+        "item_id": "B003L77YKS",
+        "reason": "Action-adventure game"
+      },
+      {
+        "item_id": "B007W8S2MG",
+        "reason": "Classic RPG experience"
+      },
+      {
+        "item_id": "B001AATQ0Y",
+        "reason": "PS2 controller adapter"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3511,
+    "completion_tokens": 315
+  }
+}

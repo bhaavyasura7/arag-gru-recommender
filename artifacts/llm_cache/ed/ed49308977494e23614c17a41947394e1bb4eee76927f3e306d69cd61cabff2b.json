@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0788L9WJ1",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox, user enjoys gaming."
+      },
+      {
+        "item_id": "B07XKZ7VKL",
+        "label": "support",
+        "score": 9,
+        "rationale": "High-quality headset for Xbox gaming."
+      },
+      {
+        "item_id": "B07SCYRBRL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Nintendo Switch game, user prefers Xbox."
+      },
+      {
+        "item_id": "B07WS6ZFTG",
+        "label": "support",
+        "score": 10,
+        "rationale": "User has Xbox One, console upgrade."
+      },
+      {
+        "item_id": "B000GG5JO0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Nintendo DS game, not aligned with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1400,
+    "completion_tokens": 160
+  }
+}

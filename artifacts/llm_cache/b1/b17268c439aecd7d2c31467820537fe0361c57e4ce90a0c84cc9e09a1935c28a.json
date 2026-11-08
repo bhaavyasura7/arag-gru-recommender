@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B006VE40JQ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B0B1GSSN3G",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers Xbox games over PS4."
+      },
+      {
+        "item_id": "B001EHD8YS",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "GameCube is not Xbox or PlayStation."
+      },
+      {
+        "item_id": "B0050SVOXE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo DS is not Xbox or PlayStation."
+      },
+      {
+        "item_id": "B00HM1XPN4",
+        "label": "support",
+        "score": 9,
+        "rationale": "Xbox One game aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1250,
+    "completion_tokens": 169
+  }
+}

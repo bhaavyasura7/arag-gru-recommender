@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "simulation games",
+      "racing games",
+      "gaming accessories",
+      "PlayStation titles",
+      "Xbox titles"
+    ],
+    "current_intent": "looking for new racing simulation games or accessories",
+    "avoid": [
+      "non-simulation games",
+      "mobile games",
+      "low-quality peripherals"
+    ],
+    "summary": "User enjoys simulation and racing games, particularly on consoles, and is currently interested in expanding their collection or upgrading their gaming setup."
+  },
+  "usage": {
+    "prompt_tokens": 400,
+    "completion_tokens": 80
+  }
+}

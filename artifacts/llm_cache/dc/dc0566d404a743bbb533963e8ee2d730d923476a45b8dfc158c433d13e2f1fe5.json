@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07PQ7B1CP",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B096DZFCR1",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse not directly related."
+      },
+      {
+        "item_id": "B005J2HLTC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox 360 accessory, user prefers Nintendo."
+      },
+      {
+        "item_id": "B00JUQMV70",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "USB interface not directly relevant."
+      },
+      {
+        "item_id": "B003JKKNLO",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy game for different platform."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1250,
+    "completion_tokens": 153
+  }
+}

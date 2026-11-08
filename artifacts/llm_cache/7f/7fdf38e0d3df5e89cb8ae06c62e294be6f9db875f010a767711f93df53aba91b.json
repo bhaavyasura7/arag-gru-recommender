@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00FM5IY0Q",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Xbox video games."
+      },
+      {
+        "item_id": "B08GYNLVF4",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has Xbox gaming headset interest."
+      },
+      {
+        "item_id": "B000F3AACA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B00GYI3CMU",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not engage with Disney Infinity."
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likely uses Xbox Live services."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1346,
+    "completion_tokens": 160
+  }
+}

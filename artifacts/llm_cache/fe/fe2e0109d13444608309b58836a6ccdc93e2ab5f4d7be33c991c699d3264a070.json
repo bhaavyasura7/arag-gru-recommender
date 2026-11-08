@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B017DD49GW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products only."
+      },
+      {
+        "item_id": "B07FYKM74X",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in mice."
+      },
+      {
+        "item_id": "B09JYT9CBM",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Nintendo Switch, user likes."
+      },
+      {
+        "item_id": "B08Z3JW77T",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B000HWZYF2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo games only."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 157
+  }
+}

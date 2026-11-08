@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B073X3GHHX",
+      "B19ZL8YP8D",
+      "B12N7WNV5M",
+      "B001D8Q5MA",
+      "B0041SGD44",
+      "B00VULDPCI",
+      "B009SPZ11Q",
+      "B000A15K0Y",
+      "B0079V4GK8",
+      "B00BHRD4BM",
+      "B00Z9TIM3Y",
+      "B01D8H09LQ",
+      "B076K27L1P",
+      "B001C4VU5C",
+      "B008CP6MA2",
+      "B00KGW52DM",
+      "B07J6Y2T42",
+      "B096MMH5KG",
+      "B0BB6YVNBK",
+      "B15D8H09LQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B073X3GHHX",
+        "reason": "High-quality Nintendo Switch controller"
+      },
+      {
+        "item_id": "B096MMH5KG",
+        "reason": "New Nintendo Switch game"
+      },
+      {
+        "item_id": "B12N7WNV5M",
+        "reason": "Premium gaming headset"
+      },
+      {
+        "item_id": "B001D8Q5MA",
+        "reason": "Popular game, but not Switch"
+      },
+      {
+        "item_id": "B0041SGD44",
+        "reason": "High-quality arcade controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3666,
+    "completion_tokens": 332
+  }
+}

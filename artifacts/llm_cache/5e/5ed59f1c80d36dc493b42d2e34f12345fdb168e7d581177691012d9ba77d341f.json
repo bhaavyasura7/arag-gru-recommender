@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00DYJMSM2",
+      "B000P297F2",
+      "B08K3KHFSY",
+      "B0771ZXXV6",
+      "B004M4IO08",
+      "B003S3RFAY",
+      "B07X56S77D",
+      "B001EYUNXU",
+      "B004JSDQPU",
+      "B001ELJFPA",
+      "B006YDPU48",
+      "B001EYUQN2",
+      "B004M4IO08",
+      "B00KSQHX1K",
+      "B00005KAY0",
+      "B07KZ6QJTL",
+      "B19NBDG49R",
+      "B07K3KHFSY",
+      "B001EYUNXU",
+      "B07KZ6QJTL",
+      "B001EYUQN2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DYJMSM2",
+        "reason": "Nostalgic Nintendo action-adventure"
+      },
+      {
+        "item_id": "B000P297F2",
+        "reason": "Classic Resident Evil gameplay"
+      },
+      {
+        "item_id": "B08K3KHFSY",
+        "reason": "Engaging Batman experience"
+      },
+      {
+        "item_id": "B0771ZXXV6",
+        "reason": "Collector's edition available"
+      },
+      {
+        "item_id": "B004M4IO08",
+        "reason": "Fun multiplayer fitness game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3807,
+    "completion_tokens": 332
+  }
+}

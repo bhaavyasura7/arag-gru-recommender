@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B19DT4AEA",
+      "B07G5XJLWK",
+      "B09LV38YSQ",
+      "B09W511NQ5",
+      "B0B476B13X",
+      "B09T9QLF39",
+      "B09VSJBP1R",
+      "B0BJZRJ95K",
+      "B08S7FZJZ4",
+      "B07ZW8JC46",
+      "B07YSNQSWF",
+      "B09PQJ9TWY",
+      "B0BXD64XX4",
+      "B0BNTSHW4Y",
+      "B09W9CZY4Y",
+      "B086D2J81G",
+      "B0742FQHHW",
+      "B01FW3UAX6",
+      "B01AWAPRBO",
+      "B07G5XJLWK",
+      "B0B476B13X"
+    ],
+    "reasons": [
+      {
+        "item_id": "B19DT4AEA",
+        "reason": "High performance for esports"
+      },
+      {
+        "item_id": "B07G5XJLWK",
+        "reason": "Designed for professional gamers"
+      },
+      {
+        "item_id": "B09LV38YSQ",
+        "reason": "High DPI and programmable buttons"
+      },
+      {
+        "item_id": "B09W511NQ5",
+        "reason": "Lightweight and ergonomic design"
+      },
+      {
+        "item_id": "B0B476B13X",
+        "reason": "Affordable with good features"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4251,
+    "completion_tokens": 338
+  }
+}

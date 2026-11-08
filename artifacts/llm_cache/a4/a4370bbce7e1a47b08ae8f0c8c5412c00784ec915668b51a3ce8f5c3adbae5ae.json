@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09Y21MG98",
+      "B09RNK4H6Z",
+      "B01MTST9VG",
+      "B20D9J9G1D",
+      "B01DVF2TI6",
+      "B00SLBGQX0",
+      "B01JT80134",
+      "B07P5LZZNN",
+      "B00005B8G8",
+      "B08HJKYBG9",
+      "B003TL4T9U",
+      "B08D9J9G1D",
+      "B00GXHJ14A",
+      "B00005V95P",
+      "B00161IYDC",
+      "B007OWQCE0",
+      "B00B3YNOSW",
+      "B00G4PEN4Y",
+      "B00134YRQU",
+      "B000BPEL40"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09Y21MG98",
+        "reason": "Essential for VR gaming setup"
+      },
+      {
+        "item_id": "B09RNK4H6Z",
+        "reason": "Improves gaming experience significantly"
+      },
+      {
+        "item_id": "B01MTST9VG",
+        "reason": "Stylish and protective controller skin"
+      },
+      {
+        "item_id": "B20D9J9G1D",
+        "reason": "Fun and engaging dance accessory"
+      },
+      {
+        "item_id": "B01DVF2TI6",
+        "reason": "Classic game with nostalgic appeal"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3647,
+    "completion_tokens": 333
+  }
+}

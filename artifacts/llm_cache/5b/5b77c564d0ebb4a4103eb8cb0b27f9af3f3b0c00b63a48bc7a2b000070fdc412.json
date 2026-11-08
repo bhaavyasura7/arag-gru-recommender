@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B087SHFL9B",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers PC gaming products."
+      },
+      {
+        "item_id": "B09WKGQZRC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR accessory, not directly relevant."
+      },
+      {
+        "item_id": "B0762H7Z8H",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Mobile gaming accessory, less relevant."
+      },
+      {
+        "item_id": "B07V3T7WF1",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Handheld console, user prefers PC."
+      },
+      {
+        "item_id": "B004GUTRYK",
+        "label": "support",
+        "score": 7,
+        "rationale": "PC game aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1451,
+    "completion_tokens": 159
+  }
+}

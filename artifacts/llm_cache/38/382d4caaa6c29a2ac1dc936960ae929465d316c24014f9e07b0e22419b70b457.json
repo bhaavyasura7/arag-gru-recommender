@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0C4F9JGTJ",
+      "B078RJ1KZ6",
+      "B08X6XSC98",
+      "B0012IWRC8",
+      "B017BB905Q",
+      "B000060NQ4",
+      "B00501IEHK",
+      "B003IQ15YI",
+      "B005U9KHJA",
+      "B00001N2MT",
+      "B08B3SLP31",
+      "B000COFGZI",
+      "B001BH2126",
+      "B0BK2CJD9T",
+      "B003N46URC",
+      "B0012IWRC8",
+      "B00501IEHK",
+      "B12MQWUT0Q",
+      "B000JPG87A",
+      "B12MQWUT0Q",
+      "B005U9KHJA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0C4F9JGTJ",
+        "reason": "High compatibility for gaming"
+      },
+      {
+        "item_id": "B078RJ1KZ6",
+        "reason": "Great for multiplayer gaming"
+      },
+      {
+        "item_id": "B08X6XSC98",
+        "reason": "Essential for gaming headsets"
+      },
+      {
+        "item_id": "B0012IWRC8",
+        "reason": "Classic game with multiplayer"
+      },
+      {
+        "item_id": "B017BB905Q",
+        "reason": "Engaging tactical gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3633,
+    "completion_tokens": 326
+  }
+}

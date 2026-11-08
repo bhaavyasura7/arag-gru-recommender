@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000QTD05W",
+      "B001G60KZ2",
+      "B00025LDKO",
+      "B00HFTORNA",
+      "B004NPXTVU",
+      "B00006HYNQ",
+      "B00NHUWIG4",
+      "B07K4HTGSZ",
+      "B07K2BC2BF",
+      "B000AOTI1I",
+      "B01HCXD0W2",
+      "B07YYZY2SW",
+      "B000HCUCGI",
+      "B07VQF5DZC",
+      "B0BVDXVVB3",
+      "B01N6KUFZ6",
+      "B008MI7MX0",
+      "B001ELJFO6",
+      "B000HCUCGI",
+      "B07G79T78L"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000QTD05W",
+        "reason": "Mega Man collectible game"
+      },
+      {
+        "item_id": "B001G60KZ2",
+        "reason": "Classic PS2 game"
+      },
+      {
+        "item_id": "B00025LDKO",
+        "reason": "Turn-based strategy game"
+      },
+      {
+        "item_id": "B00HFTORNA",
+        "reason": "LEGO game with collectibles"
+      },
+      {
+        "item_id": "B004NPXTVU",
+        "reason": "Flight simulator for PC"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3262,
+    "completion_tokens": 318
+  }
+}

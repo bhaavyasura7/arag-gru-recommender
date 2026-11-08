@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0819DYM8Q",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches Nintendo Switch accessory interest."
+      },
+      {
+        "item_id": "B00EADTVL2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo, not PlayStation."
+      },
+      {
+        "item_id": "B07DPK5NPD",
+        "label": "support",
+        "score": 9,
+        "rationale": "Directly related to Nintendo gaming."
+      },
+      {
+        "item_id": "B00001X50M",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Legacy PlayStation game, not Nintendo."
+      },
+      {
+        "item_id": "B000HDKZE6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Xbox accessory, not relevant to user."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1238,
+    "completion_tokens": 161
+  }
+}

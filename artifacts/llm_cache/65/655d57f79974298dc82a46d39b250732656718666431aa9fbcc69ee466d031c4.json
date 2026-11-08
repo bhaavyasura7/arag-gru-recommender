@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01EBC2E7O",
+      "B0086VPUHI",
+      "B017D4KYMS",
+      "B01M6C7YE8",
+      "B001G605V6",
+      "B07WXKQWTV",
+      "B001EHD8YI",
+      "B00320JAX8",
+      "B001EYUPEC",
+      "B003MZ23LY",
+      "B0018RWMSM",
+      "B06WVCWY41",
+      "B097B6JN1W",
+      "B00NEU02JW",
+      "B004K6LQ9E",
+      "B00YXO5X4M",
+      "B007VTVRFA",
+      "B014R4KYMS",
+      "B00O9GW8VK",
+      "B07X5X5KF9"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01EBC2E7O",
+        "reason": "NASCAR expansion for racing fans"
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "reason": "Popular action-adventure title"
+      },
+      {
+        "item_id": "B017D4KYMS",
+        "reason": "Epic action-adventure experience"
+      },
+      {
+        "item_id": "B01M6C7YE8",
+        "reason": "Highly rated action-adventure game"
+      },
+      {
+        "item_id": "B001G605V6",
+        "reason": "Unique action-adventure gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3593,
+    "completion_tokens": 332
+  }
+}

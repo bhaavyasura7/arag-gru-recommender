@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Xbox One accessories",
+      "gaming headsets",
+      "controller charging solutions",
+      "cooling systems for consoles",
+      "gaming audio equipment"
+    ],
+    "current_intent": "looking for high-quality gaming accessories",
+    "avoid": [
+      "low-quality products",
+      "overpriced items",
+      "non-gaming related accessories"
+    ],
+    "summary": "User is a dedicated Xbox One gamer focused on enhancing their gaming experience with reliable accessories and audio equipment."
+  },
+  "usage": {
+    "prompt_tokens": 323,
+    "completion_tokens": 80
+  }
+}

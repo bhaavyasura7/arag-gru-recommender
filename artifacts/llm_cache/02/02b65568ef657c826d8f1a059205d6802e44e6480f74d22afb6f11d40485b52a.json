@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00GBCLG0E",
+      "B0077LRPSA",
+      "B01LXC1QL0",
+      "B004HGFZYO",
+      "B19KXFB1P8",
+      "B00K0NV5J2",
+      "B006QRNKOO",
+      "B006MQH644",
+      "B00005NN5G",
+      "B000FQ9QVI",
+      "B0001AO01Y",
+      "B00BER9YFA",
+      "B001EYUNMG",
+      "B08JHZHWZ3",
+      "B075MK6THW",
+      "B000VJRU44",
+      "B000FQ9QVI",
+      "B006PP404Q",
+      "B0001AO01Y",
+      "B00005NN5G"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00GBCLG0E",
+        "reason": "Highly rated zombie narrative game"
+      },
+      {
+        "item_id": "B0077LRPSA",
+        "reason": "Engaging action-adventure experience"
+      },
+      {
+        "item_id": "B01LXC1QL0",
+        "reason": "Popular gaming mouse for immersive play"
+      },
+      {
+        "item_id": "B004HGFZYO",
+        "reason": "Thrilling racing game experience"
+      },
+      {
+        "item_id": "B19KXFB1P8",
+        "reason": "Open-world adventure with storytelling"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3830,
+    "completion_tokens": 323
+  }
+}

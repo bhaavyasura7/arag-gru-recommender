@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0002DOXK8",
+      "B000FY4AOG",
+      "B000067861",
+      "B07NY6YS39",
+      "B12W51LH1Y",
+      "B006ZNGSFW",
+      "B084X6T3HF",
+      "B075MDBZSG",
+      "B08HV6YGK2",
+      "B01N29EV8R",
+      "B08R3KWK7X",
+      "B000B6E4U0",
+      "B17W51LH1Y",
+      "B01N1O4Z0M",
+      "B0058LLN0M",
+      "B12W51LH1Y",
+      "B000067861",
+      "B000B6E4U0",
+      "B01N1O4Z0M",
+      "B0058LLN0M",
+      "B07W51LH1Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0002DOXK8",
+        "reason": "Compatible with retro gaming systems"
+      },
+      {
+        "item_id": "B000FY4AOG",
+        "reason": "Replacement for Nintendo Gamecube"
+      },
+      {
+        "item_id": "B000067861",
+        "reason": "Classic PlayStation game"
+      },
+      {
+        "item_id": "B07NY6YS39",
+        "reason": "Amiibo for retro Nintendo games"
+      },
+      {
+        "item_id": "B12W51LH1Y",
+        "reason": "N64 controller for retro gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3558,
+    "completion_tokens": 340
+  }
+}

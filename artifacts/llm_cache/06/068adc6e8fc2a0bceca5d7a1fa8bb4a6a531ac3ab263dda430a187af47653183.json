@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000H29ZPM",
+      "B0868Y6HDJ",
+      "B15D0FCH0Y",
+      "B00002ST7U",
+      "B003INEU0C",
+      "B07N4QC69R",
+      "B08HPK581L",
+      "B002FQIPPO",
+      "B00009VRFL",
+      "B00002SUFX",
+      "B00IB02RD4",
+      "B00DOD51UY",
+      "B003KT9E64",
+      "B00861ML3Y",
+      "B07TG73YLY",
+      "B00BUG8BJ0",
+      "B00002SUFX",
+      "B00H29ZPM",
+      "B00009VRFL",
+      "B00002SUFX"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000H29ZPM",
+        "reason": "Nintendo game with nostalgic appeal"
+      },
+      {
+        "item_id": "B0868Y6HDJ",
+        "reason": "Popular Pokémon game experience"
+      },
+      {
+        "item_id": "B15D0FCH0Y",
+        "reason": "Mario-themed product"
+      },
+      {
+        "item_id": "B00002ST7U",
+        "reason": "Classic game with nostalgic value"
+      },
+      {
+        "item_id": "B003INEU0C",
+        "reason": "Engaging hidden object gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3419,
+    "completion_tokens": 311
+  }
+}

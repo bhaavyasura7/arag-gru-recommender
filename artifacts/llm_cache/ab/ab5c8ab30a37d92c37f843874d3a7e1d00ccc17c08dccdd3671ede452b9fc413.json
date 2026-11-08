@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B072FJQ82Y",
+      "B003BFTXWW",
+      "B000F3AADE",
+      "B000NDFFFE",
+      "B0000ABFVA",
+      "B016P4OEHY",
+      "B002EE5SAC",
+      "B073GY1PRY",
+      "B098KX2GTR",
+      "B00BZS9JV2",
+      "B00004TFLJ",
+      "B003VUO6H4",
+      "B007CM0K86",
+      "B00006966U",
+      "B0039W7NKG",
+      "B001EYUR1S",
+      "B000X2BAOK",
+      "B000F3AADE",
+      "B00004TFLJ",
+      "B003BFTXWW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B072FJQ82Y",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B003BFTXWW",
+        "reason": "Popular racing game"
+      },
+      {
+        "item_id": "B000F3AADE",
+        "reason": "Classic zombie survival game"
+      },
+      {
+        "item_id": "B000NDFFFE",
+        "reason": "Popular Nintendo fighting game"
+      },
+      {
+        "item_id": "B0000ABFVA",
+        "reason": "Quality GameCube controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3400,
+    "completion_tokens": 309
+  }
+}

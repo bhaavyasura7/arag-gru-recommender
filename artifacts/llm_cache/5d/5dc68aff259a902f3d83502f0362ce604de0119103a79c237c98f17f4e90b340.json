@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07ZL9G9HJ",
+      "B019WRM1IA",
+      "B004MPR0ZC",
+      "B15WS2QZXT",
+      "B00HRW5MGG",
+      "B00IAVDPSA",
+      "B00I9TNNE4",
+      "B00BHRD4BM",
+      "B0001OU19K",
+      "B01NBP57V1",
+      "B005GISQX4",
+      "B0B9ZGCZ7D",
+      "B001EYUXIK",
+      "B09WYGMY5T",
+      "B0BLFYF8K2",
+      "B00NAW5DT8",
+      "B00J7N6C26",
+      "B0BX41XJDW",
+      "B07J2FZMMK",
+      "B08MPR0ZC",
+      "B01L8XES3W"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07ZL9G9HJ",
+        "reason": "Customizable controller mods available"
+      },
+      {
+        "item_id": "B019WRM1IA",
+        "reason": "Wired controller for reliable gaming"
+      },
+      {
+        "item_id": "B004MPR0ZC",
+        "reason": "Classic FPS game experience"
+      },
+      {
+        "item_id": "B15WS2QZXT",
+        "reason": "Popular tactical shooter game"
+      },
+      {
+        "item_id": "B00HRW5MGG",
+        "reason": "Essential Xbox One accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3792,
+    "completion_tokens": 347
+  }
+}

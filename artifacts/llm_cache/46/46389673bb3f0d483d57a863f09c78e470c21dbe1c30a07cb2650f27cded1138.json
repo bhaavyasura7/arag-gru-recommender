@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B19D5M7SNW",
+      "B11FW8BIUA",
+      "B11KXKGYP2X",
+      "B0B9GMZ248",
+      "B0BXWHLBJJ",
+      "B00U0QAIGK",
+      "B08S5GWGB8",
+      "B00RX9G51E",
+      "B0BP3QB1YP",
+      "B00D4D2YR2",
+      "B000EUFCS6",
+      "B073P87KFT",
+      "B000U8Z6BA",
+      "B0BKTKFSQW",
+      "B0BQQ8LQM1",
+      "B0B9GMZ248",
+      "B00U0QAIGK",
+      "B008TTPTOQ",
+      "B00D4D2YR2",
+      "B000EUFCS6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B19D5M7SNW",
+        "reason": "Renewed PS4 console available"
+      },
+      {
+        "item_id": "B11FW8BIUA",
+        "reason": "PS4 skin enhances console appearance"
+      },
+      {
+        "item_id": "B11KXKGYP2X",
+        "reason": "Custom skin for PS4 Slim"
+      },
+      {
+        "item_id": "B0B9GMZ248",
+        "reason": "High precision gaming mouse"
+      },
+      {
+        "item_id": "B0BXWHLBJJ",
+        "reason": "Charging dock for Xbox controller"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3741,
+    "completion_tokens": 339
+  }
+}

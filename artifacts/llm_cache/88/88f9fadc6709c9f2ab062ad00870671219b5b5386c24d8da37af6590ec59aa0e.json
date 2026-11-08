@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08J7Y23L6",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming accessories."
+      },
+      {
+        "item_id": "B004BD5TR6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User plays various video games."
+      },
+      {
+        "item_id": "B0006UTYVA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not own a GameCube."
+      },
+      {
+        "item_id": "B01B1XP5W2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not play Animal Crossing."
+      },
+      {
+        "item_id": "B0BHQJNZSG",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Nintendo Switch accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1343,
+    "completion_tokens": 156
+  }
+}

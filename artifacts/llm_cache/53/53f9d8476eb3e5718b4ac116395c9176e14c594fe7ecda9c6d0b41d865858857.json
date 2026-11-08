@@ -1,0 +1,30 @@
+{
+  "content": {
+    "ranking": [
+      "B00004U5VK",
+      "B008KGNCSI",
+      "B00006LELH",
+      "B00008KTW6",
+      "B00UURTXK6",
+      "B0001NYK1G",
+      "B00DJRLDMU",
+      "B0088TN7BO",
+      "B087NN2K41",
+      "B002BSC4ZS",
+      "B002TDIEDG",
+      "B074DVJJWB",
+      "B000EHIXJY",
+      "B0001NYK1G",
+      "B0029F2FB6",
+      "B0001NYK1G",
+      "B07P3ZVJ7N",
+      "B0001NYK1G",
+      "B0001NYK1G",
+      "B0001NYK1G"
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3572,
+    "completion_tokens": 151
+  }
+}

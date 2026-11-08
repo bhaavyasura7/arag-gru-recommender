@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B087NN6GRF",
+      "B01MR63I6F",
+      "B0053B66KE",
+      "B0044XU27A",
+      "B001E8WQKY",
+      "B000S1MMI4",
+      "B003S9WQAM",
+      "B0013OM528",
+      "B006NRMBF6",
+      "B004LQN77M",
+      "B002I08VDI",
+      "B0007PLL06",
+      "B00K5I323O",
+      "B001F8188Y",
+      "B002I0K7DK",
+      "B003O680ZY",
+      "B009VUHVY8",
+      "B077GG9D5D",
+      "B001E58B1K",
+      "B00GGURCU4",
+      "B0044XU27A"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087NN6GRF",
+        "reason": "New Nintendo Switch game"
+      },
+      {
+        "item_id": "B01MR63I6F",
+        "reason": "Quality Nintendo Switch accessory"
+      },
+      {
+        "item_id": "B0053B66KE",
+        "reason": "Popular Pokémon game"
+      },
+      {
+        "item_id": "B0044XU27A",
+        "reason": "Highly rated Xbox game"
+      },
+      {
+        "item_id": "B001E8WQKY",
+        "reason": "Classic Resident Evil title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3653,
+    "completion_tokens": 325
+  }
+}

@@ -1,0 +1,1 @@
+{"emb_dim": 64, "n_blocks": 2, "n_heads": 2, "dropout": 0.5, "seq_len": 50, "seed": 2, "best_val_ndcg5": 0.5296530448384545, "vocab_size": 25527}

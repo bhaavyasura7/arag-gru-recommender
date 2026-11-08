@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "MMORPGs",
+      "gaming accessories",
+      "time cards for online games",
+      "Xbox controllers",
+      "digital game codes"
+    ],
+    "current_intent": "Looking for more gaming time cards or accessories.",
+    "avoid": [
+      "single-player games",
+      "mobile games",
+      "non-gaming products"
+    ],
+    "summary": "User is a dedicated MMORPG player seeking time cards and gaming accessories, particularly for Xbox and PC games."
+  },
+  "usage": {
+    "prompt_tokens": 357,
+    "completion_tokens": 78
+  }
+}

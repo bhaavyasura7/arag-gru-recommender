@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DB2BI8M",
+      "B014EU6118",
+      "B03H9NDGNL",
+      "B01N7VUOPH",
+      "B001G56I86",
+      "B000067K2D",
+      "B0002WYU98",
+      "B008KGNCSI",
+      "B00004U5VF",
+      "B00ZM5OXD8",
+      "B016L2MIUA",
+      "B00D7B9M0I",
+      "B0088MVPFQ",
+      "B00ZDNNRB8",
+      "B000021XYX",
+      "B00ZM5OXD8",
+      "B000ODVKUC",
+      "B01FU86LU4",
+      "B00D7B9M0I",
+      "B0002WYU98"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DB2BI8M",
+        "reason": "Enhances music gaming experience"
+      },
+      {
+        "item_id": "B014EU6118",
+        "reason": "Essential gaming keyboard features"
+      },
+      {
+        "item_id": "B07H9NDGNL",
+        "reason": "Ergonomic design for gaming"
+      },
+      {
+        "item_id": "B01N7VUOPH",
+        "reason": "Highly rated RPG experience"
+      },
+      {
+        "item_id": "B001G56I86",
+        "reason": "Improves Rock Band gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3870,
+    "completion_tokens": 321
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "gaming headsets",
+      "mechanical keyboards",
+      "RGB lighting",
+      "gaming accessories",
+      "PC gaming gear"
+    ],
+    "current_intent": "looking for high-quality gaming peripherals",
+    "avoid": [
+      "low-quality products",
+      "non-gaming brands",
+      "overly complex setups"
+    ],
+    "summary": "User is a PC gamer focused on high-quality, customizable gaming peripherals with RGB features."
+  },
+  "usage": {
+    "prompt_tokens": 444,
+    "completion_tokens": 73
+  }
+}

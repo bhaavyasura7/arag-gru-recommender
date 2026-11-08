@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0891125KY",
+      "B07YBX7Y3P",
+      "B06BMD2M71",
+      "B06BMD2M71",
+      "B07BMD2M71",
+      "B07YBX7Y3P",
+      "B00FTB3FCU",
+      "B00M52EP02",
+      "B00OH5VDWI",
+      "B00JH15U94",
+      "B08CXRGZGN",
+      "B00006HZ0N",
+      "B000B8KIPI",
+      "B08JDWQDFZ",
+      "B00FTB3FCU",
+      "B00M52EP02",
+      "B00JH15U94",
+      "B00OH5VDWI",
+      "B00005QIQO",
+      "B0B9PCPSTN",
+      "B00006HZ0N"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0891125KY",
+        "reason": "Limited edition console for PS4"
+      },
+      {
+        "item_id": "B07YBX7Y3P",
+        "reason": "Essential VR accessory for gaming"
+      },
+      {
+        "item_id": "B07BMD2M71",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B06BMD2M71",
+        "reason": "Popular Xbox game edition"
+      },
+      {
+        "item_id": "B00FTB3FCU",
+        "reason": "DLC for a well-known game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3487,
+    "completion_tokens": 339
+  }
+}

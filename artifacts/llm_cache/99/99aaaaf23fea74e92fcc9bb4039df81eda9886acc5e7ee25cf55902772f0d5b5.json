@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUNVC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, not a strong interest."
+      },
+      {
+        "item_id": "B004G5YI3U",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys narrative-driven games."
+      },
+      {
+        "item_id": "B07YBWT3PK",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes open-world RPGs."
+      },
+      {
+        "item_id": "B00W9DHUBS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User hasn't shown interest in Star Wars."
+      },
+      {
+        "item_id": "B07YBXFF5C",
+        "label": "support",
+        "score": 6,
+        "rationale": "User enjoys action-packed gameplay."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1398,
+    "completion_tokens": 154
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09TYWJCQN",
+      "B07CRPJSBJ",
+      "B12F18W91G",
+      "B086LLM5WG",
+      "B0029E3SZE",
+      "B00844S8F8",
+      "B07193MHHV",
+      "B08L8SYXTL",
+      "B12F18W91G",
+      "B000AQ6918",
+      "B0002ANSZC",
+      "B07NVGZB4J",
+      "B00ICQ8FNS",
+      "B07TXT1ZVT",
+      "B09ZQTFM8L",
+      "B000EDVRTQ",
+      "B07CRPJSBJ",
+      "B08L9M6MCH",
+      "B09F18W91G",
+      "B00701PE5S"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09TYWJCQN",
+        "reason": "Popular Nintendo game title"
+      },
+      {
+        "item_id": "B07CRPJSBJ",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B086LLM5WG",
+        "reason": "Classic Nintendo game"
+      },
+      {
+        "item_id": "B0029E3SZE",
+        "reason": "Engaging PC game"
+      },
+      {
+        "item_id": "B00844S8F8",
+        "reason": "Fun racing game for PS Vita"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3656,
+    "completion_tokens": 322
+  }
+}

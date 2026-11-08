@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07D6JF2CM",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox 360 accessories interest."
+      },
+      {
+        "item_id": "B09BC4NDXG",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys Xbox Series X|S controllers."
+      },
+      {
+        "item_id": "B00HXKGO8C",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Xbox 360 controller preferences."
+      },
+      {
+        "item_id": "B09SVN1YLY",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes Xbox Series X|S controllers."
+      },
+      {
+        "item_id": "B09BZ8KPDW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox over PlayStation accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1729,
+    "completion_tokens": 164
+  }
+}

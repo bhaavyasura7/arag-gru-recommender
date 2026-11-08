@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B004ZCPQ4O",
+      "B08X24L4XC",
+      "B07W9HLY4C",
+      "B01DK0M30G",
+      "B07WTSNBXD",
+      "B002VLSA8K",
+      "B00LK2U6RO",
+      "B09GLV9XL9",
+      "B000Y8BRR8",
+      "B00005YXC8",
+      "B017M9IEUY",
+      "B002LVU0II",
+      "B007IQYI4S",
+      "B00CBL29RS",
+      "B000FDKYU8",
+      "B007Q3PFHC",
+      "B00Q5464U0",
+      "B09GXWH33W",
+      "B07BFXYTSL",
+      "B0019C6KCK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B004ZCPQ4O",
+        "reason": "Highly relevant strategy game"
+      },
+      {
+        "item_id": "B08X24L4XC",
+        "reason": "Enhances multiplayer gaming experience"
+      },
+      {
+        "item_id": "B07W9HLY4C",
+        "reason": "Useful for competitive gaming"
+      },
+      {
+        "item_id": "B01DK0M30G",
+        "reason": "High-quality audio for strategy games"
+      },
+      {
+        "item_id": "B07WTSNBXD",
+        "reason": "Improves controller handling"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3193,
+    "completion_tokens": 328
+  }
+}

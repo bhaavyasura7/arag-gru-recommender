@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B17MGT3FYX",
+      "B085BTBQ9W",
+      "B17KDFB86",
+      "B09T3CW2XZ",
+      "B17MHHKXKL",
+      "B0002VKQGK",
+      "B000AYTQ7O",
+      "B00000JRSB",
+      "B07VWTPPW7",
+      "B07RCVHCHW",
+      "B086VF4TK4",
+      "B07T7RYQ3P",
+      "B002CMOMBC",
+      "B0813CMFFV",
+      "B09GFL9F5J",
+      "B12PBBFVMK",
+      "B09MHHKXKL",
+      "B07MGT3FYX",
+      "B07VWTPPW7",
+      "B07RCVHCHW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B17MGT3FYX",
+        "reason": "High-quality PS4 carrying case"
+      },
+      {
+        "item_id": "B085BTBQ9W",
+        "reason": "Wireless gaming headset with surround sound"
+      },
+      {
+        "item_id": "B17KDFB86",
+        "reason": "RGB illuminated gaming headset"
+      },
+      {
+        "item_id": "B09T3CW2XZ",
+        "reason": "Compact RGB gaming keyboard"
+      },
+      {
+        "item_id": "B17MHHKXKL",
+        "reason": "Digital game membership for EVE Online"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3737,
+    "completion_tokens": 327
+  }
+}

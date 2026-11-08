@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00005AC5L",
+      "B07YBXP45M",
+      "B09325LCPJ",
+      "B01MY9JB2U",
+      "B0038X3ZVM",
+      "B089Y7VHSS",
+      "B0036DD2JE",
+      "B075N7PDK1",
+      "B093NXQ952",
+      "B0BC8Q1MG8",
+      "B002WWVB3Y",
+      "B07RQR3HRG",
+      "B072LVNKG7",
+      "B0000AI1KG",
+      "B08P2PXGLY",
+      "B01A9Z7UIK",
+      "B07KXW7BYY",
+      "B0038X3ZVM",
+      "B0BWXW6YF9",
+      "B06X5ZA200"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00005AC5L",
+        "reason": "Classic Nintendo console"
+      },
+      {
+        "item_id": "B07YBXP45M",
+        "reason": "Compatible Nintendo controllers"
+      },
+      {
+        "item_id": "B09325LCPJ",
+        "reason": "VR stand for Nintendo games"
+      },
+      {
+        "item_id": "B01MY9JB2U",
+        "reason": "Travel case for Nintendo Switch"
+      },
+      {
+        "item_id": "B0038X3ZVM",
+        "reason": "Mechanical keyboard for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3259,
+    "completion_tokens": 325
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0C1M1967M",
+      "B07DJCV8P5",
+      "B0882TR2WY",
+      "B07Z5MP32B",
+      "B0BGMYCK1V",
+      "B08292G7ZZ",
+      "B01995X4FY",
+      "B01995X43Q",
+      "B00WO9RRMO",
+      "B01BZ89S8A",
+      "B08SWV2QVG",
+      "B08QGTF5F2",
+      "B08NDHWSZ4",
+      "B0B9X2Y6TT",
+      "B00005S0OE",
+      "B01BI4ZW4A",
+      "B08QGJV6CV",
+      "B01FSYNY5A",
+      "B08QGJXYHK",
+      "B00VRYE2YI"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0C1M1967M",
+        "reason": "Universal thumb grips for all consoles"
+      },
+      {
+        "item_id": "B07DJCV8P5",
+        "reason": "Elite controller for competitive gaming"
+      },
+      {
+        "item_id": "B0882TR2WY",
+        "reason": "Official Nintendo Switch controller"
+      },
+      {
+        "item_id": "B07Z5MP32B",
+        "reason": "Classic controllers for retro gaming"
+      },
+      {
+        "item_id": "B0BGMYCK1V",
+        "reason": "Joystick protectors for longevity"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3002,
+    "completion_tokens": 338
+  }
+}

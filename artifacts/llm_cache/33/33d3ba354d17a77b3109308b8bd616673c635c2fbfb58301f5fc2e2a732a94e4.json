@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00140R0XK",
+      "B00Z9TM72Q",
+      "B08F5T3F9Y",
+      "B00IEZ6H4G",
+      "B00AASG8RG",
+      "B07VRMM3VM",
+      "B00G25RICU",
+      "B11DL5PMWL",
+      "B00BIXYIU6",
+      "B00020BV1A",
+      "B0038IZIBC",
+      "B073SQ58BC",
+      "B08NBDF4S5",
+      "B00SVVUOGU",
+      "B00IEZ6H4G",
+      "B07J3P1GJM",
+      "B08XD54VJY",
+      "B019EWMXWC",
+      "B005H3CZBW",
+      "B00000K3X9",
+      "B001EYUSJO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00140R0XK",
+        "reason": "High-quality racing wheel for PS3"
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "Popular FPS game for PS4"
+      },
+      {
+        "item_id": "B08F5T3F9Y",
+        "reason": "Bluetooth adapter for gaming headsets"
+      },
+      {
+        "item_id": "B00IEZ6H4G",
+        "reason": "Horror game for immersive experience"
+      },
+      {
+        "item_id": "B00AASG8RG",
+        "reason": "Protective case for gaming accessories"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3920,
+    "completion_tokens": 348
+  }
+}

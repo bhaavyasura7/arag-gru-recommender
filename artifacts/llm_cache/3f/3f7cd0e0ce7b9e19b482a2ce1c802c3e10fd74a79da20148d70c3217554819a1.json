@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08JHZHWZ3",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers darker, narrative-driven games."
+      },
+      {
+        "item_id": "B006PP404Q",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not directly related to interests."
+      },
+      {
+        "item_id": "B07KXFB1P8",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox One, user plays Xbox."
+      },
+      {
+        "item_id": "B009C9DPUW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Controller accessory, not a game."
+      },
+      {
+        "item_id": "B00005NN5G",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "Different genre, user prefers narrative games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1319,
+    "completion_tokens": 162
+  }
+}

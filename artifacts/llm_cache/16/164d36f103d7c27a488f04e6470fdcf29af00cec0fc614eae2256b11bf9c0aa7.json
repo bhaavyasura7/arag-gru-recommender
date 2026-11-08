@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00VRSTQ72",
+      "B00E8CF268",
+      "B00P1OYN0S",
+      "B073ZC8RNW",
+      "B00ZS1SRO2",
+      "B01MSWGT4C",
+      "B00Z9TKRH8",
+      "B002CZ918S",
+      "B00RU5M6FK",
+      "B01GW8VG7O",
+      "B004HD55VK",
+      "B01L91OUHM",
+      "B00CJ9OTNE",
+      "B00A6IPHXQ",
+      "B09MMVNMZL",
+      "B00242KDGS",
+      "B0716CXJ1R",
+      "B00Z9TKRH8",
+      "B000N5Z2L4",
+      "B01HV9WE0Q",
+      "B00ZS1SRO2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00VRSTQ72",
+        "reason": "Nintendo Switch controller accessory"
+      },
+      {
+        "item_id": "B00E8CF268",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B00P1OYN0S",
+        "reason": "N64 memory card for Nintendo"
+      },
+      {
+        "item_id": "B073ZC8RNW",
+        "reason": "N64 controller extension cables"
+      },
+      {
+        "item_id": "B00ZS1SRO2",
+        "reason": "Nintendo 3DS game title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3594,
+    "completion_tokens": 338
+  }
+}

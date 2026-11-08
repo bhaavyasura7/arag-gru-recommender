@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00B8QDNNG",
+        "label": "support",
+        "score": 9,
+        "rationale": "Similar franchise, highly rated game."
+      },
+      {
+        "item_id": "B06WGQ63R7",
+        "label": "support",
+        "score": 10,
+        "rationale": "Same game, digital version preferred."
+      },
+      {
+        "item_id": "B07WTP7WFT",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different platform, same game."
+      },
+      {
+        "item_id": "B07WRKDXCS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Includes different game, mixed interest."
+      },
+      {
+        "item_id": "B01D3K7SIK",
+        "label": "support",
+        "score": 7,
+        "rationale": "Classic Zelda title, likely interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 684,
+    "completion_tokens": 154
+  }
+}

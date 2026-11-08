@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002I0J4NE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B0042GW7CC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Classic games may interest user."
+      },
+      {
+        "item_id": "B08C7F68XH",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with user's Nintendo Switch."
+      },
+      {
+        "item_id": "B003R7JXO2",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own PlayStation."
+      },
+      {
+        "item_id": "B09YXR2MQR",
+        "label": "support",
+        "score": 8,
+        "rationale": "Accessory for user's Nintendo Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1385,
+    "completion_tokens": 154
+  }
+}

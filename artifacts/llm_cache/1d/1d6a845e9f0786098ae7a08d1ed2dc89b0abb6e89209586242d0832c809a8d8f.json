@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00BHRD4BM",
+      "B01FWYIYNI",
+      "B07DJX3Y47",
+      "B00068O278",
+      "B000FQ9R4E",
+      "B004AYCNRU",
+      "B07YBXNWXL",
+      "B000B0RWWS",
+      "B0001615P2",
+      "B07CJMGKNK",
+      "B071X39BX9",
+      "B08TG138F1",
+      "B003UV8OPO",
+      "B005UKT826",
+      "B07K3KHFSY",
+      "B000B6ML3W",
+      "B00068O278",
+      "B000B0RWWS",
+      "B000FQ9R4E",
+      "B000B6ML3W",
+      "B000B0RWWS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00BHRD4BM",
+        "reason": "PS4 game expansion pack"
+      },
+      {
+        "item_id": "B01FWYIYNI",
+        "reason": "PS4 controller charger"
+      },
+      {
+        "item_id": "B07DJX3Y47",
+        "reason": "Popular PS4 game"
+      },
+      {
+        "item_id": "B00068O278",
+        "reason": "PS4 compatible accessory"
+      },
+      {
+        "item_id": "B000FQ9R4E",
+        "reason": "Legacy game, not preferred"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3477,
+    "completion_tokens": 329
+  }
+}

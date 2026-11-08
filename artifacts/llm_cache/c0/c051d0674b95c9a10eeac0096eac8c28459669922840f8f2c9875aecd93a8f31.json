@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DYAQI0E",
+      "B00DYAQHNC",
+      "B00DYAQHTQ",
+      "B00DYAQHZ0",
+      "B00DYAQHNC",
+      "B00DYAQI0E",
+      "B00DYAQHZ0",
+      "B00DYAQHTQ",
+      "B00DYAQHNC",
+      "B00DYAQI0E",
+      "B00DYAQHZ0",
+      "B00DYAQHTQ",
+      "B00DYAQHNC",
+      "B00DYAQI0E",
+      "B00DYAQHZ0",
+      "B00DYAQHTQ",
+      "B00DYAQHNC",
+      "B00DYAQI0E",
+      "B00DYAQHZ0",
+      "B00DYAQHTQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DYAQI0E",
+        "reason": "Limited edition gaming content"
+      },
+      {
+        "item_id": "B00DYAQHNC",
+        "reason": "Popular gaming franchise"
+      },
+      {
+        "item_id": "B00DYAQHTQ",
+        "reason": "High-quality gaming experience"
+      },
+      {
+        "item_id": "B00DYAQHZ0",
+        "reason": "Collectible gaming item"
+      },
+      {
+        "item_id": "B00DYAQHNC",
+        "reason": "Appealing to gamers"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3235,
+    "completion_tokens": 331
+  }
+}

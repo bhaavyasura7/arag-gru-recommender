@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "classic RPGs",
+      "action-adventure games",
+      "strategy games",
+      "narrative-driven experiences",
+      "retro gaming"
+    ],
+    "current_intent": "looking for immersive RPGs or action-adventure games",
+    "avoid": [
+      "poorly rated games",
+      "sports games",
+      "shooter games"
+    ],
+    "summary": "User enjoys classic and narrative-driven video games, particularly RPGs, and seeks new immersive experiences."
+  },
+  "usage": {
+    "prompt_tokens": 1447,
+    "completion_tokens": 80
+  }
+}

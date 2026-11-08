@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BSDQ8KSY",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with PS4, user plays games."
+      },
+      {
+        "item_id": "B002I0K6DG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox and Wii U games."
+      },
+      {
+        "item_id": "B005YVTHT0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user's interests."
+      },
+      {
+        "item_id": "B00005RVN8",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers action RPGs, not simulations."
+      },
+      {
+        "item_id": "B004LLHFAW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in Battlefield series."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1278,
+    "completion_tokens": 164
+  }
+}

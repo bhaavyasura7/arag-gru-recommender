@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08S72G3K8",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Nintendo Switch interests."
+      },
+      {
+        "item_id": "B00741NABE",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers console games over PC."
+      },
+      {
+        "item_id": "B01MDOFPBU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has Xbox but no specific interest."
+      },
+      {
+        "item_id": "B000BBODYC",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Xbox 360 games."
+      },
+      {
+        "item_id": "B005CG2GS6",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has Nintendo Wii controllers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1643,
+    "completion_tokens": 149
+  }
+}

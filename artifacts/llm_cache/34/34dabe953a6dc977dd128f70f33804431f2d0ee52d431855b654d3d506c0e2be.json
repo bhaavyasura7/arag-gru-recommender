@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08LB4HJT2",
+      "B07X649B77",
+      "B00KWFCSB2",
+      "B014UPBXR0",
+      "B071KFGC8R",
+      "B000HKKQ3Y",
+      "B00328P0GG",
+      "B00005AW1Y",
+      "B000GA73O0",
+      "B0050SZ0JI",
+      "B08MBPMKPC",
+      "B00005AW1Y",
+      "B000KVP78FE",
+      "B003KVLGD6",
+      "B00TS0UFOY",
+      "B0010YOQJ6",
+      "B00005AW1Y",
+      "B00005AW1Y",
+      "B00005AW1Y",
+      "B00005AW1Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08LB4HJT2",
+        "reason": "Popular action-adventure on Xbox"
+      },
+      {
+        "item_id": "B07X649B77",
+        "reason": "Open-world exploration gameplay"
+      },
+      {
+        "item_id": "B00KWFCSB2",
+        "reason": "Collector's edition available"
+      },
+      {
+        "item_id": "B014UPBXR0",
+        "reason": "Challenging gameplay experience"
+      },
+      {
+        "item_id": "B071KFGC8R",
+        "reason": "Compatible with Xbox gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3766,
+    "completion_tokens": 319
+  }
+}

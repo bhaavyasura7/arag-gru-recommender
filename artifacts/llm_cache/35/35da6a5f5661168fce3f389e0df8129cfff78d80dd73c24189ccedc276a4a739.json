@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07SSZGYNR",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys Xbox One games."
+      },
+      {
+        "item_id": "B00KSQHX1K",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Xbox One game interests."
+      },
+      {
+        "item_id": "B001UW9Z6M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox and Nintendo 3DS."
+      },
+      {
+        "item_id": "B01IC2A28C",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Nintendo 3DS interests."
+      },
+      {
+        "item_id": "B00897Z27C",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User prefers Xbox and Nintendo systems."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1899,
+    "completion_tokens": 159
+  }
+}

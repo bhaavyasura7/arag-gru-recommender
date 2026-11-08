@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo gaming",
+      "3DS accessories",
+      "Super Mario games",
+      "Wii U games",
+      "multiplayer experiences"
+    ],
+    "current_intent": "Looking for more Nintendo games or accessories.",
+    "avoid": [
+      "non-Nintendo products",
+      "low-rated games",
+      "single-player games"
+    ],
+    "summary": "User is a Nintendo enthusiast focused on 3DS and Wii U games, seeking new titles or accessories to enhance their gaming experience."
+  },
+  "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 84
+  }
+}

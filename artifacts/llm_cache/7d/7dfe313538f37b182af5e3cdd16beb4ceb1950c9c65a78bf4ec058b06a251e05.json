@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09MHWTC7M",
+      "B08PBDJ6CJ",
+      "B07S9LY4PB",
+      "B094CY44XW",
+      "B12B0B14S3PQ2",
+      "B075YP1CTH",
+      "B0BFRZ1HR4",
+      "B07WTL6ZHH",
+      "B0BZ276NG5",
+      "B08CRJGXH9",
+      "B07GLNQV9J",
+      "B000059WIZ",
+      "B004DNWOBI",
+      "B07SGZSRRM",
+      "B20B8F6MMO8",
+      "B0B14S3PQ2",
+      "B08HPPBCJ3",
+      "B11B0B14S3PQ2",
+      "B0BFRZ1HR4",
+      "B07PBBX4C5",
+      "B0B14S3PQ2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09MHWTC7M",
+        "reason": "Ergonomic grip for Nintendo Switch"
+      },
+      {
+        "item_id": "B08PBDJ6CJ",
+        "reason": "High-quality wired gaming mouse"
+      },
+      {
+        "item_id": "B07S9LY4PB",
+        "reason": "Premium wireless gaming headset"
+      },
+      {
+        "item_id": "B094CY44XW",
+        "reason": "Portable game card storage case"
+      },
+      {
+        "item_id": "B075YP1CTH",
+        "reason": "Compatible grip for Nintendo 2DS XL"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3736,
+    "completion_tokens": 355
+  }
+}

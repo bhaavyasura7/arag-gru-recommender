@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0000E1RBK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B004NUJX9M",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Legacy system, not in user history."
+      },
+      {
+        "item_id": "B09JSKBZKX",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has shown interest in gaming accessories."
+      },
+      {
+        "item_id": "B0792R4Q4J",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys gaming peripherals like headsets."
+      },
+      {
+        "item_id": "B002GCFI2K",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User focuses on modern consoles, not Sega."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1360,
+    "completion_tokens": 166
+  }
+}

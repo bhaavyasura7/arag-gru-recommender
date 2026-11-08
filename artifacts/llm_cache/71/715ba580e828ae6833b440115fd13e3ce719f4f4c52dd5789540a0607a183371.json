@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DBDPOZ4",
+      "B00K5I323O",
+      "B10BHRD4BM",
+      "B01GKFPFZS",
+      "B07HYCZ68N",
+      "B07J27TFCD",
+      "B00U33Q940",
+      "B0009Z3MGA",
+      "B01GY35UK6",
+      "B09KNG2LHC",
+      "B07VHHPJBV",
+      "B06XSCN9BX",
+      "B00CMQTUSS",
+      "B00DB2BI00",
+      "B00S7O6R9O",
+      "B00BHRD4BM",
+      "B00DBDPOZ4",
+      "B00DBDPOZ4",
+      "B00DBDPOZ4",
+      "B00DBDPOZ4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DBDPOZ4",
+        "reason": "Rechargeable battery for Xbox controllers"
+      },
+      {
+        "item_id": "B00K5I323O",
+        "reason": "Wireless controller for Xbox One"
+      },
+      {
+        "item_id": "B01GKFPFZS",
+        "reason": "Advanced Xbox Elite controller"
+      },
+      {
+        "item_id": "B07HYCZ68N",
+        "reason": "Popular game for Xbox One"
+      },
+      {
+        "item_id": "B07J27TFCD",
+        "reason": "High-quality gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3633,
+    "completion_tokens": 328
+  }
+}

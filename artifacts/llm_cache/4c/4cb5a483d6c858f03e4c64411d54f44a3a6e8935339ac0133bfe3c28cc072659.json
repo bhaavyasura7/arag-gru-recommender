@@ -1,0 +1,9 @@
+{
+  "content": {
+    "summary": "The user seeks action-oriented video games, particularly first-person shooters and multiplayer experiences. Relevant candidates feature intense gameplay, cooperative modes, and historical or futuristic settings, aligning with the user's interests while avoiding puzzle, sports, and mobile games."
+  },
+  "usage": {
+    "prompt_tokens": 1874,
+    "completion_tokens": 50
+  }
+}

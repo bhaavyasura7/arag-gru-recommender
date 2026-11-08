@@ -1,0 +1,128 @@
+[2026-10-12 07:41:24] ==================================================================
+[2026-10-12 07:41:24] [Clothing_Shoes_and_Jewelry] phase=nonllm  steps: data lists index gru gru-text eval-nonllm
+[2026-10-12 07:41:24] config: configs/categories/Clothing_Shoes_and_Jewelry.yaml   priority: nice 0  (0 = full speed; run from your own Terminal)
+[2026-10-12 07:41:24] [Clothing_Shoes_and_Jewelry] step 1/6 data — started
+.venv/bin/python -m arag.dataprep.download
+2026-10-12 07:41:25,041 INFO arag.dataprep.download: downloading Clothing_Shoes_and_Jewelry.train.csv ...
+2026-10-12 07:42:52,089 INFO arag.dataprep.download: done Clothing_Shoes_and_Jewelry.train.csv (1047.1 MB, sha256=4424325bee2c)
+2026-10-12 07:42:52,090 INFO arag.dataprep.download: downloading Clothing_Shoes_and_Jewelry.valid.csv ...
+2026-10-12 07:43:06,462 INFO arag.dataprep.download: done Clothing_Shoes_and_Jewelry.valid.csv (146.4 MB, sha256=a7dd03bbe19b)
+2026-10-12 07:43:06,462 INFO arag.dataprep.download: downloading Clothing_Shoes_and_Jewelry.test.csv ...
+2026-10-12 07:43:20,880 INFO arag.dataprep.download: done Clothing_Shoes_and_Jewelry.test.csv (146.4 MB, sha256=5adb43bc8dfb)
+2026-10-12 07:43:20,881 INFO arag.dataprep.download: downloading meta_Clothing_Shoes_and_Jewelry.jsonl ...
+2026-10-12 08:08:30,453 INFO arag.dataprep.download: done meta_Clothing_Shoes_and_Jewelry.jsonl (17960.5 MB, sha256=e5ff90857393)
+2026-10-12 08:08:30,455 INFO arag.dataprep.download: manifest -> /Users/likhith/Projects/DeepLearningProject/data/Clothing_Shoes_and_Jewelry/manifest.json
+.venv/bin/python -m arag.dataprep.load
+2026-10-12 08:08:35,399 INFO arag.dataprep.load: train rows read: 18052575
+2026-10-12 08:08:36,223 INFO arag.dataprep.load: valid rows read: 2524981
+2026-10-12 08:08:37,015 INFO arag.dataprep.load: test rows read: 2524981
+2026-10-12 08:08:41,301 INFO arag.dataprep.load: users subsampled: 2524981 -> 100000 (seed 42); interactions -> 916059
+2026-10-12 08:08:41,418 INFO arag.dataprep.load: interactions written: 916059 rows
+2026-10-12 08:08:41,510 INFO arag.dataprep.load: metadata restricted to the 308455 interacted items
+2026-10-12 08:09:17,055 INFO arag.dataprep.load: items metadata rows: 308455 -> 308455 after dedup
+2026-10-12 08:09:17,470 INFO arag.dataprep.load: items written: 308455 rows (308436 with text)
+2026-10-12 08:09:17,642 INFO arag.dataprep.load: interacted items with no metadata/text: 0
+2026-10-12 08:09:17,663 INFO arag.dataprep.load: manifest updated + tracked copy written
+[2026-10-12 08:09:17] [Clothing_Shoes_and_Jewelry] step 1/6 data — done in 27 min
+[2026-10-12 08:09:17] [Clothing_Shoes_and_Jewelry] step 2/6 lists — started
+.venv/bin/python -m arag.dataprep.lists
+2026-10-12 08:09:19,607 INFO arag.dataprep.lists: users: 100000 (with valid+test target: 100000)
+2026-10-12 08:09:21,044 INFO arag.dataprep.lists: valid users sampled: 100
+2026-10-12 08:09:21,456 INFO arag.dataprep.lists: test users sampled: 100
+2026-10-12 08:09:21,569 INFO arag.dataprep.lists: negative sampling: popularity over 270778 items with train interactions
+2026-10-12 08:09:24,306 INFO arag.dataprep.lists: valid lists written: 100000 users
+2026-10-12 08:09:27,078 INFO arag.dataprep.lists: test lists written: 100000 users
+2026-10-12 08:09:27,078 INFO arag.dataprep.lists: lists hashes: {'valid_lists.parquet': '01a820c329961483092a6038a89914eb68996e0d947f879ad4577166406a4ee2', 'test_lists.parquet': '7467f54e1c3c5b8a313478c3eb3d02ed49232a0f2db1df9984119e4016fd6491'}
+[2026-10-12 08:09:27] [Clothing_Shoes_and_Jewelry] step 2/6 lists — done in 0 min
+[2026-10-12 08:09:27] [Clothing_Shoes_and_Jewelry] step 3/6 index — started
+.venv/bin/python -m arag.retrieval.embed
+2026-10-12 08:09:29,966 INFO arag.retrieval.embed: items with text to embed: 308436
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13613.58it/s]
+2026-10-12 08:09:34,776 INFO arag.retrieval.embed: embedding 308436 texts ...
+Batches:   0%|          | 0/1205 [00:00<?, ?it/s]Batches:   3%|▎         | 34/1205 [00:30<17:38,  1.11it/s]Batches:   3%|▎         | 34/1205 [00:48<17:38,  1.11it/s]Batches:   6%|▌         | 68/1205 [01:01<17:01,  1.11it/s]Batches:   6%|▌         | 68/1205 [01:18<17:01,  1.11it/s]Batches:   8%|▊         | 102/1205 [01:31<16:23,  1.12it/s]Batches:   8%|▊         | 102/1205 [01:48<16:23,  1.12it/s]Batches:  11%|█▏        | 137/1205 [02:01<15:44,  1.13it/s]Batches:  11%|█▏        | 137/1205 [02:18<15:44,  1.13it/s]Batches:  14%|█▍        | 172/1205 [02:31<15:05,  1.14it/s]Batches:  14%|█▍        | 172/1205 [02:48<15:05,  1.14it/s]Batches:  17%|█▋        | 207/1205 [03:02<14:35,  1.14it/s]Batches:  17%|█▋        | 207/1205 [03:18<14:35,  1.14it/s]Batches:  20%|██        | 243/1205 [03:33<13:52,  1.16it/s]Batches:  20%|██        | 243/1205 [03:48<13:52,  1.16it/s]Batches:  23%|██▎       | 280/1205 [04:03<13:07,  1.17it/s]Batches:  23%|██▎       | 280/1205 [04:18<13:07,  1.17it/s]Batches:  26%|██▌       | 313/1205 [04:34<13:00,  1.14it/s]Batches:  26%|██▌       | 313/1205 [04:48<13:00,  1.14it/s]Batches:  29%|██▉       | 348/1205 [05:04<12:27,  1.15it/s]Batches:  29%|██▉       | 348/1205 [05:18<12:27,  1.15it/s]Batches:  32%|███▏      | 383/1205 [05:35<11:58,  1.14it/s]Batches:  32%|███▏      | 383/1205 [05:48<11:58,  1.14it/s]Batches:  35%|███▍      | 418/1205 [06:05<11:26,  1.15it/s]Batches:  35%|███▍      | 418/1205 [06:18<11:26,  1.15it/s]Batches:  37%|███▋      | 451/1205 [06:36<11:10,  1.12it/s]Batches:  37%|███▋      | 451/1205 [06:48<11:10,  1.12it/s]Batches:  40%|████      | 485/1205 [07:07<10:43,  1.12it/s]Batches:  40%|████      | 485/1205 [07:18<10:43,  1.12it/s]Batches:  43%|████▎     | 519/1205 [07:37<10:11,  1.12it/s]Batches:  43%|████▎     | 519/1205 [07:48<10:11,  1.12it/s]Batches:  46%|████▌     | 555/1205 [08:07<09:29,  1.14it/s]Batches:  46%|████▌     | 555/1205 [08:18<09:29,  1.14it/s]Batches:  49%|████▉     | 592/1205 [08:37<08:45,  1.17it/s]Batches:  49%|████▉     | 592/1205 [08:48<08:45,  1.17it/s]Batches:  52%|█████▏    | 628/1205 [09:08<08:12,  1.17it/s]Batches:  52%|█████▏    | 628/1205 [09:20<08:12,  1.17it/s]Batches:  55%|█████▌    | 663/1205 [09:38<07:43,  1.17it/s]Batches:  55%|█████▌    | 663/1205 [09:50<07:43,  1.17it/s]Batches:  58%|█████▊    | 695/1205 [10:09<07:30,  1.13it/s]Batches:  58%|█████▊    | 695/1205 [10:20<07:30,  1.13it/s]Batches:  60%|██████    | 728/1205 [10:40<07:09,  1.11it/s]Batches:  60%|██████    | 728/1205 [10:50<07:09,  1.11it/s]Batches:  63%|██████▎   | 761/1205 [11:10<06:43,  1.10it/s]Batches:  63%|██████▎   | 761/1205 [11:28<06:43,  1.10it/s]Batches:  66%|██████▌   | 795/1205 [11:41<06:10,  1.11it/s]Batches:  66%|██████▌   | 795/1205 [11:58<06:10,  1.11it/s]Batches:  69%|██████▉   | 832/1205 [12:11<05:28,  1.14it/s]Batches:  69%|██████▉   | 832/1205 [12:28<05:28,  1.14it/s]Batches:  72%|███████▏  | 868/1205 [12:42<04:52,  1.15it/s]Batches:  72%|███████▏  | 868/1205 [12:58<04:52,  1.15it/s]Batches:  75%|███████▍  | 903/1205 [13:12<04:23,  1.15it/s]Batches:  75%|███████▍  | 903/1205 [13:28<04:23,  1.15it/s]Batches:  78%|███████▊  | 944/1205 [13:43<03:36,  1.21it/s]Batches:  78%|███████▊  | 944/1205 [13:58<03:36,  1.21it/s]Batches:  82%|████████▏ | 989/1205 [14:13<02:47,  1.29it/s]Batches:  82%|████████▏ | 989/1205 [14:28<02:47,  1.29it/s]Batches:  87%|████████▋ | 1047/1205 [14:43<01:46,  1.48it/s]Batches:  87%|████████▋ | 1047/1205 [14:58<01:46,  1.48it/s]Batches:  96%|█████████▋| 1160/1205 [15:13<00:20,  2.16it/s]Batches: 100%|██████████| 1205/1205 [15:21<00:00,  1.31it/s]
+2026-10-12 08:24:57,622 INFO arag.retrieval.embed: saved 308436 embeddings ((308436, 384)) -> /Users/likhith/Projects/DeepLearningProject/artifacts/Clothing_Shoes_and_Jewelry/faiss
+.venv/bin/python -m arag.retrieval.index
+2026-10-12 08:24:58,575 INFO arag.retrieval.index: FAISS index written: 308436 items, dim=384
+[2026-10-12 08:24:58] [Clothing_Shoes_and_Jewelry] step 3/6 index — done in 15 min
+[2026-10-12 08:24:58] [Clothing_Shoes_and_Jewelry] step 4/6 gru — started
+.venv/bin/python -m arag.models.train_gru
+2026-10-12 08:24:59,849 INFO arag.models.train_gru: train vocab: 270778 items
+2026-10-12 08:25:00,644 INFO arag.models.train_gru: training sequences: 100000
+2026-10-12 08:25:02,686 INFO arag.models.train_gru: validation users for early stop: 100000
+2026-10-12 08:25:02,697 INFO arag.models.train_gru: training device: mps
+2026-10-12 08:25:02,697 INFO arag.models.train_gru: best config: hidden=128 dropout=0.2 NDCG@5=None
+2026-10-12 08:27:36,846 INFO arag.models.train_gru: epoch 0: loss 12.6516  val NDCG@5 0.1412
+2026-10-12 08:30:43,995 INFO arag.models.train_gru: epoch 1: loss 12.4155  val NDCG@5 0.1435
+2026-10-12 08:33:41,208 INFO arag.models.train_gru: epoch 2: loss 12.1014  val NDCG@5 0.1492
+2026-10-12 08:36:44,020 INFO arag.models.train_gru: epoch 3: loss 11.8959  val NDCG@5 0.1496
+2026-10-12 08:40:02,672 INFO arag.models.train_gru: epoch 4: loss 11.8201  val NDCG@5 0.1498
+2026-10-12 08:47:04,211 INFO arag.models.train_gru: epoch 5: loss 11.7756  val NDCG@5 0.1503
+2026-10-12 08:53:39,202 INFO arag.models.train_gru: epoch 6: loss 11.7498  val NDCG@5 0.1501
+2026-10-12 08:57:59,793 INFO arag.models.train_gru: epoch 7: loss 11.7241  val NDCG@5 0.1502
+2026-10-12 09:00:32,726 INFO arag.models.train_gru: epoch 8: loss 11.6944  val NDCG@5 0.1497
+2026-10-12 09:00:32,727 INFO arag.models.train_gru: early stop at epoch 8
+2026-10-12 09:00:32,945 INFO arag.models.train_gru: saved seed=0 -> /Users/likhith/Projects/DeepLearningProject/artifacts/Clothing_Shoes_and_Jewelry/gru/0 (2130s, val NDCG@5=0.1503)
+2026-10-12 09:04:15,611 INFO arag.models.train_gru: epoch 0: loss 12.6521  val NDCG@5 0.1279
+2026-10-12 09:07:31,001 INFO arag.models.train_gru: epoch 1: loss 12.3937  val NDCG@5 0.1446
+2026-10-12 09:10:49,217 INFO arag.models.train_gru: epoch 2: loss 12.0763  val NDCG@5 0.1486
+2026-10-12 09:13:57,624 INFO arag.models.train_gru: epoch 3: loss 11.8837  val NDCG@5 0.1493
+2026-10-12 09:17:24,873 INFO arag.models.train_gru: epoch 4: loss 11.8089  val NDCG@5 0.1498
+2026-10-12 09:21:26,862 INFO arag.models.train_gru: epoch 5: loss 11.7743  val NDCG@5 0.1500
+2026-10-12 09:27:01,299 INFO arag.models.train_gru: epoch 6: loss 11.7494  val NDCG@5 0.1498
+2026-10-12 09:34:46,269 INFO arag.models.train_gru: epoch 7: loss 11.7244  val NDCG@5 0.1502
+2026-10-12 09:38:24,410 INFO arag.models.train_gru: epoch 8: loss 11.6981  val NDCG@5 0.1498
+2026-10-12 09:41:13,578 INFO arag.models.train_gru: epoch 9: loss 11.6685  val NDCG@5 0.1495
+2026-10-12 09:44:25,501 INFO arag.models.train_gru: epoch 10: loss 11.6304  val NDCG@5 0.1499
+2026-10-12 09:44:25,502 INFO arag.models.train_gru: early stop at epoch 10
+2026-10-12 09:44:25,794 INFO arag.models.train_gru: saved seed=1 -> /Users/likhith/Projects/DeepLearningProject/artifacts/Clothing_Shoes_and_Jewelry/gru/1 (2633s, val NDCG@5=0.1502)
+2026-10-12 09:47:23,364 INFO arag.models.train_gru: epoch 0: loss 12.6538  val NDCG@5 0.1432
+2026-10-12 09:50:18,731 INFO arag.models.train_gru: epoch 1: loss 12.4049  val NDCG@5 0.1438
+2026-10-12 09:53:10,091 INFO arag.models.train_gru: epoch 2: loss 12.0887  val NDCG@5 0.1489
+2026-10-12 09:56:03,006 INFO arag.models.train_gru: epoch 3: loss 11.8950  val NDCG@5 0.1498
+2026-10-12 09:58:44,165 INFO arag.models.train_gru: epoch 4: loss 11.8200  val NDCG@5 0.1499
+2026-10-12 10:01:43,245 INFO arag.models.train_gru: epoch 5: loss 11.7786  val NDCG@5 0.1491
+2026-10-12 10:04:52,094 INFO arag.models.train_gru: epoch 6: loss 11.7497  val NDCG@5 0.1489
+2026-10-12 10:08:04,064 INFO arag.models.train_gru: epoch 7: loss 11.7245  val NDCG@5 0.1490
+2026-10-12 10:08:04,064 INFO arag.models.train_gru: early stop at epoch 7
+2026-10-12 10:08:04,301 INFO arag.models.train_gru: saved seed=2 -> /Users/likhith/Projects/DeepLearningProject/artifacts/Clothing_Shoes_and_Jewelry/gru/2 (1418s, val NDCG@5=0.1499)
+[2026-10-12 10:08:05] [Clothing_Shoes_and_Jewelry] step 4/6 gru — done in 103 min
+[2026-10-12 10:08:05] [Clothing_Shoes_and_Jewelry] step 5/6 gru-text — started
+.venv/bin/python -m arag.models.train_gru --text
+2026-10-12 10:08:06,657 INFO arag.models.train_gru: train vocab: 270778 items
+2026-10-12 10:08:07,465 INFO arag.models.train_gru: training sequences: 100000
+2026-10-12 10:08:09,517 INFO arag.models.train_gru: validation users for early stop: 100000
+2026-10-12 10:08:09,827 INFO arag.models.train_gru: text features: 270763 of 270778 vocab items
+2026-10-12 10:08:09,859 INFO arag.models.train_gru: training device: mps
+2026-10-12 10:08:09,859 INFO arag.models.train_gru: best config: hidden=128 dropout=0.2 NDCG@5=None
+2026-10-12 10:15:09,979 INFO arag.models.train_gru: epoch 0: loss 12.6246  val NDCG@5 0.1624
+2026-10-12 10:21:03,765 INFO arag.models.train_gru: epoch 1: loss 12.2739  val NDCG@5 0.1905
+2026-10-12 10:26:34,711 INFO arag.models.train_gru: epoch 2: loss 11.8895  val NDCG@5 0.1961
+2026-10-12 10:32:45,001 INFO arag.models.train_gru: epoch 3: loss 11.7067  val NDCG@5 0.1941
+2026-10-12 10:39:06,394 INFO arag.models.train_gru: epoch 4: loss 11.6207  val NDCG@5 0.2022
+2026-10-12 10:46:26,073 INFO arag.models.train_gru: epoch 5: loss 11.5588  val NDCG@5 0.2080
+2026-10-12 10:53:11,613 INFO arag.models.train_gru: epoch 6: loss 11.5066  val NDCG@5 0.2073
+2026-10-12 11:00:13,999 INFO arag.models.train_gru: epoch 7: loss 11.4686  val NDCG@5 0.2128
+2026-10-12 11:07:13,438 INFO arag.models.train_gru: epoch 8: loss 11.4273  val NDCG@5 0.2134
+2026-10-12 11:13:33,192 INFO arag.models.train_gru: epoch 9: loss 11.3905  val NDCG@5 0.2163
+2026-10-12 11:22:48,287 INFO arag.models.train_gru: epoch 10: loss 11.3422  val NDCG@5 0.2207
+2026-10-12 11:30:56,175 INFO arag.models.train_gru: epoch 11: loss 11.2971  val NDCG@5 0.2203
+2026-10-12 11:30:56,515 INFO arag.models.train_gru: saved seed=0 -> /Users/likhith/Projects/DeepLearningProject/artifacts/Clothing_Shoes_and_Jewelry/gru_text/0 (4967s, val NDCG@5=0.2207)
+2026-10-12 11:39:17,583 INFO arag.models.train_gru: epoch 0: loss 12.6242  val NDCG@5 0.1599
+2026-10-12 11:47:47,785 INFO arag.models.train_gru: epoch 1: loss 12.2653  val NDCG@5 0.1778
+2026-10-12 11:55:47,661 INFO arag.models.train_gru: epoch 2: loss 11.8972  val NDCG@5 0.1929
+2026-10-12 12:03:32,137 INFO arag.models.train_gru: epoch 3: loss 11.6990  val NDCG@5 0.1916
+2026-10-12 12:10:50,309 INFO arag.models.train_gru: epoch 4: loss 11.6145  val NDCG@5 0.1970
+2026-10-12 12:17:57,780 INFO arag.models.train_gru: epoch 5: loss 11.5563  val NDCG@5 0.2052
+2026-10-12 12:25:25,521 INFO arag.models.train_gru: epoch 6: loss 11.5095  val NDCG@5 0.2081
+2026-10-12 12:33:07,005 INFO arag.models.train_gru: epoch 7: loss 11.4677  val NDCG@5 0.2106
+2026-10-12 12:39:59,505 INFO arag.models.train_gru: epoch 8: loss 11.4263  val NDCG@5 0.2126
+2026-10-12 12:46:58,413 INFO arag.models.train_gru: epoch 9: loss 11.3882  val NDCG@5 0.2150
+2026-10-12 12:54:17,725 INFO arag.models.train_gru: epoch 10: loss 11.3435  val NDCG@5 0.2176
+2026-10-12 13:01:35,713 INFO arag.models.train_gru: epoch 11: loss 11.2966  val NDCG@5 0.2186
+2026-10-12 13:01:35,927 INFO arag.models.train_gru: saved seed=1 -> /Users/likhith/Projects/DeepLearningProject/artifacts/Clothing_Shoes_and_Jewelry/gru_text/1 (5438s, val NDCG@5=0.2186)
+2026-10-12 13:08:31,197 INFO arag.models.train_gru: epoch 0: loss 12.6267  val NDCG@5 0.1634
+2026-10-12 13:15:54,309 INFO arag.models.train_gru: epoch 1: loss 12.2657  val NDCG@5 0.1956
+2026-10-12 13:22:22,466 INFO arag.models.train_gru: epoch 2: loss 11.8783  val NDCG@5 0.1952
+2026-10-12 13:28:27,397 INFO arag.models.train_gru: epoch 3: loss 11.7059  val NDCG@5 0.1946
+make: *** [gru-text] Terminated: 15

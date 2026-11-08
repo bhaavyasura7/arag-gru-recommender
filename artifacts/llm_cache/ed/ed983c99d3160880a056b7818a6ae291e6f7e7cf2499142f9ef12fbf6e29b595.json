@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00J4C56HC",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PlayStation Vita not in user history."
+      },
+      {
+        "item_id": "B08KVKDYHV",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Nintendo Switch interest."
+      },
+      {
+        "item_id": "B00005Y4PV",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers consoles over PC games."
+      },
+      {
+        "item_id": "B00002SVPV",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy systems not frequently mentioned."
+      },
+      {
+        "item_id": "B00UPI4R74",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related to Nintendo and user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1165,
+    "completion_tokens": 152
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B087NNPYP3",
+      "B071XXXK2X",
+      "B19LTXBY4M",
+      "B000P46NKC",
+      "B000N5Z2L4",
+      "B002JTX8AO",
+      "B00004KHB2",
+      "B20QQ8N7LL",
+      "B002TK1Q3Y",
+      "B004QIY0Y4",
+      "B0009E3U4K",
+      "B0013E9HP6",
+      "B0041HROGG",
+      "B002I09286",
+      "B004QEV0MI",
+      "B00000K1VA",
+      "B000N5Z2L4",
+      "B00004KHB2",
+      "B002I09286",
+      "B0009E3U4K"
+    ],
+    "reasons": [
+      {
+        "item_id": "B087NNPYP3",
+        "reason": "Highly rated Nintendo Switch game"
+      },
+      {
+        "item_id": "B071XXXK2X",
+        "reason": "Essential Joy-Con battery extension"
+      },
+      {
+        "item_id": "B09LTXBY4M",
+        "reason": "Connects GameCube controllers"
+      },
+      {
+        "item_id": "B000P46NKC",
+        "reason": "Classic Resident Evil experience"
+      },
+      {
+        "item_id": "B000N5Z2L4",
+        "reason": "Popular Xbox Live membership"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3558,
+    "completion_tokens": 324
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0061YFYDW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre, not Zelda-related."
+      },
+      {
+        "item_id": "B093H3381T",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00002ST9I",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Different genre, not Zelda-related."
+      },
+      {
+        "item_id": "B0007L8UJK",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different franchise, not Zelda-related."
+      },
+      {
+        "item_id": "B01BSQV64I",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre, not Zelda-related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 154
+  }
+}

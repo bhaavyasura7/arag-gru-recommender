@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09GYN7T42",
+      "B0086VPUHI",
+      "B01I59OFDU",
+      "B09TH6Y876",
+      "B00AEL9MFE",
+      "B00004R9AL",
+      "B000N5Z2L4",
+      "B00DROFY6Q",
+      "B07DK1XZ4M",
+      "B0BQMYZHV2",
+      "B00BGA9X9W",
+      "B003VUO6H4",
+      "B01EPP8X18",
+      "B00009WAVE",
+      "B0079V2XFS",
+      "B00PQ1OQ4Y",
+      "B00127S3A4",
+      "B08MLJ4M9Z",
+      "B000N5Z2L4",
+      "B00AYBVB44",
+      "B0B674L9F8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09GYN7T42",
+        "reason": "High-quality gaming mouse"
+      },
+      {
+        "item_id": "B0086VPUHI",
+        "reason": "Popular Xbox game"
+      },
+      {
+        "item_id": "B01I59OFDU",
+        "reason": "Classic horror game"
+      },
+      {
+        "item_id": "B09TH6Y876",
+        "reason": "Unique Switch accessory"
+      },
+      {
+        "item_id": "B00AEL9MFE",
+        "reason": "Customizable gaming mouse"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3761,
+    "completion_tokens": 335
+  }
+}

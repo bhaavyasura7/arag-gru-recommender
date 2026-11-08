@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B086LB3ZMG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Charger for PS4, not directly related."
+      },
+      {
+        "item_id": "B07C2M38SB",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "For Nintendo Switch, user prefers PS4."
+      },
+      {
+        "item_id": "B07D5G4KXJ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Switch accessory, not relevant."
+      },
+      {
+        "item_id": "B09LTYXWYD",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo Switch controller, user prefers PS4."
+      },
+      {
+        "item_id": "B000G1O7DE",
+        "label": "support",
+        "score": 8,
+        "rationale": "Directly supports user's PSP gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1373,
+    "completion_tokens": 168
+  }
+}

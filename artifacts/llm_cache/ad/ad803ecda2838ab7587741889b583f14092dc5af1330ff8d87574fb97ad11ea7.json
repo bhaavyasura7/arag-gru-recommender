@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09FT35L2H",
+      "B078KJHNNL",
+      "B08R7QCNBY",
+      "B11L3TYBBC",
+      "B07CNZJH97",
+      "B07YWHC9L4",
+      "B096XMZYGD",
+      "B07RZTX6VR",
+      "B001KC014W",
+      "B07H44FVB2",
+      "B07C2H3RD8",
+      "B07L5TX5TH",
+      "B00423JHCS",
+      "B01AX9COKQ",
+      "B0036CESCK",
+      "B09L3TYBBC",
+      "B07H44FVB2",
+      "B07CNZJH97",
+      "B00005QZVC",
+      "B01LX4I8H8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09FT35L2H",
+        "reason": "High-quality mechanical keyboard"
+      },
+      {
+        "item_id": "B078KJHNNL",
+        "reason": "Premium racing wheel experience"
+      },
+      {
+        "item_id": "B08R7QCNBY",
+        "reason": "Essential PS4 power supply"
+      },
+      {
+        "item_id": "B11L3TYBBC",
+        "reason": "Rechargeable PS4 controller"
+      },
+      {
+        "item_id": "B07CNZJH97",
+        "reason": "Complete Nintendo Switch bundle"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3547,
+    "completion_tokens": 326
+  }
+}

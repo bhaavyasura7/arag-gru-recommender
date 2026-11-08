@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07VFYBMTS",
+      "B07D4PK616",
+      "B07WR43KNR",
+      "B07MNTRX1R",
+      "B07JVT5J4V",
+      "B08T5J57DK",
+      "B08CG48XJ9",
+      "B07BZJ97ZG",
+      "B07D4R6QC3",
+      "B0765B12P6",
+      "B07F532TCN",
+      "B071H7XGNX",
+      "B071XTSK94",
+      "B07MNTX1R",
+      "B07D4PK616",
+      "B078TTKRGH",
+      "B011K4KH4I",
+      "B011K5O1JY",
+      "B0767N3Y2Q",
+      "B07MNTX1R",
+      "B00TDGST0U"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07VFYBMTS",
+        "reason": "16000 DPI, wireless, RGB features"
+      },
+      {
+        "item_id": "B07D4PK616",
+        "reason": "10000 DPI, RGB, programmable buttons"
+      },
+      {
+        "item_id": "B07WR43KNR",
+        "reason": "7200 DPI, ergonomic, RGB lighting"
+      },
+      {
+        "item_id": "B07MNTRX1R",
+        "reason": "7200 DPI, macro recording, RGB"
+      },
+      {
+        "item_id": "B07JVT5J4V",
+        "reason": "7200 DPI, ergonomic, RGB backlit"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 5229,
+    "completion_tokens": 356
+  }
+}

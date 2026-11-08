@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B09LMBRTWY",
+      "B11NY115LY",
+      "B0002VZX86",
+      "B20BKK1LVZ",
+      "B001EYUQ1Y",
+      "B00LYYN4MM",
+      "B004HZXEES",
+      "B0013VC5G2",
+      "B07KVHH7H4",
+      "B09Q93T261",
+      "B000UZXOQW",
+      "B076MKHK83",
+      "B008S2G7WM",
+      "B07NY115LY",
+      "B06XG1VYPR",
+      "B093KHDF9Y",
+      "B004HD55VK",
+      "B0002VZX86",
+      "B07M8KRMNK",
+      "B0013VC5G2",
+      "B0002VZX86"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09LMBRTWY",
+        "reason": "Large collection of retro games"
+      },
+      {
+        "item_id": "B11NY115LY",
+        "reason": "Classic games console appeal"
+      },
+      {
+        "item_id": "B0002VZX86",
+        "reason": "Nostalgic Atari game"
+      },
+      {
+        "item_id": "B20BKK1LVZ",
+        "reason": "Popular family-friendly platformer"
+      },
+      {
+        "item_id": "B001EYUQ1Y",
+        "reason": "Engaging platformer experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3478,
+    "completion_tokens": 328
+  }
+}

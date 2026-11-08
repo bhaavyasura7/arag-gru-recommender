@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01GHBJM72",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Fighting game, not user’s preference."
+      },
+      {
+        "item_id": "B0079V4FAY",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys strategic gameplay."
+      },
+      {
+        "item_id": "B00ZSDTIGG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B0B6CCNKD5",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo Switch case, user prefers Xbox."
+      },
+      {
+        "item_id": "B013LDTYI6",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Gaming mouse, not directly related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1341,
+    "completion_tokens": 157
+  }
+}

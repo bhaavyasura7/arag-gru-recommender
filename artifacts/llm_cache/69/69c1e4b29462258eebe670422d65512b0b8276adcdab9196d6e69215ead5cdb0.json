@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo Wii U accessories",
+      "Nintendo Switch accessories",
+      "video game protection gear",
+      "gaming carrying cases",
+      "charging solutions for consoles"
+    ],
+    "current_intent": "Looking for high-quality accessories for gaming consoles.",
+    "avoid": [
+      "low-rated products",
+      "non-gaming items",
+      "overpriced accessories"
+    ],
+    "summary": "User is a gaming enthusiast focused on quality accessories for Nintendo consoles, particularly the Wii U and Switch."
+  },
+  "usage": {
+    "prompt_tokens": 359,
+    "completion_tokens": 82
+  }
+}

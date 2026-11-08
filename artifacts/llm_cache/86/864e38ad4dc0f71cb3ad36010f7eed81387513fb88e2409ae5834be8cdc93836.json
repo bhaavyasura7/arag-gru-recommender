@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07NVHGY8P",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not directly related."
+      },
+      {
+        "item_id": "B00008NRM3",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, user prefers modern games."
+      },
+      {
+        "item_id": "B09QR6MX9V",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different console, user prefers Xbox."
+      },
+      {
+        "item_id": "B08DS8YC6L",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys sports games, hockey related."
+      },
+      {
+        "item_id": "B07GVPHYBG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming mouse, not directly related."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1258,
+    "completion_tokens": 156
+  }
+}

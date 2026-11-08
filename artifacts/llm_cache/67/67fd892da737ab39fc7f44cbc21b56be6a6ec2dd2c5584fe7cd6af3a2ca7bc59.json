@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00KWOSQC8",
+      "B00ANZR7X0",
+      "B19H815D9D",
+      "B00CISMP8M",
+      "B07YBWT3PK",
+      "B00BWBTJ4Y",
+      "B07GNDK3MQ",
+      "B0B99ZJCNC",
+      "B0BN2FNKLM",
+      "B00DTY9B0O",
+      "B00DC7G2W8",
+      "B0BG1FQWS3",
+      "B004D4YDPC",
+      "B08CW2M37L",
+      "B00BHRD4BM",
+      "B00ANZR7X0",
+      "B00009YEJV",
+      "B07KS74Q2X",
+      "B0B99ZJCNC",
+      "B00DC7G2W8"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KWOSQC8",
+        "reason": "Highly rated Pokémon game"
+      },
+      {
+        "item_id": "B00ANZR7X0",
+        "reason": "Classic Hitman series remastered"
+      },
+      {
+        "item_id": "B19H815D9D",
+        "reason": "Compatible with Nintendo Switch"
+      },
+      {
+        "item_id": "B00CISMP8M",
+        "reason": "Popular sports game"
+      },
+      {
+        "item_id": "B07YBWT3PK",
+        "reason": "Open-world RPG experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3464,
+    "completion_tokens": 332
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B007CM0K86",
+      "B0040Y1LT6",
+      "B08LBK5J49",
+      "B001EYUS2Q",
+      "B004G5YI3U",
+      "B00DJRLAZ0",
+      "B01MT1N4L0",
+      "B00000DMAQ",
+      "B008HPAXZ2",
+      "B00L3KU0S8",
+      "B003ZDOFF0",
+      "B00001XDUB",
+      "B00P1OYN0S",
+      "B00006JC46",
+      "B006VR689I",
+      "B007W5P8TE",
+      "B0009F3QSE",
+      "B005Z3DYPK",
+      "B00005V5N0",
+      "B001EYUS2Q"
+    ],
+    "reasons": [
+      {
+        "item_id": "B007CM0K86",
+        "reason": "Popular action-adventure game"
+      },
+      {
+        "item_id": "B0040Y1LT6",
+        "reason": "Useful accessory for gaming"
+      },
+      {
+        "item_id": "B08LBK5J49",
+        "reason": "Charger for Xbox controllers"
+      },
+      {
+        "item_id": "B001EYUS2Q",
+        "reason": "Classic RPG with choices"
+      },
+      {
+        "item_id": "B004G5YI3U",
+        "reason": "Engaging sci-fi action game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3770,
+    "completion_tokens": 326
+  }
+}

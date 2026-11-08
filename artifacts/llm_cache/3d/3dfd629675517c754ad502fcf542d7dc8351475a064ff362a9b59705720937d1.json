@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08VN8WBLQ",
+      "B012K122XU",
+      "B0090SZ7IC",
+      "B001EHD9JC",
+      "B001EYUQIC",
+      "B0050SY8UK",
+      "B0078J0O34",
+      "B003JVKHEQ",
+      "B004HKJCRQ",
+      "B0055464UQ",
+      "B001ELJE8I",
+      "B0050SZ7IC",
+      "B07YBXNPSZ",
+      "B08F4D36D9",
+      "B001EHD9JC",
+      "B005110Q0C",
+      "B002JTX9GM",
+      "B079ZGRDZH",
+      "B001EYUQIC",
+      "B0050SY8UK",
+      "B001ELJE8I"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08VN8WBLQ",
+        "reason": "Essential charging station for Xbox"
+      },
+      {
+        "item_id": "B012K122XU",
+        "reason": "High-quality wireless gaming headset"
+      },
+      {
+        "item_id": "B0090SZ7IC",
+        "reason": "Colorful Xbox 360 controller option"
+      },
+      {
+        "item_id": "B001EHD9JC",
+        "reason": "Popular LEGO Batman game"
+      },
+      {
+        "item_id": "B001EYUQIC",
+        "reason": "Realistic WWII tactical shooter"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3533,
+    "completion_tokens": 328
+  }
+}

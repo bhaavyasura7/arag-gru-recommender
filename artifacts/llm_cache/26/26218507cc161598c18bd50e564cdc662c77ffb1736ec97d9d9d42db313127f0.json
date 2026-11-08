@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0002MQG36",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers platformers, not shooters."
+      },
+      {
+        "item_id": "B0009VXBAQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo games, Wii compatible."
+      },
+      {
+        "item_id": "B0006B7DXA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B001EYUPHO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers platformers, not horror."
+      },
+      {
+        "item_id": "B07GCWJM78",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Xbox One, needs controllers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1079,
+    "completion_tokens": 161
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00K0NV5J2",
+      "B0791JHH78",
+      "B07WWSVDQZ",
+      "B08GPDDZX1",
+      "B081D2VMF8",
+      "B085C6QF3G",
+      "B19MP7ZZZP",
+      "B06ZZLNC88",
+      "B000063TQU",
+      "B08CDQJQLD",
+      "B001CZH71M",
+      "B0017XBO8G",
+      "B088WY3J3V",
+      "B009AWC30Y",
+      "B00BWFLSO4",
+      "B00005NN7H",
+      "B12C9BL3KM",
+      "B0CDGT413D",
+      "B0017XBO8G",
+      "B08K3NMS19",
+      "B000063TQU"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00K0NV5J2",
+        "reason": "Engaging narrative expansion"
+      },
+      {
+        "item_id": "B0791JHH78",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B07WWSVDQZ",
+        "reason": "Useful for multiplayer games"
+      },
+      {
+        "item_id": "B08GPDDZX1",
+        "reason": "Improves gameplay recording"
+      },
+      {
+        "item_id": "B081D2VMF8",
+        "reason": "Comfortable controller accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3282,
+    "completion_tokens": 332
+  }
+}

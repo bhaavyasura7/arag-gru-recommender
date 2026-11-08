@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00L4KZMDA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox games, not PS4."
+      },
+      {
+        "item_id": "B00009WKCM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in PS2 accessories."
+      },
+      {
+        "item_id": "B00ATJIRO8",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in Wii accessories."
+      },
+      {
+        "item_id": "B004GKMXPK",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User enjoys PC games, but not this genre."
+      },
+      {
+        "item_id": "B09GYN7T42",
+        "label": "support",
+        "score": 9,
+        "rationale": "User has positive history with Corsair mice."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1191,
+    "completion_tokens": 168
+  }
+}

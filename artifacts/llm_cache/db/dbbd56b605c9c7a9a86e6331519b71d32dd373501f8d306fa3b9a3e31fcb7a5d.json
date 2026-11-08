@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07BGYLS1L",
+      "B07HL5LWF1",
+      "B08T64C41K",
+      "B006QXO0GK",
+      "B07C5SMRZJ",
+      "B00ZP7UAM6",
+      "B07TJWQV9H",
+      "B07DC49XZ1",
+      "B00006LELK",
+      "B09156Z2H3",
+      "B07F29Z4R9",
+      "B07KQ558JJ",
+      "B07X3BFSTZ",
+      "B00BLZM2ZE",
+      "B07N6P3985",
+      "B07C5SMRZJ",
+      "B074L312C3",
+      "B00KFBRP5C",
+      "B07DC49XZ1",
+      "B07F29Z4R9",
+      "B0837MM7TX"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07BGYLS1L",
+        "reason": "High-quality graphics and gameplay"
+      },
+      {
+        "item_id": "B07HL5LWF1",
+        "reason": "Popular action RPG expansion"
+      },
+      {
+        "item_id": "B08T64C41K",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B006QXO0GK",
+        "reason": "Engaging horror-themed game"
+      },
+      {
+        "item_id": "B07C5SMRZJ",
+        "reason": "Protects valuable game cards"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3394,
+    "completion_tokens": 341
+  }
+}

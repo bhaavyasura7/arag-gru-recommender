@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004HD55VK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different genre than previous games."
+      },
+      {
+        "item_id": "B08C224N9P",
+        "label": "support",
+        "score": 8,
+        "rationale": "Racing game aligns with user interests."
+      },
+      {
+        "item_id": "B000BI3SIC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Classic RPG, not user’s preferred genre."
+      },
+      {
+        "item_id": "B07Z4YKVR8",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming headset complements user’s setup."
+      },
+      {
+        "item_id": "B0036CS9SO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Different gameplay style than user prefers."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1436,
+    "completion_tokens": 153
+  }
+}

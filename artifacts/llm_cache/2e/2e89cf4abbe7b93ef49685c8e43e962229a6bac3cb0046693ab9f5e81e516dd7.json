@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07H54S914",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers GameCube, not PS4."
+      },
+      {
+        "item_id": "B09JKCLXH6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in PS5 games."
+      },
+      {
+        "item_id": "B07M8QTLVV",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User's history doesn't include PS4 accessories."
+      },
+      {
+        "item_id": "B0043VDC9S",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, user may or may not like."
+      },
+      {
+        "item_id": "B00433468C",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User's history is not Nintendo DS focused."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1091,
+    "completion_tokens": 171
+  }
+}

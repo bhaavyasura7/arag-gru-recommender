@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0049H2W74",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Fishing game, not user’s preference."
+      },
+      {
+        "item_id": "B0076HD2W8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00T8F5VKW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "City simulation, different genre."
+      },
+      {
+        "item_id": "B00JA81WQE",
+        "label": "support",
+        "score": 7,
+        "rationale": "Memory card for PlayStation systems."
+      },
+      {
+        "item_id": "B00CJ9OTNE",
+        "label": "support",
+        "score": 8,
+        "rationale": "Popular game on PlayStation 3."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1224,
+    "completion_tokens": 156
+  }
+}

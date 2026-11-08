@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00064X50M",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games, not PC."
+      },
+      {
+        "item_id": "B000035XI5",
+        "label": "support",
+        "score": 8,
+        "rationale": "Classic game aligns with user's interests."
+      },
+      {
+        "item_id": "B07DFD6HDK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a console user, not a game."
+      },
+      {
+        "item_id": "B06Y5T4V3M",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "Not related to video games."
+      },
+      {
+        "item_id": "B00O27WPF0",
+        "label": "support",
+        "score": 7,
+        "rationale": "PlayStation 3 game matches user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 949,
+    "completion_tokens": 163
+  }
+}

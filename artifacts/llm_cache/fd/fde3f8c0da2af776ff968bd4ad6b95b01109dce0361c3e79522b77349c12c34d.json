@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07NLHN52M",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PlayStation Vita not in user history."
+      },
+      {
+        "item_id": "B082VX16VJ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances PlayStation 4 gaming experience."
+      },
+      {
+        "item_id": "B00EK5TWFA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PS3 accessory, user prefers PS4/Nintendo."
+      },
+      {
+        "item_id": "B009M72E5Q",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation over Nintendo."
+      },
+      {
+        "item_id": "B00QXJFDZO",
+        "label": "support",
+        "score": 7,
+        "rationale": "PlayStation 4 game aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1072,
+    "completion_tokens": 163
+  }
+}

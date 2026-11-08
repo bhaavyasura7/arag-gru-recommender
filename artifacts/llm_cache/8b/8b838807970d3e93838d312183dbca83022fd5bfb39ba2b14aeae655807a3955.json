@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000070MQM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC game, but different genre."
+      },
+      {
+        "item_id": "B017V6YVDC",
+        "label": "support",
+        "score": 8,
+        "rationale": "Online service for PlayStation games."
+      },
+      {
+        "item_id": "B01NBO0H44",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR game, different experience."
+      },
+      {
+        "item_id": "B079DR8CY6",
+        "label": "support",
+        "score": 7,
+        "rationale": "Controller for Nintendo Switch games."
+      },
+      {
+        "item_id": "B00B0O8DVI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Wii U controller, not directly relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 153
+  }
+}

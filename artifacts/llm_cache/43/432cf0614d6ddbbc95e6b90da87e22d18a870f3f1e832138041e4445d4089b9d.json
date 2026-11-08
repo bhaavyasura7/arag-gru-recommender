@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08YR8LFH3",
+      "B0B5CLRGM9",
+      "B08SKLZNZ4",
+      "B01E073CVW",
+      "B094Z97FN1",
+      "B12J4KEX9A",
+      "B08FC4XBY7",
+      "B08TM9QS3J",
+      "B09ZXX71C5",
+      "B09YHFQK84",
+      "B08HSLXCGT",
+      "B000GAAXT2",
+      "B08741VJ17",
+      "B004GUSJHQ",
+      "B009PJ3AOK",
+      "B01J4KEX9A",
+      "B08BG5DGSC",
+      "B09ZK72HQL",
+      "B12J4KEX9A",
+      "B08FC4XBY7",
+      "B08TM9QS3J"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08YR8LFH3",
+        "reason": "Comfortable head strap for Oculus Quest"
+      },
+      {
+        "item_id": "B0B5CLRGM9",
+        "reason": "Enhances VR gameplay experience"
+      },
+      {
+        "item_id": "B08SKLZNZ4",
+        "reason": "Ergonomic grip for VR controllers"
+      },
+      {
+        "item_id": "B01E073CVW",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B094Z97FN1",
+        "reason": "Compact mechanical gaming keyboard"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3681,
+    "completion_tokens": 343
+  }
+}

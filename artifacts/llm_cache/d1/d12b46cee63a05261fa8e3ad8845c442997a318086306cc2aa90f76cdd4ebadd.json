@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B06Y65LZMX",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox, not Switch."
+      },
+      {
+        "item_id": "B07S5YN1H9",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Xbox One interest."
+      },
+      {
+        "item_id": "B00005QX4K",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PC game, not user’s main interest."
+      },
+      {
+        "item_id": "4864423415",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers action games, not this."
+      },
+      {
+        "item_id": "B00DAP835G",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Legacy system, not user’s focus."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 944,
+    "completion_tokens": 160
+  }
+}

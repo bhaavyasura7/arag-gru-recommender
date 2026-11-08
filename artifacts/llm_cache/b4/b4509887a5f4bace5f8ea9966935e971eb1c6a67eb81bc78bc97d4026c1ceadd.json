@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0073ESZ58",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PC games, not PS Vita."
+      },
+      {
+        "item_id": "B07NR4FXFR",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Recording device, not directly related to games."
+      },
+      {
+        "item_id": "B0987C939C",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no VR gaming interest."
+      },
+      {
+        "item_id": "B0018RYC9Y",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar style to user's preferred games."
+      },
+      {
+        "item_id": "B00005Q8LR",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo game aligns with user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1350,
+    "completion_tokens": 159
+  }
+}

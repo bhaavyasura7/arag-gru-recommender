@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000WKUNIW",
+      "B008XN0F3S",
+      "B000RWHR5W",
+      "B00IOIHBX4",
+      "B084H5J2TP",
+      "B07SPKJRWX",
+      "B07VPXDHXL",
+      "B00005NP3Y",
+      "B00008Z4FZ",
+      "B0009FZQYQ",
+      "B000ENW5W4",
+      "B000YF9KW1",
+      "B01M07V5OS",
+      "B07BYSDLPS",
+      "B07J6S5RJ9",
+      "B000WKUNIW",
+      "B000RWHR5W",
+      "B07VPXDHXL",
+      "B079RZGLQQ",
+      "B08ZTZ7YLH"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000WKUNIW",
+        "reason": "Classic RPG with immersive story"
+      },
+      {
+        "item_id": "B008XN0F3S",
+        "reason": "Cult classic RPG experience"
+      },
+      {
+        "item_id": "B000RWHR5W",
+        "reason": "Value pack of RPG games"
+      },
+      {
+        "item_id": "B00IOIHBX4",
+        "reason": "Strategic RPG with rich lore"
+      },
+      {
+        "item_id": "B084H5J2TP",
+        "reason": "Narrative-driven sci-fi RPG"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3121,
+    "completion_tokens": 328
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "classic video games",
+      "Nintendo franchises",
+      "multiplayer gaming",
+      "platformers",
+      "racing games"
+    ],
+    "current_intent": "looking for more Nintendo games to play",
+    "avoid": [
+      "single-player games",
+      "non-Nintendo titles",
+      "complex strategy games"
+    ],
+    "summary": "The user enjoys classic Nintendo games, particularly multiplayer titles, and seeks similar experiences."
+  },
+  "usage": {
+    "prompt_tokens": 266,
+    "completion_tokens": 72
+  }
+}

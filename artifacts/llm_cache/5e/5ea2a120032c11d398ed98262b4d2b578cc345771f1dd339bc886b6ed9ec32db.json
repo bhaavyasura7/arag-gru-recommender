@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000ZVVYOU",
+      "B089M2FPMZ",
+      "B0B2MN7H4S",
+      "B000ZKJPXS",
+      "B07V38PT55",
+      "B19MN7LDDN",
+      "B19CWV92RS",
+      "B00009X3VG",
+      "B008H3QCYU",
+      "B006JKARU8",
+      "B00062VOSE",
+      "B00E67D096",
+      "B0123PBHHE",
+      "B00006B5T8",
+      "B00001QERU",
+      "B087BV4FDP",
+      "B000GURH7EO",
+      "B000ZKJPXS",
+      "B07C3PV1PX",
+      "B00009X3VG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B089M2FPMZ",
+        "reason": "Action-adventure game for Xbox"
+      },
+      {
+        "item_id": "B0B2MN7H4S",
+        "reason": "Nintendo Switch action-adventure bundle"
+      },
+      {
+        "item_id": "B000ZKJPXS",
+        "reason": "PS3 controller for extended gameplay"
+      },
+      {
+        "item_id": "B07V38PT55",
+        "reason": "Racing wheel stand for better control"
+      },
+      {
+        "item_id": "B19MN7LDDN",
+        "reason": "LED light strip for gaming setup"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3697,
+    "completion_tokens": 330
+  }
+}

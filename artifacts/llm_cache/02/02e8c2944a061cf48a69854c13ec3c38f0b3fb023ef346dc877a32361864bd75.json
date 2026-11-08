@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07D5M7SNW",
+      "B00ANZR7X0",
+      "B18R4TZBFF",
+      "B002I0HCNI",
+      "B000ZK695U",
+      "B00E8CF268",
+      "B000HCQK0A",
+      "B07D3N7JTY",
+      "B0029F2FB6",
+      "B07MWB5YJW",
+      "B00KG3W8X8",
+      "B07T4JL1BM",
+      "B004DI5H26",
+      "B00BGA9X9W",
+      "B08CL92HPG",
+      "B003V4AK8E",
+      "B00EV0CQZC",
+      "B000MAFXR8",
+      "B002I0HCNI",
+      "B07R4TZBFF",
+      "B00E8CF268"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07D5M7SNW",
+        "reason": "Renewed PS4 console purchase"
+      },
+      {
+        "item_id": "B00ANZR7X0",
+        "reason": "Popular PS3 game collection"
+      },
+      {
+        "item_id": "B18R4TZBFF",
+        "reason": "Essential PS4 controller accessory"
+      },
+      {
+        "item_id": "B002I0HCNI",
+        "reason": "Enhanced PS3 controller experience"
+      },
+      {
+        "item_id": "B000ZK695U",
+        "reason": "Classic PS3 game for nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3879,
+    "completion_tokens": 344
+  }
+}

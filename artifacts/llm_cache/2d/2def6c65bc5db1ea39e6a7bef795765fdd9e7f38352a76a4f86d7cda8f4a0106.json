@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00103HXI8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Older game, not directly related."
+      },
+      {
+        "item_id": "B00O7O0R6C",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B08KNN9VH2",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00NZA1RY0",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00H3YS4YU",
+        "label": "support",
+        "score": 7,
+        "rationale": "Related game on PlayStation Vita."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 153
+  }
+}

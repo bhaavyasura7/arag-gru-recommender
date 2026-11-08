@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B072K5LN6P",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "VR game, not directly related."
+      },
+      {
+        "item_id": "B0B38RR7NB",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Nintendo Switch."
+      },
+      {
+        "item_id": "B0090QQL2Q",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox 360 skin, not relevant."
+      },
+      {
+        "item_id": "B0BXSHJPTB",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Gaming mouse, not console specific."
+      },
+      {
+        "item_id": "B096XNVT3S",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with PS4 and Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1538,
+    "completion_tokens": 156
+  }
+}

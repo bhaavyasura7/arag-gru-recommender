@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008EMXQQG",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Variety may not match preferences."
+      },
+      {
+        "item_id": "B00JY7GMS4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Hidden object games not indicated."
+      },
+      {
+        "item_id": "B0001B6QBU",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system, not preferred by user."
+      },
+      {
+        "item_id": "B00IN6PETA",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Controller not directly related to interests."
+      },
+      {
+        "item_id": "B0791VHPS1",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Protector case not relevant to gameplay."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 898,
+    "completion_tokens": 158
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01FWYIYNI",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Charger not directly related to gaming."
+      },
+      {
+        "item_id": "B00BHRD4BM",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation games."
+      },
+      {
+        "item_id": "B000B6ML3W",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PlayStation over Xbox."
+      },
+      {
+        "item_id": "B08TG138F1",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User does not show interest in Nintendo."
+      },
+      {
+        "item_id": "B003UV8OPO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC game not aligned with console preference."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1075,
+    "completion_tokens": 159
+  }
+}

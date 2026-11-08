@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00001LDBV",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers combat games, not racing."
+      },
+      {
+        "item_id": "B01953YZ0S",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User shows no interest in baseball games."
+      },
+      {
+        "item_id": "B089MV3BYN",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre, but still a video game."
+      },
+      {
+        "item_id": "B00A7QA0N4",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in golf."
+      },
+      {
+        "item_id": "B00000K57P",
+        "label": "support",
+        "score": 8,
+        "rationale": "Similar combat theme to user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1200,
+    "completion_tokens": 163
+  }
+}

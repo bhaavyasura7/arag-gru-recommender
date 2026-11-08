@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B19WLT1C27",
+      "B09P17SD51",
+      "B17W5PG5U",
+      "B00Z9TM72Q",
+      "B006ZN65BY",
+      "B004HD55VK",
+      "B0036CS9SO",
+      "B0128UH1VU",
+      "B007W5PG5U",
+      "B008CP6MA2",
+      "B0002HDSZ0",
+      "B0BFKZMHRL",
+      "B000LSJKAM",
+      "B001JKTC9A",
+      "B000BI3SIC",
+      "B002DLOM6C",
+      "B0002HDSZ0",
+      "B00BQVXUOA",
+      "B008CP6MA2",
+      "B0002HDSZ0"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07WLT1C27",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B09P17SD51",
+        "reason": "PS5 controller upgrade kit"
+      },
+      {
+        "item_id": "B007W5PG5U",
+        "reason": "Popular racing game"
+      },
+      {
+        "item_id": "B00Z9TM72Q",
+        "reason": "First-person shooter game"
+      },
+      {
+        "item_id": "B006ZN65BY",
+        "reason": "Legacy system game collection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3636,
+    "completion_tokens": 316
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0069VWDCM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Fighting games not heavily featured."
+      },
+      {
+        "item_id": "B00006L7A1",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers higher-rated games."
+      },
+      {
+        "item_id": "B00HZI3TGC",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys strategy games like XCOM."
+      },
+      {
+        "item_id": "B00KLXU8TO",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has mixed interest in RPGs."
+      },
+      {
+        "item_id": "B00W1SXH6S",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User likes fighting games but not consistently."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1772,
+    "completion_tokens": 159
+  }
+}

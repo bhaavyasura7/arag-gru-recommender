@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001EYUNO4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not aligned with user's interests."
+      },
+      {
+        "item_id": "B082L536MN",
+        "label": "support",
+        "score": 8,
+        "rationale": "High interest in PlayStation products."
+      },
+      {
+        "item_id": "B08NJTHY3G",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game."
+      },
+      {
+        "item_id": "B00005QIR5",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different genre than preferred games."
+      },
+      {
+        "item_id": "B0C1BNQ92Z",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Accessory for a different console."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1119,
+    "completion_tokens": 149
+  }
+}

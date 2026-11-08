@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07624RBWB",
+      "B004HILZUA",
+      "B018K6KV68",
+      "B00GOZSR96",
+      "B07HYCZ68N",
+      "B07ZHZBYCJ",
+      "B12BWMMR9G",
+      "B07MGC3XWK",
+      "B00O9GW8TC",
+      "B09H41CRHK",
+      "B077SN7QN3",
+      "B001EYUXHG",
+      "B0052J8FS8",
+      "B08WQ75YMZ",
+      "B001EYUW6I",
+      "B0BW8N6X48",
+      "B07C2XYDW8",
+      "B07HYCZ68N",
+      "B07C2XYDW8",
+      "B07MGC3XWK",
+      "B001EYUXHG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07624RBWB",
+        "reason": "Best for Nintendo gaming experience"
+      },
+      {
+        "item_id": "B004HILZUA",
+        "reason": "Crash Bandicoot series game"
+      },
+      {
+        "item_id": "B018K6KV68",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B00GOZSR96",
+        "reason": "Popular PS4 game title"
+      },
+      {
+        "item_id": "B07HYCZ68N",
+        "reason": "Essential PS2 memory card"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3753,
+    "completion_tokens": 330
+  }
+}

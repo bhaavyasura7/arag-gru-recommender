@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0BMWQLF3V",
+      "B19D7PQJRP",
+      "B08RDZGDYG",
+      "B07T62NYDD",
+      "B09TQJS8QH",
+      "B006NZ4ALQ",
+      "B001EYUNYY",
+      "B0C4PNVCT2",
+      "B0B25G8XWQ",
+      "B07D7PQJRP",
+      "B00EE1H2UC",
+      "B000ZPPPKU",
+      "B0771FCV5B",
+      "B09CKBCBWD",
+      "B06XPYNGLP",
+      "B0B25G8XWQ",
+      "B00VF5J6IG",
+      "B01M1UPITT",
+      "B0919N3H4X",
+      "B008QRVPQW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0BMWQLF3V",
+        "reason": "High-quality wireless gaming headset"
+      },
+      {
+        "item_id": "B19D7PQJRP",
+        "reason": "Essential Xbox controller replacement parts"
+      },
+      {
+        "item_id": "B08RDZGDYG",
+        "reason": "Non-slip grips for PS5 controller"
+      },
+      {
+        "item_id": "B07T62NYDD",
+        "reason": "Comfortable PS4 controller grip cover"
+      },
+      {
+        "item_id": "B09TQJS8QH",
+        "reason": "Adapter for keyboard and mouse gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3538,
+    "completion_tokens": 338
+  }
+}

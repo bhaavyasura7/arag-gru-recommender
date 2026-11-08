@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08QR5PTRP",
+      "B096ZNFR43",
+      "B07XFDH4HT",
+      "B08JM76KN1",
+      "B12LXK5ZDG",
+      "B001N5CQH6",
+      "B08ZJ43C6T",
+      "B071GPJSBL",
+      "B001DZF36M",
+      "B00005NCER",
+      "B000VIDSUK",
+      "B001EYUUZ6",
+      "B079QSM9Z8",
+      "B06WLLSYR7",
+      "B00GCPB0OM",
+      "B000034DEB",
+      "B00002SV46",
+      "B00CWTXONM",
+      "B001N5CQH6",
+      "B07D9KX2WV"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08QR5PTRP",
+        "reason": "Essential charging solution for Switch"
+      },
+      {
+        "item_id": "B096ZNFR43",
+        "reason": "Golf grip enhances gaming experience"
+      },
+      {
+        "item_id": "B07XFDH4HT",
+        "reason": "Popular racing game for Switch"
+      },
+      {
+        "item_id": "B08JM76KN1",
+        "reason": "High-quality gaming mouse for PC"
+      },
+      {
+        "item_id": "B12LXK5ZDG",
+        "reason": "Remastered classic for PS4"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3514,
+    "completion_tokens": 321
+  }
+}

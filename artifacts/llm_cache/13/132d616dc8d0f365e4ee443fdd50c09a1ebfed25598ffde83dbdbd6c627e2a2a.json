@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo Switch accessories",
+      "Video game controllers",
+      "Charging docks",
+      "Gaming bundles",
+      "Portable gaming gear"
+    ],
+    "current_intent": "Looking for more Nintendo Switch accessories or games.",
+    "avoid": [
+      "Non-gaming products",
+      "Low-quality accessories",
+      "Overpriced items"
+    ],
+    "summary": "User is a Nintendo Switch enthusiast focused on high-quality accessories and gaming gear."
+  },
+  "usage": {
+    "prompt_tokens": 359,
+    "completion_tokens": 72
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001EYUQT6",
+      "B083MN9X6W",
+      "B083TYGFZC",
+      "B07M8HN8XK",
+      "B07YPTMRHX",
+      "B006LR5KQK",
+      "B000EQFVJ0",
+      "B08FQTXV82",
+      "B018WFSX0S",
+      "B000CBCX52",
+      "B00839422C",
+      "B07GSB84R8",
+      "B000068I7T",
+      "B00006409H",
+      "B07TF86B47",
+      "B002KN32XW",
+      "B19HIUXFP6",
+      "B08JGD74NB",
+      "B07M8HN8XK",
+      "B000068I7T"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001EYUQT6",
+        "reason": "Popular first-person shooter title"
+      },
+      {
+        "item_id": "B083MN9X6W",
+        "reason": "Essential gaming accessory for FPS"
+      },
+      {
+        "item_id": "B083TYGFZC",
+        "reason": "Comfortable headset for gaming"
+      },
+      {
+        "item_id": "B07M8HN8XK",
+        "reason": "Enhances controller performance"
+      },
+      {
+        "item_id": "B07YPTMRHX",
+        "reason": "Custom skin for Xbox One"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2912,
+    "completion_tokens": 318
+  }
+}

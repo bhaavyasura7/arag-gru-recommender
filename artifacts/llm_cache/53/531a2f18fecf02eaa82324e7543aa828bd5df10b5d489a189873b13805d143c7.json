@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00U1WN17G",
+        "label": "support",
+        "score": 8,
+        "rationale": "Matches Xbox One console preference."
+      },
+      {
+        "item_id": "B0B2TD1WPQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo Switch not aligned with interests."
+      },
+      {
+        "item_id": "B01DWTIE3A",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller accessory, not directly relevant."
+      },
+      {
+        "item_id": "B07QFR15LL",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Nintendo Switch accessory, not relevant."
+      },
+      {
+        "item_id": "B00006FDLR",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, not aligned with console preference."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1296,
+    "completion_tokens": 160
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B007OAGLSO",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B003IPCF02",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo games."
+      },
+      {
+        "item_id": "B00DC7G2W8",
+        "label": "support",
+        "score": 10,
+        "rationale": "Directly related to user's interests."
+      },
+      {
+        "item_id": "B00DDILSBG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Different platform, but popular franchise."
+      },
+      {
+        "item_id": "B07P77CLG1",
+        "label": "support",
+        "score": 8,
+        "rationale": "Accessory for Nintendo Switch, relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1185,
+    "completion_tokens": 151
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B099N7Z2BJ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PS Vita not in user history."
+      },
+      {
+        "item_id": "B094D3QFPS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC gaming not indicated in history."
+      },
+      {
+        "item_id": "B00006IJHZ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Xbox game aligns with user interests."
+      },
+      {
+        "item_id": "B01E5JL05U",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Nintendo system not in user history."
+      },
+      {
+        "item_id": "B005CWGGEA",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "No specific interest in this game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1163,
+    "completion_tokens": 153
+  }
+}

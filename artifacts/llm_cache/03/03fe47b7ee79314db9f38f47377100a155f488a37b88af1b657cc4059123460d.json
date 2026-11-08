@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08YR8LFH3",
+      "B009C9DPUW",
+      "B08P1C7F1Q",
+      "B19G4FDHT7",
+      "B00BGAA3S2",
+      "B01MS6WG9S",
+      "B0055202HE",
+      "B01KX8ETK0",
+      "B07DPK5NPD",
+      "B00KIWEMIG",
+      "B07WWK48DV",
+      "B006912EXA",
+      "B006JKAS16",
+      "B00FXOP1JI",
+      "B002I096AA",
+      "B00EN9Q8G4",
+      "B01KX8ETK0",
+      "B00FXOP1JI",
+      "B00BGAA3S2",
+      "B001REZLXO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08YR8LFH3",
+        "reason": "Comfortable VR head strap upgrade"
+      },
+      {
+        "item_id": "B009C9DPUW",
+        "reason": "Unique bullet button customization"
+      },
+      {
+        "item_id": "B08P1C7F1Q",
+        "reason": "Ergonomic controller skin for comfort"
+      },
+      {
+        "item_id": "B19G4FDHT7",
+        "reason": "High-quality mechanical gaming keyboard"
+      },
+      {
+        "item_id": "B00BGAA3S2",
+        "reason": "Versatile camera for PS4 interaction"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3874,
+    "completion_tokens": 335
+  }
+}

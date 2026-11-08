@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B08MVSK2Y4",
+      "B08BGPTPS2",
+      "B076ZPW7R2",
+      "B006MBZZSI",
+      "B08DKXRH9D",
+      "B001262U54",
+      "B00006LJHF",
+      "B00YXOYHVM",
+      "B19FLJCNTX",
+      "B004EDIO98",
+      "B002JTX9XU",
+      "B078NYPPM9",
+      "B006AKVX1E",
+      "B07JW5HRN7",
+      "B08BRM3N53",
+      "B07FLJCNTX",
+      "B08L8MF26C",
+      "B0051VE6SU",
+      "B07JW5HRN7",
+      "B08BGPTPS2",
+      "B08MVSK2Y4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08MVSK2Y4",
+        "reason": "Portable monitor for gaming"
+      },
+      {
+        "item_id": "B08BGPTPS2",
+        "reason": "PlayStation kart racing game"
+      },
+      {
+        "item_id": "B076ZPW7R2",
+        "reason": "Action RPG for PlayStation 4"
+      },
+      {
+        "item_id": "B006MBZZSI",
+        "reason": "Popular RPG sequel on PlayStation"
+      },
+      {
+        "item_id": "B08DKXRH9D",
+        "reason": "High-quality gaming accessory"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3531,
+    "completion_tokens": 331
+  }
+}

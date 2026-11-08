@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B18SC46N9J",
+      "B01LY0NFAN",
+      "B07WTWBLWZ",
+      "B007PIXWMS",
+      "B08MVQCSV5",
+      "B0000C6EDK",
+      "B0012BXJDQ",
+      "B07J2SC9ZG",
+      "B06HJVDXYB",
+      "B01NAFZ77D",
+      "B07Q5WHPSV",
+      "B003P0X5Y0",
+      "B00JH4S69W",
+      "B07DCZJ297",
+      "B08HJVDXYB",
+      "B00CA5FJPE",
+      "B0793C434Z",
+      "B000P5BSUQ",
+      "B075VK2Z7C",
+      "B0B7RQQTXQ",
+      "B082G2T6HM"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08SC46N9J",
+        "reason": "Compatible with Nintendo Switch models"
+      },
+      {
+        "item_id": "B01LY0NFAN",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B07WTWBLWZ",
+        "reason": "Portable wireless gamepad"
+      },
+      {
+        "item_id": "B007PIXWMS",
+        "reason": "Replacement parts for Xbox controller"
+      },
+      {
+        "item_id": "B08MVQCSV5",
+        "reason": "VR headset storage and charging station"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3284,
+    "completion_tokens": 336
+  }
+}

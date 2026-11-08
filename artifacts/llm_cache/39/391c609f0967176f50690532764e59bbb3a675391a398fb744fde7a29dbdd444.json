@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0079V4GK8",
+      "B00USM22DI",
+      "B001E53N36",
+      "B017QU5KLK",
+      "B00657AVMO",
+      "B08SMFZLB6",
+      "B0118GJKIW",
+      "B0041T4MTG",
+      "B00F4WM1XS",
+      "B078NB6TWZ",
+      "B001FRTK4O",
+      "B00KVOVBGM",
+      "B076ZPW7R2",
+      "B009AGXH64",
+      "B08FX5QKGD",
+      "B00UZEIKJY",
+      "B000OAO188",
+      "B00CNY4YTZ",
+      "B00USM22DI",
+      "B009GE437W"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0079V4GK8",
+        "reason": "Strong narrative and action gameplay"
+      },
+      {
+        "item_id": "B00USM22DI",
+        "reason": "Engaging story-driven action"
+      },
+      {
+        "item_id": "B001E53N36",
+        "reason": "Unique story and action elements"
+      },
+      {
+        "item_id": "B017QU5KLK",
+        "reason": "Multiplayer and action-focused"
+      },
+      {
+        "item_id": "B00657AVMO",
+        "reason": "Strategy but engaging world-building"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3750,
+    "completion_tokens": 318
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09J875ZPG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no Nintendo Switch interest."
+      },
+      {
+        "item_id": "B002SCQ624",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for legacy systems, not preferred."
+      },
+      {
+        "item_id": "B007CM0K86",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation games, highly rated."
+      },
+      {
+        "item_id": "B0BGB7VPGK",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "VR accessory, user hasn't shown interest."
+      },
+      {
+        "item_id": "B00NW6T6CC",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming mouse fits user’s gaming profile."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1516,
+    "completion_tokens": 159
+  }
+}

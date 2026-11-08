@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "classic video games",
+      "action-adventure games",
+      "Nintendo titles",
+      "retro gaming",
+      "game accessories"
+    ],
+    "current_intent": "looking for new gaming accessories or titles",
+    "avoid": [
+      "horror games",
+      "highly competitive games",
+      "mobile games"
+    ],
+    "summary": "User enjoys classic and retro video games, particularly from Nintendo, and is currently interested in gaming accessories or new titles to enhance their collection."
+  },
+  "usage": {
+    "prompt_tokens": 1599,
+    "completion_tokens": 82
+  }
+}

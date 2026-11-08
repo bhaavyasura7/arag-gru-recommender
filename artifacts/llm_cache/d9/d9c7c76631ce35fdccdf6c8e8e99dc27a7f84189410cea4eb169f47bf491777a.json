@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01GY35HKE",
+      "B001EYUQ8M",
+      "B000E31QEC",
+      "B19LTXRNCC",
+      "B006PP404Q",
+      "B001G605V6",
+      "B07PZ8NZSZ",
+      "B072M6WZSY",
+      "B01N6QPWBV",
+      "B001EYUO4S",
+      "B002I08CSW",
+      "B07KXXB8JR",
+      "B005TH6BD4",
+      "B14X6481D4",
+      "B00BS520SG",
+      "B071JPNC4C",
+      "B002X36HPY",
+      "B00KQHHDZC",
+      "B079ZV4GX9",
+      "B011AH9A16"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01GY35HKE",
+        "reason": "Engaging RPG with additional content"
+      },
+      {
+        "item_id": "B001EYUQ8M",
+        "reason": "Immersive action-adventure experience"
+      },
+      {
+        "item_id": "B000E31QEC",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B19LTXRNCC",
+        "reason": "Unique action-adventure gameplay"
+      },
+      {
+        "item_id": "B006PP404Q",
+        "reason": "Protective accessory for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3577,
+    "completion_tokens": 323
+  }
+}

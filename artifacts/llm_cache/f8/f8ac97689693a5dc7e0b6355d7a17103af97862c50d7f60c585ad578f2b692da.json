@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07YGTBD3V",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar genre, but no strong preference."
+      },
+      {
+        "item_id": "B000ENW5W4",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys MMORPGs and Final Fantasy."
+      },
+      {
+        "item_id": "B00115CNMG",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Superhero genre, less relevant to history."
+      },
+      {
+        "item_id": "B0058LLJL0",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has positive history with Final Fantasy."
+      },
+      {
+        "item_id": "1398505935",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not a video game, unrelated to interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1950,
+    "completion_tokens": 158
+  }
+}

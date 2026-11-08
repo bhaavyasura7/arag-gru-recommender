@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08FQTXV82",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Wii accessory, not in user history."
+      },
+      {
+        "item_id": "B083MN9X6W",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Pedal stand, not directly relevant."
+      },
+      {
+        "item_id": "B001EYUQT6",
+        "label": "support",
+        "score": 8,
+        "rationale": "Call of Duty game, matches interests."
+      },
+      {
+        "item_id": "B07YPTMRHX",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Star Wars skin, not a game."
+      },
+      {
+        "item_id": "B000CBCX52",
+        "label": "support",
+        "score": 7,
+        "rationale": "Vietnam game, aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1168,
+    "completion_tokens": 155
+  }
+}

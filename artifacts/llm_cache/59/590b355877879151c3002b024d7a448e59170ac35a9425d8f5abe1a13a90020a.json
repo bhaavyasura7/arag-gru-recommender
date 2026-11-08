@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BS5GV9VV",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers PC gaming accessories."
+      },
+      {
+        "item_id": "B072F43DLR",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in Disney."
+      },
+      {
+        "item_id": "B07R7LC8LY",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes gaming headsets."
+      },
+      {
+        "item_id": "B07G7GPS32",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Not relevant to user's interests."
+      },
+      {
+        "item_id": "B0797YP2NS",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "Not relevant to user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1116,
+    "completion_tokens": 153
+  }
+}

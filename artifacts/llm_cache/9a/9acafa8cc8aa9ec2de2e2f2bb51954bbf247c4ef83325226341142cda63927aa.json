@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B006C4B9I0",
+      "B08G8BYXR3",
+      "B085Y8GWCT",
+      "B00008KTPN",
+      "B01M683C4O",
+      "B002JTX7KA",
+      "B00004ZBQJ",
+      "B073ZLZ9X9",
+      "B005T4S0OA",
+      "B00008ZLHK",
+      "B00DH1EFD2",
+      "B01DJD5F7C",
+      "B0000C88HW",
+      "B00WPKQY5S",
+      "B006RALA88",
+      "B077BSBXPK",
+      "B002G9U72Y",
+      "B00H8NKMJG",
+      "B00008ZLHK",
+      "B06ZYRZMBX"
+    ],
+    "reasons": [
+      {
+        "item_id": "B006C4B9I0",
+        "reason": "Nintendo 3DS with popular game"
+      },
+      {
+        "item_id": "B08G8BYXR3",
+        "reason": "Joy Con charging station for Switch"
+      },
+      {
+        "item_id": "B085Y8GWCT",
+        "reason": "Protective case for Switch Lite"
+      },
+      {
+        "item_id": "B00008KTPN",
+        "reason": "Classic Nintendo Game Boy Advance title"
+      },
+      {
+        "item_id": "B01M683C4O",
+        "reason": "Digital game for Nintendo 3DS"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3319,
+    "completion_tokens": 336
+  }
+}

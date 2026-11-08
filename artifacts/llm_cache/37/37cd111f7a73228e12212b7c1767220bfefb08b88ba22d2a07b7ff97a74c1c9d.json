@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B008J16AGA",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B0017Q4DGI",
+        "label": "support",
+        "score": 7,
+        "rationale": "Nintendo game aligns with user preferences."
+      },
+      {
+        "item_id": "B00K278H60",
+        "label": "support",
+        "score": 6,
+        "rationale": "Nintendo accessory fits user gaming style."
+      },
+      {
+        "item_id": "B09DDZHZF6",
+        "label": "support",
+        "score": 8,
+        "rationale": "Minecraft Dungeons appeals to user interests."
+      },
+      {
+        "item_id": "B000YDIYFG",
+        "label": "support",
+        "score": 7,
+        "rationale": "Family-friendly game matches user gaming history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1153,
+    "completion_tokens": 152
+  }
+}

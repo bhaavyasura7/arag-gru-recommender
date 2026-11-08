@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0C34DJS6C",
+      "B01M11LKCE",
+      "B0C39GFK7P",
+      "B19Q0AT44",
+      "B074HBNNH6",
+      "B001EYUSJ4",
+      "B001G7PRM2",
+      "B017QU5KLK",
+      "B0BZNL6P27",
+      "B001BKMT16",
+      "B00GMPJKDA",
+      "B071CK7P1L",
+      "B0087ACBAW",
+      "B075YP1CTH",
+      "B002EQFXZA",
+      "B01H482N6E",
+      "B0028Y4PUW",
+      "B00B7200M8",
+      "B001BKMT16",
+      "B001G7PRM2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0C34DJS6C",
+        "reason": "High-quality mechanical keyboard"
+      },
+      {
+        "item_id": "B01M11LKCE",
+        "reason": "Popular RPG game series"
+      },
+      {
+        "item_id": "B0C39GFK7P",
+        "reason": "Large gaming mouse pad"
+      },
+      {
+        "item_id": "B074HBNNH6",
+        "reason": "Wireless controller for retro gaming"
+      },
+      {
+        "item_id": "B001EYUSJ4",
+        "reason": "Action RPG with great reviews"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3816,
+    "completion_tokens": 321
+  }
+}

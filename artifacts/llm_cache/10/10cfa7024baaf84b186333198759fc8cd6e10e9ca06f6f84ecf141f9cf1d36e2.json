@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00DDILSBG",
+      "B00RZ7TC6Y",
+      "B00BGA9WK2",
+      "B00M3D8LCG",
+      "B07895QZBF",
+      "B00B7UHWB2",
+      "B0095CZL8A",
+      "B003ZRZVW2",
+      "B0BVVTQ5JP",
+      "B00XV2D37G",
+      "B00006FXJ4",
+      "B00005QEFG",
+      "B00UH9DN58",
+      "B00B7UHWB2",
+      "B00RZ7TC6Y",
+      "B00BGA9WK2",
+      "B00M3D8LCG",
+      "B001EYUPHO",
+      "B00006FXJ4",
+      "B00B7UHWB2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00DDILSBG",
+        "reason": "Popular RPG with nostalgic elements"
+      },
+      {
+        "item_id": "B00RZ7TC6Y",
+        "reason": "Essential accessory for Nintendo 3DS"
+      },
+      {
+        "item_id": "B00BGA9WK2",
+        "reason": "High-performance gaming mouse"
+      },
+      {
+        "item_id": "B07895QZBF",
+        "reason": "Engaging post-apocalyptic RPG"
+      },
+      {
+        "item_id": "B00B7UHWB2",
+        "reason": "Classic horror game with nostalgia"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3864,
+    "completion_tokens": 333
+  }
+}

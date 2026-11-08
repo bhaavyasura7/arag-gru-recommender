@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00LV416KC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B001EYUY3Y",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in Gamecube."
+      },
+      {
+        "item_id": "B07QWWCC4L",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own a Wii U."
+      },
+      {
+        "item_id": "B00000I1BE",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox games, not Nintendo."
+      },
+      {
+        "item_id": "B08RMSFBKM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Generic controller, not specific to Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1283,
+    "completion_tokens": 163
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B015XC3B46",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers Xbox and Nintendo products."
+      },
+      {
+        "item_id": "B07HC4ZD3B",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has Nintendo Switch interests."
+      },
+      {
+        "item_id": "B0CB9X91BP",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no PS5 related purchases."
+      },
+      {
+        "item_id": "B00PGLF7G0",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has Xbox gaming interests."
+      },
+      {
+        "item_id": "B0BDLHBZXV",
+        "label": "support",
+        "score": 8,
+        "rationale": "User has Nintendo Switch accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1631,
+    "completion_tokens": 153
+  }
+}

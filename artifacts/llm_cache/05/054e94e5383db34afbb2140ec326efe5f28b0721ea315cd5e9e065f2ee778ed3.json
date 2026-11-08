@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001G7PSOE",
+      "B0035G08DK",
+      "B00002SU3F",
+      "B00004R9FY",
+      "B000EVGXLU",
+      "B00002ST56",
+      "B001ELJF8W",
+      "B08F86ZDRV",
+      "B07L5NBTSB",
+      "B08N13QYXF",
+      "B000SQ5LM8",
+      "B07WF9LCJV",
+      "B0006HHHBW",
+      "B000OQEIB48",
+      "B01NBMMP9L",
+      "B078JW2MRX",
+      "B07SPHVDL5",
+      "B01MQTSDWG",
+      "B00002SU3F",
+      "B0BXFYD8NH"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001G7PSOE",
+        "reason": "Classic PlayStation game experience"
+      },
+      {
+        "item_id": "B0035G08DK",
+        "reason": "Engaging mystery for Wii"
+      },
+      {
+        "item_id": "B00002SU3F",
+        "reason": "N64 retro racing fun"
+      },
+      {
+        "item_id": "B00004R9FY",
+        "reason": "Nostalgic Sega Game Gear title"
+      },
+      {
+        "item_id": "B000EVGXLU",
+        "reason": "Fun educational game for kids"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3445,
+    "completion_tokens": 319
+  }
+}

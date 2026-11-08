@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B19GY369GA",
+      "B08D3XL1KF",
+      "B0032C9V7G",
+      "B00LMHT560",
+      "B0000D12XI",
+      "B007X5103Q",
+      "B0017ZIIK6",
+      "B005FDUSTA",
+      "B000NDFFFE",
+      "B00DE2W4PK",
+      "B0007MZWQS",
+      "B00IPTUJ8G",
+      "B007X5103Q",
+      "B00HVPZP1Q",
+      "B07624RBWB",
+      "B09LQ96ZX9",
+      "B00LMHT560",
+      "B005UI8V6C",
+      "B00DE2W4PK",
+      "B000066RKC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B19GY369GA",
+        "reason": "Includes popular action-adventure series"
+      },
+      {
+        "item_id": "B08D3XL1KF",
+        "reason": "Features character from Dragon Quest"
+      },
+      {
+        "item_id": "B0032C9V7G",
+        "reason": "Highly acclaimed RPG experience"
+      },
+      {
+        "item_id": "B00LMHT560",
+        "reason": "Enhances gaming with better controls"
+      },
+      {
+        "item_id": "B0000D12XI",
+        "reason": "Classic RPG with immersive storytelling"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3451,
+    "completion_tokens": 318
+  }
+}

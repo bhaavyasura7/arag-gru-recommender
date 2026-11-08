@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B0011FWCQI",
+      "B16FW8BIUA",
+      "B0BKTKFSQW",
+      "B0B9GMZ248",
+      "B06XKGYP2X",
+      "B00D4D2YR2",
+      "B07D5M7SNW",
+      "B0BXWHLBJJ",
+      "B08S5GWGB8",
+      "B00U0QAIGK",
+      "B0BP3QB1YP",
+      "B073P87KFT",
+      "B000EUFCS6",
+      "B0BQQ8LQM1",
+      "B00RX9G51E",
+      "B00U8Z6BA",
+      "B09QKJGS56",
+      "B077ZBT7HP",
+      "B0B9GMZ248",
+      "B07Z5R87H2"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0011FWCQI",
+        "reason": "Racing wheel for enhanced gameplay"
+      },
+      {
+        "item_id": "B16FW8BIUA",
+        "reason": "Custom skin for PS4 console"
+      },
+      {
+        "item_id": "B0BKTKFSQW",
+        "reason": "Unique PS4 game with music theme"
+      },
+      {
+        "item_id": "B0B9GMZ248",
+        "reason": "High precision gaming mouse"
+      },
+      {
+        "item_id": "B06XKGYP2X",
+        "reason": "Vinyl skin for PS4 Slim console"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3751,
+    "completion_tokens": 341
+  }
+}

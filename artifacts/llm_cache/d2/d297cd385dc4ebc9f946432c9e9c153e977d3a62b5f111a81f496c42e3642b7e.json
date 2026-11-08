@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00CSIB3PS",
+      "B07CZN97BH",
+      "B004COHWLA",
+      "B09Z25LT2D",
+      "B18D4ZTKQG",
+      "B00V0RAW0A",
+      "B01IBJ46J2",
+      "B12D0RAW0A",
+      "B00V5D3OHC",
+      "B002YD95I4",
+      "B002G1TU7U",
+      "B07DNZCSBT",
+      "B07YM4DGWK",
+      "B096DPZ8PL",
+      "B00005LIP5",
+      "B071YR1V9D",
+      "B005SWVR2A",
+      "B00026UZ1Q",
+      "B19BQZMJ1P",
+      "B12D0RAW0A"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00CSIB3PS",
+        "reason": "Includes popular racing game bundle"
+      },
+      {
+        "item_id": "B07CZN97BH",
+        "reason": "High-quality gaming headset for Xbox"
+      },
+      {
+        "item_id": "B004COHWLA",
+        "reason": "Wii game aligns with user interests"
+      },
+      {
+        "item_id": "B09Z25LT2D",
+        "reason": "Cooling fan for Xbox Series X"
+      },
+      {
+        "item_id": "B18D4ZTKQG",
+        "reason": "Multi-platform headset for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3777,
+    "completion_tokens": 329
+  }
+}

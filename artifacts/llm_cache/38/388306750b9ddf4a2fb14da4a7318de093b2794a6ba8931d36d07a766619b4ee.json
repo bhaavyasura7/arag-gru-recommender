@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07Y7C43P6",
+      "B00US76VKS",
+      "B00U7DREDG",
+      "B00MJJL3FH",
+      "B07T6WCM7C",
+      "B00009XS6G",
+      "B000067O0D",
+      "B004LM4UMM",
+      "B000R5H7KE",
+      "B01JJFG1XG",
+      "B0891XRMGC",
+      "B00J1ZSOTE",
+      "B004M5ID9O",
+      "B002EE7OKE",
+      "B07MJJL3FH",
+      "B08P5Z2CGC",
+      "B073Z99D25",
+      "B00081K4AM",
+      "B01JHB3J82",
+      "B0C6YY17NJ",
+      "B000067O0D"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07Y7C43P6",
+        "reason": "High-quality gaming content"
+      },
+      {
+        "item_id": "B00US76VKS",
+        "reason": "Popular Xbox game expansion"
+      },
+      {
+        "item_id": "B00U7DREDG",
+        "reason": "Classic game for Xbox"
+      },
+      {
+        "item_id": "B00MJJL3FH",
+        "reason": "Useful carrying case for gaming"
+      },
+      {
+        "item_id": "B07T6WCM7C",
+        "reason": "Unique skin for gaming devices"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3310,
+    "completion_tokens": 337
+  }
+}

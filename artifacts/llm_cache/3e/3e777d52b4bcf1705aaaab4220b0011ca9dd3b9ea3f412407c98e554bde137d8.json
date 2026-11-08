@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09TXR8F3C",
+      "B006JH6ADY",
+      "B09CZ2Y65N",
+      "B000EDGK7A",
+      "B000065DGH",
+      "B00C9DL1HC",
+      "B00KIWEMIG",
+      "B0034ZOAO0",
+      "B00CXVLY9A",
+      "B004RMK57U",
+      "B00L4SD1F8",
+      "B003YDXER6",
+      "B00DFNKHFG",
+      "B003ZDOFF0",
+      "B0088TN5FM",
+      "B004IK89F6",
+      "B00DFNKHFG",
+      "B00DFNKHFG",
+      "B00DFNKHFG",
+      "B00DFNKHFG"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09TXR8F3C",
+        "reason": "High-quality PS4 controller"
+      },
+      {
+        "item_id": "B006JH6ADY",
+        "reason": "Nintendo accessory for portability"
+      },
+      {
+        "item_id": "B09CZ2Y65N",
+        "reason": "Customizable Xbox controller upgrade"
+      },
+      {
+        "item_id": "B000EDGK7A",
+        "reason": "Fun winter-themed sports game"
+      },
+      {
+        "item_id": "B000065DGH",
+        "reason": "Essential charging kit for Xbox"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3794,
+    "completion_tokens": 321
+  }
+}

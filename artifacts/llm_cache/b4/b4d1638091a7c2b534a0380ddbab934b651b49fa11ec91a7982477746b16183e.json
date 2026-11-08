@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01N3ASPNV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for Nintendo Switch, not a game."
+      },
+      {
+        "item_id": "B00CJ9OTNE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different genre, not Nintendo related."
+      },
+      {
+        "item_id": "B0CBRHZSJ5",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "PC gaming keyboard, not directly relevant."
+      },
+      {
+        "item_id": "B00C1ZBFTW",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo 3DS game, aligns with interests."
+      },
+      {
+        "item_id": "B009AOFNU4",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Wireless controller, not specific to interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1436,
+    "completion_tokens": 163
+  }
+}

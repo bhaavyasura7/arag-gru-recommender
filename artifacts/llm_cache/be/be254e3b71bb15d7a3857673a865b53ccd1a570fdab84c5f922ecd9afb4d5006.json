@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00JQ8YH6A",
+      "B00009WAUD",
+      "B00CTKHXFO",
+      "B08XQLCX9M",
+      "B07TQJJLHR",
+      "B07F6V88SJ",
+      "B00002R28C",
+      "B01F7S5NJW",
+      "B00F6FJCMQ",
+      "B00KCCNMYW",
+      "B06XDZGHWK",
+      "B00F6FJCMQ",
+      "B00F6FJCMQ",
+      "B000XJD33Y",
+      "B0199OXR0W",
+      "B072MR3V1J",
+      "B0050SW33E",
+      "B07CPZ3PJG",
+      "B01F9B019Y",
+      "B0088TN73M",
+      "B000XJD33Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00JQ8YH6A",
+        "reason": "Popular superhero fighting game"
+      },
+      {
+        "item_id": "B00009WAUD",
+        "reason": "Fun multiplayer racing experience"
+      },
+      {
+        "item_id": "B00CTKHXFO",
+        "reason": "Includes multiple acclaimed titles"
+      },
+      {
+        "item_id": "B08XQLCX9M",
+        "reason": "Engaging pinball with characters"
+      },
+      {
+        "item_id": "B07TQJJLHR",
+        "reason": "Portable dock for Nintendo Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3780,
+    "completion_tokens": 341
+  }
+}

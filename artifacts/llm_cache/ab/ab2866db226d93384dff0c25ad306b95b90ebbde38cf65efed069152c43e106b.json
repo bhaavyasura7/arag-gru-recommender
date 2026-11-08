@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07VC1MKNZ",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's interests."
+      },
+      {
+        "item_id": "B0851PXXD2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Board game, not video game."
+      },
+      {
+        "item_id": "B09DPHZGSZ",
+        "label": "support",
+        "score": 7,
+        "rationale": "Accessory for Nintendo Switch console."
+      },
+      {
+        "item_id": "B078G84D29",
+        "label": "support",
+        "score": 6,
+        "rationale": "Replacement part for Nintendo systems."
+      },
+      {
+        "item_id": "B00OSWJUBQ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo 3DS with included game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1065,
+    "completion_tokens": 153
+  }
+}

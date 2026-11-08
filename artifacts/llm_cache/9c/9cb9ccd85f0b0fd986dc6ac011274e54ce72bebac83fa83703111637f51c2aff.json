@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00YOGZFCO",
+      "B001FEO74U",
+      "B001EYUWL8",
+      "B001FRTK4O",
+      "B19GXXRRO",
+      "B001ELJEH4",
+      "B06ZXXHMS7",
+      "B00I9TNNE4",
+      "B00EQNP8F4",
+      "B00MWK17I0",
+      "B075MV4VF4",
+      "B014PHZOWM",
+      "B009VUHW60",
+      "B001EYUY7K",
+      "B00F4WM1XS",
+      "B019GXXRRO",
+      "B001FEO74U",
+      "B08JHX17ZZ",
+      "B12PHZOWM",
+      "B001FRTK4O"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00YOGZFCO",
+        "reason": "Engaging racing multiplayer experience"
+      },
+      {
+        "item_id": "B001FEO74U",
+        "reason": "Fun party game with multiplayer"
+      },
+      {
+        "item_id": "B001EYUWL8",
+        "reason": "Action-packed military strategy"
+      },
+      {
+        "item_id": "B001FRTK4O",
+        "reason": "Realistic racing simulation"
+      },
+      {
+        "item_id": "B06ZXXHMS7",
+        "reason": "Popular action-adventure shooter"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3645,
+    "completion_tokens": 318
+  }
+}

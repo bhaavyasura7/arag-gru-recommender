@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00E290JRE",
+      "B01A0VQOCQ",
+      "B07NDCL3XB",
+      "B006PP3ZK6",
+      "B07FZSDYTZ",
+      "B07DK1H3H5",
+      "B074TRZVYZ",
+      "B00B7UNO4Q",
+      "B000090W86",
+      "B07WP2ZYNR",
+      "B001BKLE58",
+      "B09DDWRDWM",
+      "B00004R8WH",
+      "B07SGH1C49",
+      "B09R4K5ZTZ",
+      "B00AYABWYE",
+      "B0728H6KPV",
+      "B001EHD8YI",
+      "B00BCIC9WG",
+      "B007D3JSZ8F"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00E290JRE",
+        "reason": "Ergonomic gaming mouse for comfort"
+      },
+      {
+        "item_id": "B01A0VQOCQ",
+        "reason": "High-quality gaming headset"
+      },
+      {
+        "item_id": "B07NDCL3XB",
+        "reason": "Customizable esports controller"
+      },
+      {
+        "item_id": "B006PP3ZK6",
+        "reason": "Official PlayStation headset"
+      },
+      {
+        "item_id": "B07FZSDYTZ",
+        "reason": "Wireless mechanical keyboard for gaming"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3861,
+    "completion_tokens": 327
+  }
+}

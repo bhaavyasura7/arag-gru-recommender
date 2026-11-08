@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00I9RA5AQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B001MS4JCE",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Game Boy not in user history."
+      },
+      {
+        "item_id": "B08F6R3RLC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show Xbox interest."
+      },
+      {
+        "item_id": "B08Y17BR4J",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Nintendo Switch."
+      },
+      {
+        "item_id": "B08QW3Y3D6",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Nintendo over Xbox."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1382,
+    "completion_tokens": 160
+  }
+}

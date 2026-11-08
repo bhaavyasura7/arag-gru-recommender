@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B17MRJ12HX",
+      "B000FQBF1M",
+      "B09NKTTRQD",
+      "B07FSZQ1W1",
+      "B17MFFTCX8",
+      "B001EHD9N8",
+      "B0000657SO",
+      "B0030MEITE",
+      "B0001DI6FM",
+      "B06XCP3C7H",
+      "B071Y79VNL",
+      "B0029LJIFG",
+      "B00K0NV5J2",
+      "B09S6HGYT2",
+      "B00B8SAB8O",
+      "B00NOD0OTW",
+      "B0000657SO",
+      "B0001DI6FM",
+      "B00SZ1DQFM",
+      "B00NW6T6CC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B17MRJ12HX",
+        "reason": "Collector's edition for PlayStation 4"
+      },
+      {
+        "item_id": "B000FQBF1M",
+        "reason": "Popular first-person shooter title"
+      },
+      {
+        "item_id": "B09NKTTRQD",
+        "reason": "High-performance gaming controller"
+      },
+      {
+        "item_id": "B07FSZQ1W1",
+        "reason": "Comfortable gaming headset"
+      },
+      {
+        "item_id": "B17MFFTCX8",
+        "reason": "Customizable pro controller for Switch"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3978,
+    "completion_tokens": 331
+  }
+}

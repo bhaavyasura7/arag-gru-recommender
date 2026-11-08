@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00U2G8Y6O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PC gaming headset, not PS3 specific."
+      },
+      {
+        "item_id": "B002I0J51U",
+        "label": "support",
+        "score": 10,
+        "rationale": "Directly compatible with PlayStation 3."
+      },
+      {
+        "item_id": "B07LB53M69",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "For Xbox controllers, not PlayStation."
+      },
+      {
+        "item_id": "B091T2WHG1",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "For Nintendo Switch, not PlayStation."
+      },
+      {
+        "item_id": "B001V39402",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "For Nintendo systems, not PlayStation."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1336,
+    "completion_tokens": 167
+  }
+}

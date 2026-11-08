@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B08NVWCG29",
+      "B0B972QW42",
+      "B07F8RHBQX",
+      "B16K7X4UW8",
+      "B16K7X4UW8",
+      "B000MWPDSK",
+      "B07BNXJ4YJ",
+      "B07KPP62KC",
+      "B000088KHA",
+      "B000R4GF9Y",
+      "B003E66YAM",
+      "B07VL48YM6",
+      "B07ZKGYWKQ",
+      "B008CRAGMU",
+      "B000922D0E",
+      "B07F8RHBQX",
+      "B000RE80Y2",
+      "B07BNXJ4YJ",
+      "B07F8RHBQX",
+      "B0BLW27Z5W"
+    ],
+    "reasons": [
+      {
+        "item_id": "B08NVWCG29",
+        "reason": "Perfect for Nintendo Switch games"
+      },
+      {
+        "item_id": "B0B972QW42",
+        "reason": "High-quality protective case"
+      },
+      {
+        "item_id": "B07F8RHBQX",
+        "reason": "Compact mechanical gaming keyboard"
+      },
+      {
+        "item_id": "B16K7X4UW8",
+        "reason": "Silent mechanical keyboard option"
+      },
+      {
+        "item_id": "B000MWPDSK",
+        "reason": "Chess training software for strategy"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3408,
+    "completion_tokens": 331
+  }
+}

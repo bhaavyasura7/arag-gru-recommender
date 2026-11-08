@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00Z9TLLG4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox, user enjoys Xbox games."
+      },
+      {
+        "item_id": "B06Y1LKYNC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers serious games, not silly."
+      },
+      {
+        "item_id": "B000GVWYAW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy system, not aligned with user interests."
+      },
+      {
+        "item_id": "B09HGWQKV1",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not directly related to gameplay."
+      },
+      {
+        "item_id": "B0957H6KB7",
+        "label": "support",
+        "score": 6,
+        "rationale": "Compatible with Xbox, enhances gaming experience."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1313,
+    "completion_tokens": 164
+  }
+}

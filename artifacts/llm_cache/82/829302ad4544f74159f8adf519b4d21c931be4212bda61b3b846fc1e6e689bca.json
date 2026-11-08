@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07D2W4F3D",
+      "B00DBDPOZ4",
+      "B01LPNKGGI",
+      "B074FD2WQJ",
+      "B0087LXZRE",
+      "B004ZX75AQ",
+      "B01EZUCHOC",
+      "B0BR9RGRW8",
+      "B01GDKXMPA",
+      "B00CIO5ILW",
+      "B00CISMP8M",
+      "B017QU5KLK",
+      "B001EYUQDW",
+      "B00VILBF0Y",
+      "B0BLFYF8K2",
+      "B003VUO6H4",
+      "B01N7RYYKK",
+      "B00DC7G3Q8",
+      "B000K8ZXK4",
+      "B01EZUCHOC",
+      "B0144K8KQW"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07D2W4F3D",
+        "reason": "Popular Xbox controller upgrade"
+      },
+      {
+        "item_id": "B00DBDPOZ4",
+        "reason": "Essential charging kit for Xbox"
+      },
+      {
+        "item_id": "B01LPNKGGI",
+        "reason": "Wired controller for reliable gaming"
+      },
+      {
+        "item_id": "B074FD2WQJ",
+        "reason": "High-quality wireless headset"
+      },
+      {
+        "item_id": "B0087LXZRE",
+        "reason": "Compatible Xbox game with action elements"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3795,
+    "completion_tokens": 345
+  }
+}

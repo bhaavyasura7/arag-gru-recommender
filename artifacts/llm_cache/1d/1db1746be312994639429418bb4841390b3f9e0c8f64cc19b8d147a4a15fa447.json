@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08QR5PTRP",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's Nintendo Switch interests."
+      },
+      {
+        "item_id": "B08JM76KN1",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on console, not PC accessories."
+      },
+      {
+        "item_id": "B00002SV46",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Older game, not directly relevant today."
+      },
+      {
+        "item_id": "B07D9KX2WV",
+        "label": "support",
+        "score": 6,
+        "rationale": "Thumb caps align with user's gaming accessories."
+      },
+      {
+        "item_id": "B00CWTXONM",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in Xbox products."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1592,
+    "completion_tokens": 162
+  }
+}

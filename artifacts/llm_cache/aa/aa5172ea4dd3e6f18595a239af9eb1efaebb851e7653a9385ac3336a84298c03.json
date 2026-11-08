@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01M0RU6LY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox over PlayStation."
+      },
+      {
+        "item_id": "B07JN4DGC7",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with Xbox, user enjoys gaming."
+      },
+      {
+        "item_id": "B087NN2K41",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User does not own Nintendo Switch."
+      },
+      {
+        "item_id": "B01N3ASPNV",
+        "label": "contradict",
+        "score": 0,
+        "rationale": "User does not own Nintendo Switch."
+      },
+      {
+        "item_id": "B004LLHFAW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys video games, but not on PS3."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1408,
+    "completion_tokens": 164
+  }
+}

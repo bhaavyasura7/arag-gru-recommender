@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00B5QGJ5S",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Pokémon, not horror games."
+      },
+      {
+        "item_id": "B07W924264",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no interest in military shooters."
+      },
+      {
+        "item_id": "B09TXR8F3C",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Controller compatible, but not Pokémon related."
+      },
+      {
+        "item_id": "B00002R29G",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Pokémon, not wrestling games."
+      },
+      {
+        "item_id": "B00FDTKEPE",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, but not directly related to interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1239,
+    "completion_tokens": 166
+  }
+}

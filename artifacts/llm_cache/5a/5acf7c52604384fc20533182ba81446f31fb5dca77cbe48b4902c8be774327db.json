@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BXPY3R43",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Keyboard not directly related to games."
+      },
+      {
+        "item_id": "B07F2HQXNR",
+        "label": "support",
+        "score": 8,
+        "rationale": "Rhythm game aligns with gaming interests."
+      },
+      {
+        "item_id": "B0088TN73M",
+        "label": "support",
+        "score": 9,
+        "rationale": "Superhero game matches previous interests."
+      },
+      {
+        "item_id": "B000ERVMI8",
+        "label": "support",
+        "score": 7,
+        "rationale": "Classic Mario game fits gaming preferences."
+      },
+      {
+        "item_id": "B077SBDMJP",
+        "label": "support",
+        "score": 6,
+        "rationale": "Motorsport game appeals to gaming interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1269,
+    "completion_tokens": 155
+  }
+}

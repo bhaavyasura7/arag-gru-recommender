@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01F1T77ZA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox products, not Nintendo."
+      },
+      {
+        "item_id": "B00JIU9D9M",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Headset matches gaming interest, but PC specific."
+      },
+      {
+        "item_id": "B0894R125K",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User focuses on Xbox, not Nintendo."
+      },
+      {
+        "item_id": "B091G11N4F",
+        "label": "support",
+        "score": 7,
+        "rationale": "Gaming mouse aligns with gaming interests."
+      },
+      {
+        "item_id": "B016CE0JDA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Skylanders not relevant to user's interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1187,
+    "completion_tokens": 166
+  }
+}

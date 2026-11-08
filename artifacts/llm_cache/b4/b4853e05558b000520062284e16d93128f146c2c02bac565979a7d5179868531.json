@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B085Y8GWCT",
+      "B09G8BYXR3",
+      "B006RALA88",
+      "B00008ZLHK",
+      "B0000C88HW",
+      "B008G8BYXR3",
+      "B01M683C4O",
+      "B002JTX7KA",
+      "B006C4B9I0",
+      "B01DJD5F7C",
+      "B073ZLZ9X9",
+      "B00H8NKMJG",
+      "B005T4S0OA",
+      "B00DH1EFD2",
+      "B00004ZBQJ",
+      "B002G9U72Y",
+      "B077BSBXPK",
+      "B00WPKQY5S",
+      "B00008KTPN",
+      "B06ZYRZMBX"
+    ],
+    "reasons": [
+      {
+        "item_id": "B085Y8GWCT",
+        "reason": "Protective case for Switch Lite"
+      },
+      {
+        "item_id": "B09G8BYXR3",
+        "reason": "Charging dock for Joy-Con"
+      },
+      {
+        "item_id": "B006RALA88",
+        "reason": "Nintendo 3DS console included"
+      },
+      {
+        "item_id": "B00008ZLHK",
+        "reason": "Compatible gamepad for PC"
+      },
+      {
+        "item_id": "B0000C88HW",
+        "reason": "Nintendo Game Boy Advance game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3313,
+    "completion_tokens": 328
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "Nintendo games",
+      "amiibo collectibles",
+      "classic video games",
+      "puzzle games",
+      "action-adventure games"
+    ],
+    "current_intent": "Looking for more Nintendo-related games or collectibles.",
+    "avoid": [
+      "non-Nintendo products",
+      "low-rated games",
+      "mobile games"
+    ],
+    "summary": "User enjoys Nintendo games and collectibles, particularly amiibo and classic titles, and seeks similar products."
+  },
+  "usage": {
+    "prompt_tokens": 290,
+    "completion_tokens": 77
+  }
+}

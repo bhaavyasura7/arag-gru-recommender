@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0859WXCCT",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system, not directly related."
+      },
+      {
+        "item_id": "B00005B43U",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC game, user prefers consoles."
+      },
+      {
+        "item_id": "B00005RCPT",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Legacy system, not a current interest."
+      },
+      {
+        "item_id": "B09KS3988L",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Xbox 360, user has one."
+      },
+      {
+        "item_id": "B07Z9F3GLG",
+        "label": "support",
+        "score": 8,
+        "rationale": "PS4 game, aligns with user interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1610,
+    "completion_tokens": 159
+  }
+}

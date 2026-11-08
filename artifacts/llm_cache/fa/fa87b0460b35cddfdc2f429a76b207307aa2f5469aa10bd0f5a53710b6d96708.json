@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00004R9AL",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with user's gaming preferences."
+      },
+      {
+        "item_id": "B0079V2XFS",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B09GYN7T42",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes Corsair gaming mice."
+      },
+      {
+        "item_id": "B00AEL9MFE",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys high-DPI gaming mice."
+      },
+      {
+        "item_id": "B0B674L9F8",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "VR accessories not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1364,
+    "completion_tokens": 159
+  }
+}

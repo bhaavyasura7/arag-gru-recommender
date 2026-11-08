@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00503E9FY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox games, not PlayStation."
+      },
+      {
+        "item_id": "B00083HJWQ",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no interest in pinball games."
+      },
+      {
+        "item_id": "B0013RC1W4",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers console games over PC."
+      },
+      {
+        "item_id": "B00KUYZ7I6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PlayStation TV may interest user slightly."
+      },
+      {
+        "item_id": "B002BSA388",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Wii games like Skylanders."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1233,
+    "completion_tokens": 163
+  }
+}

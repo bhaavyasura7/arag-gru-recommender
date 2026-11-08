@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "JRPGs",
+      "Classic video games",
+      "Limited edition collectibles",
+      "Mega Man series",
+      "Yu-Gi-Oh games"
+    ],
+    "current_intent": "Looking for more classic JRPGs or collectible video games.",
+    "avoid": [
+      "Modern AAA titles",
+      "First-person shooters",
+      "Mobile games"
+    ],
+    "summary": "User enjoys classic JRPGs and collectible video games, particularly from series like Mega Man and Yu-Gi-Oh."
+  },
+  "usage": {
+    "prompt_tokens": 356,
+    "completion_tokens": 87
+  }
+}

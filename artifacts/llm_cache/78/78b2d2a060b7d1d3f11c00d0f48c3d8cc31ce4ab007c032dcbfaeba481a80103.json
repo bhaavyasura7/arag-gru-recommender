@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B005FYJA52",
+      "B0018RYC9Y",
+      "B00MOR1A7Y",
+      "B00PY6MSTQ",
+      "B00005Q8LR",
+      "B00MXRHZ5Q",
+      "B001EHD9GA",
+      "B00BFU8IFS",
+      "B07NR4FXFR",
+      "B0987C939C",
+      "B00I7NA43U",
+      "B00004SVOG",
+      "B0073ESZ58",
+      "B00KVQYJR8",
+      "B00F676U2O",
+      "B079C6W7YJ",
+      "B00BFU8IFS",
+      "B00MOR1A7Y",
+      "B001EYUS7G",
+      "B00PY6MSTQ",
+      "B07YBXFDYN"
+    ],
+    "reasons": [
+      {
+        "item_id": "B005FYJA52",
+        "reason": "Popular family-friendly gameplay"
+      },
+      {
+        "item_id": "B0018RYC9Y",
+        "reason": "Educational farming simulation"
+      },
+      {
+        "item_id": "B00MOR1A7Y",
+        "reason": "Engaging ghost-catching adventure"
+      },
+      {
+        "item_id": "B00PY6MSTQ",
+        "reason": "Limited edition for kids"
+      },
+      {
+        "item_id": "B00005Q8LR",
+        "reason": "Classic fun for all ages"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3805,
+    "completion_tokens": 331
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0BD4B49VN",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for gaming devices, not games."
+      },
+      {
+        "item_id": "B06XD1WF8G",
+        "label": "support",
+        "score": 7,
+        "rationale": "Supports DIY arcade for gaming enthusiasts."
+      },
+      {
+        "item_id": "B0050JNR42",
+        "label": "support",
+        "score": 6,
+        "rationale": "Casual game aligns with user interests."
+      },
+      {
+        "item_id": "B0055A7S8W",
+        "label": "support",
+        "score": 8,
+        "rationale": "Tank battles appeal to action game fans."
+      },
+      {
+        "item_id": "B07X7HJ3QF",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Family games differ from user's preferences."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1270,
+    "completion_tokens": 159
+  }
+}

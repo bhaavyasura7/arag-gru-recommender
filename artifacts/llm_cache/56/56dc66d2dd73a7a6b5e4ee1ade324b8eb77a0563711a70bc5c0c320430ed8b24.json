@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B013989D34",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers modern consoles, not retro."
+      },
+      {
+        "item_id": "B01DQJYC46",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no Wii U interest."
+      },
+      {
+        "item_id": "B09MFFTCX8",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys Switch accessories and controllers."
+      },
+      {
+        "item_id": "B08H87324H",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has Xbox interest but not 360."
+      },
+      {
+        "item_id": "B00MF3SD2C",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not own PS3."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1039,
+    "completion_tokens": 160
+  }
+}

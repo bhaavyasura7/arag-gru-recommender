@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0050SY8UK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers racing games, not RPGs."
+      },
+      {
+        "item_id": "B016K122XU",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys gaming accessories for racing."
+      },
+      {
+        "item_id": "B01BF74KOS",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no Dreamcast interest shown."
+      },
+      {
+        "item_id": "B00DB2BI00",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in dance games."
+      },
+      {
+        "item_id": "B002JTX9GM",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers racing over hunting games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1251,
+    "completion_tokens": 161
+  }
+}

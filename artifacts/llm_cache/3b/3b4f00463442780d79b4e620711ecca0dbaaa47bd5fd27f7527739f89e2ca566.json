@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000",
+        "label": "neutral",
+        "score": 0,
+        "rationale": "no relevant keywords"
+      },
+      {
+        "item_id": "B001",
+        "label": "neutral",
+        "score": 0,
+        "rationale": "no relevant keywords"
+      },
+      {
+        "item_id": "B002",
+        "label": "neutral",
+        "score": 0,
+        "rationale": "no relevant keywords"
+      },
+      {
+        "item_id": "B003",
+        "label": "neutral",
+        "score": 0,
+        "rationale": "no relevant keywords"
+      },
+      {
+        "item_id": "B004",
+        "label": "neutral",
+        "score": 0,
+        "rationale": "no relevant keywords"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 486
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B001KC03D6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Puzzle game, not action-oriented."
+      },
+      {
+        "item_id": "B000O39U3Q",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Targeted at young children."
+      },
+      {
+        "item_id": "B000BNGI5W",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Educational focus, not gaming preference."
+      },
+      {
+        "item_id": "B00KRRV0Z0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Casual game, not a strong match."
+      },
+      {
+        "item_id": "B085X4LSM4",
+        "label": "support",
+        "score": 7,
+        "rationale": "Relevant accessory for Nintendo Switch."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1561,
+    "completion_tokens": 158
+  }
+}

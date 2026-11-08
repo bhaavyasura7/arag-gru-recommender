@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0000AJMPK",
+      "B09ZNRY174",
+      "B01GQAKZHU",
+      "B01M8GXNJX",
+      "B00D7N1ONE",
+      "B003P5AJFI",
+      "B09TBKPHFH",
+      "B004USOOAK",
+      "B00005V131",
+      "B000I7ZBBI",
+      "B00E8R6RR6",
+      "B07MWYQDWR",
+      "B0753ZK469",
+      "B00007KQC8",
+      "B003ZDP6X0",
+      "B00LCK8GAI",
+      "B00C7N1ONE",
+      "B000I7ZBBI",
+      "B07J6J96KW",
+      "B002IYR0KO",
+      "B00D7N1ONE"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0000AJMPK",
+        "reason": "Classic Xbox shooter experience"
+      },
+      {
+        "item_id": "B09ZNRY174",
+        "reason": "Intense co-op gameplay"
+      },
+      {
+        "item_id": "B01GQAKZHU",
+        "reason": "Expansion for popular shooter"
+      },
+      {
+        "item_id": "B01M8GXNJX",
+        "reason": "Tactical shooter with co-op"
+      },
+      {
+        "item_id": "B00D7N1ONE",
+        "reason": "Engaging Western action game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3388,
+    "completion_tokens": 331
+  }
+}

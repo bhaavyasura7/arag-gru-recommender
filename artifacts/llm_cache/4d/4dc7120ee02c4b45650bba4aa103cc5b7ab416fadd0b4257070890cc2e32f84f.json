@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00KWOSQC8",
+      "B00003GPV6",
+      "B08YY7VMTB",
+      "B00H2XPX8W",
+      "B004WF32G8",
+      "B0042X9M0K",
+      "B09JKDB8D9",
+      "B0028A6VDU",
+      "B07ZQ7S28B",
+      "B000035XUY",
+      "B00OVGABF8",
+      "B09QM5T323",
+      "B0719GHHQP",
+      "B004D1QC1I",
+      "B09ZDP14DG",
+      "B00LV8I30E",
+      "B004WF32G8",
+      "B0BNVLJHBP",
+      "B00H2XPX8W",
+      "B07N8PLF2Q",
+      "B000035XUY"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KWOSQC8",
+        "reason": "Highly rated Pokémon game"
+      },
+      {
+        "item_id": "B00003GPV6",
+        "reason": "Classic Nintendo 64 title"
+      },
+      {
+        "item_id": "B08YY7VMTB",
+        "reason": "Enhances Nintendo Switch gameplay"
+      },
+      {
+        "item_id": "B00H2XPX8W",
+        "reason": "Guide for a beloved franchise"
+      },
+      {
+        "item_id": "B004WF32G8",
+        "reason": "Popular action-adventure game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3395,
+    "completion_tokens": 338
+  }
+}

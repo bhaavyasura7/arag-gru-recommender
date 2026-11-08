@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07D53QSMK",
+      "B00MXRHZ5Q",
+      "B07D53QSMK",
+      "B14LRLJV28",
+      "B19DRY9T7Z",
+      "B00FM5IY0Q",
+      "B006QZ85PU",
+      "B00GYI3CMU",
+      "B000HKGD4A",
+      "B005JQNEO4",
+      "B000N5Z2L4",
+      "B000F3AACA",
+      "B0848GXDR8",
+      "B000FJEV06",
+      "B001ELJFN2",
+      "B000F3AACA",
+      "B000HKGD4A",
+      "B000F3AACA",
+      "B000F3AACA",
+      "B000F3AACA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07D53QSMK",
+        "reason": "High-quality gaming grips"
+      },
+      {
+        "item_id": "B00MXRHZ5Q",
+        "reason": "Xbox racing game"
+      },
+      {
+        "item_id": "B14LRLJV28",
+        "reason": "Premium racing wheel"
+      },
+      {
+        "item_id": "B19DRY9T7Z",
+        "reason": "Versatile gaming microphone"
+      },
+      {
+        "item_id": "B00FM5IY0Q",
+        "reason": "Popular zombie survival game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3758,
+    "completion_tokens": 324
+  }
+}

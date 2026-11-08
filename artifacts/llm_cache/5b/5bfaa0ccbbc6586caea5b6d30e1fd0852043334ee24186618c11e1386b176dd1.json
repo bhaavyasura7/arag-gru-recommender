@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00KWEH61U",
+      "B00KVP76G0",
+      "B00MFD9DH6",
+      "B00N3OELPU",
+      "B00FKV8AK6",
+      "B003UVA4KC",
+      "B00KUZ1K8Q",
+      "B00009YEK7",
+      "B000FLZEXM",
+      "B07BWJWBJL",
+      "B07WS6ZFTG",
+      "B00KQHHDZC",
+      "B07YBXFDYN",
+      "B0050SYYTK",
+      "B0009IO662",
+      "B001E27DLM",
+      "B07KRWJCQW",
+      "B0000C0D8D",
+      "B00FKV8AK6",
+      "B0000C0D8D",
+      "B0000C0D8D"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KWEH61U",
+        "reason": "Engaging art and creativity"
+      },
+      {
+        "item_id": "B00KVP76G0",
+        "reason": "Family-friendly multiplayer fun"
+      },
+      {
+        "item_id": "B00MFD9DH6",
+        "reason": "Disney-themed adventure"
+      },
+      {
+        "item_id": "B00N3OELPU",
+        "reason": "Interactive Disneyland experience"
+      },
+      {
+        "item_id": "B00FKV8AK6",
+        "reason": "Popular multiplayer shooter"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3420,
+    "completion_tokens": 336
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00DYAQHZ0",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers gaming accessories, not games."
+      },
+      {
+        "item_id": "B07X53V6D5",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User shows no interest in watches."
+      },
+      {
+        "item_id": "B09NR767WV",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User shows no interest in fitness trackers."
+      },
+      {
+        "item_id": "B09HS7CDZV",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User plays games but prefers PC."
+      },
+      {
+        "item_id": "B09BFQR3Z6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User plays games but prefers PC."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1301,
+    "completion_tokens": 160
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000RLXI1K",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B00KVP78FE",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "User has no PS4 interest."
+      },
+      {
+        "item_id": "B0BJF8CYTM",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User has Xbox interest but no specific mention."
+      },
+      {
+        "item_id": "B0BLW27Z5W",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has gaming computer interest."
+      },
+      {
+        "item_id": "B08NPY4KMT",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no VR headset interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1340,
+    "completion_tokens": 157
+  }
+}

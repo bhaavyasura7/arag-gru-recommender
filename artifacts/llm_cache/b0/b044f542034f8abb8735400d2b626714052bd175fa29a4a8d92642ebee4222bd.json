@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B00PY6MSTQ",
+      "B09N98KJ62",
+      "B000GSKUY2",
+      "B07D2D4T1P",
+      "B00VAZV1KC",
+      "B07D6TWCJF",
+      "B000083JXC",
+      "B000HAS44M",
+      "B01IDM55OM",
+      "B00002ST9A",
+      "B0B844ZBS9",
+      "B0BD3DV3SJ",
+      "B004MNDF80",
+      "B01DAL16WG",
+      "B07SC1CDZ8",
+      "B00005RCPJ",
+      "B01KU77AE6",
+      "B0831TDP3B",
+      "B000HAS44M",
+      "B00005RCPJ",
+      "B00002ST9A"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00PY6MSTQ",
+        "reason": "Popular family-friendly game"
+      },
+      {
+        "item_id": "B09N98KJ62",
+        "reason": "Educational farming simulation"
+      },
+      {
+        "item_id": "B000GSKUY2",
+        "reason": "Fun racing game for kids"
+      },
+      {
+        "item_id": "B07D2D4T1P",
+        "reason": "Protective case for Nintendo Switch"
+      },
+      {
+        "item_id": "B00VAZV1KC",
+        "reason": "Fun Hot Wheels game for children"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3330,
+    "completion_tokens": 332
+  }
+}

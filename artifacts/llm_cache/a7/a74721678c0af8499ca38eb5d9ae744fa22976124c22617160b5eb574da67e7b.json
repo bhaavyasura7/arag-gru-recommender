@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01M3306ND",
+      "B000FAMQ3Y",
+      "B0053BQS7K",
+      "B000ENW5W4",
+      "B001IVARAS",
+      "B009VURSEG",
+      "B001BATGEE",
+      "B008U4QPJI",
+      "B0000E2OBD",
+      "B001HTOCGQ",
+      "B000FLZEXM",
+      "B000WQ1XIA",
+      "B07YGTBD3V",
+      "B005FUP0VE",
+      "B001IVARAS",
+      "B0000E2OBD",
+      "B07K9BTSLB",
+      "B009LWQ0H0",
+      "B000ENW5W4",
+      "B001IVARAS"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01M3306ND",
+        "reason": "Classic RPG with nostalgic elements"
+      },
+      {
+        "item_id": "B000FAMQ3Y",
+        "reason": "Unique RPG with deep customization"
+      },
+      {
+        "item_id": "B0053BQS7K",
+        "reason": "Action RPG with expansive world"
+      },
+      {
+        "item_id": "B000ENW5W4",
+        "reason": "Classic Final Fantasy MMORPG experience"
+      },
+      {
+        "item_id": "B001IVARAS",
+        "reason": "Enhanced classic MMORPG features"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2850,
+    "completion_tokens": 318
+  }
+}

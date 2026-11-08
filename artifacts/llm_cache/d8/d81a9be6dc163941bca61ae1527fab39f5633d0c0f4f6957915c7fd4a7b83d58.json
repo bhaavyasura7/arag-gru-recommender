@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B000FRV2UK",
+      "B07MVKQNXF",
+      "B14HNXGKT6",
+      "B0053B66KE",
+      "B003QP30PS",
+      "B00002R28C",
+      "B000AXRIU2",
+      "B00000K2R8",
+      "B08L74DB2M",
+      "B019WRM1IA",
+      "B000C1TTF86",
+      "B000FRV2UK",
+      "B003DZ165W",
+      "B001EYUOA2",
+      "B0095C0I4W",
+      "B002GJMGNM",
+      "B00002R28C",
+      "B0050SXVK8",
+      "B00000K2R8",
+      "B000FRV2UK"
+    ],
+    "reasons": [
+      {
+        "item_id": "B000FRV2UK",
+        "reason": "Top Zelda game for Switch"
+      },
+      {
+        "item_id": "B07MVKQNXF",
+        "reason": "Compatible gaming headset for Switch"
+      },
+      {
+        "item_id": "B14HNXGKT6",
+        "reason": "Wireless controller for Switch"
+      },
+      {
+        "item_id": "B0053B66KE",
+        "reason": "Popular Pokémon game for Switch"
+      },
+      {
+        "item_id": "B003QP30PS",
+        "reason": "Fun game for younger players"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3663,
+    "completion_tokens": 318
+  }
+}

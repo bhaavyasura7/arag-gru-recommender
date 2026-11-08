@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09KM3Z765",
+      "B01MZ4VLXE",
+      "B08JQ68766",
+      "B0BBH7MY24",
+      "B00004U9KA",
+      "B00005C7P7",
+      "B07F8QZYP1",
+      "B00002CF8Q",
+      "B00004U47O",
+      "B00328I0BS",
+      "B084Z4Q9NK",
+      "B08N439W9B",
+      "B07XZ26VLN",
+      "B06XKQ6X48",
+      "B097MXJ1BW",
+      "B08KB1WW74",
+      "B0000CCZSU",
+      "B01MS7FOJR",
+      "B08N439W9B",
+      "B00004U9KA"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09KM3Z765",
+        "reason": "Perfect for mobile gaming controllers"
+      },
+      {
+        "item_id": "B01MZ4VLXE",
+        "reason": "Cooling fan for Xbox One S"
+      },
+      {
+        "item_id": "B08JQ68766",
+        "reason": "RGB mouse pad for gaming setup"
+      },
+      {
+        "item_id": "B0BBH7MY24",
+        "reason": "Family-friendly game for PS5"
+      },
+      {
+        "item_id": "B00004U9KA",
+        "reason": "Classic game for nostalgic players"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3641,
+    "completion_tokens": 327
+  }
+}

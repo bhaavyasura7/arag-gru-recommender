@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B001QCWRZC",
+      "B00DBRNBO6",
+      "B001ELJE5Q",
+      "B0000CDZBC",
+      "B14B1B1B1B",
+      "B008LB6IO2",
+      "B07BW77M9V",
+      "B06XP1WRGC",
+      "B06ZXXHMS7",
+      "B00CEGCN76",
+      "B0BLC7Z3KX",
+      "B08HHRH6QL",
+      "B08XXWJ787",
+      "B01BXR3YEC",
+      "B005GISQX4",
+      "B0000664JH",
+      "B07MXPYS7S",
+      "B0BRSTY119",
+      "B0011E4J2Y",
+      "B01BXR3YEC",
+      "B0000CDZBC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001QCWRZC",
+        "reason": "Classic RPG with deep customization"
+      },
+      {
+        "item_id": "B00DBRNBO6",
+        "reason": "Nostalgic soccer game for PS3"
+      },
+      {
+        "item_id": "B001ELJE5Q",
+        "reason": "Fun multiplayer music game"
+      },
+      {
+        "item_id": "B0000CDZBC",
+        "reason": "Classic hack-and-slash RPG"
+      },
+      {
+        "item_id": "B008LB6IO2",
+        "reason": "Unique blend of action and strategy"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3898,
+    "completion_tokens": 340
+  }
+}

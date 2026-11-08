@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00HVBPRUO",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances PS4 gaming experience with audio."
+      },
+      {
+        "item_id": "B00BGA9X9W",
+        "label": "support",
+        "score": 9,
+        "rationale": "Essential accessory for PlayStation 4 games."
+      },
+      {
+        "item_id": "B01GY35UK6",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Survival horror may not match preferences."
+      },
+      {
+        "item_id": "B0BLFYF8K2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC gaming mouse, not for consoles."
+      },
+      {
+        "item_id": "B00RN7QTF8",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC gaming mouse, not for consoles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1339,
+    "completion_tokens": 167
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07Z9F3GLG",
+      "B00005RCPT",
+      "B000LV7PC4",
+      "B00005B43U",
+      "B001LRQ8TI",
+      "B078GCN37N",
+      "B006NU6EJC",
+      "B000WMEEAI",
+      "B0859WXCCT",
+      "B000054BEB",
+      "B0009NWQFK",
+      "B075PH6YKJ",
+      "B008V7W1CE",
+      "B000OF0O8Y",
+      "B00005RCPT",
+      "B000F4WM1XS",
+      "B0009NWQFK",
+      "B005HUVT62",
+      "B00005B43U",
+      "B000LV7PC4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07Z9F3GLG",
+        "reason": "Engaging story and gameplay"
+      },
+      {
+        "item_id": "B00005RCPT",
+        "reason": "Classic RPG experience"
+      },
+      {
+        "item_id": "B000LV7PC4",
+        "reason": "Enhances gaming experience"
+      },
+      {
+        "item_id": "B00005B43U",
+        "reason": "Adventure-themed gameplay"
+      },
+      {
+        "item_id": "B001LRQ8TI",
+        "reason": "Action-packed gameplay"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2874,
+    "completion_tokens": 307
+  }
+}

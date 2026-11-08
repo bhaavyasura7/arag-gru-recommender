@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B01H6DHITE",
+      "B00G2EVF3E",
+      "B01M0RU6LY",
+      "B12TX17ZBQ",
+      "B12CMQTTZ2",
+      "B01MXE0FKC",
+      "B00B7UNO4Q",
+      "B00TEDK8FQ",
+      "B004CDUOJ8",
+      "B004LLHFAW",
+      "B00QO4NAOO",
+      "B00CMQTTZ2",
+      "B00G2EVF3E",
+      "B009VURIUA",
+      "B07CLKZJF4",
+      "B07JN4DGC7",
+      "B001EYUQ8C",
+      "B000B6MLV4",
+      "B004CDUOJ8",
+      "B00TEDK8FQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01H6DHITE",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B00G2EVF3E",
+        "reason": "Popular gaming title"
+      },
+      {
+        "item_id": "B01M0RU6LY",
+        "reason": "Console gaming interest"
+      },
+      {
+        "item_id": "B12TX17ZBQ",
+        "reason": "VR gaming experience"
+      },
+      {
+        "item_id": "B12CMQTTZ2",
+        "reason": "Gaming accessory compatibility"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3959,
+    "completion_tokens": 321
+  }
+}

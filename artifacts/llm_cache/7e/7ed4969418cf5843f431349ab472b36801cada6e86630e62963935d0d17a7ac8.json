@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B09XV52WDK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not aligned with console gaming preference."
+      },
+      {
+        "item_id": "B0038MVFYC",
+        "label": "support",
+        "score": 8,
+        "rationale": "Nintendo DS game matches user interests."
+      },
+      {
+        "item_id": "B001EYUU2O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Xbox 360 game, not preferred platform."
+      },
+      {
+        "item_id": "B001EYUNYY",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PlayStation 3 game, not preferred platform."
+      },
+      {
+        "item_id": "B007VYW5Y2",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "PlayStation 3 game, not preferred platform."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1310,
+    "completion_tokens": 158
+  }
+}

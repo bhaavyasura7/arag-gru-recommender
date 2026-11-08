@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00000DMB3",
+      "B00163ROMW",
+      "B018B9MJK753",
+      "B000ZK9QCS",
+      "B000BOJPRE",
+      "B0000AHRPM",
+      "B01LPZM7VI",
+      "B001EYUPHO",
+      "B0032C9V7G",
+      "B00267S2A0",
+      "B0044DE88O",
+      "B006JKAS6G",
+      "B01GOK34SO",
+      "B00BRQN2EM",
+      "B00DB2BI8M",
+      "B07PFT19MG",
+      "B01GRY9VIY",
+      "B00000DMB3",
+      "B001ELJPMS",
+      "B00KO4ULZ6"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00000DMB3",
+        "reason": "Classic Nintendo game"
+      },
+      {
+        "item_id": "B00163ROMW",
+        "reason": "Nintendo DS RPG"
+      },
+      {
+        "item_id": "B018B9MJK753",
+        "reason": "Versatile wireless adapter"
+      },
+      {
+        "item_id": "B000ZK9QCS",
+        "reason": "Popular PS3 title"
+      },
+      {
+        "item_id": "B000BOJPRE",
+        "reason": "Fun SpongeBob game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3800,
+    "completion_tokens": 309
+  }
+}

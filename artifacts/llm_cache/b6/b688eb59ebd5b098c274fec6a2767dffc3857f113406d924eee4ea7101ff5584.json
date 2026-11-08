@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B01M683C4O",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Similar genre, but different gameplay style."
+      },
+      {
+        "item_id": "B006RALA88",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "Legacy system, not aligned with interests."
+      },
+      {
+        "item_id": "B002JTX7KA",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Different platform, not a preferred genre."
+      },
+      {
+        "item_id": "B00DH1EFD2",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game, but relevant."
+      },
+      {
+        "item_id": "B00008ZLHK",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for PC, somewhat relevant."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 960,
+    "completion_tokens": 160
+  }
+}

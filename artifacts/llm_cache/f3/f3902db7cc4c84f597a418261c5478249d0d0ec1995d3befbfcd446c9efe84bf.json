@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B08MBG5254",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox and PlayStation games."
+      },
+      {
+        "item_id": "B00L59D9HG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox and PlayStation games."
+      },
+      {
+        "item_id": "B0C8WZJM66",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Gaming headset, not specific to user preferences."
+      },
+      {
+        "item_id": "B00I5LAGM8",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys PlayStation games, relevant title."
+      },
+      {
+        "item_id": "B00CES8EFY",
+        "label": "support",
+        "score": 9,
+        "rationale": "User enjoys Xbox 360 games, relevant title."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1366,
+    "completion_tokens": 168
+  }
+}

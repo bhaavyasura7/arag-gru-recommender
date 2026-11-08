@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07MLW2SWR",
+      "B14M796R1I",
+      "B002XVUT3M",
+      "B07982R9BZ",
+      "B003BLUA64",
+      "B00FA1CLEW",
+      "B00RZ7T8TK",
+      "B001EYUS7G",
+      "B001ELJP8W",
+      "B001EYUTE8",
+      "B00Z9TKRH8",
+      "B003EQ3LS0",
+      "B004HD55VK",
+      "B00M796R1I",
+      "B00N7K9KOO",
+      "B00FA1CLEW",
+      "B001NV7KOO",
+      "B00RZ7T8TK",
+      "B001EYUS7G",
+      "B000CFKXYQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07MLW2SWR",
+        "reason": "Action-adventure multiplayer experience"
+      },
+      {
+        "item_id": "B07982R9BZ",
+        "reason": "Thumb grips for Nintendo Switch"
+      },
+      {
+        "item_id": "B002XVUT3M",
+        "reason": "Classic controller for better gameplay"
+      },
+      {
+        "item_id": "B003BLUA64",
+        "reason": "Ergonomic design for comfort"
+      },
+      {
+        "item_id": "B00FA1CLEW",
+        "reason": "Compatible with popular Nintendo games"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3491,
+    "completion_tokens": 320
+  }
+}

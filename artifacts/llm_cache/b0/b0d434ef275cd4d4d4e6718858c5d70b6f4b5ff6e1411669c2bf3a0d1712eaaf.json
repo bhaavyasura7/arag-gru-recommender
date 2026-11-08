@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07D34NSL4",
+      "B07N94G3JT",
+      "B07DHY6YLM",
+      "B07DJ6D4ZY",
+      "B08J7Q2J83",
+      "B07HZ6N69N",
+      "B07CGNL58S",
+      "B07LDXZV5Q",
+      "B098N6XSK4",
+      "B15HHWB23K",
+      "B00KM671KY",
+      "B00AB56ETU",
+      "B08HQPP6TV",
+      "B07HHWB23K",
+      "B00003CWH8",
+      "B0BYJ774BM",
+      "B000I7GI8I",
+      "B08K7G4TJ1",
+      "B088NLT5WL",
+      "B13D34NSL4"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07D34NSL4",
+        "reason": "High compatibility with Xbox consoles"
+      },
+      {
+        "item_id": "B07N94G3JT",
+        "reason": "Enhanced features for better gameplay"
+      },
+      {
+        "item_id": "B07DHY6YLM",
+        "reason": "Popular choice among gamers"
+      },
+      {
+        "item_id": "B07DJ6D4ZY",
+        "reason": "Reliable wired controller option"
+      },
+      {
+        "item_id": "B08J7Q2J83",
+        "reason": "Upgraded features for Xbox One"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1801,
+    "completion_tokens": 329
+  }
+}

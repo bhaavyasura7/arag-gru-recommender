@@ -1,0 +1,31 @@
+{
+  "content": {
+    "ranking": [
+      "B08X6XSC98",
+      "B078RJ1KZ6",
+      "B00501IEHK",
+      "B017BB905Q",
+      "B000060NQ4",
+      "B0012IWRC8",
+      "B005U9KHJA",
+      "B003IQ15YI",
+      "B00001N2MT",
+      "B000COFGZI",
+      "B003N46URC",
+      "B0C4F9JGTJ",
+      "B001BH2126",
+      "B0BK2CJD9T",
+      "B0012IWRC8",
+      "B000JPG87A",
+      "B089Y219C8",
+      "B003KXCGUG",
+      "B005U9KHJA",
+      "B000060NQ4",
+      "B00501IEHK"
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3509,
+    "completion_tokens": 153
+  }
+}

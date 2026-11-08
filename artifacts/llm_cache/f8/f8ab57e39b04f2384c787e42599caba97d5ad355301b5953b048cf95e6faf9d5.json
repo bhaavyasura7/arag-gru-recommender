@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00IZXXF92",
+      "B0BXB1NKWF",
+      "B00Y4S5KPY",
+      "B01NAGTKX3",
+      "B00HM1XPN4",
+      "B00DDIRERI",
+      "B0050SYYTK",
+      "B004VNHVF4",
+      "B001ELJE88",
+      "B006QRMR4S",
+      "B07P2J6HSR",
+      "B00498XT1G",
+      "B0016Q00FC",
+      "B006VE40JQ",
+      "B002F87WGA",
+      "B0050SVOXE",
+      "B0B1GSSN3G",
+      "B004VNHVF4",
+      "B001EHD8YS",
+      "B003VZ8D8K"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00IZXXF92",
+        "reason": "Essential gaming keyboard for performance"
+      },
+      {
+        "item_id": "B0BXB1NKWF",
+        "reason": "Custom PS5 controller faceplate"
+      },
+      {
+        "item_id": "B00Y4S5KPY",
+        "reason": "Customizable RGB gaming mouse pad"
+      },
+      {
+        "item_id": "B01NAGTKX3",
+        "reason": "Popular PS4 game collection"
+      },
+      {
+        "item_id": "B00HM1XPN4",
+        "reason": "Next-gen Tomb Raider experience"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3754,
+    "completion_tokens": 329
+  }
+}

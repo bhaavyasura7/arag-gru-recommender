@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B073X3GHHX",
+      "B19ZL8YP8D",
+      "B12D8H09LQ",
+      "B001D8Q5MA",
+      "B0041SGD44",
+      "B00VULDPCI",
+      "B009SPZ11Q",
+      "B000A15K0Y",
+      "B0079V4GK8",
+      "B00BHRD4BM",
+      "B00KGW52DM",
+      "B01N7WNV5M",
+      "B096MMH5KG",
+      "B008CP6MA2",
+      "B07J6Y2T42",
+      "B00004U5VF",
+      "B0BB6YVNBK",
+      "B001C4VU5C",
+      "B00Z9TIM3Y",
+      "B076K27L1P",
+      "B13D8H09LQ"
+    ],
+    "reasons": [
+      {
+        "item_id": "B073X3GHHX",
+        "reason": "Nintendo Switch controller accessory"
+      },
+      {
+        "item_id": "B096MMH5KG",
+        "reason": "New Nintendo Switch game"
+      },
+      {
+        "item_id": "B12D8H09LQ",
+        "reason": "High-quality gaming keyboard"
+      },
+      {
+        "item_id": "B001D8Q5MA",
+        "reason": "Popular game, but not Switch"
+      },
+      {
+        "item_id": "B0041SGD44",
+        "reason": "High-end controller for PlayStation"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3682,
+    "completion_tokens": 343
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B001C58T6E",
+      "B0123",
+      "B0002ILS10",
+      "B00005BX7K",
+      "B0123",
+      "B00005MA8H",
+      "B000ICZ60O",
+      "B00005BX7K",
+      "B00005MA8H",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K",
+      "B00005BX7K"
+    ],
+    "reasons": [
+      {
+        "item_id": "B001C58T6E",
+        "reason": "Popular motion gaming accessory"
+      },
+      {
+        "item_id": "B0002ILS10",
+        "reason": "Compatible with racing games"
+      },
+      {
+        "item_id": "B00005BX7K",
+        "reason": "Enhances PS3 gaming experience"
+      },
+      {
+        "item_id": "B00005MA8H",
+        "reason": "Useful for portable gaming"
+      },
+      {
+        "item_id": "B000ICZ60O",
+        "reason": "Legacy accessory for PSP"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3503,
+    "completion_tokens": 303
+  }
+}

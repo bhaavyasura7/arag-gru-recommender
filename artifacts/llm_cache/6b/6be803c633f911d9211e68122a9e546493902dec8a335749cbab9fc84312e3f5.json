@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B10C9JDF5J6",
+      "B00KUZ1K8Q",
+      "B09SH69BQX",
+      "B07NRH6Q2L",
+      "B001NJ293I",
+      "B077GTT8VH",
+      "B009AYQRJA",
+      "B002GCJOC0",
+      "B00005NZ1Q",
+      "B00005QIR5",
+      "B08NJTHY3G",
+      "B000PE17ZI",
+      "B01GW3H7DQ",
+      "B12L536MN",
+      "B0BDS21NS4",
+      "B007UNC2GA",
+      "B00005NZ1Q",
+      "B00005QIR5",
+      "B0C1BNQ92Z",
+      "B00005NZ1Q"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KUZ1K8Q",
+        "reason": "Creative gameplay and customization"
+      },
+      {
+        "item_id": "B09SH69BQX",
+        "reason": "Family-friendly multiplayer experience"
+      },
+      {
+        "item_id": "B07NRH6Q2L",
+        "reason": "Engaging crafting and relationships"
+      },
+      {
+        "item_id": "B001NJ293I",
+        "reason": "Multiplayer battles available"
+      },
+      {
+        "item_id": "B077GTT8VH",
+        "reason": "Not violent, engaging story"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3844,
+    "completion_tokens": 319
+  }
+}

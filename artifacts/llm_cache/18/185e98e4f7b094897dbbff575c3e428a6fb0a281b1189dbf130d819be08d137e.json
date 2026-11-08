@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00004T4XN",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User prefers Xbox games, not PlayStation."
+      },
+      {
+        "item_id": "B0097662FK",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has PlayStation 3 game interest."
+      },
+      {
+        "item_id": "B00005NZ1M",
+        "label": "support",
+        "score": 5,
+        "rationale": "User has Xbox game interest."
+      },
+      {
+        "item_id": "B003V1WHOM",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PC game, not aligned with user history."
+      },
+      {
+        "item_id": "B000OZHDWO",
+        "label": "neutral",
+        "score": 2,
+        "rationale": "PC game, not aligned with user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1239,
+    "completion_tokens": 158
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00C3DF930",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers newer gaming systems."
+      },
+      {
+        "item_id": "B087NN6GRF",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Pokémon games on Switch."
+      },
+      {
+        "item_id": "B000035XPD",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not engage with legacy systems."
+      },
+      {
+        "item_id": "B09LQWFKFH",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has multiple Switch accessories."
+      },
+      {
+        "item_id": "B00GLB0ZFW",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User may appreciate skins but no interest shown."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1619,
+    "completion_tokens": 156
+  }
+}

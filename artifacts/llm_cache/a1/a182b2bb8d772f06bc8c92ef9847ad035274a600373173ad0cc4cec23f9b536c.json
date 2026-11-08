@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0CB7JB1V6",
+        "label": "support",
+        "score": 9,
+        "rationale": "Compatible with user's Switch Lite interest."
+      },
+      {
+        "item_id": "B0117Y1LBY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo, not PlayStation."
+      },
+      {
+        "item_id": "B07DLJL3N4",
+        "label": "support",
+        "score": 8,
+        "rationale": "Enhances Nintendo Switch gaming setup."
+      },
+      {
+        "item_id": "B0002XL3BA",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show interest in PS2."
+      },
+      {
+        "item_id": "B0BKS1LJVL",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Not related to user's current gaming."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1474,
+    "completion_tokens": 163
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B0B927VQFK",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Nintendo products."
+      },
+      {
+        "item_id": "B01LZPH7SG",
+        "label": "support",
+        "score": 8,
+        "rationale": "User likes Nintendo-themed items."
+      },
+      {
+        "item_id": "B01J4JZWMS",
+        "label": "support",
+        "score": 7,
+        "rationale": "User has amiibo interests."
+      },
+      {
+        "item_id": "B00005CFHJ",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has mixed interest in PlayStation."
+      },
+      {
+        "item_id": "B01I3A5DXW",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not show Sega interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1115,
+    "completion_tokens": 155
+  }
+}

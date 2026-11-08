@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B09BN2KXVC",
+      "B0045EPEAI",
+      "B077W2Z2SF",
+      "B12HCTJC91",
+      "B001EYUNW6",
+      "B001EYUPEC",
+      "B005EHQJ2C",
+      "B071JDWSBL",
+      "B004LVO4M4",
+      "B001G78TRW",
+      "B005CELMWY",
+      "B013P0HW7K",
+      "B000035Y6B",
+      "B001EYUNS0",
+      "B018P0HW7K",
+      "B0041RWIGW",
+      "B001EYUNW6",
+      "B002LLRLMQ",
+      "B07HCTJC91",
+      "B001EYUPEC"
+    ],
+    "reasons": [
+      {
+        "item_id": "B09BN2KXVC",
+        "reason": "Cute protective case for Switch Lite"
+      },
+      {
+        "item_id": "B0045EPEAI",
+        "reason": "Popular Nintendo DS game"
+      },
+      {
+        "item_id": "B077W2Z2SF",
+        "reason": "Well-known Xbox game"
+      },
+      {
+        "item_id": "B12HCTJC91",
+        "reason": "Smash Bros. themed hardware bundle"
+      },
+      {
+        "item_id": "B001EYUNW6",
+        "reason": "Classic Xbox RPG game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3884,
+    "completion_tokens": 316
+  }
+}

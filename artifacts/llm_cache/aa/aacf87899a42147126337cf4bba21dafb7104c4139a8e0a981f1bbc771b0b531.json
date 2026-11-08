@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B000096REZ",
+        "label": "support",
+        "score": 8,
+        "rationale": "Related to Zelda series, user enjoys Zelda."
+      },
+      {
+        "item_id": "B003E1QDQ2",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes racing games, similar genre."
+      },
+      {
+        "item_id": "B06XJMT1KC",
+        "label": "support",
+        "score": 10,
+        "rationale": "Directly related to user's favorite game."
+      },
+      {
+        "item_id": "B00161B7E0",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Accessory, not a game, less interest."
+      },
+      {
+        "item_id": "B01LXTOGDJ",
+        "label": "support",
+        "score": 9,
+        "rationale": "Another Zelda title, aligns with interests."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 764,
+    "completion_tokens": 159
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B07KQD87TZ",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers newer consoles, not PS2."
+      },
+      {
+        "item_id": "B00125ON14",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User does not have a Wii."
+      },
+      {
+        "item_id": "B07MKS66XM",
+        "label": "support",
+        "score": 10,
+        "rationale": "User already enjoys this game."
+      },
+      {
+        "item_id": "B000924JLA",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no PC gaming history."
+      },
+      {
+        "item_id": "B00EDHEWP0",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "User focuses on consoles, not accessories."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1663,
+    "completion_tokens": 154
+  }
+}

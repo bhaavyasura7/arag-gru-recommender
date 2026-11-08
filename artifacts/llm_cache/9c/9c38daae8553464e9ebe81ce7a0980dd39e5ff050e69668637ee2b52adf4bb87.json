@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B003VWC124",
+      "B00LYPLAMW",
+      "B00007MA56",
+      "B000040OEI",
+      "B09P5Y55RR",
+      "B0000631V8",
+      "B08TVPBH3Y",
+      "B0BV799V2Q",
+      "B00BMJYLTO",
+      "B00004TMYC",
+      "B00KQOW0XU",
+      "B00ER8HHFW",
+      "B00V4Y2CQQ",
+      "B0BFWPF3NZ",
+      "B094VFSHGK",
+      "B000OKJHEQ",
+      "B00BMJYLTO",
+      "B00LYPLAMW",
+      "B000W495PA",
+      "B00BMJYLTO"
+    ],
+    "reasons": [
+      {
+        "item_id": "B003VWC124",
+        "reason": "Engaging kingdom management gameplay"
+      },
+      {
+        "item_id": "B00LYPLAMW",
+        "reason": "Unique simulation with strategy elements"
+      },
+      {
+        "item_id": "B00007MA56",
+        "reason": "Intriguing story with strategy elements"
+      },
+      {
+        "item_id": "B000040OEI",
+        "reason": "Popular life simulation game"
+      },
+      {
+        "item_id": "B09P5Y55RR",
+        "reason": "Fun multiplayer with strategy elements"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3419,
+    "completion_tokens": 314
+  }
+}

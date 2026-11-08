@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B07624RBWB",
+      "B001EYUSJ4",
+      "B005OGL9WS",
+      "B001E8WQUY",
+      "B001EYUNV2",
+      "B19DMC3M42",
+      "B003JD5U2I",
+      "B003QWYX8E",
+      "B0069EB9CY",
+      "B00269QLI8",
+      "B094YHB1QK",
+      "B00ANZR6M2",
+      "B003O6JKLC",
+      "B007Q2C9N8W",
+      "B0B2QVQ57R",
+      "B0049P1ZYW",
+      "B00KU1GVGG",
+      "B003O6JKLC",
+      "B001E8WQUY",
+      "B003JD5U2I"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07624RBWB",
+        "reason": "High-quality gaming controller"
+      },
+      {
+        "item_id": "B001EYUSJ4",
+        "reason": "Popular action RPG game"
+      },
+      {
+        "item_id": "B005OGL9WS",
+        "reason": "Fun multiplayer experience"
+      },
+      {
+        "item_id": "B001E8WQUY",
+        "reason": "Engaging music game"
+      },
+      {
+        "item_id": "B001EYUNV2",
+        "reason": "Classic adventure game"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3765,
+    "completion_tokens": 318
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00H9ZT7GW",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not directly related to user interests."
+      },
+      {
+        "item_id": "B07XNYGW3N",
+        "label": "support",
+        "score": 7,
+        "rationale": "Useful for Nintendo Switch Lite games."
+      },
+      {
+        "item_id": "B08BCHJNWL",
+        "label": "support",
+        "score": 7,
+        "rationale": "Good for storing Nintendo Switch games."
+      },
+      {
+        "item_id": "B000069TCP",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Legacy system, not user’s focus."
+      },
+      {
+        "item_id": "B000067FX2",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Different console, not user’s interest."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1221,
+    "completion_tokens": 151
+  }
+}

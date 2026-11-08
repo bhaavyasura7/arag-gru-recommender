@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B004OL4980",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B00IAVDOS6",
+        "label": "support",
+        "score": 8,
+        "rationale": "Compatible with user's Xbox One console."
+      },
+      {
+        "item_id": "B00IEZ6H4G",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User prefers Xbox, not PlayStation."
+      },
+      {
+        "item_id": "B08XQLJRZG",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no Nintendo Switch history."
+      },
+      {
+        "item_id": "B075MYT126",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User has no Nintendo Switch history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1211,
+    "completion_tokens": 160
+  }
+}

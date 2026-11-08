@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B009LGO88E",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory for a different Nintendo system."
+      },
+      {
+        "item_id": "B07M91JJCB",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Generic phone clip, not game-specific."
+      },
+      {
+        "item_id": "B013P0HW7K",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "PC accessory, user prefers consoles."
+      },
+      {
+        "item_id": "B00A8V4QG0",
+        "label": "support",
+        "score": 7,
+        "rationale": "PS3 game aligns with user interests."
+      },
+      {
+        "item_id": "B001AI7CF2",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "Extension cables, not a game."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1303,
+    "completion_tokens": 158
+  }
+}

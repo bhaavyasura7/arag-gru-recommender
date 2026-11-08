@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B01N33LIXR",
+      "B0C8RZLDCK",
+      "B5D9EPI38",
+      "B0BN1HXJBB",
+      "B0D9EPI38",
+      "B5D9EPI38",
+      "B008MWIALE",
+      "B007YZCE94",
+      "B008OGWH3A",
+      "B004NS8UNO",
+      "B00HN9LS48",
+      "B00OAYHIRA",
+      "B00BFOEY4I",
+      "B01AVQT95Y",
+      "B07KXFB1P8",
+      "B09KWYMQ8K",
+      "B00NFXON1Q",
+      "B00D9EPI38",
+      "B00OAYHIRA",
+      "B00HN9LS48",
+      "B00BFOEY4I"
+    ],
+    "reasons": [
+      {
+        "item_id": "B01N33LIXR",
+        "reason": "Popular amiibo for Nintendo games"
+      },
+      {
+        "item_id": "B0C8RZLDCK",
+        "reason": "Wii U battery replacement needed"
+      },
+      {
+        "item_id": "B008MWIALE",
+        "reason": "Nintendo DS game for nostalgia"
+      },
+      {
+        "item_id": "B007YZCE94",
+        "reason": "LEGO game for Nintendo systems"
+      },
+      {
+        "item_id": "B008OGWH3A",
+        "reason": "Protective case for Nintendo 3DS"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3785,
+    "completion_tokens": 339
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B017EI5BK4",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Nintendo games and consoles."
+      },
+      {
+        "item_id": "B006PP404Q",
+        "label": "support",
+        "score": 7,
+        "rationale": "User owns PlayStation Vita, needs protection."
+      },
+      {
+        "item_id": "B00C0Z6KCA",
+        "label": "support",
+        "score": 6,
+        "rationale": "User has PlayStation interest, console matches."
+      },
+      {
+        "item_id": "B00009YEJV",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Wrestling genre not indicated in history."
+      },
+      {
+        "item_id": "B00006J3H0",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "PC game, user prefers consoles."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1202,
+    "completion_tokens": 157
+  }
+}

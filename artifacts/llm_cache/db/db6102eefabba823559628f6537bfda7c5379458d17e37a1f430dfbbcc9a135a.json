@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B0041G5EU0",
+      "B00002STPS",
+      "B15HPSFK9V",
+      "B003N18O5Q",
+      "B07D21456Y",
+      "B081SL51F6",
+      "B00009WAUF",
+      "B07HKX4ZV9",
+      "B07BDHQTT6",
+      "B003NSLGW2",
+      "B00000INR2",
+      "B071G61TRM",
+      "B00FR7U15U",
+      "B07VHHPJBV",
+      "B07HPSFK9V",
+      "B06XPX5XLY",
+      "B0050SWNZW",
+      "B07BDHQTT6",
+      "B07HKX4ZV9",
+      "B003N18O5Q",
+      "B00009WAUF"
+    ],
+    "reasons": [
+      {
+        "item_id": "B0041G5EU0",
+        "reason": "Classic Nintendo adventure game"
+      },
+      {
+        "item_id": "B00002STPS",
+        "reason": "Nostalgic platforming experience"
+      },
+      {
+        "item_id": "B15HPSFK9V",
+        "reason": "Family-friendly carnival fun"
+      },
+      {
+        "item_id": "B003N18O5Q",
+        "reason": "Charming puzzle-platformer"
+      },
+      {
+        "item_id": "B07D21456Y",
+        "reason": "Engaging Disney-themed adventure"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 4125,
+    "completion_tokens": 331
+  }
+}

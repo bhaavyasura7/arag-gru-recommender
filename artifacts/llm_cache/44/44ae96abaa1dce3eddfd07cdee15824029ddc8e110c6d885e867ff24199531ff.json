@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B002FY4AOG",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with Nintendo systems."
+      },
+      {
+        "item_id": "B0088TN7NW",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Not related to user's consoles."
+      },
+      {
+        "item_id": "B0C5K2TWD8",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "General gaming accessory, not specific."
+      },
+      {
+        "item_id": "B07YBXFDYN",
+        "label": "contradict",
+        "score": 3,
+        "rationale": "PlayStation game, user prefers Nintendo."
+      },
+      {
+        "item_id": "B00Z9TMH1W",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "Xbox game, user prefers Nintendo."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1213,
+    "completion_tokens": 159
+  }
+}

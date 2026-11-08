@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00DB2BI8M",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Not related to user's gaming preferences."
+      },
+      {
+        "item_id": "B0BZ3LNGXC",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "VR accessory, user prefers traditional consoles."
+      },
+      {
+        "item_id": "B0B9MJK753",
+        "label": "support",
+        "score": 7,
+        "rationale": "Compatible with user's gaming systems."
+      },
+      {
+        "item_id": "B07PFT19MG",
+        "label": "support",
+        "score": 8,
+        "rationale": "Sega Genesis aligns with user's interests."
+      },
+      {
+        "item_id": "B01GRY9VIY",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has no PS3 game history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1395,
+    "completion_tokens": 158
+  }
+}

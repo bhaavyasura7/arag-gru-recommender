@@ -1,0 +1,53 @@
+{
+  "content": {
+    "ranking": [
+      "B07MVKQNXF",
+      "B14HNXGKT6",
+      "B000FRV2UK",
+      "B006XDCJ4A",
+      "B0053B66KE",
+      "B000AXRIU2",
+      "B003QP30PS",
+      "B00000K2R8",
+      "B000C1TTF86",
+      "B019WRM1IA",
+      "B00002R28C",
+      "B000FRV2UK",
+      "B00002R28C",
+      "B003DZ165W",
+      "B0095C0I4W",
+      "B00000K2R8",
+      "B0050SXVK8",
+      "B00C1TTF86",
+      "B001EYUOA2",
+      "B08L74DB2M",
+      "B00MOR1A7Y"
+    ],
+    "reasons": [
+      {
+        "item_id": "B07MVKQNXF",
+        "reason": "Compatible Nintendo Switch headset"
+      },
+      {
+        "item_id": "B14HNXGKT6",
+        "reason": "Wireless controller for Switch"
+      },
+      {
+        "item_id": "B000FRV2UK",
+        "reason": "Zelda game for Nintendo DS"
+      },
+      {
+        "item_id": "B006XDCJ4A",
+        "reason": "Popular Pokémon game"
+      },
+      {
+        "item_id": "B0053B66KE",
+        "reason": "Classic Nintendo title"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 3661,
+    "completion_tokens": 329
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": {
+    "long_term_interests": [
+      "puzzle games",
+      "strategy games",
+      "narrative-driven experiences",
+      "PC gaming",
+      "classic video games"
+    ],
+    "current_intent": "looking for engaging puzzle or strategy games",
+    "avoid": [
+      "action games",
+      "multiplayer games",
+      "low-quality graphics"
+    ],
+    "summary": "User enjoys classic PC puzzle and strategy games, seeking new titles that offer engaging narratives and challenging gameplay."
+  },
+  "usage": {
+    "prompt_tokens": 273,
+    "completion_tokens": 76
+  }
+}

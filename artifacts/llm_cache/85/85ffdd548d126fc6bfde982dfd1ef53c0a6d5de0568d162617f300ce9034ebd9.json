@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B006QRMR4S",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User prefers classic consoles, not 3DS."
+      },
+      {
+        "item_id": "B00005NZ1I",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "Party game, not user’s typical genre."
+      },
+      {
+        "item_id": "B081N41H9X",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Accessory, not a game or console."
+      },
+      {
+        "item_id": "B083RY5NZH",
+        "label": "support",
+        "score": 7,
+        "rationale": "Supports legacy PlayStation systems."
+      },
+      {
+        "item_id": "B0BRS87T11",
+        "label": "neutral",
+        "score": 3,
+        "rationale": "VR gaming not in user history."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 2520,
+    "completion_tokens": 157
+  }
+}
