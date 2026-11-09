@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00KOOUVN8",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "User enjoys fighting games occasionally."
+      },
+      {
+        "item_id": "B0069VWDCM",
+        "label": "neutral",
+        "score": 4,
+        "rationale": "User has no specific interest in fight sticks."
+      },
+      {
+        "item_id": "B00TV0XUUC",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User dislikes Diablo III series."
+      },
+      {
+        "item_id": "B003QLET5C",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoys Metal Gear series."
+      },
+      {
+        "item_id": "B00753BXYC",
+        "label": "support",
+        "score": 8,
+        "rationale": "User highly rates Metal Gear games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1812,
+    "completion_tokens": 152
+  }
+}

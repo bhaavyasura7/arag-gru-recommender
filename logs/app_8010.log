@@ -21,3 +21,11 @@ INFO:     127.0.0.1:59035 - "GET /users/AGSSKCPJ6LCDU52LST6G7B3G26CQ/history?lim
 INFO:     127.0.0.1:59034 - "POST /sessions HTTP/1.1" 200 OK
 INFO:     127.0.0.1:59034 - "GET /feed?user_id=AGSSKCPJ6LCDU52LST6G7B3G26CQ&session_id=2ad9588facbd46aea6ba178209d6cb65&page=0&page_size=12 HTTP/1.1" 200 OK
 INFO:     127.0.0.1:59034 - "GET /runs/2229aae059484a26bbbe302518bc5f64 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51581 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51582 - "GET /api/health HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [32594]
+/Users/likhith/.local/share/uv/python/cpython-3.11.16-macos-aarch64-none/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

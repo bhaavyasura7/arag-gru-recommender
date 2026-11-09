@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00KLXU8TO",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User dislikes Diablo series games."
+      },
+      {
+        "item_id": "B00KTZELMY",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User rated Metal Gear Solid 0."
+      },
+      {
+        "item_id": "B00KLXU8WG",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User dislikes Diablo series games."
+      },
+      {
+        "item_id": "B000IQXJ9U",
+        "label": "contradict",
+        "score": 1,
+        "rationale": "User rated Metal Gear Solid 0."
+      },
+      {
+        "item_id": "B000ORGU3A",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Ace Combat series games."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1896,
+    "completion_tokens": 161
+  }
+}

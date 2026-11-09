@@ -1,8 +1,4 @@
-"""Download the Amazon Reviews 2023 benchmark + metadata files for the category.
 
-Saves raw files under ``data/raw/`` and records them (with SHA-256) in the
-manifest. Skips files already present so re-running is cheap.
-"""
 from __future__ import annotations
 
 import hashlib

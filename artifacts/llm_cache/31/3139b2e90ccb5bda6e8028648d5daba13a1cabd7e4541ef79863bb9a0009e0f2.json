@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00005V447",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Ace Combat series."
+      },
+      {
+        "item_id": "B001IVPVVS",
+        "label": "support",
+        "score": 9,
+        "rationale": "User highly rated Metal Gear series."
+      },
+      {
+        "item_id": "B00CM1KX7K",
+        "label": "support",
+        "score": 7,
+        "rationale": "User likes Metal Gear games."
+      },
+      {
+        "item_id": "B0849WVCY7",
+        "label": "support",
+        "score": 8,
+        "rationale": "User enjoys Ace Combat series."
+      },
+      {
+        "item_id": "B07DX32MSP",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User has low interest in Diablo series."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1933,
+    "completion_tokens": 151
+  }
+}
