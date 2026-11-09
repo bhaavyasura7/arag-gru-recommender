@@ -1,5 +1,7 @@
 # Root-anchored ignores (a bare "data/" would swallow any package named data/)
-/data/
+# data: track the review CSVs, cleaned parquet tables and manifest; the 437 MB product
+# file exceeds GitHub's 100 MB limit (re-download it with `make data`)
+/data/raw/meta_Video_Games.jsonl
 # artifacts: ignore everything except the small files needed to verify and replay the run at $0
 /artifacts/*
 !/artifacts/llm_cache/

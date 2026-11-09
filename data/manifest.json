@@ -1,0 +1,37 @@
+{
+  "dataset_id": "McAuley-Lab/Amazon-Reviews-2023",
+  "category": "Video_Games",
+  "files": {
+    "Video_Games.train.csv": {
+      "remote": "benchmark/5core/last_out/Video_Games.train.csv",
+      "sha256": "abe955af35f547bf3f1457243ed9aa2747b89f8212b6851600dd89f29e2481c2",
+      "size_bytes": 36251811
+    },
+    "Video_Games.valid.csv": {
+      "remote": "benchmark/5core/last_out/Video_Games.valid.csv",
+      "sha256": "a4d270bb97f910ed993a6e0bd58173d4c977e0ed229278e20eb1cd7c68ce1268",
+      "size_bytes": 5496128
+    },
+    "Video_Games.test.csv": {
+      "remote": "benchmark/5core/last_out/Video_Games.test.csv",
+      "sha256": "88a7653b41d20e41c3ccb2424d88b6982c5e2a666dd94c4c391b9cce91e96af3",
+      "size_bytes": 5496186
+    },
+    "meta_Video_Games.jsonl": {
+      "remote": "raw/meta_categories/meta_Video_Games.jsonl",
+      "sha256": "3ad94dfaa8dfed23c5f420aa9ddec415d00f2b8ec9f2d796f487b4b2c4d256de",
+      "size_bytes": 437375785
+    }
+  },
+  "download_date": "2026-10-10T16:22:08.903095+00:00",
+  "rows": {
+    "interactions": 814586,
+    "items": 137269,
+    "items_with_text": 137260,
+    "users": 94762,
+    "interacted_items_without_metadata": 0,
+    "interactions_train": 625062,
+    "interactions_valid": 94762,
+    "interactions_test": 94762
+  }
+}
