@@ -1,0 +1,52 @@
+{
+  "content": {
+    "ranking": [
+      "B00KLXU8TO",
+      "B001IVPVVS",
+      "B00065QTT0",
+      "B000IQXJ9U",
+      "B00KTZELMY",
+      "B00CM1KX7K",
+      "B00005V447",
+      "B000ORGU3A",
+      "B000FQ8Z8G",
+      "B01A13062W",
+      "B01FCLK7CC",
+      "B00KAPFOJ2",
+      "B00644IK30",
+      "B0849WVCY7",
+      "B00KLXU8WG",
+      "B0069VWDCM",
+      "B00TV0XUUC",
+      "B003QLET5C",
+      "B00753BXYC",
+      "B000IQXJ9U"
+    ],
+    "reasons": [
+      {
+        "item_id": "B00KLXU8TO",
+        "reason": "Includes classic Metal Gear titles"
+      },
+      {
+        "item_id": "B001IVPVVS",
+        "reason": "Highly rated Metal Gear Solid 4"
+      },
+      {
+        "item_id": "B00065QTT0",
+        "reason": "Contains multiple classic games"
+      },
+      {
+        "item_id": "B000IQXJ9U",
+        "reason": "Limited edition Metal Gear Solid 3"
+      },
+      {
+        "item_id": "B00KTZELMY",
+        "reason": "Comprehensive Metal Gear collection"
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1836,
+    "completion_tokens": 324
+  }
+}

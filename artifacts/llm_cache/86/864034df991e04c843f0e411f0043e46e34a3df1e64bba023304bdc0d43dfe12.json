@@ -1,0 +1,40 @@
+{
+  "content": {
+    "results": [
+      {
+        "item_id": "B00KAPFOJ2",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User dislikes Diablo III series."
+      },
+      {
+        "item_id": "B01A13062W",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User dislikes Diablo III series."
+      },
+      {
+        "item_id": "B00644IK30",
+        "label": "neutral",
+        "score": 5,
+        "rationale": "Includes games user rated neutrally."
+      },
+      {
+        "item_id": "B00065QTT0",
+        "label": "support",
+        "score": 7,
+        "rationale": "User enjoyed Ace Combat series."
+      },
+      {
+        "item_id": "B01FCLK7CC",
+        "label": "contradict",
+        "score": 2,
+        "rationale": "User dislikes Diablo III series."
+      }
+    ]
+  },
+  "usage": {
+    "prompt_tokens": 1999,
+    "completion_tokens": 152
+  }
+}
